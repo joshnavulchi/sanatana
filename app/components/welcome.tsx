@@ -96,28 +96,28 @@ export default function WelcomePage() {
               </h2>
 
               {/* Sanskrit blessing */}
-              <p className="text-lg md:text-xl italic text-amber-700 tracking-wide">
+              <p className="text-lg sm:text-md italic text-amber-700 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 
               {/* Divider */}
               <div className="flex items-center justify-center gap-2 py-4">
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce" style={{ animationDelay: '0ms' }} />
-                <div className="w-2 h-2 rounded-full bg-orange-400 animate-bounce" style={{ animationDelay: '150ms' }} />
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce" style={{ animationDelay: '300ms' }} />
+                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-0" />
+                <div className="w-2 h-2 rounded-full bg-orange-400 animate-bounce anim-delay-150" />
+                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-300" />
               </div>
 
               {/* Main message */}
               <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-md leading-relaxed text-gray-700">
                   We are deeply honored and blessed by your presence here.
                 </p>
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-md leading-relaxed text-gray-700">
                   Thank you for taking this sacred step towards understanding and embracing the
                   <span className="font-semibold text-amber-700"> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-md leading-relaxed text-gray-700">
                   May your journey through these ancient teachings bring you
                   <span className="font-semibold text-amber-600"> clarity, devotion, and divine grace</span>.
                 </p>
@@ -156,7 +156,6 @@ export default function WelcomePage() {
                 <button
                   onClick={handleClose}
                   className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold border border-amber-600 shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
-                  style={{ WebkitBackdropFilter: 'blur(12px)', backdropFilter: 'blur(12px)' }}
                 >
                   <span className="relative z-10 tracking-widest text-base select-none">Close</span>
                 </button>

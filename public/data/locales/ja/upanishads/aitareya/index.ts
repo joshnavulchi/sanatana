@@ -1,25 +1,18 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\upanishads\aitareya'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
-import _d0 from './chapter1/index';
-import _d1 from './chapter2/index';
-import _d2 from './upanishads/index';
+// Auto-generated index (JSON-only)
+// Folder: 'ja\upanishads\aitareya'
+// DO NOT EDIT MANUALLY
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
+import _j0 from './aitareya.json';
+import _j1 from './chapter1.json';
+import _j2 from './chapter2.json';
+import _j3 from './chapter3.json';
+import _j4 from './chapter4.json';
+import _j5 from './chapter5.json';
+import _j6 from './structure.json';
 
-const base: any = {};
-const merged = ([_d0, _d1, _d2] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6);
+
 export default merged;

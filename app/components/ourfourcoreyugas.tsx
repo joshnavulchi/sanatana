@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseList } from '@lib/parseList';
+import { parseList } from '@lib/parse';
 import Link from 'next/link';
 
 /* ── Rotating temple tones for each yuga card ── */
@@ -59,9 +59,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-        }`}
-      style={{ transitionDelay: `${index * 160}ms` }}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
       {/* Top accent bar */}
       <div className={`h-1.5 w-full bg-linear-to-r ${tone.accent}`} />
@@ -126,12 +124,12 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative overflow-hidden bg-white/50 backdrop-blur-sm py-6 md:py-20">
+    <section className="relative bg-white/50 backdrop-blur-sm py-6 md:py-20 overflow-hidden">
       {/* Ornamental background shapes */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl animate-ping" />
-        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/15 blur-3xl animate-ping" />
-        <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/15 blur-3xl animate-ping" />
+        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/10 blur-2xl animate-ping" />
+        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/10 blur-2xl animate-ping" />
+        <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/10 blur-2xl animate-ping" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
@@ -151,7 +149,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-4 text-base md:text-md leading-8 text-gray-700">
+          <p className="mt-4 text-sm leading-8 text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -195,7 +193,7 @@ export default function OurFourCoreYugas() {
           {/* Divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
-            <span className="text-base md:text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
+            <span className="text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦
             </span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
@@ -203,8 +201,8 @@ export default function OurFourCoreYugas() {
 
           {/* Highlight note */}
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-base md:text-md font-semibold leading-7 text-transparent">
+            <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_8px_20px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-7 text-transparent">
                 {earthAgeComparisonNote}
               </p>
             </div>

@@ -43,14 +43,14 @@ export default async function Home() {
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <StructuredData metaKey="home" />
-      <main>
-        <WelcomePage />
-        <HeroSection />
-        <UnderstandingOfSanatana />
-        <GitSupport />
-        <OurFourCoreYugas />
-        {/* Krishna flute background audio player in footer, loads after 1 minute */}
-        {/* <AudioPlayer
+
+      <WelcomePage />
+      <HeroSection />
+      <UnderstandingOfSanatana />
+      <GitSupport />
+      <OurFourCoreYugas />
+      {/* Krishna flute background audio player in footer, loads after 1 minute */}
+      {/* <AudioPlayer
           tracks={{
             id: "solo",
             title: "Single Track",
@@ -64,7 +64,7 @@ export default async function Home() {
           loop={false}
           showPlaylist={false}
         /> */}
-      </main>
+
     </>
   );
 }       

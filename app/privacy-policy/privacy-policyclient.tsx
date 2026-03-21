@@ -1,10 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
-
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from '@lib/parseContent';
+import { parseSections, parseMaybeObject } from '@lib/parse';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 
@@ -112,27 +111,27 @@ export default function PrivacyPolicy() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-4 md:pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🔒</span>
-            <strong className="text-xl md:text-lg ">{privacy.lastupdated}</strong>
+            <strong className="text-xl sm:text-lg ">{privacy.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="privacy-content" />
         </div>
 
         {/* Intro */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h2 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-3xl">🛡️</span>
             {privacy.intro.title}
           </h2>
-          <p className=" leading-relaxed">{privacy.intro.text}</p>
+          <p className="leading-relaxed">{privacy.intro.text}</p>
         </section>
 
         {/* Information We Collect */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h3 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📊</span>
-            <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
+            <span>{privacy.informationwecollect.title} {privacy.informationwecollect.lead}</span>
           </h3>
-          <div className="space-y-4  leading-relaxed">
+          <div className="space-y-4 leading-relaxed">
             <p><strong className="text-amber-800">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
             <p><strong className="text-amber-800">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
             <p><strong className="text-amber-800">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
@@ -142,11 +141,11 @@ export default function PrivacyPolicy() {
 
         {/* How We Use */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h4 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
-          <p className=" leading-relaxed mb-4">{privacy.howweuse?.lead}</p>
+          <p className="leading-relaxed mb-4">{privacy.howweuse?.lead}</p>
           <ul className="space-y-3">
             {(privacy.howweuse?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 ">
@@ -159,38 +158,38 @@ export default function PrivacyPolicy() {
 
         {/* Cookies & Local Storage */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h5 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
-          <p className=" leading-relaxed">{privacy.cookieslocalstorage.text}</p>
+          <p className="leading-relaxed">{privacy.cookieslocalstorage.text}</p>
         </section>
 
         {/* Third Party */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h6 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h6 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
-          <p className=" leading-relaxed">{privacy.thirdparty.text}</p>
+          <p className="leading-relaxed">{privacy.thirdparty.text}</p>
         </section>
 
         {/* Security */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
-          <p className=" leading-relaxed">{privacy.security.text}</p>
+          <p className="leading-relaxed">{privacy.security.text}</p>
         </section>
 
         {/* Rights */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
-          <p className=" leading-relaxed mb-4">{privacy.rights.lead}</p>
+          <p className="leading-relaxed mb-4">{privacy.rights.lead}</p>
           <ul className="space-y-3 mb-4">
             {(privacy.rights?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 ">
@@ -199,39 +198,39 @@ export default function PrivacyPolicy() {
               </li>
             ))}
           </ul>
-          <p className=" leading-relaxed">{privacy.rights.contacttext}</p>
+          <p className="leading-relaxed">{privacy.rights.contacttext}</p>
         </section>
 
         {/* Children */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
-          <p className=" leading-relaxed">{privacy.children.text}</p>
+          <p className="leading-relaxed">{privacy.children.text}</p>
         </section>
 
         {/* Changes */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
-          <p className=" leading-relaxed">{privacy.changes.text}</p>
+          <p className="leading-relaxed">{privacy.changes.text}</p>
         </section>
 
         {/* Contact */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>
-          <p className=" leading-relaxed mb-4">{privacy.contact.lead}</p>
+          <p className="leading-relaxed mb-4">{privacy.contact.lead}</p>
           <div className="space-y-2 ">
             <p><strong className="text-amber-800">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
             <p><strong className="text-amber-800">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
           </div>
-          <p className=" leading-relaxed mt-6 pt-4 border-t border-amber-300">{privacy.contact.closing}</p>
+          <p className="leading-relaxed mt-6 pt-4 border-t border-amber-300">{privacy.contact.closing}</p>
         </section>
       </div>
     </PageLayout>

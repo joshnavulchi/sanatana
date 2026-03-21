@@ -2,6 +2,65 @@
 import { t, getLocaleNamespaceObjectAsync, DEFAULT_LOCALE, detectLocale } from './i18n';
 import { secrets } from './secrets';
 
+// Inlined generateSEO from lib/seo.ts to avoid cross-module dependency
+type SEOOptions = {
+  title?: string;
+  description?: string;
+  path?: string;
+  image?: string;
+  keywords?: string[];
+};
+
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, "");
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Sanatana";
+
+function absoluteUrl(path = "/") {
+  if (!path) return SITE_URL + "/";
+  return SITE_URL + (path.startsWith("/") ? path : `/${path}`);
+}
+
+function generateSEO(opts: SEOOptions) {
+  const title = opts.title ? `${opts.title} | ${SITE_NAME}` : SITE_NAME;
+  const description = opts.description || "";
+  const url = absoluteUrl(opts.path || "/");
+
+  const images = opts.image ? [{ url: opts.image }] : undefined;
+
+  const metadata: any = {
+    title,
+    description,
+    metadataBase: new URL(SITE_URL),
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: SITE_NAME,
+      images,
+      type: "website",
+    },
+    twitter: {
+      title,
+      description,
+      images: images ? images.map((i) => String(i.url)) : undefined,
+      card: "summary_large_image",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    alternates: {
+      canonical: url,
+    },
+  };
+
+  if (opts.keywords && opts.keywords.length) {
+    // attach as `other.keywords`
+    metadata.other = { keywords: opts.keywords.join(', ') };
+  }
+
+  return metadata;
+}
+
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 
   function isPlainObject(v: unknown): v is Record<string, unknown> {
@@ -202,31 +261,31 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
 
     const robots = parseRobots((meta as any).robots);
 
-    return {
-      // Debug: log computed metadata during dev to help diagnose missing head tags
-      // ...(process.env.NODE_ENV !== 'production' ? (console.log && console.log(`[meta:${metaKey}]`, { title, description, canonical })) : {}),
-      title,
-      description,
+    // Build a path relative to the site base for use with generateSEO
+    // reuse `baseUrl` defined earlier in this function
+    let pathForSeo: string | undefined = undefined;
+    try {
+      const u = new URL(ogUrl || canonical || baseUrl);
+      if (u.origin === baseUrl) pathForSeo = u.pathname + (u.search || '');
+      else pathForSeo = u.toString();
+    } catch (e) {
+      pathForSeo = String(canonical || '/');
+    }
+
+    // prefer plain string image if available
+    let imageForSeo: string | undefined;
+    if (Array.isArray(ogImages) && ogImages.length > 0) {
+      const first = ogImages[0] as any;
+      imageForSeo = typeof first === 'string' ? first : first?.url;
+    }
+
+    return generateSEO({
+      title: title || undefined,
+      description: description || undefined,
+      path: pathForSeo,
+      image: imageForSeo,
       keywords: (meta as any).keywords || undefined,
-      alternates: canonical ? { canonical } : undefined,
-      openGraph: {
-        title: ogTitle,
-        description: ogDescription,
-        url: ogUrl,
-        siteName: ogSiteName,
-        type: ogType,
-        images: ogImages,
-      },
-      robots: {
-        index: robots.index,
-        follow: robots.follow,
-        nocache: false,
-        googleBot: {
-          index: robots.index,
-          follow: robots.follow,
-        },
-      },
-    };
+    });
   };
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */ 

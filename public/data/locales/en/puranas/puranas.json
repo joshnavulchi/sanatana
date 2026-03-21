@@ -1,61 +1,153 @@
 {
   "puranas": {
-    "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-    "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-    "meta": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/puranas",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "keywords": [
-        "Puranas",
-        "Sanatana Dharma",
-        "Hindu scriptures",
-        "cosmology",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas",
-      "ogImage": "https://sanatanadharmam.in/og/puranas.png"
-    },
-    "openGraph": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Puranas are a large body of Sanskrit literature that preserve sacred history, cosmology, devotional traditions, and ethical guidance. They present philosophy through narrative—stories of sages and kings, teachings on worship and duty, and reflections on time cycles and creation.\n\nTraditionally, the Puranas are grouped into the Mahapuranas and Upapuranas, with many texts closely associated with particular deities and devotional lineages. As living tradition, the Puranas have shaped temple culture, festivals, pilgrimage, and household devotion across India for centuries.",
-    "scripture_text": [
+    "title": "Puranas Structure",
+    "total_mahapuranas": 18,
+    "total_verse_pages": 2000,
+    "items": [
       {
-        "section": "What a Purana typically contains",
-        "content": "Many Puranas are described as containing the classic five themes (panchalakshana): creation (sarga), recreation after dissolution (pratisarga), genealogies (vamsha), cosmic epochs and Manu cycles (manvantara), and dynastic histories (vamshanucharita). In practice, each Purana also includes hymns, dialogues, ethical teachings, pilgrimage guides, and sections on ritual and devotion."
+        "slug": "brahma",
+        "title": "Brahma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
       },
       {
-        "section": "How to read Puranic narratives",
-        "content": "Puranic stories are often multi-layered: they can be read as devotion (bhakti), as moral instruction (dharma), and as symbolic teaching about the mind, time, and the relationship between the individual self and the divine. This site treats them as a devotional-philosophical tradition, not merely as folklore."
+        "slug": "padma",
+        "title": "Padma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/padma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "vishnu",
+        "title": "Vishnu Purana – Purana Overview and Key Themes",
+        "path": "/puranas/vishnu",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "shiva",
+        "title": "Shiva Purana – Purana Overview and Key Themes",
+        "path": "/puranas/shiva",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "bhagavata",
+        "title": "Bhagavata Purana – Purana Overview and Key Themes",
+        "path": "/puranas/bhagavata",
+        "content_model": "skanda/chapter/verse",
+        "total_chapters": 60,
+        "total_verses": 300
+      },
+      {
+        "slug": "narada",
+        "title": "Narada Purana – Purana Overview and Key Themes",
+        "path": "/puranas/narada",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "markandeya",
+        "title": "Markandeya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/markandeya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "agni",
+        "title": "Agni Purana – Purana Overview and Key Themes",
+        "path": "/puranas/agni",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "bhavishya",
+        "title": "Bhavishya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/bhavishya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "brahmavaivarta",
+        "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahmavaivarta",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "linga",
+        "title": "Linga Purana – Purana Overview and Key Themes",
+        "path": "/puranas/linga",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "varaha",
+        "title": "Varaha Purana – Purana Overview and Key Themes",
+        "path": "/puranas/varaha",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "skanda",
+        "title": "Skanda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/skanda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "vamana",
+        "title": "Vamana Purana – Purana Overview and Key Themes",
+        "path": "/puranas/vamana",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "kurma",
+        "title": "Kurma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/kurma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "matsya",
+        "title": "Matsya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/matsya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "garuda",
+        "title": "Garuda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/garuda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "brahmanda",
+        "title": "Brahmanda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahmanda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
       }
-    ],
-    "philosophical_explanation": "The Puranas transmit philosophical ideas in an accessible form. Instead of presenting doctrine only through abstraction, they use characters, vows, crises, and transformations to show how dharma is applied under real-world pressure. Their cosmology teaches cyclical time and impermanence, while devotional sections cultivate surrender, gratitude, and inner steadiness.\n\nFor many readers, the Puranas serve as a bridge: from story and worship to deeper inquiry into the Upanishadic vision of the Self, the nature of reality, and liberation (moksha)."
+    ]
   }
 }

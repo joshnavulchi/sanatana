@@ -7,8 +7,7 @@ import { DEFAULT_LOCALE } from '@lib/i18n';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
-import localesList from '@lib/localesList.json';
-import localeMeta from '@lib/localeMeta.json';
+import locales from '@lib/locales.json';
 
 export default function LanguageDropdown() {
   const locale = useLocaleSection('sharable_strings');
@@ -121,7 +120,7 @@ export default function LanguageDropdown() {
     }
   };
 
-  const allLanguages = Array.isArray(localesList) ? localesList : [];
+  const allLanguages = Array.isArray(locales) ? locales : [];
   const currentLanguage = allLanguages.find((lang) => lang.code === currentLang);
   const filteredLanguages = useMemo(() => {
     const q = (searchTerm || '').toLowerCase();
@@ -174,7 +173,7 @@ export default function LanguageDropdown() {
 
       {/* Popup Modal */}
       {open && (
-        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-3 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           {/* Backdrop with blur */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
@@ -184,7 +183,7 @@ export default function LanguageDropdown() {
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
 
             {/* Header */}
-            <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 border-b-2 border-amber-200">
+            <div role="group" className="relative flex items-center justify-between p-4 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 border-b-2 border-amber-200">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -192,8 +191,8 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-base md:text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
-                  <p className="text-base md:text-md text-gray-600">{filteredLanguages.length} languages available</p>
+                  <h2 id="language-dialog-title" className="text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-md text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button
@@ -208,7 +207,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Search Input */}
-            <div className="p-6 bg-gradient-to-br from-white to-amber-50/30 ">
+            <div className="p-4 bg-gradient-to-br from-white to-amber-50/30 ">
               <div className="relative group">
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none">
                   <svg className="w-5 h-5 text-amber-800 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -237,7 +236,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full px-12 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full px-8 py-2 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
@@ -258,9 +257,8 @@ export default function LanguageDropdown() {
             <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
-                  const meta = (localeMeta as any)[lang.code] || {};
-                  const flag = meta.flag || '';
-                  const region = meta.region || lang.name;
+                  const flag = (lang as any).flag || '';
+                  const region = (lang as any).region || lang.name;
                   const isSelected = currentLang === lang.code;
                   const isHighlighted = highlighted === idx;
                   return (
@@ -338,7 +336,7 @@ export default function LanguageDropdown() {
 
               {/* No results message */}
               {filteredLanguages.length === 0 && (
-                <div className="py-12 text-center">
+                <div className="py-8 text-center">
                   <div className="w-20 h-20 bg-amber-100  rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-10 h-10 text-amber-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

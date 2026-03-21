@@ -113,12 +113,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-colors duration-150 hover:bg-amber-50"
+        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-all duration-200 text-gray-600 hover:text-primary-600"
       >
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
+        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary-700/10 text-xs text-primary-700 transition-colors duration-150 group-hover/item:bg-primary-700 group-hover/item:text-white">
           ◈
         </span>
-        <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700 group-hover/item:text-amber-700'}`}>
+        <span className={`text-sm font-semibold transition-all duration-200 ${isActive(item.href) ? 'text-primary-600' : 'text-gray-700 group-hover/item:text-primary-600'}`}>
           {item.label}
         </span>
       </Link>
@@ -130,7 +130,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     <div>
       <div className="flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 hover:bg-amber-50 rounded-md">
         <Link href={item.href} className="flex items-center gap-3 flex-1">
-          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-[#9a3412] text-[#fff4df]' : 'bg-[#9a3412]/10 text-[#9a3412]'}`}>
+          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-primary-700 text-white' : 'bg-primary-700/10 text-primary-700'}`}>
             ◈
           </span>
           <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700'}`}>
@@ -140,12 +140,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onToggleSub(item.href); }}
-          className="p-1 rounded-md hover:bg-[#fde7c7] transition-colors cursor-pointer"
+          className="p-1 rounded-md hover:bg-amber-100 transition-colors cursor-pointer"
           aria-expanded={isSubOpen}
           aria-label={`Toggle ${item.label} sub-items`}
         >
           <svg
-            className={`h-3 w-3 text-[#b45309] transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
+            className={`h-3 w-3 text-primary-700 transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -201,7 +201,7 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-gray-800 font-medium cursor-pointer transition-colors duration-200 hover:bg-amber-50 hover:text-amber-700">
+      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-sm text-gray-900 cursor-pointer transition-all duration-200 hover:bg-white/50 hover:text-primary-600">
         <span className="text-base">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -213,7 +213,7 @@ function DesktopDropdown({ section, isActive }: {
       <div className="absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right">
 
         <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
-          <div className="h-1 w-full bg-gradient-to-r from-amber-600 via-amber-400 to-yellow-400" />
+          <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
           <div className="py-2">
             {section.items.map((item) => (
               <DesktopNavItem
@@ -247,11 +247,11 @@ function MobileNavSection({ section, isActive, onNavigate }: {
       <button
         type="button"
         onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
-        className="w-full flex items-center gap-2 rounded-xl bg-linear-to-r from-[#fde7c7]/80 to-transparent px-4 py-2 mb-1 cursor-pointer"
+        className="w-full flex items-center gap-2 rounded-xl bg-white px-4 py-2 mb-1 cursor-pointer"
         aria-expanded={expanded}
       >
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <span className="text-xl font-black tracking-wide text-[#7a2e1f]">{section.title}</span>
+        <span className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">{section.title}</span>
         <div className="ml-auto flex items-center">
           <svg
             className={`h-4 w-4 text-[#b45309] transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
@@ -270,7 +270,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
               <div className="flex items-center">
                 <Link
                   href={item.href}
-                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-xl font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                   onClick={onNavigate}
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
@@ -301,7 +301,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-base font-medium text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                       onClick={onNavigate}
                     >
                       <span className="h-1 w-1 rounded-full bg-[#c49a6c]" />
@@ -373,76 +373,73 @@ export default function Header() {
   }, []);
 
   return (
-    <header ref={headerRef} className="w-full sticky top-0 z-30">
-      {/* Ornamental top accent */}
+    <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
-      <div className="w-full backdrop-blur-xl bg-white/60 border-b border-white/50 md:px-0">
-        <div className="flex items-center justify-between px-3 md:px-4 py-2">
-          {/* ─── Logo & Title ─── */}
-          <h1 className="m-0 p-0">
-            <Link href="/" className="flex items-center gap-2 group">
-              <span className="relative flex items-center justify-center">
-                <LazyImage
-                  src="/images/logo.png"
-                  alt="Sanatanadharmam Logo"
-                  width={logoWidth}
-                  height={40}
-                  className="md:flex"
-                />
-              </span>
-              <span className="max-w-50 md:max-w-100 text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
-                {siteTitle}
-              </span>
-            </Link>
-          </h1>
+      <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
+        {/* ─── Logo & Title ─── */}
+        <h1 className="m-0 p-0">
+          <Link href="/" className="flex items-center gap-2 group">
+            <span className="relative flex items-center justify-center">
+              <LazyImage
+                src="/images/logo.png"
+                alt="Sanatanadharmam Logo"
+                width={logoWidth}
+                height={40}
+                className="md:flex"
+              />
+            </span>
+            <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              {siteTitle}
+            </span>
+          </Link>
+        </h1>
 
-          {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
-            {navSections.map((section) => (
-              <DesktopDropdown key={section.key} section={section} isActive={isActive} />
-            ))}
-            <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
-              <LanguageDropdown />
-            </div>
-          </nav>
-
-          {/* ─── Mobile Toggle ─── */}
-          <div className="flex items-center md:hidden gap-1">
+        {/* ─── Desktop Nav ─── */}
+        <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+          {navSections.map((section) => (
+            <DesktopDropdown key={section.key} section={section} isActive={isActive} />
+          ))}
+          <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-            <button
-              aria-label={open ? "Close menu" : "Open menu"}
-              onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
-            >
-              <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
-                {open ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
-                )}
-              </svg>
-            </button>
           </div>
-        </div>
+        </nav>
 
-        {/* ─── Mobile Drawer ─── */}
-        {open && (
-          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
-            <div className="h-px w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-            <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
-              {navSections.map((section) => (
-                <MobileNavSection
-                  key={section.key}
-                  section={section}
-                  isActive={isActive}
-                  onNavigate={() => setOpen(false)}
-                />
-              ))}
-            </div>
-            <div className="h-px w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
-          </div>
-        )}
+        {/* ─── Mobile Toggle ─── */}
+        <div className="flex items-center md:hidden gap-2">
+          <LanguageDropdown />
+          <button
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((s) => !s)}
+            className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+          >
+            <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
+              {open ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
+
+      {/* ─── Mobile Drawer ─── */}
+      {open && (
+        <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
+          <div className="h-px w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
+          <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
+            {navSections.map((section) => (
+              <MobileNavSection
+                key={section.key}
+                section={section}
+                isActive={isActive}
+                onNavigate={() => setOpen(false)}
+              />
+            ))}
+          </div>
+          <div className="h-px w-full bg-linear-to-r from-primary-400 via-primary-500 to-primary-700" />
+        </div>
+      )}
     </header>
   );
 }

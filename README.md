@@ -62,6 +62,47 @@ If you'd like, I can also pin an updated `baseline-browser-mapping` version in `
 
 Locale/translation JSON files are stored in the `locales/` folder (e.g. `locales/en/`, `locales/hi/`, etc.) and are read directly at build time via dynamic imports. No API route or remote download step is needed.
 
+## Dynamic JSON Content
+
+This project also serves structured content (pages, lists, items) as JSON under `public/data/locales/{locale}/...`. To support dynamic, nested routes we use runtime `fetch` to load those JSON files on the server (App Router pages) rather than importing JSON at build time.
+
+Key points:
+
+- **Helpers:** `lib/getContentPath.ts` builds the public URL for a given locale and segment array. `lib/fetchContent.ts` performs the runtime `fetch` and implements a simple fallback (try `{segments}.json` then `{segments}/index.json`).
+- **Do NOT import JSON files directly.** Always fetch at runtime using the Fetch API so the same code works in dev, build, and static export modes.
+- **Server fetch pattern (used in page.tsx):**
+
+	- Build segments, e.g. `['vedas','atharvaveda','book1','hymn']` → use `getContentPath(locale, segments)`
+	- `const res = await fetch(path, { cache: 'force-cache' })`
+	- If `res.ok` parse JSON and render; else try folder `index.json`; if still missing call `notFound()`.
+
+- **Routes:** use a catch-all route (`app/<section>/[...segments]/page.tsx`) to handle arbitrary depths. `params.segments` is an array of the path components (e.g. `['atharvaveda','book1','hymn']`).
+- **Locale handling:** detect server locale via `detectServerLocaleFromHeaders(headers())` for server pages. Client components should use `useLocale()` to access the active locale when needed, but do not rely on it for server content fetches.
+- **Fallback UI:** use `useLocaleSection()` only for UI fallback strings (labels, headings), not for main content data.
+- **Safe rendering:** always use optional chaining and fallbacks (e.g. `data?.title ?? 'Untitled'`) and avoid assumptions about structure to prevent runtime crashes.
+- **Performance:** use `fetch(..., { cache: 'force-cache' })` to let Next/edge/runtime cache responses; the `fetchContent` helper already uses this.
+
+Example content path:
+
+```
+/data/locales/en/vedas/atharvaveda/book1/hymn.json
+```
+
+If you want directory listing behavior, add an `index.json` inside the folder (e.g. `/data/locales/en/vedas/atharvaveda/book1/index.json`) containing an `items` array.
+
+Files added/modified for this feature:
+
+- `lib/getContentPath.ts` — builds content URL
+- `lib/fetchContent.ts` — runtime fetch + index fallback
+- `app/vedas/page.tsx` and `app/vedas/[...segments]/page.tsx` — example implementation
+- similar catch-all pages added for: `vedic-philosophy`, `puranas`, `upanishads`, `itihasa`
+
+Troubleshooting:
+
+- If pages return 404, confirm a matching JSON exists under `public/data/locales/{locale}/...` or add an `index.json` for folders.
+- For locale mismatches, ensure cookies or request headers include `sanatana_dharma_language` or that `detectServerLocaleFromHeaders` can resolve the expected locale.
+
+
 ## Critical CSS — Home
 
 This project includes a small critical CSS flow to inline only the most important styles for the Home page to reduce render-blocking requests and lower CLS.
@@ -198,5 +239,11 @@ This repository uses the OpenSpec experimental workflow to propose, implement, a
 	 - Add `tasks.md` with small tasks (max ~2 hours each), e.g., "Add page scaffold", "Add locale file (en)", "Add tests".
 	 - Run `/opsx:apply add-example-page` or `openspec instructions apply --change "add-example-page" --json` and implement tasks.
 	 - Run `npm run check` and mark tasks done. When all done, archive the change.
+
+    npm install
+    npm run build
+    npm run audit:seo
+    # or run the postbuild directly
+    npm run postbuild
 
 If you'd like, I can also add a small template generator that creates the page scaffold and starter locale JSON when you create a new proposal. Ask me to scaffold `openspec/changes/<name>/artifacts` for a new page and I'll generate starter files.

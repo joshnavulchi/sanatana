@@ -19,6 +19,8 @@ AI must always:
 * Maintain accessibility and localization
 * During build time, if any locale file is not found, highlight in build screen or put them in logs folder, skip the page and throw 404 page. Build should not stop or hang to find missed locale files. Same applied across all pages.
 
+* When the assistant triggers a full build (for example running `npm run build`) from the chat or CI runner, the assistant must wait for the build process to complete before making further repository edits or starting another build. Do not run concurrent builds or edit files while a build is in progress — wait for the build result and act on errors/failures only after the build finishes.
+
 ---
 
 # Folder Structure

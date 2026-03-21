@@ -65,7 +65,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             <div className="px-4 py-5">
               <div className="text-center mb-6">
                 <div className="inline-block relative">
-                  {title && (<h2 className={`text-4xl/10 font-semibold text-transparent bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2 mb-3`}>
+                  {title && (<h2 className={`text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2 mb-3`}>
                     {title}
                   </h2>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
@@ -93,7 +93,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             type="button"
             onClick={togglePanel}
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
-            className="fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
             <span className="flex flex-col items-center gap-1">
               <svg

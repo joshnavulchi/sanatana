@@ -31,16 +31,20 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
         className="layout-md"
       >
-        <div>
-          <h2 className="text-2xl md:text-3xl text-gray-900">{page.title}</h2>
-          <p className="">{page.intro}</p>
-          <h3 className="text-2xl md:text-3xl text-gray-900">{page.informationHeading}</h3>
-          <p className="">{page.informationDesc}</p>
-          <h3 className="text-2xl md:text-3xl text-gray-900">{page.howWeUse}</h3>
-          <p className="">{page.howWeUseDesc}</p>
-          <h3 className="text-2xl md:text-3xl text-gray-900">{page.yourRights}</h3>
-          <p className="">{page.yourRightsDesc}</p>
-          <p className="mt-6 "><strong>{page.lastUpdated}</strong></p>
+        <div className="space-y-6 md:space-y-8">
+          <h2 className="page-title">{page.title}</h2>
+          <p className="body-text">{page.intro}</p>
+
+          <h3 className="section-title">{page.informationHeading}</h3>
+          <p className="body-text">{page.informationDesc}</p>
+
+          <h3 className="section-title">{page.howWeUse}</h3>
+          <p className="body-text">{page.howWeUseDesc}</p>
+
+          <h3 className="section-title">{page.yourRights}</h3>
+          <p className="body-text">{page.yourRightsDesc}</p>
+
+          <p className="mt-6"><strong>{page.lastUpdated}</strong></p>
         </div>
       </PageLayout>
     </>

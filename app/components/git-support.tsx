@@ -33,7 +33,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
 
       {/* Animated decorative elements */}
       <div className="hidden! absolute top-1/4 right-1/4 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
-      <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }} />
+      <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse anim-delay-1500" />
 
       {/* Content Container */}
       <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 md:px-0 md:py-0 transition-all duration-1000 ease-out
@@ -60,12 +60,12 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </div>
 
             {/* Title */}
-            <h6 className="text-xl md:text-2xl font-light leading-tight drop-shadow-2xl">
+            <h6 className="text-xl md:text-2xl leading-tight drop-shadow-2xl">
               {loc?.cta?.title || 'Contribute'}
             </h6>
 
             {/* Subtitle */}
-            <p className="text-base md:text-md leading-relaxed drop-shadow-lg my-4">
+            <p className="text-md leading-relaxed drop-shadow-lg my-4">
               {loc?.cta?.subtitle || ''}
             </p>
 
@@ -75,7 +75,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 href="https://github.com/vulchivijay/sanatana"
                 target="_blank"
                 className="group/btn relative px-4 md:px-8 py-3
-                  bg-white/90 hover:bg-white  text-base md:text-md
+                  bg-white/90 hover:bg-white text-sm
                   rounded-full shadow-xl hover:shadow-2xl
                   transition-all duration-300 transform hover:-translate-y-1 hover:scale-105
                   no-underline overflow-hidden">
@@ -96,7 +96,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 target="_blank"
                 className="group/btn px-4 md:px-8 py-3
                   bg-transparent border-2 border-white/50 hover:border-white
-                  text-white text-base md:text-md rounded-full
+                  text-white text-sm rounded-full
                   shadow-lg hover:shadow-xl transition-all duration-300
                   transform hover:-translate-y-1 no-underline
                   backdrop-blur-sm">

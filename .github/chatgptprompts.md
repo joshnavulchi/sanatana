@@ -1,0 +1,1331 @@
+You are working on a Next.js App Router project configured with `output: 'export'` (fully static site).
+
+Goal:
+Optimize the entire application so that Google can discover and index pages immediately after deployment.
+
+Requirements:
+
+1. Generate sitemap.xml automatically:
+
+   * Create `/app/sitemap.ts`
+   * Include all static and dynamic routes (including `[slug]`, `[id]`)
+   * Use correct lastModified timestamps
+   * Base URL should come from environment variable (e.g., NEXT_PUBLIC_SITE_URL)
+
+2. Generate robots.txt:
+
+   * Create `/app/robots.ts`
+   * Allow all pages
+   * Include sitemap URL
+   * Block only unnecessary paths (e.g., /api, /admin if exists)
+
+3. Add canonical URLs:
+
+   * Every page must include canonical link in metadata
+   * Use absolute URLs
+
+4. Improve metadata for all pages:
+
+   * Use `generateMetadata()` in every page
+   * Include:
+
+     * title
+     * description
+     * keywords
+     * openGraph
+     * twitter metadata
+   * Ensure metadata is dynamic per slug/id page
+
+5. Fix dynamic routes for static export:
+
+   * Implement `generateStaticParams()` for all dynamic routes
+   * Ensure all pages exist at build time
+   * Avoid runtime-only pages
+
+6. Add structured data (JSON-LD):
+
+   * Add schema.org structured data to pages
+   * Use Article / WebPage / Breadcrumb schema where appropriate
+
+7. Ensure clean URLs:
+
+   * Use trailingSlash: true
+   * Avoid query-based navigation
+   * Ensure all links use <Link> from next/link
+
+8. Add internal linking:
+
+   * Ensure all pages are reachable via links
+   * No orphan pages
+
+9. Optimize performance:
+
+   * Ensure pages load fast (important for indexing)
+   * Avoid large JS bundles
+   * Use static content wherever possible
+
+10. Add 404 and fallback handling:
+
+* Create proper not-found page
+* Avoid blank pages
+
+11. Ensure accessibility for crawlers:
+
+* No blocking scripts
+* No client-only rendering for critical content
+* Content must be visible in HTML
+
+12. Add headers guidance (for deployment):
+
+* Suggest cache headers for static hosting (CDN)
+
+Output:
+
+* sitemap.ts
+* robots.ts
+* example generateMetadata() for dynamic page
+* structured data example
+* best practices applied across project
+
+Important:
+
+* This is a static export site, so everything must work without a Node server
+* Do NOT use server-only features that break static export
+* Ensure all pages are indexable at build time
+
+
+
+
+You are working on a Next.js App Router project configured with `output: 'export'` (fully static site).
+
+Problem:
+The current SEO, metadata, and sitemap implementation is inconsistent, partially broken, or not scalable. Some pages are not indexed properly, and dynamic routes are not fully included in sitemap or metadata.
+
+Goal:
+Refactor and standardize the entire SEO system so that:
+
+* All pages are indexable
+* Sitemap is complete and accurate
+* Metadata is consistent and dynamic
+* Works fully with static export (no server dependencies)
+
+Tasks:
+
+---
+
+1. CENTRALIZE SEO CONFIG
+
+---
+
+Create a reusable SEO utility:
+
+* `/lib/seo.ts`
+* Function: `generateSEO({ title, description, path, image, keywords })`
+
+This function should:
+
+* Return metadata object compatible with Next.js `generateMetadata()`
+* Include:
+
+  * title (with site suffix)
+  * description
+  * canonical URL (absolute)
+  * openGraph
+  * twitter metadata
+  * robots (index, follow)
+
+Base URL must come from:
+
+* `process.env.NEXT_PUBLIC_SITE_URL`
+
+---
+
+2. RESTRUCTURE METADATA USAGE
+
+---
+
+* Remove duplicate or hardcoded metadata across pages
+* Ensure ALL pages use `generateMetadata()` with centralized SEO utility
+* Dynamic routes ([slug], [id]) must generate metadata dynamically based on content
+
+---
+
+3. FIX DYNAMIC ROUTES FOR STATIC EXPORT
+
+---
+
+* Implement `generateStaticParams()` for ALL dynamic routes
+* Ensure:
+
+  * Only valid slugs/ids are returned
+  * Missing locale/content entries are filtered out
+* Prevent build failures due to missing data
+
+---
+
+4. REBUILD SITEMAP SYSTEM
+
+---
+
+Create `/app/sitemap.ts`:
+
+* Include ALL routes:
+
+  * static pages
+  * dynamic pages ([slug], [id])
+* Pull data from same source as `generateStaticParams()`
+* Each entry must include:
+
+  * url (absolute)
+  * lastModified
+* Avoid duplicates
+* Ensure sitemap works with static export
+
+---
+
+5. CREATE ROBOTS.TXT
+
+---
+
+Create `/app/robots.ts`:
+
+* Allow all public pages
+* Disallow:
+
+  * /api
+  * /admin (if exists)
+* Include sitemap URL
+
+---
+
+6. ADD STRUCTURED DATA (JSON-LD)
+
+---
+
+* Add reusable schema generator:
+  `/lib/schema.ts`
+* Support:
+
+  * WebPage
+  * Article (for content pages)
+  * BreadcrumbList
+* Inject into pages via <script type="application/ld+json">
+
+---
+
+7. HANDLE MISSING DATA SAFELY
+
+---
+
+* If content not found:
+
+  * Use `notFound()`
+* If partial data missing:
+
+  * Render fallback content
+* Do NOT crash build
+
+---
+
+8. ENSURE STATIC EXPORT COMPATIBILITY
+
+---
+
+* Do NOT use server-only APIs
+* Do NOT rely on runtime fetching for SEO-critical data
+* All SEO data must be available at build time
+
+---
+
+9. IMPROVE INTERNAL LINKING
+
+---
+
+* Ensure all pages are reachable via <Link>
+* No orphan pages
+* Add breadcrumb navigation where possible
+
+---
+
+10. PERFORMANCE + INDEXING OPTIMIZATION
+
+---
+
+* Keep metadata lightweight
+* Avoid large inline JSON in pages
+* Ensure HTML contains real content (not client-only rendering)
+
+---
+
+11. OUTPUT EXPECTATION
+
+---
+
+Provide:
+
+* `/lib/seo.ts`
+* `/lib/schema.ts`
+* `/app/sitemap.ts`
+* `/app/robots.ts`
+* Example refactored dynamic page ([id]/page.tsx)
+* Example `generateStaticParams()`
+
+Code must be:
+
+* TypeScript-safe
+* Production-ready
+* Clean and reusable
+
+---
+
+## IMPORTANT:
+
+* This is a STATIC EXPORT project (`output: 'export'`)
+* All pages must be pre-rendered
+* SEO must not depend on runtime APIs
+* Ensure compatibility with large datasets (1000+ pages)
+
+Focus on scalability, correctness, and Google indexing effectiveness.
+
+
+
+
+
+
+You are working on a Next.js (App Router) TypeScript project.
+
+Problem:
+The codebase contains unused imports, unused variables, dead functions, redundant exports, and possibly unused script files. This increases build time, bundle size, and complexity.
+
+Goal:
+Clean and optimize the codebase by safely removing all unnecessary code while preserving functionality.
+
+Tasks:
+
+---
+
+1. REMOVE UNUSED IMPORTS
+
+---
+
+* Identify and remove all unused imports from:
+
+  * React components
+  * utility files
+  * API routes
+* Do NOT remove imports that are used indirectly (e.g., types, dynamic usage)
+
+---
+
+2. REMOVE UNUSED VARIABLES & FUNCTIONS
+
+---
+
+* Delete variables, constants, and functions that are never used
+* Remove commented-out code blocks
+* Ensure no references remain
+
+---
+
+3. REMOVE UNUSED EXPORTS
+
+---
+
+* Identify exports that are not imported anywhere in the project
+* Remove:
+
+  * unused named exports
+  * unused default exports
+* Ensure no runtime or dynamic usage is broken
+
+---
+
+4. DELETE UNUSED FILES
+
+---
+
+* Identify files that are not imported or referenced anywhere:
+
+  * components
+  * utils
+  * scripts
+  * pages/routes
+* Safely delete them
+* Be careful with:
+
+  * dynamic routes
+  * file-based routing in Next.js
+  * config files
+
+---
+
+5. CLEAN UNUSED SCRIPTS
+
+---
+
+* Review package.json scripts
+* Remove scripts that are not used or redundant
+* Ensure essential scripts remain:
+
+  * dev
+  * build
+  * start
+  * lint (optional)
+
+---
+
+6. OPTIMIZE IMPORTS
+
+---
+
+* Replace wildcard imports with specific imports where possible
+* Remove duplicate imports
+* Ensure consistent import paths
+
+---
+
+7. TYPESCRIPT SAFETY
+
+---
+
+* Ensure project compiles without errors after cleanup
+* Avoid removing types that are required
+* Maintain strict typing
+
+---
+
+8. NEXT.JS SAFETY CHECKS
+
+---
+
+* Do NOT remove:
+
+  * layout.tsx
+  * page.tsx
+  * generateStaticParams
+  * metadata functions
+* Ensure routing structure is preserved
+
+---
+
+9. PERFORMANCE IMPROVEMENT
+
+---
+
+* Reduce bundle size
+* Improve build time
+* Avoid unnecessary dependencies
+
+---
+
+10. OUTPUT EXPECTATION
+
+---
+
+* Provide cleaned versions of affected files
+* List deleted files
+* List removed imports/exports
+* Ensure no functionality is broken
+
+---
+
+## IMPORTANT:
+
+* Do NOT break dynamic routing
+* Do NOT remove SEO-related code
+* Do NOT remove anything used via reflection or dynamic import
+* Prefer safe removal over aggressive deletion
+
+Focus on clean, minimal, production-ready code.
+
+
+You are working on a Next.js (App Router) TypeScript project using Tailwind CSS.
+
+Problem:
+The UI lacks consistency across pages, subpages, and child routes. Header and footer are basic or inconsistent. Typography, spacing, padding, and margins are not standardized.
+
+Goal:
+Create a COMPLETE, consistent, and premium design system with:
+
+* Unique header and footer design
+* Mobile-first responsive layout
+* Consistent typography, spacing, padding, and margins
+* Reusable UI components and templates
+* Light theme only (NO dark mode)
+
+The design should feel modern, elegant, and production-grade.
+
+---
+
+1. GLOBAL DESIGN RULES (MANDATORY)
+
+---
+
+Apply across ALL pages and components:
+
+* Mobile-first approach:
+  Start with base styles → enhance with `sm: md: lg:`
+
+* Container:
+  `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`
+
+* Section spacing:
+  `py-8 sm:py-10 md:py-12`
+
+* Vertical rhythm:
+  `space-y-6 md:space-y-8`
+
+* Grid gaps:
+  `gap-4 sm:gap-6`
+
+* Border radius:
+  `rounded-xl` (default), `rounded-2xl` (cards)
+
+* Shadows:
+  `shadow-sm` or subtle custom shadow only
+
+---
+
+2. TYPOGRAPHY SYSTEM (STRICT)
+
+---
+
+Standardize everywhere:
+
+* Page Title:
+  `text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900`
+
+* Section Title:
+  `text-lg sm:text-xl md:text-2xl font-semibold text-gray-900`
+
+* Subtitle:
+  `text-base sm:text-lg text-gray-600`
+
+* Body:
+  `text-gray-700 leading-relaxed`
+
+* Small / meta:
+  `text-sm text-gray-500`
+
+DO NOT use arbitrary font sizes.
+
+---
+
+3. UNIQUE HEADER DESIGN
+
+---
+
+Create a modern sticky header:
+
+* Layout:
+  `sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100`
+
+* Inner container:
+  flex justify-between items-center
+
+* Logo:
+  Bold text or icon + text combination
+
+* Navigation:
+  Horizontal menu on desktop
+  Mobile menu (hamburger) on small screens
+
+* Nav links:
+  `text-gray-600 hover:text-primary-600 transition`
+
+* CTA button:
+  Primary styled button
+
+* Mobile menu:
+  Collapsible panel with proper spacing
+
+---
+
+4. UNIQUE FOOTER DESIGN
+
+---
+
+Create a structured footer:
+
+* Background:
+  `bg-gray-50 border-t border-gray-100`
+
+* Layout:
+  Grid:
+  `grid gap-6 sm:grid-cols-2 md:grid-cols-4`
+
+* Sections:
+
+  * About
+  * Navigation links
+  * Resources
+  * Social links
+
+* Text:
+  `text-sm text-gray-600`
+
+* Bottom bar:
+  copyright + links
+
+* Spacing:
+  `py-10 md:py-12`
+
+---
+
+5. REUSABLE COMPONENT SYSTEM
+
+---
+
+Create:
+
+Card:
+
+* `bg-white border border-gray-100 rounded-2xl shadow-sm p-5`
+
+Button:
+
+* Primary:
+  `bg-primary-600 text-white hover:bg-primary-700 rounded-xl px-4 py-2`
+* Secondary:
+  `bg-gray-100 hover:bg-gray-200 text-gray-700`
+
+Section wrapper:
+
+* `py-10 md:py-14`
+
+Container wrapper:
+
+* reusable layout component
+
+---
+
+6. PAGE TEMPLATE STRUCTURE
+
+---
+
+A. Listing Page:
+
+* Title + description
+* Grid:
+  `grid gap-6 md:grid-cols-2 lg:grid-cols-3`
+* Cards
+
+B. Detail Page:
+
+* Title
+* Metadata row
+* Content section
+* Related items
+
+C. Landing Section:
+
+* Hero
+* CTA
+* Clean spacing
+
+---
+
+7. SPACING & CONSISTENCY ENFORCEMENT
+
+---
+
+* Replace ALL inconsistent spacing with standard scale
+* Remove arbitrary padding/margin values
+* Ensure alignment consistency across:
+
+  * pages
+  * subpages
+  * child routes
+
+---
+
+8. MOBILE-FIRST RESPONSIVENESS
+
+---
+
+* Base styles = mobile
+* Enhance progressively:
+  sm → md → lg
+* Ensure:
+
+  * no overflow issues
+  * proper stacking on mobile
+  * readable typography
+
+---
+
+9. INTERACTION & POLISH
+
+---
+
+* Add subtle transitions:
+  `transition-all duration-200`
+* Hover states:
+  `hover:shadow-md hover:-translate-y-0.5`
+* Avoid excessive animation
+
+---
+
+10. REMOVE INCONSISTENCIES
+
+---
+
+* Remove inline styles
+* Remove dark mode classes
+* Normalize colors to palette
+* Standardize layout across app
+
+---
+
+11. OUTPUT EXPECTATION
+
+---
+
+Provide:
+
+* Header component
+* Footer component
+* Layout wrapper (used globally)
+* Updated Tailwind classes across pages
+* Example page.tsx (listing + detail)
+* Clean reusable components
+
+---
+
+## IMPORTANT
+
+* Do NOT change business logic
+* Do NOT break routing
+* Focus only on UI consistency and design quality
+* Ensure design looks premium and cohesive
+
+Goal:
+Transform the entire app into a consistent, mobile-first, beautifully designed system with a strong visual identity.
+
+
+You are working on a Next.js (App Router) TypeScript project.
+
+Problem:
+The codebase contains unused variables, functions, files, imports, and possibly unused npm dependencies. This increases build time, bundle size, and maintenance overhead.
+
+Goal:
+Perform a SAFE cleanup of dead code and unused dependencies without breaking routing, build, or runtime behavior.
+
+STRICT WORKFLOW:
+
+1. BASELINE & SAFETY
+
+* First ensure the project builds successfully:
+
+  * Run: `npx tsc --noEmit`
+  * Run: `npm run build`
+* Do NOT remove anything until current state is verified.
+
+2. REMOVE UNUSED IMPORTS
+
+* Identify and remove unused imports across all files.
+* Preserve:
+
+  * Type-only imports (TypeScript)
+  * Imports used via JSX, dynamic usage, or side-effects
+* Replace wildcard imports with specific imports when possible.
+
+3. REMOVE UNUSED VARIABLES & FUNCTIONS
+
+* Delete variables, constants, and functions that have zero references.
+* Remove commented-out code blocks.
+* Ensure no references remain after deletion.
+
+4. REMOVE UNUSED EXPORTS
+
+* Identify exports not imported anywhere in the repo.
+* Remove unused named and default exports.
+* Be careful with:
+
+  * Next.js conventions (page.tsx, layout.tsx, generateMetadata, generateStaticParams)
+  * Dynamic imports
+
+5. DELETE UNUSED FILES (CAREFULLY)
+
+* Identify files not referenced anywhere:
+
+  * components, utils, hooks, scripts
+* DO NOT delete:
+
+  * Files under /app that define routes (page.tsx, layout.tsx, loading.tsx, not-found.tsx)
+  * Files referenced via dynamic routing or config
+* Provide a list of candidate files before deletion.
+
+6. CLEAN UNUSED LIBRARIES (package.json)
+
+* Detect dependencies not used in code:
+
+  * Scan imports across repo
+  * Compare against package.json
+* Suggest removal of unused dependencies.
+* Do NOT remove:
+
+  * Peer dependencies required by Next.js
+  * Tooling still in use (eslint, typescript, next, react, etc.)
+
+7. NEXT.JS SAFETY RULES
+
+* Do NOT break file-based routing.
+* Preserve:
+
+  * app/**/page.tsx
+  * app/**/layout.tsx
+  * generateStaticParams
+  * metadata functions
+* Ensure static export compatibility if `output: 'export'` is enabled.
+
+8. TYPESCRIPT SAFETY
+
+* Project must pass:
+
+  * `npx tsc --noEmit`
+* Avoid removing types that are indirectly used.
+
+9. OUTPUT FORMAT
+   Provide:
+
+* List of removed imports (by file)
+* List of removed variables/functions
+* List of removed exports
+* List of deleted files (with justification)
+* Suggested package.json cleanup (dependencies to remove)
+* Updated code snippets ONLY for changed files
+
+10. FINAL VALIDATION
+
+* After cleanup:
+
+  * Run `npx tsc --noEmit`
+  * Run `npm run build`
+* If errors appear, revert unsafe removals and propose safer alternatives.
+
+IMPORTANT:
+
+* Prefer conservative, safe cleanup over aggressive deletion
+* Do NOT break runtime behavior
+* Do NOT assume unused if referenced dynamically
+
+Goal:
+Reduce codebase size, improve build performance, and maintain full functionality.
+
+
+You are working on a Next.js (App Router) TypeScript project.
+
+Project structure:
+Content is stored as JSON files in nested folders:
+
+public/data/locales/en/vedas/{veda}/{chapter}/{item}.json
+
+Examples:
+
+* vedas → main page
+* vedas/atharvaveda → slug page
+* vedas/atharvaveda/book1 → chapter page
+* vedas/atharvaveda/book1/hymn.json → item page
+
+Goal:
+Update all `.tsx` pages to dynamically load and render JSON content based on the current route.
+
+IMPORTANT RULES:
+
+* DO NOT import JSON files directly
+* Use runtime fetching (fetch API)
+* Use `useLocale()` to get current locale
+* Use `useLocaleSection()` only for fallback UI text (not main content)
+* Handle missing files gracefully (no crashes)
+
+---
+
+1. CREATE GENERIC DATA LOADER
+
+---
+
+Create a helper:
+
+getContentPath(locale, segments: string[])
+
+It should return:
+`/data/locales/${locale}/${segments.join('/')}.json`
+
+Example:
+segments = ['vedas','atharvaveda','book1','hymn']
+→ /data/locales/en/vedas/atharvaveda/book1/hymn.json
+
+---
+
+2. FETCH DATA IN PAGE
+
+---
+
+In each page.tsx:
+
+* Get params from route
+* Build path segments dynamically
+* Fetch JSON:
+
+const res = await fetch(contentPath, { cache: 'force-cache' });
+
+If file does not exist:
+
+* return notFound()
+
+---
+
+3. ROUTE HANDLING
+
+---
+
+A. Main Page (/vedas)
+
+* Load directory listing OR index JSON if exists
+* Show list of vedas (folders)
+
+B. Slug Page (/vedas/[slug])
+
+* List chapters inside slug folder
+* OR render slug-level JSON if exists
+
+C. Chapter Page (/vedas/[slug]/[chapter])
+
+* List items OR render chapter JSON
+
+D. Item Page (/vedas/[slug]/[chapter]/[item])
+
+* Load specific JSON file
+* Render full content
+
+---
+
+4. DYNAMIC SEGMENTS SUPPORT
+
+---
+
+Use catch-all route:
+
+[...segments]
+
+Example:
+params.segments = ['atharvaveda','book1','hymn']
+
+---
+
+5. SAFE RENDERING
+
+---
+
+* Use optional chaining:
+  data?.title ?? 'Untitled'
+
+* Render:
+  title
+  description
+  content/body
+
+---
+
+6. FALLBACK HANDLING
+
+---
+
+If JSON not found:
+
+* try loading folder index
+* else return notFound()
+
+---
+
+7. UI STRUCTURE
+
+---
+
+* Title
+* Breadcrumb (based on segments)
+* Content
+* List of child items (if folder)
+
+---
+
+8. PERFORMANCE
+
+---
+
+* Use:
+  cache: 'force-cache'
+* Avoid loading unnecessary files
+
+---
+
+9. OUTPUT EXPECTATION
+
+---
+
+Provide:
+
+* Updated page.tsx for:
+
+  * main page
+  * dynamic catch-all page
+* Helper function for path building
+* Example rendering logic
+
+---
+
+## IMPORTANT
+
+* DO NOT use fs in client components
+* DO NOT import JSON directly
+* DO NOT break static export compatibility
+* Keep code clean and reusable
+
+Goal:
+Render correct JSON content dynamically based on route hierarchy, with robust fallback and clean UI.
+
+
+You are working on a Next.js project using static export (`output: 'export'`), which generates an `out/` folder containing HTML files.
+
+Goal:
+Create a post-deploy audit script that scans the `out/` directory and validates SEO and Google indexing readiness for each generated page.
+
+---
+
+1. INPUT
+
+---
+
+* Root folder: `out/`
+* Recursively scan all `.html` files
+
+---
+
+2. FOR EACH PAGE, VALIDATE:
+
+---
+
+A. BASIC SEO TAGS
+
+* <title> exists and is not empty
+* <meta name="description"> exists
+* <link rel="canonical"> exists and is absolute URL
+
+B. ROBOTS & INDEXING
+
+* No <meta name="robots" content="noindex">
+* If robots tag exists → ensure "index, follow"
+
+C. OPEN GRAPH
+
+* og:title
+* og:description
+* og:url
+* og:type
+
+D. TWITTER META
+
+* twitter:card
+* twitter:title
+* twitter:description
+
+E. STRUCTURED DATA
+
+* Detect <script type="application/ld+json">
+* Validate presence (not necessarily full schema validation)
+
+F. CONTENT VALIDATION
+
+* Ensure page has visible text content (not empty body)
+* Detect if content is server-rendered (not empty HTML)
+
+G. LINKS
+
+* Extract all internal <a href>
+* Ensure they are valid (no broken relative links)
+
+---
+
+3. OUTPUT FORMAT
+
+---
+
+Generate a report:
+
+Option A: Console output
+
+* Page path
+* Status: PASS / WARN / FAIL
+* List of issues
+
+Option B: JSON report
+
+* audit-report.json
+
+Example:
+
+{
+"page": "/vedas/rigveda",
+"status": "FAIL",
+"issues": [
+"Missing meta description",
+"Missing canonical URL"
+]
+}
+
+---
+
+4. SCORING SYSTEM
+
+---
+
+Assign score per page:
+
+* 100 = perfect
+* Deduct points for missing elements
+
+---
+
+5. SUMMARY REPORT
+
+---
+
+At end, print:
+
+* Total pages scanned
+* Passed pages
+* Failed pages
+* Average SEO score
+
+---
+
+6. OPTIONAL ENHANCEMENTS
+
+---
+
+* Generate CSV report
+* Highlight critical issues separately
+* Detect duplicate titles/descriptions across pages
+
+---
+
+7. IMPLEMENTATION DETAILS
+
+---
+
+* Use Node.js
+* Use fs to read files
+* Use cheerio (or similar) to parse HTML
+* Handle large number of pages efficiently
+
+---
+
+8. IMPORTANT
+
+---
+
+* Do NOT require a server (static analysis only)
+* Must work on exported HTML only
+* Must not crash on malformed HTML
+
+---
+
+## OUTPUT EXPECTATION
+
+Provide:
+
+* audit script (audit-seo.js)
+* example output
+* instructions to run
+
+Goal:
+Ensure every page in the static build is SEO-ready and indexable by Google.
+
+
+
+
+You are working on a Next.js (App Router) TypeScript project with a large content system (Vedas, Itihasa, etc.) stored as JSON files.
+
+Problem:
+The app uses multiple dynamic routes ([slug], [id], [...segments]) and static export, causing:
+
+* build failures (missing generateStaticParams)
+* memory issues
+* complex routing logic
+
+Goal:
+Refactor the entire routing system into a SINGLE universal dynamic route using `[...segments]`, driven by file-based JSON content.
+
+---
+
+1. REMOVE STATIC EXPORT
+
+---
+
+In next.config.ts:
+
+* Remove:
+  output: 'export'
+
+---
+
+2. CREATE SINGLE ROUTE
+
+---
+
+Create:
+
+app/[...segments]/page.tsx
+
+This route will handle ALL pages:
+
+* /vedas
+* /vedas/rigveda
+* /vedas/rigveda/madala1
+* /vedas/rigveda/madala1/hymn
+
+---
+
+3. DELETE OLD ROUTES
+
+---
+
+Remove:
+
+* app/vedas/page.tsx
+* app/vedas/[slug]/page.tsx
+* app/vedas/[slug]/[chapter]/page.tsx
+* any other nested dynamic routes
+
+Ensure only `[...segments]` remains.
+
+---
+
+4. BUILD CONTENT RESOLVER
+
+---
+
+Create utility:
+
+resolveContent(segments: string[], locale: string)
+
+Behavior:
+
+* Map URL segments → JSON file path
+
+Example:
+
+['vedas','rigveda','madala1','hymn']
+→ /public/data/locales/en/vedas/rigveda/madala1/hymn.json
+
+---
+
+5. FETCH CONTENT
+
+---
+
+Inside page.tsx:
+
+* Get params.segments
+* Get locale using useLocale()
+* Build path
+* Fetch JSON:
+
+const res = await fetch(path, { cache: 'force-cache' });
+
+---
+
+6. FALLBACK HANDLING
+
+---
+
+If JSON exists:
+
+* Render content page
+
+If JSON does NOT exist:
+
+* Treat as folder
+* List child folders/files
+
+If neither:
+
+* return notFound()
+
+---
+
+7. UI STRUCTURE
+
+---
+
+Render:
+
+* Breadcrumb (based on segments)
+* Title
+* Content
+* Children list (if folder)
+
+---
+
+8. SEO SUPPORT
+
+---
+
+Add generateMetadata():
+
+* title from JSON
+* description from JSON
+* canonical from segments
+
+---
+
+9. PERFORMANCE
+
+---
+
+* Use cache: 'force-cache'
+* Avoid loading unnecessary files
+* No large imports
+
+---
+
+10. REMOVE generateStaticParams
+
+---
+
+* DO NOT use generateStaticParams anywhere
+* This system must work without it
+
+---
+
+11. ENSURE CLEAN ARCHITECTURE
+
+---
+
+* No duplicate routing logic
+* Single source of truth (file system)
+* Minimal complexity
+
+---
+
+## OUTPUT EXPECTATION
+
+Provide:
+
+* app/[...segments]/page.tsx (complete)
+* resolveContent utility
+* example rendering logic
+* example metadata function
+
+---
+
+## IMPORTANT
+
+* Must work without static export
+* Must handle large datasets
+* Must not crash on missing data
+* Must be scalable for 1000+ pages
+
+Goal:
+Create a universal, scalable routing system driven entirely by JSON content and URL segments.

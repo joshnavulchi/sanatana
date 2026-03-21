@@ -159,7 +159,7 @@ export default async function RootLayout({
           </>
         )}
       </head>
-      <body style={{ fontFamily: bodyFontFamily }} translate="no">
+      <body className={poppins.className} translate="no">
         <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
@@ -168,7 +168,8 @@ export default async function RootLayout({
               src={`https://www.googletagmanager.com/ns.html?id=${secrets.NEXT_PUBLIC_GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              className="hidden"
+              aria-hidden="true"
             />
           </noscript>
         )}
@@ -178,9 +179,9 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Header />
               </Suspense>
-              <Suspense fallback={null}>
-                {children}
-              </Suspense>
+              <main className="min-h-[60vh] bg-white">
+                <Suspense fallback={null}>{children}</Suspense>
+              </main>
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>

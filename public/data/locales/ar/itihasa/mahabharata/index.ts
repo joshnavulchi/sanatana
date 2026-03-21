@@ -1,23 +1,12 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\itihasa\mahabharata'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
-import _d0 from './itihasa/index';
+// Auto-generated index (JSON-only)
+// Folder: 'ar\itihasa\mahabharata'
+// DO NOT EDIT MANUALLY
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
+import _j0 from './mahabharata.json';
 
-const base: any = {};
-const merged = ([_d0] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+
+const merged = Object.assign({}, _j0);
+
 export default merged;
