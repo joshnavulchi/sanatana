@@ -10,13 +10,12 @@ import { notFound } from 'next/navigation';
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Filter Ramayana generated params by checking locale namespace presence.
-  try {
-    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
-    return await filterGeneratedParams(generatedParams, (p: any) => `itihasa_ramayana_${String(p.slug)}`);
-  } catch (_) {
-    return generatedParams;
-  }
+  // Return the build-time generated params directly. Avoid runtime require so
+  // this function remains static and compatible with `output: 'export'.`
+  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  return list
+    .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || '') }))
+    .filter((p) => p.slug);
 }
 
 

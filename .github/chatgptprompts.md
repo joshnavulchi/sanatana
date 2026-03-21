@@ -701,3 +701,114 @@ Provide:
 
 Goal:
 Transform the entire app into a consistent, mobile-first, beautifully designed system with a strong visual identity.
+
+
+You are working on a Next.js (App Router) TypeScript project.
+
+Problem:
+The codebase contains unused variables, functions, files, imports, and possibly unused npm dependencies. This increases build time, bundle size, and maintenance overhead.
+
+Goal:
+Perform a SAFE cleanup of dead code and unused dependencies without breaking routing, build, or runtime behavior.
+
+STRICT WORKFLOW:
+
+1. BASELINE & SAFETY
+
+* First ensure the project builds successfully:
+
+  * Run: `npx tsc --noEmit`
+  * Run: `npm run build`
+* Do NOT remove anything until current state is verified.
+
+2. REMOVE UNUSED IMPORTS
+
+* Identify and remove unused imports across all files.
+* Preserve:
+
+  * Type-only imports (TypeScript)
+  * Imports used via JSX, dynamic usage, or side-effects
+* Replace wildcard imports with specific imports when possible.
+
+3. REMOVE UNUSED VARIABLES & FUNCTIONS
+
+* Delete variables, constants, and functions that have zero references.
+* Remove commented-out code blocks.
+* Ensure no references remain after deletion.
+
+4. REMOVE UNUSED EXPORTS
+
+* Identify exports not imported anywhere in the repo.
+* Remove unused named and default exports.
+* Be careful with:
+
+  * Next.js conventions (page.tsx, layout.tsx, generateMetadata, generateStaticParams)
+  * Dynamic imports
+
+5. DELETE UNUSED FILES (CAREFULLY)
+
+* Identify files not referenced anywhere:
+
+  * components, utils, hooks, scripts
+* DO NOT delete:
+
+  * Files under /app that define routes (page.tsx, layout.tsx, loading.tsx, not-found.tsx)
+  * Files referenced via dynamic routing or config
+* Provide a list of candidate files before deletion.
+
+6. CLEAN UNUSED LIBRARIES (package.json)
+
+* Detect dependencies not used in code:
+
+  * Scan imports across repo
+  * Compare against package.json
+* Suggest removal of unused dependencies.
+* Do NOT remove:
+
+  * Peer dependencies required by Next.js
+  * Tooling still in use (eslint, typescript, next, react, etc.)
+
+7. NEXT.JS SAFETY RULES
+
+* Do NOT break file-based routing.
+* Preserve:
+
+  * app/**/page.tsx
+  * app/**/layout.tsx
+  * generateStaticParams
+  * metadata functions
+* Ensure static export compatibility if `output: 'export'` is enabled.
+
+8. TYPESCRIPT SAFETY
+
+* Project must pass:
+
+  * `npx tsc --noEmit`
+* Avoid removing types that are indirectly used.
+
+9. OUTPUT FORMAT
+   Provide:
+
+* List of removed imports (by file)
+* List of removed variables/functions
+* List of removed exports
+* List of deleted files (with justification)
+* Suggested package.json cleanup (dependencies to remove)
+* Updated code snippets ONLY for changed files
+
+10. FINAL VALIDATION
+
+* After cleanup:
+
+  * Run `npx tsc --noEmit`
+  * Run `npm run build`
+* If errors appear, revert unsafe removals and propose safer alternatives.
+
+IMPORTANT:
+
+* Prefer conservative, safe cleanup over aggressive deletion
+* Do NOT break runtime behavior
+* Do NOT assume unused if referenced dynamically
+
+Goal:
+Reduce codebase size, improve build performance, and maintain full functionality.
