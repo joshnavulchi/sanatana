@@ -4,7 +4,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 import SlugClient from './slugclient';
 import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
-import { params as generatedParams } from '@app/generated-params/vedic-philosophy-slugs';
+import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
@@ -12,7 +12,7 @@ export const dynamic = 'force-static';
 export async function generateStaticParams() {
   // Return the build-time generated params directly to remain compatible with
   // `output: 'export'` and avoid runtime requires inside the build worker.
-  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  const list: any[] = loadGeneratedParamsSync('@app/generated-params/vedic-philosophy-slugs');
   return list
     .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || '') }))
     .filter((p) => p.slug);

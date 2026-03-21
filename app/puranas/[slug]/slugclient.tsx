@@ -5,7 +5,7 @@ import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
-import { getPuranaOverviewNamespace, toTitleFromSlug } from '../purana-utils';
+import { getPuranaOverviewNamespace, toTitleFromSlug } from '@lib/siteUtils';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (

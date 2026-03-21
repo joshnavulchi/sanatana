@@ -2,14 +2,7 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
-import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
-import {
-  MAHABHARATA_PARVAS,
-  isMahabharataParvaSlug,
-  parseNumericSuffix,
-  toTitleFromSlug,
-  toUnderscoreSlug,
-} from '../../../itihasa-utils';
+import { loadGeneratedParamsSync, MAHABHARATA_PARVAS, isMahabharataParvaSlug, parseNumericSuffix, toTitleFromSlug, toUnderscoreSlug } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { parva: string; parts: string[] };
@@ -20,9 +13,10 @@ export async function generateStaticParams() {
   // Filter Mahabharata parva parts by locale namespace availability.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/mahabharata-parva-parts');
     return await filterGeneratedParams(generatedParams, (p: any) => `itihasa_mahabharata_${toUnderscoreSlug(String(p.parva))}_chapter${String((p.parts || [])[0] || '').replace(/[^0-9]/g, '') || '1'}`);
   } catch (_) {
-    return generatedParams;
+    return loadGeneratedParamsSync('@app/generated-params/mahabharata-parva-parts');
   }
 }
 

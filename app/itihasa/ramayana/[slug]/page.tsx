@@ -3,7 +3,7 @@ export const revalidate = 60;
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
-import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -12,7 +12,7 @@ export const dynamicParams = false;
 export async function generateStaticParams() {
   // Return the build-time generated params directly. Avoid runtime require so
   // this function remains static and compatible with `output: 'export'.`
-  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  const list: any[] = loadGeneratedParamsSync('@app/generated-params/itihasa-ramayana');
   return list
     .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || '') }))
     .filter((p) => p.slug);

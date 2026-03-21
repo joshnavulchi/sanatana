@@ -154,4 +154,23 @@ export function renderJsonLdScript(json: unknown) {
     __html: safeJsonLd(json)
   };
 }
+
+// Backwards-compatible exports (previously in lib/schema.ts)
+export function generateWebPageSchema({ url, name, description }: { url: string; name: string; description?: string }) {
+  return buildWebPageJsonLd({ url, name, description });
+}
+
+export function generateArticleSchema({ url, headline, authorName, datePublished, image }: {
+  url: string;
+  headline: string;
+  authorName?: string;
+  datePublished?: string;
+  image?: string;
+}) {
+  return buildArticleJsonLd({ url, headline, authorName, datePublished, image });
+}
+
+export function generateBreadcrumbList(items: { name: string; url: string }[]) {
+  return buildBreadcrumbJsonLd(items.map(it => ({ name: it.name, item: it.url })));
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

@@ -5,7 +5,7 @@ import PageLayout from '@components/common/PageLayout';
 import Loader from '@components/loader';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseNumericSuffix, toTitleFromSlug } from '../../purana-utils';
+import { parseNumericSuffix, toTitleFromSlug } from '@lib/siteUtils';
 
 function Paragraphs({ text }: { text: string }) {
   return (

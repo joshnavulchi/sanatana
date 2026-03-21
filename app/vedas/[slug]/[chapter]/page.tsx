@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
-import { params as generatedParams } from '@app/generated-params/vedas-chapters';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -30,11 +30,12 @@ export async function generateStaticParams() {
   // Use the generated chapters list but filter out entries missing locale files.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/vedas-chapters');
     const res = await filterGeneratedParams(generatedParams, (p: any) => chapterFileKey(String(p.slug), String(p.chapter)));
     const list: any[] = Array.isArray((res as any).params) ? (res as any).params : (res as any);
     return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || '') })).filter((p) => p.slug && p.chapter);
   } catch (_) {
-    const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+    const list: any[] = loadGeneratedParamsSync('@app/generated-params/vedas-chapters');
     return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || '') })).filter((p) => p.slug && p.chapter);
   }
 }

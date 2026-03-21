@@ -984,3 +984,160 @@ Provide:
 
 Goal:
 Render correct JSON content dynamically based on route hierarchy, with robust fallback and clean UI.
+
+
+You are working on a Next.js project using static export (`output: 'export'`), which generates an `out/` folder containing HTML files.
+
+Goal:
+Create a post-deploy audit script that scans the `out/` directory and validates SEO and Google indexing readiness for each generated page.
+
+---
+
+1. INPUT
+
+---
+
+* Root folder: `out/`
+* Recursively scan all `.html` files
+
+---
+
+2. FOR EACH PAGE, VALIDATE:
+
+---
+
+A. BASIC SEO TAGS
+
+* <title> exists and is not empty
+* <meta name="description"> exists
+* <link rel="canonical"> exists and is absolute URL
+
+B. ROBOTS & INDEXING
+
+* No <meta name="robots" content="noindex">
+* If robots tag exists → ensure "index, follow"
+
+C. OPEN GRAPH
+
+* og:title
+* og:description
+* og:url
+* og:type
+
+D. TWITTER META
+
+* twitter:card
+* twitter:title
+* twitter:description
+
+E. STRUCTURED DATA
+
+* Detect <script type="application/ld+json">
+* Validate presence (not necessarily full schema validation)
+
+F. CONTENT VALIDATION
+
+* Ensure page has visible text content (not empty body)
+* Detect if content is server-rendered (not empty HTML)
+
+G. LINKS
+
+* Extract all internal <a href>
+* Ensure they are valid (no broken relative links)
+
+---
+
+3. OUTPUT FORMAT
+
+---
+
+Generate a report:
+
+Option A: Console output
+
+* Page path
+* Status: PASS / WARN / FAIL
+* List of issues
+
+Option B: JSON report
+
+* audit-report.json
+
+Example:
+
+{
+"page": "/vedas/rigveda",
+"status": "FAIL",
+"issues": [
+"Missing meta description",
+"Missing canonical URL"
+]
+}
+
+---
+
+4. SCORING SYSTEM
+
+---
+
+Assign score per page:
+
+* 100 = perfect
+* Deduct points for missing elements
+
+---
+
+5. SUMMARY REPORT
+
+---
+
+At end, print:
+
+* Total pages scanned
+* Passed pages
+* Failed pages
+* Average SEO score
+
+---
+
+6. OPTIONAL ENHANCEMENTS
+
+---
+
+* Generate CSV report
+* Highlight critical issues separately
+* Detect duplicate titles/descriptions across pages
+
+---
+
+7. IMPLEMENTATION DETAILS
+
+---
+
+* Use Node.js
+* Use fs to read files
+* Use cheerio (or similar) to parse HTML
+* Handle large number of pages efficiently
+
+---
+
+8. IMPORTANT
+
+---
+
+* Do NOT require a server (static analysis only)
+* Must work on exported HTML only
+* Must not crash on malformed HTML
+
+---
+
+## OUTPUT EXPECTATION
+
+Provide:
+
+* audit script (audit-seo.js)
+* example output
+* instructions to run
+
+Goal:
+Ensure every page in the static build is SEO-ready and indexable by Google.

@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import PartsClient from './partsclient';
 import { createGenerateMetadata } from '@lib/pageUtils';
-import { getAllPhilosophyPaths } from '@/lib/getAllPhilosophyPaths';
+import { getAllPhilosophyPaths } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };

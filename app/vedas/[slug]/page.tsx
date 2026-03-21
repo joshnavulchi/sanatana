@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 import StructuredData from '@/app/components/structured-data/StructuredData';
-import { params as generatedParams } from '@app/generated-params/vedas-slugs';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -17,9 +17,8 @@ const FILE_MAP: Record<string, string> = {
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Return the build-time generated params directly. Avoid runtime requires so
-  // this function is purely static and compatible with `output: 'export'.`
-  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  // Attempt to load generated params if present; if absent return empty list.
+  const list: any[] = loadGeneratedParamsSync('@app/generated-params/vedas-slugs');
   return list
     .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || '') }))
     .filter((p) => p.slug);

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
-import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };
@@ -30,9 +30,10 @@ export async function generateStaticParams() {
   // Return the generated params list but filter out entries whose locale namespace is missing.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/puranas-slugs-parts');
     return await filterGeneratedParams(generatedParams, (p: any) => getNamespace(normalizePuranaSlug(String(p.slug)), p.parts || []));
   } catch (_) {
-    return generatedParams;
+    return loadGeneratedParamsSync('@app/generated-params/puranas-slugs-parts');
   }
 }
 

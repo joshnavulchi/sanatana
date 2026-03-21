@@ -2,14 +2,7 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
-import { params as generatedParams } from '@app/generated-params/itihasa-ramayana-parts';
-import {
-  RAMAYANA_KANDAS,
-  isRamayanaKandaSlug,
-  parseNumericSuffix,
-  toTitleFromSlug,
-  toUnderscoreSlug,
-} from '../../../itihasa-utils';
+import { loadGeneratedParamsSync, RAMAYANA_KANDAS, isRamayanaKandaSlug, parseNumericSuffix, toTitleFromSlug, toUnderscoreSlug } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };
@@ -19,7 +12,7 @@ export const dynamicParams = false;
 export async function generateStaticParams() {
   // Return the build-time generated params directly to remain compatible with
   // `output: 'export'` and avoid runtime requires.
-  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  const list: any[] = loadGeneratedParamsSync('@app/generated-params/itihasa-ramayana-parts');
   return list
     .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), parts: (p && (p.parts ?? (p.params && p.params.parts))) || [] }))
     .filter((p) => p.slug && Array.isArray(p.parts) && p.parts.length > 0);

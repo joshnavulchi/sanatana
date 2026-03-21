@@ -4,7 +4,7 @@ import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import { headers } from 'next/headers';
 import { detectServerLocaleFromHeaders } from '@lib/i18n';
-import fetchContent from '@lib/fetchContent';
+import { fetchContent } from '@lib/siteUtils';
 import { notFound } from 'next/navigation';
 
 export const generateMetadata = createGenerateMetadata("explore");

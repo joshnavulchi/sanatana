@@ -8,7 +8,7 @@
     "dev": "next dev",
     "prebuild": "npm run lint",
     "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js && node scripts/audit-seo.js --out out --json audit-report.json",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",
     "lint": "eslint --quiet app lib scripts",
@@ -19,7 +19,9 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "readline-sync": "^1.4.10",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "minimist": "^1.2.8"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^16.1.6",

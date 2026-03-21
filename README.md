@@ -240,4 +240,10 @@ This repository uses the OpenSpec experimental workflow to propose, implement, a
 	 - Run `/opsx:apply add-example-page` or `openspec instructions apply --change "add-example-page" --json` and implement tasks.
 	 - Run `npm run check` and mark tasks done. When all done, archive the change.
 
+    npm install
+    npm run build
+    npm run audit:seo
+    # or run the postbuild directly
+    npm run postbuild
+
 If you'd like, I can also add a small template generator that creates the page scaffold and starter locale JSON when you create a new proposal. Ask me to scaffold `openspec/changes/<name>/artifacts` for a new page and I'll generate starter files.

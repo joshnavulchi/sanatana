@@ -1,20 +1,29 @@
-import { parseList } from './parseList';
+// Combined parsing utilities: list and content parsing helpers
+export function parseList(p: any): any[] {
+  if (Array.isArray(p)) return p;
+  if (!p) return [];
+  if (typeof p === 'string') {
+    const s = p.trim();
+    try {
+      const parsed = JSON.parse(s);
+      if (Array.isArray(parsed)) return parsed;
+    } catch (e) { }
+    return s.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  }
+  return [];
+}
 
 export function parseSections(raw: any): any[] {
   if (!raw) return [];
   if (Array.isArray(raw)) return raw;
-  // If it's an object (but not an array), try to convert it to an array
   if (typeof raw === 'object') {
-    // If it has numeric keys, convert to array
     const keys = Object.keys(raw);
     if (keys.every(k => !isNaN(Number(k)))) {
       return Object.values(raw);
     }
-    // Otherwise return as single-item array
     return [raw];
   }
   if (typeof raw === 'string') {
-    // Check if string looks like JSON
     const trimmed = raw.trim();
     if (trimmed.startsWith('[') || trimmed.startsWith('{')) {
       try {
@@ -25,7 +34,6 @@ export function parseSections(raw: any): any[] {
         return parseList(raw);
       }
     }
-    // Try to parse as list if not JSON
     return parseList(raw);
   }
   return [];
@@ -33,11 +41,8 @@ export function parseSections(raw: any): any[] {
 
 export function parseMaybeObject(raw: any): any {
   if (!raw) return raw;
-  // If it's already an object or array, return as-is
   if (typeof raw === 'object') return raw;
-  // Only try to parse if it's a string
   if (typeof raw === 'string') {
-    // Check if string looks like JSON (starts with { or [)
     const trimmed = raw.trim();
     if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
       try {
@@ -51,4 +56,4 @@ export function parseMaybeObject(raw: any): any {
   return raw;
 }
 
-export default { parseSections, parseMaybeObject };
+export default { parseList, parseSections, parseMaybeObject };

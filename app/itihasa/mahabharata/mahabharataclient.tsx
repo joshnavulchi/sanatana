@@ -6,7 +6,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import Loader from '@components/loader';
 import Link from 'next/link';
-import { MAHABHARATA_PARVAS, toTitleFromSlug } from '../itihasa-utils';
+import { MAHABHARATA_PARVAS, toTitleFromSlug } from '@lib/siteUtils';
 
 export const generateMetadata = createGenerateMetadata('itihasa_mahabharata');
 

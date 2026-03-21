@@ -1,7 +1,65 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getLocaleNamespaceObjectAsync, DEFAULT_LOCALE, detectLocale } from './i18n';
 import { secrets } from './secrets';
-import { generateSEO } from './seo';
+
+// Inlined generateSEO from lib/seo.ts to avoid cross-module dependency
+type SEOOptions = {
+  title?: string;
+  description?: string;
+  path?: string;
+  image?: string;
+  keywords?: string[];
+};
+
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, "");
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Sanatana";
+
+function absoluteUrl(path = "/") {
+  if (!path) return SITE_URL + "/";
+  return SITE_URL + (path.startsWith("/") ? path : `/${path}`);
+}
+
+function generateSEO(opts: SEOOptions) {
+  const title = opts.title ? `${opts.title} | ${SITE_NAME}` : SITE_NAME;
+  const description = opts.description || "";
+  const url = absoluteUrl(opts.path || "/");
+
+  const images = opts.image ? [{ url: opts.image }] : undefined;
+
+  const metadata: any = {
+    title,
+    description,
+    metadataBase: new URL(SITE_URL),
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: SITE_NAME,
+      images,
+      type: "website",
+    },
+    twitter: {
+      title,
+      description,
+      images: images ? images.map((i) => String(i.url)) : undefined,
+      card: "summary_large_image",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    alternates: {
+      canonical: url,
+    },
+  };
+
+  if (opts.keywords && opts.keywords.length) {
+    // attach as `other.keywords`
+    metadata.other = { keywords: opts.keywords.join(', ') };
+  }
+
+  return metadata;
+}
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 

@@ -3,10 +3,10 @@ export const revalidate = 60;
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import SlugClient from './slugclient';
-import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '../purana-utils';
+import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '@lib/purana-utils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
-import { params as generatedParams } from '@app/generated-params/puranas-slugs';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 
 const VALID_SLUGS: string[] = [];
 for (const slug of MAHAPURANA_SLUGS) {
@@ -21,9 +21,10 @@ export async function generateStaticParams() {
   // Use the build-time generated params but filter out entries missing locale files.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/puranas-slugs');
     return await filterGeneratedParams(generatedParams, (p: any) => getPuranaOverviewNamespace(normalizePuranaSlug(String(p.slug))));
   } catch (_) {
-    return generatedParams;
+    return loadGeneratedParamsSync('@app/generated-params/puranas-slugs');
   }
 }
 

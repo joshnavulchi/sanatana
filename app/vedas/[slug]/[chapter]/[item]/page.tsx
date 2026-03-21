@@ -1,6 +1,6 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItemClient from './itemclient';
-import { params as generatedParams } from '@app/generated-params/vedas-items';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -33,14 +33,13 @@ function chapterFileKey(slug: string, chapter: string): string {
 export async function generateStaticParams() {
   // Return the build-time generated params directly; avoid runtime requires so
   // this function remains static and compatible with `output: 'export'.
-  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  const list: any[] = loadGeneratedParamsSync('@app/generated-params/vedas-items');
   // Also ensure the parent chapter exists in the generated chapters list —
   // Next static export requires parent params to be present for nested routes.
   let validChapters = new Set<string>();
   try {
     // static import of generated chapters params
-    const chaptersMod = await Promise.resolve().then(() => require('@app/generated-params/vedas-chapters')) as any;
-    const chapterList: any[] = Array.isArray((chaptersMod.params as any)) ? chaptersMod.params : (chaptersMod as any);
+    const chapterList: any[] = loadGeneratedParamsSync('@app/generated-params/vedas-chapters');
     for (const c of chapterList) {
       const s = String((c && (c.slug ?? (c.params && c.params.slug))) || '');
       const ch = String((c && (c.chapter ?? (c.params && c.params.chapter))) || '');

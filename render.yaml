@@ -24,5 +24,6 @@ services:
       node scripts/minify-html.js
       node scripts/add-hash-to-assets.js
       node scripts/generate-post-deploy-audit.js
+        node scripts/audit-seo.js --out out --json audit-report.json
 
     publishPath: out

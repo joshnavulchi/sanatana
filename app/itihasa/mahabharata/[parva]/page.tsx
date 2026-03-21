@@ -3,13 +3,7 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../itihasapartclient';
-import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
-import {
-  MAHABHARATA_PARVAS,
-  isMahabharataParvaSlug,
-  toTitleFromSlug,
-  toUnderscoreSlug,
-} from '../../itihasa-utils';
+import { loadGeneratedParamsSync, MAHABHARATA_PARVAS, isMahabharataParvaSlug, toTitleFromSlug, toUnderscoreSlug } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { parva: string };
@@ -20,9 +14,10 @@ export async function generateStaticParams() {
   // Use generated params but filter by available locale namespace.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/mahabharata-parvas');
     return await filterGeneratedParams(generatedParams, (p: any) => `itihasa_mahabharata_${toUnderscoreSlug(String(p.parva))}`);
   } catch (_) {
-    return generatedParams;
+    return loadGeneratedParamsSync('@app/generated-params/mahabharata-parvas');
   }
 }
 

@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
-import { params as generatedParams } from '@app/generated-params/upanishads';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -19,9 +19,10 @@ export async function generateStaticParams() {
   // Filter build-time generated params to those with locale data.
   try {
     const { filterGeneratedParams, DEFAULT_LOCALE } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    const generatedParams = loadGeneratedParamsSync('@app/generated-params/upanishads');
     return await filterGeneratedParams(generatedParams, (p: any) => `upanishads_${String(p.slug)}`);
   } catch (e) {
-    return generatedParams;
+    return loadGeneratedParamsSync('@app/generated-params/upanishads');
   }
 }
 
