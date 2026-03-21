@@ -812,3 +812,175 @@ IMPORTANT:
 
 Goal:
 Reduce codebase size, improve build performance, and maintain full functionality.
+
+
+You are working on a Next.js (App Router) TypeScript project.
+
+Project structure:
+Content is stored as JSON files in nested folders:
+
+public/data/locales/en/vedas/{veda}/{chapter}/{item}.json
+
+Examples:
+
+* vedas → main page
+* vedas/atharvaveda → slug page
+* vedas/atharvaveda/book1 → chapter page
+* vedas/atharvaveda/book1/hymn.json → item page
+
+Goal:
+Update all `.tsx` pages to dynamically load and render JSON content based on the current route.
+
+IMPORTANT RULES:
+
+* DO NOT import JSON files directly
+* Use runtime fetching (fetch API)
+* Use `useLocale()` to get current locale
+* Use `useLocaleSection()` only for fallback UI text (not main content)
+* Handle missing files gracefully (no crashes)
+
+---
+
+1. CREATE GENERIC DATA LOADER
+
+---
+
+Create a helper:
+
+getContentPath(locale, segments: string[])
+
+It should return:
+`/data/locales/${locale}/${segments.join('/')}.json`
+
+Example:
+segments = ['vedas','atharvaveda','book1','hymn']
+→ /data/locales/en/vedas/atharvaveda/book1/hymn.json
+
+---
+
+2. FETCH DATA IN PAGE
+
+---
+
+In each page.tsx:
+
+* Get params from route
+* Build path segments dynamically
+* Fetch JSON:
+
+const res = await fetch(contentPath, { cache: 'force-cache' });
+
+If file does not exist:
+
+* return notFound()
+
+---
+
+3. ROUTE HANDLING
+
+---
+
+A. Main Page (/vedas)
+
+* Load directory listing OR index JSON if exists
+* Show list of vedas (folders)
+
+B. Slug Page (/vedas/[slug])
+
+* List chapters inside slug folder
+* OR render slug-level JSON if exists
+
+C. Chapter Page (/vedas/[slug]/[chapter])
+
+* List items OR render chapter JSON
+
+D. Item Page (/vedas/[slug]/[chapter]/[item])
+
+* Load specific JSON file
+* Render full content
+
+---
+
+4. DYNAMIC SEGMENTS SUPPORT
+
+---
+
+Use catch-all route:
+
+[...segments]
+
+Example:
+params.segments = ['atharvaveda','book1','hymn']
+
+---
+
+5. SAFE RENDERING
+
+---
+
+* Use optional chaining:
+  data?.title ?? 'Untitled'
+
+* Render:
+  title
+  description
+  content/body
+
+---
+
+6. FALLBACK HANDLING
+
+---
+
+If JSON not found:
+
+* try loading folder index
+* else return notFound()
+
+---
+
+7. UI STRUCTURE
+
+---
+
+* Title
+* Breadcrumb (based on segments)
+* Content
+* List of child items (if folder)
+
+---
+
+8. PERFORMANCE
+
+---
+
+* Use:
+  cache: 'force-cache'
+* Avoid loading unnecessary files
+
+---
+
+9. OUTPUT EXPECTATION
+
+---
+
+Provide:
+
+* Updated page.tsx for:
+
+  * main page
+  * dynamic catch-all page
+* Helper function for path building
+* Example rendering logic
+
+---
+
+## IMPORTANT
+
+* DO NOT use fs in client components
+* DO NOT import JSON directly
+* DO NOT break static export compatibility
+* Keep code clean and reusable
+
+Goal:
+Render correct JSON content dynamically based on route hierarchy, with robust fallback and clean UI.

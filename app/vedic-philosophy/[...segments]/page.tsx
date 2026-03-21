@@ -1,4 +1,3 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import PageLayout from '@components/common/PageLayout';
@@ -8,23 +7,34 @@ import { detectServerLocaleFromHeaders } from '@lib/i18n';
 import fetchContent from '@lib/fetchContent';
 import { notFound } from 'next/navigation';
 
-export const generateMetadata = createGenerateMetadata('upanishads');
+export const generateMetadata = createGenerateMetadata('vedic_philosophy_structure');
 
-export default async function Page() {
+type Props = { params: { segments?: string[] } };
+
+export default async function Page({ params }: Props) {
+  const rawSegments = Array.isArray(params?.segments) ? params!.segments : [];
+  const segments = ['vedic-philosophy', ...rawSegments];
   const locale = detectServerLocaleFromHeaders(headers());
-  const { data } = await fetchContent(locale, ['upanishads']);
+
+  const { data } = await fetchContent(locale, segments);
   if (!data) return notFound();
 
-  const title = (data as any)?.title ?? 'Upanishads';
+  const title = (data as any)?.title ?? (rawSegments[rawSegments.length - 1] ?? 'Untitled');
   const description = (data as any)?.description ?? '';
   const body = (data as any)?.content ?? (data as any)?.body ?? '';
   const children = Array.isArray((data as any).items) ? (data as any).items : Array.isArray((data as any).children) ? (data as any).children : [];
 
+  const crumbs = [{ label: 'Home', href: '/' }, { label: 'Vedic Philosophy', href: '/vedic-philosophy' }];
+  let accum: string[] = [];
+  for (const s of rawSegments) {
+    accum.push(s);
+    crumbs.push({ label: s, href: `/vedic-philosophy/${accum.join('/')}` });
+  }
+
   return (
     <>
-      <StructuredData metaKey="upanishads" />
-      <PageLayout metaKey="upanishads" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
-
+      <StructuredData metaKey="vedic_philosophy_structure" />
+      <PageLayout metaKey="vedic_philosophy_structure" title={title} breadcrumbs={crumbs} className="layout-md">
         <header className="mb-6">
           <h1 className="text-3xl font-extrabold">{title}</h1>
           {description && <p className="text-md text-muted mt-2">{description}</p>}
@@ -42,8 +52,8 @@ export default async function Page() {
             <ul className="space-y-2">
               {children.map((c: any, i: number) => {
                 const slug = typeof c === 'string' ? c : c?.slug || c?.id || c?.name;
-                const label = (typeof c === 'string' ? c : c?.title || c?.name || String(slug)) || `Item {i + 1}`;
-                const href = `/upanishads/${String(slug)}`;
+                const label = (typeof c === 'string' ? c : c?.title || c?.name || String(slug)) || `Item ${i + 1}`;
+                const href = `/vedic-philosophy/${[...rawSegments, String(slug)].join('/')}`;
                 return (
                   <li key={i}>
                     <Link href={href} className="text-primary-600 hover:underline">{label}</Link>
@@ -58,4 +68,3 @@ export default async function Page() {
     </>
   );
 }
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
