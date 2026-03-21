@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 // API route stub to satisfy Next build during static export.
 // Original implementation preserved in `app/_api_disabled`.
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   return new Response(JSON.stringify({}), {
@@ -18,10 +18,5 @@ export async function DELETE() {
 }
 
 // Provide a minimal set of static params so the exporter can generate a static path.
-export async function generateStaticParams() {
-  const out = [{ id: 'placeholder' }];
-  return out
-    .filter((i) => i && i.id !== undefined && i.id !== null)
-    .map((i) => ({ id: String(i.id) }));
-}
+// Removed generateStaticParams — API is dynamic
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

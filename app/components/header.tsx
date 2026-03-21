@@ -375,7 +375,7 @@ export default function Header() {
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
-      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8 py-1 sm:py-3 shadow-2xl">
+      <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}
         <h1 className="m-0 p-0">
           <Link href="/" className="flex items-center gap-2 group">

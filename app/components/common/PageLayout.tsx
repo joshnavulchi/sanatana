@@ -93,7 +93,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             type="button"
             onClick={togglePanel}
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
-            className="fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
             <span className="flex flex-col items-center gap-1">
               <svg

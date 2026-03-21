@@ -97,20 +97,20 @@ export default function TermsOfService() {
 
         {/* Acceptance section */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h2 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-3xl">✅</span>
             {page.acceptancetitle}
           </h2>
-          <p className=" leading-relaxed">{page.intro}</p>
+          <p className="leading-relaxed">{page.intro}</p>
         </section>
 
         {/* Use License */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h3 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📜</span>
             {page.uselicensetitle}
           </h3>
-          <p className=" leading-relaxed mb-4">{page.uselicensetext}</p>
+          <p className="leading-relaxed mb-4">{page.uselicensetext}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4].map((i) => {
               const item = renderListItem(page.uselicenselist, i);
@@ -126,20 +126,20 @@ export default function TermsOfService() {
 
         {/* Intellectual Property */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h4 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">©️</span>
             {page.intellectualtitle}
           </h4>
-          <p className=" leading-relaxed">{page.intellectualtext}</p>
+          <p className="leading-relaxed">{page.intellectualtext}</p>
         </section>
 
         {/* User Conduct */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h5 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👤</span>
             {page.userconducttitle}
           </h5>
-          <p className=" leading-relaxed mb-4">{page.userconductintro}</p>
+          <p className="leading-relaxed mb-4">{page.userconductintro}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4, 5].map((i) => {
               const item = renderListItem(page.userconductlist, i);
@@ -155,11 +155,11 @@ export default function TermsOfService() {
 
         {/* Disclaimer */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-4 md:p-8 shadow-lg">
-          <h6 className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h6 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚠️</span>
             {page.disclaimertitle}
           </h6>
-          <p className=" leading-relaxed mb-4">{page.disclaimertext}</p>
+          <p className="leading-relaxed mb-4">{page.disclaimertext}</p>
           <ul role="list" className="space-y-3 mb-4">
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
@@ -171,7 +171,7 @@ export default function TermsOfService() {
               ) : null;
             })}
           </ul>
-          <p className=" leading-relaxed">{page.disclaimerclosing}</p>
+          <p className="leading-relaxed">{page.disclaimerclosing}</p>
         </section>
 
         {/* Other sections in card format */}
@@ -185,27 +185,27 @@ export default function TermsOfService() {
           { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
         ].map((section, idx) => (
           <section key={idx} className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-            <p className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+            <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
               <span className="text-2xl">{section.icon}</span>
               {section.title}
             </p>
-            <p className=" leading-relaxed">{section.text}</p>
+            <p className="leading-relaxed">{section.text}</p>
           </section>
         ))}
 
         {/* Contact section */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <p className="text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📞</span>
             {page.contacttitle}
           </p>
-          <p className=" leading-relaxed mb-4">{page.contacttext}</p>
+          <p className="leading-relaxed mb-4">{page.contacttext}</p>
           <div className="space-y-2 ">
             <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
             <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
             <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
           </div>
-          <p className=" leading-relaxed mt-6 pt-4 border-t border-amber-300">{page.closing}</p>
+          <p className="leading-relaxed mt-6 pt-4 border-t border-amber-300">{page.closing}</p>
         </section>
       </div>
     </PageLayout>

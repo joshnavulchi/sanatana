@@ -70,9 +70,7 @@ const nextConfig = {
     // Enable optimized resource loading hints
     // optimizePackageImports: ['react', 'react-dom'],
   },
-  // This app is statically exported. `output: 'export'` and `trailingSlash: true`
-  // are set to produce a static site suitable for static hosts.
-  output: 'export',
+  // Static export removed to allow dynamic routes and server rendering.
   trailingSlash: true,
   images: {
     // Disable Next Image optimization for static export / GitHub Pages

@@ -1141,3 +1141,191 @@ Provide:
 
 Goal:
 Ensure every page in the static build is SEO-ready and indexable by Google.
+
+
+
+
+You are working on a Next.js (App Router) TypeScript project with a large content system (Vedas, Itihasa, etc.) stored as JSON files.
+
+Problem:
+The app uses multiple dynamic routes ([slug], [id], [...segments]) and static export, causing:
+
+* build failures (missing generateStaticParams)
+* memory issues
+* complex routing logic
+
+Goal:
+Refactor the entire routing system into a SINGLE universal dynamic route using `[...segments]`, driven by file-based JSON content.
+
+---
+
+1. REMOVE STATIC EXPORT
+
+---
+
+In next.config.ts:
+
+* Remove:
+  output: 'export'
+
+---
+
+2. CREATE SINGLE ROUTE
+
+---
+
+Create:
+
+app/[...segments]/page.tsx
+
+This route will handle ALL pages:
+
+* /vedas
+* /vedas/rigveda
+* /vedas/rigveda/madala1
+* /vedas/rigveda/madala1/hymn
+
+---
+
+3. DELETE OLD ROUTES
+
+---
+
+Remove:
+
+* app/vedas/page.tsx
+* app/vedas/[slug]/page.tsx
+* app/vedas/[slug]/[chapter]/page.tsx
+* any other nested dynamic routes
+
+Ensure only `[...segments]` remains.
+
+---
+
+4. BUILD CONTENT RESOLVER
+
+---
+
+Create utility:
+
+resolveContent(segments: string[], locale: string)
+
+Behavior:
+
+* Map URL segments → JSON file path
+
+Example:
+
+['vedas','rigveda','madala1','hymn']
+→ /public/data/locales/en/vedas/rigveda/madala1/hymn.json
+
+---
+
+5. FETCH CONTENT
+
+---
+
+Inside page.tsx:
+
+* Get params.segments
+* Get locale using useLocale()
+* Build path
+* Fetch JSON:
+
+const res = await fetch(path, { cache: 'force-cache' });
+
+---
+
+6. FALLBACK HANDLING
+
+---
+
+If JSON exists:
+
+* Render content page
+
+If JSON does NOT exist:
+
+* Treat as folder
+* List child folders/files
+
+If neither:
+
+* return notFound()
+
+---
+
+7. UI STRUCTURE
+
+---
+
+Render:
+
+* Breadcrumb (based on segments)
+* Title
+* Content
+* Children list (if folder)
+
+---
+
+8. SEO SUPPORT
+
+---
+
+Add generateMetadata():
+
+* title from JSON
+* description from JSON
+* canonical from segments
+
+---
+
+9. PERFORMANCE
+
+---
+
+* Use cache: 'force-cache'
+* Avoid loading unnecessary files
+* No large imports
+
+---
+
+10. REMOVE generateStaticParams
+
+---
+
+* DO NOT use generateStaticParams anywhere
+* This system must work without it
+
+---
+
+11. ENSURE CLEAN ARCHITECTURE
+
+---
+
+* No duplicate routing logic
+* Single source of truth (file system)
+* Minimal complexity
+
+---
+
+## OUTPUT EXPECTATION
+
+Provide:
+
+* app/[...segments]/page.tsx (complete)
+* resolveContent utility
+* example rendering logic
+* example metadata function
+
+---
+
+## IMPORTANT
+
+* Must work without static export
+* Must handle large datasets
+* Must not crash on missing data
+* Must be scalable for 1000+ pages
+
+Goal:
+Create a universal, scalable routing system driven entirely by JSON content and URL segments.

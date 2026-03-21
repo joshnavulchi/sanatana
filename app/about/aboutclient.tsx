@@ -76,7 +76,7 @@ export default function AboutClient() {
                     transition-transform duration-300">
                       {icon}
                     </div>
-                    <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
+                    <Tag className="flex-1 text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
                       {section.title}
                     </Tag>
                   </div>
