@@ -33,7 +33,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
 
       {/* Animated decorative elements */}
       <div className="hidden! absolute top-1/4 right-1/4 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
-      <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }} />
+      <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse anim-delay-1500" />
 
       {/* Content Container */}
       <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 md:px-0 md:py-0 transition-all duration-1000 ease-out

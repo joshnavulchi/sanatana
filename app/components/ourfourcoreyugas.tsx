@@ -59,9 +59,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-        }`}
-      style={{ transitionDelay: `${index * 160}ms` }}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
       {/* Top accent bar */}
       <div className={`h-1.5 w-full bg-linear-to-r ${tone.accent}`} />

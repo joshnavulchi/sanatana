@@ -90,15 +90,15 @@ export default function SlugClient({ slug }: { slug: string }) {
   return (
     <PageLayout metaKey={`puranas_${slug}`} title={displayTitle} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Puranas', href: '/puranas' }, { label: displayTitle }]} className="layout-md">
       {description && (
-        <div className="relative px-4 md:px-6 py-4 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
-          <p className="text-lg text-[#5b2d12]">{description}</p>
+        <div className="relative px-4 md:px-6 py-4 md:py-12 bg-amber-50 rounded-2xl border border-amber-200/30 overflow-hidden mb-8">
+          <p className="text-lg body-text">{description}</p>
         </div>
       )}
 
       {introduction && (
-        <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
-          <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
+        <div className="relative px-4 md:px-6 py-4 md:py-10 bg-amber-50 rounded-2xl border border-amber-200/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <h2 className="section-title mb-4">Introduction</h2>
+          <div className="body-text">
             <Paragraphs text={introduction} />
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function SlugClient({ slug }: { slug: string }) {
 
       {scriptureSections.length > 0 && (
         <div className="mt-10">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">Key Sections</h2>
+          <h2 className="section-title mb-6">Key Sections</h2>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard
@@ -123,10 +123,10 @@ export default function SlugClient({ slug }: { slug: string }) {
       )}
 
       {philosophical && (
-        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
-          <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
+        <div className="mt-10 relative overflow-hidden rounded-3xl border border-amber-200/30 p-4 md:p-8 bg-amber-50 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
+          <h2 className="section-title mb-4">Philosophical Explanation</h2>
+          <div className="body-text">
             <Paragraphs text={philosophical} />
           </div>
         </div>
@@ -143,10 +143,10 @@ export default function SlugClient({ slug }: { slug: string }) {
                 <Link
                   key={skandaNumber}
                   href={`/puranas/${slug}/skanda-${skandaNumber}/chapter-1`}
-                  className="group block rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
+                  className="group block rounded-2xl border border-amber-200/40 bg-amber-50 p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
                 >
-                  <h3 className="text-lg font-bold text-[#3d2e22] group-hover:text-[#92400e]">{skandaTitle}</h3>
-                  <p className="text-sm text-[#6b5d4f] mt-1">Open chapters</p>
+                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600">{skandaTitle}</h3>
+                  <p className="meta-text mt-1">Open chapters</p>
                 </Link>
               );
             })}
@@ -165,10 +165,10 @@ export default function SlugClient({ slug }: { slug: string }) {
                 <Link
                   key={chapterNumber}
                   href={`/puranas/${slug}/chapter-${chapterNumber}`}
-                  className="group block rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
+                  className="group block rounded-2xl border border-amber-200/40 bg-amber-50 p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
                 >
-                  <h3 className="text-lg font-bold text-[#3d2e22] group-hover:text-[#92400e]">{chapterTitle}</h3>
-                  <p className="text-sm text-[#6b5d4f] mt-1">Open verses</p>
+                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600">{chapterTitle}</h3>
+                  <p className="meta-text mt-1">Open verses</p>
                 </Link>
               );
             })}

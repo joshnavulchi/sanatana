@@ -64,8 +64,7 @@ export default function UnderstandingOfSanatana() {
         {sections.map((section, sectionIndex) => (
           <div
             key={section.id}
-            className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
-            style={{ transitionDelay: `${sectionIndex * 120}ms` }}
+            className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'} delay-[${sectionIndex * 120}ms]`}
           >
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-4">{section.title}</h3>

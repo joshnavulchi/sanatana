@@ -182,10 +182,7 @@ export default function RiversConnectingClient() {
 
                                 {/* Duration bar */}
                                 <div className="mt-3 h-2 bg-gray-100 rounded-full overflow-hidden">
-                                  <div
-                                    className={`h-full ${phaseStyle.bg} rounded-full animate-pulse`}
-                                    style={{ width: '100%' }}
-                                  />
+                                  <div className={`h-full ${phaseStyle.bg} rounded-full animate-pulse w-full`} />
                                 </div>
                               </div>
                             </div>
@@ -200,7 +197,7 @@ export default function RiversConnectingClient() {
                     </div>
 
                     {/* Project completion indicator */}
-                            <div className="ml-7 pl-8 mt-3">
+                    <div className="ml-7 pl-8 mt-3">
                       <div className={`inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r ${color.primary} text-white rounded-full shadow-lg text-base md:text-md font-semibold`}>
                         <span>✓</span>
                         <span>Project Timeline Complete</span>

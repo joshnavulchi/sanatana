@@ -72,14 +72,13 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       {/* Background Images with Overlay */}
       <div className="absolute inset-0">
         <Image
-          className="block md:hidden"
+          className="block md:hidden object-cover bg-top"
           src="/images/home/mobile-hero.png"
           alt="Sanātana Dharma hero background"
           fill
           sizes="100vw"
           priority
           quality={90}
-          style={{ objectFit: 'cover', backgroundPosition: 'top center' }}
           unoptimized
         />
         {/* Desktop: video + fallback image (added video element) */}
@@ -102,7 +101,6 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             sizes="100vw"
             priority
             quality={90}
-            style={{ objectFit: 'cover', backgroundPosition: 'top center' }}
             unoptimized
           />
         </div>
@@ -113,7 +111,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
       {/* Animated decorative elements */}
       <div className="absolute top-20 right-10 w-32 h-32 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+      <div className="absolute bottom-20 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl animate-pulse anim-delay-1000" />
 
       {/* Content Container */}
       <div className="relative z-8 md:mx-auto md:max-w-6xl flex items-center">
@@ -149,8 +147,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Decorative dots */}
               <div className="flex gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-                <div className="w-2 h-2 rounded-full bg-orange-400 animate-pulse" style={{ animationDelay: '150ms' }} />
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" style={{ animationDelay: '300ms' }} />
+                <div className="w-2 h-2 rounded-full bg-orange-400 animate-pulse anim-delay-150" />
+                <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse anim-delay-300" />
               </div>
             </div>
 

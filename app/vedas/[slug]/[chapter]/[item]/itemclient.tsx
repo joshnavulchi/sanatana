@@ -84,44 +84,44 @@ export default function ItemClient({ slug, chapter, item }: { slug: string; chap
 
   return (
     <PageLayout metaKey="vedas" title={title} breadcrumbs={breadcrumbs} className="layout-md">
-      <section className="rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-3">{title}</h1>
-        <p className="text-sm font-semibold text-[#8b6914]">{chapterLabel} • {detailLabel} {itemNum}</p>
+      <section className="rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
+        <h1 className="page-title mb-3">{title}</h1>
+        <p className="meta-text">{chapterLabel} • {detailLabel} {itemNum}</p>
       </section>
 
       {introduction && (
-        <section className="mt-8 rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Introduction</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={introduction} /></div>
+        <section className="mt-8 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Introduction</h2>
+          <div className="body-text"><Paragraphs text={introduction} /></div>
         </section>
       )}
 
       {scriptureText && (
-        <section className="mt-6 rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Scripture Text</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={scriptureText} /></div>
+        <section className="mt-6 rounded-2xl border border-amber-200/50 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Scripture Text</h2>
+          <div className="body-text"><Paragraphs text={scriptureText} /></div>
         </section>
       )}
 
       {philosophicalExplanation && (
-        <section className="mt-6 rounded-2xl border border-[#e0a632]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Philosophical Significance</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={philosophicalExplanation} /></div>
+        <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Philosophical Significance</h2>
+          <div className="body-text"><Paragraphs text={philosophicalExplanation} /></div>
         </section>
       )}
 
       <nav className="mt-8 flex items-center justify-between gap-4">
         {itemNum > 1 ? (
-          <Link href={`/vedas/${slug}/${chapter}/${item.replace(/\d+$/, String(itemNum - 1))}`} className="text-sm font-semibold text-[#7a2e1f] hover:text-[#92400e]">
+          <Link href={`/vedas/${slug}/${chapter}/${item.replace(/\d+$/, String(itemNum - 1))}`} className="text-sm font-semibold text-primary-600 hover:text-primary-700">
             ← {detailLabel} {itemNum - 1}
           </Link>
         ) : <span />}
 
-        <Link href={`/vedas/${slug}/${chapter}`} className="text-xs font-bold uppercase tracking-widest text-[#a89278] hover:text-[#92400e]">
+        <Link href={`/vedas/${slug}/${chapter}`} className="text-xs font-bold uppercase tracking-widest text-amber-600 hover:text-amber-700">
           Back to {chapterLabel}
         </Link>
 
-        <Link href={`/vedas/${slug}/${chapter}/${item.replace(/\d+$/, String(itemNum + 1))}`} className="text-sm font-semibold text-[#7a2e1f] hover:text-[#92400e]">
+        <Link href={`/vedas/${slug}/${chapter}/${item.replace(/\d+$/, String(itemNum + 1))}`} className="text-sm font-semibold text-primary-600 hover:text-primary-700">
           {detailLabel} {itemNum + 1} →
         </Link>
       </nav>

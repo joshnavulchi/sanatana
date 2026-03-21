@@ -253,7 +253,7 @@ export default function SlugClient({ slug }: { slug: string }) {
     <PageLayout metaKey={cfg.fileKey} title={title} breadcrumbs={breadcrumbs} className="layout-md">
 
       {/* ═══════════ Hero Section ═══════════ */}
-      <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
+      <section className="relative overflow-hidden rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
         {/* Warm glow blobs */}
         <div className="absolute top-0 right-0 w-72 h-72 bg-[#f59e0b]/10 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#c2410c]/8 rounded-full blur-[120px] pointer-events-none" />
@@ -266,7 +266,7 @@ export default function SlugClient({ slug }: { slug: string }) {
           </div>
 
           {description && (
-            <p className="text-lg md:text-xl text-[#5b2d12] leading-relaxed italic font-medium">{description}</p>
+            <p className="text-lg md:text-xl body-text italic font-medium">{description}</p>
           )}
         </div>
       </section>
@@ -275,11 +275,9 @@ export default function SlugClient({ slug }: { slug: string }) {
       {introduction && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-6`}>
-              Introduction
-            </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed">
+          <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+            <h2 className="section-title mb-6">Introduction</h2>
+            <div className="body-text">
               <Paragraphs text={introduction} />
             </div>
           </section>
@@ -291,9 +289,7 @@ export default function SlugClient({ slug }: { slug: string }) {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c] bg-clip-text text-transparent mb-8 text-center">
-              Scripture &amp; Teachings
-            </h2>
+            <h2 className="section-title mb-8 text-center">Scripture &amp; Teachings</h2>
             <div className="space-y-6">
               {scriptureText.map((item: Record<string, unknown>, i: number) => (
                 <ScriptureSection
@@ -314,11 +310,9 @@ export default function SlugClient({ slug }: { slug: string }) {
       {philosophicalExplanation && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-6`}>
-              Philosophical Foundations
-            </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed">
+          <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+            <h2 className="section-title mb-6">Philosophical Foundations</h2>
+            <div className="body-text">
               <Paragraphs text={philosophicalExplanation} />
             </div>
           </section>
@@ -330,9 +324,7 @@ export default function SlugClient({ slug }: { slug: string }) {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#8b6914] via-[#b8952e] to-[#e0a632] bg-clip-text text-transparent mb-8 text-center">
-              {cfg.deitiesLabel}
-            </h2>
+            <h2 className="section-title mb-8 text-center">{cfg.deitiesLabel}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {deities.map((d: Record<string, unknown>, i: number) => (
                 <DeityCard
@@ -353,9 +345,7 @@ export default function SlugClient({ slug }: { slug: string }) {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-8 text-center`}>
-              {cfg.chaptersLabel}
-            </h2>
+            <h2 className="section-title mb-8 text-center">{cfg.chaptersLabel}</h2>
             <div className="space-y-4">
               {chapters.map((item: Record<string, unknown>, i: number) => (
                 <ChapterRow

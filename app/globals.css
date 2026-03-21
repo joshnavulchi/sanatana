@@ -20,8 +20,7 @@ body,
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: theme('colors.gray.700');
-  background-color: white;
+  @apply bg-white text-gray-700 antialiased;
 }
 
 /* Utility: content container used across components */
@@ -43,6 +42,48 @@ body {
 /* Smooth transitions */
 .ui-transition {
   transition: all 200ms ease
+}
+
+/* Custom animation delay utilities used across components (mobile-first, small set) */
+.anim-delay-0 {
+  animation-delay: 0ms !important
+}
+
+.anim-delay-150 {
+  animation-delay: 150ms !important
+}
+
+.anim-delay-300 {
+  animation-delay: 300ms !important
+}
+
+.anim-delay-1000 {
+  animation-delay: 1000ms !important
+}
+
+.anim-delay-1500 {
+  animation-delay: 1500ms !important
+}
+
+/* Typography system enforcement (utility classes used throughout components) */
+.page-title {
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900
+}
+
+.section-title {
+  @apply text-lg sm:text-xl md:text-2xl font-semibold text-gray-900
+}
+
+.subtitle {
+  @apply text-base sm:text-lg text-gray-600
+}
+
+.body-text {
+  @apply text-gray-700 leading-relaxed
+}
+
+.meta-text {
+  @apply text-sm text-gray-500
 }
 
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

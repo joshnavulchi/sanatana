@@ -102,9 +102,9 @@ export default function WelcomePage() {
 
               {/* Divider */}
               <div className="flex items-center justify-center gap-2 py-4">
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce" style={{ animationDelay: '0ms' }} />
-                <div className="w-2 h-2 rounded-full bg-orange-400 animate-bounce" style={{ animationDelay: '150ms' }} />
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce" style={{ animationDelay: '300ms' }} />
+                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-0" />
+                <div className="w-2 h-2 rounded-full bg-orange-400 animate-bounce anim-delay-150" />
+                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-300" />
               </div>
 
               {/* Main message */}
@@ -156,7 +156,6 @@ export default function WelcomePage() {
                 <button
                   onClick={handleClose}
                   className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold border border-amber-600 shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
-                  style={{ WebkitBackdropFilter: 'blur(12px)', backdropFilter: 'blur(12px)' }}
                 >
                   <span className="relative z-10 tracking-widest text-base select-none">Close</span>
                 </button>

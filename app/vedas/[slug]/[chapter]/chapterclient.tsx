@@ -326,14 +326,14 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
     <PageLayout metaKey={fileKey} title={pageTitle} breadcrumbs={breadcrumbs} className="layout-md">
 
       {/* ═══════════ Hero ═══════════ */}
-      <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
+      <section className="relative overflow-hidden rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
         <div className="absolute top-0 right-0 w-72 h-72 bg-[#f59e0b]/10 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#c2410c]/8 rounded-full blur-[120px] pointer-events-none" />
 
         <div className="relative z-10">
           {/* Badge + Icon */}
           <div className="flex items-center gap-4 mb-6">
-            <span className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border-2 ${cfg.borderAccent} bg-[#fffaf3] text-2xl shadow-[0_4px_20px_rgba(122,46,31,0.12)]`}>
+            <span className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border-2 ${cfg.borderAccent} bg-amber-50 text-2xl shadow-[0_4px_20px_rgba(122,46,31,0.12)]`}>
               {cfg.icon}
             </span>
             <div>
@@ -348,21 +348,17 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
           </div>
 
           {/* Title + stats */}
-          <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-3">{pageTitle}</h1>
+          <h1 className="page-title mb-3">{pageTitle}</h1>
           {descriptionFromJson && (
-            <p className="text-base text-[#6b5d4f] leading-relaxed max-w-3xl">
+            <p className="body-text max-w-3xl">
               {descriptionFromJson}
             </p>
           )}
           {hymns.length > 0 && (
-            <p className="text-base text-[#6b5d4f] mt-3">
-              {hymns.length} Hymns in this {cfg.itemLabel}
-            </p>
+            <p className="meta-text mt-3">{hymns.length} Hymns in this {cfg.itemLabel}</p>
           )}
           {cfg.mode === 'from-main' && totalItems > 0 && (
-            <p className="text-base text-[#6b5d4f] mt-3">
-              {totalItems} {cfg.itemLabel}s in {vedaTitle}
-            </p>
+            <p className="meta-text mt-3">{totalItems} {cfg.itemLabel}s in {vedaTitle}</p>
           )}
         </div>
       </section>
@@ -372,9 +368,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
         <>
           <OrnamentDivider />
           <section>
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-8 text-center`}>
-              {cfg.mode === 'from-main' ? (cfg.detailItemLabel || 'Items') : 'Hymns'} of {cfg.itemLabel} {chapterNum}
-            </h2>
+            <h2 className="section-title mb-8 text-center">{cfg.mode === 'from-main' ? (cfg.detailItemLabel || 'Items') : 'Hymns'} of {cfg.itemLabel} {chapterNum}</h2>
             <div className="space-y-3">
               {detailItems.map((hymn, i) => {
                 const itemNum = Number(hymn.hymn_number ?? hymn.mantra_number ?? (i + 1));

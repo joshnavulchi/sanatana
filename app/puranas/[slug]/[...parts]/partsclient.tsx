@@ -82,39 +82,39 @@ export default function PartsClient({ slug, parts }: { slug: string; parts: stri
 
   return (
     <PageLayout metaKey={namespace} title={title} breadcrumbs={breadcrumbs} className="layout-md">
-      <section className="rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-2">{title}</h1>
-        {description && <p className="text-base text-[#6b5d4f]">{description}</p>}
+      <section className="rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
+        <h1 className="page-title mb-2">{title}</h1>
+        {description && <p className="body-text">{description}</p>}
       </section>
 
       {introduction && (
-        <section className="mt-6 rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Introduction</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={introduction} /></div>
+        <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Introduction</h2>
+          <div className="body-text"><Paragraphs text={introduction} /></div>
         </section>
       )}
 
       {scriptureText && (
-        <section className="mt-6 rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Text</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={scriptureText} /></div>
+        <section className="mt-6 rounded-2xl border border-amber-200/50 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Text</h2>
+          <div className="body-text"><Paragraphs text={scriptureText} /></div>
         </section>
       )}
 
       {scriptureSections && scriptureSections.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Text</h2>
+          <h2 className="section-title">Text</h2>
           <div className="space-y-6">
             {scriptureSections.map((item, idx) => {
               if (!item) return null;
-              if (typeof item === 'string') return <div key={idx} className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={item} /></div>;
+              if (typeof item === 'string') return <div key={idx} className="body-text"><Paragraphs text={item} /></div>;
               const obj = item as Record<string, any>;
               const sectionTitle = typeof obj.section === 'string' ? obj.section : '';
               const content = typeof obj.content === 'string' ? obj.content : (typeof obj.text === 'string' ? obj.text : '');
               return (
-                <div key={idx} className="rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
-                  {sectionTitle && <h3 className="text-base font-semibold text-[#3d2e22] mb-2">{sectionTitle}</h3>}
-                  {content && <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={content} /></div>}
+                <div key={idx} className="rounded-2xl border border-amber-200/50 bg-amber-50 p-5 md:p-6">
+                  {sectionTitle && <h3 className="text-base font-semibold text-gray-900 mb-2">{sectionTitle}</h3>}
+                  {content && <div className="body-text"><Paragraphs text={content} /></div>}
                 </div>
               );
             })}
@@ -123,9 +123,9 @@ export default function PartsClient({ slug, parts }: { slug: string; parts: stri
       )}
 
       {philosophical && (
-        <section className="mt-6 rounded-2xl border border-[#e0a632]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Philosophical Explanation</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={philosophical} /></div>
+        <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
+          <h2 className="section-title">Philosophical Explanation</h2>
+          <div className="body-text"><Paragraphs text={philosophical} /></div>
         </section>
       )}
 
@@ -135,7 +135,7 @@ export default function PartsClient({ slug, parts }: { slug: string; parts: stri
             href={slug === 'bhagavata'
               ? `/puranas/${slug}/skanda-${skandaNum}/chapter-${chapterNum}/verse-1`
               : `/puranas/${slug}/chapter-${chapterNum}/verse-1`}
-            className="text-sm font-semibold text-[#7a2e1f] hover:text-[#92400e]"
+            className="text-sm font-semibold text-primary-600 hover:text-primary-700"
           >
             Open Verse 1 →
           </Link>

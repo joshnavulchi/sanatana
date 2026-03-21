@@ -113,12 +113,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-colors duration-150 hover:bg-amber-50"
+        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-all duration-200 text-gray-600 hover:text-primary-600"
       >
         <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
           ◈
         </span>
-        <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700 group-hover/item:text-amber-700'}`}>
+        <span className={`text-sm font-semibold transition-all duration-200 ${isActive(item.href) ? 'text-primary-600' : 'text-gray-700 group-hover/item:text-primary-600'}`}>
           {item.label}
         </span>
       </Link>
@@ -201,7 +201,7 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-gray-800 font-medium cursor-pointer transition-colors duration-200 hover:bg-amber-50 hover:text-amber-700">
+      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-base font-semibold text-gray-900 cursor-pointer transition-all duration-200 hover:bg-white/50 hover:text-primary-600">
         <span className="text-base">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -247,11 +247,11 @@ function MobileNavSection({ section, isActive, onNavigate }: {
       <button
         type="button"
         onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
-        className="w-full flex items-center gap-2 rounded-xl bg-linear-to-r from-[#fde7c7]/80 to-transparent px-4 py-2 mb-1 cursor-pointer"
+        className="w-full flex items-center gap-2 rounded-xl bg-white px-4 py-2 mb-1 cursor-pointer"
         aria-expanded={expanded}
       >
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <span className="text-xl font-black tracking-wide text-[#7a2e1f]">{section.title}</span>
+        <span className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">{section.title}</span>
         <div className="ml-auto flex items-center">
           <svg
             className={`h-4 w-4 text-[#b45309] transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
@@ -389,7 +389,7 @@ export default function Header() {
                   className="md:flex"
                 />
               </span>
-              <span className="max-w-50 md:max-w-100 text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              <span className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
                 {siteTitle}
               </span>
             </Link>

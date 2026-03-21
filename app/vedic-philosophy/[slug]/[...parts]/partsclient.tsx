@@ -65,39 +65,33 @@ export default function PartsClient({ topic, subtopic }: { topic: string; subtop
       ]}
       className="layout-md"
     >
-      <section className="rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-4 md:p-10">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-2">{title}</h1>
-        {description && <p className="text-base text-[#6b5d4f]">{description}</p>}
+      <section className="rounded-3xl border border-amber-200/30 bg-amber-50 p-4 md:p-10">
+        <h1 className="page-title mb-2">{title}</h1>
+        {description && <p className="body-text">{description}</p>}
       </section>
 
       {introduction && (
-        <section className="mt-6 rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf3] p-4 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">
-            Introduction
-          </h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed">
+        <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-4 md:p-6">
+          <h2 className="section-title">Introduction</h2>
+          <div className="body-text">
             <Paragraphs text={introduction} />
           </div>
         </section>
       )}
 
       {scriptureText && (
-        <section className="mt-6 rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-4 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">
-            Text
-          </h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed">
+        <section className="mt-6 rounded-2xl border border-amber-200/50 bg-amber-50 p-4 md:p-6">
+          <h2 className="section-title">Text</h2>
+          <div className="body-text">
             <Paragraphs text={scriptureText} />
           </div>
         </section>
       )}
 
       {philosophical && (
-        <section className="mt-6 rounded-2xl border border-[#e0a632]/30 bg-[#fffaf3] p-4 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">
-            Philosophical Explanation
-          </h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed">
+        <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-4 md:p-6">
+          <h2 className="section-title">Philosophical Explanation</h2>
+          <div className="body-text">
             <Paragraphs text={philosophical} />
           </div>
         </section>
