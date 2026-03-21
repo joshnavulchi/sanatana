@@ -14,13 +14,13 @@ interface NavLink {
 
 /* ── Section config — ordered as they should appear in the footer ── */
 const SECTION_CONFIG: { key: string; icon: string; iconBg: string; basePath: string }[] = [
-  { key: 'vedas', icon: '📕', iconBg: 'bg-[#7a2e1f]', basePath: '/vedas' },
-  { key: 'upanishads', icon: '📜', iconBg: 'bg-[#92400e]', basePath: '/upanishads' },
-  { key: 'puranas', icon: '📖', iconBg: 'bg-[#9a3412]', basePath: '/puranas' },
+  { key: 'vedas', icon: '📕', iconBg: 'bg-primary-700', basePath: '/vedas' },
+  { key: 'upanishads', icon: '📜', iconBg: 'bg-primary-600', basePath: '/upanishads' },
+  { key: 'puranas', icon: '📖', iconBg: 'bg-primary-700', basePath: '/puranas' },
   // itihasa rendered separately via ItihasaColumn
-  { key: 'philosophy', icon: '🧘', iconBg: 'bg-[#c2410c]', basePath: '/philosophy' },
-  { key: 'science', icon: '🔬', iconBg: 'bg-[#8b3a2a]', basePath: '/vedic-philosophy' },
-  { key: 'others', icon: '✨', iconBg: 'bg-[#5b2d12]', basePath: '' },
+  { key: 'philosophy', icon: '🧘', iconBg: 'bg-primary-600', basePath: '/philosophy' },
+  { key: 'science', icon: '🔬', iconBg: 'bg-primary-700', basePath: '/vedic-philosophy' },
+  { key: 'others', icon: '✨', iconBg: 'bg-primary-700', basePath: '' },
 ];
 
 const INITIAL_VISIBLE = 5;
@@ -69,18 +69,18 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     <div className="flex flex-col gap-3">
-      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-[#fff4df]`}>
+      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-primary-700">
+        <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-white`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
+      <div className="mb-1 h-px w-12 bg-linear-to-r from-primary-500 to-transparent" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
-          className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}
+          className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -90,7 +90,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-2 flex items-center gap-2 text-sm font-medium text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
+          className="mt-2 flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors duration-200 cursor-pointer"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
@@ -139,11 +139,11 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
-        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#b45309] text-xs text-[#fff4df]">⚔️</span>
+      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-primary-700">
+        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs text-white">⚔️</span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
+      <div className="mb-1 h-px w-12 bg-linear-to-r from-primary-500 to-transparent" />
 
       {epicEntries.map(({ name, slug, href, subNav, hasSubItems }) => (
         <div key={slug} className="flex flex-col">
@@ -151,7 +151,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}
+              className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -160,7 +160,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="bg-white ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-[#92400e] hover:text-[#7a2e1f] hover:bg-[#fde7c7] transition-all duration-200 cursor-pointer"
+                className="bg-white ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-primary-600 hover:text-primary-700 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
@@ -176,14 +176,14 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
           {/* Sub-items (kandas / chapters) */}
           {hasSubItems && expandedEpic === slug && (
-            <div className="ml-1 mt-1 flex flex-col gap-1 border-l-2 border-[#d8a25a]/30 pl-3">
+            <div className="ml-1 mt-1 flex flex-col gap-1 border-l-2 border-amber-200/30 pl-3">
               {Object.entries(subNav).map(([subKey, subLabel]) => {
                 const subHref = `${href}/${subKey}`;
                 return (
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-base font-medium transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#5c4b3f] hover:text-[#7a2e1f]'}`}
+                    className={`text-base font-medium transition-colors duration-200 ${isActive(subHref) ? 'text-primary-700 underline decoration-primary-500 underline-offset-2' : 'text-primary-800 hover:text-primary-700'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -216,8 +216,8 @@ export default function Footer() {
 
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-[#d97706] blur-3xl animate-ping" />
-          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-[#7c2d12] blur-3xl animate-ping" />
+          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-primary-500 blur-3xl animate-ping" />
+          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-primary-700 blur-3xl animate-ping" />
         </div>
 
         <div className="relative z-10">
@@ -262,9 +262,9 @@ export default function Footer() {
 
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
-            <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
-            <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
-            <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
+            <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-amber-200/60" />
+            <span className="text-lg text-primary-700" aria-hidden="true">✦</span>
+            <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 
           {/* ─── Navigation Columns ─── */}
@@ -304,16 +304,16 @@ export default function Footer() {
                 </small>
               </div>
               <nav role="list" className="flex items-center gap-4" aria-label="Social links">
-                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
                 </Link>
               </nav>
@@ -333,7 +333,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom ornamental bar */}
-          <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+          <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
         </div>
       </footer>
     </>

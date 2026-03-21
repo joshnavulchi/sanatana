@@ -115,7 +115,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         href={item.href}
         className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-all duration-200 text-gray-600 hover:text-primary-600"
       >
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
+        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary-700/10 text-xs text-primary-700 transition-colors duration-150 group-hover/item:bg-primary-700 group-hover/item:text-white">
           ◈
         </span>
         <span className={`text-sm font-semibold transition-all duration-200 ${isActive(item.href) ? 'text-primary-600' : 'text-gray-700 group-hover/item:text-primary-600'}`}>
@@ -130,7 +130,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     <div>
       <div className="flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 hover:bg-amber-50 rounded-md">
         <Link href={item.href} className="flex items-center gap-3 flex-1">
-          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-[#9a3412] text-[#fff4df]' : 'bg-[#9a3412]/10 text-[#9a3412]'}`}>
+          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-primary-700 text-white' : 'bg-primary-700/10 text-primary-700'}`}>
             ◈
           </span>
           <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700'}`}>
@@ -140,12 +140,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onToggleSub(item.href); }}
-          className="p-1 rounded-md hover:bg-[#fde7c7] transition-colors cursor-pointer"
+          className="p-1 rounded-md hover:bg-amber-100 transition-colors cursor-pointer"
           aria-expanded={isSubOpen}
           aria-label={`Toggle ${item.label} sub-items`}
         >
           <svg
-            className={`h-3 w-3 text-[#b45309] transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
+            className={`h-3 w-3 text-primary-700 transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -213,7 +213,7 @@ function DesktopDropdown({ section, isActive }: {
       <div className="absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right">
 
         <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
-          <div className="h-1 w-full bg-gradient-to-r from-amber-600 via-amber-400 to-yellow-400" />
+          <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
           <div className="py-2">
             {section.items.map((item) => (
               <DesktopNavItem
@@ -427,7 +427,7 @@ export default function Header() {
         {/* ─── Mobile Drawer ─── */}
         {open && (
           <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
-            <div className="h-px w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+            <div className="h-px w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
             <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
               {navSections.map((section) => (
                 <MobileNavSection
@@ -438,7 +438,7 @@ export default function Header() {
                 />
               ))}
             </div>
-            <div className="h-px w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+            <div className="h-px w-full bg-linear-to-r from-primary-400 via-primary-500 to-primary-700" />
           </div>
         )}
       </div>
