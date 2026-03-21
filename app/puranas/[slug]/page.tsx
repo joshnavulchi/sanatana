@@ -6,7 +6,7 @@ import SlugClient from './slugclient';
 import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
-import { loadGeneratedParamsSync } from '@lib/siteUtils';
+import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
 
 const VALID_SLUGS: string[] = [];
 for (const slug of MAHAPURANA_SLUGS) {

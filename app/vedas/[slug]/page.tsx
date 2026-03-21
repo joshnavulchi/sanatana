@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 import StructuredData from '@/app/components/structured-data/StructuredData';
-import { loadGeneratedParamsSync } from '@lib/siteUtils';
+import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 

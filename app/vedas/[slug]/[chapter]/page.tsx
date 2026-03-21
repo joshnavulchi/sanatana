@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
-import { loadGeneratedParamsSync } from '@lib/siteUtils';
+import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 

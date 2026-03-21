@@ -2,7 +2,8 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
-import { loadGeneratedParamsSync, RAMAYANA_KANDAS, isRamayanaKandaSlug, parseNumericSuffix, toTitleFromSlug, toUnderscoreSlug } from '@lib/siteUtils';
+import { RAMAYANA_KANDAS, isRamayanaKandaSlug, parseNumericSuffix, toTitleFromSlug, toUnderscoreSlug } from '@lib/siteUtils';
+import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };
