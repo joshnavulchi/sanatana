@@ -30,9 +30,12 @@ export async function generateStaticParams() {
   // Use the generated chapters list but filter out entries missing locale files.
   try {
     const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
-    return await filterGeneratedParams(generatedParams, (p: any) => chapterFileKey(String(p.slug), String(p.chapter)));
+    const res = await filterGeneratedParams(generatedParams, (p: any) => chapterFileKey(String(p.slug), String(p.chapter)));
+    const list: any[] = Array.isArray((res as any).params) ? (res as any).params : (res as any);
+    return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || '') })).filter((p) => p.slug && p.chapter);
   } catch (_) {
-    return generatedParams;
+    const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+    return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || '') })).filter((p) => p.slug && p.chapter);
   }
 }
 

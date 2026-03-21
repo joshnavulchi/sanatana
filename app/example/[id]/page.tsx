@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { generateSEO, absoluteUrl } from "@/lib/seo";
 import { generateArticleSchema, generateBreadcrumbList } from "@/lib/schema";
 import { getPostById, getAllPostIds } from "@/lib/exampleData";
+import Container from '@components/common/Container';
+import Section from '@components/common/Section';
 
 type Props = { params: { id: string } };
 
@@ -40,13 +42,17 @@ export default function Page({ params }: Props) {
   ]);
 
   return (
-    <main className="prose mx-auto py-8">
-      <h1>{post.title}</h1>
-      <p className="text-sm text-slate-500">Updated: {new Date(post.updatedAt || "").toDateString()}</p>
-      <p>{post.summary}</p>
-      <article dangerouslySetInnerHTML={{ __html: post.content || "" }} />
+    <Container>
+      <Section>
+        <main className="prose lg:prose-lg mx-auto py-6 text-gray-700">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">{post.title}</h1>
+          <p className="text-sm text-gray-500">Updated: {new Date(post.updatedAt || "").toDateString()}</p>
+          <p className="text-gray-700 leading-relaxed mt-2">{post.summary}</p>
+          <article className="mt-4" dangerouslySetInnerHTML={{ __html: post.content || "" }} />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumb]) }} />
-    </main>
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumb]) }} />
+        </main>
+      </Section>
+    </Container>
   );
 }

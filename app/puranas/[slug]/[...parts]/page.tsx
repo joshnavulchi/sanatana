@@ -1,4 +1,5 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { notFound } from 'next/navigation';
 import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
@@ -54,7 +55,8 @@ export default async function Page(props: { params: Promise<Params> }) {
     const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
     if (!hasTitle) {
       // If the namespace is missing, treat as not found to avoid broken pages
-      return notFound();
+      const { notFound: _notFound } = await import('next/navigation');
+      return _notFound();
     }
   } catch (_) { }
   return (

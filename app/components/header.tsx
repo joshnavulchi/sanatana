@@ -373,11 +373,10 @@ export default function Header() {
   }, []);
 
   return (
-    <header ref={headerRef} className="w-full sticky top-0 z-30">
-      {/* Ornamental top accent */}
+    <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
-      <div className="w-full backdrop-blur-xl bg-white/60 border-b border-white/50 md:px-0">
-        <div className="flex items-center justify-between px-3 md:px-4 py-2">
+      <div className="w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4">
           {/* ─── Logo & Title ─── */}
           <h1 className="m-0 p-0">
             <Link href="/" className="flex items-center gap-2 group">
@@ -397,7 +396,7 @@ export default function Header() {
           </h1>
 
           {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-4" aria-label="Main navigation">
             {navSections.map((section) => (
               <DesktopDropdown key={section.key} section={section} isActive={isActive} />
             ))}
@@ -407,7 +406,7 @@ export default function Header() {
           </nav>
 
           {/* ─── Mobile Toggle ─── */}
-          <div className="flex items-center md:hidden gap-1">
+          <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
             <button
               aria-label={open ? "Close menu" : "Open menu"}
@@ -429,7 +428,7 @@ export default function Header() {
         {open && (
           <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
             <div className="h-px w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-            <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
+            <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
               {navSections.map((section) => (
                 <MobileNavSection
                   key={section.key}

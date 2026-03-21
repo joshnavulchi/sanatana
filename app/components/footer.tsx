@@ -211,8 +211,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="relative w-full overflow-hidden bg-white/60 backdrop-blur-sm">
-        {/* Top ornamental bar */}
+      <footer className="w-full bg-gray-50 border-t border-gray-100">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
 
         {/* Decorative background blurs */}
@@ -269,8 +268,8 @@ export default function Footer() {
           </div>
 
           {/* ─── Navigation Columns ─── */}
-          <div className="mx-auto max-w-7xl px-3 md:px-0 py-4 md:py-12">
-            <nav className="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
+            <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
@@ -296,11 +295,11 @@ export default function Footer() {
           </div>
 
           {/* ─── Bottom Bar ─── */}
-          <div className="border-t border-[#f0d9bf]/40 bg-white/60">
+          <div className="border-t border-gray-100 bg-gray-50">
             {/* Disclaimer + Socials */}
-            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-4 md:flex-row">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
               <div>
-                <small className="text-sm leading-6 text-gray-700">
+                <small className="text-sm leading-6 text-gray-600">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
@@ -321,14 +320,14 @@ export default function Footer() {
             </div>
 
             {/* Copyright bar */}
-            <div className="border-t border-[#d8a25a]/20">
-              <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-4 md:flex-row">
+            <div className="border-t border-gray-100">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3 py-4">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}>{footer.privacy}</Link>
-                  <span className="text-[#d8a25a]">·</span>
-                  <Link href="/terms-of-service" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}>{footer.terms}</Link>
+                  <Link href="/privacy-policy" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.privacy}</Link>
+                  <span className="text-gray-200">·</span>
+                  <Link href="/terms-of-service" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.terms}</Link>
                 </div>
-                <small className="text-sm text-[#92400e]">{footer.copyright}</small>
+                <small className="text-sm text-gray-600">{footer.copyright}</small>
               </div>
             </div>
           </div>

@@ -9,6 +9,7 @@ import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
 import Header from '@components/header';
 import Footer from '@components/footer';
+import Container from '@components/common/Container';
 import TopProgress from '@components/topprogress';
 import ScrollToTop from '@components/scroll-to-top';
 import { LocaleProvider } from './context/locale-context';
@@ -159,7 +160,7 @@ export default async function RootLayout({
           </>
         )}
       </head>
-      <body style={{ fontFamily: bodyFontFamily }} translate="no">
+      <body className={poppins.className} translate="no">
         <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
@@ -168,7 +169,8 @@ export default async function RootLayout({
               src={`https://www.googletagmanager.com/ns.html?id=${secrets.NEXT_PUBLIC_GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              className="hidden"
+              aria-hidden="true"
             />
           </noscript>
         )}
@@ -178,9 +180,11 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Header />
               </Suspense>
-              <Suspense fallback={null}>
-                {children}
-              </Suspense>
+              <main className="min-h-[60vh] bg-white">
+                <Container>
+                  <Suspense fallback={null}>{children}</Suspense>
+                </Container>
+              </main>
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>

@@ -15,3 +15,7 @@ export function GET() {
     headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
 }
+
+// Provide a default export for environments that import the route module as a default.
+// Some build tools expect a default export; export the GET handler as default as well.
+export default GET;

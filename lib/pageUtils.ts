@@ -204,7 +204,7 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     const robots = parseRobots((meta as any).robots);
 
     // Build a path relative to the site base for use with generateSEO
-    const baseUrl = String(secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in').replace(/\/$/, '');
+    // reuse `baseUrl` defined earlier in this function
     let pathForSeo: string | undefined = undefined;
     try {
       const u = new URL(ogUrl || canonical || baseUrl);

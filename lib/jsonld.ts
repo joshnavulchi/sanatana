@@ -18,7 +18,7 @@ export function buildOrganizationJsonLd(opts?: {
   sameAs?: string[];
   description?: string;
 }) {
-  const { name = 'Sanātana Dharmam', logo, sameAs = [], description } = opts || {};
+  const { name = 'Sanātana Dharma', logo, sameAs = [], description } = opts || {};
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -39,7 +39,7 @@ export function buildOrganizationJsonLd(opts?: {
 
 /** WebSite JSON-LD (add once in root layout) */
 export function buildWebSiteJsonLd(opts?: { name?: string; inLanguage?: Locale[] }) {
-  const { name = 'Sanātana Dharmam', inLanguage = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'] } = opts || {};
+  const { name = 'Sanātana Dharma', inLanguage = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'] } = opts || {};
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -122,7 +122,7 @@ export function buildArticleJsonLd(opts: {
     author: { '@type': 'Person', name: authorName },
     publisher: {
       '@type': 'Organization',
-      name: 'Sanātana Dharmam',
+      name: 'Sanātana Dharma',
       logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/logo.png`, width: 512, height: 512 }
     },
     datePublished,

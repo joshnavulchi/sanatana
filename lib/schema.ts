@@ -40,7 +40,7 @@ export function generateArticleSchema({
   if (datePublished) graph.datePublished = datePublished;
   if (image) graph.image = image;
 
-  return graph as const;
+  return graph;
 }
 
 export function generateBreadcrumbList(items: { name: string; url: string }[]) {

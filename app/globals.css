@@ -1,3 +1,48 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @import "tailwindcss";
+
+:root {
+  --color-primary-600: #0ea5a4;
+  /* teal-500-ish, override as needed */
+  --color-primary-700: #0b8e8c;
+  --color-muted: #6b7280;
+  /* gray-500 */
+  --shadow-subtle: 0 6px 18px rgba(16, 24, 40, 0.06);
+}
+
+/* Base layout and typography enforcement (mobile-first) */
+html,
+body,
+#__next {
+  height: 100%
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: theme('colors.gray.700');
+  background-color: white;
+}
+
+/* Utility: content container used across components */
+.site-container {
+  max-width: 112rem
+    /* 7xl */
+  ;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem
+}
+
+.site-container-sm {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
+}
+
+/* Smooth transitions */
+.ui-transition {
+  transition: all 200ms ease
+}
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
