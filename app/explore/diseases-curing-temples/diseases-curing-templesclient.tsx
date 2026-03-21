@@ -87,7 +87,7 @@ export default function DiseasesCuringTemplesClient() {
                 </ul>
               )}
               {!section?.traditional_belief_about_diseases && (section.summary || section.text) && (
-                <p className="text-base md:text-md leading-relaxed ">{section.summary || section.text}</p>
+                <p className="text-lg sm:text-md leading-relaxed ">{section.summary || section.text}</p>
               )}
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function DiseasesCuringTemplesClient() {
           <div className="flex items-start gap-4">
             <span className="text-3xl">⚠️</span>
             <div className="flex-1">
-              <h4 className="text-base md:text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
+              <h4 className="text-lg sm:text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
               <p className="leading-relaxed">{data.disclaimer}</p>
             </div>
           </div>

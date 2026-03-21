@@ -150,7 +150,7 @@ export default function CosmictimeClient() {
                           </svg>
                         </div>
                         <div className="flex-1">
-                          <h3 className={`text-base md:text-md font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part', '')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g, ' ')}`}</h3>
+                          <h3 className={`text-lg sm:text-md font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part', '')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g, ' ')}`}</h3>
                           {subtitle && <div className={`${variant.subtitle} mb-3`}>{subtitle}</div>}
                           <div className="space-y-3 text-amber-900 text-xl md:text-lg">
                             {renderSectionContent(section)}
@@ -169,7 +169,7 @@ export default function CosmictimeClient() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-base md:text-md font-semibold text-orange-800 mb-2">{sectionKey.replace(/_/g, ' ')}</h3>
+                        <h3 className="text-lg sm:text-md font-semibold text-orange-800 mb-2">{sectionKey.replace(/_/g, ' ')}</h3>
                         <div className="space-y-3 text-amber-900 text-xl md:text-lg">
                           {sectionKey === 'timeline' ? renderTimeline(section) : renderSectionContent(section)}
                         </div>

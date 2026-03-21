@@ -191,8 +191,8 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-base md:text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
-                  <p className="text-base md:text-md text-gray-600">{filteredLanguages.length} languages available</p>
+                  <h2 id="language-dialog-title" className="text-lg sm:text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-lg sm:text-md text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button

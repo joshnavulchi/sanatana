@@ -68,7 +68,7 @@ export default function UnderstandingOfSanatana() {
           >
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-4">{section.title}</h3>
-              <p className="text-base md:text-md text-gray-600 mb-4">{section.content}</p>
+              <p className="text-lg sm:text-md text-gray-600 mb-4">{section.content}</p>
             </div>
 
             {section.src && (
@@ -88,7 +88,7 @@ export default function UnderstandingOfSanatana() {
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-base md:text-md font-semibold text-amber-700">{topic.title}</h4>
+                      <h4 className="text-lg sm:text-md font-semibold text-amber-700">{topic.title}</h4>
                       <p className="text-base md:text-sm text-gray-600">{topic.description}</p>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-base md:text-md font-semibold text-gray-800">
+                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-lg sm:text-md font-semibold text-gray-800">
                   {point}
                 </div>
               ))}

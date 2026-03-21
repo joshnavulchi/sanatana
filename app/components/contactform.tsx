@@ -101,10 +101,10 @@ export default function ContactForm({ fields, submitButton }: Props) {
         <div className="p-6 space-y-4">
           {usedFields.map((f) => (
             <div key={f.name} className="group">
-              <label className="block text-base md:text-md font-semibold  mb-2 flex items-center gap-2">
+              <label className="block text-lg sm:text-md font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
-                {f.required && <span className="text-orange-500 text-base md:text-md">*</span>}
+                {f.required && <span className="text-orange-500 text-lg sm:text-md">*</span>}
               </label>
               {f.type === 'textarea' ? (
                 <textarea
@@ -150,7 +150,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full group relative overflow-hidden px-6 py-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white text-lg md:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+            className="w-full group relative overflow-hidden px-6 py-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white text-lg sm:text-md rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
               {submitting ? (

@@ -375,73 +375,71 @@ export default function Header() {
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
-      <div className="w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4">
-          {/* ─── Logo & Title ─── */}
-          <h1 className="m-0 p-0">
-            <Link href="/" className="flex items-center gap-2 group">
-              <span className="relative flex items-center justify-center">
-                <LazyImage
-                  src="/images/logo.png"
-                  alt="Sanatanadharmam Logo"
-                  width={logoWidth}
-                  height={40}
-                  className="md:flex"
-                />
-              </span>
-              <span className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
-                {siteTitle}
-              </span>
-            </Link>
-          </h1>
+      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8 py-2 sm:py-3">
+        {/* ─── Logo & Title ─── */}
+        <h1 className="m-0 p-0">
+          <Link href="/" className="flex items-center gap-2 group">
+            <span className="relative flex items-center justify-center">
+              <LazyImage
+                src="/images/logo.png"
+                alt="Sanatanadharmam Logo"
+                width={logoWidth}
+                height={40}
+                className="md:flex"
+              />
+            </span>
+            <span className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+              {siteTitle}
+            </span>
+          </Link>
+        </h1>
 
-          {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-4" aria-label="Main navigation">
-            {navSections.map((section) => (
-              <DesktopDropdown key={section.key} section={section} isActive={isActive} />
-            ))}
-            <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
-              <LanguageDropdown />
-            </div>
-          </nav>
-
-          {/* ─── Mobile Toggle ─── */}
-          <div className="flex items-center md:hidden gap-2">
+        {/* ─── Desktop Nav ─── */}
+        <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+          {navSections.map((section) => (
+            <DesktopDropdown key={section.key} section={section} isActive={isActive} />
+          ))}
+          <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-            <button
-              aria-label={open ? "Close menu" : "Open menu"}
-              onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
-            >
-              <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
-                {open ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
-                )}
-              </svg>
-            </button>
           </div>
-        </div>
+        </nav>
 
-        {/* ─── Mobile Drawer ─── */}
-        {open && (
-          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
-            <div className="h-px w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
-            <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
-              {navSections.map((section) => (
-                <MobileNavSection
-                  key={section.key}
-                  section={section}
-                  isActive={isActive}
-                  onNavigate={() => setOpen(false)}
-                />
-              ))}
-            </div>
-            <div className="h-px w-full bg-linear-to-r from-primary-400 via-primary-500 to-primary-700" />
-          </div>
-        )}
+        {/* ─── Mobile Toggle ─── */}
+        <div className="flex items-center md:hidden gap-2">
+          <LanguageDropdown />
+          <button
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((s) => !s)}
+            className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+          >
+            <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
+              {open ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
+
+      {/* ─── Mobile Drawer ─── */}
+      {open && (
+        <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
+          <div className="h-px w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
+          <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
+            {navSections.map((section) => (
+              <MobileNavSection
+                key={section.key}
+                section={section}
+                isActive={isActive}
+                onNavigate={() => setOpen(false)}
+              />
+            ))}
+          </div>
+          <div className="h-px w-full bg-linear-to-r from-primary-400 via-primary-500 to-primary-700" />
+        </div>
+      )}
     </header>
   );
 }

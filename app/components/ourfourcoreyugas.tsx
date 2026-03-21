@@ -149,7 +149,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-4 text-base md:text-md leading-8 text-gray-700">
+          <p className="mt-4 text-lg sm:text-md leading-8 text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -193,7 +193,7 @@ export default function OurFourCoreYugas() {
           {/* Divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
-            <span className="text-base md:text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
+            <span className="text-lg sm:text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦
             </span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
@@ -202,7 +202,7 @@ export default function OurFourCoreYugas() {
           {/* Highlight note */}
           {earthAgeComparisonNote && (
             <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-base md:text-md font-semibold leading-7 text-transparent">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-lg sm:text-md font-semibold leading-7 text-transparent">
                 {earthAgeComparisonNote}
               </p>
             </div>

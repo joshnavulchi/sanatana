@@ -206,7 +206,7 @@ export default function SimilarCategories({
         <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
         <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
         <h5 className="mb-2 text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
-        <p className="text-base md:text-md leading-relaxed text-amber-800/90">
+        <p className="text-lg sm:text-md leading-relaxed text-amber-800/90">
           Loading categories or no categories available...
         </p>
       </aside>
@@ -218,7 +218,7 @@ export default function SimilarCategories({
       <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
       <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
         <h5 className="text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
-        <p className="mt-1 text-base md:text-md text-amber-800">Sacred pathways to explore related wisdom.</p>
+        <p className="mt-1 text-lg sm:text-md text-amber-800">Sacred pathways to explore related wisdom.</p>
       </div>
       <div className="space-y-4">
         {categories.map((category) => {
@@ -237,7 +237,7 @@ export default function SimilarCategories({
               </h6>
               <ul className="space-y-2">
                 {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map((link) => (
-                  <li key={link.key} className="text-base md:text-md leading-relaxed">
+                  <li key={link.key} className="text-lg sm:text-md leading-relaxed">
                     <Link
                       href={normalizeHref(link.href)}
                       className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"

@@ -109,15 +109,15 @@ export default function WelcomePage() {
 
               {/* Main message */}
               <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-md leading-relaxed text-gray-700">
                   We are deeply honored and blessed by your presence here.
                 </p>
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-md leading-relaxed text-gray-700">
                   Thank you for taking this sacred step towards understanding and embracing the
                   <span className="font-semibold text-amber-700"> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
-                <p className="text-lg md:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-md leading-relaxed text-gray-700">
                   May your journey through these ancient teachings bring you
                   <span className="font-semibold text-amber-600"> clarity, devotion, and divine grace</span>.
                 </p>

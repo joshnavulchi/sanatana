@@ -229,7 +229,7 @@ export default function Footer() {
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-base md:text-md mt-6 px-4 leading-8 text-gray-800">
+            <p className="mx-auto max-w-5xl text-lg sm:text-md mt-6 px-4 leading-8 text-gray-800">
               {footer.quote} {footer.quotesource}
             </p>
 

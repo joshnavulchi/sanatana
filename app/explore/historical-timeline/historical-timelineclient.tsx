@@ -98,11 +98,11 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
               transform hover:-translate-y-1
             ">
               <h5 className="text-xl md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span className="text-base md:text-md">👑</span>
+                <span className="text-lg sm:text-md">👑</span>
                 {ruler.name}
               </h5>
 
-              <div className="space-y-2 text-base md:text-md">
+              <div className="space-y-2 text-lg sm:text-md">
                 {ruler.dynasty && (
                   <p className="">
                     <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
@@ -242,12 +242,12 @@ export default function HistoricalTimeline() {
                         <div className="flex items-start gap-3 mb-4">
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
-                            <h4 className="text-base md:text-md font-bold text-gray-900  mb-1">{item.term}</h4>
-                            <p className="text-base md:text-md text-amber-800  font-semibold">{item.fullForm}</p>
+                            <h4 className="text-lg sm:text-md font-bold text-gray-900  mb-1">{item.term}</h4>
+                            <p className="text-lg sm:text-md text-amber-800  font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
 
-                        <div className="space-y-2 text-base md:text-md">
+                        <div className="space-y-2 text-lg sm:text-md">
                           <p className=" "><strong className="text-amber-800 ">Time Period:</strong> {item.timePeriod}</p>
                           <p className=" "><strong className="text-amber-800 ">Counting Direction:</strong> {item.countingDirection}</p>
                           <p className=" "><strong className="text-amber-800 ">Equivalent To:</strong> {item.equivalentTo}</p>
