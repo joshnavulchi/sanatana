@@ -3,21 +3,19 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { params as generatedParams } from '@app/generated-params/itihasa-bhagavadgita';
-
-const VALID_SLUGS = [
-  'arjuna-vishada-yoga', 'sankhya-yoga', 'karma-yoga', 'jnana-karma-sanyasa-yoga',
-  'karma-sanyasa-yoga', 'dhyana-yoga', 'jnana-vijnana-yoga', 'akshara-brahma-yoga',
-  'raja-vidya-raja-guhya-yoga', 'vibhuti-yoga', 'vishvarupa-darshana-yoga', 'bhakti-yoga',
-  'kshetra-kshetrajna-vibhaga-yoga', 'gunatraya-vibhaga-yoga', 'purushottama-yoga',
-  'daivasura-sampad-vibhaga-yoga', 'shraddhatray-vibhaga-yoga', 'moksha-sanyasa-yoga',
-];
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
+import { notFound } from 'next/navigation';
 
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the build-time generated params list to support `output: export`.
-  // The `generatedParams.params` array already contains objects like { slug: string }.
-  return generatedParams;
+  // Filter generated params for Bhagavad Gita by locale namespace availability.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => `bhagavadgita_${String(p.slug)}`);
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -30,6 +28,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
+  try {
+    const ns = await loadLocaleData(DEFAULT_LOCALE, `bhagavadgita_${slug}`);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) notFound();
+  } catch (_) { }
   return (
     <>
       <StructuredData metaKey={`bhagavadgita_${slug}`} />

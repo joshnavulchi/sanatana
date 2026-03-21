@@ -3,6 +3,7 @@ import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
 import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };
 
@@ -25,8 +26,13 @@ function getNamespace(slug: string, parts: string[]): string {
 }
 
 export async function generateStaticParams() {
-  // Return the generated params list for purana parts to export all available pages.
-  return generatedParams;
+  // Return the generated params list but filter out entries whose locale namespace is missing.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => getNamespace(normalizePuranaSlug(String(p.slug)), p.parts || []));
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -42,6 +48,15 @@ export async function generateMetadata(props: { params: Promise<Params> }) {
 export default async function Page(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;
   const normalizedSlug = normalizePuranaSlug(slug);
+  try {
+    const namespace = getNamespace(normalizedSlug, parts);
+    const ns = await loadLocaleData(DEFAULT_LOCALE, namespace);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) {
+      // If the namespace is missing, treat as not found to avoid broken pages
+      return notFound();
+    }
+  } catch (_) { }
   return (
     <>
       <StructuredData metaKey={`puranas_${normalizedSlug}`} />

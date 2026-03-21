@@ -3,6 +3,7 @@ import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
 import { getPuranaOverviewNamespace, toTitleFromSlug } from '../purana-utils';
 
@@ -62,9 +63,9 @@ export default function SlugClient({ slug }: { slug: string }) {
   const ns = useLocaleSection(getPuranaOverviewNamespace(slug));
   const structureNs = useLocaleSection(`puranas_${slug}_structure`);
   const displayTitle = toTitleFromSlug(slug);
-  const description = typeof ns?.description === 'string' ? ns.description : '';
-  const introduction = typeof ns?.introduction === 'string' ? ns.introduction : '';
-  const philosophical = typeof ns?.philosophical_explanation === 'string' ? ns.philosophical_explanation : '';
+  const description = safeString(ns?.description, '');
+  const introduction = safeString(ns?.introduction, '');
+  const philosophical = safeString(ns?.philosophical_explanation, '');
   const scriptureSections = Array.isArray(ns?.scripture_text)
     ? (ns.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
     : [];
@@ -137,7 +138,7 @@ export default function SlugClient({ slug }: { slug: string }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {skandas.map((skanda) => {
               const skandaNumber = Number(skanda.skanda);
-              const skandaTitle = typeof skanda.title === 'string' ? skanda.title : `Skanda ${skandaNumber}`;
+              const skandaTitle = safeString((skanda as Record<string, unknown>).title, `Skanda ${skandaNumber}`);
               return (
                 <Link
                   key={skandaNumber}
@@ -159,7 +160,7 @@ export default function SlugClient({ slug }: { slug: string }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {chapters.map((chapter) => {
               const chapterNumber = Number(chapter.chapter);
-              const chapterTitle = typeof chapter.title === 'string' ? chapter.title : `Chapter ${chapterNumber}`;
+              const chapterTitle = safeString((chapter as Record<string, unknown>).title, `Chapter ${chapterNumber}`);
               return (
                 <Link
                   key={chapterNumber}

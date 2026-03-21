@@ -6,14 +6,17 @@ import SlugClient from './slugclient';
 import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
 import { params as generatedParams } from '@app/generated-params/vedic-philosophy-slugs';
 
-const VALID_SLUGS = PHILOSOPHY_TOPICS;
-
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  // Use generated params for complete topic list during export.
-  return generatedParams;
+  // Filter generated params by checking topic namespace presence.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => `vedic_philosophy_topic_${String(p.slug)}`);
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 

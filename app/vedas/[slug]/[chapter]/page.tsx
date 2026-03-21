@@ -3,6 +3,8 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
 import { params as generatedParams } from '@app/generated-params/vedas-chapters';
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
+import { notFound } from 'next/navigation';
 
 type ChapterPageParams = {
   slug: string;
@@ -25,8 +27,13 @@ const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the generated chapters list so Next exports all veda chapters.
-  return generatedParams;
+  // Use the generated chapters list but filter out entries missing locale files.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => chapterFileKey(String(p.slug), String(p.chapter)));
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 function chapterFileKey(slug: string, chapter: string): string {
@@ -51,6 +58,12 @@ export async function generateMetadata(props: { params: Promise<ChapterPageParam
 
 export default async function Page(props: { params: Promise<ChapterPageParams> }) {
   const { slug, chapter } = await props.params;
+  try {
+    const key = chapterFileKey(slug, chapter);
+    const ns = await loadLocaleData(DEFAULT_LOCALE, key);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) notFound();
+  } catch (_) { }
   return (
     <>
       <StructuredData metaKey={`vedas_${slug}_${chapter}`} />

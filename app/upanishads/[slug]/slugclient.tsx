@@ -2,6 +2,7 @@
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
@@ -63,9 +64,9 @@ export default function SlugClient({ slug }: { slug: string }) {
   const { isLoading } = useLocale();
   const ns = useLocaleSection(`upanishads_${slug}`);
   const displayTitle = toTitle(slug);
-  const description = typeof ns?.description === 'string' ? ns.description : '';
-  const introduction = typeof ns?.introduction === 'string' ? ns.introduction : '';
-  const philosophical = typeof ns?.philosophical_explanation === 'string' ? ns.philosophical_explanation : '';
+  const description = safeString(ns?.description, '');
+  const introduction = safeString(ns?.introduction, '');
+  const philosophical = safeString(ns?.philosophical_explanation, '');
   const scriptureSections = Array.isArray(ns?.scripture_text)
     ? (ns.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
     : [];

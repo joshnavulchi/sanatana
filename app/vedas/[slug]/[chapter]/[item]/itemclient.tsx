@@ -3,6 +3,7 @@ import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
 
 function parseNum(value: unknown): number {
@@ -60,10 +61,10 @@ export default function ItemClient({ slug, chapter, item }: { slug: string; chap
     detailLabel = 'Hymn';
   }
 
-  const title = typeof entry?.title === 'string' ? entry.title : `${vedaTitle} ${chapterLabel} ${itemLabel}`;
-  const introduction = typeof entry?.introduction === 'string' ? entry.introduction : '';
-  const scriptureText = typeof entry?.scripture_text === 'string' ? entry.scripture_text : '';
-  const philosophicalExplanation = typeof entry?.philosophical_explanation === 'string' ? entry.philosophical_explanation : '';
+  const title = safeString(entry?.title, `${vedaTitle} ${chapterLabel} ${itemLabel}`);
+  const introduction = safeString(entry?.introduction, '');
+  const scriptureText = safeString(entry?.scripture_text, '');
+  const philosophicalExplanation = safeString(entry?.philosophical_explanation, '');
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },

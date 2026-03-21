@@ -4,17 +4,19 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
-
-const VALID_SLUGS = [
-  'bala-kanda', 'ayodhya-kanda', 'aranya-kanda', 'kishkinda-kanda',
-  'sundara-kanda', 'yuddha-kanda', 'uttara-kanda',
-];
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
+import { notFound } from 'next/navigation';
 
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Return the build-time generated params to include all Ramayana kanda pages.
-  return generatedParams;
+  // Filter Ramayana generated params by checking locale namespace presence.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => `itihasa_ramayana_${String(p.slug)}`);
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -27,6 +29,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
+  try {
+    const ns = await loadLocaleData(DEFAULT_LOCALE, `itihasa_ramayana_${slug}`);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) notFound();
+  } catch (_) { }
   return (
     <>
       <StructuredData metaKey={`itihasa_ramayana_${slug}`} />

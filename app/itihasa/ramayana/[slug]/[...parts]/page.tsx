@@ -10,14 +10,25 @@ import {
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the generated params for Ramayana parts to export all sarga pages.
-  return generatedParams;
+  // Use the generated params for Ramayana parts, but filter by available locale namespaces.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => {
+      const slug = String(p.slug);
+      const parts = p.parts || [];
+      const sarga = String((parts[0] || '').replace(/^sarga-/, '')) || '1';
+      return `itihasa_ramayana_${slug}_sarga${sarga}`;
+    });
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -37,6 +48,12 @@ export default async function Page(props: { params: Promise<Params> }) {
 
   const sarga = parseNumericSuffix(parts[0]);
   const namespace = `itihasa_ramayana_${toUnderscoreSlug(slug)}_sarga${sarga}`;
+
+  try {
+    const ns = await loadLocaleData(DEFAULT_LOCALE, namespace);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) notFound();
+  } catch (_) { }
 
   return (
     <>

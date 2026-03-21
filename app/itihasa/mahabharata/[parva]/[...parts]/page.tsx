@@ -10,14 +10,20 @@ import {
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the full generated params list for Mahabharata parva parts.
-  return generatedParams;
+  // Filter Mahabharata parva parts by locale namespace availability.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => `itihasa_mahabharata_${toUnderscoreSlug(String(p.parva))}_chapter${String((p.parts || [])[0] || '').replace(/[^0-9]/g, '') || '1'}`);
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -37,6 +43,12 @@ export default async function Page(props: { params: Promise<Params> }) {
 
   const chapter = parseNumericSuffix(parts[0]);
   const namespace = `itihasa_mahabharata_${toUnderscoreSlug(parva)}_chapter${chapter}`;
+
+  try {
+    const ns = await loadLocaleData(DEFAULT_LOCALE, namespace);
+    const hasTitle = typeof (ns as any).title === 'string' && (ns as any).title.trim().length > 0;
+    if (!hasTitle) notFound();
+  } catch (_) { }
 
   return (
     <>

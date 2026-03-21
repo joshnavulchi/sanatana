@@ -3,8 +3,8 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import { params as generatedParams } from '@app/generated-params/vedas-slugs';
-
-const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
+import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
+import { notFound } from 'next/navigation';
 
 /* Map URL slug → locale file key (filename without .json) */
 const FILE_MAP: Record<string, string> = {
@@ -17,8 +17,13 @@ const FILE_MAP: Record<string, string> = {
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the generated params list so Next's static export detection succeeds.
-  return generatedParams;
+  // Use the generated params list but filter out entries missing locale files.
+  try {
+    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
+    return await filterGeneratedParams(generatedParams, (p: any) => `vedas_${String(p.slug)}`);
+  } catch (_) {
+    return generatedParams;
+  }
 }
 
 
@@ -32,6 +37,19 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
+  const fileKey = FILE_MAP[slug] || slug;
+  // Server-side: attempt to load critical locale page data; if missing, treat as notFound
+  try {
+    const ns = await loadLocaleData(DEFAULT_LOCALE, fileKey);
+    const pageObj = (ns && typeof ns === 'object') ? ns : {};
+    const hasTitle = typeof (pageObj as any).title === 'string' && (pageObj as any).title.trim().length > 0;
+    if (!hasTitle) {
+      // If the locale file exists but doesn't contain expected page object, fall back to 404
+      notFound();
+    }
+  } catch (_) {
+    // Swallow errors and continue to client; SlugClient will render fallback UI.
+  }
   return (
     <>
       <StructuredData metaKey={`vedas_${slug}`} />

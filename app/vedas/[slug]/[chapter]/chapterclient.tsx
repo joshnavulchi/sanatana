@@ -3,6 +3,7 @@ import { useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 import Link from 'next/link';
@@ -306,7 +307,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
     { label: `${cfg.itemLabel} ${chapterNum}` },
   ];
 
-  const pageTitle = titleFromJson || `${vedaTitle} – ${cfg.itemLabel} ${chapterNum}`;
+  const pageTitle = safeString(titleFromJson, `${vedaTitle} – ${cfg.itemLabel} ${chapterNum}`);
 
   const hasContent =
     cfg.mode === 'per-file'
@@ -380,15 +381,15 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
                 const itemPrefix = cfg.mode === 'from-main' ? (cfg.detailItemPrefix || 'item') : 'hymn';
                 const detailLabel = cfg.mode === 'from-main' ? (cfg.detailItemLabel || 'Item') : 'Hymn';
                 return (
-                <HymnCard
-                  key={i}
-                  hymn={hymn}
-                  index={i}
-                  accentFrom={cfg.accentFrom}
-                  accentTo={cfg.accentTo}
-                  detailLabel={detailLabel}
-                  detailHref={`/vedas/${slug}/${cfg.chapterPrefix}-${chapterNum}/${itemPrefix}-${itemNum}`}
-                />
+                  <HymnCard
+                    key={i}
+                    hymn={hymn}
+                    index={i}
+                    accentFrom={cfg.accentFrom}
+                    accentTo={cfg.accentTo}
+                    detailLabel={detailLabel}
+                    detailHref={`/vedas/${slug}/${cfg.chapterPrefix}-${chapterNum}/${itemPrefix}-${itemNum}`}
+                  />
                 );
               })}
             </div>

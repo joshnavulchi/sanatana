@@ -174,17 +174,17 @@ export default function LanguageDropdown() {
 
       {/* Popup Modal */}
       {open && (
-        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-3 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           {/* Backdrop with blur */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
           {/* Modal Container */}
-          <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-3xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
+            <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-3xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
             {/* Decorative gradient header */}
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
 
             {/* Header */}
-            <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 border-b-2 border-amber-200">
+            <div role="group" className="relative flex items-center justify-between p-4 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 border-b-2 border-amber-200">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -208,7 +208,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Search Input */}
-            <div className="p-6 bg-gradient-to-br from-white to-amber-50/30 ">
+            <div className="p-4 bg-gradient-to-br from-white to-amber-50/30 ">
               <div className="relative group">
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none">
                   <svg className="w-5 h-5 text-amber-800 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -237,7 +237,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full px-12 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full px-8 py-2 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
@@ -338,7 +338,7 @@ export default function LanguageDropdown() {
 
               {/* No results message */}
               {filteredLanguages.length === 0 && (
-                <div className="py-12 text-center">
+                <div className="py-8 text-center">
                   <div className="w-20 h-20 bg-amber-100  rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-10 h-10 text-amber-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

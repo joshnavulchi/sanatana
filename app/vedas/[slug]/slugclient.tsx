@@ -4,6 +4,7 @@ import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { safeString } from '@lib/i18n';
 import Loader from '@components/loader';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
@@ -224,9 +225,8 @@ export default function SlugClient({ slug }: { slug: string }) {
   const cfg = SLUG_CONFIG[slug] || FALLBACK_CONFIG;
   const ns = useLocaleSection(cfg.fileKey);
   const displayTitle = slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-
-  // Extract all content fields
-  const title = typeof ns?.title === 'string' ? ns.title : displayTitle;
+  // Extract all content fields with safe fallbacks
+  const title = safeString(ns?.title, displayTitle);
   const description = typeof ns?.description === 'string' ? ns.description : '';
   const introduction = typeof ns?.introduction === 'string' ? ns.introduction : '';
   const scriptureText = Array.isArray(ns?.scripture_text) ? ns.scripture_text : [];

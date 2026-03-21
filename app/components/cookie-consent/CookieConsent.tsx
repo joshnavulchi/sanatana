@@ -165,7 +165,7 @@ export default function CookieConsent() {
   return (
     <>
       <CookiePreferencesModal open={modalOpen} onClose={() => setModalOpen(false)} onSave={savePrefs} initial={prefs ?? {}} />
-      <div className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6 pointer-events-none">
+      <div className="fixed bottom-0 left-0 right-0 z-50 p-3 md:p-6 pointer-events-none">
         <div className="max-w-6xl mx-auto pointer-events-auto">
           <div className="
             relative
@@ -183,8 +183,8 @@ export default function CookieConsent() {
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400" />
 
             {/* Content */}
-            <div className="relative z-10 p-6 md:p-8">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+            <div className="relative z-10 p-4 md:p-8">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                 {/* Cookie icon */}
                 <div className="flex-shrink-0 hidden md:block">
                   <div className="
@@ -227,7 +227,7 @@ export default function CookieConsent() {
               <div className="flex flex-col sm:flex-row items-center justify-end gap-3 mt-6">
                 <button
                   className="
-                      px-6 py-3
+                      px-4 py-2
                       bg-white
                       border-2 border-amber-300
                       hover:border-amber-400
@@ -253,7 +253,7 @@ export default function CookieConsent() {
                 </button>
                 <button
                   className="
-                    px-6 py-3
+                    px-4 py-2
                     bg-gradient-to-r from-amber-500 to-orange-600
                     hover:from-amber-600 hover:to-orange-700
                     text-white
