@@ -37,7 +37,6 @@ ls -la out || (echo "❌ out folder missing after export" && exit 1)
 
 echo "== Post-build optimizations =="
 node scripts/generate-sitemap.js
-node scripts/generate-post-deploy-audit.js
 node scripts/add-hash-to-assets.js
 node scripts/audit-seo.js --out out --json audit-report.json || true
 
