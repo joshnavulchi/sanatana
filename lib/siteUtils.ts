@@ -39,27 +39,8 @@ export function getPuranaOverviewNamespace(slug: string): string {
   return `puranas/${normalizePuranaSlug(slug)}/overview`;
 }
 
-// Safe generated params loader
-export async function loadGeneratedParams(modulePath: string): Promise<any[]> {
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const mod = await Promise.resolve().then(() => require(modulePath)) as any;
-    const list: any[] = Array.isArray(mod?.params) ? mod.params : (Array.isArray(mod) ? mod : []);
-    return list;
-  } catch (err) {
-    return [];
-  }
-}
-
-export function loadGeneratedParamsSync(modulePath: string): any[] {
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const mod = require(modulePath) as any;
-    return Array.isArray(mod?.params) ? mod.params : (Array.isArray(mod) ? mod : []);
-  } catch (_) {
-    return [];
-  }
-}
+// Note: safe generated params loader was moved to `lib/safeGeneratedParams.ts` to
+// keep dynamic requires out of modules that are imported by client components.
 
 // Philosophy paths fallback
 export async function getAllPhilosophyPaths(): Promise<Array<{ slug: string; parts?: string[] }>> {

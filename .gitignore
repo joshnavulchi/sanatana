@@ -15,6 +15,7 @@
 # next.js
 .next/
 out/
+logs/
 docs
 
 # ignore backup pages and backup components
