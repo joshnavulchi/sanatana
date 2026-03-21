@@ -182,6 +182,89 @@
       "Saptaswara",
       "Bhakti",
       "Sanatana Dharma"
+    ],
+    "total_hymns": 10,
+    "hymns": [
+      {
+        "hymn_number": 1,
+        "title": "Agni Decade – Purvarchika",
+        "introduction": "The opening section of the Purvarchika contains hymns dedicated to Agni, the fire deity, set to melodic patterns for ritual chanting.",
+        "scripture_text": "The Agni Decades praise the sacred fire as the first priest, the divine purifier and the bridge between the human and celestial worlds. The melodies accompanying these verses are among the most fundamental in the Samagana tradition.",
+        "philosophical_explanation": "Agni represents both the external sacrificial fire and the inner spiritual flame of consciousness. The musical praise of Agni symbolizes the awakening of spiritual awareness through devoted practice.",
+        "path": "/vedas/samaveda/hymn-1"
+      },
+      {
+        "hymn_number": 2,
+        "title": "Indra Decade – Purvarchika",
+        "introduction": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
+        "scripture_text": "The Indra hymns praise his heroic deeds, his generosity and his role as the protector of cosmic order. The chanting patterns for these verses tend to be vigorous and assertive, reflecting Indra's powerful nature.",
+        "philosophical_explanation": "Indra symbolizes the power of consciousness to overcome obstacles and ignorance. The musical celebration of his victories represents the spiritual triumph of knowledge over darkness.",
+        "path": "/vedas/samaveda/hymn-2"
+      },
+      {
+        "hymn_number": 3,
+        "title": "Soma Decades – Purvarchika",
+        "introduction": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
+        "scripture_text": "These hymns describe the pressing, purification and offering of Soma accompanied by elaborate melodic chanting. The Soma hymns were the most frequently sung during Vedic sacrificial ceremonies.",
+        "philosophical_explanation": "Soma represents divine inspiration and spiritual ecstasy. The musical worship of Soma through Samagana was believed to generate the highest forms of spiritual experience accessible through ritual practice.",
+        "path": "/vedas/samaveda/hymn-3"
+      },
+      {
+        "hymn_number": 4,
+        "title": "Uttararchika – Ritual Songs",
+        "introduction": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
+        "scripture_text": "Each group of verses forms a complete Saman or chant with defined melodic structure. The songs are arranged by the specific sacrificial context in which they are to be performed, from simple daily offerings to elaborate multi-day ceremonies.",
+        "philosophical_explanation": "The liturgical organization reflects the understanding that music and ritual together create a comprehensive spiritual practice that engages all aspects of human experience.",
+        "path": "/vedas/samaveda/hymn-4"
+      },
+      {
+        "hymn_number": 5,
+        "title": "Gramageya Gana – Public Songs",
+        "introduction": "The Gramageya Gana contains Samans intended for performance in village gatherings and public ceremonies.",
+        "scripture_text": "These songs adapt Samavedic melodies for communal worship and celebration. They represent a more accessible form of Vedic chanting that brought sacred music beyond the formal sacrificial setting.",
+        "philosophical_explanation": "The public songs demonstrate that sacred music has the power to unite communities and create shared spiritual experiences that strengthen social bonds and collective devotion.",
+        "path": "/vedas/samaveda/hymn-5"
+      },
+      {
+        "hymn_number": 6,
+        "title": "Aranyaka Gana – Forest Songs",
+        "introduction": "The Aranyaka Gana contains contemplative chants meant for solitary practice in forest hermitages away from populated areas.",
+        "scripture_text": "These songs are more meditative in character and were performed as part of spiritual retreat practices. They include chants associated with deeper philosophical teachings and inner contemplation.",
+        "philosophical_explanation": "The forest songs represent the internalization of musical worship, where the outer performance gives way to inner meditative experience and the practitioner seeks direct communion with the divine through sound.",
+        "path": "/vedas/samaveda/hymn-6"
+      },
+      {
+        "hymn_number": 7,
+        "title": "The Jaiminiya Samhita",
+        "introduction": "The Jaiminiya or Talavakara Samhita is an important recension of the Samaveda preserved by the school of the sage Jaimini.",
+        "scripture_text": "This recension contains many verses and melodies not found in the more widely known Kauthuma and Ranayaniya recensions. It preserves ancient musical traditions that might otherwise have been lost.",
+        "philosophical_explanation": "The diversity of Samavedic recensions reflects the rich multiplicity of Vedic musical traditions and the recognition that divine truth can be expressed through many different melodic forms.",
+        "path": "/vedas/samaveda/hymn-7"
+      },
+      {
+        "hymn_number": 8,
+        "title": "The Kena Upanishad",
+        "introduction": "The Kena Upanishad is an important philosophical text associated with the Samaveda. Its name comes from its opening word 'Kena' meaning 'by whom'.",
+        "scripture_text": "The Upanishad begins with the fundamental question: By whose will does the mind think? By whose command does breath flow? It then teaches that Brahman is the unseen power behind all mental and physical functions.",
+        "philosophical_explanation": "The Kena Upanishad teaches that the ultimate reality cannot be fully grasped by the mind or described by words, yet it is the very power that enables thinking, seeing and knowing. True wisdom lies in recognizing this mysterious foundation of all experience.",
+        "path": "/vedas/samaveda/hymn-8"
+      },
+      {
+        "hymn_number": 9,
+        "title": "Meditation on Om",
+        "introduction": "The Samaveda tradition places special emphasis on the meditation upon the sacred syllable Om as the Udgitha or supreme chant.",
+        "scripture_text": "The Chandogya Upanishad devotes its opening chapters to explaining the significance of Om as the essence of all speech, all Vedas and all sacred knowledge. The syllable is identified with the primal sound from which the universe emerges.",
+        "philosophical_explanation": "Om represents the convergence of music, language and spiritual truth. Through devoted meditation on this sacred sound, the practitioner can transcend the limitations of ordinary consciousness and realize the unity of the individual self with the universal reality.",
+        "path": "/vedas/samaveda/hymn-9"
+      },
+      {
+        "hymn_number": 10,
+        "title": "Legacy of Samavedic Music",
+        "introduction": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
+        "scripture_text": "The seven-note system of the Samaveda is widely regarded as the precursor to the Saptaswara system of Indian classical music. The devotional singing traditions of Bhajan and Kirtan trace their spiritual lineage back to the Samavedic emphasis on musical worship.",
+        "philosophical_explanation": "The Samaveda's enduring legacy lies in its demonstration that beauty and truth are inseparable. Sacred music is not merely an accompaniment to spiritual practice but is itself a direct path to the divine.",
+        "path": "/vedas/samaveda/hymn-10"
+      }
     ]
   }
 }

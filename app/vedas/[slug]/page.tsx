@@ -8,10 +8,10 @@ import { notFound } from 'next/navigation';
 
 /* Map URL slug → locale file key (filename without .json) */
 const FILE_MAP: Record<string, string> = {
-  rigveda: 'vedas_rigveda',
-  yajurveda: 'vedas_yajurveda',
-  samaveda: 'vedas_samaveda',
-  atharvaveda: 'vedas_atharvaveda',
+  rigveda: 'rigveda',
+  yajurveda: 'yajurveda',
+  samaveda: 'samaveda',
+  atharvaveda: 'atharvaveda',
 };
 
 export const dynamicParams = false;
@@ -51,7 +51,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   }
   return (
     <>
-      <StructuredData metaKey={`vedas_${slug}`} />
+      <StructuredData metaKey={`${slug}`} />
       <SlugClient slug={slug} />
     </>
   );

@@ -96,7 +96,7 @@ export default function WelcomePage() {
               </h2>
 
               {/* Sanskrit blessing */}
-              <p className="text-lg md:text-xl italic text-amber-700 tracking-wide">
+              <p className="text-lg sm:text-md italic text-amber-700 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 

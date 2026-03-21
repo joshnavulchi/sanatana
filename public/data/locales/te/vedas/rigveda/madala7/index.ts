@@ -1,7 +1,6 @@
 // @ts-nocheck
-// Auto-generated index for folder 'te\vedas\rigveda\madala7'
+// Auto-generated index for folder 'en\vedas\rigveda\madala7'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
-
 import _j0 from './hymn1.json';
 import _j1 from './hymn10.json';
 import _j2 from './hymn100.json';
@@ -195,8 +194,6 @@ import _j189 from './hymn98.json';
 import _j190 from './hymn99.json';
 import _j191 from './madala7.json';
 
-
-
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -211,8 +208,6 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
-
-
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39, _j40, _j41, _j42, _j43, _j44, _j45, _j46, _j47, _j48, _j49, _j50, _j51, _j52, _j53, _j54, _j55, _j56, _j57, _j58, _j59, _j60, _j61, _j62, _j63, _j64, _j65, _j66, _j67, _j68, _j69, _j70, _j71, _j72, _j73, _j74, _j75, _j76, _j77, _j78, _j79, _j80, _j81, _j82, _j83, _j84, _j85, _j86, _j87, _j88, _j89, _j90, _j91, _j92, _j93, _j94, _j95, _j96, _j97, _j98, _j99, _j100, _j101, _j102, _j103, _j104, _j105, _j106, _j107, _j108, _j109, _j110, _j111, _j112, _j113, _j114, _j115, _j116, _j117, _j118, _j119, _j120, _j121, _j122, _j123, _j124, _j125, _j126, _j127, _j128, _j129, _j130, _j131, _j132, _j133, _j134, _j135, _j136, _j137, _j138, _j139, _j140, _j141, _j142, _j143, _j144, _j145, _j146, _j147, _j148, _j149, _j150, _j151, _j152, _j153, _j154, _j155, _j156, _j157, _j158, _j159, _j160, _j161, _j162, _j163, _j164, _j165, _j166, _j167, _j168, _j169, _j170, _j171, _j172, _j173, _j174, _j175, _j176, _j177, _j178, _j179, _j180, _j181, _j182, _j183, _j184, _j185, _j186, _j187, _j188, _j189, _j190, _j191] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

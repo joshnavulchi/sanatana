@@ -14,7 +14,7 @@ export const dynamicParams = false;
 
 // Chapter metadata configuration and helper exposed at module scope
 const CHAPTER_META_CONFIG: Record<string, { mode: 'per-file' | 'from-main'; filePattern?: string; fileKey?: string }> = {
-  rigveda: { mode: 'per-file', filePattern: 'vedas_rigveda_madala' },
+  rigveda: { mode: 'from-main', fileKey: 'vedas/rigveda/rigveda' },
   yajurveda: { mode: 'from-main', fileKey: 'vedas_yajurveda' },
   samaveda: { mode: 'from-main', fileKey: 'vedas_samaveda' },
   atharvaveda: { mode: 'from-main', fileKey: 'vedas_atharvaveda' },
@@ -34,13 +34,33 @@ export async function generateStaticParams() {
   // Return the build-time generated params directly; avoid runtime requires so
   // this function remains static and compatible with `output: 'export'.
   const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  // Also ensure the parent chapter exists in the generated chapters list —
+  // Next static export requires parent params to be present for nested routes.
+  let validChapters = new Set<string>();
+  try {
+    // static import of generated chapters params
+    const chaptersMod = await Promise.resolve().then(() => require('@app/generated-params/vedas-chapters')) as any;
+    const chapterList: any[] = Array.isArray((chaptersMod.params as any)) ? chaptersMod.params : (chaptersMod as any);
+    for (const c of chapterList) {
+      const s = String((c && (c.slug ?? (c.params && c.params.slug))) || '');
+      const ch = String((c && (c.chapter ?? (c.params && c.params.chapter))) || '');
+      if (s && ch) validChapters.add(`${s}::${ch}`);
+    }
+  } catch (_) {
+    // ignore — fallback to allowing all (will be filtered below)
+  }
+
   return list
     .map((p) => ({
       slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''),
       chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || ''),
       item: String((p && (p.item ?? (p.params && p.params.item))) || ''),
     }))
-    .filter((p) => p.slug && p.chapter && p.item);
+    .filter((p) => {
+      if (!p.slug || !p.chapter || !p.item) return false;
+      if (validChapters.size === 0) return true;
+      return validChapters.has(`${p.slug}::${p.chapter}`);
+    });
 }
 
 export async function generateMetadata(props: { params: Promise<ItemPageParams> }) {

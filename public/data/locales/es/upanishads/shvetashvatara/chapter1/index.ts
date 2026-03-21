@@ -1,7 +1,6 @@
 // @ts-nocheck
-// Auto-generated index for folder 'es\upanishads\shvetashvatara\chapter1'
+// Auto-generated index for folder 'en\upanishads\shvetashvatara\chapter1'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
-
 import _j0 from './chapter1.json';
 import _j1 from './chapter2.json';
 import _j2 from './chapter3.json';
@@ -10,8 +9,6 @@ import _j4 from './verse2.json';
 import _j5 from './verse3.json';
 import _j6 from './verse4.json';
 import _j7 from './verse5.json';
-
-
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -27,8 +24,6 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
-
-
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

@@ -26,7 +26,8 @@ export default function ItemClient({ slug, chapter, item }: { slug: string; chap
   const chapterNum = parseNum(chapter);
   const itemNum = parseNum(item);
 
-  const rigvedaNs = useLocaleSection(slug === 'rigveda' ? `vedas_rigveda_madala${chapterNum}` : '');
+  // Load merged namespace for rigveda (contains `mandalas` array)
+  const rigvedaNs = useLocaleSection(slug === 'rigveda' ? 'vedas/rigveda/rigveda' : '');
   const yajurNs = useLocaleSection(slug === 'yajurveda' ? 'vedas_yajurveda_structure' : '');
   const atharvaNs = useLocaleSection(slug === 'atharvaveda' ? 'vedas_atharvaveda_structure' : '');
 
@@ -38,7 +39,9 @@ export default function ItemClient({ slug, chapter, item }: { slug: string; chap
   let detailLabel = 'Hymn';
 
   if (slug === 'rigveda') {
-    const hymns = Array.isArray(rigvedaNs?.hymns) ? rigvedaNs.hymns : [];
+    const mandalas = Array.isArray(rigvedaNs?.mandalas) ? rigvedaNs.mandalas : [];
+    const selectedMandala = mandalas.find((m: Record<string, unknown>) => Number(m.mandala) === chapterNum) as Record<string, unknown> | undefined;
+    const hymns = Array.isArray(selectedMandala?.hymns) ? selectedMandala.hymns : [];
     entry = hymns.find((h: Record<string, unknown>) => Number(h.hymn_number) === itemNum);
     detailLabel = 'Hymn';
   }

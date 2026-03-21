@@ -47,7 +47,7 @@ type SlugConfig = PerFileConfig | FromMainConfig;
 
 const SLUG_CONFIG: Record<string, SlugConfig> = {
   rigveda: {
-    mode: 'per-file',
+    mode: 'from-main',
     icon: '🔥',
     accentFrom: 'from-[#7c2d12]',
     accentVia: 'via-[#c2410c]',
@@ -56,8 +56,14 @@ const SLUG_CONFIG: Record<string, SlugConfig> = {
     borderAccent: 'border-[#c2410c]',
     chapterPrefix: 'mandala',
     itemLabel: 'Mandala',
-    filePattern: 'vedas_rigveda_madala',
-    totalItems: 10,
+    fileKey: 'vedas/rigveda/rigveda',
+    listKey: 'mandalas',
+    idKey: 'mandala',
+    detailFileKey: 'vedas/rigveda/rigveda',
+    detailListKey: 'mandalas',
+    detailItemsKey: 'hymns',
+    detailItemLabel: 'Hymn',
+    detailItemPrefix: 'hymn',
   },
   yajurveda: {
     mode: 'from-main',
@@ -342,7 +348,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
                 <span className={`flex h-8 w-8 items-center justify-center rounded-xl bg-linear-to-br ${cfg.accentFrom} ${cfg.accentTo} text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]`}>
                   {chapterNum}
                 </span>
-                <h2 className={`text-lg md:text-xl font-extrabold ${cfg.textAccent}`}>{cfg.itemLabel} {chapterNum}</h2>
+                <h2 className={`text-lg sm:text-md font-extrabold ${cfg.textAccent}`}>{cfg.itemLabel} {chapterNum}</h2>
               </div>
             </div>
           </div>

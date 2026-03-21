@@ -19,7 +19,7 @@ const SLUG_CONFIG: Record<string, {
   deitiesKey: string; deitiesLabel: string;
 }> = {
   rigveda: {
-    icon: '🔥', fileKey: 'vedas_rigveda',
+    icon: '🔥', fileKey: 'vedas/rigveda/rigveda',
     accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
     chaptersKey: 'mandalas', chaptersLabel: 'The 10 Mandalas of Rigveda', itemLabel: 'Mandala',
@@ -266,7 +266,7 @@ export default function SlugClient({ slug }: { slug: string }) {
           </div>
 
           {description && (
-            <p className="text-lg md:text-xl body-text italic font-medium">{description}</p>
+            <p className="text-lg sm:text-md body-text italic font-medium">{description}</p>
           )}
         </div>
       </section>

@@ -18,7 +18,7 @@ type ChapterMetaConfig = {
 };
 
 const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
-  rigveda: { mode: 'per-file', filePattern: 'vedas_rigveda_madala' },
+  rigveda: { mode: 'from-main', fileKey: 'vedas/rigveda/rigveda' },
   yajurveda: { mode: 'from-main', fileKey: 'vedas_yajurveda' },
   samaveda: { mode: 'from-main', fileKey: 'vedas_samaveda' },
   atharvaveda: { mode: 'from-main', fileKey: 'vedas_atharvaveda' },

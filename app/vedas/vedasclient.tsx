@@ -25,9 +25,9 @@ const VEDA_ACCENTS: Record<string, { from: string; via: string; to: string; text
 function OrnamentDivider() {
   return (
     <div className="flex items-center justify-center gap-3 my-10">
-      <div className="h-px w-16 bg-linear-to-r from-transparent to-[#d8a25a]" />
+      <div className="h-px w-14 bg-linear-to-r from-transparent to-[#d8a25a]" />
       <span className="text-[#d97706] text-lg">◆</span>
-      <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
+      <div className="h-px w-14 bg-linear-to-l from-transparent to-[#d8a25a]" />
     </div>
   );
 }
@@ -81,13 +81,13 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         </div>
 
         {/* Description */}
-        <div className="text-[#5b2d12] leading-relaxed text-base">
+        <div className="text-[#5b2d12] leading-relaxed text-md">
           <Paragraphs text={description} />
         </div>
 
         {importance && (
           <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-[#92400e]">
-            <span className="text-base">✦</span> {importance}
+            <span className="text-md">✦</span> {importance}
           </div>
         )}
 
@@ -191,7 +191,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
           {num}
         </span>
         <div className="flex-1 min-w-0">
-          <h4 className="text-base md:text-lg font-bold text-[#3d2e22]">
+          <h4 className="text-md md:text-lg font-bold text-[#3d2e22]">
             Mandala {num} <span className="text-[#a89278] font-normal text-sm ml-2">— {hymns} hymns</span>
           </h4>
           {classification && <p className="text-xs text-[#6b5d4f] mt-0.5 truncate">{classification}</p>}
@@ -324,7 +324,7 @@ export default function VedasClient() {
           </div>
 
           {definition && (
-            <p className="text-lg md:text-xl text-[#5b2d12] leading-relaxed italic font-medium mb-6">{definition}</p>
+            <p className="text-lg sm:text-md text-[#5b2d12] leading-relaxed italic font-medium mb-6">{definition}</p>
           )}
 
           {meaningOfWord && (
@@ -369,7 +369,7 @@ export default function VedasClient() {
             <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
               Introduction
             </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed">
+            <div className="text-md text-[#5b2d12] leading-relaxed">
               <Paragraphs text={introduction} />
             </div>
           </section>
@@ -446,7 +446,7 @@ export default function VedasClient() {
               {Object.entries(philoConcepts).map(([key, value]) => (
                 <div key={key} className="relative overflow-hidden rounded-2xl border border-amber-200/30 bg-amber-50 p-5 hover:shadow-[0_8px_30px_rgba(146,64,14,0.10)] transition-all duration-200 hover:-translate-y-0.5">
                   <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-600 via-amber-400 to-amber-300" />
-                  <h4 className="text-base font-extrabold text-gray-900 capitalize">{key}</h4>
+                  <h4 className="text-md font-extrabold text-gray-900 capitalize">{key}</h4>
                   <p className="meta-text mt-1">{value}</p>
                 </div>
               ))}
@@ -535,7 +535,7 @@ export default function VedasClient() {
                     <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
                     <div className="flex items-center gap-2 mb-4">
                       <span className="text-xl">{iconMap[key] || '✦'}</span>
-                      <h4 className="text-base font-bold text-gray-900 capitalize">{key.replace(/_/g, ' ')}</h4>
+                      <h4 className="text-md font-bold text-gray-900 capitalize">{key.replace(/_/g, ' ')}</h4>
                     </div>
                     <ul className="space-y-2">
                       {list.map((item: string, i: number) => (
