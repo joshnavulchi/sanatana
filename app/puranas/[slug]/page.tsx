@@ -3,7 +3,7 @@ export const revalidate = 60;
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import SlugClient from './slugclient';
-import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '@lib/purana-utils';
+import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 import { loadGeneratedParamsSync } from '@lib/siteUtils';

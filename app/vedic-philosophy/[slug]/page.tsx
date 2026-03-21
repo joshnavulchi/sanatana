@@ -4,7 +4,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 import SlugClient from './slugclient';
 import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
-import { loadGeneratedParamsSync } from '@lib/safeGeneratedParams';
+import { loadGeneratedParamsSync } from '@lib/siteUtils';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';

@@ -2,7 +2,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
-import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
+import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '@lib/siteUtils';
 import { loadGeneratedParamsSync } from '@lib/siteUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 

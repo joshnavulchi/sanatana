@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseList } from '@lib/parseList';
+import { parseList } from '@lib/parse';
 import Link from 'next/link';
 
 /* ── Rotating temple tones for each yuga card ── */

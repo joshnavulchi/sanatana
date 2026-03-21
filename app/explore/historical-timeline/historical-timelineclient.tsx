@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseMaybeObject } from '@lib/parseContent';
+import { parseMaybeObject } from '@lib/parse';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
