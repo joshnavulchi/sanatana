@@ -7,8 +7,7 @@ import { DEFAULT_LOCALE } from '@lib/i18n';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
-import localesList from '@lib/localesList.json';
-import localeMeta from '@lib/localeMeta.json';
+import locales from '@lib/locales.json';
 
 export default function LanguageDropdown() {
   const locale = useLocaleSection('sharable_strings');
@@ -121,7 +120,7 @@ export default function LanguageDropdown() {
     }
   };
 
-  const allLanguages = Array.isArray(localesList) ? localesList : [];
+  const allLanguages = Array.isArray(locales) ? locales : [];
   const currentLanguage = allLanguages.find((lang) => lang.code === currentLang);
   const filteredLanguages = useMemo(() => {
     const q = (searchTerm || '').toLowerCase();
@@ -179,7 +178,7 @@ export default function LanguageDropdown() {
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
           {/* Modal Container */}
-            <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-3xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
+          <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-3xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
             {/* Decorative gradient header */}
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
 
@@ -258,9 +257,8 @@ export default function LanguageDropdown() {
             <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
-                  const meta = (localeMeta as any)[lang.code] || {};
-                  const flag = meta.flag || '';
-                  const region = meta.region || lang.name;
+                  const flag = (lang as any).flag || '';
+                  const region = (lang as any).region || lang.name;
                   const isSelected = currentLang === lang.code;
                   const isHighlighted = highlighted === idx;
                   return (
