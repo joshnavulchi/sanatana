@@ -201,7 +201,7 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-base font-semibold text-gray-900 cursor-pointer transition-all duration-200 hover:bg-white/50 hover:text-primary-600">
+      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-sm text-gray-900 cursor-pointer transition-all duration-200 hover:bg-white/50 hover:text-primary-600">
         <span className="text-base">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -270,7 +270,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
               <div className="flex items-center">
                 <Link
                   href={item.href}
-                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-xl font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                   onClick={onNavigate}
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
@@ -301,7 +301,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-base font-medium text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                       onClick={onNavigate}
                     >
                       <span className="h-1 w-1 rounded-full bg-[#c49a6c]" />
