@@ -60,25 +60,6 @@ export function resolveRoute(segments: string[]) {
 }
 
 /**
- * Build deterministic hierarchical paths
- */
-// function buildPaths(base: string, locale: string, segments: string[]) {
-//   const loc = locale || DEFAULT_LOCALE;
-//   const parts = normalizeSegments(segments);
-
-//   if (!parts.length) return [];
-
-//   const joined = parts.join('/');
-//   const last = parts[parts.length - 1];
-
-//   return [
-//     `/data/locales/${loc}/${base}/${joined}/index.json`,
-//     `/data/locales/${loc}/${base}/${joined}.json`,
-//     `/data/locales/${loc}/${base}/${joined}/${last}.json`,
-//   ];
-// }
-
-/**
  * 🔥 MAIN FETCH FUNCTION (USE THIS EVERYWHERE)
  */
 export async function fetchContentByRoute(locale: string, segments: string[]) {
