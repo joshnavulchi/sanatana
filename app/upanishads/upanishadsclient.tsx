@@ -1,9 +1,9 @@
 "use client";
-import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 import Link from 'next/link';
+import PageLayout from '@components/common/PageLayout';
 
 interface NavLink { href: string; label: string }
 

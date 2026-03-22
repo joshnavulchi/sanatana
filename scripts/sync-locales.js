@@ -156,8 +156,8 @@ function main() {
 
     console.log('\n=== Syncing locale:', tgt, '===');
 
-    copyMissingFromSource(srcRoot, tgtRoot);
-    removeExtrasNotInSource(srcRoot, tgtRoot);
+    // copyMissingFromSource(srcRoot, tgtRoot);
+    // removeExtrasNotInSource(srcRoot, tgtRoot);
     regenerateIndexes(tgtRoot);
   }
 
