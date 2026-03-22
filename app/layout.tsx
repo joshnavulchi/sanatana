@@ -95,6 +95,35 @@ export default async function RootLayout({
             `
           }}
         />
+        {/* Patch performance.measure early to avoid browser TypeError for negative timestamps in dev tooling */}
+        <Script
+          id="patch-performance-measure"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                try {
+                  if (typeof performance !== 'undefined' && performance && typeof performance.measure === 'function') {
+                    var orig = performance.measure.bind(performance);
+                    performance.measure = function(nameOrOptions, opts) {
+                      try {
+                        return orig.apply(performance, arguments);
+                      } catch (err) {
+                        // Some browsers throw when start/end timestamps are negative.
+                        // Silently ignore that specific error to avoid breaking dev overlay.
+                        try {
+                          var msg = err && err.message ? String(err.message).toLowerCase() : '';
+                          if (msg.indexOf('negative') !== -1 || msg.indexOf('cannot have a negative') !== -1) return;
+                        } catch (e) {}
+                        throw err;
+                      }
+                    };
+                  }
+                } catch (e) { /* ignore */ }
+              })();
+            `
+          }}
+        />
         <noscript><link rel="stylesheet" href="/globals.from-scss.css" /></noscript>
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />

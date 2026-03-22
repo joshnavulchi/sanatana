@@ -29,7 +29,12 @@
         "@type": "Person",
         "name": "Vyasa"
       },
-      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
+      "about": [
+        "Rigveda",
+        "Yajurveda",
+        "Samaveda",
+        "Atharvaveda"
+      ],
       "inLanguage": "Sanskrit",
       "publisher": {
         "@type": "Organization",
@@ -51,7 +56,14 @@
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
+        "major_deities": [
+          "Agni",
+          "Indra",
+          "Varuna",
+          "Mitra",
+          "Soma",
+          "Ushas"
+        ],
         "major_themes": [
           "Creation of universe",
           "Cosmic order (Rta)",
@@ -188,6 +200,45 @@
       "Yajna",
       "Rta",
       "Sanatana Dharma"
-    ]
+    ],
+    "structure": {
+      "rigveda": {
+        "base_path": "/vedas/rigveda",
+        "chapter_prefix": "mandala",
+        "item_prefix": "hymn",
+        "total_chapters": 10,
+        "chapter_item_counts": {
+          "mandala-1": 191,
+          "mandala-2": 43,
+          "mandala-3": 62,
+          "mandala-4": 58,
+          "mandala-5": 87,
+          "mandala-6": 75,
+          "mandala-7": 191,
+          "mandala-8": 103,
+          "mandala-9": 114,
+          "mandala-10": 191
+        }
+      },
+      "yajurveda": {
+        "base_path": "/vedas/yajurveda",
+        "chapter_prefix": "chapter",
+        "item_prefix": "mantra",
+        "total_chapters": 10,
+        "items_per_chapter": 12
+      },
+      "samaveda": {
+        "base_path": "/vedas/samaveda",
+        "direct_item_prefix": "hymn",
+        "total_items": 10
+      },
+      "atharvaveda": {
+        "base_path": "/vedas/atharvaveda",
+        "chapter_prefix": "book",
+        "item_prefix": "hymn",
+        "total_chapters": 10,
+        "items_per_chapter": 10
+      }
+    }
   }
 }
