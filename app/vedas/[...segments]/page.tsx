@@ -66,7 +66,8 @@ export default async function Page({ params }: { params: { segments?: string[] }
 
   const locale = DEFAULT_LOCALE;
 
-  const fetched = await fetchContentByRoute(locale, ['vedas', ...(segments || [])]);
+  const fetched = await fetchContentByRoute(locale, segments);
+  // await fetchContentByRoute(locale, ['vedas', ...(segments || [])]);
   // Normalize JSON shape: many vedas files wrap content under a top-level key
   let data: VedasData | null = fetched && fetched.data ? (fetched.data as any) : null;
   if (data && typeof data === 'object' && segments.length > 0) {

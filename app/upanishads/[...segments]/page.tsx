@@ -15,16 +15,15 @@ type UpanishadsData = {
 
 export async function generateStaticParams() {
   const topLevelUpanishads = [
-    'aitareya', 'brihadaranyaka', 'chandogya', 'isha',
-    'katha', 'kaushitaki', 'kena', 'maitri',
-    'mandukya', 'mundaka', 'prashna', 'shvetashvatara',
-    'taittiriya'
+    'aitareya-upanishad', 'brihadaranyaka-upanishad', 'chandogya-upanishad', 'isha-upanishad',
+    'katha-upanishad', 'kaushitaki-upanishad', 'kena-upanishad', 'maitri-upanishad',
+    'mandukya-upanishad', 'mundaka-upanishad', 'prashna-upanishad', 'shvetashvatara-upanishad',
+    'taittiriya-upanishad'
   ];
   const out: Array<{ segments: string[] }> = [];
   for (const loc of SUPPORTED_LOCALES) {
     for (const s of topLevelUpanishads) {
       out.push({ segments: [s] });
-      out.push({ segments: [`${s}-upanishad`] });
     }
   }
   return out;

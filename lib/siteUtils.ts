@@ -72,33 +72,52 @@ function buildPaths(base: string, locale: string, segments: string[]) {
   ];
 }
 
+// For pre-generating static paths for top-level upanishads
+// This is a bit hacky but avoids needing to crawl the filesystem or maintain a separate list of top-level upanishads.
+async function doesContentExist(path: string) {
+  try {
+    const res = await fetch(path, {
+      method: 'HEAD', // ⚡ very fast (no body)
+      cache: 'force-cache',
+    } as any);
+
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
 /**
  * 🔥 MAIN FETCH FUNCTION (USE THIS EVERYWHERE)
  */
 export async function fetchContentByRoute(locale: string, segments: string[]) {
   const { base, pathSegments } = resolveRoute(segments);
 
-  if (!base) {
+  if (!base || !pathSegments.length) {
     return { data: null, path: null };
   }
 
-  const paths = buildPaths(base, locale, pathSegments);
+  const loc = locale || DEFAULT_LOCALE;
+  const joined = pathSegments.join('/');
 
-  for (const p of paths) {
-    try {
-      const res = await fetch(p, {
-        cache: 'force-cache',
-        next: { revalidate: 60 },
-      } as any);
+  // ✅ PRIMARY PATH ONLY (no loops)
+  const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
 
-      if (res.ok) {
-        return { data: await res.json(), path: p };
-      }
-    } catch { }
+  // 🔍 FAST existence check
+  const exists = await doesContentExist(primaryPath);
+
+  if (!exists) {
+    return { data: null, path: null }; // 🚀 SKIP immediately
   }
 
-  if (locale !== DEFAULT_LOCALE) {
-    return fetchContentByRoute(DEFAULT_LOCALE, segments);
+  // ✅ FETCH ONLY IF EXISTS
+  const res = await fetch(primaryPath, {
+    cache: 'force-cache',
+    next: { revalidate: 60 },
+  } as any);
+
+  if (res.ok) {
+    return { data: await res.json(), path: primaryPath };
   }
 
   return { data: null, path: null };
@@ -111,42 +130,42 @@ export let RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakand
 
 // Attempt to populate from public/data/locales/{locale}/itihasa on server start.
 // This runs only in Node (server) and won't pull `fs` into client bundles.
-if (typeof window === 'undefined') {
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const baseLocale = String(DEFAULT_LOCALE || 'en');
+// if (typeof window === 'undefined') {
+//   try {
+//     const fs = require('fs');
+//     const path = require('path');
+//     const baseLocale = String(DEFAULT_LOCALE || 'en');
 
-    const mahabPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'mahabharata');
-    const ramaPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'ramayana');
+//     const mahabPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'mahabharata');
+//     const ramaPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'ramayana');
 
-    try {
-      const mahabDirs = fs.readdirSync(mahabPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(mahabDirs) && mahabDirs.length > 0) {
-        MAHABHARATA_PARVAS = mahabDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
+//     try {
+//       const mahabDirs = fs.readdirSync(mahabPath, { withFileTypes: true })
+//         .filter((d: any) => d.isDirectory())
+//         .map((d: any) => String(d.name))
+//         .filter(Boolean);
+//       if (Array.isArray(mahabDirs) && mahabDirs.length > 0) {
+//         MAHABHARATA_PARVAS = mahabDirs.sort();
+//       }
+//     } catch (e) {
+//       // ignore and keep defaults
+//     }
 
-    try {
-      const ramaDirs = fs.readdirSync(ramaPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(ramaDirs) && ramaDirs.length > 0) {
-        RAMAYANA_KANDAS = ramaDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
-  } catch (e) {
-    // fs not available or other error — keep fallbacks
-  }
-}
+//     try {
+//       const ramaDirs = fs.readdirSync(ramaPath, { withFileTypes: true })
+//         .filter((d: any) => d.isDirectory())
+//         .map((d: any) => String(d.name))
+//         .filter(Boolean);
+//       if (Array.isArray(ramaDirs) && ramaDirs.length > 0) {
+//         RAMAYANA_KANDAS = ramaDirs.sort();
+//       }
+//     } catch (e) {
+//       // ignore and keep defaults
+//     }
+//   } catch (e) {
+//     // fs not available or other error — keep fallbacks
+//   }
+// }
 
 export function parseNumericSuffix(slug: string): number | null {
   const m = String(slug || '').match(/-(\d+)$/);
@@ -163,10 +182,10 @@ export function toUnderscoreSlug(slug: string): string {
   return String(slug || '').replace(/-/g, '_');
 }
 
-export function isMahabharataParvaSlug(slug: string): boolean {
-  return MAHABHARATA_PARVAS.includes(slug) || /^parva-?\d+$/.test(slug);
-}
+// export function isMahabharataParvaSlug(slug: string): boolean {
+//   return MAHABHARATA_PARVAS.includes(slug) || /^parva-?\d+$/.test(slug);
+// }
 
-export function isRamayanaKandaSlug(slug: string): boolean {
-  return RAMAYANA_KANDAS.includes(slug) || /^kanda-?\d+$/.test(slug);
-}
+// export function isRamayanaKandaSlug(slug: string): boolean {
+//   return RAMAYANA_KANDAS.includes(slug) || /^kanda-?\d+$/.test(slug);
+// }
