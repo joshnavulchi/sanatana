@@ -1,10 +1,10 @@
 {
-  "upanishads_mandukya-upanishad": {
+  "mandukya": {
     "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/mandukya",
       "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Mandukya Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mandukya",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
       "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mandukya",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mandukya",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

@@ -1,10 +1,10 @@
 {
-  "upanishads_chandogya-upanishad": {
+  "chandogya": {
     "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/chandogya",
       "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Chandogya Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/chandogya",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png"
     },
     "openGraph": {
       "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/chandogya",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/chandogya",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

@@ -1,10 +1,10 @@
 {
-  "upanishads_taittiriya-upanishad": {
+  "taittiriya": {
     "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/taittiriya",
       "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Taittiriya Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/taittiriya",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
       "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/taittiriya",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/taittiriya",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

@@ -239,7 +239,7 @@ Example
 ```
 rigveda.json
 bhagavata-purana.json
-chandogya-upanishad.json
+chandogya.json
 ```
 ---
 

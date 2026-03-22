@@ -5,6 +5,7 @@ const path = require('path');
 const ROOT = process.cwd();
 const LOCALES_ROOT = path.join(ROOT, 'public', 'data', 'locales');
 const SOURCE_LOCALE = 'en';
+const INCLUDE_SOURCE = process.env.INCLUDE_SOURCE === '1' || process.argv.includes('--include-source');
 
 // ------------------------
 // Helpers
@@ -142,7 +143,7 @@ function main() {
     process.exit(1);
   }
 
-  const targets = locales.filter((l) => l !== SOURCE_LOCALE);
+  const targets = INCLUDE_SOURCE ? locales : locales.filter((l) => l !== SOURCE_LOCALE);
 
   if (targets.length === 0) {
     console.log('No target locales found. Nothing to do.');
@@ -156,8 +157,8 @@ function main() {
 
     console.log('\n=== Syncing locale:', tgt, '===');
 
-    copyMissingFromSource(srcRoot, tgtRoot);
-    removeExtrasNotInSource(srcRoot, tgtRoot);
+    // copyMissingFromSource(srcRoot, tgtRoot);
+    // removeExtrasNotInSource(srcRoot, tgtRoot);
     regenerateIndexes(tgtRoot);
   }
 

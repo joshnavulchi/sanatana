@@ -1,10 +1,10 @@
 {
-  "upanishads_maitri-upanishad": {
+  "maitri": {
     "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/maitri",
       "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Maitri Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/maitri",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_maitri_upanishad.png"
     },
     "openGraph": {
       "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/maitri",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/maitri",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

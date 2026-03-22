@@ -1,10 +1,10 @@
 "use client";
 
 import Link from 'next/link';
-import PageLayout from '@components/common/PageLayout';
 import Loader from '@components/loader';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import PageLayout from '@components/common/PageLayout';
 
 interface Breadcrumb {
   label: string;

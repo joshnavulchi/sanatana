@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata, } from '@lib/pageUtils';
-import StructuredData from '@components/structured-data/StructuredData';
 import HeroSection from '@components/herosection';
 import WelcomePage from '@components/welcome';
 import UnderstandingOfSanatana from '@components/sanatanadharmam';
 import OurFourCoreYugas from '@components/ourfourcoreyugas';
 import GitSupport from '@components/git-support';
 
+export const generateMetadata = createGenerateMetadata('home');
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
 let criticalCssChecked = false;
@@ -33,8 +33,6 @@ function getCriticalCss(): string {
   return cachedCriticalCss || '';
 }
 
-export const generateMetadata = createGenerateMetadata('home');
-
 export default async function Home() {
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
@@ -42,8 +40,6 @@ export default async function Home() {
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
-      <StructuredData metaKey="home" />
-
       <WelcomePage />
       <HeroSection />
       <UnderstandingOfSanatana />
@@ -64,7 +60,6 @@ export default async function Home() {
           loop={false}
           showPlaylist={false}
         /> */}
-
     </>
   );
-}       
+}

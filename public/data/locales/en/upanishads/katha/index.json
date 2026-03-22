@@ -1,10 +1,10 @@
 {
-  "upanishads_katha-upanishad": {
+  "katha": {
     "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/katha",
       "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Katha Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/katha",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
       "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/katha",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/katha",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

@@ -40,7 +40,7 @@ export default function AboutClient() {
         metaKey="about"
         title={about.title}
         description={about.description || ''}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: about.title }]}
         className="layout-sm"
       >
         {/* Text-to-Speech Player */}

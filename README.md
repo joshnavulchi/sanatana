@@ -247,3 +247,27 @@ This repository uses the OpenSpec experimental workflow to propose, implement, a
     npm run postbuild
 
 If you'd like, I can also add a small template generator that creates the page scaffold and starter locale JSON when you create a new proposal. Ask me to scaffold `openspec/changes/<name>/artifacts` for a new page and I'll generate starter files.
+
+## Sync locales script
+
+Use the `scripts/sync-locales.js` helper to (re)generate per-locale `index.ts` files for JSON namespaces under `public/data/locales`.
+
+- Basic (regenerates indexes for all non-source locales):
+
+```powershell
+node .\scripts\sync-locales.js
+```
+
+- Include the source locale (`en`) as well:
+
+```powershell
+$env:INCLUDE_SOURCE = '1'; node .\scripts\sync-locales.js
+```
+
+- Or use the CLI flag:
+
+```powershell
+node .\scripts\sync-locales.js --include-source
+```
+
+- Notes: the script writes `index.ts` files that import and merge JSON files in each locale folder. By default the source locale (`en`) is skipped to avoid overwriting canonical source indexes; pass `--include-source` or set `INCLUDE_SOURCE=1` to regenerate `en` indexes as well.

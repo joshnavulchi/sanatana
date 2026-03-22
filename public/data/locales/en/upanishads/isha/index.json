@@ -1,10 +1,10 @@
 {
-  "upanishads_isha-upanishad": {
+  "isha": {
     "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/isha",
       "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Isha Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/isha",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
       "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/isha",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/isha",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",
@@ -56,6 +56,170 @@
         "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion.",
+    "total_chapters": 5,
+    "total_verses": 25,
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Isha Chapter 1",
+        "path": "/upanishads/isha/chapter-1",
+        "verses": [
+          {
+            "verse_number": 1,
+            "title": "Isha Chapter 1 Verse 1",
+            "path": "/upanishads/isha/chapter-1/verse-1"
+          },
+          {
+            "verse_number": 2,
+            "title": "Isha Chapter 1 Verse 2",
+            "path": "/upanishads/isha/chapter-1/verse-2"
+          },
+          {
+            "verse_number": 3,
+            "title": "Isha Chapter 1 Verse 3",
+            "path": "/upanishads/isha/chapter-1/verse-3"
+          },
+          {
+            "verse_number": 4,
+            "title": "Isha Chapter 1 Verse 4",
+            "path": "/upanishads/isha/chapter-1/verse-4"
+          },
+          {
+            "verse_number": 5,
+            "title": "Isha Chapter 1 Verse 5",
+            "path": "/upanishads/isha/chapter-1/verse-5"
+          }
+        ]
+      },
+      {
+        "chapter": 2,
+        "title": "Isha Chapter 2",
+        "path": "/upanishads/isha/chapter-2",
+        "verses": [
+          {
+            "verse_number": 1,
+            "title": "Isha Chapter 2 Verse 1",
+            "path": "/upanishads/isha/chapter-2/verse-1"
+          },
+          {
+            "verse_number": 2,
+            "title": "Isha Chapter 2 Verse 2",
+            "path": "/upanishads/isha/chapter-2/verse-2"
+          },
+          {
+            "verse_number": 3,
+            "title": "Isha Chapter 2 Verse 3",
+            "path": "/upanishads/isha/chapter-2/verse-3"
+          },
+          {
+            "verse_number": 4,
+            "title": "Isha Chapter 2 Verse 4",
+            "path": "/upanishads/isha/chapter-2/verse-4"
+          },
+          {
+            "verse_number": 5,
+            "title": "Isha Chapter 2 Verse 5",
+            "path": "/upanishads/isha/chapter-2/verse-5"
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "title": "Isha Chapter 3",
+        "path": "/upanishads/isha/chapter-3",
+        "verses": [
+          {
+            "verse_number": 1,
+            "title": "Isha Chapter 3 Verse 1",
+            "path": "/upanishads/isha/chapter-3/verse-1"
+          },
+          {
+            "verse_number": 2,
+            "title": "Isha Chapter 3 Verse 2",
+            "path": "/upanishads/isha/chapter-3/verse-2"
+          },
+          {
+            "verse_number": 3,
+            "title": "Isha Chapter 3 Verse 3",
+            "path": "/upanishads/isha/chapter-3/verse-3"
+          },
+          {
+            "verse_number": 4,
+            "title": "Isha Chapter 3 Verse 4",
+            "path": "/upanishads/isha/chapter-3/verse-4"
+          },
+          {
+            "verse_number": 5,
+            "title": "Isha Chapter 3 Verse 5",
+            "path": "/upanishads/isha/chapter-3/verse-5"
+          }
+        ]
+      },
+      {
+        "chapter": 4,
+        "title": "Isha Chapter 4",
+        "path": "/upanishads/isha/chapter-4",
+        "verses": [
+          {
+            "verse_number": 1,
+            "title": "Isha Chapter 4 Verse 1",
+            "path": "/upanishads/isha/chapter-4/verse-1"
+          },
+          {
+            "verse_number": 2,
+            "title": "Isha Chapter 4 Verse 2",
+            "path": "/upanishads/isha/chapter-4/verse-2"
+          },
+          {
+            "verse_number": 3,
+            "title": "Isha Chapter 4 Verse 3",
+            "path": "/upanishads/isha/chapter-4/verse-3"
+          },
+          {
+            "verse_number": 4,
+            "title": "Isha Chapter 4 Verse 4",
+            "path": "/upanishads/isha/chapter-4/verse-4"
+          },
+          {
+            "verse_number": 5,
+            "title": "Isha Chapter 4 Verse 5",
+            "path": "/upanishads/isha/chapter-4/verse-5"
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "title": "Isha Chapter 5",
+        "path": "/upanishads/isha/chapter-5",
+        "verses": [
+          {
+            "verse_number": 1,
+            "title": "Isha Chapter 5 Verse 1",
+            "path": "/upanishads/isha/chapter-5/verse-1"
+          },
+          {
+            "verse_number": 2,
+            "title": "Isha Chapter 5 Verse 2",
+            "path": "/upanishads/isha/chapter-5/verse-2"
+          },
+          {
+            "verse_number": 3,
+            "title": "Isha Chapter 5 Verse 3",
+            "path": "/upanishads/isha/chapter-5/verse-3"
+          },
+          {
+            "verse_number": 4,
+            "title": "Isha Chapter 5 Verse 4",
+            "path": "/upanishads/isha/chapter-5/verse-4"
+          },
+          {
+            "verse_number": 5,
+            "title": "Isha Chapter 5 Verse 5",
+            "path": "/upanishads/isha/chapter-5/verse-5"
+          }
+        ]
+      }
+    ]
   }
 }

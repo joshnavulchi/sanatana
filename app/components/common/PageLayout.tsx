@@ -1,10 +1,14 @@
 'use client';
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
+import StructuredData from '../structured-data/StructuredData';
 import WordCount from '@components/wordcount/wordcount';
-import Breadcrumbs from '@components/breadcrumbs';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
+
+import Breadcrumbs from '../breadcrumbs';
 type BreadcrumbItem = { label?: string; labelKey?: string; href?: string };
+
 type Props = {
   metaKey?: string;
   title?: React.ReactNode;
@@ -17,7 +21,18 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function PageLayout({ metaKey, title, titleColor, titleBorder, description, breadcrumbs, className, children, locale }: Props) {
+export default function PageLayout(
+  { metaKey,
+    title,
+    titleColor,
+    titleBorder,
+    description,
+    breadcrumbs,
+    className,
+    children,
+    locale
+  }: Props) {
+
   const pathname = usePathname() || '/';
   const segments = pathname.split('/').filter(Boolean);
   const hasLocalePrefix = /^[a-z]{2}(?:-[A-Z]{2})?$/.test(segments[0] || '') && segments.length > 1;
@@ -54,6 +69,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
   const h2Border = `${titleBorder || 'border-[#d8a25a]'}`;
   return (
     <>
+      <StructuredData metakey={metaKey ? metaKey : 'home'} />
       <main className={`px-3 ${wrapper}`}>
         <div className="w-full">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
@@ -84,7 +100,6 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
           {children}
         </div>
       </main>
-
       {/* ─── Floating Similar-Categories Toggle ─── */}
       {showSimilarCategories && (
         <>

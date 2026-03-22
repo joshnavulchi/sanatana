@@ -1,10 +1,10 @@
 {
-  "upanishads_mundaka-upanishad": {
+  "mundaka": {
     "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/mundaka",
       "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Mundaka Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mundaka",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
       "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mundaka",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/mundaka",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

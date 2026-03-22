@@ -1,10 +1,10 @@
 {
-  "upanishads_brihadaranyaka-upanishad": {
+  "brihadaranyaka": {
     "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
     "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
     "meta": {
       "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
+      "canonical": "https://sanatanadharmam.in/upanishads/brihadaranyaka",
       "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
       "keywords": [
         "Brihadaranyaka Upanishad",
@@ -15,13 +15,13 @@
         "Sanatana Dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png"
     },
     "openGraph": {
       "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
       "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
-      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
+      "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

@@ -1,11 +1,12 @@
 "use client";
+
 import { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from '@lib/parse';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import PageLayout from '@components/common/PageLayout';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
