@@ -50,12 +50,8 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
           if (parsed[key] && typeof parsed[key] === 'object') parsed = parsed[key];
         }
 
-        // Remove meta/opengraph/schema from displayed content
-        if (parsed && typeof parsed === 'object') {
-          const { meta, opengraph, schema, ...rest } = parsed as any;
-          parsed = rest;
-        }
-
+        // Keep parsed as-is (we will use meta.title/description for header
+        // but explicitly exclude metadata keys when rendering UI below).
         if (!cancelled) setData(parsed || null);
       } catch (e) {
         if (!cancelled) setError('Vedas content not found');
@@ -70,8 +66,8 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
     };
   }, [initialData, initialLocale, locale, segments]);
 
-  const title = String(data?.title || segments.join(' / ') || 'Vedas');
-  const description = String(data?.description || '');
+  const title = String(data?.meta?.title ?? data?.title ?? segments.join(' / ') ?? 'Vedas');
+  const description = String(data?.meta?.description ?? data?.description ?? '');
 
   const breadcrumbs = [
     { labelKey: 'Home', href: '/' },
@@ -99,29 +95,149 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
 
   return (
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
-      <div className="prose max-w-none">
-        {data?.title && <h1 className="text-3xl font-bold mb-4">{data.title}</h1>}
-        {data?.description && <p className="mb-6 text-lg text-gray-700">{data.description}</p>}
+      {/* Introduction */}
+      {typeof data?.introduction === 'string' && (
+        <section>
+          <p className="text-base text-gray-800 leading-relaxed mb-4">{data.introduction}</p>
+        </section>
+      )}
+      {/* Sections array */}
+      {Array.isArray(data?.section) && data.section.length > 0 && (
+        <>
+          {data.section.map((item: any, idx: number) => {
+            const secTitle = typeof item?.section === 'string' ? item.section : null;
+            const secContent = typeof item?.content === 'string' ? item.content : null;
+            return (
+              <section key={idx}>
+                {secTitle ? (
+                  <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{secTitle}</h2>
+                ) : null}
+                {secContent ? (
+                  <p className="text-base text-gray-800 leading-relaxed mb-4">{secContent}</p>
+                ) : null}
+              </section>
+            );
+          })}
+        </>
+      )}
 
-        {typeof data?.content === 'string' && (
-          <div dangerouslySetInnerHTML={{ __html: data.content as string }} />
-        )}
+      {/* Scripture text (detailed sections) */}
+      {Array.isArray(data?.scripture_text) && data.scripture_text.length > 0 && (
+        <div className="mt-6">
+          {data.scripture_text.map((item: any, i: number) => {
+            const sTitle = typeof item?.section === 'string' ? item.section : null;
+            const sContent = typeof item?.content === 'string' ? item.content : null;
+            return (
+              <section key={`scripture-${i}`}>
+                {sTitle ? (
+                  <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{sTitle}</h2>
+                ) : null}
+                {sContent ? (
+                  <p className="text-base text-gray-800 leading-relaxed mb-4">{sContent}</p>
+                ) : null}
+              </section>
+            );
+          })}
+        </div>
+      )}
 
-        {data && typeof data?.content === 'object' && (
-          <pre className="whitespace-pre-wrap bg-gray-50 p-4 rounded-md overflow-auto">{JSON.stringify(data.content, null, 2)}</pre>
-        )}
-
-        {Array.isArray(data?.children) && data.children.length > 0 && (
-          <div className="mt-6">
-            <h2 className="text-xl font-semibold mb-3">Sections</h2>
-            <ul className="list-disc pl-6 space-y-2">
-              {data.children.map((c, i) => (
-                <li key={i}>{c}</li>
-              ))}
-            </ul>
+      {/* Major deities */}
+      {Array.isArray(data?.major_rigvedic_deities) && data.major_rigvedic_deities.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-red-800 mb-3">Major Deities</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {data.major_rigvedic_deities.map((d: any, i: number) => (
+              <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white">
+                <h3 className="text-lg font-semibold text-gray-900">{String(d?.name || '')}</h3>
+                {d?.role && <div className="text-sm text-gray-700 mt-1">{d.role}</div>}
+                {d?.importance && <p className="text-base text-gray-800 mt-2">{d.importance}</p>}
+              </div>
+            ))}
           </div>
-        )}
-      </div>
+        </section>
+      )}
+
+      {/* Mandalas overview */}
+      {Array.isArray(data?.mandalas) && data.mandalas.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-red-800 mb-3">Mandalas</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {data.mandalas.map((m: any, i: number) => (
+              <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
+                <div className="flex items-baseline justify-between">
+                  <div className="text-xl font-bold text-amber-800">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
+                  <div className="text-sm text-gray-600">{String(m?.hymn_count ?? '')} hymns</div>
+                </div>
+                {m?.hymns && Array.isArray(m.hymns) && m.hymns.length > 0 && (
+                  <p className="text-sm text-gray-700 mt-2">Example: {String(m.hymns[0]?.title || '')}</p>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Related concepts tags */}
+      {Array.isArray(data?.related_concepts) && data.related_concepts.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-red-800 mb-3">Related Concepts</h2>
+          <div className="flex flex-wrap gap-2">
+            {data.related_concepts.map((c: any, i: number) => (
+              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-sm text-amber-800 border border-amber-100">{String(c)}</span>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Philosophical explanation (try several common keys) */}
+      {(() => {
+        const keys = [
+          'philosophical explanation',
+          'philosophicalExplanation',
+          'philosophical_explanation',
+          'philosophy',
+          'philosophical',
+        ];
+        let val: string | null = null;
+        for (const k of keys) {
+          if (typeof data?.[k] === 'string') { val = data[k]; break; }
+        }
+        if (val) {
+          return (
+            <section>
+              <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">Philosophical Insights</h2>
+              <p className="text-base text-gray-800 leading-relaxed mb-4">{val}</p>
+            </section>
+          );
+        }
+        return null;
+      })()}
+
+      {/* Generic safe rendering: render remaining top-level string values only (no keys), skip metadata */}
+      {(() => {
+        const EXCLUDED = new Set<string>([
+          'meta', 'openGraph', 'opengraph', 'schema', 'canonical', 'url', 'keywords', 'images', 'publisher', 'author', 'section', 'introduction', 'title', 'description'
+        ]);
+        const rendered = new Set<string>();
+        // avoid duplicating title/description/philosophy
+        if (title) rendered.add(title);
+        if (description) rendered.add(description);
+
+        const nodes: React.ReactNode[] = [];
+        for (const key of Object.keys(data)) {
+          if (EXCLUDED.has(key)) continue;
+          const val = data[key];
+          if (typeof val !== 'string') continue;
+          if (!val || rendered.has(val)) continue;
+          rendered.add(val);
+          nodes.push(
+            <section key={key}>
+              <p className="text-base text-gray-800 leading-relaxed mb-4">{val}</p>
+            </section>
+          );
+        }
+        return nodes.length > 0 ? nodes : null;
+      })()}
     </PageLayout>
   );
 }
