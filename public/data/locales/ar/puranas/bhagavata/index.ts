@@ -3,7 +3,7 @@
 // Folder: 'ar\puranas\bhagavata'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './bhagavata.json';
+import _j0 from './index.json';
 import _j1 from './skanda1.json';
 import _j2 from './skanda10.json';
 import _j3 from './skanda11.json';

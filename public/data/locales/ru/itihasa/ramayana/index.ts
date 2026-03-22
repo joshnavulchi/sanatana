@@ -3,7 +3,7 @@
 // Folder: 'ru\itihasa\ramayana'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './ramayana.json';
+import _j0 from './index.json';
 
 
 

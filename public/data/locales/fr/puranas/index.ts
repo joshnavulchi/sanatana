@@ -3,7 +3,7 @@
 // Folder: 'fr\puranas'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './puranas.json';
+import _j0 from './index.json';
 
 
 

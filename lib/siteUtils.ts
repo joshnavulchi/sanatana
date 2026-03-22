@@ -86,6 +86,8 @@ export async function fetchContentByRoute(
 ) {
   const { base, pathSegments } = resolveRoute(segments);
 
+  console.log(base, pathSegments);
+
   if (!base) {
     return { data: null, path: null };
   }

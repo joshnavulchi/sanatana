@@ -13,7 +13,7 @@ import _j6 from './chapter6.json';
 import _j7 from './chapter7.json';
 import _j8 from './chapter8.json';
 import _j9 from './chapter9.json';
-import _j10 from './skanda.json';
+import _j10 from './index.json';
 import _j11 from './structure.json';
 
 

@@ -3,7 +3,7 @@
 // Folder: 'de\itihasa\ramayana\uttara'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './kanda.json';
+import _j0 from './index.json';
 
 
 

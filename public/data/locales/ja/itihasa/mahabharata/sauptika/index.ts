@@ -3,7 +3,7 @@
 // Folder: 'ja\itihasa\mahabharata\sauptika'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './parva.json';
+import _j0 from './index.json';
 
 
 

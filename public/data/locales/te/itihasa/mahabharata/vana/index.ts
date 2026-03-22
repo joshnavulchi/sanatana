@@ -3,7 +3,7 @@
 // Folder: 'te\itihasa\mahabharata\vana'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './parva.json';
+import _j0 from './index.json';
 
 
 
