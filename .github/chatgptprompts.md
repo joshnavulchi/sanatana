@@ -1520,3 +1520,372 @@ Refactor in this order:
 
 GOAL:
 Transform the codebase into a highly consistent, maintainable, and professional Tailwind system using ONLY existing utilities and tokens, with zero new styles introduced.
+
+
+
+You are a senior frontend architect specializing in Next.js and Tailwind CSS system consistency.
+
+Objective:
+Refactor the entire codebase to enforce a consistent typography system (font sizes, line heights, font weights, spacing) using ONLY Tailwind utility classes.
+
+--------------------------------------------------
+1. GLOBAL CONSTRAINTS (STRICT)
+--------------------------------------------------
+
+- DO NOT create any CSS files
+- DO NOT add new classes
+- DO NOT modify tailwind.config.js
+- DO NOT introduce custom tokens
+- ONLY use existing Tailwind utility classes
+- DO NOT use dark mode variants
+
+--------------------------------------------------
+2. SCOPE
+--------------------------------------------------
+
+Apply to ALL files:
+- /app
+- /pages
+- /components
+- /layouts
+- nested routes ([...segments])
+- JSX / TSX / MDX
+
+--------------------------------------------------
+3. TYPOGRAPHY SYSTEM (MANDATORY STANDARD)
+--------------------------------------------------
+
+Use ONLY the following standardized scale:
+
+H1 (Page Title):
+- text-3xl md:text-4xl
+- font-semibold
+- leading-tight
+- tracking-tight
+
+H2 (Section Title):
+- text-2xl
+- font-semibold
+- leading-snug
+
+H3 (Subsection):
+- text-xl
+- font-semibold
+- leading-snug
+
+Body (Primary Paragraph):
+- text-base
+- leading-relaxed
+
+Secondary Text (Description / Subtitle):
+- text-sm
+- leading-relaxed
+- text-gray-600 or text-gray-700 (choose one consistently)
+
+Small Text:
+- text-xs
+- leading-normal
+
+--------------------------------------------------
+4. LIST TYPOGRAPHY
+--------------------------------------------------
+
+Lists:
+- list-disc pl-5
+- text-base leading-relaxed
+
+List Items:
+- mb-1 or mb-2 (consistent choice)
+
+--------------------------------------------------
+5. SPACING CONSISTENCY
+--------------------------------------------------
+
+Titles:
+- mb-4 (H1)
+- mb-3 (H2)
+- mb-2 (H3)
+
+Paragraphs:
+- mb-4
+
+Sections:
+- mt-6 or mt-8 (choose one consistently)
+
+--------------------------------------------------
+6. REPLACEMENT RULES (CRITICAL)
+--------------------------------------------------
+
+A. Replace inconsistent font sizes:
+
+Examples:
+- text-[15px] → text-base
+- text-lg + text-base mixed → standardize to text-base (for body)
+- text-4xl used randomly → restrict only to H1
+
+--------------------------------------------------
+
+B. Normalize line heights:
+
+Examples:
+- leading-6, leading-7 → replace with:
+  - leading-relaxed (body)
+  - leading-snug (headings)
+  - leading-tight (H1)
+
+--------------------------------------------------
+
+C. Normalize font weights:
+
+- Remove random font-bold usage
+- Use:
+  - font-semibold (headings)
+  - font-normal (body)
+
+--------------------------------------------------
+
+D. Remove redundancy:
+
+Examples:
+- "text-base text-base" → "text-base"
+- "leading-relaxed leading-7" → "leading-relaxed"
+
+--------------------------------------------------
+
+E. Preserve responsiveness:
+
+- Keep md: only for H1 scaling
+- Avoid excessive breakpoint typography changes
+
+--------------------------------------------------
+7. STRICT MODE
+--------------------------------------------------
+
+- If typography is inconsistent → MUST fix
+- If multiple styles used for same role → unify
+- If unclear → default to body text standard
+
+--------------------------------------------------
+8. DO NOT TOUCH
+--------------------------------------------------
+
+- Colors (unless conflicting typography classes)
+- Layout (flex, grid)
+- Logic, hooks, API calls
+
+--------------------------------------------------
+9. OUTPUT REQUIREMENTS
+--------------------------------------------------
+
+- Return FULL updated files (no diffs)
+- Maintain structure
+- No unused classes
+- Clean className strings
+
+--------------------------------------------------
+10. VALIDATION CHECKLIST
+--------------------------------------------------
+
+✔ One consistent typography scale across app  
+✔ No arbitrary font sizes  
+✔ No mixed line-height systems  
+✔ Headings clearly differentiated  
+✔ Paragraphs uniform  
+✔ Lists consistent  
+✔ No dark mode classes  
+
+--------------------------------------------------
+GOAL:
+Transform the entire application into a clean, readable, and professional typography system using ONLY Tailwind utilities with zero custom styling.
+
+
+You are a senior frontend architect specializing in Next.js and Tailwind CSS consistency at scale.
+
+Objective:
+Refactor the entire codebase to enforce a consistent spacing system using ONLY Tailwind utility classes (padding, margin, line-height, letter-spacing).
+
+--------------------------------------------------
+1. GLOBAL CONSTRAINTS (STRICT)
+--------------------------------------------------
+
+- DO NOT create CSS files
+- DO NOT define new classes
+- DO NOT modify tailwind.config.js
+- ONLY use Tailwind utilities
+- DO NOT use dark mode variants
+
+--------------------------------------------------
+2. SCOPE
+--------------------------------------------------
+
+Apply to ALL files:
+- /app
+- /pages
+- /components
+- /layouts
+- nested routes ([...segments])
+- JSX / TSX / MDX
+
+--------------------------------------------------
+3. SPACING SYSTEM (MANDATORY)
+--------------------------------------------------
+
+Use ONLY these spacing values across the app:
+
+Padding:
+- p-2, p-3, p-4, p-6
+- px-4, px-6
+- py-2, py-3, py-4, py-6
+
+Margin:
+- m-2, m-4, m-6
+- mt-2, mt-4, mt-6, mt-8
+- mb-2, mb-4, mb-6, mb-8
+
+Gap:
+- gap-2, gap-3, gap-4, gap-6
+
+--------------------------------------------------
+4. LINE HEIGHT (VERTICAL RHYTHM)
+--------------------------------------------------
+
+Use ONLY:
+
+- leading-tight → main headings (H1)
+- leading-snug → section titles
+- leading-relaxed → paragraphs, lists
+- leading-normal → small text
+
+Replace:
+- leading-6, leading-7, leading-8 → standardized values above
+
+--------------------------------------------------
+5. LETTER SPACING (TRACKING)
+--------------------------------------------------
+
+Use ONLY:
+
+- tracking-tight → headings
+- tracking-normal → body text
+- tracking-wide → labels / UI elements
+
+Remove:
+- arbitrary tracking values
+- inconsistent usage
+
+--------------------------------------------------
+6. SECTION SPACING RULES
+--------------------------------------------------
+
+Sections:
+- mt-8 or mt-6 (choose ONE and apply globally)
+- mb-8
+
+Paragraphs:
+- mb-4
+
+Headings:
+- H1 → mb-4
+- H2 → mb-3 mt-6
+- H3 → mb-2 mt-4
+
+Lists:
+- mb-4
+- space-y-2 (preferred over manual margins)
+
+--------------------------------------------------
+7. CONTAINER CONSISTENCY
+--------------------------------------------------
+
+Standard container spacing:
+
+- px-4 (mobile)
+- md:px-6 (optional if already used)
+- py-6 or py-8 (choose one consistently)
+
+Remove:
+- random px-5, px-7, py-10 etc.
+
+--------------------------------------------------
+8. REPLACEMENT RULES (CRITICAL)
+--------------------------------------------------
+
+A. Normalize padding:
+
+Examples:
+- px-5 → px-4 or px-6
+- py-7 → py-6
+- p-[18px] → p-4
+
+--------------------------------------------------
+
+B. Normalize margin:
+
+Examples:
+- mt-10 → mt-8
+- mb-5 → mb-4 or mb-6
+
+--------------------------------------------------
+
+C. Remove conflicts:
+
+Examples:
+- "p-4 px-4" → "p-4"
+- "mt-4 mt-6" → "mt-6"
+
+--------------------------------------------------
+
+D. Normalize gaps:
+
+Examples:
+- gap-5 → gap-4
+- gap-7 → gap-6
+
+--------------------------------------------------
+
+E. Replace manual spacing patterns:
+
+- Replace repeated mb-* stacks with:
+  - space-y-2 or space-y-4 where applicable
+
+--------------------------------------------------
+9. STRICT MODE
+--------------------------------------------------
+
+- If spacing is inconsistent → MUST standardize
+- If multiple values used for same purpose → unify
+- If arbitrary values exist → replace with nearest standard
+
+--------------------------------------------------
+10. DO NOT TOUCH
+--------------------------------------------------
+
+- Colors
+- Business logic
+- API calls
+- Routing
+
+--------------------------------------------------
+11. OUTPUT REQUIREMENTS
+--------------------------------------------------
+
+- Return FULL updated files (no diffs)
+- Maintain structure
+- Clean className strings
+- No redundant utilities
+
+--------------------------------------------------
+12. VALIDATION CHECKLIST
+--------------------------------------------------
+
+✔ Consistent padding scale  
+✔ Consistent margin scale  
+✔ Unified line-height system  
+✔ Unified letter-spacing system  
+✔ No arbitrary spacing values  
+✔ No conflicting classes  
+✔ No dark mode usage  
+
+--------------------------------------------------
+GOAL:
+Create a clean, consistent spacing system across the entire application using only Tailwind utilities, ensuring strong visual rhythm and readability.
