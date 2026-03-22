@@ -2,7 +2,7 @@
 import { notFound } from 'next/navigation';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE } from '@lib/i18n';
 import { createGenerateMetadata } from '@lib/pageUtils';
-import { fetchVedasContent } from '@lib/siteUtils';
+import { fetchContentByRoute } from '@lib/siteUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import VedasClientRenderer from './VedasClientRenderer';
 
@@ -66,7 +66,7 @@ export default async function Page({ params }: { params: { segments?: string[] }
 
   const locale = DEFAULT_LOCALE;
 
-  const fetched = await fetchVedasContent(locale, segments);
+  const fetched = await fetchContentByRoute(locale, ['vedas', ...(segments || [])]);
   // Normalize JSON shape: many vedas files wrap content under a top-level key
   let data: VedasData | null = fetched && fetched.data ? (fetched.data as any) : null;
   if (data && typeof data === 'object' && segments.length > 0) {

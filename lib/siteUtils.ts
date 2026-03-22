@@ -1,7 +1,31 @@
-import { LOCALES_PUBLIC_PATH } from './i18n';
+/**
+ * 🔥 UNIFIED CONTENT LOADER
+ * Supports:
+ * - vedas
+ * - itihasa
+ * - puranas
+ * - upanishads
+ * - vedic-philosophy
+ * - explore
+ *
+ * Handles:
+ * - index.json
+ * - nested slug.json
+ * - deep folder structures
+ */
 
-// --- Vedas-specific helpers ---
-export const VEDAS_ROOTS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
+import { DEFAULT_LOCALE } from '@lib/i18n';
+
+const BASES = [
+  'vedas',
+  'itihasa',
+  'puranas',
+  'upanishads',
+  'vedic-philosophy',
+  'explore',
+] as const;
+
+type BaseType = (typeof BASES)[number];
 
 function normalizeSegments(segments: string[]) {
   return Array.isArray(segments)
@@ -10,148 +34,100 @@ function normalizeSegments(segments: string[]) {
 }
 
 /**
- * ✅ ONLY VALID PATH (INDEX-BASED)
- * /data/locales/{locale}/vedas/{segments}/index.json
+ * Resolve base + segments from URL
  */
-export function buildVedasIndexPath(locale: string, segments: string[]) {
-  const loc = String(locale || 'en').replace(/\/$/, '');
+export function resolveRoute(segments: string[]) {
   const parts = normalizeSegments(segments);
 
-  if (parts.length === 0) return null;
+  if (!parts.length) {
+    return { base: null, pathSegments: [] };
+  }
 
-  return `${LOCALES_PUBLIC_PATH}/${loc}/vedas/${parts.join('/')}/index.json`;
+  const base = parts[0] as BaseType;
+  const pathSegments = parts.slice(1);
+
+  if (!BASES.includes(base)) {
+    return { base: null, pathSegments: parts };
+  }
+
+  return { base, pathSegments };
 }
 
 /**
- * ✅ CLEAN FETCH (NO FALLBACK PATH GUESSING)
+ * Build deterministic hierarchical paths
  */
-export async function fetchVedasContent(locale: string, segments: string[]) {
-  const path = buildVedasIndexPath(locale, segments);
+function buildPaths(base: string, locale: string, segments: string[]) {
+  const loc = locale || DEFAULT_LOCALE;
+  const parts = normalizeSegments(segments);
 
-  if (!path) {
+  if (!parts.length) return [];
+
+  const joined = parts.join('/');
+  const last = parts[parts.length - 1];
+
+  return [
+    // 1. folder index (primary)
+    `/data/locales/${loc}/${base}/${joined}/index.json`,
+
+    // 2. nested file
+    `/data/locales/${loc}/${base}/${joined}/${last}.json`,
+
+    // 3. direct file
+    `/data/locales/${loc}/${base}/${joined}.json`,
+  ];
+}
+
+/**
+ * 🔥 MAIN FETCH FUNCTION (USE THIS EVERYWHERE)
+ */
+export async function fetchContentByRoute(
+  locale: string,
+  segments: string[]
+) {
+  const { base, pathSegments } = resolveRoute(segments);
+
+  if (!base) {
     return { data: null, path: null };
   }
 
-  // --- SERVER SIDE (preferred for Next.js) ---
+  const paths = buildPaths(base, locale, pathSegments);
+
+  // --- SERVER SIDE ---
   if (typeof window === 'undefined') {
     try {
-      const fs = require('fs').promises as typeof import('fs').promises;
-      const pathModule = require('path') as typeof import('path');
+      const fs = require('fs').promises;
+      const pathModule = require('path');
 
-      const rel = path.replace(/^\//, '');
-      const filePath = pathModule.join(process.cwd(), 'public', rel);
+      for (const p of paths) {
+        try {
+          const rel = p.replace(/^\//, '');
+          const filePath = pathModule.join(process.cwd(), 'public', rel);
 
-      const txt = await fs.readFile(filePath, 'utf8');
-      return { data: JSON.parse(txt), path };
-    } catch (e) {
+          const txt = await fs.readFile(filePath, 'utf8');
+          return { data: JSON.parse(txt), path: p };
+        } catch {
+          continue;
+        }
+      }
+    } catch {
       // fallback to fetch
     }
   }
 
   // --- CLIENT SIDE ---
-  try {
-    const res = await fetch(path, { cache: 'force-cache' } as any);
-
-    if (res.ok) {
-      return { data: await res.json(), path };
-    }
-  } catch (e) {
-    // ignore
+  for (const p of paths) {
+    try {
+      const res = await fetch(p, { cache: 'force-cache' } as any);
+      if (res.ok) {
+        return { data: await res.json(), path: p };
+      }
+    } catch { }
   }
 
   // --- FALLBACK LOCALE ---
-  if (locale !== 'en') {
-    return fetchVedasContent('en', segments);
+  if (locale !== DEFAULT_LOCALE) {
+    return fetchContentByRoute(DEFAULT_LOCALE, segments);
   }
 
   return { data: null, path: null };
 }
-
-// Itihasa helpers
-export const MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabha-parva', 'vana-parva'];
-export const RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakanda'];
-
-export function parseNumericSuffix(slug: string): number | null {
-  const m = String(slug || '').match(/-(\d+)$/);
-  return m ? Number(m[1]) : null;
-}
-
-export function toTitleFromSlug(slug: string): string {
-  return String(slug || '')
-    .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-export function toUnderscoreSlug(slug: string): string {
-  return String(slug || '').replace(/-/g, '_');
-}
-
-export function isMahabharataParvaSlug(slug: string): boolean {
-  return MAHABHARATA_PARVAS.includes(slug) || /^parva-?\d+$/.test(slug);
-}
-
-export function isRamayanaKandaSlug(slug: string): boolean {
-  return RAMAYANA_KANDAS.includes(slug) || /^kanda-?\d+$/.test(slug);
-}
-
-// Purana helpers
-export const MAHAPURANA_SLUGS: string[] = ['brahmanda-purana', 'skanda-purana'];
-
-export function normalizePuranaSlug(slug: string): string {
-  return String(slug || '').toLowerCase().replace(/\s+/g, '-');
-}
-
-export function getPuranaOverviewNamespace(slug: string): string {
-  return `puranas/${normalizePuranaSlug(slug)}/overview`;
-}
-
-// Note: safe generated params loader was moved to `lib/safeGeneratedParams.ts` to
-// keep dynamic requires out of modules that are imported by client components.
-
-// Philosophy paths fallback
-export async function getAllPhilosophyPaths(): Promise<Array<{ slug: string; parts?: string[] }>> {
-  return [];
-}
-
-export function getAllPhilosophyPathsSync(): Array<{ slug: string; parts?: string[] }> {
-  return [];
-}
-
-export function getContentPath(locale: string, segments: string[]) {
-  const loc = String(locale || 'en').replace(/\/$/, '');
-  const seg = Array.isArray(segments) ? segments.map(s => String(s).replace(/^\/+|\/+$/g, '')).filter(Boolean).join('/') : '';
-  return `${LOCALES_PUBLIC_PATH}/${loc}/${seg}.json`;
-}
-
-// Fetch content with index fallback
-export async function fetchContent(locale: string, segments: string[]) {
-  const primary = getContentPath(locale, segments);
-  try {
-    const res = await fetch(primary, { cache: 'force-cache' } as any);
-    if (res.ok) {
-      const data = await res.json();
-      return { data, path: primary };
-    }
-    if (res.status !== 404) {
-      // continue to fallback
-    }
-  } catch (e) {
-    // ignore and try fallback
-  }
-
-  // Fallback: try folder index at /.../{segments}/index.json
-  const folderPathSegments = Array.isArray(segments) ? [...segments, 'index'] : [...(segments || []), 'index'];
-  const indexPath = getContentPath(locale, folderPathSegments);
-  try {
-    const r2 = await fetch(indexPath, { cache: 'force-cache' } as any);
-    if (r2.ok) {
-      const data = await r2.json();
-      return { data, path: indexPath };
-    }
-  } catch (e) {
-    // ignore
-  }
-
-  return { data: null, path: null };
-}
-

@@ -3,7 +3,9 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import Loader from '@components/loader';
-import { fetchVedasContent, buildVedasIndexPath } from '@lib/siteUtils';
+import { fetchContentByRoute } from '@lib/siteUtils';
+import { useLocale } from '@app/context/locale-context';
+import { DEFAULT_LOCALE } from '@lib/i18n';
 
 type VedasData = {
   title?: string;
@@ -24,7 +26,8 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
   const [loading, setLoading] = useState<boolean>(!initialData);
   const [error, setError] = useState<string | null>(null);
 
-  const locale = initialLocale || 'en';
+  const { locale: ctxLocale } = useLocale();
+  const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   useEffect(() => {
     if (initialData) return;
@@ -35,7 +38,7 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
       setError(null);
 
       try {
-        const res = await fetchVedasContent(locale, segments);
+        const res = await fetchContentByRoute(locale, ['vedas', ...(segments || [])]);
         let parsed = res.data as any;
 
         if (!parsed) {
@@ -64,7 +67,7 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
     return () => {
       cancelled = true;
     };
-  }, [initialData, initialLocale, locale, segments]);
+  }, [initialData, initialLocale, ctxLocale, locale, segments]);
 
   const title = String(data?.meta?.title ?? data?.title ?? segments.join(' / ') ?? 'Vedas');
   const description = String(data?.meta?.description ?? data?.description ?? '');
@@ -75,7 +78,7 @@ export default function VedasClientRenderer({ initialData, initialLocale, segmen
   ];
   if (segments && segments.length > 0) breadcrumbs.push({ label: segments[0], href: `/vedas/${segments[0]}` });
 
-  const metaKey = (buildVedasIndexPath(locale, segments) || `vedas/${segments.join('/')}/index`).replace(/^\//, '');
+  const metaKey = (data?.meta?.key && String(data.meta.key)) || `vedas/${segments.join('/')}/index`;
 
   if (loading) {
     return (
