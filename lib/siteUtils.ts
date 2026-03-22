@@ -1,5 +1,71 @@
-// Consolidated site utilities: itihasa, purana helpers, safe generated params loader,
-// and philosophy paths fallback.
+import { LOCALES_PUBLIC_PATH } from './i18n';
+
+// --- Vedas-specific helpers ---
+export const VEDAS_ROOTS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
+
+function normalizeSegments(segments: string[]) {
+  return Array.isArray(segments)
+    ? segments.map(s => String(s).replace(/^\/+|\/+$/g, '')).filter(Boolean)
+    : [];
+}
+
+/**
+ * ✅ ONLY VALID PATH (INDEX-BASED)
+ * /data/locales/{locale}/vedas/{segments}/index.json
+ */
+export function buildVedasIndexPath(locale: string, segments: string[]) {
+  const loc = String(locale || 'en').replace(/\/$/, '');
+  const parts = normalizeSegments(segments);
+
+  if (parts.length === 0) return null;
+
+  return `${LOCALES_PUBLIC_PATH}/${loc}/vedas/${parts.join('/')}/index.json`;
+}
+
+/**
+ * ✅ CLEAN FETCH (NO FALLBACK PATH GUESSING)
+ */
+export async function fetchVedasContent(locale: string, segments: string[]) {
+  const path = buildVedasIndexPath(locale, segments);
+
+  if (!path) {
+    return { data: null, path: null };
+  }
+
+  // --- SERVER SIDE (preferred for Next.js) ---
+  if (typeof window === 'undefined') {
+    try {
+      const fs = require('fs').promises as typeof import('fs').promises;
+      const pathModule = require('path') as typeof import('path');
+
+      const rel = path.replace(/^\//, '');
+      const filePath = pathModule.join(process.cwd(), 'public', rel);
+
+      const txt = await fs.readFile(filePath, 'utf8');
+      return { data: JSON.parse(txt), path };
+    } catch (e) {
+      // fallback to fetch
+    }
+  }
+
+  // --- CLIENT SIDE ---
+  try {
+    const res = await fetch(path, { cache: 'force-cache' } as any);
+
+    if (res.ok) {
+      return { data: await res.json(), path };
+    }
+  } catch (e) {
+    // ignore
+  }
+
+  // --- FALLBACK LOCALE ---
+  if (locale !== 'en') {
+    return fetchVedasContent('en', segments);
+  }
+
+  return { data: null, path: null };
+}
 
 // Itihasa helpers
 export const MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabha-parva', 'vana-parva'];
@@ -51,9 +117,6 @@ export function getAllPhilosophyPathsSync(): Array<{ slug: string; parts?: strin
   return [];
 }
 
-// Content path helpers
-import { LOCALES_PUBLIC_PATH } from './i18n';
-
 export function getContentPath(locale: string, segments: string[]) {
   const loc = String(locale || 'en').replace(/\/$/, '');
   const seg = Array.isArray(segments) ? segments.map(s => String(s).replace(/^\/+|\/+$/g, '')).filter(Boolean).join('/') : '';
@@ -91,3 +154,4 @@ export async function fetchContent(locale: string, segments: string[]) {
 
   return { data: null, path: null };
 }
+

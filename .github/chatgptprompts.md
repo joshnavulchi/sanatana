@@ -1329,3 +1329,194 @@ Provide:
 
 Goal:
 Create a universal, scalable routing system driven entirely by JSON content and URL segments.
+
+
+
+You are a senior frontend architect specializing in Next.js and Tailwind CSS optimization at scale.
+
+Objective:
+Refactor the entire Next.js codebase to standardize and normalize Tailwind usage by replacing inconsistent, redundant, and unstructured utility classes with a clean, consistent, and professional Tailwind class system.
+
+IMPORTANT CONSTRAINT:
+- DO NOT create new CSS classes
+- DO NOT create or modify any CSS/SCSS files
+- DO NOT introduce semantic class names (e.g., .card, .btn)
+- ONLY use Tailwind utility classes and existing project-defined Tailwind tokens/config
+
+--------------------------------------------------
+1. SCOPE
+--------------------------------------------------
+Apply to ALL files:
+- /app
+- /pages
+- /components
+- /layouts
+- nested routes (including [...segments])
+- JSX / TSX / MDX
+- server + client components
+
+--------------------------------------------------
+2. CORE RULES
+--------------------------------------------------
+
+A. NO NEW STYLES
+- Do NOT create:
+  - globals.css additions
+  - new class definitions
+  - inline style objects
+- Only refactor existing className strings
+
+--------------------------------------------------
+
+B. STANDARDIZE TAILWIND USAGE
+- Replace inconsistent utilities with standardized equivalents
+
+Example:
+BEFORE:
+className="px-3 py-2 p-4 pt-2"
+
+AFTER:
+className="px-4 py-2"
+
+--------------------------------------------------
+
+C. CONSISTENCY FIRST (CRITICAL)
+Ensure uniform usage across the entire codebase:
+
+Spacing scale:
+- Prefer: px-4, px-6, py-2, py-3, py-4
+- Avoid random values like px-5, py-7 unless already standardized
+
+Margin:
+- Use consistent vertical rhythm:
+  - mb-2, mb-4, mb-6, mb-8
+  - mt-2, mt-4, mt-6
+
+Typography:
+- Headings:
+  - text-xl, text-2xl, text-3xl (consistent hierarchy)
+- Body:
+  - text-sm, text-base
+- Avoid mixing arbitrary sizes
+
+--------------------------------------------------
+
+D. COLOR SYSTEM (STRICT)
+- Use ONLY existing Tailwind config colors (including temple palette if already defined)
+- Replace:
+  - arbitrary hex values → nearest configured color
+  - inconsistent shades → standardized shade
+
+Example:
+- text-red-500 + text-red-600 mixed → choose ONE standard (e.g., text-red-600)
+
+--------------------------------------------------
+
+E. REMOVE DARK MODE
+- Remove ALL:
+  - dark:
+  - dark:bg-*
+  - dark:text-*
+  - dark:border-*
+- Ensure clean light-mode UI only
+
+--------------------------------------------------
+
+F. REMOVE REDUNDANCY
+- Eliminate duplicate or conflicting utilities
+
+Examples:
+- "p-4 px-4" → "p-4"
+- "flex flex-row" → "flex"
+- "items-center items-start" → keep correct one only
+
+--------------------------------------------------
+
+G. NORMALIZE LAYOUT PATTERNS
+Standardize common layouts:
+
+Flex:
+- flex items-center justify-between
+
+Containers:
+- max-w-7xl mx-auto px-4
+
+Cards:
+- rounded-lg border shadow-sm p-4
+
+Buttons:
+- px-4 py-2 rounded-md font-medium
+
+--------------------------------------------------
+
+H. PRESERVE RESPONSIVENESS
+- Keep sm:, md:, lg:, xl:
+- But normalize values across breakpoints
+
+Example:
+BEFORE:
+text-sm md:text-lg lg:text-xl
+
+AFTER (if inconsistent):
+text-base md:text-lg lg:text-xl
+
+--------------------------------------------------
+
+I. PRESERVE FUNCTIONALITY
+- Do NOT modify:
+  - logic
+  - hooks
+  - API calls
+  - routing
+
+--------------------------------------------------
+
+3. STRICT MODE (MANDATORY)
+--------------------------------------------------
+
+- If className has >10 utilities → SIMPLIFY and NORMALIZE
+- If inconsistent spacing/typography → FIX to standard scale
+- If same UI pattern appears multiple times → make them visually consistent using SAME Tailwind utilities (NOT new classes)
+
+--------------------------------------------------
+
+4. PRIORITY ORDER
+--------------------------------------------------
+
+Refactor in this order:
+1. Layout (flex/grid/container)
+2. Spacing (padding/margin)
+3. Typography
+4. Colors
+5. Borders/shadows
+6. States (hover/focus)
+
+--------------------------------------------------
+
+5. OUTPUT REQUIREMENTS
+--------------------------------------------------
+
+- Return FULL updated files (no diffs)
+- Maintain folder structure
+- Ensure TypeScript compatibility
+- No unused classes
+- No visual breakage
+
+--------------------------------------------------
+
+6. VALIDATION CHECKLIST
+--------------------------------------------------
+
+✔ No new CSS classes created  
+✔ No new style files created  
+✔ No dark mode classes  
+✔ Consistent spacing scale across app  
+✔ Consistent typography scale  
+✔ Consistent color usage  
+✔ No redundant Tailwind utilities  
+✔ Clean, professional className strings  
+
+--------------------------------------------------
+
+GOAL:
+Transform the codebase into a highly consistent, maintainable, and professional Tailwind system using ONLY existing utilities and tokens, with zero new styles introduced.
