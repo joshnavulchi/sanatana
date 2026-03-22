@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T15:20:08.012Z",
+  "generatedAt": "2026-03-22T15:31:15.099Z",
   "totalPages": 23,
   "passed": 11,
   "failed": 10,
@@ -7,24 +7,6 @@
   "pages": [
     {
       "page": "/404",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Contains <meta name=\"robots\" content=\"noindex\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 0
-    },
-    {
-      "page": "/404/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
@@ -61,6 +43,24 @@
       "score": 0
     },
     {
+      "page": "/404/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 0
+    },
+    {
       "page": "/about/",
       "status": "PASS",
       "issues": [],
@@ -79,13 +79,19 @@
       "score": 100
     },
     {
+      "page": "/contact/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/donate/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/contact/",
+      "page": "/itihasa/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -106,12 +112,6 @@
         "Missing meta name=\"twitter:description\""
       ],
       "score": 16
-    },
-    {
-      "page": "/itihasa/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
     },
     {
       "page": "/our-cookie-policy/",
@@ -148,7 +148,7 @@
       "score": 16
     },
     {
-      "page": "/terms-of-service/",
+      "page": "/privacy-policy/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -164,13 +164,13 @@
       "score": 72
     },
     {
-      "page": "/privacy-policy/",
+      "page": "/upanishads/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/upanishads/",
+      "page": "/terms-of-service/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -180,29 +180,6 @@
       "status": "PASS",
       "issues": [],
       "score": 100
-    },
-    {
-      "page": "/vedic-philosophy/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/itihasa/mahabharata/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
     },
     {
       "page": "/vedic-science/",
@@ -215,21 +192,10 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
+      "page": "/vedic-philosophy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/_not-found/",
@@ -250,7 +216,41 @@
       "score": 0
     },
     {
+      "page": "/itihasa/bhagavadgita/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 16
+    },
+    {
       "page": "/itihasa/ramayana/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 16
+    },
+    {
+      "page": "/itihasa/mahabharata/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",

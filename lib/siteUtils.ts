@@ -15,6 +15,7 @@
  */
 
 import { DEFAULT_LOCALE } from '@lib/i18n';
+import { secrets } from './secrets';
 
 const BASES = [
   'vedas',
@@ -75,18 +76,41 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
   const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
 
   try {
-    const res = await fetch(primaryPath, {
+    // Determine fetch URL. On server fetch needs an absolute URL; prefer NEXT_PUBLIC_SITE_URL when available.
+    let fetchUrl = primaryPath;
+    if (typeof window === 'undefined') {
+      const base = (secrets && secrets.NEXT_PUBLIC_SITE_URL) || process.env.NEXT_PUBLIC_SITE_URL;
+      if (base && String(fetchUrl).startsWith('/')) {
+        fetchUrl = String(base).replace(/\/$/, '') + fetchUrl;
+      }
+    }
+
+    // In development, log the exact path/URL we will attempt to fetch to aid debugging.
+    if (process.env.NODE_ENV !== 'production') {
+      // eslint-disable-next-line no-console
+      console.debug('[fetchContentByRoute] fetching', fetchUrl);
+    }
+
+    const res = await fetch(fetchUrl, {
       cache: 'force-cache',
       next: { revalidate: 60 },
     } as any);
 
     if (!res.ok) {
-      return { data: null, path: null }; // 🚀 instant fail (no retry loop)
+      if (process.env.NODE_ENV !== 'production') {
+        // eslint-disable-next-line no-console
+        console.warn('[fetchContentByRoute] fetch failed', fetchUrl, 'status', res.status);
+      }
+      return { data: null, path: fetchUrl };
     }
 
-    return { data: await res.json(), path: primaryPath };
-  } catch {
-    return { data: null, path: null };
+    return { data: await res.json(), path: fetchUrl };
+  } catch (err) {
+    if (process.env.NODE_ENV !== 'production') {
+      // eslint-disable-next-line no-console
+      console.error('[fetchContentByRoute] fetch error for', primaryPath, err && (err as any).message);
+    }
+    return { data: null, path: primaryPath };
   }
 }
 

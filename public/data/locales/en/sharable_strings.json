@@ -37,19 +37,19 @@
       "upanishads": {
         "title": "Upanishads",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha": "Isha Upanishad",
+          "kena": "Kena Upanishad",
+          "katha": "Katha Upanishad",
+          "prashna": "Prashna Upanishad",
+          "mundaka": "Mundaka Upanishad",
+          "mandukya": "Mandukya Upanishad",
+          "taittiriya": "Taittiriya Upanishad",
+          "aitareya": "Aitareya Upanishad",
+          "chandogya": "Chandogya Upanishad",
+          "brihadaranyaka": "Brihadaranyaka Upanishad",
+          "shvetashvatara": "Shvetashvatara Upanishad",
+          "kaushitaki": "Kaushitaki Upanishad",
+          "maitri": "Maitri Upanishad"
         }
       },
       "puranas": {
@@ -180,19 +180,19 @@
       "upanishads": {
         "title": "Upanishads",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha": "Isha Upanishad",
+          "kena": "Kena Upanishad",
+          "katha": "Katha Upanishad",
+          "prashna": "Prashna Upanishad",
+          "mundaka": "Mundaka Upanishad",
+          "mandukya": "Mandukya Upanishad",
+          "taittiriya": "Taittiriya Upanishad",
+          "aitareya": "Aitareya Upanishad",
+          "chandogya": "Chandogya Upanishad",
+          "brihadaranyaka": "Brihadaranyaka Upanishad",
+          "shvetashvatara": "Shvetashvatara Upanishad",
+          "kaushitaki": "Kaushitaki Upanishad",
+          "maitri": "Maitri Upanishad"
         }
       },
       "puranas": {
@@ -332,19 +332,19 @@
         "title": "Upanishads",
         "basePath": "/upanishads",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha": "Isha Upanishad",
+          "kena": "Kena Upanishad",
+          "katha": "Katha Upanishad",
+          "prashna": "Prashna Upanishad",
+          "mundaka": "Mundaka Upanishad",
+          "mandukya": "Mandukya Upanishad",
+          "taittiriya": "Taittiriya Upanishad",
+          "aitareya": "Aitareya Upanishad",
+          "chandogya": "Chandogya Upanishad",
+          "brihadaranyaka": "Brihadaranyaka Upanishad",
+          "shvetashvatara": "Shvetashvatara Upanishad",
+          "kaushitaki": "Kaushitaki Upanishad",
+          "maitri": "Maitri Upanishad"
         }
       },
       "puranas": {
