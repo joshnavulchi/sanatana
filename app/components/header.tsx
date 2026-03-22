@@ -109,31 +109,31 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
   onToggleSub: (href: string) => void;
   isSubOpen: boolean;
 }) {
+  const submenuPos = 'right-full mr-2';
+  const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
   if (!item.children || item.children.length === 0) {
     return (
       <Link
         href={item.href}
-        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-all duration-200 text-gray-600 hover:text-primary-600"
+        className={`group/item flex items-center gap-3 px-5 py-2 whitespace-nowrap rounded-md transition-all duration-200 ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50 text-amber-900 font-semibold' : 'text-gray-600 hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50 hover:text-amber-900'}`}
       >
         <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary-700/10 text-xs text-primary-700 transition-colors duration-150 group-hover/item:bg-primary-700 group-hover/item:text-white">
           ◈
         </span>
-        <span className={`text-sm font-semibold transition-all duration-200 ${isActive(item.href) ? 'text-primary-600' : 'text-gray-700 group-hover/item:text-primary-600'}`}>
-          {item.label}
-        </span>
+        <span className="text-sm font-semibold transition-all duration-200">{item.label}</span>
       </Link>
     );
   }
 
   // Has children → click chevron to expand inline sub-list
   return (
-    <div>
-      <div className="flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 hover:bg-amber-50 rounded-md">
-        <Link href={item.href} className="flex items-center gap-3 flex-1">
+    <div className="group" onMouseEnter={() => onToggleSub(item.href)} onMouseLeave={() => onToggleSub(item.href)}>
+      <div className={`flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 rounded-md ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50' : 'hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50'}`}>
+        <Link href={item.href} className="flex items-center gap-3 flex-1 px-2 whitespace-nowrap">
           <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-primary-700 text-white' : 'bg-primary-700/10 text-primary-700'}`}>
             ◈
           </span>
-          <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700'}`}>
+          <span className={`text-sm font-semibold transition-colors duration-150 ${itemActive ? 'text-amber-700' : 'text-gray-700'}`}>
             {item.label}
           </span>
         </Link>
@@ -153,19 +153,16 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         </button>
       </div>
 
-      {/* Inline sub-list — expands below the parent item */}
+      {/* Flyout submenu — opens RTL when dropdown anchored to right */}
       {isSubOpen && (
-        <div className="ml-6 mr-3 mb-1 pl-2 p-2 space-y-2 rounded-md bg-white/10 backdrop-blur-sm border border-white/10">
+        <div className={`${submenuPos} absolute top-0 w-max min-w-[12rem] bg-white rounded-md shadow-lg p-2 space-y-1 z-30 transform transition-all duration-150 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
           {item.children.map((child) => (
             <Link
               key={child.href}
               href={child.href}
-              className="group/child flex items-center gap-3 px-3 py-2 transition-colors duration-150 hover:bg-white/20 rounded-md"
-            >
+              className={`flex items-center gap-3 px-3 py-2 rounded-md transition-transform duration-150 hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50 hover:-translate-x-1 hover:text-amber-900 ${isActive(child.href) ? 'bg-linear-to-r from-amber-300 via-amber-200 to-amber-100 text-amber-900 font-semibold' : 'text-gray-700'}`}>
               <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
-              <span className={`text-sm font-medium transition-colors duration-150 ${isActive(child.href) ? 'text-amber-700' : 'text-gray-700 group-hover/child:text-amber-700'}`}>
-                {child.label}
-              </span>
+              <span className="text-sm whitespace-nowrap">{child.label}</span>
             </Link>
           ))}
         </div>
@@ -180,17 +177,10 @@ function DesktopDropdown({ section, isActive }: {
   isActive: (h: string) => boolean;
 }) {
   const triggerRef = useRef<HTMLDivElement>(null);
-  const [dropDir, setDropDir] = useState<'left' | 'right'>('right');
   const [openSubItem, setOpenSubItem] = useState<string | null>(null);
   const icon = SECTION_ICONS[section.key] || '✨';
 
-  // Determine dropdown direction
-  useEffect(() => {
-    if (!triggerRef.current) return;
-    const rect = triggerRef.current.getBoundingClientRect();
-    const spaceRight = window.innerWidth - rect.left;
-    setDropDir(spaceRight < 320 ? 'left' : 'right');
-  }, []);
+  const sectionActive = section.items.some(item => isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href))));
 
   // Reset open sub-item when dropdown closes (mouse leaves)
   const handleMouseLeave = () => { setOpenSubItem(null); };
@@ -201,29 +191,73 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-sm text-gray-900 cursor-pointer transition-all duration-200 hover:bg-white/50 hover:text-primary-600">
+      <Link href={section.basePath} className={`flex items-center gap-1 px-1 py-1 rounded-md text-sm cursor-pointer transition-all duration-200 hover:bg-white/50 ${sectionActive ? 'text-primary-700 font-semibold' : 'text-gray-900 hover:text-primary-600'}`}>
         <span className="text-base">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
         </svg>
-      </span>
+      </Link>
 
-      {/* Dropdown panel */}
-      <div className="absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right">
+      {/* Dropdown panel - always anchor to right so submenus fly left */}
+      <div className={`absolute pt-3 w-max min-w-[12rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right`}>
 
         <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
           <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
           <div className="py-2">
-            {section.items.map((item) => (
-              <DesktopNavItem
-                key={item.href}
-                item={item}
-                isActive={isActive}
-                onToggleSub={toggleSub}
-                isSubOpen={openSubItem === item.href}
-              />
-            ))}
+            {section.items.map((item) => {
+              // Special-case: show `itihasa` sublists inline as a toggle inside the panel
+              if (section.key === 'itihasa') {
+                const childOpen = openSubItem === item.href;
+                const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
+                return (
+                  <div key={item.href} className="px-3">
+                    <div className={`flex items-center justify-between gap-2 py-2 px-2 rounded-md transition-colors duration-150 ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50' : 'hover:bg-white/5'}`}>
+                      <Link href={item.href} className={`flex-1 text-sm font-semibold ${itemActive ? 'text-amber-800' : 'text-gray-700'}`}>
+                        {item.label}
+                      </Link>
+                      {item.children && item.children.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={() => toggleSub(item.href)}
+                          className="p-1 rounded-md hover:bg-amber-100 transition-colors"
+                          aria-expanded={childOpen}
+                          aria-label={`Toggle ${item.label} sub-items`}
+                        >
+                          <svg className={`h-4 w-4 text-amber-600 transition-transform duration-200 ${childOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </button>
+                      )}
+                    </div>
+
+                    {item.children && childOpen && (
+                      <div className="mt-1 ml-4 pl-2 pr-2 pb-2 border-l border-[#efd9b5]/20 space-y-1">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className={`block px-2 py-1 rounded-md text-sm transition-colors duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-amber-300 via-amber-200 to-amber-100 text-amber-900 font-semibold' : 'text-gray-700 hover:bg-amber-50'}`}
+                          >
+                            {child.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+
+              return (
+                <DesktopNavItem
+                  key={item.href}
+                  item={item}
+                  isActive={isActive}
+                  onToggleSub={toggleSub}
+                  isSubOpen={openSubItem === item.href}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
@@ -244,23 +278,26 @@ function MobileNavSection({ section, isActive, onNavigate }: {
   return (
     <div className="mt-1">
       {/* Section header — tap to toggle */}
-      <button
-        type="button"
-        onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
-        className="w-full flex items-center gap-2 rounded-xl bg-white px-4 py-2 mb-1 cursor-pointer"
-        aria-expanded={expanded}
-      >
+      <div className="w-full flex items-center gap-2 rounded-xl bg-white px-2 py-1 mb-1">
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <span className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">{section.title}</span>
-        <div className="ml-auto flex items-center">
+        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">
+          {section.title}
+        </Link>
+        <button
+          type="button"
+          onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
+          className="p-2 rounded-md text-[#92400e] hover:bg-[#fde7c7] transition-colors"
+          aria-expanded={expanded}
+          aria-label={`Toggle ${section.title} items`}
+        >
           <svg
             className={`h-4 w-4 text-[#b45309] transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
           </svg>
-        </div>
-      </button>
+        </button>
+      </div>
 
       {/* Items */}
       {expanded && (
@@ -348,7 +385,11 @@ export default function Header() {
     if (p.length > 1 && p.endsWith("/")) return p.slice(0, -1);
     return p;
   };
-  const isActive = useCallback((href: string) => normalize(pathname) === normalize(href), [pathname]);
+  const isActive = useCallback((href: string) => {
+    const np = normalize(pathname);
+    const nh = normalize(href);
+    return np === nh || np.startsWith(nh + "/");
+  }, [pathname]);
 
   // Escape to close
   useEffect(() => {
@@ -399,7 +440,7 @@ export default function Header() {
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          <div className="sm:hidden ml-2 pl-2 border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
           </div>
         </nav>

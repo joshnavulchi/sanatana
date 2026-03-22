@@ -1,0 +1,28 @@
+page,status,score,issues
+/about/,PASS,100,
+/404,FAIL,0,"Missing or empty <title> | Missing <meta name=""description""> | Missing <link rel=""canonical""> | Contains <meta name=""robots"" content=""noindex""> | Missing meta property=""og:title"" | Missing meta property=""og:description"" | Missing meta property=""og:url"" | Missing meta property=""og:type"" | Missing meta name=""twitter:card"" | Missing meta name=""twitter:title"" | Missing meta name=""twitter:description"""
+/,PASS,100,
+/itihasa/,PASS,100,
+/donate/,PASS,100,
+/explore/,PASS,100,
+/404/,FAIL,0,"Missing or empty <title> | Missing <meta name=""description""> | Missing <link rel=""canonical""> | Contains <meta name=""robots"" content=""noindex""> | Missing meta property=""og:title"" | Missing meta property=""og:description"" | Missing meta property=""og:url"" | Missing meta property=""og:type"" | Missing meta name=""twitter:card"" | Missing meta name=""twitter:title"" | Missing meta name=""twitter:description"""
+/googlec257c31c246db1c1,FAIL,0,"Missing or empty <title> | Missing <meta name=""description""> | Missing <link rel=""canonical""> | Missing meta property=""og:title"" | Missing meta property=""og:description"" | Missing meta property=""og:url"" | Missing meta property=""og:type"" | Missing meta name=""twitter:card"" | Missing meta name=""twitter:title"" | Missing meta name=""twitter:description"" | No JSON-LD structured data found | HTML appears very small; check server-rendering"
+/our-cookie-policy/,PASS,100,
+/post-deploy-audit/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/puranas/,PASS,100,
+/our-privacy-policy/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/privacy-policy/,PASS,100,
+/terms-of-service/,PASS,100,
+/contact/,PASS,100,
+/vedas/,PASS,100,
+/upanishads/,PASS,100,
+/vedic-science/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/_not-found/,FAIL,0,"Missing or empty <title> | Missing <meta name=""description""> | Missing <link rel=""canonical""> | Contains <meta name=""robots"" content=""noindex""> | Missing meta property=""og:title"" | Missing meta property=""og:description"" | Missing meta property=""og:url"" | Missing meta property=""og:type"" | Missing meta name=""twitter:card"" | Missing meta name=""twitter:title"" | Missing meta name=""twitter:description"""
+/itihasa/bhagavadgita/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/vedic-philosophy/,PASS,100,
+/itihasa/mahabharata/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/itihasa/ramayana/,WARN,72,"Missing <meta name=""description""> | Missing meta property=""og:description"" | Missing meta name=""twitter:description"""
+/vedas/atharvaveda/,PASS,100,
+/vedas/rigveda/,PASS,100,
+/vedas/samaveda/,PASS,100,
+/vedas/yajurveda/,PASS,100,

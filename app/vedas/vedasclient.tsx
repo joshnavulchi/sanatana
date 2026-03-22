@@ -4,7 +4,32 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
-import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import Link from 'next/link';
+
+// export default function Page() {
+//   const vedas = [
+//     { id: 'atharvaveda', label: 'Atharvaveda' },
+//     { id: 'rigveda', label: 'Rigveda' },
+//     { id: 'samaveda', label: 'Samaveda' },
+//     { id: 'yajurveda', label: 'Yajurveda' },
+//   ];
+
+//   return (
+//     <main className="max-w-3xl mx-auto p-4">
+//       <h1 className="text-3xl font-semibold mb-4">Vedas</h1>
+//       <p className="mb-6">Select a Veda to explore its content.</p>
+//       <ul className="space-y-3">
+//         {vedas.map((v) => (
+//           <li key={v.id}>
+//             <Link href={`/vedas/${v.id}`} className="text-blue-600 hover:underline">
+//               {v.label}
+//             </Link>
+//           </li>
+//         ))}
+//       </ul>
+//     </main>
+//   );
+// }
 
 /* ── Veda icon map ── */
 const VEDA_ICONS: Record<string, string> = {
