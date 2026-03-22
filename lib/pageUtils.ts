@@ -63,6 +63,11 @@ function generateSEO(opts: SEOOptions) {
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 
+  // Simple in-process memoization to avoid repeated concurrent loads of the
+  // same locale namespace during static generation/build. This reduces IO
+  // pressure when Next.js invokes metadata generation for many pages.
+  const metadataCache = new Map<string, Promise<any>>();
+
   function isPlainObject(v: unknown): v is Record<string, unknown> {
     return !!v && typeof v === 'object' && !Array.isArray(v);
   }
@@ -189,7 +194,13 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     let locale = detectLocale(searchParamsObj);
     if (!locale) locale = DEFAULT_LOCALE;
 
-    const rawNs = await getLocaleNamespaceObjectAsync(locale, metaKey);
+    const cacheKey = `${locale}::${metaKey}`;
+    let rawNsPromise = metadataCache.get(cacheKey);
+    if (!rawNsPromise) {
+      rawNsPromise = getLocaleNamespaceObjectAsync(locale, metaKey);
+      metadataCache.set(cacheKey, rawNsPromise);
+    }
+    const rawNs = await rawNsPromise;
     const pageObj = unwrapPageObject(rawNs);
     const meta = isPlainObject(pageObj.meta) ? (pageObj.meta as Record<string, unknown>) : {};
     const openGraph = isPlainObject(pageObj.openGraph) ? (pageObj.openGraph as Record<string, unknown>) : {};
