@@ -78,21 +78,6 @@ export function resolveRoute(segments: string[]) {
 //   ];
 // }
 
-// For pre-generating static paths for top-level upanishads
-// This is a bit hacky but avoids needing to crawl the filesystem or maintain a separate list of top-level upanishads.
-async function doesContentExist(path: string) {
-  try {
-    const res = await fetch(path, {
-      method: 'HEAD', // ⚡ very fast (no body)
-      cache: 'force-cache',
-    } as any);
-
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
-
 /**
  * 🔥 MAIN FETCH FUNCTION (USE THIS EVERYWHERE)
  */
@@ -106,27 +91,22 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
   const loc = locale || DEFAULT_LOCALE;
   const joined = pathSegments.join('/');
 
-  // ✅ PRIMARY PATH ONLY (no loops)
   const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
 
-  // 🔍 FAST existence check
-  const exists = await doesContentExist(primaryPath);
+  try {
+    const res = await fetch(primaryPath, {
+      cache: 'force-cache',
+      next: { revalidate: 60 },
+    } as any);
 
-  if (!exists) {
-    return { data: null, path: null }; // 🚀 SKIP immediately
-  }
+    if (!res.ok) {
+      return { data: null, path: null }; // 🚀 instant fail (no retry loop)
+    }
 
-  // ✅ FETCH ONLY IF EXISTS
-  const res = await fetch(primaryPath, {
-    cache: 'force-cache',
-    next: { revalidate: 60 },
-  } as any);
-
-  if (res.ok) {
     return { data: await res.json(), path: primaryPath };
+  } catch {
+    return { data: null, path: null };
   }
-
-  return { data: null, path: null };
 }
 
 // Itihasa helpers (kept here for convenience)
