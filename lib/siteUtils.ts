@@ -80,13 +80,8 @@ function buildPaths(base: string, locale: string, segments: string[]) {
 /**
  * 🔥 MAIN FETCH FUNCTION (USE THIS EVERYWHERE)
  */
-export async function fetchContentByRoute(
-  locale: string,
-  segments: string[]
-) {
+export async function fetchContentByRoute(locale: string, segments: string[]) {
   const { base, pathSegments } = resolveRoute(segments);
-
-  console.log(base, pathSegments);
 
   if (!base) {
     return { data: null, path: null };
@@ -94,41 +89,20 @@ export async function fetchContentByRoute(
 
   const paths = buildPaths(base, locale, pathSegments);
 
-  // --- SERVER SIDE ---
-  if (typeof window === 'undefined') {
-    try {
-      const fs = require('fs').promises;
-      const pathModule = require('path');
-
-      for (const p of paths) {
-        try {
-          const rel = p.replace(/^\//, '');
-          const filePath = pathModule.join(process.cwd(), 'public', rel);
-
-          const txt = await fs.readFile(filePath, 'utf8');
-          return { data: JSON.parse(txt), path: p };
-        } catch {
-          continue;
-        }
-      }
-    } catch {
-      // fallback to fetch
-    }
-  }
-
-  // --- CLIENT SIDE ---
   for (const p of paths) {
     try {
-      const res = await fetch(p, { cache: 'force-cache' } as any);
+      const res = await fetch(p, {
+        cache: 'force-cache',
+      } as any);
+
       if (res.ok) {
         return { data: await res.json(), path: p };
       }
     } catch { }
   }
 
-  // --- FALLBACK LOCALE ---
-  if (locale !== DEFAULT_LOCALE) {
-    return fetchContentByRoute(DEFAULT_LOCALE, segments);
+  if (locale !== 'en') {
+    return fetchContentByRoute('en', segments);
   }
 
   return { data: null, path: null };
