@@ -95,7 +95,7 @@ export default function ContactPage() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Contact' }]} className="layout-sm">
+      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Contact' }]} className="layout-md">
         <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
@@ -105,7 +105,7 @@ export default function ContactPage() {
 
   // Unique two-column card layout
   return (
-    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'Contact' }]} className="layout-sm">
+    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'Contact' }]} className="layout-md">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 bg-white/80 rounded-3xl shadow-2xl overflow-hidden border-2 border-amber-100">
         {/* Left info panel */}
         <div className="relative md:w-2/5 flex flex-col justify-between bg-gradient-to-br from-amber-500 via-orange-400 to-amber-600 text-white p-6 md:p-10 gap-4">

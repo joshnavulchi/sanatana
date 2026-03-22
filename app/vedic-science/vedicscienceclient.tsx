@@ -1,9 +1,10 @@
 "use client";
-import PageLayout from '@components/common/PageLayout';
+
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import PageLayout from '@components/common/PageLayout';
 
 export default function VedicScienceClient() {
   const { locale, isLoading } = useLocale();

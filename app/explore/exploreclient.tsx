@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useLocale } from "@app/context/locale-context";
+import PageLayout from "../components/common/PageLayout";
 
 const pages = [
   {
@@ -48,10 +49,13 @@ const pages = [
 
 export default function ExploreClient() {
   const { t } = useLocale();
-
   return (
-    <div className="max-w-4xl mx-auto py-8 px-4">
-      <h1 className="text-4xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h1>
+    <PageLayout
+      metaKey="explore"
+      title="Explore"
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Explore' }]}
+      className={`layout-md`}>
+      <h2 className="text-4xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h2>
       <p className="text-lg text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -77,6 +81,6 @@ export default function ExploreClient() {
           </Link>
         ))}
       </div>
-    </div>
+    </PageLayout>
   );
 }

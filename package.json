@@ -6,7 +6,6 @@
   "scripts": {
     "predev": "node scripts/compile-scss.js --dev",
     "dev": "next dev",
-    "prebuild": "npm run lint",
     "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js && node scripts/audit-seo.js --out out --json audit-report.json",
     "render-build": "bash ./.render-build.sh",

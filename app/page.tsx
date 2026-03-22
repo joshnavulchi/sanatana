@@ -6,6 +6,7 @@ import UnderstandingOfSanatana from '@components/sanatanadharmam';
 import OurFourCoreYugas from '@components/ourfourcoreyugas';
 import GitSupport from '@components/git-support';
 
+export const generateMetadata = createGenerateMetadata('home');
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
 let criticalCssChecked = false;
@@ -31,8 +32,6 @@ function getCriticalCss(): string {
   criticalCssChecked = true;
   return cachedCriticalCss || '';
 }
-
-export const generateMetadata = createGenerateMetadata('home');
 
 export default async function Home() {
   // Get cached critical CSS (read once at module load)
@@ -61,7 +60,6 @@ export default async function Home() {
           loop={false}
           showPlaylist={false}
         /> */}
-
     </>
   );
 }

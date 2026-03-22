@@ -1,4 +1,5 @@
 "use client";
+
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';

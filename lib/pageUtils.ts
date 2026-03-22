@@ -62,7 +62,6 @@ function generateSEO(opts: SEOOptions) {
 }
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
-
   // Simple in-process memoization to avoid repeated concurrent loads of the
   // same locale namespace during static generation/build. This reduces IO
   // pressure when Next.js invokes metadata generation for many pages.
@@ -109,17 +108,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       }
       return canonical;
     }
-  }
-
-  function parseRobots(robots: unknown): { index: boolean; follow: boolean } {
-    // Locale files currently store robots as a string like "index, follow".
-    // Default to index+follow unless explicitly disabled.
-    if (typeof robots !== 'string') return { index: true, follow: true };
-    const v = robots.toLowerCase();
-    if (v.includes('none')) return { index: false, follow: false };
-    const index = v.includes('noindex') ? false : true;
-    const follow = v.includes('nofollow') ? false : true;
-    return { index, follow };
   }
 
   function unwrapPageObject(rawNs: unknown): Record<string, unknown> {
@@ -264,13 +252,13 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       if (img) ogImages = [{ url: img }];
     }
 
-    const ogTitle = firstString((openGraph as any).title, title, meta.title, (pageObj as any).title, schemaFallback.title);
-    const ogDescription = firstString((openGraph as any).description, description, meta.description, (pageObj as any).description, schemaFallback.description);
+    // const ogTitle = firstString((openGraph as any).title, title, meta.title, (pageObj as any).title, schemaFallback.title);
+    // const ogDescription = firstString((openGraph as any).description, description, meta.description, (pageObj as any).description, schemaFallback.description);
     const ogUrl = normalizeCanonical((openGraph as any).url || (meta as any).url || canonical);
-    const ogSiteName = firstString((openGraph as any).siteName, 'Sanatanadharmam');
-    const ogType = firstString((openGraph as any).type, 'website');
+    // const ogSiteName = firstString((openGraph as any).siteName, 'Sanatanadharmam');
+    // const ogType = firstString((openGraph as any).type, 'website');
 
-    const robots = parseRobots((meta as any).robots);
+    // const robots = parseRobots((meta as any).robots);
 
     // Build a path relative to the site base for use with generateSEO
     // reuse `baseUrl` defined earlier in this function
