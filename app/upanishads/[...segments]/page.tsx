@@ -16,19 +16,19 @@ type UpanishadsData = {
 
 export async function generateStaticParams() {
   return [
-    { segments: ['upanishads', 'aitareya-upanishad'] },
-    { segments: ['upanishads', 'brihadaranyaka-upanishad'] },
-    { segments: ['upanishads', 'chandogya-upanishad'] },
-    { segments: ['upanishads', 'isha-upanishad'] },
-    { segments: ['upanishads', 'katha-upanishad'] },
-    { segments: ['upanishads', 'kaushitaki-upanishad'] },
-    { segments: ['upanishads', 'kena-upanishad'] },
-    { segments: ['upanishads', 'maitri-upanishad'] },
-    { segments: ['upanishads', 'mandukya-upanishad'] },
-    { segments: ['upanishads', 'mundaka-upanishad'] },
-    { segments: ['upanishads', 'prashna-upanishad'] },
-    { segments: ['upanishads', 'shvetashvatara-upanishad'] },
-    { segments: ['upanishads', 'taittiriya-upanishad'] } // ✅ ONLY include paths that actually exist
+    { segments: ['aitareya-upanishad'] },
+    { segments: ['brihadaranyaka-upanishad'] },
+    { segments: ['chandogya-upanishad'] },
+    { segments: ['isha-upanishad'] },
+    { segments: ['katha-upanishad'] },
+    { segments: ['kaushitaki-upanishad'] },
+    { segments: ['kena-upanishad'] },
+    { segments: ['maitri-upanishad'] },
+    { segments: ['mandukya-upanishad'] },
+    { segments: ['mundaka-upanishad'] },
+    { segments: ['prashna-upanishad'] },
+    { segments: ['shvetashvatara-upanishad'] },
+    { segments: ['taittiriya-upanishad'] } // ✅ ONLY include paths that actually exist
   ];
 }
 
@@ -56,8 +56,7 @@ export default async function Page({ params }: { params: { segments?: string[] }
 
   const locale = DEFAULT_LOCALE;
 
-  const fetched = await fetchContentByRoute(locale, segments);
-  // await fetchContentByRoute(locale, ['upanishads', ...(segments || [])]);
+  const fetched = await fetchContentByRoute(locale, ['upanishads', ...(segments || [])]);
   // Normalize JSON shape: many upanishads files wrap content under a top-level key
   let data: UpanishadsData | null = fetched && fetched.data ? (fetched.data as any) : null;
   if (data && typeof data === 'object' && segments.length > 0) {
