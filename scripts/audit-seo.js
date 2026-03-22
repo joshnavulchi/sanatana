@@ -14,8 +14,8 @@ const cheerio = require('cheerio');
 
 const argv = require('minimist')(process.argv.slice(2));
 const OUT_DIR = argv.out || 'out';
-const JSON_OUT = argv.json || 'audit-report.json';
-const CSV_OUT = argv.csv || null;
+const JSON_OUT = argv.json || path.join('public', 'data', 'audit-report.json');
+const CSV_OUT = argv.csv || path.join('public', 'data', 'audit-report.csv');
 
 async function scanHtmlFiles(dir) {
   const results = [];
@@ -121,14 +121,14 @@ async function auditPage(filePath) {
   else if (robots && !/index/i.test(robots) && !/follow/i.test(robots)) { issues.push('Robots tag present but missing "index, follow"'); score -= 10; }
 
   // C. Open Graph
-  const ogs = ['og:title','og:description','og:url','og:type'];
+  const ogs = ['og:title', 'og:description', 'og:url', 'og:type'];
   ogs.forEach((p) => {
     const v = $(`meta[property="${p}"]`).attr('content');
     if (!v) { issues.push(`Missing meta property="${p}"`); score -= 5; }
   });
 
   // D. Twitter meta
-  const tw = ['twitter:card','twitter:title','twitter:description'];
+  const tw = ['twitter:card', 'twitter:title', 'twitter:description'];
   tw.forEach((n) => {
     const v = $(`meta[name="${n}"]`).attr('content');
     if (!v) { issues.push(`Missing meta name="${n}"`); score -= 3; }
@@ -139,7 +139,7 @@ async function auditPage(filePath) {
   if (ldjsonCount === 0) { issues.push('No JSON-LD structured data found'); score -= 2; }
 
   // F. Content validation
-  const bodyText = $('body').text().replace(/\s+/g,' ').trim();
+  const bodyText = $('body').text().replace(/\s+/g, ' ').trim();
   if (!bodyText || bodyText.length < 20) { issues.push('Page has little or no visible text content'); score -= 50; }
 
   // server-rendered detection: if HTML length is small suggest not server-rendered
@@ -158,7 +158,7 @@ async function auditPage(filePath) {
     if (!ok) internalBroken.push(href);
   }
   if (internalBroken.length) {
-    issues.push(`Broken internal links: ${internalBroken.slice(0,5).join(', ')}${internalBroken.length>5?` (+${internalBroken.length-5} more)`:''}`);
+    issues.push(`Broken internal links: ${internalBroken.slice(0, 5).join(', ')}${internalBroken.length > 5 ? ` (+${internalBroken.length - 5} more)` : ''}`);
     score -= Math.min(20, internalBroken.length * 5);
   }
 
@@ -201,24 +201,31 @@ async function main() {
       const file = files[i];
       const res = await auditPage(file);
       results.push(res);
-      console.log(`${res.page} -> ${res.status} (${res.score})${res.issues.length? ' - ' + res.issues.slice(0,2).join('; '): ''}`);
+      console.log(`${res.page} -> ${res.status} (${res.score})${res.issues.length ? ' - ' + res.issues.slice(0, 2).join('; ') : ''}`);
     }
   }
   await Promise.all(new Array(CONCURRENCY).fill(0).map(worker));
 
   // Summary
   const total = results.length;
-  const passed = results.filter(r=>r.status==='PASS').length;
-  const failed = results.filter(r=>r.status==='FAIL').length;
-  const avg = total ? Math.round(results.reduce((s,r)=>s+r.score,0)/total) : 0;
+  const passed = results.filter(r => r.status === 'PASS').length;
+  const failed = results.filter(r => r.status === 'FAIL').length;
+  const avg = total ? Math.round(results.reduce((s, r) => s + r.score, 0) / total) : 0;
 
   const report = { generatedAt: new Date().toISOString(), totalPages: total, passed, failed, averageScore: avg, pages: results };
+
+  // Ensure output directory exists (deploy static data under public/data)
+  try {
+    await fsp.mkdir(path.dirname(JSON_OUT), { recursive: true });
+  } catch (e) {
+    // ignore mkdir errors and let writeFile fail later if necessary
+  }
 
   await fsp.writeFile(JSON_OUT, JSON.stringify(report, null, 2), 'utf8');
   console.log('\nWrote JSON report to', JSON_OUT);
 
   if (CSV_OUT) {
-    const header = ['page','status','score','issues'].join(',') + '\n';
+    const header = ['page', 'status', 'score', 'issues'].join(',') + '\n';
     const rows = results.map(r => [escapeCsv(r.page), r.status, r.score, escapeCsv(r.issues.join(' | '))].join(',')).join('\n');
     await fsp.writeFile(CSV_OUT, header + rows, 'utf8');
     console.log('Wrote CSV report to', CSV_OUT);
@@ -235,7 +242,7 @@ async function main() {
 function escapeCsv(s) {
   if (s == null) return '';
   const str = String(s);
-  if (str.includes(',') || str.includes('"') || str.includes('\n')) return '"' + str.replace(/"/g,'""') + '"';
+  if (str.includes(',') || str.includes('"') || str.includes('\n')) return '"' + str.replace(/"/g, '""') + '"';
   return str;
 }
 

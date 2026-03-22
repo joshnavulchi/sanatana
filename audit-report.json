@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-03-22T02:15:25.302Z",
+  "totalPages": 23,
+  "passed": 12,
+  "failed": 4,
+  "averageScore": 74,
+  "pages": [
+    {
+      "page": "/404/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 0
+    },
+    {
+      "page": "/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/about/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/404",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 0
+    },
+    {
+      "page": "/contact/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/explore/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/donate/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/googlec257c31c246db1c1",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\"",
+        "No JSON-LD structured data found",
+        "HTML appears very small; check server-rendering"
+      ],
+      "score": 0
+    },
+    {
+      "page": "/itihasa/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/our-cookie-policy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/privacy-policy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/our-privacy-policy/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/post-deploy-audit/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/puranas/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/terms-of-service/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedic-science/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/_not-found/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 0
+    },
+    {
+      "page": "/vedic-philosophy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/itihasa/bhagavadgita/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/mahabharata/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/ramayana/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    }
+  ]
+}
