@@ -131,3 +131,30 @@ export async function fetchContentByRoute(
 
   return { data: null, path: null };
 }
+
+// Itihasa helpers (kept here for convenience)
+export const MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabha-parva', 'vana-parva'];
+export const RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakanda'];
+
+export function parseNumericSuffix(slug: string): number | null {
+  const m = String(slug || '').match(/-(\d+)$/);
+  return m ? Number(m[1]) : null;
+}
+
+export function toTitleFromSlug(slug: string): string {
+  return String(slug || '')
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, (c) => (c as string).toUpperCase());
+}
+
+export function toUnderscoreSlug(slug: string): string {
+  return String(slug || '').replace(/-/g, '_');
+}
+
+export function isMahabharataParvaSlug(slug: string): boolean {
+  return MAHABHARATA_PARVAS.includes(slug) || /^parva-?\d+$/.test(slug);
+}
+
+export function isRamayanaKandaSlug(slug: string): boolean {
+  return RAMAYANA_KANDAS.includes(slug) || /^kanda-?\d+$/.test(slug);
+}
