@@ -13,20 +13,23 @@ type UpanishadsData = {
   children?: string[];
 };
 
+
 export async function generateStaticParams() {
-  const topLevelUpanishads = [
-    'aitareya-upanishad', 'brihadaranyaka-upanishad', 'chandogya-upanishad', 'isha-upanishad',
-    'katha-upanishad', 'kaushitaki-upanishad', 'kena-upanishad', 'maitri-upanishad',
-    'mandukya-upanishad', 'mundaka-upanishad', 'prashna-upanishad', 'shvetashvatara-upanishad',
-    'taittiriya-upanishad'
+  return [
+    { segments: ['upanishads', 'aitareya-upanishad'] },
+    { segments: ['upanishads', 'brihadaranyaka-upanishad'] },
+    { segments: ['upanishads', 'chandogya-upanishad'] },
+    { segments: ['upanishads', 'isha-upanishad'] },
+    { segments: ['upanishads', 'katha-upanishad'] },
+    { segments: ['upanishads', 'kaushitaki-upanishad'] },
+    { segments: ['upanishads', 'kena-upanishad'] },
+    { segments: ['upanishads', 'maitri-upanishad'] },
+    { segments: ['upanishads', 'mandukya-upanishad'] },
+    { segments: ['upanishads', 'mundaka-upanishad'] },
+    { segments: ['upanishads', 'prashna-upanishad'] },
+    { segments: ['upanishads', 'shvetashvatara-upanishad'] },
+    { segments: ['upanishads', 'taittiriya-upanishad'] } // ✅ ONLY include paths that actually exist
   ];
-  const out: Array<{ segments: string[] }> = [];
-  for (const loc of SUPPORTED_LOCALES) {
-    for (const s of topLevelUpanishads) {
-      out.push({ segments: [s] });
-    }
-  }
-  return out;
 }
 
 export async function generateMetadata(props: any) {
