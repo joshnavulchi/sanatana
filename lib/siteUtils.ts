@@ -44,7 +44,13 @@ export function resolveRoute(segments: string[]) {
   }
 
   const base = parts[0] as BaseType;
-  const pathSegments = parts.slice(1);
+
+  // 🚨 FIX: remove duplicated base if exists
+  let pathSegments = parts.slice(1);
+
+  if (pathSegments[0] === base) {
+    pathSegments = pathSegments.slice(1);
+  }
 
   if (!BASES.includes(base)) {
     return { base: null, pathSegments: parts };
@@ -56,21 +62,21 @@ export function resolveRoute(segments: string[]) {
 /**
  * Build deterministic hierarchical paths
  */
-function buildPaths(base: string, locale: string, segments: string[]) {
-  const loc = locale || DEFAULT_LOCALE;
-  const parts = normalizeSegments(segments);
+// function buildPaths(base: string, locale: string, segments: string[]) {
+//   const loc = locale || DEFAULT_LOCALE;
+//   const parts = normalizeSegments(segments);
 
-  if (!parts.length) return [];
+//   if (!parts.length) return [];
 
-  const joined = parts.join('/');
-  const last = parts[parts.length - 1];
+//   const joined = parts.join('/');
+//   const last = parts[parts.length - 1];
 
-  return [
-    `/data/locales/${loc}/${base}/${joined}/index.json`,
-    `/data/locales/${loc}/${base}/${joined}.json`,
-    `/data/locales/${loc}/${base}/${joined}/${last}.json`,
-  ];
-}
+//   return [
+//     `/data/locales/${loc}/${base}/${joined}/index.json`,
+//     `/data/locales/${loc}/${base}/${joined}.json`,
+//     `/data/locales/${loc}/${base}/${joined}/${last}.json`,
+//   ];
+// }
 
 // For pre-generating static paths for top-level upanishads
 // This is a bit hacky but avoids needing to crawl the filesystem or maintain a separate list of top-level upanishads.
