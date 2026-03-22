@@ -66,14 +66,9 @@ function buildPaths(base: string, locale: string, segments: string[]) {
   const last = parts[parts.length - 1];
 
   return [
-    // 1. folder index (primary)
     `/data/locales/${loc}/${base}/${joined}/index.json`,
-
-    // 2. nested file
-    `/data/locales/${loc}/${base}/${joined}/${last}.json`,
-
-    // 3. direct file
     `/data/locales/${loc}/${base}/${joined}.json`,
+    `/data/locales/${loc}/${base}/${joined}/${last}.json`,
   ];
 }
 
@@ -93,6 +88,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
     try {
       const res = await fetch(p, {
         cache: 'force-cache',
+        next: { revalidate: 60 },
       } as any);
 
       if (res.ok) {
@@ -101,8 +97,8 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
     } catch { }
   }
 
-  if (locale !== 'en') {
-    return fetchContentByRoute('en', segments);
+  if (locale !== DEFAULT_LOCALE) {
+    return fetchContentByRoute(DEFAULT_LOCALE, segments);
   }
 
   return { data: null, path: null };
