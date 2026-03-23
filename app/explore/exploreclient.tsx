@@ -55,8 +55,8 @@ export default function ExploreClient() {
       title="Explore"
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Explore' }]}
       className={`layout-md`}>
-      <h2 className="text-4xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h2>
-      <p className="text-lg text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
+      <h2 className="text-3xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h2>
+      <p className="text-base text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {pages.map((p) => (

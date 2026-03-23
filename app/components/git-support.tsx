@@ -74,11 +74,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
               <Link
                 href="https://github.com/vulchivijay/sanatana"
                 target="_blank"
-                className="group/btn relative px-4 md:px-8 py-3
-                  bg-white/90 hover:bg-white text-sm
-                  rounded-full shadow-xl hover:shadow-2xl
-                  transition-all duration-300 transform hover:-translate-y-1 hover:scale-105
-                  no-underline overflow-hidden">
+                className="group/btn relative px-4 md:px-8 py-3 bg-white/90 hover:bg-white text-sm rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-orange-400/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   <svg className="w-5 h-5" fill="#000000" viewBox="0 0 24 24">
@@ -94,12 +90,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
               <Link
                 href="https://github.com/vulchivijay/sanatana"
                 target="_blank"
-                className="group/btn px-4 md:px-8 py-3
-                  bg-transparent border-2 border-white/50 hover:border-white
-                  text-white text-sm rounded-full
-                  shadow-lg hover:shadow-xl transition-all duration-300
-                  transform hover:-translate-y-1 no-underline
-                  backdrop-blur-sm">
+                className="group/btn px-4 md:px-8 py-3 bg-transparent border-2 border-white/50 hover:border-white text-white text-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline backdrop-blur-sm">
                 <span className="flex items-center justify-center gap-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

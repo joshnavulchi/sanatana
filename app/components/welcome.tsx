@@ -86,17 +86,17 @@ export default function WelcomePage() {
               {/* Greeting with Om symbol */}
               <div className="flex items-center justify-center gap-4 mb-4">
                 <div className="h-px w-12 bg-linear-to-r from-transparent to-amber-300" />
-                <span className="text-5xl text-amber-800 animate-pulse">ॐ</span>
+                <span className="text-3xl text-amber-800 animate-pulse">ॐ</span>
                 <div className="h-px w-12 bg-linear-to-l from-transparent to-amber-300" />
               </div>
 
               {/* Welcome title */}
-              <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight leading-tight text-amber-800">
+              <h2 className="text-3xl md:text-3xl font-extrabold tracking-tight leading-tight text-amber-800">
                 Namaste & Welcome
               </h2>
 
               {/* Sanskrit blessing */}
-              <p className="text-lg sm:text-md italic text-amber-700 tracking-wide">
+              <p className="text-base sm:text-md italic text-amber-700 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 
@@ -128,7 +128,7 @@ export default function WelcomePage() {
                 <p className="text-base text-amber-700 font-medium tracking-wide">
                   सत्यमेव जयते । धर्मो रक्षति रक्षितः
                 </p>
-                <p className="text-lg text-gray-600 italic">
+                <p className="text-base text-gray-600 italic">
                   Truth Alone Triumphs · Dharma Protects Those Who Protect It
                 </p>
               </div>

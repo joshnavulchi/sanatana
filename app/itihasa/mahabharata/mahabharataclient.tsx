@@ -64,14 +64,14 @@ export default function MahabharataClient() {
     <PageLayout metaKey="itihasa_mahabharata" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 rounded-2xl border border-amber-200/30 bg-amber-50 overflow-hidden mb-8">
-          <p className="text-lg body-text">{description}</p>
+          <p className="text-base body-text">{description}</p>
         </div>
       )}
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 rounded-2xl border border-amber-200/30 bg-amber-50 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="section-title mb-4">Introduction</h2>
-          <div className="body-text md:text-lg leading-relaxed">
+          <div className="body-text md:text-base leading-relaxed">
             <Paragraphs text={introduction} />
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function MahabharataClient() {
         <div className="mt-10 relative overflow-hidden rounded-3xl border border-amber-200/30 p-6 md:p-8 bg-amber-50 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
           <h2 className="section-title mb-4">Philosophical Explanation</h2>
-          <div className="body-text md:text-lg leading-relaxed">
+          <div className="body-text md:text-base leading-relaxed">
             <Paragraphs text={philosophical} />
           </div>
         </div>
@@ -106,10 +106,10 @@ export default function MahabharataClient() {
               <div className="relative overflow-hidden rounded-2xl border border-amber-200/50 bg-amber-50 p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
                 <div className="flex items-center gap-3 mt-2">
-                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary-700/15 text-sm font-bold text-primary-700">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary-700/15 text-sm font-semibold text-primary-700">
                     {idx + 1}
                   </span>
-                  <h3 className="text-base font-bold text-gray-900 group-hover:text-primary-700 transition-colors">
+                  <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors">
                     {toTitleFromSlug(parva)}
                   </h3>
                 </div>

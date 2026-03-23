@@ -90,7 +90,7 @@ export default function PageLayout(
               </div>
               {description && (
                 <div className="max-w-3xl mx-auto">
-                  <p className="text-center text-xl md:text-lg text-[#5b2d12] leading-relaxed italic font-medium px-4">
+                  <p className="text-center text-xl md:text-base text-[#5b2d12] leading-relaxed italic font-medium px-4">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>
@@ -117,7 +117,7 @@ export default function PageLayout(
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#9a3412] [writing-mode:vertical-lr]">
+              <span className="text-base font-black uppercase tracking-[0.2em] text-[#9a3412] [writing-mode:vertical-lr]">
                 Explore
               </span>
             </span>

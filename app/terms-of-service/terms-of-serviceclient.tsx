@@ -91,14 +91,14 @@ export default function TermsOfService() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">📋</span>
-            <strong className="text-xl md:text-lg ">{page.lastupdated}</strong>
+            <strong className="text-xl md:text-base">{page.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
 
         {/* Acceptance section */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <h2 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <h2 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-3xl">✅</span>
             {page.acceptancetitle}
           </h2>
@@ -107,7 +107,7 @@ export default function TermsOfService() {
 
         {/* Use License */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <h3 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📜</span>
             {page.uselicensetitle}
           </h3>
@@ -116,7 +116,7 @@ export default function TermsOfService() {
             {[0, 1, 2, 3, 4].map((i) => {
               const item = renderListItem(page.uselicenselist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 ">
+                <li key={i} className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -127,7 +127,7 @@ export default function TermsOfService() {
 
         {/* Intellectual Property */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <h4 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">©️</span>
             {page.intellectualtitle}
           </h4>
@@ -136,7 +136,7 @@ export default function TermsOfService() {
 
         {/* User Conduct */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <h5 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👤</span>
             {page.userconducttitle}
           </h5>
@@ -145,7 +145,7 @@ export default function TermsOfService() {
             {[0, 1, 2, 3, 4, 5].map((i) => {
               const item = renderListItem(page.userconductlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 ">
+                <li key={i} className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -156,7 +156,7 @@ export default function TermsOfService() {
 
         {/* Disclaimer */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-4 md:p-8 shadow-lg">
-          <h6 className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <h6 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚠️</span>
             {page.disclaimertitle}
           </h6>
@@ -165,7 +165,7 @@ export default function TermsOfService() {
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 ">
+                <li key={i} className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -186,7 +186,7 @@ export default function TermsOfService() {
           { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
         ].map((section, idx) => (
           <section key={idx} className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-            <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+            <p className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
               <span className="text-2xl">{section.icon}</span>
               {section.title}
             </p>
@@ -196,12 +196,12 @@ export default function TermsOfService() {
 
         {/* Contact section */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <p className="text-xl sm:text-lg text-gray-900 mb-4 flex items-center gap-3">
+          <p className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📞</span>
             {page.contacttitle}
           </p>
           <p className="leading-relaxed mb-4">{page.contacttext}</p>
-          <div className="space-y-2 ">
+          <div className="space-y-2">
             <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
             <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
             <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>

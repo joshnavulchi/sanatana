@@ -149,7 +149,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-4 text-sm leading-8 text-gray-700">
+          <p className="mt-4 text-sm leading-relaxed text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -202,14 +202,14 @@ export default function OurFourCoreYugas() {
           {/* Highlight note */}
           {earthAgeComparisonNote && (
             <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_8px_20px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-7 text-transparent">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-relaxed text-transparent">
                 {earthAgeComparisonNote}
               </p>
             </div>
           )}
 
           {scalingComment && (
-            <p className="mx-auto mt-5 max-w-4xl text-center text-sm leading-7 text-[#5b2d12]">
+            <p className="mx-auto mt-5 max-w-4xl text-center text-sm leading-relaxed text-[#5b2d12]">
               {scalingComment}
             </p>
           )}
