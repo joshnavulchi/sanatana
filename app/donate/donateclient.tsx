@@ -67,7 +67,7 @@ export default function DonateClient() {
     >
       <div id="donate-content" className="space-y-12">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">{donate.subtitle}</p>
+          <p className="text-base sm:text-base text-gray-600 leading-relaxed">{donate.subtitle}</p>
         </div>
 
         {/* Purpose */}
@@ -82,12 +82,12 @@ export default function DonateClient() {
                     <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">{donate.purpose?.heading}</h3>
+                <h3 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-900">{donate.purpose?.heading}</h3>
               </div>
               <ul className="space-y-4">
                 {(donate.purpose?.points || []).map((p: string, i: number) => (
                   <li key={i} className="flex items-start gap-2 group">
-                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-md font-bold shadow-sm group-hover:scale-110 transition-transform duration-200">
+                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-md font-semibold shadow-sm group-hover:scale-110 transition-transform duration-200">
                       {i + 1}
                     </span>
                     <span className="flex-1 text-gray-700 leading-relaxed pt-1">{p}</span>
@@ -101,17 +101,17 @@ export default function DonateClient() {
         {/* Expenses */}
         <section className="relative">
           <div className="text-center mb-6">
-            <h4 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
+            <h4 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
             <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
           </div>
           <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200">
             <table className="w-full">
               <thead className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white">
                 <tr>
-                  <th className="p-4 text-left font-bold">Item</th>
-                  <th className="p-4 text-left font-bold">Cost</th>
-                  <th className="p-4 text-left font-bold">Cycle</th>
-                  <th className="p-4 text-left font-bold">Provider</th>
+                  <th className="p-4 text-left font-semibold">Item</th>
+                  <th className="p-4 text-left font-semibold">Cost</th>
+                  <th className="p-4 text-left font-semibold">Cycle</th>
+                  <th className="p-4 text-left font-semibold">Provider</th>
                 </tr>
               </thead>
               <tbody className="bg-white">
@@ -139,14 +139,14 @@ export default function DonateClient() {
                     <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h5 className="text-3xl font-bold text-amber-900  mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
-                <p className="text-xl md:text-lg text-gray-600 ">{donate.donateOptions?.oneTime?.note}</p>
+                <h5 className="text-3xl font-semibold text-amber-900 mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
+                <p className="text-xl md:text-base text-gray-600">{donate.donateOptions?.oneTime?.note}</p>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center gap-8 my-10">
                 <div className="group">
                   <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm">
                     <div className="text-center mb-4">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-md font-bold rounded-full">PayPal</span>
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-md font-semibold rounded-full">PayPal</span>
                     </div>
                     <LazyImage
                       src="/images/SANATANADHARM-qrcode.png"
@@ -170,7 +170,7 @@ export default function DonateClient() {
                 <div className="group">
                   <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm">
                     <div className="text-center mb-4">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-md font-bold rounded-full">UPI</span>
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-md font-semibold rounded-full">UPI</span>
                     </div>
                     <LazyImage
                       src="/images/UPI-qrcode.png"

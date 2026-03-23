@@ -229,7 +229,7 @@ export default function Footer() {
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-8 text-gray-800">
+            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-relaxed text-gray-800">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -263,7 +263,7 @@ export default function Footer() {
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
-            <span className="text-lg text-primary-700" aria-hidden="true">✦</span>
+            <span className="text-base text-primary-700" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 
@@ -299,7 +299,7 @@ export default function Footer() {
             {/* Disclaimer + Socials */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
               <div>
-                <small className="text-xs leading-6 text-gray-600">
+                <small className="text-xs leading-relaxed text-gray-600">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>

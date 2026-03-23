@@ -167,15 +167,7 @@ export default function CookieConsent() {
       <CookiePreferencesModal open={modalOpen} onClose={() => setModalOpen(false)} onSave={savePrefs} initial={prefs ?? {}} />
       <div className="fixed bottom-0 left-0 right-0 z-50 p-3 md:p-6 pointer-events-none">
         <div className="max-w-6xl mx-auto pointer-events-auto">
-          <div className="
-            relative
-            bg-white/95
-            backdrop-blur-xl
-            border-2 border-amber-200
-            rounded-2xl
-            shadow-2xl
-            overflow-hidden
-          ">
+          <div className="relative bg-white/95 backdrop-blur-xl border-2 border-amber-200 rounded-2xl shadow-2xl overflow-hidden">
             {/* Decorative gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 pointer-events-none" />
 
@@ -187,22 +179,14 @@ export default function CookieConsent() {
               <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                 {/* Cookie icon */}
                 <div className="flex-shrink-0 hidden md:block">
-                  <div className="
-                    w-16 h-16
-                    bg-gradient-to-br from-amber-100 to-orange-100
-                    rounded-2xl
-                    flex items-center justify-center
-                    text-4xl
-                    shadow-lg
-                    animate-bounce
-                  ">
+                  <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl flex items-center justify-center text-3xl shadow-lg animate-bounce">
                     🍪
                   </div>
                 </div>
 
                 {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-xl md:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-xl md:text-base font-semibold text-gray-900 mb-2 flex items-center gap-2">
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
@@ -226,21 +210,7 @@ export default function CookieConsent() {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-end gap-3 mt-6">
                 <button
-                  className="
-                      px-4 py-2
-                      bg-white
-                      border-2 border-amber-300
-                      hover:border-amber-400
-                      text-gray-900
-                      text-sm
-                      rounded-full
-                      shadow-md hover:shadow-lg
-                      transition-all duration-300
-                      transform hover:-translate-y-0.5
-                      no-underline
-                      whitespace-nowrap
-                      cursor-pointer
-                  "
+                  className="px-4 py-2 bg-white border-2 border-amber-300 hover:border-amber-400 text-gray-900 text-sm rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
                   onClick={() => setModalOpen(true)}
                 >
                   <span className="flex items-center justify-center gap-2">
@@ -252,20 +222,7 @@ export default function CookieConsent() {
                   </span>
                 </button>
                 <button
-                  className="
-                    px-4 py-2
-                    bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700
-                    text-white
-                    text-sm
-                    rounded-full
-                    shadow-lg hover:shadow-xl
-                    transition-all duration-300
-                    transform hover:-translate-y-0.5
-                    no-underline
-                    whitespace-nowrap
-                    cursor-pointer
-                  "
+                  className="px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
                   onClick={acceptAll}
                 >
                   <span className="flex items-center justify-center gap-2">

@@ -59,8 +59,7 @@ export default function AboutClient() {
 
             return (
               <div key={section.id || index}
-                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8
-                mt-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
+                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 mt-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
@@ -69,11 +68,7 @@ export default function AboutClient() {
                 <div className="relative z-10 space-y-4">
                   {/* Section header with icon */}
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12
-                    bg-gradient-to-br from-amber-100 to-orange-100
-                    rounded-xl flex items-center justify-center
-                    text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6
-                    transition-transform duration-300">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                       {icon}
                     </div>
                     <Tag className="flex-1 text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
@@ -83,14 +78,14 @@ export default function AboutClient() {
 
                   {/* Section text */}
                   {section?.text && (
-                    <p className="text-xl md:text-lg leading-relaxed ">
+                    <p className="text-xl md:text-base leading-relaxed">
                       {section.text}
                     </p>
                   )}
 
                   {/* Bullets list */}
                   {section?.bullets && section?.bullets.length > 0 && (
-                    <ul className="space-y-3 ">
+                    <ul className="space-y-3">
                       {section.bullets.map((text: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 leading-relaxed">
                           <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
@@ -110,8 +105,8 @@ export default function AboutClient() {
               <div className="flex items-start gap-4">
                 <span className="text-3xl">⚠️</span>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
-                  <p className="text-xl md:text-lg leading-relaxed">
+                  <h4 className="text-xl md:text-base font-semibold text-gray-900 mb-2">Disclaimer</h4>
+                  <p className="text-xl md:text-base leading-relaxed">
                     {about.disclaimer}
                   </p>
                 </div>
@@ -133,10 +128,10 @@ export default function AboutClient() {
                 <span className="text-3xl text-amber-800">🕉️</span>
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
               </div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
+              <h2 className="text-3xl font-semibold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
                 The Essence of Life
               </h2>
-              <p className="text-xl md:text-lg text-amber-700/80  italic">
+              <p className="text-xl md:text-base text-amber-700/80 italic">
                 जीवनस्य परमं तत्त्वम्
               </p>
             </div>
@@ -145,11 +140,11 @@ export default function AboutClient() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
               {/* Card 1: Purpose */}
               <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-4 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
-                <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
+                <div className="absolute top-4 right-4 text-3xl opacity-20 group-hover:opacity-30 transition-opacity">
                   🎯
                 </div>
-                <h3 className="text-md font-bold text-amber-800 mb-3">पुरुषार्थ - Life&apos;s Purpose</h3>
-                <p className=" leading-relaxed">
+                <h3 className="text-md font-semibold text-amber-800 mb-3">पुरुषार्थ - Life&apos;s Purpose</h3>
+                <p className="leading-relaxed">
                   Life is a sacred journey toward the four Purusharthas:
                   <span className="font-semibold text-amber-700"> Dharma</span> (righteousness),
                   <span className="font-semibold text-orange-600"> Artha</span> (prosperity),
@@ -160,11 +155,11 @@ export default function AboutClient() {
 
               {/* Card 2: Atman */}
               <div className="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
+                <div className="absolute top-4 right-4 text-3xl opacity-20 group-hover:opacity-30 transition-opacity">
                   ✨
                 </div>
-                <h3 className="text-md font-bold text-orange-800 mb-3">आत्मा - The Eternal Soul</h3>
-                <p className=" leading-relaxed">
+                <h3 className="text-md font-semibold text-orange-800 mb-3">आत्मा - The Eternal Soul</h3>
+                <p className="leading-relaxed">
                   The Atman, your true self, is eternal and divine.
                   <span className="italic"> `&quot;`न जायते म्रियते वा`&quot;` </span>
                   — It is never born, nor does it die. Life is the soul&apos;s journey to realize its oneness with Brahman.
@@ -173,11 +168,11 @@ export default function AboutClient() {
 
               {/* Card 3: Karma */}
               <div className="relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
+                <div className="absolute top-4 right-4 text-3xl opacity-20 group-hover:opacity-30 transition-opacity">
                   ⚖️
                 </div>
-                <h3 className="text-md font-bold text-yellow-800 mb-3">कर्म - Law of Action</h3>
-                <p className=" leading-relaxed">
+                <h3 className="text-md font-semibold text-yellow-800 mb-3">कर्म - Law of Action</h3>
+                <p className="leading-relaxed">
                   Every action creates karma, shaping our destiny.
                   <span className="font-semibold text-amber-700"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
                   — You have the right to perform your duty, but the fruits belong to the divine.
@@ -186,11 +181,11 @@ export default function AboutClient() {
 
               {/* Card 4: Maya & Reality */}
               <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
+                <div className="absolute top-4 right-4 text-3xl opacity-20 group-hover:opacity-30 transition-opacity">
                   🌌
                 </div>
-                <h3 className="text-md font-bold text-amber-800 mb-3">माया - Illusion & Truth</h3>
-                <p className=" leading-relaxed">
+                <h3 className="text-md font-semibold text-amber-800 mb-3">माया - Illusion & Truth</h3>
+                <p className="leading-relaxed">
                   Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
                   <span className="font-semibold text-orange-600"> eternal truth</span> that pervades all existence.
                 </p>
@@ -202,7 +197,7 @@ export default function AboutClient() {
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-500/10 blur-2xl" />
               <div className="relative bg-gradient-to-br from-amber-100/80 to-orange-100/80 rounded-2xl p-6 border-2 border-amber-300/30 backdrop-blur-sm">
                 <div className="text-center space-y-4">
-                  <p className="text-2xl md:text-3xl  text-amber-900 leading-relaxed">
+                  <p className="text-2xl md:text-3xl text-amber-900 leading-relaxed">
                     `&quot;`आत्मानं विद्धि`&quot;`
                   </p>
                   <p className="text-md font-medium">
@@ -221,28 +216,28 @@ export default function AboutClient() {
 
             {/* Four stages of life */}
             <div className="mt-8">
-              <h3 className="text-2xl font-bold text-center text-amber-800 mb-6">
+              <h3 className="text-2xl font-semibold text-center text-amber-800 mb-6">
                 आश्रम - The Four Stages of Life
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 my-6">
                 <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
                   <div className="text-3xl mb-2">📚</div>
-                  <h4 className="font-bold text-amber-800 mb-1">Brahmacharya</h4>
+                  <h4 className="font-semibold text-amber-800 mb-1">Brahmacharya</h4>
                   <p className="text-md text-gray-600">Student Life - Learning & Discipline</p>
                 </div>
                 <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40">
                   <div className="text-3xl mb-2">🏡</div>
-                  <h4 className="font-bold text-orange-800 mb-1">Grihastha</h4>
+                  <h4 className="font-semibold text-orange-800 mb-1">Grihastha</h4>
                   <p className="text-md text-gray-600">Householder - Family & Duty</p>
                 </div>
                 <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40">
                   <div className="text-3xl mb-2">🌳</div>
-                  <h4 className="font-bold text-yellow-800 mb-1">Vanaprastha</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-1">Vanaprastha</h4>
                   <p className="text-md text-gray-600">Retirement - Detachment & Reflection</p>
                 </div>
                 <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
                   <div className="text-3xl mb-2">🧘</div>
-                  <h4 className="font-bold text-amber-800 mb-1">Sannyasa</h4>
+                  <h4 className="font-semibold text-amber-800 mb-1">Sannyasa</h4>
                   <p className="text-md text-gray-600">Renunciation - Complete Liberation</p>
                 </div>
               </div>

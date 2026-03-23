@@ -53,7 +53,7 @@ function OrnamentDivider() {
   return (
     <div className="flex items-center justify-center gap-3 my-10">
       <div className="h-px w-14 bg-linear-to-r from-transparent to-[#d8a25a]" />
-      <span className="text-[#d97706] text-lg">◆</span>
+      <span className="text-[#d97706] text-base">◆</span>
       <div className="h-px w-14 bg-linear-to-l from-transparent to-[#d8a25a]" />
     </div>
   );
@@ -124,7 +124,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
             {Object.entries(structure).map(([key, value]) => (
               <div key={key} className="flex flex-col items-center rounded-xl border border-[#edc98f] bg-[#fffaf3] px-4 py-2.5 min-w-20">
                 <span className="text-xl font-extrabold text-[#7a2e1f]">{String(value)}</span>
-                <span className="text-[10px] font-semibold uppercase tracking-wider text-[#a89278]">
+                <span className="text-base font-semibold uppercase tracking-wider text-[#a89278]">
                   {key.replace(/_/g, ' ')}
                 </span>
               </div>
@@ -137,7 +137,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             {divisions.map((div: Record<string, unknown>, i: number) => (
               <div key={i} className="rounded-xl border border-[#edc98f]/60 bg-[#fffaf3] p-4">
-                <h4 className="font-bold text-[#3d2e22] text-sm">{String(div.type || '')}</h4>
+                <h4 className="font-semibold text-[#3d2e22] text-sm">{String(div.type || '')}</h4>
                 <p className="text-xs text-[#6b5d4f] mt-1">({String(div.meaning || '')})</p>
                 <p className="text-xs text-[#5b2d12] mt-1">{String(div.characteristics || '')}</p>
               </div>
@@ -148,7 +148,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {/* Deities chips */}
         {deities.length > 0 && (
           <div className="mt-5">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h4>
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h4>
             <div className="flex flex-wrap gap-2">
               {deities.map((d: string) => (
                 <span key={d} className={`inline-flex items-center rounded-lg border ${accent.border}/40 bg-[#fffaf3] px-3 py-1 text-xs font-semibold ${accent.text}`}>
@@ -162,7 +162,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {/* Theme/Topic tags */}
         {tags.length > 0 && (
           <div className="mt-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h4>
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h4>
             <div className="flex flex-wrap gap-2">
               {tags.map((t: string, i: number) => (
                 <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/60 px-3 py-1 text-xs font-medium text-[#92400e]">
@@ -218,7 +218,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
           {num}
         </span>
         <div className="flex-1 min-w-0">
-          <h4 className="text-md md:text-lg font-bold text-[#3d2e22]">
+          <h4 className="text-md md:text-base font-semibold text-[#3d2e22]">
             Mandala {num} <span className="text-[#a89278] font-normal text-sm ml-2">— {hymns} hymns</span>
           </h4>
           {classification && <p className="text-xs text-[#6b5d4f] mt-0.5 truncate">{classification}</p>}
@@ -239,7 +239,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
           <div className="mt-4 flex flex-wrap gap-4">
             {allRishis.length > 0 && (
               <div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[#a89278]">Rishis</span>
+                <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Rishis</span>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {allRishis.map((r: string) => (
                     <span key={r} className="rounded-lg bg-[#fffaf3] border border-[#edc98f]/60 px-2.5 py-0.5 text-xs font-semibold text-[#92400e]">{r}</span>
@@ -249,7 +249,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
             )}
             {allDeities.length > 0 && (
               <div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[#a89278]">Deities</span>
+                <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Deities</span>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {allDeities.map((d: string) => (
                     <span key={d} className="rounded-lg bg-[#fde7c7]/50 border border-[#d97706]/30 px-2.5 py-0.5 text-xs font-semibold text-[#7a2e1f]">{d}</span>
@@ -263,7 +263,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
           {themes.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-2">
               {themes.map((t: string, i: number) => (
-                <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/40 px-2.5 py-1 text-[11px] font-medium text-[#5b2d12]">
+                <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/40 px-2.5 py-1 text-base font-medium text-[#5b2d12]">
                   <span className="h-1 w-1 rounded-full bg-[#d97706]" /> {t}
                 </span>
               ))}
@@ -273,14 +273,14 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
           {/* Important hymns */}
           {allHymns.length > 0 && (
             <div className="mt-5 space-y-3">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-[#a89278]">Notable Hymns</span>
+              <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Notable Hymns</span>
               {allHymns.map((h: Record<string, unknown>, i: number) => (
                 <div key={i} className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] p-3.5">
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-extrabold text-[#7a2e1f]">{String(h.hymn_id || '')}</span>
                     {typeof h.name === 'string' && <span className="text-xs font-semibold text-[#8b6914]">— {h.name}</span>}
                   </div>
-                  {typeof h.theme === 'string' && <p className="text-[11px] font-medium text-[#92400e] mb-1">Theme: {h.theme}</p>}
+                  {typeof h.theme === 'string' && <p className="text-base font-medium text-[#92400e] mb-1">Theme: {h.theme}</p>}
                   {typeof h.explanation === 'string' && <p className="text-xs text-[#5b2d12] leading-relaxed">{h.explanation}</p>}
                 </div>
               ))}
@@ -297,7 +297,7 @@ function DeityCard({ deity }: { deity: Record<string, unknown> }) {
   return (
     <div className="relative overflow-hidden rounded-2xl border border-[#e0a632]/40 bg-[#fffaf0] p-5 shadow-[0_4px_20px_rgba(139,105,20,0.08)] hover:shadow-[0_12px_40px_rgba(139,105,20,0.14)] transition-all duration-300 hover:-translate-y-1">
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-linear-to-r from-[#8b6914] via-[#b8952e] to-[#e0a632]" />
-      <h4 className="text-lg font-extrabold text-[#3d2e22]">{String(deity.name || '')}</h4>
+      <h4 className="text-base font-extrabold text-[#3d2e22]">{String(deity.name || '')}</h4>
       <p className="text-sm text-[#6b5d4f] mt-1">{String(deity.role || '')}</p>
       <p className="text-xs text-[#92400e] font-medium mt-2">{String(deity.importance || '')}</p>
     </div>
@@ -351,13 +351,13 @@ export default function VedasClient() {
           </div>
 
           {definition && (
-            <p className="text-lg sm:text-md text-[#5b2d12] leading-relaxed italic font-medium mb-6">{definition}</p>
+            <p className="text-base sm:text-md text-[#5b2d12] leading-relaxed italic font-medium mb-6">{definition}</p>
           )}
 
           {meaningOfWord && (
             <div className="rounded-xl border border-[#e0a632]/40 bg-[#fffaf3] p-4 inline-block mb-4">
               <p className="text-sm text-[#92400e]">
-                <span className="font-bold text-[#7a2e1f]">Etymology:</span> {meaningOfWord}
+                <span className="font-semibold text-[#7a2e1f]">Etymology:</span> {meaningOfWord}
               </p>
             </div>
           )}
@@ -368,7 +368,7 @@ export default function VedasClient() {
               {Object.entries(stats).map(([key, value]) => (
                 <div key={key} className="flex flex-col items-center rounded-xl border border-[#edc98f] bg-[#fffaf3] px-5 py-3 shadow-[0_4px_20px_rgba(122,46,31,0.08)]">
                   <span className="text-2xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] bg-clip-text text-transparent">{String(value).toLocaleString()}</span>
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-[#a89278] mt-0.5">{key}</span>
+                  <span className="text-base font-semibold uppercase tracking-widest text-[#a89278] mt-0.5">{key}</span>
                 </div>
               ))}
             </div>
@@ -435,11 +435,11 @@ export default function VedasClient() {
                 {Object.entries(timeline).map(([key, value], i) => (
                   <div key={key} className="relative flex items-start gap-5 pl-6">
                     {/* Timeline dot */}
-                    <span className="absolute left-1.25 top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-linear-to-br from-[#7c2d12] to-[#d97706] text-[10px] font-bold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
+                    <span className="absolute left-1.25 top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-linear-to-br from-[#7c2d12] to-[#d97706] text-base font-semibold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
                       {i + 1}
                     </span>
                     <div className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] px-4 py-3 flex-1">
-                      <h4 className="text-sm font-bold text-[#3d2e22]">{key.replace(/_/g, ' ')}</h4>
+                      <h4 className="text-sm font-semibold text-[#3d2e22]">{key.replace(/_/g, ' ')}</h4>
                       <p className="text-sm text-[#92400e] font-medium">{value}</p>
                     </div>
                   </div>
@@ -524,7 +524,7 @@ export default function VedasClient() {
                 if (list.length === 0) return null;
                 return (
                   <div key={key} className="rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5">
-                    <h4 className="text-sm font-bold uppercase tracking-widest text-amber-700 mb-3">{key.replace(/_/g, ' ')}</h4>
+                    <h4 className="text-sm font-semibold uppercase tracking-widest text-amber-700 mb-3">{key.replace(/_/g, ' ')}</h4>
                     <ul className="space-y-2">
                       {list.map((item: string, i: number) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
@@ -562,7 +562,7 @@ export default function VedasClient() {
                     <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
                     <div className="flex items-center gap-2 mb-4">
                       <span className="text-xl">{iconMap[key] || '✦'}</span>
-                      <h4 className="text-md font-bold text-gray-900 capitalize">{key.replace(/_/g, ' ')}</h4>
+                      <h4 className="text-md font-semibold text-gray-900 capitalize">{key.replace(/_/g, ' ')}</h4>
                     </div>
                     <ul className="space-y-2">
                       {list.map((item: string, i: number) => (

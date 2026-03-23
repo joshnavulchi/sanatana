@@ -80,7 +80,7 @@ export default function RamayanaClient() {
     <PageLayout metaKey="scriptures_ramayana" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 bg-amber-50 rounded-2xl border border-amber-200/30 overflow-hidden mb-8">
-          <p className="text-lg body-text">{description}</p>
+          <p className="text-base body-text">{description}</p>
         </div>
       )}
 
@@ -116,15 +116,15 @@ export default function RamayanaClient() {
 
       {kandas.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">Kandas</h2>
+          <h2 className="text-2xl font-semibold text-[#3d2e22] mb-6">Kandas</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {kandas.map((link, idx) => (
               <Link key={link.href} href={link.href} className="group block">
                 <div className="relative overflow-hidden rounded-2xl border border-amber-200/50 bg-amber-50 p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
                   <div className="flex items-center gap-3 mt-2">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/15 text-sm font-bold text-amber-700">{idx + 1}</span>
-                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/15 text-sm font-semibold text-amber-700">{idx + 1}</span>
+                    <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
                   </div>
                 </div>
               </Link>

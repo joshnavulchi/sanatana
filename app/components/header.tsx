@@ -280,7 +280,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
       {/* Section header — tap to toggle */}
       <div className="w-full flex items-center gap-2 rounded-xl bg-white px-2 py-1 mb-1">
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">
+        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-base sm:text-xl md:text-2xl font-semibold text-gray-900">
           {section.title}
         </Link>
         <button
@@ -429,7 +429,7 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <span className="text-2xl sm:text-3xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>

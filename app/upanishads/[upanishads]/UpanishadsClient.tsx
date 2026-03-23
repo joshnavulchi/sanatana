@@ -162,7 +162,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {data.chapters.map((c: any, i: number) => (
               <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
-                <div className="text-lg font-semibold text-gray-900">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
+                <div className="text-base font-semibold text-gray-900">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
                 {c?.chapter && <div className="text-sm text-gray-600 mt-1">Chapter {String(c.chapter)}</div>}
                 {c?.verses && Array.isArray(c.verses) && (
                   <div className="text-sm text-gray-600 mt-1">{String(c.verses.length)} verses</div>
@@ -180,7 +180,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
               <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white">
-                <h3 className="text-lg font-semibold text-gray-900">{String(d?.name || '')}</h3>
+                <h3 className="text-base font-semibold text-gray-900">{String(d?.name || '')}</h3>
                 {d?.role && <div className="text-sm text-gray-700 mt-1">{d.role}</div>}
                 {d?.importance && <p className="text-base text-gray-800 mt-2">{d.importance}</p>}
               </div>
@@ -197,7 +197,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             {data.mandalas.map((m: any, i: number) => (
               <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
                 <div className="flex items-baseline justify-between">
-                  <div className="text-xl font-bold text-amber-800">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
+                  <div className="text-xl font-semibold text-amber-800">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
                   <div className="text-sm text-gray-600">{String(m?.hymn_count ?? '')} hymns</div>
                 </div>
                 {m?.hymns && Array.isArray(m.hymns) && m.hymns.length > 0 && (

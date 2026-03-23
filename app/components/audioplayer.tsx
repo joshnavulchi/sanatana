@@ -243,7 +243,7 @@ export default function AudioPlayer({
   };
 
   return (
-    <div className={`fixed z-9 top-25 md:top-24 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white  focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer`}>
+    <div className={`fixed z-9 top-25 md:top-24 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer`}>
       {/* Media */}
       <audio ref={audioRef} preload="metadata">
         {currentTrack.sources.map((s, i) => (
@@ -300,7 +300,7 @@ export default function AudioPlayer({
       {/* Track Info */}
       <div className="text-center w-full hidden">
         <div
-          className="font-semibold text-xl md:text-lg text-indigo-900 truncate"
+          className="font-semibold text-xl md:text-base text-indigo-900 truncate"
           title={currentTrack.title}
         >
           {currentTrack.title ?? "Untitled Track"}

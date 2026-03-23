@@ -118,7 +118,7 @@ export default function ContactPage() {
               </span>
               <div>
                 <h2 className="text-2xl tracking-tight">Contact Us</h2>
-                {page.subtitle && <p className="text-white/90 text-xl md:text-lg mt-1">{page.subtitle}</p>}
+                {page.subtitle && <p className="text-white/90 text-xl md:text-base mt-1">{page.subtitle}</p>}
               </div>
             </div>
             <div className="space-y-4 mt-4">

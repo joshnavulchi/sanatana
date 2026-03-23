@@ -6,7 +6,7 @@ export default function NotFoundPage() {
       <div className="w-full max-w-4xl rounded-3xl bg-white border border-slate-100 shadow-md p-4 sm:p-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-lg bg-amber-100 text-amber-700 font-bold text-xl">?</div>
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-lg bg-amber-100 text-amber-700 font-semibold text-xl">?</div>
 
             <h2 className="mt-6 text-2xl font-semibold text-slate-900">We couldn't find that</h2>
             <p className="mt-2 text-slate-600">This link may be broken or the page may have been removed. Try these options instead.</p>

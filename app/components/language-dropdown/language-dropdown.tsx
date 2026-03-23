@@ -191,14 +191,14 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <h2 id="language-dialog-title" className="text-md font-semibold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
                   <p className="text-md text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button
                 aria-label="Close"
                 onClick={() => setOpen(false)}
-                className="group w-10 h-10 flex items-center justify-center bg-white  hover:bg-red-50 border-2 border-amber-200 hover:border-red-300 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
+                className="group w-10 h-10 flex items-center justify-center bg-white hover:bg-red-50 border-2 border-amber-200 hover:border-red-300 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
               >
                 <svg className="w-5 h-5 text-gray-600 group-hover:text-red-600 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -207,7 +207,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Search Input */}
-            <div className="p-4 bg-gradient-to-br from-white to-amber-50/30 ">
+            <div className="p-4 bg-gradient-to-br from-white to-amber-50/30">
               <div className="relative group">
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none">
                   <svg className="w-5 h-5 text-amber-800 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -254,7 +254,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Language List */}
-            <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
+            <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
                   const flag = (lang as any).flag || '';
@@ -337,13 +337,13 @@ export default function LanguageDropdown() {
               {/* No results message */}
               {filteredLanguages.length === 0 && (
                 <div className="py-8 text-center">
-                  <div className="w-20 h-20 bg-amber-100  rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-20 h-20 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-10 h-10 text-amber-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-xl md:text-lg text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-xl md:text-base text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>

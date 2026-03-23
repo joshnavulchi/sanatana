@@ -120,7 +120,7 @@ export default function PuranasClient() {
               <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
               <div className="flex items-center gap-3 mt-2">
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-sm">📖</span>
-                <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
               </div>
             </div>
           </Link>
