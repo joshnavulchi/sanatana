@@ -33,14 +33,14 @@ export default function AuditViewer() {
 
   if (error) {
     return (
-      <div className="p-4 text-sm text-red-700">
+      <div className="p-4 text-red-700 text-base leading-relaxed font-normal">
         Error loading audit: {error}
       </div>
     );
   }
 
   if (!report) {
-    return <div className="p-4 text-sm">Loading audit…</div>;
+    return <div className="p-4 text-base leading-relaxed font-normal">Loading audit…</div>;
   }
 
   const pages = report.pages || [];
@@ -87,9 +87,9 @@ export default function AuditViewer() {
   const paginationButtons = getPaginationButtons();
 
   return (
-    <div className="p-6">
-      <div className="mb-4 flex items-center justify-between">
-        <h1 className="text-2xl font-semibold">Post-deploy Audit</h1>
+    <div className="p-6 text-base leading-relaxed font-normal">
+      <div className="flex items-center justify-between text-base leading-relaxed font-normal">
+        <h1 className="text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">Post-deploy Audit</h1>
         <button
           className="ml-4 rounded bg-gray-200 px-3 py-1 text-sm"
           onClick={() => setShowRaw((s) => !s)}
@@ -99,24 +99,24 @@ export default function AuditViewer() {
       </div>
 
       {/* Audit meta */}
-      <div className="mb-4">
-        <div className="text-sm text-gray-700">
+      <div className="text-base leading-relaxed font-normal">
+        <div className="text-base leading-relaxed font-normal">
           Audited at: {report.auditedAtUtc}
         </div>
-        <div className="text-sm text-gray-700">
+        <div className="text-base leading-relaxed font-normal">
           Pages audited: {report.totals?.pagesAudited ?? "—"}
         </div>
-        <div className="text-sm text-gray-700">
+        <div className="text-base leading-relaxed font-normal">
           Noindex pages: {report.totals?.noindexPages ?? "—"}
         </div>
-        <div className="text-sm text-gray-700">
+        <div className="text-base leading-relaxed font-normal">
           Pages with JSON-LD: {report.totals?.pagesWithJsonLd ?? "—"}
         </div>
       </div>
 
       {/* TABLE WITH RESPONSIVE COLLAPSE */}
       <div>
-        <div className="overflow-x-auto max-h-[70vh] rounded border">
+        <div className="overflow-x-auto max-h-[70vh] rounded border text-base leading-relaxed font-normal">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-50 sticky top-0 z-10 shadow-sm hidden sm:table-header-group">
               <tr>
@@ -185,7 +185,7 @@ export default function AuditViewer() {
         </div>
 
         {/* PAGINATION */}
-        <div className="flex gap-2 mt-4 items-center flex-wrap">
+        <div className="flex gap-2 items-center flex-wrap text-base leading-relaxed font-normal">
           <button
             disabled={currentPage === 1}
             onClick={() => setCurrentPage((c) => Math.max(1, c - 1))}
@@ -196,7 +196,7 @@ export default function AuditViewer() {
 
           {paginationButtons.map((btn, idx) =>
             btn === "..." ? (
-              <span key={idx} className="px-3 py-1">
+              <span key={idx} className="px-3 py-1 text-base leading-relaxed font-normal">
                 …
               </span>
             ) : (
@@ -222,7 +222,7 @@ export default function AuditViewer() {
       </div>
 
       {showRaw && (
-        <pre className="mt-6 max-h-[60vh] overflow-auto rounded bg-gray-100 p-4 text-xs">
+        <pre className="max-h-[60vh] overflow-auto rounded bg-gray-100 p-4 text-base leading-relaxed mb-4 font-normal">
           {JSON.stringify(report, null, 2)}
         </pre>
       )}

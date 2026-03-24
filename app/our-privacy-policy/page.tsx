@@ -25,20 +25,20 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-md"
     >
-      <div className="space-y-6 md:space-y-8">
-        <h2 className="page-title">{page.title}</h2>
-        <p className="body-text">{page.intro}</p>
+      <div className="space-y-6 md:space-y-8 text-base leading-relaxed font-normal">
+        <h2 className="page-title text-2xl font-semibold leading-snug mb-3">{page.title}</h2>
+        <p className="body-text text-base leading-relaxed mb-4 font-normal">{page.intro}</p>
 
-        <h3 className="section-title">{page.informationHeading}</h3>
-        <p className="body-text">{page.informationDesc}</p>
+        <h3 className="section-title text-xl font-semibold leading-snug mb-2">{page.informationHeading}</h3>
+        <p className="body-text text-base leading-relaxed mb-4 font-normal">{page.informationDesc}</p>
 
-        <h3 className="section-title">{page.howWeUse}</h3>
-        <p className="body-text">{page.howWeUseDesc}</p>
+        <h3 className="section-title text-xl font-semibold leading-snug mb-2">{page.howWeUse}</h3>
+        <p className="body-text text-base leading-relaxed mb-4 font-normal">{page.howWeUseDesc}</p>
 
-        <h3 className="section-title">{page.yourRights}</h3>
-        <p className="body-text">{page.yourRightsDesc}</p>
+        <h3 className="section-title text-xl font-semibold leading-snug mb-2">{page.yourRights}</h3>
+        <p className="body-text text-base leading-relaxed mb-4 font-normal">{page.yourRightsDesc}</p>
 
-        <p className="mt-6"><strong>{page.lastUpdated}</strong></p>
+        <p className="text-base leading-relaxed mb-4 font-normal"><strong>{page.lastUpdated}</strong></p>
       </div>
     </PageLayout>
   );

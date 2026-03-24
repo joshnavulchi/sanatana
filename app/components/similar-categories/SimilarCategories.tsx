@@ -203,10 +203,10 @@ export default function SimilarCategories({
   if (categories.length === 0) {
     return (
       <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base leading-relaxed font-normal" />
+        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base leading-relaxed font-normal" />
         <h5 className="mb-2 text-xl md:text-base font-semibold tracking-wide text-amber-900">{title}</h5>
-        <p className="text-md leading-relaxed text-amber-800/90">
+        <p className="text-amber-800/90 text-base leading-relaxed mb-4 font-normal">
           Loading categories or no categories available...
         </p>
       </aside>
@@ -214,18 +214,18 @@ export default function SimilarCategories({
   }
   return (
     <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-      <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
+      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base leading-relaxed font-normal" />
+      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base leading-relaxed font-normal" />
+      <div className="rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3 text-base leading-relaxed font-normal">
         <h5 className="text-xl md:text-base font-semibold tracking-wide text-amber-900">{title}</h5>
-        <p className="mt-1 text-md text-amber-800">Sacred pathways to explore related wisdom.</p>
+        <p className="text-amber-800 text-base leading-relaxed mb-4 font-normal">Sacred pathways to explore related wisdom.</p>
       </div>
-      <div className="space-y-4">
+      <div className="space-y-4 text-base leading-relaxed font-normal">
         {categories.map((category) => {
           return (
             <div
               key={category.key}
-              className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)]"
+              className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)] text-base leading-relaxed font-normal"
             >
               <h6 className="mb-3 border-b border-amber-200 pb-2 text-base md:text-md font-semibold text-amber-900">
                 <Link
@@ -235,20 +235,20 @@ export default function SimilarCategories({
                   {category.title}
                 </Link>
               </h6>
-              <ul className="space-y-2">
+              <ul className="space-y-2 list-disc pl-5 text-base leading-relaxed">
                 {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map((link) => (
-                  <li key={link.key} className="text-md leading-relaxed">
+                  <li key={link.key} className="mb-2">
                     <Link
                       href={normalizeHref(link.href)}
                       className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
                     >
-                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500" />
+                      <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 text-base leading-relaxed font-normal" />
                       {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3">
+              <div className="flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3 text-base leading-relaxed font-normal">
                 {category.links.length > INITIAL_VISIBLE_LINKS && (
                   <button
                     type="button"

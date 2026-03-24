@@ -3,7 +3,7 @@
 
 export default function Loader() {
   return (
-    <div className="flex items-center justify-center w-full h-full">
+    <div className="flex items-center justify-center w-full h-full text-base leading-relaxed font-normal">
       <svg
         className="w-6 h-6 text-yellow-400 animate-spin"
         viewBox="0 0 100 100"

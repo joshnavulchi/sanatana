@@ -15,7 +15,7 @@ function Paragraphs({ text }: { text: string }) {
   return (
     <>
       {text.split('\n\n').map((paragraph, index) => (
-        <p key={index} className="mb-4 last:mb-0">
+        <p key={index} className="last:mb-0 text-base leading-relaxed mb-4 font-normal">
           {paragraph}
         </p>
       ))}
@@ -49,7 +49,7 @@ export default function ItihasaPartClient({
   if (isLoading && !title) {
     return (
       <PageLayout metaKey={namespace} title="" breadcrumbs={breadcrumbs} className="layout-md">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-12 text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>
@@ -59,14 +59,14 @@ export default function ItihasaPartClient({
   return (
     <PageLayout metaKey={namespace} title={title} breadcrumbs={breadcrumbs} className="layout-md">
       <section className="rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
-        <h1 className="page-title mb-2">{title}</h1>
-        {description && <p className="body-text">{description}</p>}
+        <h1 className="page-title text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">{title}</h1>
+        {description && <p className="body-text text-base leading-relaxed mb-4 font-normal">{description}</p>}
       </section>
 
       {introduction && (
         <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title">Introduction</h2>
-          <div className="body-text">
+          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Introduction</h2>
+          <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={introduction} />
           </div>
         </section>
@@ -74,8 +74,8 @@ export default function ItihasaPartClient({
 
       {scriptureText && (
         <section className="mt-6 rounded-2xl border border-amber-200/50 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title">Text</h2>
-          <div className="body-text">
+          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Text</h2>
+          <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={scriptureText} />
           </div>
         </section>
@@ -83,8 +83,8 @@ export default function ItihasaPartClient({
 
       {philosophical && (
         <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title">Philosophical Explanation</h2>
-          <div className="body-text">
+          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Philosophical Explanation</h2>
+          <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={philosophical} />
           </div>
         </section>
