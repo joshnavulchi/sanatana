@@ -6,8 +6,6 @@ import storage from '@lib/storage';
 import Link from 'next/link';
 import Marquee from './marquee';
 
-import styles from '@app/styles.module.scss';
-
 type BannerProps = {
   id: string,
   message: {
@@ -86,19 +84,19 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
   const { and } = links || "";
 
   return (
-    <div className={`${styles.notifictionbar} text-gray-900 `}>
+    <div className={`text-gray-900`}>
       {showClose ? (
         <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white text-red-600 shadow-md">×</button>
       ) : null}
       {marquee === "true" ? <Marquee id={id}>
-        <span className="text-gray-900">{title}</span>
+        <span className="text-base leading-relaxed font-normal">{title}</span>
         {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color text-blue-700">alive</Link> : null}
         {lbeforetext && iam && lbetweentext && laftertext ? <> {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline underline-text-color text-blue-700">Iam</Link>
           {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline underline-text-color text-blue-700">Github Copilot</Link>
           {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline underline-text-color text-blue-700"> ChatGPT</Link>
           {laftertext} </> : null}
-        <span className="text-gray-900">{subtitle}</span>
-      </Marquee> : <div className="flex items-center justify-center text-gray-900">{title} {subtitle}</div>}
+        <span className="text-base leading-relaxed font-normal">{subtitle}</span>
+      </Marquee> : <div className="flex items-center justify-center text-base leading-relaxed font-normal">{title} {subtitle}</div>}
     </div >
   )
 }

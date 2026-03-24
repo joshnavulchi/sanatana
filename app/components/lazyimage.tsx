@@ -32,7 +32,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
   }, []);
 
   return (
-    <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
+    <div ref={containerRef} className="className text-base leading-relaxed font-normal" style={{ minHeight: height ? `${height}px` : undefined }}>
       {!loadNow ? (<Loader />) : imgError ? (
         <img
           src={`https://via.placeholder.com/${Number(width) || 400}x${Number(height) || 200}?text=${encodeURIComponent(typeof alt === 'string' ? alt : 'Image')}&bg=${encodeURIComponent('#fbbf24')}&fg=${encodeURIComponent('#fff')}`}

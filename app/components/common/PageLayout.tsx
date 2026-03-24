@@ -71,17 +71,17 @@ export default function PageLayout(
     <>
       <StructuredData metakey={metaKey ? metaKey : 'home'} />
       <main className={`px-3 ${wrapper}`}>
-        <div className="w-full">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
+        <div className="w-full text-base leading-relaxed font-normal">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-base leading-relaxed font-normal">
             <Breadcrumbs items={breadcrumbs} locale={locale} />
             <WordCount />
           </div>
           {/* Hero Header Section */}
-          <div className="relative my-6 overflow-hidden">
-            <div className="px-4 py-5">
-              <div className="text-center mb-6">
-                <div className="inline-block relative">
-                  {title && (<h2 className={`text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2 mb-3`}>
+          <div className="relative my-6 overflow-hidden text-base leading-relaxed font-normal">
+            <div className="px-4 py-5 text-base leading-relaxed font-normal">
+              <div className="text-center text-base leading-relaxed font-normal">
+                <div className="inline-block relative text-base leading-relaxed font-normal">
+                  {title && (<h2 className={`bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2 mb-3`}>
                     {title}
                   </h2>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
@@ -89,8 +89,8 @@ export default function PageLayout(
                 </div>
               </div>
               {description && (
-                <div className="max-w-3xl mx-auto">
-                  <p className="text-center text-xl md:text-base text-[#5b2d12] leading-relaxed italic font-medium px-4">
+                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal">
+                  <p className="text-center text-[#5b2d12] italic px-4 text-base leading-relaxed mb-4 font-normal">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>
@@ -110,14 +110,14 @@ export default function PageLayout(
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
             className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
-            <span className="flex flex-col items-center gap-1">
+            <span className="flex flex-col items-center gap-1 text-base leading-relaxed font-normal">
               <svg
                 className={`h-5 w-5 text-[#7a2e1f] transition-transform duration-300 ${panelOpen ? 'rotate-180' : ''}`}
                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
-              <span className="text-base font-black uppercase tracking-[0.2em] text-[#9a3412] [writing-mode:vertical-lr]">
+              <span className="uppercase text-[#9a3412] [writing-mode:vertical-lr] text-base leading-relaxed font-normal">
                 Explore
               </span>
             </span>
@@ -126,7 +126,7 @@ export default function PageLayout(
           {/* Backdrop overlay */}
           {panelOpen && (
             <div
-              className="fixed inset-0 z-40 bg-[#5b2d12]/20 backdrop-blur-[2px] transition-opacity duration-300"
+              className="fixed inset-0 z-40 bg-[#5b2d12]/20 backdrop-blur-[2px] transition-opacity duration-300 text-base leading-relaxed font-normal"
               onClick={() => setPanelOpen(false)}
               aria-hidden="true"
             />
@@ -139,10 +139,10 @@ export default function PageLayout(
             aria-label="Explore related topics"
           >
             {/* Panel header */}
-            <div className="flex items-center justify-between border-b border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] to-[#fde7c7] px-5 py-4">
-              <div className="flex items-center gap-2">
-                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#7a2e1f] text-xs text-[#fff4df]">✦</span>
-                <span className="text-sm font-black uppercase tracking-[0.2em] text-[#7a2e1f]">Explore</span>
+            <div className="flex items-center justify-between border-b border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] to-[#fde7c7] px-5 py-4 text-base leading-relaxed font-normal">
+              <div className="flex items-center gap-2 text-base leading-relaxed font-normal">
+                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#7a2e1f] text-[#fff4df] text-base leading-relaxed font-normal">✦</span>
+                <span className="uppercase text-[#7a2e1f] text-base leading-relaxed font-normal">Explore</span>
               </div>
               <button
                 type="button"
@@ -157,15 +157,15 @@ export default function PageLayout(
             </div>
 
             {/* Accent bar */}
-            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b] text-base leading-relaxed font-normal" />
 
             {/* Scrollable content */}
-            <div className="flex-1 overflow-y-auto px-4 py-5">
+            <div className="flex-1 overflow-y-auto px-4 py-5 text-base leading-relaxed font-normal">
               <SimilarCategories />
             </div>
 
             {/* Bottom ornament */}
-            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12] text-base leading-relaxed font-normal" />
           </aside>
         </>
       )}

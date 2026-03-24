@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function NotFoundPage() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-tr from-amber-50 via-white to-green-50 p-4 md:p-6">
-      <div className="w-full max-w-4xl rounded-3xl bg-white border border-slate-100 shadow-md p-4 sm:p-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div className="w-full max-w-4xl rounded-3xl bg-white border border-slate-100 shadow-md p-4 sm:p-12 text-base leading-relaxed font-normal">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-base leading-relaxed font-normal">
           <div>
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-lg bg-amber-100 text-amber-700 font-semibold text-xl">?</div>
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-lg bg-amber-100 text-amber-700 text-base leading-relaxed font-normal">?</div>
 
-            <h2 className="mt-6 text-2xl font-semibold text-slate-900">We couldn't find that</h2>
-            <p className="mt-2 text-slate-600">This link may be broken or the page may have been removed. Try these options instead.</p>
+            <h2 className="text-slate-900 text-2xl font-semibold leading-snug mb-3">We couldn't find that</h2>
+            <p className="text-slate-600 text-base leading-relaxed mb-4 font-normal">This link may be broken or the page may have been removed. Try these options instead.</p>
 
-            <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-col sm:flex-row gap-3 text-base leading-relaxed font-normal">
               <Link
                 href="/"
                 className="rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white hover:bg-amber-700 text-center"
@@ -28,7 +28,7 @@ export default function NotFoundPage() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center text-base leading-relaxed font-normal">
             <svg viewBox="0 0 200 200" className="w-56 h-56" xmlns="http://www.w3.org/2000/svg" aria-hidden>
               <defs>
                 <linearGradient id="g1" x1="0" x2="1">

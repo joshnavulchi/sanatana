@@ -27,7 +27,7 @@ const Pagination: React.FC<PaginationProps> = ({ page, totalPages, onPageChange 
       >
         &larr;
       </button>
-      <span className="px-2 text-sm text-[#5b2d12]">
+      <span className="px-2 text-[#5b2d12] text-base leading-relaxed font-normal">
         {page} / {totalPages}
       </span>
       <button

@@ -94,7 +94,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
   if (loading) {
     return (
       <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
-        <div className="flex items-center justify-center py-8"><Loader /></div>
+        <div className="flex items-center justify-center py-8 text-base leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
   }
@@ -102,7 +102,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
   if (error || !data) {
     return (
       <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
-        <div className="py-12 text-center text-gray-600">{error || 'Content not available.'}</div>
+        <div className="py-12 text-center text-base leading-relaxed font-normal">{error || 'Content not available.'}</div>
       </PageLayout>
     );
   }
@@ -112,7 +112,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Introduction */}
       {typeof data?.introduction === 'string' && (
         <section>
-          <p className="text-base text-gray-800 leading-relaxed mb-4">{data.introduction}</p>
+          <p className="text-base leading-relaxed mb-4 font-normal">{data.introduction}</p>
         </section>
       )}
       {/* Sections array */}
@@ -124,10 +124,10 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             return (
               <section key={idx}>
                 {secTitle ? (
-                  <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{secTitle}</h2>
+                  <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{secTitle}</h2>
                 ) : null}
                 {secContent ? (
-                  <p className="text-base text-gray-800 leading-relaxed mb-4">{secContent}</p>
+                  <p className="text-base leading-relaxed mb-4 font-normal">{secContent}</p>
                 ) : null}
               </section>
             );
@@ -137,17 +137,17 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
 
       {/* Scripture text (detailed sections) */}
       {Array.isArray(data?.scripture_text) && data.scripture_text.length > 0 && (
-        <div className="mt-6">
+        <div className="text-base leading-relaxed font-normal">
           {data.scripture_text.map((item: any, i: number) => {
             const sTitle = typeof item?.section === 'string' ? item.section : null;
             const sContent = typeof item?.content === 'string' ? item.content : null;
             return (
               <section key={`scripture-${i}`}>
                 {sTitle ? (
-                  <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{sTitle}</h2>
+                  <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{sTitle}</h2>
                 ) : null}
                 {sContent ? (
-                  <p className="text-base text-gray-800 leading-relaxed mb-4">{sContent}</p>
+                  <p className="text-base leading-relaxed mb-4 font-normal">{sContent}</p>
                 ) : null}
               </section>
             );
@@ -158,14 +158,14 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Chapters list */}
       {Array.isArray(data?.chapters) && data.chapters.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-2xl font-semibold text-red-800 mb-3">Chapters</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Chapters</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.chapters.map((c: any, i: number) => (
               <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
-                <div className="text-base font-semibold text-gray-900">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
-                {c?.chapter && <div className="text-sm text-gray-600 mt-1">Chapter {String(c.chapter)}</div>}
+                <div className="text-base leading-relaxed font-normal">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
+                {c?.chapter && <div className="text-base leading-relaxed font-normal">Chapter {String(c.chapter)}</div>}
                 {c?.verses && Array.isArray(c.verses) && (
-                  <div className="text-sm text-gray-600 mt-1">{String(c.verses.length)} verses</div>
+                  <div className="text-base leading-relaxed font-normal">{String(c.verses.length)} verses</div>
                 )}
               </a>
             ))}
@@ -176,13 +176,13 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Major deities */}
       {Array.isArray(data?.major_rigvedic_deities) && data.major_rigvedic_deities.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-2xl font-semibold text-red-800 mb-3">Major Deities</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Major Deities</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base leading-relaxed font-normal">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
-              <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white">
-                <h3 className="text-base font-semibold text-gray-900">{String(d?.name || '')}</h3>
-                {d?.role && <div className="text-sm text-gray-700 mt-1">{d.role}</div>}
-                {d?.importance && <p className="text-base text-gray-800 mt-2">{d.importance}</p>}
+              <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white text-base leading-relaxed font-normal">
+                <h3 className="text-xl font-semibold leading-snug mb-2">{String(d?.name || '')}</h3>
+                {d?.role && <div className="text-base leading-relaxed font-normal">{d.role}</div>}
+                {d?.importance && <p className="text-base leading-relaxed mb-4 font-normal">{d.importance}</p>}
               </div>
             ))}
           </div>
@@ -192,16 +192,16 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Mandalas overview */}
       {Array.isArray(data?.mandalas) && data.mandalas.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-2xl font-semibold text-red-800 mb-3">Mandalas</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Mandalas</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.mandalas.map((m: any, i: number) => (
               <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
-                <div className="flex items-baseline justify-between">
-                  <div className="text-xl font-semibold text-amber-800">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
-                  <div className="text-sm text-gray-600">{String(m?.hymn_count ?? '')} hymns</div>
+                <div className="flex items-baseline justify-between text-base leading-relaxed font-normal">
+                  <div className="text-amber-800 text-base leading-relaxed font-normal">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
+                  <div className="text-base leading-relaxed font-normal">{String(m?.hymn_count ?? '')} hymns</div>
                 </div>
                 {m?.hymns && Array.isArray(m.hymns) && m.hymns.length > 0 && (
-                  <p className="text-sm text-gray-700 mt-2">Example: {String(m.hymns[0]?.title || '')}</p>
+                  <p className="text-base leading-relaxed mb-4 font-normal">Example: {String(m.hymns[0]?.title || '')}</p>
                 )}
               </a>
             ))}
@@ -212,10 +212,10 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Related concepts tags */}
       {Array.isArray(data?.related_concepts) && data.related_concepts.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-2xl font-semibold text-red-800 mb-3">Related Concepts</h2>
-          <div className="flex flex-wrap gap-2">
+          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Related Concepts</h2>
+          <div className="flex flex-wrap gap-2 text-base leading-relaxed font-normal">
             {data.related_concepts.map((c: any, i: number) => (
-              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-sm text-amber-800 border border-amber-100">{String(c)}</span>
+              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-100 text-base leading-relaxed font-normal">{String(c)}</span>
             ))}
           </div>
         </section>
@@ -237,8 +237,8 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
         if (val) {
           return (
             <section>
-              <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">Philosophical Insights</h2>
-              <p className="text-base text-gray-800 leading-relaxed mb-4">{val}</p>
+              <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Philosophical Insights</h2>
+              <p className="text-base leading-relaxed mb-4 font-normal">{val}</p>
             </section>
           );
         }
@@ -264,7 +264,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           rendered.add(val);
           nodes.push(
             <section key={key}>
-              <p className="text-base text-gray-800 leading-relaxed mb-4">{val}</p>
+              <p className="text-base leading-relaxed mb-4 font-normal">{val}</p>
             </section>
           );
         }
