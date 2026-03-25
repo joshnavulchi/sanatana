@@ -64,7 +64,7 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
           {normalized.map((it, idx) => {
             const isLast = idx === normalized.length - 1;
             return (
-              <li key={idx} className="inline-flex items-center mb-2" aria-current={isLast ? 'page' : undefined}>
+              <li key={idx} className="inline-flex items-center" aria-current={isLast ? 'page' : undefined}>
                 {it.href && !isLast ? (
                   <Link
                     href={it.href}

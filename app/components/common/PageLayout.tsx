@@ -81,7 +81,7 @@ export default function PageLayout(
             <div className="px-4 py-5 text-base leading-relaxed font-normal">
               <div className="text-center text-base leading-relaxed font-normal">
                 <div className="inline-block relative text-base leading-relaxed font-normal">
-                  {title && (<h2 className={`bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2 mb-3`}>
+                  {title && (<h2 className={`bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2`}>
                     {title}
                   </h2>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
@@ -89,7 +89,7 @@ export default function PageLayout(
                 </div>
               </div>
               {description && (
-                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal">
+                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal py-10">
                   <p className="text-center text-[#5b2d12] italic px-4 text-base leading-relaxed mb-4 font-normal">
                     &ldquo;{description}&rdquo;
                   </p>

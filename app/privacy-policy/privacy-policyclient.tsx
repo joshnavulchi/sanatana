@@ -14,11 +14,22 @@ export default function PrivacyPolicy() {
   type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
   // Normalize a source object (either server-injected locale or the loaded namespace)
   const normalizePrivacy = (src: any): PrivacyState => {
-    const safe = src || {};
+    const safe = ns || {};
     try {
       const title = safe.title || '';
       const lastupdated = safe.lastupdated || '';
-      const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
+      const keys = [
+        'intro',
+        'informationwecollect',
+        'howweuse',
+        'cookieslocalstorage',
+        'thirdparty',
+        'security',
+        'rights',
+        'children',
+        'changes',
+        'contact'
+      ];
       const data: Record<string, any> = {};
       keys.forEach((k) => { data[k] = parseMaybeObject(safe[k] || ''); });
 
@@ -92,7 +103,11 @@ export default function PrivacyPolicy() {
 
   if (isLoading && !privacy.title) {
     return (
-      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-md">
+      <PageLayout
+        metaKey="privacy_policy"
+        title=""
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]}
+        className="layout-md">
         <div className="flex items-center justify-center py-4 text-base leading-relaxed font-normal">
           <Loader />
         </div>
@@ -102,11 +117,10 @@ export default function PrivacyPolicy() {
 
   return (
     <PageLayout
-      metaKey="privacy_policy.meta"
+      metaKey="privacy_policy"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
-      className="layout-md"
-    >
+      className="layout-md">
       <div id="privacy-content" className="space-y-8 text-base leading-relaxed font-normal">
         {/* Header */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-4 md:pb-6 border-b-2 border-amber-200 text-base leading-relaxed font-normal">

@@ -46,7 +46,7 @@ export default function AboutClient() {
         {/* Text-to-Speech Player */}
         <TextToSpeech sectionId="about-content" className="floating" />
 
-        <div id="about-content">
+        <div id="about-content" className='space-y-8 '>
 
           {/* Sections as cards */}
           {about.sections.map((section: any, index: number) => {
@@ -59,7 +59,7 @@ export default function AboutClient() {
 
             return (
               <div key={section.id || index}
-                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden text-base leading-relaxed font-normal">
+                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl text-base leading-relaxed font-normal" />
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl text-base leading-relaxed font-normal" />

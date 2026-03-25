@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-22T15:31:15.099Z",
-  "totalPages": 23,
-  "passed": 11,
+  "generatedAt": "2026-03-25T14:21:45.031Z",
+  "totalPages": 40,
+  "passed": 29,
   "failed": 10,
-  "averageScore": 58,
+  "averageScore": 77,
   "pages": [
     {
       "page": "/404",
@@ -61,19 +61,13 @@
       "score": 0
     },
     {
-      "page": "/about/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/explore/",
+      "page": "/about/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -91,13 +85,19 @@
       "score": 100
     },
     {
+      "page": "/explore/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/itihasa/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/our-privacy-policy/",
+      "page": "/our-cookie-policy/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
@@ -114,7 +114,7 @@
       "score": 16
     },
     {
-      "page": "/our-cookie-policy/",
+      "page": "/our-privacy-policy/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
@@ -154,23 +154,19 @@
       "score": 100
     },
     {
-      "page": "/puranas/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/upanishads/",
+      "page": "/terms-of-service/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/terms-of-service/",
+      "page": "/puranas/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -180,16 +176,6 @@
       "status": "PASS",
       "issues": [],
       "score": 100
-    },
-    {
-      "page": "/vedic-science/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
     },
     {
       "page": "/vedic-philosophy/",
@@ -216,6 +202,16 @@
       "score": 0
     },
     {
+      "page": "/vedic-science/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
       "page": "/itihasa/bhagavadgita/",
       "status": "FAIL",
       "issues": [
@@ -233,7 +229,7 @@
       "score": 16
     },
     {
-      "page": "/itihasa/ramayana/",
+      "page": "/itihasa/mahabharata/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
@@ -250,7 +246,109 @@
       "score": 16
     },
     {
-      "page": "/itihasa/mahabharata/",
+      "page": "/upanishads/aitareya/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/brihadaranyaka/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/chandogya/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/katha/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/kena/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/isha/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/kaushitaki/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/maitri/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/mandukya/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/mundaka/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/prashna/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/shvetashvatara/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/taittiriya/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/atharvaveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/rigveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/yajurveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/itihasa/ramayana/",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
