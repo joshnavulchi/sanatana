@@ -211,19 +211,18 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full bg-gray-50 border-t border-gray-100">
+      <footer className="w-full relative bg-gray-300 overflow-hidden">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
-
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-primary-500 blur-3xl animate-ping" />
           <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-primary-700 blur-3xl animate-ping" />
         </div>
 
-        <div className="relative z-10">
+        <div className="relative mx-auto max-w-7xl z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper text-center py-4 md:py-16">
-            <div className="mx-auto max-w-xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-4">
+          <section className="content-wrapper text-center py-6 md:py-12">
+            <div className="mx-auto max-w-xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-6 p-4">
               <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
@@ -234,7 +233,7 @@ export default function Footer() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
+            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
                 className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-base md:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
@@ -295,7 +294,7 @@ export default function Footer() {
           </div>
 
           {/* ─── Bottom Bar ─── */}
-          <div className="border-t border-gray-100 bg-gray-50">
+          <div className="border-t border-gray-100">
             {/* Disclaimer + Socials */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
               <div>

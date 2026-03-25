@@ -1,16 +1,46 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @import "tailwindcss";
 
+/* Global selectors moved from styles.module.scss */
+/* 1) Base CSS variables: Light theme */
 :root {
-  --color-primary-600: #0ea5a4;
-  /* teal-500-ish, override as needed */
-  --color-primary-700: #0b8e8c;
-  --color-muted: #6b7280;
-  /* gray-500 */
-  --shadow-subtle: 0 6px 18px rgba(16, 24, 40, 0.06);
+  --color-bg: #f5f5f5;
+  --color-text: #333;
+  --color-red: red;
+  --color-yellow: yellow;
+  --color-orange: orange;
+  --color-violet: violet;
+  --color-blue: blue;
+  /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-height: 1.2;
+  /* Spacing scale */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 72px;
+  --space-3xl: 90px;
+  /* Content width */
+  --content-width-xxs: 540px;
+  --content-width-xs: 760px;
+  --content-width-sm: 1024px;
+  --content-width-md: 1280px;
+  --content-width-default: 1440px;
+  --content-width-lg: 1680px;
+  --content-width-xl: 1900px;
 }
 
-/* Base layout and typography enforcement (mobile-first) */
+/* 2) Dark theme */
+/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+/* 3) Core layout & typography */
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #__next {
@@ -18,9 +48,82 @@ body,
 }
 
 body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  /* avoids iOS zoom issues */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @apply bg-white text-gray-700 antialiased;
+}
+
+/* 4) Theming utilities */
+/* 5) Buttons */
+/* 6) Links */
+/* 7) Cards */
+/* 8) Header / Nav (with subtle gradient) */
+/* 9) Focus visibility for accessibility */
+
+/* Paragraphs & small text */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
+/* Hero section container stability */
+.herosection .herocontent {
+  contain: layout;
+}
+
+.gradient-background {
+  background-image: linear-gradient(to bottom right,
+      var(--color-yellow),
+      var(--color-red) 18%,
+      var(--color-orange) 46%,
+      var(--color-violet) 87%,
+      var(--color-blue));
+}
+
+.content-wrapper {
+  padding: var(--space-xl) var(--space-md);
+}
+
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+
+footer {
+  contain: layout;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
+  color: #fff;
+}
+
+.nav-wrapper {
+  margin: 0 auto;
+  max-width: var(--content-width-default);
+  padding: var(--space-xl) 0 var(--space-md);
 }
 
 /* Utility: content container used across components */
@@ -84,6 +187,41 @@ body {
 
 .meta-text {
   @apply text-sm text-gray-500
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+  .content-wrapper {
+    margin: 0 auto;
+    max-width: var(--content-width-default);
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+  }
+  .border-gradient-vertical {
+    border-right: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .nav-wrapper {
+    padding: var(--space-xl) 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .content-wrapper {
+    max-width: var(--content-width-lg);
+  }
+}
+
+@media (min-width: 1900px) {
+  .content-wrapper {
+    max-width: var(--content-width-xl);
+  }
 }
 
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
