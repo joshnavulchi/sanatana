@@ -117,7 +117,7 @@ export default function ContactPage() {
                 </svg>
               </span>
               <div>
-                <h2 className="text-2xl font-semibold leading-snug mb-3">Contact Us</h2>
+                <h3 className="text-2xl font-semibold leading-snug mb-3">Contact Us</h3>
                 {page.subtitle && <p className="text-white/90 text-base leading-relaxed mb-4 font-normal">{page.subtitle}</p>}
               </div>
             </div>

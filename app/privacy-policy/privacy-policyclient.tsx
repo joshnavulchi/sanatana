@@ -133,10 +133,10 @@ export default function PrivacyPolicy() {
 
         {/* Intro */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
-          <h2 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3">
+          <h3 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3">
             <span className="text-base leading-relaxed font-normal">🛡️</span>
             {privacy.intro.title}
-          </h2>
+          </h3>
           <p className="text-base leading-relaxed mb-4 font-normal">{privacy.intro.text}</p>
         </section>
 

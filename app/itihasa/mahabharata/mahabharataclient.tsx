@@ -70,7 +70,7 @@ export default function MahabharataClient() {
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 rounded-2xl border border-amber-200/30 bg-amber-50 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <h2 className="section-title mb-4">Introduction</h2>
+          <h3 className="section-title mb-4">Introduction</h3>
           <div className="body-text md:text-base leading-relaxed">
             <Paragraphs text={introduction} />
           </div>
@@ -79,7 +79,7 @@ export default function MahabharataClient() {
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h2 className="section-title mb-6">Overview</h2>
+          <h3 className="section-title mb-6">Overview</h3>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -91,7 +91,7 @@ export default function MahabharataClient() {
       {philosophical && (
         <div className="mt-10 relative overflow-hidden rounded-3xl border border-amber-200/30 p-6 md:p-8 bg-amber-50 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
-          <h2 className="section-title mb-4">Philosophical Explanation</h2>
+          <h3 className="section-title mb-4">Philosophical Explanation</h3>
           <div className="body-text md:text-base leading-relaxed">
             <Paragraphs text={philosophical} />
           </div>
@@ -99,7 +99,7 @@ export default function MahabharataClient() {
       )}
 
       <div className="mt-8">
-        <h2 className="section-title mb-6">Parvas</h2>
+        <h3 className="section-title mb-6">Parvas</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {MAHABHARATA_PARVAS.map((parva, idx) => (
             <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">

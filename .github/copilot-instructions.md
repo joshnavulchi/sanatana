@@ -147,7 +147,7 @@ Example
 
 ```tsx
 const { t } = useLocale();
-<h1>{t("about.title")}</h1>
+<h3>{t("about.title")}</h3>
 ```
 
 ---

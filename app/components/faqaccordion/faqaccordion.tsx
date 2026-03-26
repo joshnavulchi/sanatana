@@ -17,9 +17,9 @@ export default function FaqAccordion({ items, heading }: Props) {
     <section className="faq-accordion my-12">
       {heading && (
         <div className="mb-8 text-center">
-          <h2 className="text-3xl font-semibold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text inline-block">
+          <h6 className="text-3xl font-semibold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text inline-block">
             {heading}
-          </h2>
+          </h6>
           <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
         </div>
       )}

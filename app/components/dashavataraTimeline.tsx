@@ -17,9 +17,9 @@ export default function DashavataraTimeline() {
   return (
     <aside className="bg-white rounded-2xl border border-amber-100 shadow-sm p-6">
       <div className="flex items-center justify-between gap-4 text-base leading-relaxed font-normal">
-        <h2 className="text-orange-800 text-2xl font-semibold leading-snug mb-3">
+        <h3 className="text-orange-800 text-2xl font-semibold leading-snug mb-3">
           Dashavatara Timeline
-        </h2>
+        </h3>
         <div
           className="h-1 w-24 rounded-full bg-gradient-to-r from-amber-200 via-orange-200 to-yellow-200 text-base leading-relaxed font-normal"
           aria-hidden

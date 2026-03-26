@@ -55,7 +55,7 @@ export default function ExploreClient() {
       title="Explore"
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Explore' }]}
       className={`layout-md`}>
-      <h2 className="text-3xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h2>
+      <h3 className="text-3xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h3>
       <p className="text-base text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -72,7 +72,7 @@ export default function ExploreClient() {
               <div className="flex items-start gap-4">
                 <div className="flex-none text-3xl drop-shadow-sm">{p.emoji}</div>
                 <div>
-                  <h2 className={`text-xl font-semibold ${p.accent}`}>{t(p.key)}</h2>
+                  <h4 className={`text-xl font-semibold ${p.accent}`}>{t(p.key)}</h4>
                   <p className="mt-2 text-sm text-stone-700">{t(p.descKey) || t(p.key)}</p>
                 </div>
               </div>

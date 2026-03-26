@@ -18,7 +18,7 @@ import PageLayout from '@components/common/PageLayout';
 
 //   return (
 //     <main className="max-w-3xl mx-auto p-4">
-//       <h1 className="text-3xl font-semibold mb-4">Vedas</h1>
+//       <h3 className="text-3xl font-semibold mb-4">Vedas</h3>
 //       <p className="mb-6">Select a Veda to explore its content.</p>
 //       <ul className="space-y-3">
 //         {vedas.map((v) => (
@@ -102,7 +102,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
             {icon}
           </div>
           <div>
-            <h3 className={`text-2xl md:text-3xl font-extrabold ${accent.text}`}>{name}</h3>
+            <h4 className={`text-2xl md:text-3xl font-extrabold ${accent.text}`}>{name}</h4>
             {focus && <p className="text-sm font-medium text-[#8b6914] mt-0.5">{focus}</p>}
           </div>
         </div>
@@ -137,7 +137,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             {divisions.map((div: Record<string, unknown>, i: number) => (
               <div key={i} className="rounded-xl border border-[#edc98f]/60 bg-[#fffaf3] p-4">
-                <h4 className="font-semibold text-[#3d2e22] text-sm">{String(div.type || '')}</h4>
+                <h6 className="font-semibold text-[#3d2e22] text-sm">{String(div.type || '')}</h6>
                 <p className="text-xs text-[#6b5d4f] mt-1">({String(div.meaning || '')})</p>
                 <p className="text-xs text-[#5b2d12] mt-1">{String(div.characteristics || '')}</p>
               </div>
@@ -148,7 +148,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {/* Deities chips */}
         {deities.length > 0 && (
           <div className="mt-5">
-            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h4>
+            <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h6>
             <div className="flex flex-wrap gap-2">
               {deities.map((d: string) => (
                 <span key={d} className={`inline-flex items-center rounded-lg border ${accent.border}/40 bg-[#fffaf3] px-3 py-1 text-xs font-semibold ${accent.text}`}>
@@ -162,7 +162,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {/* Theme/Topic tags */}
         {tags.length > 0 && (
           <div className="mt-4">
-            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h4>
+            <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h6>
             <div className="flex flex-wrap gap-2">
               {tags.map((t: string, i: number) => (
                 <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/60 px-3 py-1 text-xs font-medium text-[#92400e]">
@@ -393,9 +393,9 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
+            <h3 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
               Introduction
-            </h2>
+            </h3>
             <div className="text-md text-[#5b2d12] leading-relaxed">
               <Paragraphs text={introduction} />
             </div>
@@ -408,9 +408,9 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c] bg-clip-text text-transparent mb-8 text-center">
+            <h4 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c] bg-clip-text text-transparent mb-8 text-center">
               The Four Vedas
-            </h2>
+            </h4>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {scriptureText.map((item: Record<string, unknown>, i: number) => (
                 <VedaCard key={i} item={item} />
@@ -425,9 +425,9 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-10">
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c] bg-clip-text text-transparent mb-8">
+            <h5 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c] bg-clip-text text-transparent mb-8">
               Vedic Timeline
-            </h2>
+            </h5>
             <div className="relative ml-4">
               {/* Vertical line */}
               <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-linear-to-b from-[#c2410c] to-[#f59e0b]" />
@@ -439,7 +439,7 @@ export default function VedasClient() {
                       {i + 1}
                     </span>
                     <div className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] px-4 py-3 flex-1">
-                      <h4 className="text-sm font-semibold text-[#3d2e22]">{key.replace(/_/g, ' ')}</h4>
+                      <h6 className="text-sm font-semibold text-[#3d2e22]">{key.replace(/_/g, ' ')}</h6>
                       <p className="text-sm text-[#92400e] font-medium">{value}</p>
                     </div>
                   </div>
@@ -455,7 +455,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className="section-title mb-6">Philosophical Foundations</h2>
+            <h3 className="section-title mb-6">Philosophical Foundations</h3>
             <div className="body-text">
               <Paragraphs text={philosophicalExplanation} />
             </div>
@@ -468,7 +468,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="section-title mb-8 text-center">Core Vedic Concepts</h2>
+            <h3 className="section-title mb-8 text-center">Core Vedic Concepts</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {Object.entries(philoConcepts).map(([key, value]) => (
                 <div key={key} className="relative overflow-hidden rounded-2xl border border-amber-200/30 bg-amber-50 p-5 hover:shadow-[0_8px_30px_rgba(146,64,14,0.10)] transition-all duration-200 hover:-translate-y-0.5">
@@ -487,7 +487,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="section-title mb-8 text-center">Major Rigvedic Deities</h2>
+            <h3 className="section-title mb-8 text-center">Major Rigvedic Deities</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {deities.map((d: Record<string, unknown>, i: number) => (
                 <DeityCard key={i} deity={d} />
@@ -502,7 +502,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="section-title mb-8 text-center">The 10 Mandalas of Rigveda</h2>
+            <h3 className="section-title mb-8 text-center">The 10 Mandalas of Rigveda</h3>
             <div className="space-y-4">
               {mandalas.map((m: Record<string, unknown>, i: number) => (
                 <MandalaRow key={i} mandala={m} index={i} />
@@ -517,7 +517,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-4 md:p-10">
-            <h2 className="section-title mb-8">Vedic Society</h2>
+            <h3 className="section-title mb-8">Vedic Society</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {Object.entries(society).map(([key, items]) => {
                 const list = Array.isArray(items) ? items : [];
@@ -546,7 +546,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h2 className="section-title mb-8 text-center">Influence of the Vedas</h2>
+            <h3 className="section-title mb-8 text-center">Influence of the Vedas</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {Object.entries(influence).map(([key, items]) => {
                 const list = Array.isArray(items) ? items : [];
@@ -585,7 +585,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-8 text-center">
-            <h2 className="text-xl font-extrabold text-[#3d2e22] mb-5">Related Concepts</h2>
+            <h3 className="text-xl font-extrabold text-[#3d2e22] mb-5">Related Concepts</h3>
             <div className="flex flex-wrap justify-center gap-3">
               {relatedConcepts.map((concept: string) => (
                 <span key={concept} className="inline-flex items-center rounded-xl border border-[#e0a632]/40 bg-[#fffaf3] px-4 py-2 text-sm font-semibold text-[#7a2e1f] shadow-[0_2px_10px_rgba(139,105,20,0.08)] hover:shadow-[0_4px_20px_rgba(139,105,20,0.14)] transition-shadow duration-200">

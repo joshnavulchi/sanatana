@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import React, { useState, Fragment } from 'react';
+
+import { useState, Fragment } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -14,13 +15,13 @@ interface NavLink {
 
 /* ── Section config — ordered as they should appear in the footer ── */
 const SECTION_CONFIG: { key: string; icon: string; iconBg: string; basePath: string }[] = [
-  { key: 'vedas', icon: '📕', iconBg: 'bg-primary-700', basePath: '/vedas' },
-  { key: 'upanishads', icon: '📜', iconBg: 'bg-primary-600', basePath: '/upanishads' },
-  { key: 'puranas', icon: '📖', iconBg: 'bg-primary-700', basePath: '/puranas' },
+  { key: 'vedas', icon: '📕', iconBg: 'bg-gray-700', basePath: '/vedas' },
+  { key: 'upanishads', icon: '📜', iconBg: 'bg-gray-600', basePath: '/upanishads' },
+  { key: 'puranas', icon: '📖', iconBg: 'bg-gray-700', basePath: '/puranas' },
   // itihasa rendered separately via ItihasaColumn
-  { key: 'philosophy', icon: '🧘', iconBg: 'bg-primary-600', basePath: '/philosophy' },
-  { key: 'science', icon: '🔬', iconBg: 'bg-primary-700', basePath: '/vedic-philosophy' },
-  { key: 'others', icon: '✨', iconBg: 'bg-primary-700', basePath: '' },
+  { key: 'philosophy', icon: '🧘', iconBg: 'bg-gray-600', basePath: '/philosophy' },
+  { key: 'science', icon: '🔬', iconBg: 'bg-gray-700', basePath: '/vedic-philosophy' },
+  { key: 'others', icon: '✨', iconBg: 'bg-gray-700', basePath: '' },
 ];
 
 const INITIAL_VISIBLE = 5;
@@ -69,18 +70,18 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     <div className="flex flex-col gap-1">
-      <p className="mb-2 flex items-center text-sm uppercase tracking-[0.25em] text-primary-700">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-white`}>
+      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-[0.25em] text-gray-900">
+        <span className={`inline-flex h-6 w-6 p-[2] rounded-sm shadow-sm mr-2 ${iconBg} text-sm text-gray-600`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-primary-500 to-transparent" />
+      <div className="mb-1 h-px w-12 bg-linear-to-r from-gray-500 to-transparent" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
-          className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
+          className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-gray-700 underline decoration-gray-500 underline-offset-4' : 'text-gray-800 hover:text-gray-700'}`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -90,10 +91,10 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-2 flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors duration-200 cursor-pointer"
+          className="mt-2 flex items-center gap-2 text-sm text-gray-700 hover:text-gray-800 transition-colors duration-200 cursor-pointer"
           aria-expanded={expanded}
         >
-          {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
+          {expanded ? 'Show less' : `Show more [${links.length - INITIAL_VISIBLE}]`}
           <svg
             className={`h-3 w-3 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
@@ -109,6 +110,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 /* ── Itihasa column — epics with collapsible sub-lists ── */
 function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   const pathname = usePathname();
+  const iconBg = SECTION_CONFIG[4].iconBg;
   const [expandedEpic, setExpandedEpic] = useState<string | null>(null);
 
   const normalize = (p?: string) => {
@@ -139,11 +141,11 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     <div className="flex flex-col gap-1">
-      <p className="mb-2 flex items-center text-sm uppercase tracking-[0.25em] text-primary-700">
-        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-sm text-white">⚔️</span>
+      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-[0.25em] text-gray-900">
+        <span className={`inline-flex h-6 w-6 p-[2] rounded-sm shadow-sm mr-2 ${iconBg} text-sm text-gray-600`}>⚔️</span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-primary-500 to-transparent" />
+      <div className="mb-1 h-px w-12 bg-linear-to-r from-gray-500 to-transparent" />
 
       {epicEntries.map(({ name, slug, href, subNav, hasSubItems }) => (
         <div key={slug} className="flex flex-col">
@@ -151,7 +153,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
+              className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-gray-700 underline decoration-gray-500 underline-offset-4' : 'text-gray-800 hover:text-gray-700'}`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -160,7 +162,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-primary-600 hover:text-primary-700 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
+                className="ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-sm text-gray-700 hover:text-gray-800 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
@@ -183,7 +185,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-sm transition-colors duration-200 ${isActive(subHref) ? 'text-primary-700 underline decoration-primary-500 underline-offset-2' : 'text-primary-800 hover:text-primary-700'}`}
+                    className={`text-sm transition-colors duration-200 ${isActive(subHref) ? 'text-gray-700 underline decoration-gray-500 underline-offset-2' : 'text-gray-800 hover:text-gray-700'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -215,20 +217,20 @@ export default function Footer() {
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-primary-500 blur-3xl animate-ping" />
-          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-primary-700 blur-3xl animate-ping" />
+          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
+          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10">
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper text-center py-6 md:py-12">
-            <div className="mx-auto max-w-xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-6 p-4">
+            <div className="mx-auto max-w-xl rounded-md bg-white backdrop-blur-sm shadow-sm my-6 p-4">
               <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-relaxed text-gray-800">
+            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-relaxed text-gray-900">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -262,7 +264,7 @@ export default function Footer() {
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
-            <span className="text-base text-primary-700" aria-hidden="true">✦</span>
+            <span className="text-base text-gray-700" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 
@@ -332,7 +334,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom ornamental bar */}
-          <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
+          <div className="h-1 w-full bg-linear-to-r from-gray-700 via-gray-500 to-gray-400" />
         </div>
       </footer>
     </>
