@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-tr from-amber-50 via-white to-green-50 p-4 md:p-6">
-      <div className="w-full max-w-4xl rounded-3xl bg-white border border-slate-100 shadow-md p-4 sm:p-12 text-base leading-relaxed font-normal">
+    <main className="min-h-screen flex items-center justify-center p-4 md:p-6">
+      <div className="w-full max-w-4xl rounded-3xl bg-white shadow-md p-4 sm:p-12 text-base leading-relaxed font-normal">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-base leading-relaxed font-normal">
           <div>
             <div className="inline-flex items-center justify-center h-16 w-16 rounded-lg bg-amber-100 text-amber-700 text-base leading-relaxed font-normal">?</div>
@@ -21,7 +21,7 @@ export default function NotFoundPage() {
 
               <Link
                 href="/contact"
-                className="rounded-md border border-slate-200 px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 text-center"
+                className="rounded-md px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 text-center"
               >
                 Contact support
               </Link>

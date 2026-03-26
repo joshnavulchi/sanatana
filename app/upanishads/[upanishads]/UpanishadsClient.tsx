@@ -161,7 +161,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Chapters</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.chapters.map((c: any, i: number) => (
-              <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
+              <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg p-4 bg-white hover:shadow-md">
                 <div className="text-base leading-relaxed font-normal">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
                 {c?.chapter && <div className="text-base leading-relaxed font-normal">Chapter {String(c.chapter)}</div>}
                 {c?.verses && Array.isArray(c.verses) && (
@@ -179,7 +179,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Major Deities</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base leading-relaxed font-normal">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
-              <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white text-base leading-relaxed font-normal">
+              <div key={`deity-${i}`} className="rounded-lg p-4 bg-white text-base leading-relaxed font-normal">
                 <h3 className="text-xl font-semibold leading-snug mb-2">{String(d?.name || '')}</h3>
                 {d?.role && <div className="text-base leading-relaxed font-normal">{d.role}</div>}
                 {d?.importance && <p className="text-base leading-relaxed mb-4 font-normal">{d.importance}</p>}
@@ -195,7 +195,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Mandalas</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.mandalas.map((m: any, i: number) => (
-              <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
+              <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg p-4 bg-white hover:shadow-md">
                 <div className="flex items-baseline justify-between text-base leading-relaxed font-normal">
                   <div className="text-amber-800 text-base leading-relaxed font-normal">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
                   <div className="text-base leading-relaxed font-normal">{String(m?.hymn_count ?? '')} hymns</div>
@@ -215,7 +215,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Related Concepts</h3>
           <div className="flex flex-wrap gap-2 text-base leading-relaxed font-normal">
             {data.related_concepts.map((c: any, i: number) => (
-              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-100 text-base leading-relaxed font-normal">{String(c)}</span>
+              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-base leading-relaxed font-normal">{String(c)}</span>
             ))}
           </div>
         </section>

@@ -108,7 +108,7 @@ export default function PageLayout(
             type="button"
             onClick={togglePanel}
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
-            className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#d8a25a]/60 bg-linear-to-b from-[#fff7ed] to-[#fde7c7] px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:bg-linear-to-b hover:from-[#fde7c7] hover:to-[#f8d7a0] hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
             <span className="flex flex-col items-center gap-1 text-base leading-relaxed font-normal">
               <svg
@@ -139,7 +139,7 @@ export default function PageLayout(
             aria-label="Explore related topics"
           >
             {/* Panel header */}
-            <div className="flex items-center justify-between border-b border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] to-[#fde7c7] px-5 py-4 text-base leading-relaxed font-normal">
+            <div className="flex items-center justify-between border-[#d8a25a]/30 px-5 py-4 text-base leading-relaxed font-normal">
               <div className="flex items-center gap-2 text-base leading-relaxed font-normal">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#7a2e1f] text-[#fff4df] text-base leading-relaxed font-normal">✦</span>
                 <span className="uppercase text-[#7a2e1f] text-base leading-relaxed font-normal">Explore</span>
@@ -148,7 +148,7 @@ export default function PageLayout(
                 type="button"
                 onClick={() => setPanelOpen(false)}
                 aria-label="Close explore panel"
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] hover:shadow-[0_2px_8px_rgba(146,64,14,0.12)]"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full border-[#d8a25a]/40 bg-[#fffaf2] text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] hover:shadow-[0_2px_8px_rgba(146,64,14,0.12)]"
               >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
@@ -157,7 +157,7 @@ export default function PageLayout(
             </div>
 
             {/* Accent bar */}
-            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b] text-base leading-relaxed font-normal" />
+            <div className="h-0.5 w-full text-base leading-relaxed font-normal" />
 
             {/* Scrollable content */}
             <div className="flex-1 overflow-y-auto px-4 py-5 text-base leading-relaxed font-normal">
@@ -165,7 +165,7 @@ export default function PageLayout(
             </div>
 
             {/* Bottom ornament */}
-            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12] text-base leading-relaxed font-normal" />
+            <div className="h-0.5 w-full text-base leading-relaxed font-normal" />
           </aside>
         </>
       )}

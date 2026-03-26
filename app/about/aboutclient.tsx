@@ -46,7 +46,7 @@ export default function AboutClient() {
         {/* Text-to-Speech Player */}
         <TextToSpeech sectionId="about-content" className="floating" />
 
-        <div id="about-content" className='space-y-8 '>
+        <div id="about-content" className='space-y-8'>
 
           {/* Sections as cards */}
           {about.sections.map((section: any, index: number) => {
@@ -59,16 +59,16 @@ export default function AboutClient() {
 
             return (
               <div key={section.id || index}
-                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
+                className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl text-base leading-relaxed font-normal" />
-                <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl text-base leading-relaxed font-normal" />
+                <div className="absolute top-0 right-0 w-32 h-32 rounded-tr-2xl text-base leading-relaxed font-normal" />
+                <div className="absolute bottom-0 left-0 w-24 h-24 rounded-bl-2xl text-base leading-relaxed font-normal" />
 
                 {/* Content */}
                 <div className="relative z-10 space-y-4 text-base leading-relaxed font-normal">
                   {/* Section header with icon */}
                   <div className="flex items-start gap-4 text-base leading-relaxed font-normal">
-                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-base leading-relaxed font-normal">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-base leading-relaxed font-normal">
                       {icon}
                     </div>
                     <Tag className="flex-1 text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
@@ -88,7 +88,7 @@ export default function AboutClient() {
                     <ul className="space-y-3 list-disc pl-5 text-base leading-relaxed">
                       {section.bullets.map((text: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 mb-2">
-                          <span className="flex-shrink-0 w-2 h-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full text-base leading-relaxed font-normal" />
+                          <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
                           <span className="flex-1 text-base leading-relaxed font-normal">{text}</span>
                         </li>
                       ))}
@@ -101,7 +101,7 @@ export default function AboutClient() {
 
           {/* Disclaimer section */}
           {about.disclaimer && (
-            <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-4 md:p-8 shadow-lg text-base leading-relaxed font-normal">
+            <div className="relative rounded-lg p-4 md:p-8 shadow-lg text-base leading-relaxed font-normal">
               <div className="flex items-start gap-4 text-base leading-relaxed font-normal">
                 <span className="text-base leading-relaxed font-normal">⚠️</span>
                 <div className="flex-1 text-base leading-relaxed font-normal">
@@ -120,11 +120,11 @@ export default function AboutClient() {
             {/* Header */}
             <div className="text-center text-base leading-relaxed font-normal">
               <div className="flex items-center justify-center gap-3 text-base leading-relaxed font-normal">
-                <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400 text-base leading-relaxed font-normal" />
+                <div className="h-px w-16 text-base leading-relaxed font-normal" />
                 <span className="text-amber-800 text-base leading-relaxed font-normal">🕉️</span>
-                <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400 text-base leading-relaxed font-normal" />
+                <div className="h-px w-16 text-base leading-relaxed font-normal" />
               </div>
-              <h3 className="bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-2xl font-semibold leading-snug mb-3">
+              <h3 className="bg-clip-text text-2xl font-semibold leading-snug mb-3">
                 The Essence of Life
               </h3>
               <p className="text-amber-700/80 italic text-base leading-relaxed mb-4 font-normal">
@@ -135,7 +135,7 @@ export default function AboutClient() {
             {/* Main content grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 text-base leading-relaxed font-normal">
               {/* Card 1: Purpose */}
-              <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-4 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1 text-base leading-relaxed font-normal">
+              <div className="relative rounded-xl p-4 border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1 text-base leading-relaxed font-normal">
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-base leading-relaxed font-normal">
                   🎯
                 </div>
@@ -150,7 +150,7 @@ export default function AboutClient() {
               </div>
 
               {/* Card 2: Atman */}
-              <div className="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
+              <div className="relative rounded-xl p-6 border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-base leading-relaxed font-normal">
                   ✨
                 </div>
@@ -163,7 +163,7 @@ export default function AboutClient() {
               </div>
 
               {/* Card 3: Karma */}
-              <div className="relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
+              <div className="relative rounded-xl p-6 border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-base leading-relaxed font-normal">
                   ⚖️
                 </div>
@@ -176,7 +176,7 @@ export default function AboutClient() {
               </div>
 
               {/* Card 4: Maya & Reality */}
-              <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
+              <div className="relative rounded-xl p-6 border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-base leading-relaxed font-normal">
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-base leading-relaxed font-normal">
                   🌌
                 </div>
@@ -190,8 +190,8 @@ export default function AboutClient() {
 
             {/* Central wisdom quote */}
             <div className="relative text-base leading-relaxed font-normal">
-              <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-500/10 blur-2xl text-base leading-relaxed font-normal" />
-              <div className="relative bg-gradient-to-br from-amber-100/80 to-orange-100/80 rounded-2xl p-6 border-2 border-amber-300/30 backdrop-blur-sm text-base leading-relaxed font-normal">
+              <div className="absolute inset-0 blur-2xl text-base leading-relaxed font-normal" />
+              <div className="relative rounded-2xl p-6 border-amber-300/30 backdrop-blur-sm text-base leading-relaxed font-normal">
                 <div className="text-center space-y-4 text-base leading-relaxed font-normal">
                   <p className="text-amber-900 text-base leading-relaxed mb-4 font-normal">
                     `&quot;`आत्मानं विद्धि`&quot;`
@@ -199,7 +199,7 @@ export default function AboutClient() {
                   <p className="text-base leading-relaxed mb-4 font-normal">
                     Know Thyself
                   </p>
-                  <div className="pt-4 border-t border-amber-300/30 text-base leading-relaxed font-normal">
+                  <div className="pt-4 border-amber-300/30 text-base leading-relaxed font-normal">
                     <p className="max-w-3xl mx-auto text-base leading-relaxed mb-4 font-normal">
                       Life is the divine opportunity to realize your true nature—not this temporary body,
                       but the immortal consciousness that witnesses all, untouched by birth or death,
@@ -216,22 +216,22 @@ export default function AboutClient() {
                 आश्रम - The Four Stages of Life
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 my-6 text-base leading-relaxed font-normal">
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1 text-base leading-relaxed font-normal">
+                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-amber-200/40 flex-1 text-base leading-relaxed font-normal">
                   <div className="text-base leading-relaxed font-normal">📚</div>
                   <h4 className="font-semibold text-amber-800 mb-1">Brahmacharya</h4>
                   <p className="text-base leading-relaxed mb-4 font-normal">Student Life - Learning & Discipline</p>
                 </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40 text-base leading-relaxed font-normal">
+                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-orange-200/40 text-base leading-relaxed font-normal">
                   <div className="text-base leading-relaxed font-normal">🏡</div>
                   <h4 className="font-semibold text-orange-800 mb-1">Grihastha</h4>
                   <p className="text-base leading-relaxed mb-4 font-normal">Householder - Family & Duty</p>
                 </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40 text-base leading-relaxed font-normal">
+                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-yellow-200/40 text-base leading-relaxed font-normal">
                   <div className="text-base leading-relaxed font-normal">🌳</div>
                   <h4 className="font-semibold text-yellow-800 mb-1">Vanaprastha</h4>
                   <p className="text-base leading-relaxed mb-4 font-normal">Retirement - Detachment & Reflection</p>
                 </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 text-base leading-relaxed font-normal">
+                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-amber-200/40 text-base leading-relaxed font-normal">
                   <div className="text-base leading-relaxed font-normal">🧘</div>
                   <h4 className="font-semibold text-amber-800 mb-1">Sannyasa</h4>
                   <p className="text-base leading-relaxed mb-4 font-normal">Renunciation - Complete Liberation</p>
@@ -240,7 +240,7 @@ export default function AboutClient() {
             </div>
 
             {/* Closing */}
-            <div className="text-center pt-6 border-t border-amber-200/30 text-base leading-relaxed font-normal">
+            <div className="text-center pt-6 border-amber-200/30 text-base leading-relaxed font-normal">
               <p className="text-amber-700 text-base leading-relaxed mb-4 font-normal">
                 यत् पिण्डे तत् ब्रह्माण्डे
               </p>

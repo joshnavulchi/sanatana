@@ -55,9 +55,9 @@ export default function UnderstandingOfSanatana() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-4">
           <div className="inline-flex items-center gap-3">
-            <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-amber-300" />
+            <div className="h-0.5 w-12" />
             <span className="text-2xl text-amber-500">✦</span>
-            <div className="h-0.5 w-12 bg-gradient-to-l from-transparent to-amber-300" />
+            <div className="h-0.5 w-12" />
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export default function UnderstandingOfSanatana() {
 
             {section.src && (
               <div className="flex justify-center my-8">
-                <LazyImage src={section.src} alt={section.title} width={280} height={280} className="rounded-xl backdrop-blur-sm border border-gray-100 shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5" />
+                <LazyImage src={section.src} alt={section.title} width={280} height={280} className="rounded-xl backdrop-blur-sm shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5" />
               </div>
             )}
 
@@ -81,7 +81,7 @@ export default function UnderstandingOfSanatana() {
               {section.items?.map((topic, topicIndex) => (
                 <article
                   key={`${section.id}-${topic.id || topicIndex}`}
-                  className="flex flex-col gap-1 p-4 rounded-xl bg-white/60 backdrop-blur-sm border border-gray-100 shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
+                  className="flex flex-col gap-1 p-4 rounded-xl bg-white/60 backdrop-blur-sm shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
                 >
                   <div className="flex items-center gap-3">
                     {topic.src && (
@@ -105,7 +105,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-sm p-3 bg-amber-200 border border-gray-200 text-md text-gray-800">
+                <div key={`${section.id}-point-${index}`} className="rounded-sm p-3 bg-amber-200 text-md text-gray-800">
                   {point}
                 </div>
               ))}

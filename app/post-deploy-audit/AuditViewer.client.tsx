@@ -116,7 +116,7 @@ export default function AuditViewer() {
 
       {/* TABLE WITH RESPONSIVE COLLAPSE */}
       <div>
-        <div className="overflow-x-auto max-h-[70vh] rounded border text-base leading-relaxed font-normal">
+        <div className="overflow-x-auto max-h-[70vh] rounded text-base leading-relaxed font-normal">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-50 sticky top-0 z-10 shadow-sm hidden sm:table-header-group">
               <tr>
@@ -189,7 +189,7 @@ export default function AuditViewer() {
           <button
             disabled={currentPage === 1}
             onClick={() => setCurrentPage((c) => Math.max(1, c - 1))}
-            className="px-3 py-1 border rounded disabled:opacity-50"
+            className="px-3 py-1 rounded disabled:opacity-50"
           >
             Prev
           </button>
@@ -214,7 +214,7 @@ export default function AuditViewer() {
           <button
             disabled={currentPage === totalPages}
             onClick={() => setCurrentPage((c) => Math.min(totalPages, c + 1))}
-            className="px-3 py-1 border rounded disabled:opacity-50"
+            className="px-3 py-1 rounded disabled:opacity-50"
           >
             Next
           </button>
