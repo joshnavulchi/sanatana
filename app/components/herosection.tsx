@@ -154,10 +154,10 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
             {/* Main Heading */}
             <div className="flex flex-col md:mx-auto md:max-w-3xl">
-              <h3 className="text-3xl md:text-3xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
+              <h3 className="text-4xl md:text-5xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
                 {hero?.heading || 'Sanātana Dharma'}
               </h3>
-              <h4 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
+              <h4 className="text-3xl md:text-4xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
               {/* Description */}
@@ -167,7 +167,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-4">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
-                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-md rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
+                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-base rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
                     {hero?.primarycta?.label || 'Explore Scriptures'}
@@ -179,7 +179,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
                 <Link
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
-                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-md font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-base font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
                     {hero?.secondarycta?.label || 'Start Learning'}
                     <svg className="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
