@@ -7,6 +7,9 @@
   --color-bg: #f5f5f5;
   --color-text: #333;
   --color-red: red;
+  --color-green: green;
+  --color-white: white;
+  --color-black: black;
   --color-yellow: yellow;
   --color-orange: orange;
   --color-violet: violet;
@@ -90,12 +93,7 @@ body {
 }
 
 .gradient-background {
-  background-image: linear-gradient(to bottom right,
-      var(--color-yellow),
-      var(--color-red) 18%,
-      var(--color-orange) 46%,
-      var(--color-violet) 87%,
-      var(--color-blue));
+  background-image: linear-gradient(to bottom right, #fe9a00, #f54a00);
 }
 
 .content-wrapper {

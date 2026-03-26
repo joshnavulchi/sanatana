@@ -39,7 +39,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
       <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 md:px-0 md:py-0 transition-all duration-1000 ease-out
           ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
         {/* Card with glass-morphism effect */}
-        <div className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-4 md:p-8 shadow-2xl max-w-2xl overflow-hidden group text-white">
+        <div className="relative bg-black/30 backdrop-blur-xl border border-white/20 rounded-xl p-4 md:p-8 shadow-xl max-w-2xl overflow-hidden group text-white">
           {/* Gradient overlay on hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
