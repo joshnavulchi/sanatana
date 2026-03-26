@@ -59,13 +59,13 @@ export default function ItihasaPartClient({
   return (
     <PageLayout metaKey={namespace} title={title} breadcrumbs={breadcrumbs} className="layout-md">
       <section className="rounded-3xl border border-amber-200/30 bg-amber-50 p-6 md:p-10">
-        <h1 className="page-title text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">{title}</h1>
+        <h3 className="page-title text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">{title}</h3>
         {description && <p className="body-text text-base leading-relaxed mb-4 font-normal">{description}</p>}
       </section>
 
       {introduction && (
         <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Introduction</h2>
+          <h4 className="section-title text-2xl font-semibold leading-snug mb-3">Introduction</h4>
           <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={introduction} />
           </div>
@@ -74,7 +74,7 @@ export default function ItihasaPartClient({
 
       {scriptureText && (
         <section className="mt-6 rounded-2xl border border-amber-200/50 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Text</h2>
+          <h5 className="section-title text-2xl font-semibold leading-snug mb-3">Text</h5>
           <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={scriptureText} />
           </div>
@@ -83,7 +83,7 @@ export default function ItihasaPartClient({
 
       {philosophical && (
         <section className="mt-6 rounded-2xl border border-amber-200/30 bg-amber-50 p-5 md:p-6">
-          <h2 className="section-title text-2xl font-semibold leading-snug mb-3">Philosophical Explanation</h2>
+          <h6 className="section-title text-2xl font-semibold leading-snug mb-3">Philosophical Explanation</h6>
           <div className="body-text text-base leading-relaxed font-normal">
             <Paragraphs text={philosophical} />
           </div>

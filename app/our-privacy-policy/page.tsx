@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       className="layout-md"
     >
       <div className="space-y-6 md:space-y-8 text-base leading-relaxed font-normal">
-        <h2 className="page-title text-2xl font-semibold leading-snug mb-3">{page.title}</h2>
+        <h3 className="page-title text-2xl font-semibold leading-snug mb-3">{page.title}</h3>
         <p className="body-text text-base leading-relaxed mb-4 font-normal">{page.intro}</p>
 
         <h3 className="section-title text-xl font-semibold leading-snug mb-2">{page.informationHeading}</h3>

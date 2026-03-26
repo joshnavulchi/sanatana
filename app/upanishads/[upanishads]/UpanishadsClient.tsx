@@ -124,7 +124,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             return (
               <section key={idx}>
                 {secTitle ? (
-                  <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{secTitle}</h2>
+                  <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{secTitle}</h3>
                 ) : null}
                 {secContent ? (
                   <p className="text-base leading-relaxed mb-4 font-normal">{secContent}</p>
@@ -144,7 +144,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             return (
               <section key={`scripture-${i}`}>
                 {sTitle ? (
-                  <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{sTitle}</h2>
+                  <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{sTitle}</h3>
                 ) : null}
                 {sContent ? (
                   <p className="text-base leading-relaxed mb-4 font-normal">{sContent}</p>
@@ -158,7 +158,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Chapters list */}
       {Array.isArray(data?.chapters) && data.chapters.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Chapters</h2>
+          <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Chapters</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.chapters.map((c: any, i: number) => (
               <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
@@ -176,7 +176,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Major deities */}
       {Array.isArray(data?.major_rigvedic_deities) && data.major_rigvedic_deities.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Major Deities</h2>
+          <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Major Deities</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base leading-relaxed font-normal">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
               <div key={`deity-${i}`} className="rounded-lg border border-amber-100 p-4 bg-white text-base leading-relaxed font-normal">
@@ -192,7 +192,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Mandalas overview */}
       {Array.isArray(data?.mandalas) && data.mandalas.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Mandalas</h2>
+          <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Mandalas</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
             {data.mandalas.map((m: any, i: number) => (
               <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg border border-amber-100 p-4 bg-white hover:shadow-md">
@@ -212,7 +212,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Related concepts tags */}
       {Array.isArray(data?.related_concepts) && data.related_concepts.length > 0 && (
         <section className="mt-6">
-          <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Related Concepts</h2>
+          <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Related Concepts</h3>
           <div className="flex flex-wrap gap-2 text-base leading-relaxed font-normal">
             {data.related_concepts.map((c: any, i: number) => (
               <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-100 text-base leading-relaxed font-normal">{String(c)}</span>
@@ -237,7 +237,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
         if (val) {
           return (
             <section>
-              <h2 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Philosophical Insights</h2>
+              <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Philosophical Insights</h3>
               <p className="text-base leading-relaxed mb-4 font-normal">{val}</p>
             </section>
           );

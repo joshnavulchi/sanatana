@@ -89,7 +89,7 @@ export default function AuditViewer() {
   return (
     <div className="p-6 text-base leading-relaxed font-normal">
       <div className="flex items-center justify-between text-base leading-relaxed font-normal">
-        <h1 className="text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">Post-deploy Audit</h1>
+        <h3 className="text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">Post-deploy Audit</h3>
         <button
           className="ml-4 rounded bg-gray-200 px-3 py-1 text-sm"
           onClick={() => setShowRaw((s) => !s)}

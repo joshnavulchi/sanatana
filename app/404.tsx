@@ -6,7 +6,6 @@ export default function Custom404() {
       <div className="max-w-3xl w-full rounded-2xl border border-slate-100 bg-white shadow-lg p-4 sm:p-8 text-base leading-relaxed font-normal">
         <div className="flex flex-col md:flex-row items-center gap-4 text-base leading-relaxed font-normal">
           <div className="flex-shrink-0 text-rose-600 text-base leading-relaxed font-normal">404</div>
-
           <div>
             <h2 className="text-slate-900 text-2xl font-semibold leading-snug mb-3">Page not found</h2>
             <p className="text-slate-600 text-base leading-relaxed mb-4 font-normal">The page you're looking for doesn't exist or has been moved.</p>

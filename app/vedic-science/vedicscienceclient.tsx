@@ -39,7 +39,7 @@ export default function VedicScienceClient() {
         <div id="vedic-science-content" className="space-y-8 text-base leading-relaxed font-normal">
           {page.sections.map((section: any, idx: number) => (
             <section key={section.id || idx} className="space-y-4">
-              {section.title && <h2 className="section-title text-2xl font-semibold leading-snug mb-3">{section.title}</h2>}
+              {section.title && <h3 className="section-title text-2xl font-semibold leading-snug mb-3">{section.title}</h3>}
               {section.text && <p className="body-text text-base leading-relaxed mb-4 font-normal">{section.text}</p>}
             </section>
           ))}

@@ -109,7 +109,7 @@ export default function VedasClient({ initialData, initialLocale, vedas }: Props
             const secContent = typeof item?.content === 'string' ? item.content : null;
             return (
               <section key={idx}>
-                {secTitle ? <h2 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{secTitle}</h2> : null}
+                {secTitle ? <h3 className="text-2xl font-semibold text-red-800 mb-3 mt-6">{secTitle}</h3> : null}
                 {secContent ? <p className="text-base text-gray-800 leading-relaxed mb-4">{secContent}</p> : null}
               </section>
             );

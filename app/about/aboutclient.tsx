@@ -124,9 +124,9 @@ export default function AboutClient() {
                 <span className="text-amber-800 text-base leading-relaxed font-normal">🕉️</span>
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400 text-base leading-relaxed font-normal" />
               </div>
-              <h2 className="bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-2xl font-semibold leading-snug mb-3">
+              <h3 className="bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-2xl font-semibold leading-snug mb-3">
                 The Essence of Life
-              </h2>
+              </h3>
               <p className="text-amber-700/80 italic text-base leading-relaxed mb-4 font-normal">
                 जीवनस्य परमं तत्त्वम्
               </p>
