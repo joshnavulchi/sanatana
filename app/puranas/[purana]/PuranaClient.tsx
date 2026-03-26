@@ -38,27 +38,27 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       setError(null);
 
       try {
-        const res = await fetchContentByRoute(locale, ['upanishads', ...(segments || [])]);
+        const res = await fetchContentByRoute(locale, ['puranas', ...(segments || [])]);
         let parsed = res.data as any;
 
         if (!parsed) {
-          // try fallback to english handled by fetchUpanishadsContent
-          if (!cancelled) setError('Upanishads content not found');
+          // try fallback to english handled by fetchpuranasContent
+          if (!cancelled) setError('Puranas content not found');
           return;
         }
 
-        // Unwrap top-level upanishad key if present (e.g., { "isha": { ... } })
+        // Unwrap top-level Puranas key if present (e.g., { "isha": { ... } })
         if (segments && segments.length > 0 && typeof parsed === 'object') {
           const key = segments[0];
           if (parsed[key] && typeof parsed[key] === 'object') parsed = parsed[key];
           else {
             // If JSON is wrapped under a single top-level key like
-            // { "upanishads_isha": { ... } }, unwrap it.
+            // { "puranas_isha": { ... } }, unwrap it.
             const pkeys = Object.keys(parsed || {});
             if (pkeys.length === 1 && typeof parsed[pkeys[0]] === 'object') {
               parsed = parsed[pkeys[0]];
             } else {
-              const altKey = `upanishads_${key}`;
+              const altKey = `puranas_${key}`;
               if (parsed[altKey] && typeof parsed[altKey] === 'object') parsed = parsed[altKey];
             }
           }
@@ -68,7 +68,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
         // but explicitly exclude metadata keys when rendering UI below).
         if (!cancelled) setData(parsed || null);
       } catch (e) {
-        if (!cancelled) setError('Upanishads content not found');
+        if (!cancelled) setError('puranas content not found');
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -80,16 +80,16 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
     };
   }, [initialData, initialLocale, ctxLocale, locale, segments]);
 
-  const title = String(data?.meta?.title ?? data?.title ?? segments.join(' / ') ?? 'Upanishads');
+  const title = String(data?.meta?.title ?? data?.title ?? segments.join(' / ') ?? 'puranas');
   const description = String(data?.meta?.description ?? data?.description ?? '');
 
   const breadcrumbs = [
     { labelKey: 'Home', href: '/' },
-    { label: 'Upanishads', href: '/upanishads' },
+    { label: 'Purans', href: '/puranas' },
   ];
-  if (segments && segments.length > 0) breadcrumbs.push({ label: segments[0], href: `/upanishads/${segments[0]}` });
+  if (segments && segments.length > 0) breadcrumbs.push({ label: segments[0], href: `/puranas/${segments[0]}` });
 
-  const metaKey = (data?.meta?.key && String(data.meta.key)) || `upanishads/${segments.join('/')}/index`;
+  const metaKey = (data?.meta?.key && String(data.meta.key)) || `puranas/${segments.join('/')}/index`;
 
   if (loading) {
     return (
