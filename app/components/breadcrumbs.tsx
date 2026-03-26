@@ -56,7 +56,7 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
   const normalized = normalizeBreadcrumbs(breadcrumbItems, locale);
   return (
     <nav aria-label="Breadcrumb" className="inline-flex relative">
-      <div className="flex bg-white items-center rounded-lg px-3 py-1 shadow-sm border border-amber-200/50 text-amber-800 text-base leading-relaxed font-normal">
+      <div className="flex bg-white items-center rounded-lg px-3 py-1 shadow-sm border-amber-200/50 text-amber-800 text-base leading-relaxed font-normal">
         <svg className="w-4 h-4 mr-1 text-amber-800 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
         </svg>

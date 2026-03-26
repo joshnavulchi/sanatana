@@ -52,9 +52,9 @@ const VEDA_ACCENTS: Record<string, { from: string; via: string; to: string; text
 function OrnamentDivider() {
   return (
     <div className="flex items-center justify-center gap-3 my-10">
-      <div className="h-px w-14 bg-linear-to-r from-transparent to-[#d8a25a]" />
+      <div className="h-px w-14" />
       <span className="text-[#d97706] text-base">◆</span>
-      <div className="h-px w-14 bg-linear-to-l from-transparent to-[#d8a25a]" />
+      <div className="h-px w-14" />
     </div>
   );
 }
@@ -88,7 +88,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
   const tags = [...themes, ...topics, ...applications].filter(Boolean);
 
   return (
-    <div className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/40 bg-[#fffaf0] shadow-[0_10px_40px_rgba(122,46,31,0.10)] transition-all duration-300 hover:shadow-[0_20px_60px_rgba(166,61,23,0.16)]">
+    <div className="relative overflow-hidden rounded-3xl border-[#d8a25a]/40 bg-[#fffaf0] shadow-[0_10px_40px_rgba(122,46,31,0.10)] transition-all duration-300 hover:shadow-[0_20px_60px_rgba(166,61,23,0.16)]">
       {/* Top accent bar */}
       <div className={`h-1.5 w-full bg-linear-to-r ${accent.from} ${accent.via} ${accent.to}`} />
 
@@ -122,7 +122,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {structure && (
           <div className="mt-6 flex flex-wrap gap-3">
             {Object.entries(structure).map(([key, value]) => (
-              <div key={key} className="flex flex-col items-center rounded-xl border border-[#edc98f] bg-[#fffaf3] px-4 py-2.5 min-w-20">
+              <div key={key} className="flex flex-col items-center rounded-xl bg-[#fffaf3] px-4 py-2.5 min-w-20">
                 <span className="text-xl font-extrabold text-[#7a2e1f]">{String(value)}</span>
                 <span className="text-base font-semibold uppercase tracking-wider text-[#a89278]">
                   {key.replace(/_/g, ' ')}
@@ -136,7 +136,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
         {divisions.length > 0 && (
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             {divisions.map((div: Record<string, unknown>, i: number) => (
-              <div key={i} className="rounded-xl border border-[#edc98f]/60 bg-[#fffaf3] p-4">
+              <div key={i} className="rounded-xl border-[#edc98f]/60 bg-[#fffaf3] p-4">
                 <h6 className="font-semibold text-[#3d2e22] text-sm">{String(div.type || '')}</h6>
                 <p className="text-xs text-[#6b5d4f] mt-1">({String(div.meaning || '')})</p>
                 <p className="text-xs text-[#5b2d12] mt-1">{String(div.characteristics || '')}</p>
@@ -214,7 +214,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
         className="w-full flex items-center gap-4 p-4 md:p-5 text-left cursor-pointer"
       >
         {/* Number badge — carved-stone tablet feel */}
-        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-[#7c2d12] to-[#d97706] text-sm font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
           {num}
         </span>
         <div className="flex-1 min-w-0">
@@ -232,7 +232,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
       </button>
 
       {open && (
-        <div className="px-4 md:px-5 pb-5 pt-0 border-t border-[#edc98f]/40">
+        <div className="px-4 md:px-5 pb-5 pt-0 border-[#edc98f]/40">
           {commentary && <p className="text-sm text-[#5b2d12] leading-relaxed mt-4">{commentary}</p>}
 
           {/* Rishis & Deities */}
@@ -242,7 +242,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
                 <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Rishis</span>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {allRishis.map((r: string) => (
-                    <span key={r} className="rounded-lg bg-[#fffaf3] border border-[#edc98f]/60 px-2.5 py-0.5 text-xs font-semibold text-[#92400e]">{r}</span>
+                    <span key={r} className="rounded-lg bg-[#fffaf3] border-[#edc98f]/60 px-2.5 py-0.5 text-xs font-semibold text-[#92400e]">{r}</span>
                   ))}
                 </div>
               </div>
@@ -252,7 +252,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
                 <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Deities</span>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {allDeities.map((d: string) => (
-                    <span key={d} className="rounded-lg bg-[#fde7c7]/50 border border-[#d97706]/30 px-2.5 py-0.5 text-xs font-semibold text-[#7a2e1f]">{d}</span>
+                    <span key={d} className="rounded-lg bg-[#fde7c7]/50 border-[#d97706]/30 px-2.5 py-0.5 text-xs font-semibold text-[#7a2e1f]">{d}</span>
                   ))}
                 </div>
               </div>
@@ -275,7 +275,7 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
             <div className="mt-5 space-y-3">
               <span className="text-base font-semibold uppercase tracking-widest text-[#a89278]">Notable Hymns</span>
               {allHymns.map((h: Record<string, unknown>, i: number) => (
-                <div key={i} className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] p-3.5">
+                <div key={i} className="rounded-xl border-[#edc98f]/50 bg-[#fffaf3] p-3.5">
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-extrabold text-[#7a2e1f]">{String(h.hymn_id || '')}</span>
                     {typeof h.name === 'string' && <span className="text-xs font-semibold text-[#8b6914]">— {h.name}</span>}
@@ -295,8 +295,8 @@ function MandalaRow({ mandala, index }: { mandala: Record<string, unknown>; inde
 /* ── Deity card ── */
 function DeityCard({ deity }: { deity: Record<string, unknown> }) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-[#e0a632]/40 bg-[#fffaf0] p-5 shadow-[0_4px_20px_rgba(139,105,20,0.08)] hover:shadow-[0_12px_40px_rgba(139,105,20,0.14)] transition-all duration-300 hover:-translate-y-1">
-      <div className="absolute top-0 left-0 right-0 h-0.5 bg-linear-to-r from-[#8b6914] via-[#b8952e] to-[#e0a632]" />
+    <div className="relative overflow-hidden rounded-2xl border-[#e0a632]/40 bg-[#fffaf0] p-5 shadow-[0_4px_20px_rgba(139,105,20,0.08)] hover:shadow-[0_12px_40px_rgba(139,105,20,0.14)] transition-all duration-300 hover:-translate-y-1">
+      <div className="absolute top-0 left-0 right-0 h-0.5" />
       <h4 className="text-base font-extrabold text-[#3d2e22]">{String(deity.name || '')}</h4>
       <p className="text-sm text-[#6b5d4f] mt-1">{String(deity.role || '')}</p>
       <p className="text-xs text-[#92400e] font-medium mt-2">{String(deity.importance || '')}</p>
@@ -337,7 +337,7 @@ export default function VedasClient() {
     <PageLayout metaKey="vedas" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedas' }]} className="layout-md">
 
       {/* ═══════════ Hero Section ═══════════ */}
-      <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-4 md:p-10">
+      <section className="relative overflow-hidden rounded-3xl border-[#d8a25a]/30 p-4 md:p-10">
         {/* Decorative warm glow blobs */}
         <div className="absolute top-0 right-0 w-72 h-72 bg-[#f59e0b]/10 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#c2410c]/8 rounded-full blur-[120px] pointer-events-none" />
@@ -345,9 +345,9 @@ export default function VedasClient() {
         <div className="relative z-10">
           {/* Decorative header */}
           <div className="flex items-center gap-3 mb-6">
-            <div className="h-px w-12 bg-linear-to-r from-transparent to-[#d97706]" />
+            <div className="h-px w-12" />
             <span className="text-3xl">🕉️</span>
-            <div className="h-px w-12 bg-linear-to-l from-transparent to-[#d97706]" />
+            <div className="h-px w-12" />
           </div>
 
           {definition && (
@@ -355,7 +355,7 @@ export default function VedasClient() {
           )}
 
           {meaningOfWord && (
-            <div className="rounded-xl border border-[#e0a632]/40 bg-[#fffaf3] p-4 inline-block mb-4">
+            <div className="rounded-xl border-[#e0a632]/40 bg-[#fffaf3] p-4 inline-block mb-4">
               <p className="text-sm text-[#92400e]">
                 <span className="font-semibold text-[#7a2e1f]">Etymology:</span> {meaningOfWord}
               </p>
@@ -366,8 +366,8 @@ export default function VedasClient() {
           {stats && (
             <div className="flex flex-wrap gap-4 mt-6">
               {Object.entries(stats).map(([key, value]) => (
-                <div key={key} className="flex flex-col items-center rounded-xl border border-[#edc98f] bg-[#fffaf3] px-5 py-3 shadow-[0_4px_20px_rgba(122,46,31,0.08)]">
-                  <span className="text-2xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] bg-clip-text text-transparent">{String(value).toLocaleString()}</span>
+                <div key={key} className="flex flex-col items-center rounded-xl bg-[#fffaf3] px-5 py-3 shadow-[0_4px_20px_rgba(122,46,31,0.08)]">
+                  <span className="text-2xl font-extrabold bg-clip-text text-transparent">{String(value).toLocaleString()}</span>
                   <span className="text-base font-semibold uppercase tracking-widest text-[#a89278] mt-0.5">{key}</span>
                 </div>
               ))}
@@ -392,8 +392,8 @@ export default function VedasClient() {
       {introduction && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h3 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
+          <section className="rounded-3xl border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+            <h3 className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent mb-6">
               Introduction
             </h3>
             <div className="text-md text-[#5b2d12] leading-relaxed">
@@ -408,7 +408,7 @@ export default function VedasClient() {
         <>
           <OrnamentDivider />
           <section>
-            <h4 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c] bg-clip-text text-transparent mb-8 text-center">
+            <h4 className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent mb-8 text-center">
               The Four Vedas
             </h4>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -424,21 +424,21 @@ export default function VedasClient() {
       {timeline && Object.keys(timeline).length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-10">
-            <h5 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c] bg-clip-text text-transparent mb-8">
+          <section className="rounded-3xl border-[#d8a25a]/20 p-4 md:p-10">
+            <h5 className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent mb-8">
               Vedic Timeline
             </h5>
             <div className="relative ml-4">
               {/* Vertical line */}
-              <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-linear-to-b from-[#c2410c] to-[#f59e0b]" />
+              <div className="absolute left-4 top-0 bottom-0 w-0.5" />
               <div className="space-y-6">
                 {Object.entries(timeline).map(([key, value], i) => (
                   <div key={key} className="relative flex items-start gap-5 pl-6">
                     {/* Timeline dot */}
-                    <span className="absolute left-1.25 top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-linear-to-br from-[#7c2d12] to-[#d97706] text-base font-semibold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
+                    <span className="absolute left-1.25 top-1.5 flex h-7 w-7 items-center justify-center rounded-full text-base font-semibold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
                       {i + 1}
                     </span>
-                    <div className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] px-4 py-3 flex-1">
+                    <div className="rounded-xl border-[#edc98f]/50 bg-[#fffaf3] px-4 py-3 flex-1">
                       <h6 className="text-sm font-semibold text-[#3d2e22]">{key.replace(/_/g, ' ')}</h6>
                       <p className="text-sm text-[#92400e] font-medium">{value}</p>
                     </div>
@@ -454,7 +454,7 @@ export default function VedasClient() {
       {philosophicalExplanation && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <section className="rounded-3xl border-amber-200/20 bg-amber-50 p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
             <h3 className="section-title mb-6">Philosophical Foundations</h3>
             <div className="body-text">
               <Paragraphs text={philosophicalExplanation} />
@@ -471,8 +471,8 @@ export default function VedasClient() {
             <h3 className="section-title mb-8 text-center">Core Vedic Concepts</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {Object.entries(philoConcepts).map(([key, value]) => (
-                <div key={key} className="relative overflow-hidden rounded-2xl border border-amber-200/30 bg-amber-50 p-5 hover:shadow-[0_8px_30px_rgba(146,64,14,0.10)] transition-all duration-200 hover:-translate-y-0.5">
-                  <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-600 via-amber-400 to-amber-300" />
+                <div key={key} className="relative overflow-hidden rounded-2xl border-amber-200/30 bg-amber-50 p-5 hover:shadow-[0_8px_30px_rgba(146,64,14,0.10)] transition-all duration-200 hover:-translate-y-0.5">
+                  <div className="absolute top-0 left-0 right-0 h-0.5" />
                   <h4 className="text-md font-extrabold text-gray-900 capitalize">{key}</h4>
                   <p className="meta-text mt-1">{value}</p>
                 </div>
@@ -516,14 +516,14 @@ export default function VedasClient() {
       {society && Object.keys(society).length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-amber-200/20 bg-amber-50 p-4 md:p-10">
+          <section className="rounded-3xl border-amber-200/20 bg-amber-50 p-4 md:p-10">
             <h3 className="section-title mb-8">Vedic Society</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {Object.entries(society).map(([key, items]) => {
                 const list = Array.isArray(items) ? items : [];
                 if (list.length === 0) return null;
                 return (
-                  <div key={key} className="rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5">
+                  <div key={key} className="rounded-2xl border-[#edc98f]/50 bg-[#fffaf3] p-5">
                     <h4 className="text-sm font-semibold uppercase tracking-widest text-amber-700 mb-3">{key.replace(/_/g, ' ')}</h4>
                     <ul className="space-y-2">
                       {list.map((item: string, i: number) => (
@@ -558,8 +558,8 @@ export default function VedasClient() {
                   cultural_influence: '🎭',
                 };
                 return (
-                  <div key={key} className="relative overflow-hidden rounded-2xl border border-amber-200/30 bg-amber-50 p-4 md:p-6">
-                    <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300" />
+                  <div key={key} className="relative overflow-hidden rounded-2xl border-amber-200/30 bg-amber-50 p-4 md:p-6">
+                    <div className="absolute top-0 left-0 right-0 h-0.5" />
                     <div className="flex items-center gap-2 mb-4">
                       <span className="text-xl">{iconMap[key] || '✦'}</span>
                       <h4 className="text-md font-semibold text-gray-900 capitalize">{key.replace(/_/g, ' ')}</h4>
@@ -584,11 +584,11 @@ export default function VedasClient() {
       {relatedConcepts.length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-8 text-center">
+          <section className="rounded-3xl border-[#d8a25a]/20 p-4 md:p-8 text-center">
             <h3 className="text-xl font-extrabold text-[#3d2e22] mb-5">Related Concepts</h3>
             <div className="flex flex-wrap justify-center gap-3">
               {relatedConcepts.map((concept: string) => (
-                <span key={concept} className="inline-flex items-center rounded-xl border border-[#e0a632]/40 bg-[#fffaf3] px-4 py-2 text-sm font-semibold text-[#7a2e1f] shadow-[0_2px_10px_rgba(139,105,20,0.08)] hover:shadow-[0_4px_20px_rgba(139,105,20,0.14)] transition-shadow duration-200">
+                <span key={concept} className="inline-flex items-center rounded-xl border-[#e0a632]/40 bg-[#fffaf3] px-4 py-2 text-sm font-semibold text-[#7a2e1f] shadow-[0_2px_10px_rgba(139,105,20,0.08)] hover:shadow-[0_4px_20px_rgba(139,105,20,0.14)] transition-shadow duration-200">
                   {concept}
                 </span>
               ))}

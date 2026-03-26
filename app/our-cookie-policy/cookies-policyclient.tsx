@@ -109,7 +109,7 @@ export default function PrivacyPolicy() {
     >
       <div id="cookies-content" className="space-y-8 text-base leading-relaxed font-normal">
         {/* Header */}
-        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 text-base leading-relaxed font-normal">
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 text-base leading-relaxed font-normal">
           <div className="flex items-center gap-3 text-base leading-relaxed font-normal">
             <span className="text-base leading-relaxed font-normal">🔒</span>
             <strong className="text-xl md:text-base">{privacy.lastupdated}</strong>
@@ -118,7 +118,7 @@ export default function PrivacyPolicy() {
         </div>
 
         {/* Intro */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
+        <section className="rounded-2xl p-4 md:p-8">
           <h3 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3">
             <span className="text-base leading-relaxed font-normal">🛡️</span>
             {privacy.intro.title}
@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Information We Collect */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <h3 className="flex items-center gap-3 text-xl font-semibold leading-snug mb-2">
             <span className="text-base leading-relaxed font-normal">📊</span>
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* How We Use */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <h4 className="text-base sm:text-md font-semibold mb-4 flex items-center gap-3">
             <span className="text-base leading-relaxed font-normal">🎯</span>
             {privacy.howweuse?.title}
@@ -150,7 +150,7 @@ export default function PrivacyPolicy() {
           <ul className="space-y-3 list-disc pl-5 text-base leading-relaxed">
             {(privacy.howweuse?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 mb-2">
-                <span className="flex-shrink-0 w-2 h-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full text-base leading-relaxed font-normal" />
+                <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
                 <span className="flex-1 text-base leading-relaxed font-normal">{p}</span>
               </li>
             ))}
@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Cookies & Local Storage */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <h5 className="text-base sm:text-md font-semibold mb-4 flex items-center gap-3">
             <span className="text-base leading-relaxed font-normal">🍪</span>
             {privacy.cookieslocalstorage.title}
@@ -167,7 +167,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Third Party */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <h6 className="text-base sm:text-md font-semibold mb-4 flex items-center gap-3">
             <span className="text-base leading-relaxed font-normal">🔗</span>
             {privacy.thirdparty.title}
@@ -176,7 +176,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Security */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
             <span className="text-base leading-relaxed font-normal">🔐</span>
             {privacy.security.title}
@@ -185,7 +185,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Rights */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
             <span className="text-base leading-relaxed font-normal">⚖️</span>
             {privacy.rights.title}
@@ -194,7 +194,7 @@ export default function PrivacyPolicy() {
           <ul className="space-y-3 list-disc pl-5 text-base leading-relaxed">
             {(privacy.rights?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 mb-2">
-                <span className="flex-shrink-0 w-2 h-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full text-base leading-relaxed font-normal" />
+                <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
                 <span className="flex-1 text-base leading-relaxed font-normal">{p}</span>
               </li>
             ))}
@@ -203,7 +203,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Children */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
             <span className="text-base leading-relaxed font-normal">👶</span>
             {privacy.children.title}
@@ -212,7 +212,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Changes */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
           <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
             <span className="text-base leading-relaxed font-normal">🔄</span>
             {privacy.changes.title}
@@ -221,7 +221,7 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Contact */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
+        <section className="rounded-2xl p-4 md:p-8">
           <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
             <span className="text-base leading-relaxed font-normal">📧</span>
             {privacy.contact.title}
@@ -231,7 +231,7 @@ export default function PrivacyPolicy() {
             <p><strong className="text-amber-800">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
             <p><strong className="text-amber-800">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
           </div>
-          <p className="pt-4 border-t border-amber-300 text-base leading-relaxed mb-4 font-normal">{privacy.contact.closing}</p>
+          <p className="pt-4 text-base leading-relaxed mb-4 font-normal">{privacy.contact.closing}</p>
         </section>
       </div>
     </PageLayout>

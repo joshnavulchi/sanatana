@@ -50,8 +50,8 @@ export default function ItihasaClient() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-base leading-relaxed font-normal">
         {links.map((link) => (
           <Link key={link.href} href={link.href} className="group block">
-            <div className="relative overflow-hidden rounded-2xl border border-amber-200/50 bg-amber-50 p-4 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)] text-base leading-relaxed font-normal">
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-700 via-amber-500 to-amber-300 text-base leading-relaxed font-normal" />
+            <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-4 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)] text-base leading-relaxed font-normal">
+              <div className="absolute top-0 left-0 right-0 h-1 text-base leading-relaxed font-normal" />
               <div className="flex items-center gap-3 text-base leading-relaxed font-normal">
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-base leading-relaxed font-normal">⚔️</span>
                 <h3 className="group-hover:text-primary-600 transition-colors text-xl font-semibold leading-snug mb-2">{link.label}</h3>

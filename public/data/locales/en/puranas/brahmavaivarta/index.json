@@ -1,10 +1,10 @@
 {
-  "puranas_brahmavaivarta-purana": {
+  "brahmavaivarta": {
     "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
     "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
     "meta": {
       "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+      "canonical": "https://sanatanadharmam.in/puranas/brahmavaivarta",
       "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
       "keywords": [
         "Brahmavaivarta Purana",
@@ -15,18 +15,18 @@
         "dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png"
+      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta",
+      "ogImage": "https://sanatanadharmam.in/og/brahmavaivarta.png"
     },
     "openGraph": {
       "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png",
+          "url": "https://sanatanadharmam.in/og/brahmavaivarta.png",
           "width": 1200,
           "height": 630,
           "alt": "Brahmavaivarta Purana – Purana Overview and Key Themes"
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Brahmavaivarta Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

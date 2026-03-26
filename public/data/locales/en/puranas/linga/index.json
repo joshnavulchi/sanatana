@@ -1,10 +1,10 @@
 {
-  "puranas_linga-purana": {
+  "linga": {
     "title": "Linga Purana – Purana Overview and Key Themes",
     "description": "A structured overview of Linga Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
     "meta": {
       "title": "Linga Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/linga-purana",
+      "canonical": "https://sanatanadharmam.in/puranas/linga",
       "description": "A structured overview of Linga Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
       "keywords": [
         "Linga Purana",
@@ -15,18 +15,18 @@
         "dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/linga-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_linga_purana.png"
+      "url": "https://sanatanadharmam.in/puranas/linga",
+      "ogImage": "https://sanatanadharmam.in/og/linga.png"
     },
     "openGraph": {
       "title": "Linga Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Linga Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/linga-purana",
+      "url": "https://sanatanadharmam.in/puranas/linga",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas_linga_purana.png",
+          "url": "https://sanatanadharmam.in/og/linga.png",
           "width": 1200,
           "height": 630,
           "alt": "Linga Purana – Purana Overview and Key Themes"
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Linga Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Linga Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/linga-purana",
+      "url": "https://sanatanadharmam.in/puranas/linga",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

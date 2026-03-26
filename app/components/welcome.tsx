@@ -40,7 +40,7 @@ export default function WelcomePage() {
         `}
       >
         {/* Decorative top border with gradient */}
-        <div className="h-1 w-full bg-linear-to-r from-transparent via-amber-300 to-transparent mb-6 rounded-full" />
+        <div className="h-1 w-full mb-6 rounded-full" />
 
         {/* Main welcome card */}
         <div className="relative">
@@ -48,7 +48,7 @@ export default function WelcomePage() {
           <button
             onClick={handleClose}
             aria-label="Close welcome message"
-            className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/70 backdrop-blur-sm border border-amber-200 rounded-full shadow-md flex items-center justify-center transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-200"
+            className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/70 backdrop-blur-sm rounded-full shadow-md flex items-center justify-center transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-200"
           >
             <span className="sr-only">Close</span>
             <svg
@@ -62,13 +62,13 @@ export default function WelcomePage() {
           </button>
 
           {/* Ornamental corners */}
-          <div className="absolute -top-4 -left-4 w-16 h-16 border-l-2 border-t-2 border-amber-200/40 rounded-tl-2xl" />
-          <div className="absolute -top-4 -right-4 w-16 h-16 border-r-2 border-t-2 border-amber-200/40 rounded-tr-2xl" />
-          <div className="absolute -bottom-4 -left-4 w-16 h-16 border-l-2 border-b-2 border-amber-200/40 rounded-bl-2xl" />
-          <div className="absolute -bottom-4 -right-4 w-16 h-16 border-r-2 border-b-2 border-amber-200/40 rounded-br-2xl" />
+          <div className="absolute -top-4 -left-4 w-16 h-16 border-amber-200/40 rounded-tl-2xl" />
+          <div className="absolute -top-4 -right-4 w-16 h-16 border-amber-200/40 rounded-tr-2xl" />
+          <div className="absolute -bottom-4 -left-4 w-16 h-16 border-amber-200/40 rounded-bl-2xl" />
+          <div className="absolute -bottom-4 -right-4 w-16 h-16 border-amber-200/40 rounded-br-2xl" />
 
           {/* Content container */}
-          <div className="bg-white/75 backdrop-blur-sm border border-amber-100 rounded-2xl shadow-lg p-6 md:p-12 relative overflow-hidden">
+          <div className="bg-white/75 backdrop-blur-sm rounded-2xl shadow-lg p-6 md:p-12 relative overflow-hidden">
             {/* Subtle background pattern */}
             <div className="absolute inset-0 opacity-5">
               <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -85,9 +85,9 @@ export default function WelcomePage() {
             <div className="relative z-10 text-center space-y-4">
               {/* Greeting with Om symbol */}
               <div className="flex items-center justify-center gap-4 mb-4">
-                <div className="h-px w-12 bg-linear-to-r from-transparent to-amber-300" />
+                <div className="h-px w-12" />
                 <span className="text-3xl text-amber-800 animate-pulse">ॐ</span>
-                <div className="h-px w-12 bg-linear-to-l from-transparent to-amber-300" />
+                <div className="h-px w-12" />
               </div>
 
               {/* Welcome title */}
@@ -141,13 +141,13 @@ export default function WelcomePage() {
               </div>
 
               {/* Do not show again checkbox and close button */}
-              <div className="pt-6 border-t border-amber-200/30 mt-6 flex flex-col items-center gap-4">
+              <div className="pt-6 border-amber-200/30 mt-6 flex flex-col items-center gap-4">
                 <label className="flex items-center justify-center gap-3 cursor-pointer group">
                   <input
                     type="checkbox"
                     checked={doNotShowAgain}
                     onChange={(e) => setDoNotShowAgain(e.target.checked)}
-                    className="w-5 h-5 rounded border-2 border-amber-300 text-amber-700 focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 cursor-pointer transition-all"
+                    className="w-5 h-5 rounded text-amber-700 focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 cursor-pointer transition-all"
                   />
                   <span className="text-sm md:text-base text-gray-700 group-hover:text-amber-700 transition-colors">
                     Do not show this welcome message again
@@ -155,7 +155,7 @@ export default function WelcomePage() {
                 </label>
                 <button
                   onClick={handleClose}
-                  className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold border border-amber-600 shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
+                  className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
                 >
                   <span className="relative z-10 tracking-widest text-base select-none">Close</span>
                 </button>
@@ -165,7 +165,7 @@ export default function WelcomePage() {
         </div>
 
         {/* Decorative bottom border with gradient */}
-        <div className="h-1 w-full bg-gradient-to-r from-transparent via-orange-500 to-transparent mt-8 rounded-full" />
+        <div className="h-1 w-full mt-8 rounded-full" />
       </div>
     </div>
   );
