@@ -134,10 +134,8 @@ export default function OurFourCoreYugas() {
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
         {/* ─── Header ─── */}
-        <div
-          className={`mx-auto mb-8 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-            }`}
-        >
+        <div className={`mx-auto mb-8 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          }`}>
           {/* Ornamental divider */}
           <div className="mb-4 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#d8a25a]" />
@@ -201,8 +199,8 @@ export default function OurFourCoreYugas() {
 
           {/* Highlight note */}
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_8px_20px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-relaxed text-transparent">
+            <div className="mx-auto max-w-5xl bg-black/5 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-relaxed">
                 {earthAgeComparisonNote}
               </p>
             </div>
