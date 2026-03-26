@@ -1,10 +1,10 @@
 {
-  "puranas_shiva-purana": {
+  "shiva": {
     "title": "Shiva Purana – Purana Overview and Key Themes",
     "description": "A structured overview of Shiva Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
     "meta": {
       "title": "Shiva Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/shiva-purana",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva",
       "description": "A structured overview of Shiva Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
       "keywords": [
         "Shiva Purana",
@@ -15,18 +15,18 @@
         "dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/shiva-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_shiva_purana.png"
+      "url": "https://sanatanadharmam.in/puranas/shiva",
+      "ogImage": "https://sanatanadharmam.in/og/shiva.png"
     },
     "openGraph": {
       "title": "Shiva Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Shiva Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/shiva-purana",
+      "url": "https://sanatanadharmam.in/puranas/shiva",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas_shiva_purana.png",
+          "url": "https://sanatanadharmam.in/og/shiva.png",
           "width": 1200,
           "height": 630,
           "alt": "Shiva Purana – Purana Overview and Key Themes"
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Shiva Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Shiva Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/shiva-purana",
+      "url": "https://sanatanadharmam.in/puranas/shiva",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

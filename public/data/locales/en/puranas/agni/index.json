@@ -1,10 +1,10 @@
 {
-  "puranas_agni-purana": {
+  "agni": {
     "title": "Agni Purana – Purana Overview and Key Themes",
     "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
     "meta": {
       "title": "Agni Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/agni-purana",
+      "canonical": "https://sanatanadharmam.in/puranas/agni",
       "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
       "keywords": [
         "Agni Purana",
@@ -15,18 +15,18 @@
         "dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_agni_purana.png"
+      "url": "https://sanatanadharmam.in/puranas/agni",
+      "ogImage": "https://sanatanadharmam.in/og/agni.png"
     },
     "openGraph": {
       "title": "Agni Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
+      "url": "https://sanatanadharmam.in/puranas/agni",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas_agni_purana.png",
+          "url": "https://sanatanadharmam.in/og/agni.png",
           "width": 1200,
           "height": 630,
           "alt": "Agni Purana – Purana Overview and Key Themes"
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Agni Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
+      "url": "https://sanatanadharmam.in/puranas/agni",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",

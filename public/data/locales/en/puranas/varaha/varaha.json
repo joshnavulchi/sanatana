@@ -1,10 +1,10 @@
 {
-  "puranas_varaha-purana": {
+  "varaha": {
     "title": "Varaha Purana – Purana Overview and Key Themes",
     "description": "A structured overview of Varaha Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
     "meta": {
       "title": "Varaha Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/varaha-purana",
+      "canonical": "https://sanatanadharmam.in/puranas/varaha",
       "description": "A structured overview of Varaha Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
       "keywords": [
         "Varaha Purana",
@@ -15,18 +15,18 @@
         "dharma"
       ],
       "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/varaha-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_varaha_purana.png"
+      "url": "https://sanatanadharmam.in/puranas/varaha",
+      "ogImage": "https://sanatanadharmam.in/og/varaha.png"
     },
     "openGraph": {
       "title": "Varaha Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Varaha Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/varaha-purana",
+      "url": "https://sanatanadharmam.in/puranas/varaha",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas_varaha_purana.png",
+          "url": "https://sanatanadharmam.in/og/varaha.png",
           "width": 1200,
           "height": 630,
           "alt": "Varaha Purana – Purana Overview and Key Themes"
@@ -38,7 +38,7 @@
       "@type": "Article",
       "name": "Varaha Purana – Purana Overview and Key Themes",
       "description": "A structured overview of Varaha Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/varaha-purana",
+      "url": "https://sanatanadharmam.in/puranas/varaha",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Sanatanadharmam",
