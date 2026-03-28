@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { LOCALES_PUBLIC_PATH } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
@@ -305,15 +306,69 @@ function DeityCard({ deity }: { deity: Record<string, unknown> }) {
 }
 
 /* ── Main VedasClient ── */
-export default function VedasClient() {
-  const { isLoading } = useLocale();
+type Props = {
+  initialVedas?: Record<string, unknown>[];
+};
+
+export default function VedasClient({ initialVedas }: Props) {
+  const { isLoading, locale } = useLocale();
   const ns = useLocaleSection('vedas');
+
+  const [fetchedVedas, setFetchedVedas] = useState<Record<string, unknown>[]>(initialVedas || []);
+  const [vedasLoading, setVedasLoading] = useState<boolean>(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function loadAll() {
+      setVedasLoading(true);
+      try {
+        const names = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
+        const results: Record<string, unknown>[] = [];
+        for (const name of names) {
+          try {
+            const url = `${LOCALES_PUBLIC_PATH}/${locale || 'en'}/vedas/${name}/index.json`;
+            const resp = await fetch(url);
+            if (!resp.ok) {
+              console.debug('[VedasClient] fetch not ok', url, resp.status);
+              continue;
+            }
+            const parsed = await resp.json();
+            const key = Object.keys(parsed)[0];
+            const obj = (parsed && parsed[key]) ? parsed[key] : parsed;
+            if (obj && typeof obj === 'object') {
+              if (!(obj as any).veda) (obj as any).veda = name.charAt(0).toUpperCase() + name.slice(1);
+              results.push(obj as Record<string, unknown>);
+              console.debug('[VedasClient] loaded', name, url);
+            }
+          } catch (e) {
+            console.debug('[VedasClient] failed load', name, e?.toString ? e.toString() : e);
+          }
+        }
+        if (!cancelled) setFetchedVedas(results);
+      } finally {
+        if (!cancelled) setVedasLoading(false);
+      }
+    }
+    // Only auto-load if we don't have initial server-provided vedas
+    if ((initialVedas && initialVedas.length > 0) || typeof window === 'undefined') return;
+    loadAll();
+    return () => { cancelled = true; };
+  }, [locale]);
 
   const title = ns?.title || 'Vedas';
   const definition = typeof ns?.definition === 'string' ? ns.definition : '';
   const meaningOfWord = typeof ns?.meaning_of_word_veda === 'string' ? ns.meaning_of_word_veda : '';
   const introduction = typeof ns?.introduction === 'string' ? ns.introduction : '';
-  const scriptureText = Array.isArray(ns?.scripture_text) ? ns.scripture_text : [];
+  // Merge server-provided namespace scripture_text with any fetched per-veda objects.
+  const serverScripture = Array.isArray(ns?.scripture_text) ? ns?.scripture_text : [];
+  const merged: Record<string, unknown>[] = [...serverScripture];
+  for (const fv of fetchedVedas) {
+    const vname = String((fv as any).veda || '').toLowerCase();
+    if (!merged.some((m: any) => String((m as any).veda || '').toLowerCase() === vname)) {
+      merged.push(fv);
+    }
+  }
+  const scriptureText = merged;
   const philosophicalExplanation = typeof ns?.philosophical_explanation === 'string' ? ns.philosophical_explanation : '';
   const relatedConcepts = Array.isArray(ns?.related_concepts) ? ns.related_concepts : [];
   const period = ns?.estimated_composition_period as Record<string, string> | undefined;
@@ -329,6 +384,22 @@ export default function VedasClient() {
     return (
       <PageLayout metaKey="vedas" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedas' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
+      </PageLayout>
+    );
+  }
+
+  const hasScripture = Array.isArray(scriptureText) && scriptureText.length > 0;
+  if (!hasScripture) {
+    return (
+      <PageLayout metaKey="vedas" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedas' }]} className="layout-md">
+        <div className="py-12 text-center">
+          <p className="mb-4">No Vedas content available yet. server: {serverScripture.length}, fetched: {fetchedVedas.length}</p>
+          <ul className="space-y-2">
+            {['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'].map((n) => (
+              <li key={n}><a className="text-blue-600" href={`${LOCALES_PUBLIC_PATH}/${locale || 'en'}/vedas/${n}/index.json`} target="_blank" rel="noreferrer">{n} JSON</a></li>
+            ))}
+          </ul>
+        </div>
       </PageLayout>
     );
   }

@@ -101,7 +101,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-4">
-          <span className={`inline-flex items-center gap-2 rounded-md border ${tone.ring} ${tone.pillBg} px-5 py-2 text-sm font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
+          <span className={`inline-flex items-center gap-2 rounded-md border ${tone.ring} ${tone.pillBg} px-2 py-1 text-xs font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
             <svg className="h-3.5 w-3.5 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -127,8 +127,8 @@ export default function OurFourCoreYugas() {
     <section className="relative bg-white/50 backdrop-blur-sm py-6 md:py-20 overflow-hidden">
       {/* Ornamental background shapes */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/10 blur-2xl animate-ping" />
-        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/10 blur-2xl animate-ping" />
+        <div className="absolute -left-25 top-5 h-72 w-72 rounded-full bg-[#f3b86b]/10 blur-2xl animate-ping" />
+        <div className="absolute -right-25 bottom-5 h-80 w-80 rounded-full bg-[#d97706]/10 blur-2xl animate-ping" />
         <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/10 blur-2xl animate-ping" />
       </div>
 
