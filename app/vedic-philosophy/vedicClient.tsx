@@ -49,9 +49,21 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
   );
 }
 
-export default function VedicPhilosophyClient() {
+type Props = {
+  initialStructure?: Record<string, unknown>;
+  initialFolderLinks?: { href: string; label: string; description?: string }[];
+};
+
+export default function VedicClient({ initialStructure, initialFolderLinks }: Props) {
   const { isLoading } = useLocale();
-  const structure = useLocaleSection('vedic_philosophy_structure');
+  const clientStructureRaw = useLocaleSection('vedic-philosophy');
+  const clientStructure = (clientStructureRaw && typeof clientStructureRaw === 'object' && (clientStructureRaw as any).vedic_philosophy)
+    ? (clientStructureRaw as any).vedic_philosophy
+    : clientStructureRaw;
+
+  const structure = (initialStructure && typeof initialStructure === 'object' && Object.keys(initialStructure).length > 0)
+    ? initialStructure
+    : clientStructure;
 
   const title = typeof structure?.title === 'string' ? structure.title : 'Vedic Philosophy';
   const introduction = typeof structure?.introduction === 'string' ? structure.introduction : '';
@@ -82,10 +94,35 @@ export default function VedicPhilosophyClient() {
     })
     .filter(Boolean) as TopicLink[];
 
+  const discoveredLinks = (initialFolderLinks || []).slice();
+
+  const discoveredMap: Record<string, { href: string; label: string; description?: string }> = {};
+  for (const l of discoveredLinks) {
+    try {
+      const parts = l.href.split('/').filter(Boolean);
+      const slug = parts[parts.length - 1];
+      discoveredMap[slug] = l;
+    } catch (_) {
+      // ignore
+    }
+  }
+
+  const desiredTopics = [
+    'advaita', 'astronomy', 'bhakti', 'dharma', 'karma', 'mathematics', 'medicine',
+    'moksha', 'purushartha', 'samsara', 'yoga'
+  ];
+
+  const finalFolderLinks = desiredTopics.map((slug) => {
+    if (discoveredMap[slug]) return discoveredMap[slug];
+    // fallback placeholder
+    const label = slug.replace(/-/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
+    return { href: `/vedic-philosophy/${slug}`, label, description: undefined };
+  });
+
   if (isLoading && links.length === 0) {
     return (
       <PageLayout
-        metaKey="vedic_philosophy_structure"
+        metaKey="vedic-philosophy"
         title=""
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Philosophy' }]}
         className="layout-md"
@@ -97,7 +134,7 @@ export default function VedicPhilosophyClient() {
 
   return (
     <PageLayout
-      metaKey="vedic_philosophy_structure"
+      metaKey="vedic-philosophy"
       title={title}
       breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]}
       className="layout-md"
@@ -128,6 +165,22 @@ export default function VedicPhilosophyClient() {
           <h3 className="section-title mb-4">Philosophical Explanation</h3>
           <div className="body-text">
             <Paragraphs text={philosophical} />
+          </div>
+        </div>
+      )}
+
+      {finalFolderLinks && finalFolderLinks.length > 0 && (
+        <div className="mt-6">
+          <h3 className="section-title mb-4">Explore Topics</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {finalFolderLinks.map((link) => (
+              <Link key={link.href} href={link.href} className="group block">
+                <article className="relative overflow-hidden rounded-2xl border-amber-200/40 bg-amber-50 p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">{link.label}</h4>
+                  {link.description && <p className="text-sm text-gray-700">{link.description}</p>}
+                </article>
+              </Link>
+            ))}
           </div>
         </div>
       )}

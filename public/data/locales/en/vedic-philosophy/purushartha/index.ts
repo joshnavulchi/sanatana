@@ -89,9 +89,11 @@ import _j82 from './concept-84.json';
 import _j83 from './concept-85.json';
 import _j84 from './concept-86.json';
 import _j85 from './concept-9.json';
+import _j86 from './dharma-artha-kama-moksha.json';
+import _j87 from './index.json';
 
 
 
-const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39, _j40, _j41, _j42, _j43, _j44, _j45, _j46, _j47, _j48, _j49, _j50, _j51, _j52, _j53, _j54, _j55, _j56, _j57, _j58, _j59, _j60, _j61, _j62, _j63, _j64, _j65, _j66, _j67, _j68, _j69, _j70, _j71, _j72, _j73, _j74, _j75, _j76, _j77, _j78, _j79, _j80, _j81, _j82, _j83, _j84, _j85);
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39, _j40, _j41, _j42, _j43, _j44, _j45, _j46, _j47, _j48, _j49, _j50, _j51, _j52, _j53, _j54, _j55, _j56, _j57, _j58, _j59, _j60, _j61, _j62, _j63, _j64, _j65, _j66, _j67, _j68, _j69, _j70, _j71, _j72, _j73, _j74, _j75, _j76, _j77, _j78, _j79, _j80, _j81, _j82, _j83, _j84, _j85, _j86, _j87);
 
 export default merged;
