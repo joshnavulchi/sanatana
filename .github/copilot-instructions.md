@@ -262,3 +262,18 @@ These repository conventions must be applied when generating code or OpenSpec ar
 * **Task sizing:** Break implementation tasks into small, testable chunks (max ~2 hours per task).
 
 Follow these conventions in addition to the generic rules above.
+
+---
+
+# Page JSON Rendering
+
+When generating or updating page components, render the page's JSON locale/context object into the UI for discovery and content completeness. However, exclude the following keys from direct rendering: `meta`, `openGraph`, and `schema` — these are for metadata only and should be used to populate page metadata or structured-data blocks, not displayed as page content.
+
+Guidelines:
+
+* Use the locale namespace or the page's `index.json` as the source of truth for content.
+* Render any string, paragraphs, arrays, or structured content from the JSON except the excluded keys above.
+* Use existing helpers (`useLocaleSection`, `getLocaleNamespaceObject`, `loadLocaleData`) to load data.
+* Sanitize or format long text (e.g., split on `\n\n` into paragraphs) before rendering.
+* Use `meta`, `openGraph`, and `schema` only to populate `generateMetadata`, Open Graph tags, and JSON-LD respectively.
+

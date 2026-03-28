@@ -4,9 +4,9 @@ import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import VedasClient from './VedasClient';
+import VedaClient from './vedaClient';
 
-type VedasData = {
+type vedaData = {
   title?: string;
   description?: string;
   content?: string | Record<string, any>;
@@ -40,16 +40,16 @@ export default async function Page({ params }: { params: { vedas?: string } | Pr
   const vedas = [vedasParam];
   const locale = DEFAULT_LOCALE;
   const fetched = await fetchContentByRoute(locale, ['vedas', ...vedas]);
-  let data: VedasData | null = fetched && fetched.data ? (fetched.data as any) : null;
+  let data: vedaData | null = fetched && fetched.data ? (fetched.data as any) : null;
   if (data && typeof data === 'object' && vedas.length > 0) {
     const rootKey = vedas[0];
     if ((data as any)[rootKey]) {
-      data = (data as any)[rootKey] as VedasData;
+      data = (data as any)[rootKey] as vedaData;
     }
   }
   if (!data) return notFound();
 
-  return <VedasClient initialData={data} initialLocale={locale} vedas={vedas} />;
+  return <VedaClient initialData={data} initialLocale={locale} vedas={vedas} />;
 }
 
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

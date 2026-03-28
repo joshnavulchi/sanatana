@@ -217,8 +217,8 @@ export default function Footer() {
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
-          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
+          <div className="absolute -left-25 -top-5 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
+          <div className="absolute -right-25 bottom-5 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10">
@@ -332,10 +332,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
-          {/* Bottom ornamental bar */}
-          <div className="h-1 w-full bg-linear-to-r from-gray-700 via-gray-500 to-gray-400" />
         </div>
+        {/* Bottom ornamental bar */}
+        <div className="h-1 w-full bg-linear-to-r from-gray-700 via-gray-500 to-gray-400" />
       </footer>
     </>
   );
