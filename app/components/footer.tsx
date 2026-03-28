@@ -271,11 +271,12 @@ export default function Footer() {
           {/* ─── Navigation Columns ─── */}
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
             <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
-              {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
+              {SECTION_CONFIG.map(({ key, icon, iconBg, basePath: configBase }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
                 const title = section.title || key;
-                const links = normalizeNavLinks(section.nav, basePath);
+                const bp = (section.basePath as string) || configBase || `/${key}`;
+                const links = normalizeNavLinks(section.nav, bp);
 
                 // Insert ItihasaColumn after puranas
                 return (

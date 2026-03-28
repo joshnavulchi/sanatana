@@ -15,167 +15,12 @@
     "header": {
       "vedas": {
         "title": "Vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
-      },
-      "upanishads": {
-        "title": "Upanishads",
         "nav": {
-          "isha": "Isha Upanishad",
-          "kena": "Kena Upanishad",
-          "katha": "Katha Upanishad",
-          "prashna": "Prashna Upanishad",
-          "mundaka": "Mundaka Upanishad",
-          "mandukya": "Mandukya Upanishad",
-          "taittiriya": "Taittiriya Upanishad",
-          "aitareya": "Aitareya Upanishad",
-          "chandogya": "Chandogya Upanishad",
-          "brihadaranyaka": "Brihadaranyaka Upanishad",
-          "shvetashvatara": "Shvetashvatara Upanishad",
-          "kaushitaki": "Kaushitaki Upanishad",
-          "maitri": "Maitri Upanishad"
+          "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
+          "samaveda": "Samaveda",
+          "atharvaveda": "Atharvaveda"
         }
-      },
-      "puranas": {
-        "title": "Puranas",
-        "nav": {
-          "brahma": "Brahma Purana",
-          "padma": "Padma Purana",
-          "vishnu": "Vishnu Purana",
-          "shiva": "Shiva Purana",
-          "bhagavata": "Bhagavata Purana",
-          "narada": "Narada Purana",
-          "markandeya": "Markandeya Purana",
-          "agni": "Agni Purana",
-          "bhavishya": "Bhavishya Purana",
-          "brahmavaivarta": "Brahmavaivarta Purana",
-          "linga": "Linga Purana",
-          "varaha": "Varaha Purana",
-          "skanda": "Skanda Purana",
-          "vamana": "Vamana Purana",
-          "kurma": "Kurma Purana",
-          "matsya": "Matsya Purana",
-          "garuda": "Garuda Purana",
-          "brahmanda": "Brahmanda Purana"
-        }
-      },
-      "itihasa": {
-        "title": "Itihasa",
-        "nav": [
-          {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
-            "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
-            }
-          },
-          {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
-            "parvas": 18
-          },
-          {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
-            "chapters": 18,
-            "verses": 700,
-            "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
-            }
-          }
-        ]
-      },
-      "philosopy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
-        "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
-        }
-      },
-      "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
-        "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
-        }
-      }
-    },
-    "footer": {
-      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
-      "contact": "Contact with us",
-      "contentchange": "Content may be incomplete or subject to change.",
-      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
-      "disclaimer": "Disclaimer: This website is currently in development.",
-      "donate": "Donate",
-      "vedas": {
-        "title": "Vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
       },
       "upanishads": {
         "title": "Upanishads",
@@ -274,11 +119,154 @@
         "subtitle": "Vedic",
         "nav": {
           "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
+          "astronomy": "Astronomy",
+          "bhakti": "Bhakti",
           "dharma": "Dharma",
           "karma": "Karma",
-          "moksha": "Moksha"
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "moksha": "Moksha",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "yoga": "Yoga"
+        }
+      },
+      "science": {
+        "title": "Science",
+        "basePath": "/vedic-science",
+        "subtitle": "Vedic",
+        "nav": {
+          "astronomy": "Astronomy",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "metallurgy": "Metallurgy",
+          "architecture": "Architecture"
+        }
+      }
+    },
+    "footer": {
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+      "contact": "Contact with us",
+      "contentchange": "Content may be incomplete or subject to change.",
+      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
+      "disclaimer": "Disclaimer: This website is currently in development.",
+      "donate": "Donate",
+      "vedas": {
+        "title": "Vedas",
+        "nav": {
+          "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
+          "samaveda": "Samaveda",
+          "atharvaveda": "Atharvaveda"
+        }
+      },
+      "upanishads": {
+        "title": "Upanishads",
+        "nav": {
+          "isha": "Isha Upanishad",
+          "kena": "Kena Upanishad",
+          "katha": "Katha Upanishad",
+          "prashna": "Prashna Upanishad",
+          "mundaka": "Mundaka Upanishad",
+          "mandukya": "Mandukya Upanishad",
+          "taittiriya": "Taittiriya Upanishad",
+          "aitareya": "Aitareya Upanishad",
+          "chandogya": "Chandogya Upanishad",
+          "brihadaranyaka": "Brihadaranyaka Upanishad",
+          "shvetashvatara": "Shvetashvatara Upanishad",
+          "kaushitaki": "Kaushitaki Upanishad",
+          "maitri": "Maitri Upanishad"
+        }
+      },
+      "puranas": {
+        "title": "Puranas",
+        "nav": {
+          "brahma": "Brahma Purana",
+          "padma": "Padma Purana",
+          "vishnu": "Vishnu Purana",
+          "shiva": "Shiva Purana",
+          "bhagavata": "Bhagavata Purana",
+          "narada": "Narada Purana",
+          "markandeya": "Markandeya Purana",
+          "agni": "Agni Purana",
+          "bhavishya": "Bhavishya Purana",
+          "brahmavaivarta": "Brahmavaivarta Purana",
+          "linga": "Linga Purana",
+          "varaha": "Varaha Purana",
+          "skanda": "Skanda Purana",
+          "vamana": "Vamana Purana",
+          "kurma": "Kurma Purana",
+          "matsya": "Matsya Purana",
+          "garuda": "Garuda Purana",
+          "brahmanda": "Brahmanda Purana"
+        }
+      },
+      "itihasa": {
+        "title": "Itihasa",
+        "nav": [
+          {
+            "name": "Ramayana",
+            "author": "Valmiki",
+            "description": "Epic describing the life of Lord Rama.",
+            "kandas": {
+              "bala-kanda": "Bala Kanda",
+              "ayodhya-kanda": "Ayodhya Kanda",
+              "aranya-kanda": "Aranya Kanda",
+              "kishkinda-kanda": "Kishkindha Kanda",
+              "sundara-kanda": "Sundara Kanda",
+              "yuddha-kanda": "Yuddha Kanda",
+              "uttara-kanda": "Uttara Kanda"
+            }
+          },
+          {
+            "name": "Mahabharata",
+            "author": "Vyasa",
+            "description": "Epic describing the Kurukshetra war and dharma.",
+            "parvas": 18
+          },
+          {
+            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "chapters": 18,
+            "verses": 700,
+            "chapters_list": {
+              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
+              "sankhya-yoga": "Sankhya Yoga",
+              "karma-yoga": "Karma Yoga",
+              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
+              "dhyana-yoga": "Dhyana Yoga",
+              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
+              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
+              "vibhuti-yoga": "Vibhuti Yoga",
+              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
+              "bhakti-yoga": "Bhakti Yoga",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
+              "purushottama-yoga": "Purushottama Yoga",
+              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
+              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+            }
+          }
+        ]
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "basePath": "/vedic-philosophy",
+        "subtitle": "Vedic",
+        "nav": {
+          "advaita": "Advaita",
+          "astronomy": "Astronomy",
+          "bhakti": "Bhakti",
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "moksha": "Moksha",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "yoga": "Yoga"
         }
       },
       "science": {
@@ -308,25 +296,12 @@
     "similar_categories": {
       "vedas": {
         "title": "Vedas",
-        "basePath": "/vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
+        "nav": {
+          "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
+          "samaveda": "Samaveda",
+          "atharvaveda": "Atharvaveda"
+        }
       },
       "upanishads": {
         "title": "Upanishads",
@@ -428,11 +403,16 @@
         "subtitle": "Vedic",
         "nav": {
           "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
+          "astronomy": "Astronomy",
+          "bhakti": "Bhakti",
           "dharma": "Dharma",
           "karma": "Karma",
-          "moksha": "Moksha"
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "moksha": "Moksha",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "yoga": "Yoga"
         }
       },
       "science": {

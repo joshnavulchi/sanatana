@@ -28,10 +28,9 @@ interface NavSection {
 
 /* ── Route mapping (JSON key → actual route prefix) ── */
 const ROUTE_MAP: Record<string, string> = {
-  // typo in JSON
+  // map logical keys to routes
   philosophy: '/vedic-philosophy',
-  // export uses `vedic-philosophy` for both philosophy and science namespaces
-  science: '/vedic-philosophy',
+  science: '/vedic-science',
 };
 
 /* ── Section ordering & icons ── */
@@ -55,7 +54,7 @@ function buildNavSections(header: Record<string, unknown>): NavSection[] {
 
     const sec = section as Record<string, unknown>;
     const title = (sec.title as string) || key;
-    const basePath = ROUTE_MAP[key] || `/${key}`;
+    const basePath = (sec.basePath as string) || ROUTE_MAP[key] || `/${key}`;
     const nav = sec.nav;
 
     const items: NavItem[] = [];
@@ -98,7 +97,6 @@ function buildNavSections(header: Record<string, unknown>): NavSection[] {
       sections.push({ key, title, basePath, items });
     }
   }
-
   return sections;
 }
 

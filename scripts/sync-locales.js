@@ -5,7 +5,9 @@ const path = require('path');
 const ROOT = process.cwd();
 const LOCALES_ROOT = path.join(ROOT, 'public', 'data', 'locales');
 const SOURCE_LOCALE = 'en';
-const INCLUDE_SOURCE = process.env.INCLUDE_SOURCE === '1' || process.argv.includes('--include-source');
+// Generate indexes for the source locale by default. Use `--exclude-source` or
+// set EXCLUDE_SOURCE=1 to skip the source locale when needed.
+const EXCLUDE_SOURCE = process.env.EXCLUDE_SOURCE === '1' || process.argv.includes('--exclude-source');
 
 // ------------------------
 // Helpers
@@ -143,22 +145,17 @@ function main() {
     process.exit(1);
   }
 
-  const targets = INCLUDE_SOURCE ? locales : locales.filter((l) => l !== SOURCE_LOCALE);
+  const targets = EXCLUDE_SOURCE ? locales.filter((l) => l !== SOURCE_LOCALE) : locales;
 
   if (targets.length === 0) {
     console.log('No target locales found. Nothing to do.');
     return;
   }
 
-  const srcRoot = path.join(LOCALES_ROOT, SOURCE_LOCALE);
-
   for (const tgt of targets) {
     const tgtRoot = path.join(LOCALES_ROOT, tgt);
 
-    console.log('\n=== Syncing locale:', tgt, '===');
-
-    // copyMissingFromSource(srcRoot, tgtRoot);
-    // removeExtrasNotInSource(srcRoot, tgtRoot);
+    console.log('\n=== Regenerating indexes for locale:', tgt, '===');
     regenerateIndexes(tgtRoot);
   }
 
