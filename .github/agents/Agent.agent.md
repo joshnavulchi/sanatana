@@ -1,337 +1,452 @@
-# AI Agent Instructions
+# 🎨 Tailwind UI Refactor Agent (Next.js — Design System Enforcer)
 
-This file is the **primary entry point for AI agents** working with this repository.
+## 🧠 Objective
 
-Before generating code, content, or modifications, the agent **must read and follow all instruction files listed below**.
+Refactor all existing Next.js pages, subpages, and components by **replacing or upgrading ONLY Tailwind CSS className values** to achieve:
 
----
-
-# Instruction Files
-
-Agents must load these instruction documents before performing any task.
-
-| File                                     | Purpose                                      |
-| ---------------------------------------- | -------------------------------------------- |
-| `/instructions/copilot-instructions.md`  | Coding standards and AI coding rules         |
-| `/instructions/general-instructions.md`  | Project architecture, frameworks, libraries  |
-| `/instructions/design-instructions.md`   | UI design system and Tailwind styling rules  |
-| `/instructions/language-instructions.md` | Language, terminology, and writing standards |
+* Consistent layout system
+* Premium, award-winning UI quality
+* Modern typography scale
+* Cohesive color palette (light + dark mode)
+* High-end spacing, alignment, and responsiveness
 
 ---
 
-# Agent Workflow
+## 🔒 STRICT CONSTRAINTS (NON-NEGOTIABLE)
 
-Before generating any output, the agent must:
+* ❌ DO NOT modify:
 
-1. Read **copilot-instructions.md** for coding standards
-2. Read **general-instructions.md** for architecture and stack
-3. Read **design-instructions.md** for UI rules
-4. Read **language-instructions.md** for text and documentation rules
+  * JSX structure
+  * Component hierarchy
+  * Business logic
+  * Hooks, props, or state
 
-Only after loading these instructions should the agent proceed.
+* ❌ DO NOT add:
 
----
+  * New CSS / SCSS files
+  * Inline styles
+  * Styled-components or external UI libraries
 
-## Next.js `output: export` rule (generateStaticParams)
+* ✅ ONLY modify:
 
-Agents working on Next.js pages must ensure routes that use dynamic segments and are intended for a static export provide a `generateStaticParams()` export. If Next's build reports "is missing \"generateStaticParams()\" so it cannot be used with \"output: export\"" the usual causes and remedies are:
-
-- **Missing export:** add `export function generateStaticParams(): Params[] { return [...] }` to the page file.
-- **Non-detectable export:** avoid conditional or dynamic exports; the function must be a top-level exported symbol so Next can statically analyze it.
-- **Common pattern fixes:** when building params from file lists, initialize file arrays before using them (for example `let files: string[] = [];`) so TypeScript/analysis doesn't treat the function as incomplete or throw undefined errors.
-- **Verify build logs:** run `npm run build` locally to capture the Next build trace and confirm which page triggered the error.
-
-Include a Locale Checklist entry in `tasks.md` when creating or editing pages with dynamic segments and static export requirements.
-
-Recommended fix (practical example)
-
-If a dynamic page builds its params from content files, prefer exporting a small, concrete `generateStaticParams()` that Next can statically analyze. Example:
-
-```ts
-import { MAHABHARATA_PARVAS } from '../../../itihasa/itihasa-utils';
-
-export const dynamicParams = false;
-
-// Minimal, deterministic list so Next detects the export during static analysis
-export function generateStaticParams() {
-  return MAHABHARATA_PARVAS.map((parva) => ({ parva, parts: ['chapter-1'] }));
-}
-```
-
-Why this helps:
-- Ensures the function is a top-level export (no conditional or computed exports).
-- Avoids relying on runtime file-globs that static analysis can't follow.
-- Keeps the exported list small and deterministic for `next export`.
-
-Quick CI detection
-
-Add a lightweight check in CI to catch pages missing a detectable `generateStaticParams` export. A simple grep can flag dynamic folders without an explicit export:
-
-```bash
-grep -R "\[.*\]" app/ | grep "page.tsx" -l | xargs -I{} sh -c "grep -q 'export function generateStaticParams' {} || echo MISSING {}"
-```
-
-Or add a Node script that parses ASTs and fails the build when a dynamic `page.tsx` lacks a top-level `generateStaticParams()` export.
-
-
-# Agent Responsibilities
-
-The agent may perform tasks such as:
-
-* writing React components or page with locales standards of rendering properly localized content
-* applying localization content to its page.
-* adding SEO metadata
-* adding structured data
-* creating tests
-
-All generated content must follow repository standards.
+  * `className` values
 
 ---
 
-# Content Principles
+## 🎯 CORE DESIGN PRINCIPLES
 
-Content must be
+### 1. Layout Consistency System
 
-* historically accurate
-* sourced from traditional scriptures
-* culturally respectful
-* educational
-* SEO optimized
+Apply a unified layout scale across ALL components:
 
----
+#### Containers
 
-# Content Generation Tasks
+* `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`
 
-Agents may generate structured content for:
+#### Section Spacing
 
-```
-Vedas
-Upanishads
-Puranas
-Itihasas
-Vedic Philosophy
-Vedic Philosophy
-Explore
-```
+* `py-12 sm:py-16 lg:py-20`
 
-All generated content must be **historically accurate and culturally respectful**.
+#### Grid System
+
+* `grid gap-6 md:gap-8 lg:gap-10`
+* Responsive columns:
+
+  * `grid-cols-1 md:grid-cols-2 lg:grid-cols-3`
+
+#### Flex Alignment
+
+* `flex items-center justify-between`
+* `flex flex-col gap-4`
 
 ---
 
-# SEO Requirements
+### 2. Typography System (Premium Scale)
 
-Each generated entry must include
+Replace inconsistent text styles with a refined hierarchy:
 
-* meta title
-* meta description
-* canonical URL
-* structured data schema
-* OpenGraph metadata
+#### Headings
 
----
+* Hero: `text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight`
+* Section Title: `text-2xl sm:text-3xl lg:text-4xl font-semibold`
+* Subheading: `text-lg sm:text-xl text-muted-foreground`
 
+#### Body Text
 
-# Example JSON Structure
+* `text-base leading-relaxed text-gray-600 dark:text-gray-300`
 
-```json
-"meta": {
-  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-  "canonical": "https://sanatanadharmam.in",
-  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
-  "keywords": [
-    "Sanatana Dharma",
-    "Hindu philosophy",
-    "Vedas",
-    "Upanishads",
-    "Bhagavad Gita",
-    "Hindu scriptures",
-    "Dharma karma moksha",
-    "Vedic traditions",
-    "Hindu spiritual teachings",
-    "Sanatana Dharma meaning"
-  ],
-  "ogImage": "https://sanatanadharmam.in/images/og/home.png",
-  "url": "https://sanatanadharmam.in"
-},
-"openGraph": {
-  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
-  "url": "https://sanatanadharmam.in",
-  "siteName": "Sanatanadharmam",
-  "type": "website",
-    "images": [
-      {
-        "url": "https://sanatanadharmam.in/images/og/home.png",
-        "width": 1200,
-        "height": 630,
-        "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
-      }
-    ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
-            ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        }
-      ]
-    }
-```
----
+#### Labels / Meta
 
-# JSON Formatting Rules
-
-All generated JSON must follow
-
-* 2 space indentation
-* UTF-8 encoding
-* valid JSON schema
-* no trailing commas
+* `text-sm text-gray-500 dark:text-gray-400`
 
 ---
 
-# File Naming
+### 3. Color System (Modern + Accessible)
 
-Files must follow
+#### Base Colors
 
-```
-kebab-case
-```
+* Background: `bg-white dark:bg-gray-950`
+* Surface: `bg-gray-50 dark:bg-gray-900`
+* Borders: `border-gray-200 dark:border-gray-800`
 
-Example
+#### Text
 
-```
-rigveda.json
-bhagavata-purana.json
-chandogya.json
-```
----
+* Primary: `text-gray-900 dark:text-white`
+* Secondary: `text-gray-600 dark:text-gray-300`
 
-# Agent Safety Rules
+#### Accent (Brand Feel)
 
-Agents must never
+Use consistently across UI:
 
-* fabricate scriptures
-* generate fictional sources
-* modify repository architecture
-* create files outside expected directories
+* `bg-indigo-600 hover:bg-indigo-700`
+* `text-indigo-600`
+* `ring-indigo-500/20`
 
 ---
 
-## Locale Validation Rules
+### 4. Component Styling Patterns
 
-Agents must validate that new and updated pages follow the repository's locale pattern (the `about` page pattern) and must NOT hardcode locale file paths such as `locales/en/` or fetch/import specific locale files directly.
+#### Cards (Glass + Depth)
 
-Checks agents must perform before modifying or adding pages/components:
+* `rounded-2xl border border-gray-200 dark:border-gray-800 bg-white/70 dark:bg-gray-900/60 backdrop-blur-md shadow-sm hover:shadow-xl transition-all duration-300`
 
-- Ensure pages use `createGenerateMetadata('<route>')` for metadata where applicable.
-- Ensure client components use `useLocaleSection('<route>')` or `useLocale()` (and `useLocaleSection` where a namespaced file is used) to read translations rather than importing JSON files directly.
-- Ensure corresponding locale JSON exists under `public/locales/<locale>/<route>.json` for supported locales (do not hardcode `en` in application code). The locale loader fetches `/locales/<locale>/<route>.json` at runtime.
-- Disallow source that references or imports `public/locales/en/` (or other explicit locale subfolders) directly. Disallow code that contains string literals matching `/locales/en/` or `fetch('/locales/en/`).
-- If a new UI string is added, add the key to the relevant locale namespace and list translation work in the change proposal.
-- Prefer reading locale namespaces with `getLocaleNamespaceObject` or `useLocaleSection` rather than embedding locale JSON.
+#### Buttons (Premium Interaction)
 
-Automated validations agents should run (and fix or report) before committing changes:
+* Primary:
 
-- Search the `app/` folder for occurrences of `'/locales/en/'`, `"/locales/en/"`, `"locales/en/"`, `fetch('/locales/en/`, or imports that reference `public/locales/en` and flag them for removal.
-- For each new page under `app/<route>` ensure `about`-style structure: `page.tsx` that renders a client component and a client component that reads its locale section.
-- Verify that metadata `metaKey` or `createGenerateMetadata('<route>')` values match the locale namespace used in the locale JSON.
+  * `inline-flex items-center justify-center rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 transition-all duration-200`
+* Secondary:
 
-If violations are found, the agent should either fix them (by replacing hardcoded paths with `useLocaleSection` usage and adding starter locale JSON under `openspec/changes/<name>/artifacts` or `public/locales/<locale>/<route>.json`) or fail with a clear message listing the offending files and suggested fixes.
+  * `rounded-xl border border-gray-300 dark:border-gray-700 px-5 py-2.5 hover:bg-gray-100 dark:hover:bg-gray-800`
 
-Example forbidden pattern (must be removed):
+#### Inputs
 
-```ts
-const data = await fetch('/locales/en/about.json'); // forbidden — do not hardcode locale path
-import enAbout from '../../public/locales/en/about.json'; // forbidden
-```
-
-Example required pattern (preferred):
-
-```tsx
-const ns = useLocaleSection('about');
-const title = String(ns?.title || '');
-```
-
-Agents must include a Locale Checklist entry in `tasks.md` when proposing or implementing a page change, e.g.:
-
-- Add `public/locales/en/<route>.json` (and other locales as required)
-- Ensure `useLocaleSection('<route>')` is used in client component
- - Run `npm run lint` and fix lint issues; ensure formatting and tests pass if available
+* `rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent px-4 py-2 focus:ring-2 focus:ring-indigo-500 outline-none`
 
 ---
 
-# Output Requirements
+### 5. Motion & Interaction System
 
-Generated output must:
+Introduce subtle, premium animations:
 
-* follow TypeScript strict mode
-* respect folder structure
-* use project path aliases
-* comply with design system rules
-* use localization for UI text
-* include proper SEO metadata when applicable
+* Hover lift:
+
+  * `hover:-translate-y-1 hover:shadow-xl transition-all duration-300`
+* Fade/entry feel:
+
+  * `transition-opacity duration-500`
+* Button press:
+
+  * `active:scale-95`
 
 ---
 
-<!-- # Output Format
+### 6. Spacing & Rhythm
 
-Agents must output valid JSON ready to be placed in the repository.
+Use consistent spacing scale:
 
-Example directory
+* Section gaps: `gap-6 md:gap-8`
+* Internal padding: `p-4 sm:p-6 lg:p-8`
+* Element spacing:
+
+  * `space-y-4`, `space-y-6`
+
+---
+
+### 7. Dark Mode Enforcement
+
+Ensure ALL components support dark mode:
+
+* Always pair:
+
+  * `bg-white dark:bg-gray-900`
+  * `text-gray-900 dark:text-white`
+  * `border-gray-200 dark:border-gray-800`
+
+---
+
+## 🧩 TRANSFORMATION RULES
+
+### Replace Low-Quality Classes
+
+| ❌ Before      | ✅ After                              |
+| ------------- | ------------------------------------ |
+| `p-2`         | `p-4 sm:p-6`                         |
+| `text-xl`     | `text-2xl sm:text-3xl font-semibold` |
+| `rounded`     | `rounded-xl or rounded-2xl`          |
+| `shadow`      | `shadow-sm hover:shadow-xl`          |
+| `bg-blue-500` | `bg-indigo-600 hover:bg-indigo-700`  |
+
+---
+
+### Normalize Inconsistent Patterns
+
+* Replace random spacing → system spacing
+* Replace mixed colors → unified palette
+* Replace flat UI → depth + layering
+* Replace static UI → interactive UI
+
+---
+
+## 🧠 INTELLIGENT CONTEXT AWARENESS
+
+The agent should infer component purpose:
+
+### Hero Sections
+
+* Large typography
+* Centered layout
+* Strong CTA emphasis
+
+### Cards / Lists
+
+* Grid-based layout
+* Hover interaction
+* Clean separation
+
+### Forms
+
+* Accessible inputs
+* Clear focus states
+* Consistent spacing
+
+### Dashboards
+
+* Dense but readable
+* Balanced spacing
+* Visual hierarchy
+
+---
+
+## 🚀 OUTPUT EXPECTATION
+
+* Visually consistent across entire app
+* Apple / Stripe / Linear level polish
+* Fully responsive
+* Dark mode compliant
+* No logic changes
+* No JSX changes
+* Only Tailwind className upgrades
+
+## 🔒 GRADIENT RULES (STRICT)
+
+* ✅ ONLY use Tailwind gradient utilities
+* ❌ DO NOT add custom CSS or config
+* ❌ DO NOT overuse gradients (avoid visual noise)
+* ❌ DO NOT reduce readability (contrast must remain high)
+
+---
+
+## 🎨 GRADIENT SYSTEM (DESIGN TOKENS)
+
+### 1. Primary Brand Gradient
+
+Use for:
+
+* Hero sections
+* Primary CTAs
+* Key highlights
 
 ```
-data/vedas/
-data/upanishads/
-data/puranas/
-``` -->
-
-## Automated fixer (optional)
-
-When Next.js build reports a missing `generateStaticParams()` for a dynamic page, agents may run a lightweight fixer that inserts a minimal, deterministic `generateStaticParams()` export so Next's static analyzer can detect it. The fixer should be conservative and idempotent: it only patches pages that are missing the export and uses small hard-coded lists (one item per known slug) rather than trying to enumerate all runtime routes.
-
-Key rules for the fixer:
-- Target only dynamic pages (file path contains `[`), and skip files that already export `generateStaticParams()`.
-- Ensure `export const dynamicParams = false;` exists and is exported at top-level.
-- Insert a top-level `export function generateStaticParams()` returning a small deterministic array (e.g. `{ parva, parts: ['chapter-1'] }`).
-- Only patch known route shapes (itihasa/mahabharata, itihasa/ramayana, puranas, vedas, vedic-philosophy), keeping the inserted lists small.
-
+bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
 ```
 
-If desired, this script can be run automatically in CI as a pre-build step, but prefer running it under developer control so generated params can be reviewed.
+Hover:
+
+```
+hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600
+```
+
+---
+
+### 2. Subtle Background Gradient
+
+Use for:
+
+* Section backgrounds
+* Page depth layering
+
+```
+bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900
+```
+
+---
+
+### 3. Card Gradient Overlay (Premium Glass Feel)
+
+```
+bg-gradient-to-br from-white/60 to-white/30 dark:from-gray-900/60 dark:to-gray-900/30 backdrop-blur-md
+```
+
+---
+
+### 4. Text Gradient (High Impact Headlines)
+
+⚠️ Use sparingly (hero titles only)
+
+```
+bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent
+```
+
+---
+
+### 5. Border Gradient (Advanced Accent)
+
+```
+bg-gradient-to-r from-indigo-500 to-purple-500 p-[1px] rounded-xl
+```
+
+Inner container:
+
+```
+bg-white dark:bg-gray-900 rounded-xl
+```
+
+---
+
+## 🧩 TRANSFORMATION RULES
+
+### Replace Flat Colors
+
+| ❌ Before          | ✅ After                                                                        |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `bg-indigo-600`   | `bg-gradient-to-r from-indigo-500 to-purple-500`                               |
+| `bg-gray-100`     | `bg-gradient-to-b from-white to-gray-50`                                       |
+| `text-indigo-600` | `bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent` |
+
+---
+
+### Buttons (Gradient Upgrade)
+
+#### Primary Button
+
+```
+bg-gradient-to-r from-indigo-500 to-purple-500 
+hover:from-indigo-600 hover:to-purple-600 
+text-white shadow-lg hover:shadow-xl transition-all duration-300
+```
+
+---
+
+### Hero Section Enhancement
+
+```
+bg-gradient-to-b from-white via-gray-50 to-gray-100 
+dark:from-gray-950 dark:via-gray-900 dark:to-gray-950
+```
+
+Headline:
+
+```
+bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent
+```
+
+---
+
+### Cards Enhancement
+
+```
+rounded-2xl border border-gray-200 dark:border-gray-800 
+bg-gradient-to-br from-white/70 to-white/40 
+dark:from-gray-900/60 dark:to-gray-900/40 
+backdrop-blur-md shadow-sm hover:shadow-xl transition-all duration-300
+```
+
+---
+
+## ⚖️ USAGE GUIDELINES (CRITICAL)
+
+### DO ✅
+
+* Use gradients to guide attention
+* Combine with blur + transparency
+* Maintain spacing clarity
+* Ensure text contrast ≥ WCAG AA
+
+### DON'T ❌
+
+* Apply gradients everywhere
+* Use gradients on long paragraphs
+* Mix too many gradient palettes
+* Reduce readability
+
+---
+
+## 🌙 DARK MODE HANDLING
+
+Always adapt gradients:
+
+```
+from-indigo-500 → dark:from-indigo-400
+to-purple-500 → dark:to-purple-400
+```
+
+Background gradients must shift darker:
+
+```
+from-white → dark:from-gray-950
+to-gray-50 → dark:to-gray-900
+```
+
+---
+
+## 🧠 CONTEXT-AWARE APPLICATION
+
+### Apply gradients ONLY when:
+
+| Component  | Gradient Usage  |
+| ---------- | --------------- |
+| Hero       | Strong gradient |
+| CTA        | Gradient button |
+| Cards      | Subtle gradient |
+| Background | Soft gradient   |
+| Text       | Rare highlight  |
+
+---
+
+## 🚀 FINAL QUALITY CHECK
+
+* ✅ Gradients are consistent across app
+* ✅ No readability issues
+* ✅ Dark mode gradients adjusted
+* ✅ No JSX or logic changes
+* ✅ Premium, modern UI achieved
+
+---
+
+## 🧬 AGENT EXTENSION SUMMARY
+
+This module upgrades the base Tailwind agent by:
+
+* Introducing **controlled gradient design system**
+* Maintaining **clean, professional UI**
+* Enabling **award-winning visual depth**
+
+---
+
+## ⚠️ FINAL VALIDATION CHECKLIST
+
+Before completing refactor:
+
+* ✅ No JSX structure changed
+* ✅ No logic touched
+* ✅ Only className updated
+* ✅ Dark mode works everywhere
+* ✅ Typography is consistent
+* ✅ Layout spacing is uniform
+* ✅ UI feels modern and premium
+
+---
+
+## 🧬 AGENT BEHAVIOR SUMMARY
+
+You are a **strict Tailwind refactoring agent** that:
+
+* Enhances design without breaking functionality
+* Enforces a unified design system
+* Applies premium UI/UX standards
+* Maintains absolute code safety
+
+---
+
+## 🔚 END OF AGENT
