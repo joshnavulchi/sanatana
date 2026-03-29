@@ -5,17 +5,19 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 
-export default function VedasClient() {
+export default function VedasClient({ initialVedas }: { initialVedas?: Record<string, unknown>[] } = {}) {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('vedas');
 
   const title = ns?.title || 'Vedas';
-  const vedas = [
-    { id: 'rigveda', label: 'Rigveda' },
-    { id: 'yajurveda', label: 'Yajurveda' },
-    { id: 'samaveda', label: 'Samaveda' },
-    { id: 'atharvaveda', label: 'Atharvaveda' },
-  ];
+  const vedas = (initialVedas && initialVedas.length > 0)
+    ? initialVedas.map((v) => ({ id: String((v as any).veda || (v as any).id || '' ).toLowerCase(), label: String((v as any).veda || (v as any).label || (v as any).id || '') }))
+    : [
+      { id: 'rigveda', label: 'Rigveda' },
+      { id: 'yajurveda', label: 'Yajurveda' },
+      { id: 'samaveda', label: 'Samaveda' },
+      { id: 'atharvaveda', label: 'Atharvaveda' },
+    ];
 
   if (isLoading && !ns?.title) {
     return (

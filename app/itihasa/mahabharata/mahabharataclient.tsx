@@ -4,6 +4,7 @@ import useLocaleSection from '@app/hooks/useLocaleSection';
 import Link from 'next/link';
 import Loader from '@components/loader';
 import PageLayout from '@components/common/PageLayout';
+import { MAHABHARATA_PARVAS, toTitleFromSlug } from '@lib/siteUtils';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -109,7 +110,7 @@ export default function MahabharataClient() {
       <div className="mt-8">
         <h3 className="section-title mb-6 text-blue-900">Parvas</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {MAHABHARATA_PARVAS.map((parva, idx) => (
+          {MAHABHARATA_PARVAS.map((parva: string, idx: number) => (
             <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">
               <div className="relative overflow-hidden rounded-2xl border-blue-200/50 bg-gradient-to-r from-blue-100/80 to-indigo-50/60 p-5 shadow-lg transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:bg-blue-100/80 animate-fadeIn">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-200/60 to-indigo-100/0 animate-pulse" />
