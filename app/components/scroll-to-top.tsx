@@ -42,7 +42,7 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed z-50 bottom-8 right-8 p-2 rounded-full shadow-2xl bg-gradient-to-br from-pink-500 via-amber-400 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white tracking-widest border-4 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 flex items-center justify-center animate-bounce animate-fadeInUp transition-all duration-300"
+          className="fixed z-50 bottom-8 right-8 p-2 rounded-full shadow-2xl bg-gradient-to-br from-pink-500 via-amber-400 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white tracking-widest border-4 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 flex items-center justify-center animate-bounce animate-fadeInUp transition-all duration-300 cursor-pointer"
           aria-label={locale?.scrolltotop?.arialabel || 'Scroll to top'}
           title={locale?.scrolltotop?.title || 'Scroll to top'}
         >
