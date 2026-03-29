@@ -5,6 +5,7 @@
   background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
   color: #fff;
 }
+
 /* Reserve space for elements to prevent CLS */
 .hidden.items-center.md\:flex {
   @media (min-width: 768px) {

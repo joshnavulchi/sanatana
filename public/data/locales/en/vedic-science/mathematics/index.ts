@@ -1,9 +1,9 @@
 // @ts-nocheck
 // Auto-generated index (JSON-only)
-// Folder: 'en\vedic-philosophy\astronomy'
+// Folder: 'en\vedic-science\mathematics'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './astronomy.json';
+import _j0 from './mathematics.json';
 
 
 

@@ -14,19 +14,14 @@ export default function TermsOfService() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('terms_of_service');
 
-  // Initialize with empty state to avoid hydration mismatch
-  // useLocaleSection will populate the data properly
   const [page, setPage] = useState<PartialPage>({ title: '', lastupdated: '' });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
-      // Locale loading is now handled by context/useLocaleSection
       if (!mounted) return;
-
       const title = ns?.title || '';
       const lastupdated = ns?.lastupdated || '';
-
       const keys = [
         'intro', 'acceptancetitle', 'uselicensetitle', 'uselicensetext', 'uselicenselist',
         'intellectualtitle', 'intellectualtext', 'userconducttitle', 'userconductintro', 'userconductlist',
@@ -39,23 +34,14 @@ export default function TermsOfService() {
       ];
 
       const data: PartialPage = {};
-      keys.forEach((k) => {
-        data[k] = parseMaybeObject(ns ? ns[k] : '');
-      });
+      keys.forEach((k) => { data[k] = parseMaybeObject(ns ? ns[k] : ''); });
 
-      // ensure known list fields become arrays when strings
       ['userconductlist', 'disclaimerlist', 'uselicenselist'].forEach((lk) => {
         const val = data[lk];
-        if (typeof val === 'string') {
-          data[lk] = parseSections(val);
-        } else if (Array.isArray(val)) {
-          data[lk] = val;
-        } else if (val && typeof val === 'object') {
-          // Convert object to array of values
-          data[lk] = Object.values(val);
-        } else {
-          data[lk] = [];
-        }
+        if (typeof val === 'string') data[lk] = parseSections(val);
+        else if (Array.isArray(val)) data[lk] = val;
+        else if (val && typeof val === 'object') data[lk] = Object.values(val);
+        else data[lk] = [];
       });
 
       setPage({ title, lastupdated, ...data });
@@ -66,17 +52,14 @@ export default function TermsOfService() {
   if (isLoading && !page.title) {
     return (
       <PageLayout metaKey="terms_of_service" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-md">
-        <div className="flex items-center justify-center py-4 text-base leading-relaxed font-normal">
-          <Loader />
-        </div>
+        <div className="flex items-center justify-center py-4 text-base leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
   }
 
   const renderListItem = (arr: any, idx: number) => {
     if (!arr || !Array.isArray(arr) || idx >= arr.length) return '';
-    const item = arr[idx];
-    return typeof item === 'string' ? item : (item ? String(item) : '');
+    return arr[idx];
   };
 
   return (
@@ -87,7 +70,6 @@ export default function TermsOfService() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-md">
       <div className="space-y-8 text-base leading-relaxed font-normal" id="terms-of-service-content">
-        {/* Header with last updated */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 text-base leading-relaxed font-normal">
           <div className="flex items-center gap-3 text-base leading-relaxed font-normal">
             <span className="text-base leading-relaxed font-normal">📋</span>
@@ -96,77 +78,16 @@ export default function TermsOfService() {
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
 
-        {/* Acceptance section */}
-        <section className="rounded-2xl p-4 md:p-8">
-          <h3 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3">
-            <span className="text-base leading-relaxed font-normal">✅</span>
-            {page.acceptancetitle}
-          </h3>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.intro}</p>
-        </section>
-
-        {/* Use License */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="flex items-center gap-3 text-xl font-semibold leading-snug mb-2">
-            <span className="text-base leading-relaxed font-normal">📜</span>
-            {page.uselicensetitle}
-          </h3>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.uselicensetext}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
-            {[0, 1, 2, 3, 4].map((i) => {
-              const item = renderListItem(page.uselicenselist, i);
-              return item ? (
-                <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
-                  <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
-                </li>
-              ) : null;
-            })}
-          </ul>
-        </section>
-
-        {/* Intellectual Property */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">©️</span>
-            {page.intellectualtitle}
-          </h4>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.intellectualtext}</p>
-        </section>
-
-        {/* User Conduct */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">👤</span>
-            {page.userconducttitle}
-          </h5>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.userconductintro}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
-            {[0, 1, 2, 3, 4, 5].map((i) => {
-              const item = renderListItem(page.userconductlist, i);
-              return item ? (
-                <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
-                  <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
-                </li>
-              ) : null;
-            })}
-          </ul>
-        </section>
-
         {/* Disclaimer */}
-        <section className="rounded-lg p-4 md:p-8 shadow-lg">
-          <h6 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">⚠️</span>
-            {page.disclaimertitle}
-          </h6>
+        <section>
+          <h6 className="text-lg font-semibold">{page.disclaimertitle}</h6>
           <p className="text-base leading-relaxed mb-4 font-normal">{page.disclaimertext}</p>
           <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
               return item ? (
                 <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
+                  <span className="shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
                   <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
                 </li>
               ) : null;

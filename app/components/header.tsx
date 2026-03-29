@@ -8,7 +8,7 @@ import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-// ThemeToggle removed — header is light-only (no dark mode)
+import ThemeToggle from './theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
 
@@ -113,12 +113,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className={`group/item flex items-center gap-3 px-5 py-2 whitespace-nowrap rounded-md transition-all duration-200 ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50 text-amber-900 font-semibold' : 'text-gray-600 hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50 hover:text-amber-900'}`}
+        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap rounded-xl shadow-sm transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-bold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
       >
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary-700/10 text-xs text-primary-700 transition-colors duration-150 group-hover/item:bg-primary-700 group-hover/item:text-white">
+        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-base text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
           ◈
         </span>
-        <span className="text-sm font-semibold transition-all duration-200">{item.label}</span>
+        <span className="text-base font-semibold transition-all duration-300 tracking-wide">{item.label}</span>
       </Link>
     );
   }
@@ -126,24 +126,24 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
   // Has children → click chevron to expand inline sub-list
   return (
     <div className="group" onMouseEnter={() => onToggleSub(item.href)} onMouseLeave={() => onToggleSub(item.href)}>
-      <div className={`flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 rounded-md ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50' : 'hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50'}`}>
+      <div className={`flex items-center justify-between gap-3 px-4 py-2 transition-all duration-200 rounded-xl ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow-lg'}`}>
         <Link href={item.href} className="flex items-center gap-3 flex-1 px-2 whitespace-nowrap">
-          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-primary-700 text-white' : 'bg-primary-700/10 text-primary-700'}`}>
+          <span className={`flex h-6 w-6 items-center justify-center rounded-full text-base transition-colors duration-200 ${isSubOpen ? 'bg-linear-to-br from-indigo-600 to-pink-600 text-white shadow-lg' : 'bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-indigo-700'}`}>
             ◈
           </span>
-          <span className={`text-sm font-semibold transition-colors duration-150 ${itemActive ? 'text-amber-700' : 'text-gray-700'}`}>
+          <span className={`text-base font-semibold transition-colors duration-200 ${itemActive ? 'text-indigo-700' : 'text-gray-700'}`}>
             {item.label}
           </span>
         </Link>
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onToggleSub(item.href); }}
-          className="p-1 rounded-md hover:bg-amber-100 transition-colors cursor-pointer"
+          className="p-2 rounded-xl hover:bg-indigo-100 hover:shadow transition-colors cursor-pointer"
           aria-expanded={isSubOpen}
           aria-label={`Toggle ${item.label} sub-items`}
         >
           <svg
-            className={`h-3 w-3 text-primary-700 transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 text-indigo-600 transition-transform duration-300 ${isSubOpen ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -153,19 +153,21 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
 
       {/* Flyout submenu — opens RTL when dropdown anchored to right */}
       {isSubOpen && (
-        <div className={`${submenuPos} absolute top-0 w-max min-w-[12rem] bg-white rounded-md shadow-lg p-2 space-y-1 z-30 transform transition-all duration-150 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
+        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 dark:from-gray-900/90 dark:to-indigo-900/40 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
           {item.children.map((child) => (
             <Link
               key={child.href}
               href={child.href}
-              className={`flex items-center gap-3 px-3 py-2 rounded-md transition-transform duration-150 hover:bg-linear-to-r hover:from-amber-200 hover:via-amber-100 hover:to-amber-50 hover:-translate-x-1 hover:text-amber-900 ${isActive(child.href) ? 'bg-linear-to-r from-amber-300 via-amber-200 to-amber-100 text-amber-900 font-semibold' : 'text-gray-700'}`}>
-              <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
-              <span className="text-sm whitespace-nowrap">{child.label}</span>
+              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold' : 'text-gray-700'}`}
+            >
+              <span className="h-2.5 w-2.5 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 shrink-0" />
+              <span className="text-base whitespace-nowrap font-medium">{child.label}</span>
             </Link>
           ))}
         </div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 }
 
@@ -198,7 +200,7 @@ function DesktopDropdown({ section, isActive }: {
       </Link>
 
       {/* Dropdown panel - always anchor to right so submenus fly left */}
-      <div className={`absolute pt-3 w-max min-w-[12rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right`}>
+      <div className={`absolute pt-3 w-max min-w-48 max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right`}>
 
         <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
           <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
@@ -210,19 +212,19 @@ function DesktopDropdown({ section, isActive }: {
                 const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
                 return (
                   <div key={item.href} className="px-3">
-                    <div className={`flex items-center justify-between gap-2 py-2 px-2 rounded-md transition-colors duration-150 ${itemActive ? 'bg-linear-to-r from-amber-200 via-amber-100 to-amber-50' : 'hover:bg-white/5'}`}>
-                      <Link href={item.href} className={`flex-1 text-sm font-semibold ${itemActive ? 'text-amber-800' : 'text-gray-700'}`}>
+                    <div className={`flex items-center justify-between gap-3 py-2 px-3 rounded-xl transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 shadow-lg' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow'} `}>
+                      <Link href={item.href} className={`flex-1 text-base font-semibold ${itemActive ? 'text-indigo-800' : 'text-gray-700 hover:text-indigo-900'}`}>
                         {item.label}
                       </Link>
                       {item.children && item.children.length > 0 && (
                         <button
                           type="button"
                           onClick={() => toggleSub(item.href)}
-                          className="p-1 rounded-md hover:bg-amber-100 transition-colors"
+                          className="p-2 rounded-xl hover:bg-indigo-100 hover:shadow transition-colors"
                           aria-expanded={childOpen}
                           aria-label={`Toggle ${item.label} sub-items`}
                         >
-                          <svg className={`h-4 w-4 text-amber-600 transition-transform duration-200 ${childOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <svg className={`h-4 w-4 text-indigo-600 transition-transform duration-300 ${childOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                           </svg>
                         </button>
@@ -230,13 +232,14 @@ function DesktopDropdown({ section, isActive }: {
                     </div>
 
                     {item.children && childOpen && (
-                      <div className="mt-1 ml-4 pl-2 pr-2 pb-2 border-l border-[#efd9b5]/20 space-y-1">
+                      <div className="mt-2 ml-4 pl-3 pr-2 pb-2 border-l-2 border-indigo-200/40 space-y-1 bg-white/70 rounded-xl shadow-inner">
                         {item.children.map((child) => (
                           <Link
                             key={child.href}
                             href={child.href}
-                            className={`block px-2 py-1 rounded-md text-sm transition-colors duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-amber-300 via-amber-200 to-amber-100 text-amber-900 font-semibold' : 'text-gray-700 hover:bg-amber-50'}`}
+                            className={`block px-3 py-1.5 rounded-lg text-base transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                           >
+                            <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
                             {child.label}
                           </Link>
                         ))}
@@ -438,14 +441,16 @@ export default function Header() {
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          <div className="sm:hidden ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          {/* <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-          </div>
+          </div> */}
+          <ThemeToggle />
         </nav>
 
         {/* ─── Mobile Toggle ─── */}
         <div className="flex items-center md:hidden gap-2">
-          <LanguageDropdown />
+          {/* <LanguageDropdown /> */}
+          <ThemeToggle />
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((s) => !s)}

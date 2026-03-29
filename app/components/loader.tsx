@@ -3,9 +3,9 @@
 
 export default function Loader() {
   return (
-    <div className="flex items-center justify-center w-full h-full text-base leading-relaxed font-normal">
+    <div className="flex items-center justify-center w-full h-full animate-fadeInUp">
       <svg
-        className="w-6 h-6 text-yellow-400 animate-spin"
+        className="w-12 h-12 animate-spin-slow drop-shadow-xl"
         viewBox="0 0 100 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -13,12 +13,11 @@ export default function Loader() {
       >
         <defs>
           <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-            <stop offset="0%" stopColor="#FDD835" />
-            <stop offset="100%" stopColor="#F97316" />
+            <stop offset="0%" stopColor="#FBBF24" />
+            <stop offset="100%" stopColor="#F472B6" />
           </linearGradient>
         </defs>
-        <circle cx="50" cy="50" r="30" stroke="url(#g)" strokeWidth="6" strokeLinecap="round" strokeDasharray="5 10" />
-
+        <circle cx="50" cy="50" r="30" stroke="url(#g)" strokeWidth="8" strokeLinecap="round" strokeDasharray="8 12" />
         {/* Chakra spokes */}
         {[...Array(12)].map((_, i) => {
           const angle = (i * 30) * (Math.PI / 180);
@@ -36,12 +35,12 @@ export default function Loader() {
               stroke="url(#g)"
               strokeWidth={3}
               strokeLinecap="round"
+              className="animate-pulse"
             />
           );
         })}
-
         {/* Inner hub */}
-        <circle cx="50" cy="50" r="6" fill="#F97316" />
+        <circle cx="50" cy="50" r="8" fill="#F472B6" className="animate-pulse" />
       </svg>
     </div>
   );

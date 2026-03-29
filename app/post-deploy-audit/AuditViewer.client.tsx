@@ -2,230 +2,86 @@
 
 import { useEffect, useState } from "react";
 
-type Report = any;
+type PageItem = { page: string; status: string; score?: number; issues?: string[] };
+type Report = { generatedAt?: string; totalPages?: number; passed?: number; failed?: number; averageScore?: number | string; pages?: PageItem[] };
 
 export default function AuditViewer() {
   const [report, setReport] = useState<Report | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [showRaw, setShowRaw] = useState(false);
-
-  // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
 
   useEffect(() => {
     let mounted = true;
-    fetch("/data/post-deploy-audit.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
+    fetch('/data/audit-report.json')
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
       })
-      .then((json) => {
-        if (mounted) setReport(json);
-      })
-      .catch((err) => {
-        if (mounted) setError(String(err));
-      });
-    return () => {
-      mounted = false;
-    };
+      .then((j) => { if (mounted) setReport(j); })
+      .catch((e) => { if (mounted) setError(String(e)); });
+    return () => { mounted = false; };
   }, []);
 
-  if (error) {
-    return (
-      <div className="p-4 text-red-700 text-base leading-relaxed font-normal">
-        Error loading audit: {error}
-      </div>
-    );
-  }
-
-  if (!report) {
-    return <div className="p-4 text-base leading-relaxed font-normal">Loading audit…</div>;
-  }
+  if (error) return <div className="p-4 text-red-700">Error loading audit: {error}</div>;
+  if (!report) return <div className="p-4">Loading audit…</div>;
 
   const pages = report.pages || [];
-  const totalPages = Math.ceil(pages.length / pageSize);
-
+  const totalPages = Math.max(1, Math.ceil(pages.length / pageSize));
   const start = (currentPage - 1) * pageSize;
-  const paginatedPages = pages.slice(start, start + pageSize);
+  const paginated = pages.slice(start, start + pageSize);
 
-  // PAGINATION BUTTON LOGIC (with ... gaps)
-  const getPaginationButtons = () => {
+  const paginationButtons = (() => {
     const btns: (number | string)[] = [];
-
-    if (totalPages <= 7) {
-      for (let i = 1; i <= totalPages; i++) btns.push(i);
-    } else {
-      if (currentPage <= 4) {
-        btns.push(1, 2, 3, 4, 5, "...", totalPages);
-      } else if (currentPage >= totalPages - 3) {
-        btns.push(
-          1,
-          "...",
-          totalPages - 4,
-          totalPages - 3,
-          totalPages - 2,
-          totalPages - 1,
-          totalPages
-        );
-      } else {
-        btns.push(
-          1,
-          "...",
-          currentPage - 1,
-          currentPage,
-          currentPage + 1,
-          "...",
-          totalPages
-        );
-      }
-    }
-
+    if (totalPages <= 7) for (let i = 1; i <= totalPages; i++) btns.push(i);
+    else if (currentPage <= 4) btns.push(1, 2, 3, 4, 5, '...', totalPages);
+    else if (currentPage >= totalPages - 3) btns.push(1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+    else btns.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
     return btns;
-  };
-
-  const paginationButtons = getPaginationButtons();
+  })();
 
   return (
-    <div className="p-6 text-base leading-relaxed font-normal">
-      <div className="flex items-center justify-between text-base leading-relaxed font-normal">
-        <h3 className="text-3xl font-semibold leading-tight tracking-tight mb-4 md:text-4xl">Post-deploy Audit</h3>
-        <button
-          className="ml-4 rounded bg-gray-200 px-3 py-1 text-sm"
-          onClick={() => setShowRaw((s) => !s)}
-        >
-          {showRaw ? "Hide JSON" : "Show raw JSON"}
-        </button>
+    <div className="max-w-4xl mx-auto p-6">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="text-2xl font-bold">Post-Deploy Audit</h2>
+        <button className="text-sm text-amber-800" onClick={() => setShowRaw((s) => !s)}>{showRaw ? 'Hide JSON' : 'Show raw JSON'}</button>
       </div>
 
-      {/* Audit meta */}
-      <div className="text-base leading-relaxed font-normal">
-        <div className="text-base leading-relaxed font-normal">
-          Audited at: {report.auditedAtUtc}
-        </div>
-        <div className="text-base leading-relaxed font-normal">
-          Pages audited: {report.totals?.pagesAudited ?? "—"}
-        </div>
-        <div className="text-base leading-relaxed font-normal">
-          Noindex pages: {report.totals?.noindexPages ?? "—"}
-        </div>
-        <div className="text-base leading-relaxed font-normal">
-          Pages with JSON-LD: {report.totals?.pagesWithJsonLd ?? "—"}
-        </div>
+      <div className="mb-4 bg-amber-50 p-4 rounded-lg shadow-sm">
+        <div className="text-sm">Generated: <strong>{report.generatedAt ?? 'N/A'}</strong></div>
+        <div className="text-sm">Pages: <strong>{report.totalPages ?? pages.length}</strong></div>
+        <div className="text-sm">Passed: <strong className="text-green-700">{report.passed ?? '—'}</strong> Failed: <strong className="text-red-700">{report.failed ?? '—'}</strong></div>
       </div>
 
-      {/* TABLE WITH RESPONSIVE COLLAPSE */}
-      <div>
-        <div className="overflow-x-auto max-h-[70vh] rounded text-base leading-relaxed font-normal">
-          <table className="min-w-full divide-y divide-gray-200 text-sm">
-            <thead className="bg-gray-50 sticky top-0 z-10 shadow-sm hidden sm:table-header-group">
-              <tr>
-                <th className="px-4 py-2 text-left font-medium text-gray-700">
-                  Route
-                </th>
-                <th className="px-4 py-2 text-left font-medium text-gray-700">
-                  URL
-                </th>
-                <th className="px-4 py-2 text-left font-medium text-gray-700">
-                  Canonical
-                </th>
-                <th className="px-4 py-2 text-left font-medium text-gray-700">
-                  Noindex
-                </th>
-                <th className="px-4 py-2 text-left font-medium text-gray-700">
-                  JSON-LD Count
-                </th>
-              </tr>
-            </thead>
+      {showRaw && <pre className="mb-4 p-3 bg-gray-100 rounded text-xs overflow-auto">{JSON.stringify(report, null, 2)}</pre>}
 
-            <tbody className="divide-y divide-gray-100">
-              {paginatedPages.map((p: any) => (
-                <tr
-                  key={p.route}
-                  className="odd:bg-gray-50 even:bg-white hover:bg-gray-100 sm:table-row block mb-3 sm:mb-0 rounded"
-                >
-                  <td
-                    className="px-4 py-2 font-medium text-gray-900 block sm:table-cell before:font-semibold before:text-gray-600 before:content-['Route:'] sm:before:content-none"
-                    data-label="Route"
-                  >
-                    {p.route}
-                  </td>
-
-                  <td
-                    className="px-4 py-2 text-gray-700 break-all block sm:table-cell before:font-semibold before:text-gray-600 before:content-['URL:'] sm:before:content-none"
-                    data-label="URL"
-                  >
-                    {p.url}
-                  </td>
-
-                  <td
-                    className="px-4 py-2 text-gray-700 block sm:table-cell before:font-semibold before:text-gray-600 before:content-['Canonical:'] sm:before:content-none"
-                    data-label="Canonical"
-                  >
-                    {p.canonical ?? "—"}
-                  </td>
-
-                  <td
-                    className="px-4 py-2 text-gray-700 block sm:table-cell before:font-semibold before:text-gray-600 before:content-['Noindex:'] sm:before:content-none"
-                    data-label="Noindex"
-                  >
-                    {p.hasNoindex ? "yes" : "no"}
-                  </td>
-
-                  <td
-                    className="px-4 py-2 text-gray-700 block sm:table-cell before:font-semibold before:text-gray-600 before:content-['JSON‑LD Count:'] sm:before:content-none"
-                    data-label="JSON-LD Count"
-                  >
-                    {p.jsonLdScriptCount}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        {/* PAGINATION */}
-        <div className="flex gap-2 items-center flex-wrap text-base leading-relaxed font-normal">
-          <button
-            disabled={currentPage === 1}
-            onClick={() => setCurrentPage((c) => Math.max(1, c - 1))}
-            className="px-3 py-1 rounded disabled:opacity-50"
-          >
-            Prev
-          </button>
-
-          {paginationButtons.map((btn, idx) =>
-            btn === "..." ? (
-              <span key={idx} className="px-3 py-1 text-base leading-relaxed font-normal">
-                …
-              </span>
-            ) : (
-              <button
-                key={idx}
-                onClick={() => setCurrentPage(btn as number)}
-                className={`px-3 py-1 border rounded ${currentPage === btn ? "bg-gray-300 font-semibold" : ""
-                  }`}
-              >
-                {btn}
-              </button>
-            )
-          )}
-
-          <button
-            disabled={currentPage === totalPages}
-            onClick={() => setCurrentPage((c) => Math.min(totalPages, c + 1))}
-            className="px-3 py-1 rounded disabled:opacity-50"
-          >
-            Next
-          </button>
-        </div>
+      <div className="space-y-3">
+        {paginated.map((p, i) => (
+          <div key={`${p.page}-${i}`} className="p-4 rounded-lg border shadow-sm flex items-start gap-4">
+            <div className={p.status === 'PASS' ? 'w-3 h-3 rounded-full mt-1 bg-green-500' : p.status === 'FAIL' ? 'w-3 h-3 rounded-full mt-1 bg-red-500' : 'w-3 h-3 rounded-full mt-1 bg-yellow-500'} />
+            <div className="flex-1">
+              <div className="font-semibold">{p.page}</div>
+              <div className="text-sm text-gray-700">Status: <span className="font-medium">{p.status}</span> — Score: {p.score ?? '—'}</div>
+              {p.issues && p.issues.length > 0 && (
+                <ul className="mt-2 list-disc pl-5 text-sm text-red-700">
+                  {p.issues.map((it, idx) => <li key={idx}>{it}</li>)}
+                </ul>
+              )}
+            </div>
+          </div>
+        ))}
       </div>
 
-      {showRaw && (
-        <pre className="max-h-[60vh] overflow-auto rounded bg-gray-100 p-4 text-base leading-relaxed mb-4 font-normal">
-          {JSON.stringify(report, null, 2)}
-        </pre>
-      )}
+      <div className="mt-6 flex items-center gap-2">
+        <button disabled={currentPage === 1} onClick={() => setCurrentPage((c) => Math.max(1, c - 1))} className="px-3 py-1 rounded border disabled:opacity-50">Prev</button>
+        {paginationButtons.map((b, idx) => typeof b === 'number' ? (
+          <button key={idx} onClick={() => setCurrentPage(b as number)} className={"px-3 py-1 rounded " + (b === currentPage ? 'bg-amber-700 text-white' : 'bg-amber-100')}>{b}</button>
+        ) : (
+          <span key={idx} className="px-2">{b}</span>
+        ))}
+        <button disabled={currentPage === totalPages} onClick={() => setCurrentPage((c) => Math.min(totalPages, c + 1))} className="px-3 py-1 rounded border disabled:opacity-50">Next</button>
+      </div>
     </div>
   );
 }

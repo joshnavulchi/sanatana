@@ -1,6 +1,6 @@
 // @ts-nocheck
 // Auto-generated index (JSON-only)
-// Folder: 'en\vedic-philosophy\medicine'
+// Folder: 'en\vedic-science\medicine'
 // DO NOT EDIT MANUALLY
 
 import _j0 from './medicine.json';

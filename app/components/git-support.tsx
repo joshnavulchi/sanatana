@@ -36,7 +36,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
       <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse anim-delay-1500" />
 
       {/* Content Container */}
-      <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 md:px-0 md:py-0 transition-all duration-1000 ease-out
+      <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 sm:py-16 md:px-0 md:py-0 transition-all duration-1000 ease-out
           ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
         {/* Card with glass-morphism effect */}
         <div className="relative bg-black/30 backdrop-blur-xl border border-white/20 rounded-xl p-4 md:p-8 shadow-xl max-w-2xl overflow-hidden group text-white">

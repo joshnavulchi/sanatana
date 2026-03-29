@@ -59,31 +59,31 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} dark:from-gray-900/80 dark:via-${gradientfrom} dark:to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
-      {/* Top accent bar */}
-      <div className={`h-1.5 w-full bg-linear-to-r ${tone.accent}`} />
+      {/* Top accent gradient border */}
+      <div className={`h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
 
       {/* Ornamental blurs */}
-      <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-[#f4c98b]/30 blur-2xl" />
-      <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-[#d97706]/15 blur-2xl" />
+      <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-gradient-to-br from-yellow-200/40 to-pink-200/30 blur-2xl" />
+      <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-gradient-to-br from-orange-200/30 to-pink-100/20 blur-2xl" />
 
-      <div className="relative flex flex-1 flex-col p-4 md:p-6">
+      <div className="relative flex flex-1 flex-col p-6 sm:p-8">
         {/* Roman numeral badge */}
-        <div className="mb-4 flex items-center gap-3">
-          <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full ${tone.numBg} text-sm font-black text-[#fff4df] tracking-wider`}>
+        <div className="mb-5 flex items-center gap-4">
+          <span className={`inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 via-pink-400 to-indigo-400 shadow-lg text-lg font-black text-white tracking-widest border-4 border-white dark:border-gray-900`}>
             {ROMAN[index] || index + 1}
           </span>
-          <div className="h-px flex-1 bg-linear-to-r from-[#d8a25a]/50 to-transparent" />
+          <div className="h-1 w-16 bg-linear-to-r from-indigo-300/40 to-transparent" />
         </div>
 
         {/* Title */}
-        <h3 className={`text-xl md:text-2xl font-extrabold leading-tight text-amber-800`}>
+        <h3 className="text-2xl md:text-3xl font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
           {name}
         </h3>
 
         {/* Subtitle */}
-        <p className="mt-2 text-sm font-semibold uppercase tracking-[0.25em] text-amber-700">
+        <p className="mt-2 text-base font-semibold uppercase tracking-widest text-indigo-700">
           {subtitle}
         </p>
 
@@ -91,8 +91,8 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-gray-700">
-                <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
+              <li key={i} className="flex items-start gap-3 text-base leading-relaxed text-gray-700 dark:text-gray-200">
+                <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-br from-amber-400 to-pink-400" />
                 {point}
               </li>
             ))}
@@ -100,9 +100,9 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         )}
 
         {/* Years pill — pushed to bottom */}
-        <div className="mt-auto pt-4">
-          <span className={`inline-flex items-center gap-2 rounded-md border ${tone.ring} ${tone.pillBg} px-2 py-1 text-xs font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
-            <svg className="h-3.5 w-3.5 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+        <div className="mt-auto pt-6">
+          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-sm font-bold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
+            <svg className="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

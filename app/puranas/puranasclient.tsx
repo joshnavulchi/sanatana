@@ -112,7 +112,6 @@ export default function PuranasClient() {
           </div>
         </div>
       )}
-
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {links.map((link) => (
           <Link key={link.href} href={link.href} className="group block">
@@ -126,8 +125,6 @@ export default function PuranasClient() {
           </Link>
         ))}
       </div>
-
     </PageLayout>
   );
 }
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

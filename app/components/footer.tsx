@@ -69,19 +69,19 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-1">
-      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-[0.25em] text-gray-900">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-sm shadow-sm mr-2 ${iconBg} text-sm text-gray-600`}>
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-gray-500 to-transparent" />
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
-          className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-gray-700 underline decoration-gray-500 underline-offset-4' : 'text-gray-800 hover:text-gray-700'}`}
+          className={`text-md transition-all duration-300 rounded-xl my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -91,15 +91,15 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-2 flex items-center gap-2 text-sm text-gray-700 hover:text-gray-800 transition-colors duration-200 cursor-pointer"
+          className="mt-1 flex items-center gap-2 text-md text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more [${links.length - INITIAL_VISIBLE}]`}
           <svg
-            className={`h-3 w-3 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 rounded transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
           </svg>
         </button>
       )}
@@ -140,20 +140,20 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   });
 
   return (
-    <div className="flex flex-col gap-1">
-      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-[0.25em] text-gray-900">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-sm shadow-sm mr-2 ${iconBg} text-sm text-gray-600`}>⚔️</span>
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
+          ⚔️
+        </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-gray-500 to-transparent" />
-
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {epicEntries.map(({ name, slug, href, subNav, hasSubItems }) => (
         <div key={slug} className="flex flex-col">
-          {/* Epic parent link + toggle */}
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-gray-700 underline decoration-gray-500 underline-offset-4' : 'text-gray-800 hover:text-gray-700'}`}
+              className={`text-md transition-all duration-300 rounded-xl my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -162,30 +162,28 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-sm text-gray-700 hover:text-gray-800 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
+                className="mt-1 inline-flex items-center justify-center rounded-xl h-6 w-6 text-indigo-700 hover:text-pink-600 hover:bg-indigo-100 transition-all duration-300 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
                 <svg
-                  className={`h-3 w-3 transition-transform duration-200 ${expandedEpic === slug ? 'rotate-180' : ''}`}
+                  className={`h-4 w-4 transition-transform duration-300 ${expandedEpic === slug ? 'rotate-180' : ''}`}
                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
             )}
           </div>
-
-          {/* Sub-items (kandas / chapters) */}
           {hasSubItems && expandedEpic === slug && (
-            <div className="ml-1 mt-1 flex flex-col gap-1 border-l-2 border-amber-200/30 pl-3">
+            <div className="ml-2 mt-1 flex flex-col gap-1 border-l-2 border-indigo-200/40 pl-3">
               {Object.entries(subNav).map(([subKey, subLabel]) => {
                 const subHref = `${href}/${subKey}`;
                 return (
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-sm transition-colors duration-200 ${isActive(subHref) ? 'text-gray-700 underline decoration-gray-500 underline-offset-2' : 'text-gray-800 hover:text-gray-700'}`}
+                    className={`text-md transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -213,12 +211,14 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-gray-300 overflow-hidden">
+      <footer className="w-full relative bg-gradient-to-br from-indigo-200 via-pink-100 via-40% to-amber-100 dark:from-indigo-900 dark:via-pink-900 dark:to-amber-900 overflow-hidden">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-25 -top-5 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
-          <div className="absolute -right-25 bottom-5 h-40 w-40 rounded-2xl bg-gray-100 blur-3xl animate-ping" />
+          <div className="absolute -left-32 -top-10 h-72 w-72 rounded-full bg-gradient-to-br from-indigo-400/30 via-pink-200/30 to-amber-200/30 blur-3xl animate-pulse" />
+          <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-gradient-to-br from-pink-300/30 via-amber-200/30 to-indigo-300/30 blur-3xl animate-pulse" />
+          <div className="absolute left-1/2 top-0 h-40 w-[70%] -translate-x-1/2 rounded-b-full bg-gradient-to-r from-indigo-200/40 via-pink-100/40 to-amber-100/40 blur-2xl animate-pulse" />
+          <div className="absolute inset-0 bg-white/30 dark:bg-gray-900/30 backdrop-blur-[2px] pointer-events-none" />
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10">
@@ -325,9 +325,9 @@ export default function Footer() {
             <div className="border-t border-gray-100">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3 py-4">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-xs transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.privacy}</Link>
+                  <Link href="/privacy-policy" className={`text-xs transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'} `}>{footer.privacy}</Link>
                   <span className="text-gray-200">·</span>
-                  <Link href="/terms-of-service" className={`text-xs transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.terms}</Link>
+                  <Link href="/terms-of-service" className={`text-xs transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'} `}>{footer.terms}</Link>
                 </div>
                 <small className="text-xs text-gray-600">{footer.copyright}</small>
               </div>
