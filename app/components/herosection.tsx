@@ -115,7 +115,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
       {/* Content Container */}
       <div className="relative z-8 md:mx-auto md:max-w-6xl flex items-center">
-        <div className="w-full flex flex-col md:flex-row items-center py-8 md:py-32 md:gap-12">
+        <div className="w-full flex flex-col md:flex-row items-center py-32 gap-12">
           {/* Left Content */}
           <div className={`hidden md:flex items-center justify-center transition-all duration-1000 ease-out delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div className="relative">

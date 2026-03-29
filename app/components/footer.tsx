@@ -69,14 +69,14 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-1 sm:p-2 animate-fadeInUp">
-      <p className="mb-3 flex items-center text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-2 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
@@ -91,7 +91,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-3 flex items-center gap-2 text-md text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
+          className="mt-1 flex items-center gap-2 text-md text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more [${links.length - INITIAL_VISIBLE}]`}
@@ -140,14 +140,14 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   });
 
   return (
-    <div className="flex flex-col gap-2 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-1 sm:p-2 animate-fadeInUp">
-      <p className="mb-3 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
         </span>
         {title}
       </p>
-      <div className="mb-2 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {epicEntries.map(({ name, slug, href, subNav, hasSubItems }) => (
         <div key={slug} className="flex flex-col">
           <div className="flex items-center gap-1">
@@ -162,7 +162,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="ml-1 inline-flex items-center justify-center rounded-xl h-6 w-6 text-indigo-700 hover:text-pink-600 hover:bg-indigo-100 transition-all duration-300 cursor-pointer"
+                className="mt-1 inline-flex items-center justify-center rounded-xl h-6 w-6 text-indigo-700 hover:text-pink-600 hover:bg-indigo-100 transition-all duration-300 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
