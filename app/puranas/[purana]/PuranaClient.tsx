@@ -93,7 +93,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
 
   if (loading) {
     return (
-      <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
+      <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md bg-gradient-to-br from-[#fffbe6] via-[#ffe7ba] to-[#ffd591] min-h-screen animate-fade-in">
         <div className="flex items-center justify-center py-8 text-base leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
@@ -101,18 +101,18 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
 
   if (error || !data) {
     return (
-      <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
+      <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md bg-gradient-to-br from-[#fffbe6] via-[#ffe7ba] to-[#ffd591] min-h-screen animate-fade-in">
         <div className="py-12 text-center text-base leading-relaxed font-normal">{error || 'Content not available.'}</div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
+    <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md bg-gradient-to-br from-[#fffbe6] via-[#ffe7ba] to-[#ffd591] min-h-screen animate-fade-in">
       {/* Introduction */}
       {typeof data?.introduction === 'string' && (
-        <section>
-          <p className="text-base leading-relaxed mb-4 font-normal">{data.introduction}</p>
+        <section className="rounded-2xl bg-gradient-to-br from-[#fffbe6]/80 via-[#ffe7ba]/80 to-[#ffd591]/80 shadow-xl border border-[#ffe7ba]/40 p-6 mb-8 animate-fade-in-up">
+          <p className="text-base leading-relaxed mb-4 font-normal text-[#ad6800]">{data.introduction}</p>
         </section>
       )}
       {/* Sections array */}

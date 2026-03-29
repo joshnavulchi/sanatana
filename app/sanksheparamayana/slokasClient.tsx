@@ -53,15 +53,15 @@ export default function SlokasClient() {
       metaKey="sanksheparamayana"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
-      className="layout-sm">
+      className="layout-sm bg-gradient-to-br from-[#fdf6e3] via-[#f5e6ca] to-[#f7d9c4] min-h-screen animate-fade-in">
       {/* Main characters */}
       {page.main_characters && page.main_characters.length > 0 && (
-        <div>
-          <h2 className="h4">Main Characters</h2>
-          <ul role="list" className="list-disc">
+        <div className="rounded-2xl bg-gradient-to-br from-[#f7d9c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+          <h2 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Main Characters</h2>
+          <ul role="list" className="list-disc ml-6 space-y-2">
             {page.main_characters.map((c: any, idx: number) => (
-              <li key={idx}>
-                <strong>{c.name}</strong> - {c.role ? <span>{c.role}</span> : null}
+              <li key={idx} className="text-[#7a3b0c] font-medium">
+                <strong className="text-[#a15c1b]">{c.name}</strong> - {c.role ? <span className="text-[#b97d3a]">{c.role}</span> : null}
               </li>
             ))}
           </ul>
@@ -69,12 +69,12 @@ export default function SlokasClient() {
       )}
       {/* Important places */}
       {page.important_places && page.important_places.length > 0 && (
-        <div>
-          <h3 className="h4">Important Places</h3>
-          <ul role="list" className="list-disc">
+        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+          <h3 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Important Places</h3>
+          <ul role="list" className="list-disc ml-6 space-y-2">
             {page.important_places.map((p: any, idx: number) => (
-              <li key={idx}>
-                <strong>{p.name}</strong> - {p.desc ? <span>{p.desc}</span> : null}
+              <li key={idx} className="text-[#7a3b0c] font-medium">
+                <strong className="text-[#a15c1b]">{p.name}</strong> - {p.desc ? <span className="text-[#b97d3a]">{p.desc}</span> : null}
               </li>
             ))}
           </ul>
@@ -82,12 +82,12 @@ export default function SlokasClient() {
       )}
       {/* Timeline */}
       {page.timeline && page.timeline.length > 0 && (
-        <div>
-          <h4>Timeline</h4>
-          <ol role="list" className="list-disc">
+        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+          <h4 className="text-[#a15c1b] font-bold mb-3 drop-shadow">Timeline</h4>
+          <ol role="list" className="list-decimal ml-6 space-y-2">
             {page.timeline.map((ev: any, idx: number) => (
-              <li key={idx}>
-                <strong>{ev.event}</strong> - {ev.desc ? <span>{ev.desc}</span> : null}
+              <li key={idx} className="text-[#7a3b0c] font-medium">
+                <strong className="text-[#a15c1b]">{ev.event}</strong> - {ev.desc ? <span className="text-[#b97d3a]">{ev.desc}</span> : null}
               </li>
             ))}
           </ol>
@@ -95,9 +95,9 @@ export default function SlokasClient() {
       )}
       {/* Core themes */}
       {page.core_themes && page.core_themes.length > 0 && (
-        <div>
-          <h5 className="h4">Core Themes</h5>
-          <ul role="list" className="list-disc">
+        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+          <h5 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Core Themes</h5>
+          <ul role="list" className="list-disc ml-6 space-y-2">
             {page.core_themes.map((ct: any, idx: number) => (
               <li key={idx}>{(typeof ct.title === 'string') ? ct.title : ct['title']}</li>
             ))}

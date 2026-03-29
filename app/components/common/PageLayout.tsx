@@ -65,32 +65,32 @@ export default function PageLayout(
   const togglePanel = useCallback(() => setPanelOpen((prev) => !prev), []);
 
   const wrapper = `${className || ' content-wrapper'}`;
-  const h2Color = `${titleColor || 'from-[#a63d17] via-[#d97706] to-[#f59e0b]'}`;
-  const h2Border = `${titleBorder || 'border-[#d8a25a]'}`;
+  const h2Color = `${titleColor || 'from-pink-600 via-amber-500 to-rose-500'}`;
+  const h2Border = `${titleBorder || 'border-pink-300'}`;
   return (
     <>
       <StructuredData metakey={metaKey ? metaKey : 'home'} />
-      <main className={`px-3 ${wrapper}`}>
+      <main className={`px-3 ${wrapper} bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 min-h-[80vh] rounded-3xl shadow-2xl border-4 border-amber-100 animate-fadeInUp`}>
         <div className="w-full text-base leading-relaxed font-normal">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-base leading-relaxed font-normal">
             <Breadcrumbs items={breadcrumbs} locale={locale} />
             <WordCount />
           </div>
           {/* Hero Header Section */}
-          <div className="relative my-6 overflow-hidden text-base leading-relaxed font-normal">
+          <div className="relative my-6 overflow-hidden text-base leading-relaxed font-normal animate-fadeInUp">
             <div className="px-4 py-5 text-base leading-relaxed font-normal">
               <div className="text-center text-base leading-relaxed font-normal">
                 <div className="inline-block relative text-base leading-relaxed font-normal">
-                  {title && (<h2 className={`bg-clip-text bg-linear-to-r ${h2Color} px-8 py-2`}>
+                  {title && (<h2 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-4xl font-extrabold drop-shadow-lg animate-gradient-x`}>
                     {title}
                   </h2>)}
-                  <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
-                  <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl`}></div>
+                  <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl animate-fadeIn`}></div>
+                  <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl animate-fadeIn delay-100`}></div>
                 </div>
               </div>
               {description && (
-                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal py-10">
-                  <p className="text-center text-[#5b2d12] italic px-4 text-base leading-relaxed mb-4 font-normal">
+                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal py-10 animate-fadeIn delay-200">
+                  <p className="text-center text-rose-700 italic px-4 text-base leading-relaxed mb-4 font-normal">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>

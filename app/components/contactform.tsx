@@ -82,19 +82,19 @@ export default function ContactForm({ fields, submitButton }: Props) {
   if (!usedFields || usedFields.length === 0) return null;
 
   return (
-    <form onSubmit={handleSubmit} className="p-3 md:p-6">
-      <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 rounded-3xl shadow-2xl border-2 border-amber-200/50 overflow-hidden text-base leading-relaxed font-normal">
+    <form onSubmit={handleSubmit} className="p-3 md:p-6 animate-fadeInUp">
+      <div className="bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 rounded-3xl shadow-2xl border-4 border-pink-200/60 overflow-hidden text-base leading-relaxed font-normal animate-gradient-x">
         {/* Decorative header */}
-        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-4 text-center text-base leading-relaxed font-normal">
-          <div className="absolute inset-0 bg-[url( text-base leading-relaxed font-normal opacity-30" />
+        <div className="relative bg-gradient-to-r from-pink-500 via-amber-400 to-rose-500 p-6 text-center text-base leading-relaxed font-normal animate-gradient-x animate-fadeIn">
+          <div className="absolute inset-0 opacity-20 bg-[url('/images/contact-bg.png')] bg-cover bg-center rounded-3xl" />
           <div className="relative z-10 text-base leading-relaxed font-normal">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl shadow-lg text-base leading-relaxed font-normal">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/30 backdrop-blur-sm rounded-2xl shadow-xl text-base leading-relaxed font-normal animate-pulse">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-white text-xl font-semibold leading-snug mb-2">Get In Touch</h3>
-            <p className="text-white/90 text-base leading-relaxed mb-4 font-normal">We&apos;d love to hear from you</p>
+            <h3 className="text-white text-2xl font-extrabold leading-snug mb-2 drop-shadow-lg animate-gradient-x">Get In Touch</h3>
+            <p className="text-white/90 text-base leading-relaxed mb-4 font-normal animate-fadeIn delay-100">We&apos;d love to hear from you</p>
           </div>
         </div>
 

@@ -3,6 +3,7 @@
 
 /* Global selectors moved from styles.module.scss */
 /* 1) Base CSS variables: Light theme */
+/* 1) Base CSS variables: Light theme */
 :root {
   --color-bg: #f5f5f5;
   --color-text: #333;
@@ -37,6 +38,38 @@
   --content-width-xl: 1900px;
 }
 
+/* 2) Dark theme variables */
+.dark {
+  --color-bg: #181825;
+  --color-text: #e5e7eb;
+  --color-red: #f87171;
+  --color-green: #4ade80;
+  --color-white: #181825;
+  --color-black: #fafafa;
+  --color-yellow: #fde68a;
+  --color-orange: #fdba74;
+  --color-violet: #a78bfa;
+  --color-blue: #60a5fa;
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-height: 1.2;
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 72px;
+  --space-3xl: 90px;
+  --content-width-xxs: 540px;
+  --content-width-xs: 760px;
+  --content-width-sm: 1024px;
+  --content-width-md: 1280px;
+  --content-width-default: 1440px;
+  --content-width-lg: 1680px;
+  --content-width-xl: 1900px;
+}
+
 /* 2) Dark theme */
 /* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
 /* 3) Core layout & typography */
@@ -50,6 +83,7 @@ body,
   height: 100%
 }
 
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
@@ -61,6 +95,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @apply bg-white text-gray-700 antialiased;
+}
+
+body.dark {
+  background: var(--color-bg);
+  color: var(--color-text);
+  @apply bg-gray-950 text-gray-100 antialiased;
 }
 
 /* 4) Theming utilities */
@@ -100,14 +140,18 @@ body {
   padding: var(--space-xl) var(--space-md);
 }
 
-.layout-sm {
-  margin: 0 auto;
-  max-width: var(--content-width-sm);
+.layout-sm,
+.layout-md,
+.layout-lg {
+  margin: 3rem auto;
   padding: var(--space-xl) var(--space-md);
 }
 
+.layout-sm {
+  max-width: var(--content-width-sm);
+}
+
 .layout-md {
-  margin: 0 auto;
   max-width: var(--content-width-md);
   padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
@@ -191,12 +235,14 @@ footer {
   html {
     font-size: 18px;
   }
+
   .content-wrapper {
     margin: 0 auto;
     max-width: var(--content-width-default);
     padding-top: var(--space-3xl);
     padding-bottom: var(--space-3xl);
   }
+
   .border-gradient-vertical {
     border-right: 4px;
     border-style: solid;
