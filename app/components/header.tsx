@@ -438,14 +438,14 @@ export default function Header() {
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          <div className="sm:hidden ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          {/* <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-          </div>
+          </div> */}
         </nav>
 
         {/* ─── Mobile Toggle ─── */}
         <div className="flex items-center md:hidden gap-2">
-          <LanguageDropdown />
+          {/* <LanguageDropdown /> */}
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((s) => !s)}

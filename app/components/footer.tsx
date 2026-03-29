@@ -275,8 +275,8 @@ export default function Footer() {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
                 const title = section.title || key;
-                const bp = (section.basePath as string) || configBase || `/${key}`;
-                const links = normalizeNavLinks(section.nav, bp);
+                const bp = (section.basePath as string) || configBase || `/${key} `;
+                const links = normalizeNavLinks(section.nav, section.basePath);
 
                 // Insert ItihasaColumn after puranas
                 return (
@@ -325,9 +325,9 @@ export default function Footer() {
             <div className="border-t border-gray-100">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3 py-4">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-xs transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.privacy}</Link>
+                  <Link href="/privacy-policy" className={`text - xs transition - colors duration - 200 no - underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'} `}>{footer.privacy}</Link>
                   <span className="text-gray-200">·</span>
-                  <Link href="/terms-of-service" className={`text-xs transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.terms}</Link>
+                  <Link href="/terms-of-service" className={`text - xs transition - colors duration - 200 no - underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'} `}>{footer.terms}</Link>
                 </div>
                 <small className="text-xs text-gray-600">{footer.copyright}</small>
               </div>
