@@ -22,22 +22,22 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
   const section = typeof item.section === 'string' ? item.section : '';
   const content = typeof item.content === 'string' ? item.content : '';
   const shells = [
-    'bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8]',
-    'bg-linear-to-br from-[#fffbf5] via-[#fdf1dc] to-[#f8e4c0]',
-    'bg-linear-to-br from-[#fff9f0] via-[#fce9ce] to-[#f5d9ae]',
+    'bg-gradient-to-br from-[#e0e7ff] via-[#f3e8ff] to-[#f0fdfa]',
+    'bg-gradient-to-br from-[#fef9c3] via-[#fcd34d] to-[#fef3c7]',
+    'bg-gradient-to-br from-[#f0fdfa] via-[#a7f3d0] to-[#f3e8ff]',
   ];
 
   return (
-    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
-      <div className="absolute top-0 left-0 right-0 h-1" />
-      <div className="absolute left-0 top-1 bottom-0 w-1" />
+    <div className={`relative overflow-hidden rounded-3xl border-2 border-[#a78bfa]/30 p-4 md:p-8 ${shells[index % 3]} shadow-xl transition-all duration-500 hover:shadow-2xl hover:scale-[1.025] group motion-safe:animate-fadeIn`}>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#a78bfa]/40 via-[#fcd34d]/30 to-[#38bdf8]/20 animate-gradient-x" />
+      <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-[#a78bfa]/40 to-[#38bdf8]/20 animate-gradient-y" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)] bg-gradient-to-br from-[#a78bfa] to-[#fcd34d] animate-bounceIn">
           {index + 1}
         </span>
-        <h3 className="text-xl md:text-2xl font-extrabold text-[#3d2e22]">{section}</h3>
+        <h3 className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg animate-gradient-x">{section}</h3>
       </div>
-      <div className="text-base text-[#5b2d12] leading-relaxed pl-2">
+      <div className="text-base text-[#3b3270] leading-relaxed pl-2 animate-fadeInUp">
         <Paragraphs text={content} />
       </div>
     </div>

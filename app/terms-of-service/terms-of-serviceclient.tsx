@@ -75,8 +75,7 @@ export default function TermsOfService() {
 
   const renderListItem = (arr: any, idx: number) => {
     if (!arr || !Array.isArray(arr) || idx >= arr.length) return '';
-    const item = arr[idx];
-    return typeof item === 'string' ? item : (item ? String(item) : '');
+    return arr[idx];
   };
 
   return (
@@ -95,120 +94,61 @@ export default function TermsOfService() {
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
-
-        {/* Acceptance section */}
-        <section className="rounded-2xl p-4 md:p-8">
-          <h3 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3">
-            <span className="text-base leading-relaxed font-normal">✅</span>
-            {page.acceptancetitle}
-          </h3>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.intro}</p>
-        </section>
-
-        {/* Use License */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="flex items-center gap-3 text-xl font-semibold leading-snug mb-2">
-            <span className="text-base leading-relaxed font-normal">📜</span>
-            {page.uselicensetitle}
-          </h3>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.uselicensetext}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
-            {[0, 1, 2, 3, 4].map((i) => {
-              const item = renderListItem(page.uselicenselist, i);
-              return item ? (
-                <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
-                  <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
-                </li>
-              ) : null;
-            })}
-          </ul>
-        </section>
-
-        {/* Intellectual Property */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">©️</span>
-            {page.intellectualtitle}
-          </h4>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.intellectualtext}</p>
-        </section>
-
-        {/* User Conduct */}
-        <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">👤</span>
-            {page.userconducttitle}
-          </h5>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.userconductintro}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
-            {[0, 1, 2, 3, 4, 5].map((i) => {
-              const item = renderListItem(page.userconductlist, i);
-              return item ? (
-                <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
-                  <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
-                </li>
-              ) : null;
-            })}
-          </ul>
-        </section>
-
-        {/* Disclaimer */}
-        <section className="rounded-lg p-4 md:p-8 shadow-lg">
-          <h6 className="text-xl sm:text-base text-gray-900 mb-4 flex items-center gap-3">
-            <span className="text-base leading-relaxed font-normal">⚠️</span>
-            {page.disclaimertitle}
-          </h6>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.disclaimertext}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
-            {[0, 1, 2, 3].map((i) => {
-              const item = renderListItem(page.disclaimerlist, i);
-              return item ? (
-                <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
-                  <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
-                </li>
-              ) : null;
-            })}
-          </ul>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.disclaimerclosing}</p>
-        </section>
-
-        {/* Other sections in card format */}
-        {[
-          { icon: '⚖️', title: page.liabilitytitle, text: page.liabilitytext },
-          { icon: '🔗', title: page.externallinkstitle, text: page.externallinkstext },
-          { icon: '🔄', title: page.modificationstitle, text: page.modificationstext },
-          { icon: '🚫', title: page.terminationtitle, text: page.terminationtext },
-          { icon: '🛡️', title: page.indemnificationtitle, text: page.indemnificationtext },
-          { icon: '🏛️', title: page.governingtitle, text: page.governingtext },
-          { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
-        ].map((section, idx) => (
-          <section key={idx} className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-            <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
-              <span className="text-base leading-relaxed font-normal">{section.icon}</span>
-              {section.title}
-            </p>
-            <p className="text-base leading-relaxed mb-4 font-normal">{section.text}</p>
-          </section>
-        ))}
-
-        {/* Contact section */}
-        <section className="rounded-2xl p-4 md:p-8">
-          <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
-            <span className="text-base leading-relaxed font-normal">📞</span>
-            {page.contacttitle}
-          </p>
-          <p className="text-base leading-relaxed mb-4 font-normal">{page.contacttext}</p>
-          <div className="space-y-2 text-base leading-relaxed font-normal">
-            <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
-            <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
-            <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
-          </div>
-          <p className="pt-4 text-base leading-relaxed mb-4 font-normal">{page.closing}</p>
-        </section>
+        {/* ...existing sections and content... */}
       </div>
     </PageLayout>
   );
+              {page.disclaimertitle}
+            </h6>
+            <p className="text-base leading-relaxed mb-4 font-normal">{page.disclaimertext}</p>
+            <ul role="list" className="space-y-3 list-disc pl-5 text-base leading-relaxed">
+              {[0, 1, 2, 3].map((i) => {
+                const item = renderListItem(page.disclaimerlist, i);
+                return item ? (
+                  <li key={i} className="flex items-start gap-3 mb-2">
+                    <span className="shrink-0 w-2 h-2 rounded-full text-base leading-relaxed font-normal" />
+                    <span className="flex-1 text-base leading-relaxed font-normal">{item}</span>
+                  </li>
+                ) : null;
+              })}
+            </ul>
+            <p className="text-base leading-relaxed mb-4 font-normal">{page.disclaimerclosing}</p>
+          </section>
+
+          {/* Other sections in card format */}
+          {[
+            { icon: '⚖️', title: page.liabilitytitle, text: page.liabilitytext },
+            { icon: '🔗', title: page.externallinkstitle, text: page.externallinkstext },
+            { icon: '🔄', title: page.modificationstitle, text: page.modificationstext },
+            { icon: '🚫', title: page.terminationtitle, text: page.terminationtext },
+            { icon: '🛡️', title: page.indemnificationtitle, text: page.indemnificationtext },
+            { icon: '🏛️', title: page.governingtitle, text: page.governingtext },
+            { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
+          ].map((section, idx) => (
+            <section key={idx} className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
+              <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
+                <span className="text-base leading-relaxed font-normal">{section.icon}</span>
+                {section.title}
+              </p>
+              <p className="text-base leading-relaxed mb-4 font-normal">{section.text}</p>
+            </section>
+          ))}
+
+          {/* Contact section */}
+          <section className="rounded-2xl p-4 md:p-8">
+            <p className="flex items-center gap-3 text-base leading-relaxed mb-4 font-normal">
+              <span className="text-base leading-relaxed font-normal">📞</span>
+              {page.contacttitle}
+            </p>
+            <p className="text-base leading-relaxed mb-4 font-normal">{page.contacttext}</p>
+            <div className="space-y-2 text-base leading-relaxed font-normal">
+              <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
+              <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
+              <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
+            </div>
+            <p className="pt-4 text-base leading-relaxed mb-4 font-normal">{page.closing}</p>
+          </section>
+        </div>
+      </PageLayout>
+      );
 }

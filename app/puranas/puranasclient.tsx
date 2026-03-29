@@ -125,9 +125,4 @@ export default function PuranasClient() {
             </div>
           </Link>
         ))}
-      </div>
-
-    </PageLayout>
-  );
-}
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+              {introduction && (

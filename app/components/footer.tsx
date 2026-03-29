@@ -69,19 +69,19 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-1">
-      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-[0.25em] text-gray-900">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-sm shadow-sm mr-2 ${iconBg} text-sm text-gray-600`}>
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 rounded-2xl shadow-lg p-4 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-base font-bold uppercase tracking-[0.25em] text-rose-900 drop-shadow-lg">
+        <span className={`inline-flex h-8 w-8 p-1 rounded-full shadow-md mr-2 ${iconBg} text-lg text-white bg-gradient-to-br from-amber-400 via-pink-400 to-rose-400 animate-pulse`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-gray-500 to-transparent" />
+      <div className="mb-1 h-1 w-16 bg-gradient-to-r from-amber-400 via-pink-400 to-rose-400 rounded-full animate-gradient-x" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
-          className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-gray-700 underline decoration-gray-500 underline-offset-4' : 'text-gray-800 hover:text-gray-700'}`}
+          className={`text-sm font-semibold transition-all duration-300 rounded-full px-4 py-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-amber-400 via-pink-400 to-rose-400 text-white shadow-lg animate-pulse' : 'text-rose-700 hover:bg-rose-50 hover:text-rose-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -91,7 +91,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-2 flex items-center gap-2 text-sm text-gray-700 hover:text-gray-800 transition-colors duration-200 cursor-pointer"
+          className="mt-2 flex items-center gap-2 text-sm text-rose-700 hover:text-rose-900 transition-all duration-200 cursor-pointer font-semibold animate-fadeIn"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more [${links.length - INITIAL_VISIBLE}]`}
@@ -99,7 +99,7 @@ function NavColumn({ title, links, icon, iconBg }: {
             className={`h-3 w-3 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
           </svg>
         </button>
       )}

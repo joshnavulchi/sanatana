@@ -100,14 +100,18 @@ body {
   padding: var(--space-xl) var(--space-md);
 }
 
-.layout-sm {
-  margin: 0 auto;
-  max-width: var(--content-width-sm);
+.layout-sm,
+.layout-md,
+.layout-lg {
+  margin: 3rem auto;
   padding: var(--space-xl) var(--space-md);
 }
 
+.layout-sm {
+  max-width: var(--content-width-sm);
+}
+
 .layout-md {
-  margin: 0 auto;
   max-width: var(--content-width-md);
   padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
@@ -191,12 +195,14 @@ footer {
   html {
     font-size: 18px;
   }
+
   .content-wrapper {
     margin: 0 auto;
     max-width: var(--content-width-default);
     padding-top: var(--space-3xl);
     padding-bottom: var(--space-3xl);
   }
+
   .border-gradient-vertical {
     border-right: 4px;
     border-style: solid;

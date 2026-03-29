@@ -53,9 +53,9 @@ const VEDA_ACCENTS: Record<string, { from: string; via: string; to: string; text
 function OrnamentDivider() {
   return (
     <div className="flex items-center justify-center gap-3 my-10">
-      <div className="h-px w-14" />
-      <span className="text-[#d97706] text-base">◆</span>
-      <div className="h-px w-14" />
+      <div className="h-1 w-14 bg-linear-to-r from-[#f59e0b]/40 via-[#c2410c]/30 to-[#7c2d12]/20 rounded-full shadow-md" />
+      <span className="text-[#d97706] text-lg animate-pulse"></span>
+      <div className="h-1 w-14 bg-linear-to-l from-[#f59e0b]/40 via-[#c2410c]/30 to-[#7c2d12]/20 rounded-full shadow-md" />
     </div>
   );
 }
@@ -64,118 +64,121 @@ function OrnamentDivider() {
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
     <>
-      {text.split('\n\n').map((p, i) => (
-        <p key={i} className={`mb-4 last:mb-0 ${className}`}>{p}</p>
-      ))}
-    </>
-  );
-}
+      return (
+      <div className="relative overflow-hidden rounded-3xl border-2 border-transparent bg-linear-to-br from-[#fffaf0] via-[#fbe8c8] to-[#f59e0b]/10 shadow-xl transition-all duration-500 hover:shadow-2xl hover:scale-[1.025] group motion-safe:animate-fadeIn">
+        {/* Top accent bar */}
+        <div className={`h-2 w-full bg-linear-to-r ${accent.from} ${accent.via} ${accent.to} animate-gradient-x`} />
 
-/* ── Scripture card for each Veda ── */
-function VedaCard({ item }: { item: Record<string, unknown> }) {
-  const name = String(item.veda || '');
-  const icon = VEDA_ICONS[name] || '📕';
-  const accent = VEDA_ACCENTS[name] || VEDA_ACCENTS.Rigveda;
-  const description = String(item.description || '');
-  const focus = String(item.primary_focus || '');
-  const structure = item.structure as Record<string, unknown> | undefined;
-  const deities = Array.isArray(item.major_deities) ? item.major_deities : [];
-  const themes = Array.isArray(item.major_themes) ? item.major_themes : [];
-  const topics = Array.isArray(item.primary_topics) ? item.primary_topics : [];
-  const applications = Array.isArray(item.applications) ? item.applications : [];
-  const divisions = Array.isArray(item.divisions) ? item.divisions : [];
-  const importance = typeof item.importance === 'string' ? item.importance : '';
+        {/* Pillar left accent */}
+        <div className={`absolute left-0 top-2 bottom-0 w-1 bg-linear-to-b ${accent.from} ${accent.to} animate-gradient-y`} />
 
-  const tags = [...themes, ...topics, ...applications].filter(Boolean);
-
-  return (
-    <div className="relative overflow-hidden rounded-3xl border-[#d8a25a]/40 bg-[#fffaf0] shadow-[0_10px_40px_rgba(122,46,31,0.10)] transition-all duration-300 hover:shadow-[0_20px_60px_rgba(166,61,23,0.16)]">
-      {/* Top accent bar */}
-      <div className={`h-1.5 w-full bg-linear-to-r ${accent.from} ${accent.via} ${accent.to}`} />
-
-      {/* Pillar left accent */}
-      <div className={`absolute left-0 top-1.5 bottom-0 w-1 bg-linear-to-b ${accent.from} ${accent.to}`} />
-
-      <div className="p-4 md:p-8 pl-5 md:pl-7">
-        {/* Header row */}
-        <div className="flex items-center gap-4 mb-5">
-          <div className={`flex h-14 w-14 items-center justify-center rounded-2xl border-2 ${accent.border} bg-[#fffaf3] text-2xl shadow-[0_4px_20px_rgba(122,46,31,0.12)]`}>
-            {icon}
-          </div>
-          <div>
-            <h4 className={`text-2xl md:text-3xl font-extrabold ${accent.text}`}>{name}</h4>
-            {focus && <p className="text-sm font-medium text-[#8b6914] mt-0.5">{focus}</p>}
-          </div>
-        </div>
-
-        {/* Description */}
-        <div className="text-[#5b2d12] leading-relaxed text-md">
-          <Paragraphs text={description} />
-        </div>
-
-        {importance && (
-          <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-[#92400e]">
-            <span className="text-md">✦</span> {importance}
-          </div>
-        )}
-
-        {/* Stats row */}
-        {structure && (
-          <div className="mt-6 flex flex-wrap gap-3">
-            {Object.entries(structure).map(([key, value]) => (
-              <div key={key} className="flex flex-col items-center rounded-xl bg-[#fffaf3] px-4 py-2.5 min-w-20">
-                <span className="text-xl font-extrabold text-[#7a2e1f]">{String(value)}</span>
-                <span className="text-base font-semibold uppercase tracking-wider text-[#a89278]">
-                  {key.replace(/_/g, ' ')}
-                </span>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Divisions (for Yajurveda) */}
-        {divisions.length > 0 && (
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {divisions.map((div: Record<string, unknown>, i: number) => (
-              <div key={i} className="rounded-xl border-[#edc98f]/60 bg-[#fffaf3] p-4">
-                <h6 className="font-semibold text-[#3d2e22] text-sm">{String(div.type || '')}</h6>
-                <p className="text-xs text-[#6b5d4f] mt-1">({String(div.meaning || '')})</p>
-                <p className="text-xs text-[#5b2d12] mt-1">{String(div.characteristics || '')}</p>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Deities chips */}
-        {deities.length > 0 && (
-          <div className="mt-5">
-            <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h6>
-            <div className="flex flex-wrap gap-2">
-              {deities.map((d: string) => (
-                <span key={d} className={`inline-flex items-center rounded-lg border ${accent.border}/40 bg-[#fffaf3] px-3 py-1 text-xs font-semibold ${accent.text}`}>
-                  {d}
-                </span>
-              ))}
+        <div className="p-4 md:p-8 pl-5 md:pl-7">
+          {/* Header row */}
+          <div className="flex items-center gap-4 mb-5">
+            <div className={`flex h-14 w-14 items-center justify-center rounded-2xl border-4 ${accent.border} bg-linear-to-br from-[#fffaf3] to-[#fde68a]/60 text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300 motion-safe:animate-bounceIn`}>
+              {icon}
+            </div>
+            <div>
+              <h4 className={`text-2xl md:text-3xl font-extrabold ${accent.text} drop-shadow-sm`}>{name}</h4>
+              {focus && <p className="text-sm font-medium text-[#8b6914] mt-0.5 italic animate-fadeInUp motion-safe:animate-fadeInUp" style={{ animationDelay: '0.2s' }}>{focus}</p>}
             </div>
           </div>
-        )}
 
-        {/* Theme/Topic tags */}
-        {tags.length > 0 && (
-          <div className="mt-4">
-            <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h6>
-            <div className="flex flex-wrap gap-2">
-              {tags.map((t: string, i: number) => (
-                <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/60 px-3 py-1 text-xs font-medium text-[#92400e]">
-                  <span className="h-1 w-1 rounded-full bg-[#d97706]" />
-                  {t}
-                </span>
+          {/* Description */}
+          <div className="text-[#5b2d12] leading-relaxed text-md motion-safe:animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
+            <Paragraphs text={description} />
+          </div>
+
+          {importance && (
+            <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-[#92400e] animate-pulse">
+              <span className="text-md"></span> {importance}
+            </div>
+          )}
+
+          {/* Stats row */}
+          {structure && (
+            <div className="mt-6 flex flex-wrap gap-3">
+              {Object.entries(structure).map(([key, value]) => (
+                <div key={key} className="flex flex-col items-center rounded-xl bg-linear-to-br from-[#fffaf3] to-[#fde68a]/40 px-4 py-2.5 min-w-20 shadow-md">
+                  <span className="text-xl font-extrabold text-[#7a2e1f] drop-shadow-sm">{String(value)}</span>
+                  <span className="text-base font-semibold uppercase tracking-wider text-[#a89278]">
+                    {key.replace(/_/g, ' ')}
+                  </span>
+                </div>
               ))}
             </div>
-          </div>
+          )}
+
+          {/* Divisions (for Yajurveda) */}
+          {divisions.length > 0 && (
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {divisions.map((div: Record<string, unknown>, i: number) => (
+                <div key={i} className="rounded-xl border-2 border-[#edc98f]/60 bg-linear-to-br from-[#fffaf3] to-[#fde68a]/30 p-4 shadow-sm">
+                  <h6 className="font-semibold text-[#3d2e22] text-sm animate-fadeInUp">{String(div.type || '')}</h6>
+                  <p className="text-xs text-[#6b5d4f] mt-1">({String(div.meaning || '')})</p>
+                  <p className="text-xs text-[#5b2d12] mt-1">{String(div.characteristics || '')}</p>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Deities chips */}
+          {deities.length > 0 && (
+            <div className="mt-5">
+              <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Major Deities</h6>
+              <div className="flex flex-wrap gap-2">
+                {deities.map((d: string) => (
+                  <span key={d} className={`inline-flex items-center rounded-lg border-2 ${accent.border}/40 bg-linear-to-br from-[#fffaf3] to-[#fde68a]/30 px-3 py-1 text-xs font-semibold ${accent.text} shadow-sm motion-safe:animate-fadeInUp`}>
+                    {d}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Theme/Topic tags */}
+          {tags.length > 0 && (
+            <div className="mt-4">
+              <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h6>
+              <div className="flex flex-wrap gap-2">
+                {tags.map((t: string, i: number) => (
+                  <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-linear-to-br from-[#fde7c7]/60 to-[#fde68a]/30 px-3 py-1 text-xs font-medium text-[#92400e] shadow-sm">
+                    <span className="h-1 w-1 rounded-full bg-[#d97706] animate-pulse" />
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+      );
+    }
+  ))}
+        </div>
+      </div>
+    );
+          </div >
         )}
+
+{/* Theme/Topic tags */ }
+{
+  tags.length > 0 && (
+    <div className="mt-4">
+      <h6 className="text-xs font-semibold uppercase tracking-widest text-[#a89278] mb-2">Key Themes</h6>
+      <div className="flex flex-wrap gap-2">
+        {tags.map((t: string, i: number) => (
+          <span key={i} className="inline-flex items-center gap-1 rounded-lg bg-[#fde7c7]/60 px-3 py-1 text-xs font-medium text-[#92400e]">
+            <span className="h-1 w-1 rounded-full bg-[#d97706]" />
+            {t}
+          </span>
+        ))}
       </div>
     </div>
+  )
+}
+      </div >
+    </div >
   );
 }
 

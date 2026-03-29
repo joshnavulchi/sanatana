@@ -32,10 +32,10 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-2xl font-semibold text-red-800 mt-6 mb-3">{children}</h2>;
+    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] drop-shadow-lg mt-6 mb-3 animate-gradient-x">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-base text-gray-800 leading-relaxed mb-4">{children}</p>;
+    return <p className="text-base text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -85,9 +85,11 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   function Block({ title, content }: any) {
     if (!content && content !== 0) return null;
     return (
-      <section>
+      <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
-        {renderContent(content)}
+        <div className="motion-safe:animate-fadeInUp duration-500">
+          {renderContent(content)}
+        </div>
       </section>
     );
   }
@@ -96,12 +98,12 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     if (!Array.isArray(items) || items.length === 0) return null;
 
     return (
-      <section>
+      <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
-        <div className="space-y-4">
+        <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-6">
           {items.map((item: any, idx: number) => (
-            <div key={idx}>
-              {item.title && <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>}
+            <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
+              {item.title && <h3 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">{item.title}</h3>}
               {item.introduction && renderContent(item.introduction)}
               {item.scripture_text && renderContent(item.scripture_text)}
               {item.philosophical_explanation && renderContent(item.philosophical_explanation)}
