@@ -85,7 +85,7 @@ export default function BhagavadGitaClient() {
   }
 
   return (
-    <PageLayout metaKey="itihasa_bhagavadgita" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
+    <PageLayout metaKey="bhagavadgita" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 rounded-2xl border-emerald-200/30 bg-gradient-to-br from-emerald-50 via-green-100 to-emerald-100 overflow-hidden mb-8 shadow-lg animate-fadeIn">
           <p className="text-base body-text text-emerald-900 drop-shadow">{description}</p>
