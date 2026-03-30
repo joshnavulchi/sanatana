@@ -118,7 +118,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-base text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
           ◈
         </span>
-        <span className="text-base font-semibold transition-all duration-300 tracking-wide">{item.label}</span>
+        <span className="text-sm font-semibold transition-all duration-300 tracking-wide">{item.label}</span>
       </Link>
     );
   }
@@ -158,10 +158,10 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
             <Link
               key={child.href}
               href={child.href}
-              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold' : 'text-gray-700'}`}
+              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-semibold' : 'text-gray-700'}`}
             >
               <span className="h-2.5 w-2.5 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 shrink-0" />
-              <span className="text-base whitespace-nowrap font-medium">{child.label}</span>
+              <span className="text-sm whitespace-nowrap">{child.label}</span>
             </Link>
           ))}
         </div>

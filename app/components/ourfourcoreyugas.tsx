@@ -62,7 +62,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
       className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} dark:from-gray-900/80 dark:via-${gradientfrom} dark:to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
       {/* Top accent gradient border */}
-      <div className={`h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
+      <div className={`h-[3px] w-full rounded-t-3xl bg-gradient-to-r from-amber-500 via-pink-400 to-indigo-400 shadow-md`} />
 
       {/* Ornamental blurs */}
       <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-gradient-to-br from-yellow-200/40 to-pink-200/30 blur-2xl" />
@@ -83,7 +83,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </h3>
 
         {/* Subtitle */}
-        <p className="mt-2 text-base font-semibold uppercase tracking-widest text-indigo-700">
+        <p className="mt-2 text-lg font-semibold uppercase tracking-widest text-indigo-700">
           {subtitle}
         </p>
 
@@ -91,7 +91,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-base leading-relaxed text-gray-700 dark:text-gray-200">
+              <li key={i} className="flex items-start gap-3 text-md leading-relaxed text-gray-700 dark:text-gray-200">
                 <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-br from-amber-400 to-pink-400" />
                 {point}
               </li>
@@ -101,7 +101,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-6">
-          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-sm font-bold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
+          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 p-2 text-xs font-semibold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
             <svg className="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -143,11 +143,11 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <h6 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
             {title}
           </h6>
 
-          <p className="mt-4 text-sm leading-relaxed text-gray-700">
+          <p className="mt-4 text-md leading-relaxed text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -199,8 +199,8 @@ export default function OurFourCoreYugas() {
 
           {/* Highlight note */}
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-5xl bg-black/5 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-relaxed">
+            <div className="mx-auto max-w-5xl bg-gradient-to-r from-amber-400 to-pink-400 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#f5f5f5] via-[#f1f1f1] to-[#ffffff] bg-clip-text text-base leading-relaxed">
                 {earthAgeComparisonNote}
               </p>
             </div>
