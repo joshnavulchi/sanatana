@@ -143,8 +143,8 @@ body.dark {
 .layout-sm,
 .layout-md,
 .layout-lg {
-  margin: 3rem auto;
-  padding: var(--space-xl) var(--space-md);
+  margin: -1rem auto;
+  padding: var(--space-2xl) var(--space-md);
 }
 
 .layout-sm {
@@ -153,7 +153,10 @@ body.dark {
 
 .layout-md {
   max-width: var(--content-width-md);
-  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+
+.layout-lg {
+  max-width: var(--content-width-lg);
 }
 
 footer {
