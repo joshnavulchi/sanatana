@@ -1,30 +1,47 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { DEFAULT_LOCALE, loadLocaleData } from '@lib/i18n';
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import { fetchContentByRoute, RAMAYANA_KANDAS } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { notFound } from 'next/navigation';
+
+import KandaClient from './KandaClient';
 
 export async function generateStaticParams() {
-  const data = await loadLocaleData(DEFAULT_LOCALE, 'itihasa/ramayana/index');
-  const root = (data.ramayana ?? data) as Record<string, unknown>;
-  const kandas = Array.isArray(root.kandas) ? root.kandas : [];
-
-  return kandas
-    .filter((item): item is Record<string, unknown> => !!item && typeof item === 'object')
-    .map((item) => ({ kanda: typeof item.slug === 'string' ? item.slug : '' }))
-    .filter((item) => item.kanda);
+  return RAMAYANA_KANDAS.map((k) => ({ kanda: k }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: any; searchParams?: any }) {
-  const p = params && typeof (params as any).then === 'function' ? await (params as any) : params;
-  const kanda = typeof p?.kanda === 'string' ? p.kanda : '';
-  const folder = kanda.replace(/-kanda$/, '') || kanda;
-  return createGenerateMetadata(`itihasa/ramayana/${folder}/index`)({ searchParams });
+export async function generateMetadata({ params, searchParams }: { params?: { kanda?: string }; searchParams?: any }) {
+  const v = params?.kanda;
+  const key = v ? `itihasa/ramayana/${v}/index` : 'itihasa/ramayana';
+  return await createGenerateMetadata(key)({ searchParams });
 }
 
-import KandaClient from './kandaClient';
+export default async function Page({ params }: { params: { kanda?: string } | Promise<{ kanda?: string }> }) {
+  let resolvedParams: { kanda?: string } | undefined = params as any;
+  try {
+    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
+      resolvedParams = await (resolvedParams as any);
+    }
+  } catch (e) {
+    resolvedParams = undefined;
+  }
 
-export default function Page() {
-  return (
-    <KandaClient />
-  );
+  const kandaParam = typeof resolvedParams?.kanda === 'string' ? resolvedParams.kanda : undefined;
+  if (!kandaParam) return notFound();
+
+  const kanda = [kandaParam];
+  const locale = DEFAULT_LOCALE;
+  const fetched = await fetchContentByRoute(locale, ['itihasa', 'ramayana', ...kanda]);
+  let data: any = fetched && fetched.data ? (fetched.data as any) : null;
+  if (data && typeof data === 'object' && kanda.length > 0) {
+    const rootKey = kanda[0];
+    if ((data as any)[rootKey]) {
+      data = (data as any)[rootKey];
+    }
+  }
+  if (!data) return notFound();
+
+  return <KandaClient initialData={data} initialLocale={locale} kanda={kanda} />;
 }
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

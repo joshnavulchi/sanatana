@@ -1,10 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
-export async function generateMetadata(props: any) {
-  return createGenerateMetadata('itihasa/ramayana/index')(props);
-}
+import RamayanaClient from './RamayanaClient';
 
-import RamayanaClient from './ramayanaclient';
+export const generateMetadata = createGenerateMetadata('itihasa/ramayana/index');
 
 export default function Page() {
   return (

@@ -83,6 +83,7 @@ body,
   height: 100%
 }
 
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
@@ -142,8 +143,8 @@ body.dark {
 .layout-sm,
 .layout-md,
 .layout-lg {
-  margin: 3rem auto;
-  padding: var(--space-xl) var(--space-md);
+  margin: -1rem auto;
+  padding: var(--space-2xl) var(--space-md);
 }
 
 .layout-sm {
@@ -152,7 +153,10 @@ body.dark {
 
 .layout-md {
   max-width: var(--content-width-md);
-  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+
+.layout-lg {
+  max-width: var(--content-width-lg);
 }
 
 footer {
@@ -228,15 +232,6 @@ footer {
 
 .meta-text {
   @apply text-sm text-gray-500
-}
-
-.gradient-background {
-  background-image: radial-gradient(circle farthest-corner at 90% 0%,
-  var(--color-yellow),
-  var(--color-red) 18%,
-  var(--color-orange) 46%,
-  var(--color-violet) 87%,
-  var(--color-blue));
 }
 
 @media (min-width: 1024px) {

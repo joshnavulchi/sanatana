@@ -1,10 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import MahabharataClient from './MahabharataClient';
 import { createGenerateMetadata } from '@lib/pageUtils';
-export async function generateMetadata(props: any) {
-  return createGenerateMetadata('itihasa/mahabharata/index')(props);
-}
 
-import MahabharataClient from './mahabharataclient';
+export const generateMetadata = createGenerateMetadata('itihasa/mahabharata/index');
 
 export default function Page() {
   return (

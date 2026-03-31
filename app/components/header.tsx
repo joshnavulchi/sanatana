@@ -113,12 +113,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap rounded-xl shadow-sm transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-bold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
+        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-bold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
       >
-        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-base text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
+        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-md text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
           ◈
         </span>
-        <span className="text-sm font-semibold transition-all duration-300 tracking-wide">{item.label}</span>
+        <span className="text-md transition-all duration-300 tracking-wide">{item.label}</span>
       </Link>
     );
   }
@@ -128,10 +128,10 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     <div className="group" onMouseEnter={() => onToggleSub(item.href)} onMouseLeave={() => onToggleSub(item.href)}>
       <div className={`flex items-center justify-between gap-3 px-4 py-2 transition-all duration-200 rounded-xl ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow-lg'}`}>
         <Link href={item.href} className="flex items-center gap-3 flex-1 px-2 whitespace-nowrap">
-          <span className={`flex h-6 w-6 items-center justify-center rounded-full text-base transition-colors duration-200 ${isSubOpen ? 'bg-linear-to-br from-indigo-600 to-pink-600 text-white shadow-lg' : 'bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-indigo-700'}`}>
+          <span className={`flex h-6 w-6 items-center justify-center rounded-full text-md transition-colors duration-200 ${isSubOpen ? 'bg-linear-to-br from-indigo-600 to-pink-600 text-white shadow-lg' : 'bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-indigo-700'}`}>
             ◈
           </span>
-          <span className={`text-base font-semibold transition-colors duration-200 ${itemActive ? 'text-indigo-700' : 'text-gray-700'}`}>
+          <span className={`text-md font-semibold transition-colors duration-200 ${itemActive ? 'text-indigo-700' : 'text-gray-700'}`}>
             {item.label}
           </span>
         </Link>
@@ -158,10 +158,10 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
             <Link
               key={child.href}
               href={child.href}
-              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-semibold' : 'text-gray-700'}`}
+              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold' : 'text-gray-700'}`}
             >
               <span className="h-2.5 w-2.5 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 shrink-0" />
-              <span className="text-sm whitespace-nowrap">{child.label}</span>
+              <span className="text-md whitespace-nowrap font-medium">{child.label}</span>
             </Link>
           ))}
         </div>
@@ -191,8 +191,8 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <Link href={section.basePath} className={`flex items-center gap-1 px-1 py-1 rounded-md text-sm cursor-pointer transition-all duration-200 hover:bg-white/50 ${sectionActive ? 'text-primary-700 font-semibold' : 'text-gray-900 hover:text-primary-600'}`}>
-        <span className="text-base">{icon}</span>
+      <Link href={section.basePath} className={`flex items-center gap-1 px-1 py-1 rounded-md text-md cursor-pointer transition-all duration-200 hover:bg-white/50 ${sectionActive ? 'text-primary-700 font-semibold' : 'text-gray-900 hover:text-primary-600'}`}>
+        <span className="text-md">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -213,7 +213,7 @@ function DesktopDropdown({ section, isActive }: {
                 return (
                   <div key={item.href} className="px-3">
                     <div className={`flex items-center justify-between gap-3 py-2 px-3 rounded-xl transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 shadow-lg' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow'} `}>
-                      <Link href={item.href} className={`flex-1 text-base font-semibold ${itemActive ? 'text-indigo-800' : 'text-gray-700 hover:text-indigo-900'}`}>
+                      <Link href={item.href} className={`flex-1 text-md ${itemActive ? 'text-indigo-800' : 'text-gray-700 hover:text-indigo-900'}`}>
                         {item.label}
                       </Link>
                       {item.children && item.children.length > 0 && (
@@ -237,7 +237,7 @@ function DesktopDropdown({ section, isActive }: {
                           <Link
                             key={child.href}
                             href={child.href}
-                            className={`block px-3 py-1.5 rounded-lg text-base transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                            className={`block px-3 py-1.5 rounded-lg text-md transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                           >
                             <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
                             {child.label}
@@ -277,22 +277,22 @@ function MobileNavSection({ section, isActive, onNavigate }: {
   const [expandedChild, setExpandedChild] = useState<string | null>(null);
 
   return (
-    <div className="mt-1">
-      {/* Section header — tap to toggle */}
-      <div className="w-full flex items-center gap-2 rounded-xl bg-white px-2 py-1 mb-1">
-        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-base sm:text-xl md:text-2xl font-semibold text-gray-900">
+    <div className="mt-2">
+      {/* Section header — tap to toggle (desktop-like styling) */}
+      <div className="w-full flex items-center gap-2 rounded-xl bg-white px-3 py-2 mb-2 border border-gray-100 shadow-sm">
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-indigo-200 to-pink-200 text-md text-indigo-800">{icon}</span>
+        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-md text-gray-900">
           {section.title}
         </Link>
         <button
           type="button"
           onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
-          className="p-2 rounded-md text-[#92400e] hover:bg-[#fde7c7] transition-colors"
+          className="p-2 rounded-xl text-indigo-600 hover:bg-indigo-50 transition-colors"
           aria-expanded={expanded}
           aria-label={`Toggle ${section.title} items`}
         >
           <svg
-            className={`h-4 w-4 text-[#b45309] transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -300,56 +300,52 @@ function MobileNavSection({ section, isActive, onNavigate }: {
         </button>
       </div>
 
-      {/* Items */}
+      {/* Items (styled similar to desktop dropdown panel) */}
       {expanded && (
-        <div className="ml-4 border-l-2 border-[#d8a25a]/30 pl-3 flex flex-col gap-0.5">
-          {section.items.map((item) => (
-            <div key={item.href}>
-              <div className="flex items-center">
-                <Link
-                  href={item.href}
-                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
-                  onClick={onNavigate}
-                >
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
-                  {item.label}
-                </Link>
-                {item.children && item.children.length > 0 && (
-                  <button
-                    type="button"
-                    onClick={() => setExpandedChild(prev => prev === item.href ? null : item.href)}
-                    className="p-2 rounded-lg text-[#92400e] hover:bg-[#fde7c7] transition-colors cursor-pointer"
-                    aria-expanded={expandedChild === item.href}
-                    aria-label={`Toggle ${item.label} sub-items`}
-                  >
-                    <svg
-                      className={`h-3.5 w-3.5 transition-transform duration-200 ${expandedChild === item.href ? 'rotate-180' : ''}`}
-                      fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
+        <div className="ml-0 pl-1 pr-1 flex flex-col gap-2">
+          {section.items.map((item) => {
+            const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
+            return (
+              <div key={item.href} className="">
+                <div className={`flex items-center justify-between gap-3 py-2 px-3 rounded-xl transition-all duration-200 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 shadow-lg' : 'hover:bg-linear-to-r hover:from-indigo-50 hover:via-pink-50 hover:to-rose-50'}`}>
+                  <Link href={item.href} className={`flex-1 text-md font-medium ${itemActive ? 'text-indigo-800' : 'text-gray-700'}`} onClick={onNavigate}>
+                    {item.label}
+                  </Link>
+
+                  {item.children && item.children.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setExpandedChild(prev => prev === item.href ? null : item.href)}
+                      className="p-2 rounded-xl text-indigo-600 hover:bg-indigo-50 transition-colors"
+                      aria-expanded={expandedChild === item.href}
+                      aria-label={`Toggle ${item.label} sub-items`}
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
+                      <svg className={`h-4 w-4 transition-transform duration-200 ${expandedChild === item.href ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+
+                {/* Sub-items (desktop-like rounded list) */}
+                {item.children && expandedChild === item.href && (
+                  <div className="mt-2 ml-4 pr-2 pb-2 border-l-2 border-indigo-100/40 space-y-2">
+                    {item.children.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className={`block px-3 py-2 rounded-lg transition-all duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                        onClick={onNavigate}
+                      >
+                        <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
                 )}
               </div>
-
-              {/* Sub-items */}
-              {item.children && expandedChild === item.href && (
-                <div className="ml-6 border-l-2 border-[#d8a25a]/20 pl-3 flex flex-col gap-0.5 mt-0.5">
-                  {item.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
-                      onClick={onNavigate}
-                    >
-                      <span className="h-1 w-1 rounded-full bg-[#c49a6c]" />
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
@@ -416,6 +412,7 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+      <div className="p-2 md:p-1 text-md text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Barat.</div>
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
       <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}

@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 
-import UpanishadsClient from './UpanishadsClient';
+import UpanishadsClient from './UpanishadClient';
 
 type UpanishadsData = {
   title?: string;
@@ -17,17 +17,17 @@ export async function generateStaticParams() {
   const top = [
     'aitareya', 'brihadaranyaka', 'chandogya', 'isha', 'katha', 'kaushitaki', 'kena', 'maitri', 'mandukya', 'mundaka', 'prashna', 'shvetashvatara', 'taittiriya'
   ];
-  return top.map((s) => ({ upanishads: s }));
+  return top.map((s) => ({ upanishad: s }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: { upanishads?: string }; searchParams?: any }) {
-  const s = params?.upanishads;
-  const key = s ? `upanishads/${s}/index` : 'upanishads';
+export async function generateMetadata({ params, searchParams }: { params?: { upanishad?: string }; searchParams?: any }) {
+  const s = params?.upanishad;
+  const key = s ? `upanishads/${s}/index` : 'upanishads/index';
   return await createGenerateMetadata(key)({ searchParams });
 }
 
-export default async function Page({ params }: { params: { upanishads?: string } | Promise<{ upanishads?: string }> }) {
-  let resolvedParams: { upanishads?: string } | undefined = params as any;
+export default async function Page({ params }: { params: { upanishad?: string } | Promise<{ upanishad?: string }> }) {
+  let resolvedParams: { upanishad?: string } | undefined = params as any;
   try {
     if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
       resolvedParams = await (resolvedParams as any);
@@ -36,7 +36,7 @@ export default async function Page({ params }: { params: { upanishads?: string }
     resolvedParams = undefined;
   }
 
-  const up = typeof resolvedParams?.upanishads === 'string' ? resolvedParams.upanishads : undefined;
+  const up = typeof resolvedParams?.upanishad === 'string' ? resolvedParams.upanishad : undefined;
   if (!up) return notFound();
 
   const segments = [up];
