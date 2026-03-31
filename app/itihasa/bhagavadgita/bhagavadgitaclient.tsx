@@ -54,6 +54,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
 export default function BhagavadGitaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavadgita');
+  const META_KEY = 'itihasa/bhagavadgita/index';
   const shared = useLocaleSection('sharable_strings');
 
   // Extract chapter links from sharable_strings footer itihasa data
@@ -78,14 +79,14 @@ export default function BhagavadGitaClient() {
 
   if (isLoading && !ns?.title && !bgEntry) {
     return (
-      <PageLayout metaKey="scriptures_bhagavadgita" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Bhagavad Gita' }]} className="layout-md">
+      <PageLayout metaKey={META_KEY} title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Bhagavad Gita' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey="itihasa_bhagavadgita" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
+    <PageLayout metaKey={META_KEY} title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 rounded-2xl border-emerald-200/30 bg-gradient-to-br from-emerald-50 via-green-100 to-emerald-100 overflow-hidden mb-8 shadow-lg animate-fadeIn">
           <p className="text-base body-text text-emerald-900 drop-shadow">{description}</p>

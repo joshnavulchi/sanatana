@@ -1,6 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, DEFAULT_LOCALE } from '@lib/i18n';
 import PageLayout from '@components/common/PageLayout';
+import { createGenerateMetadata } from '@lib/pageUtils';
+
+export const generateMetadata = createGenerateMetadata('privacy_policy');
 
 export default function PrivacyPolicyPage({ searchParams }: any) {
   const locale = DEFAULT_LOCALE;

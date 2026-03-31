@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@/lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('itihasa');
 
-import ItihasaClient from './itihasaclient';
+import ItihasaClient from './ItihasaClient';
 
 export default function Page() {
   return (

@@ -49,3 +49,8 @@ export default async function Page() {
     <AuditViewer />
   );
 }
+
+export const generateMetadata = {
+  title: 'Post-deploy audit',
+  description: 'Build and audit report for the site',
+};

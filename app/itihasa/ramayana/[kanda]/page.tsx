@@ -4,7 +4,7 @@ import { fetchContentByRoute, RAMAYANA_KANDAS } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import KandaClient from './kandaClient';
+import KandaClient from './KandaClient';
 
 export async function generateStaticParams() {
   return RAMAYANA_KANDAS.map((k) => ({ kanda: k }));

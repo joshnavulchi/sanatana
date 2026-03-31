@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-03-31T13:50:47.160Z",
+  "generatedAt": "2026-03-31T14:01:46.202Z",
   "totalPages": 113,
-  "passed": 24,
-  "failed": 9,
-  "averageScore": 73,
+  "passed": 28,
+  "failed": 5,
+  "averageScore": 76,
   "pages": [
+    {
+      "page": "/404/",
+      "status": "FAIL",
+      "issues": [
+        "Missing or empty <title>",
+        "Missing <meta name=\"description\">",
+        "Missing <link rel=\"canonical\">",
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 0
+    },
     {
       "page": "/googlec257c31c246db1c1",
       "status": "FAIL",
@@ -25,7 +43,7 @@
       "score": 0
     },
     {
-      "page": "/404/",
+      "page": "/404",
       "status": "FAIL",
       "issues": [
         "Missing or empty <title>",
@@ -49,37 +67,13 @@
       "score": 100
     },
     {
-      "page": "/404",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Contains <meta name=\"robots\" content=\"noindex\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 0
-    },
-    {
-      "page": "/about/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/contact/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/donate/",
+      "page": "/about/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -95,48 +89,10 @@
       "score": 72
     },
     {
-      "page": "/our-cookie-policy/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
-    },
-    {
-      "page": "/our-privacy-policy/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
-    },
-    {
-      "page": "/puranas/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
+      "page": "/donate/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/itihasa/",
@@ -149,13 +105,7 @@
       "score": 72
     },
     {
-      "page": "/sanatanadharma/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/privacy-policy/",
+      "page": "/our-cookie-policy/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -178,7 +128,35 @@
       "score": 16
     },
     {
+      "page": "/our-privacy-policy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/privacy-policy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/puranas/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
       "page": "/sanksheparamayana/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/sanatanadharma/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -188,16 +166,6 @@
       "status": "PASS",
       "issues": [],
       "score": 100
-    },
-    {
-      "page": "/vedic-philosophy/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
     },
     {
       "page": "/vedas/",
@@ -210,33 +178,6 @@
       "status": "PASS",
       "issues": [],
       "score": 100
-    },
-    {
-      "page": "/vedic-science/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/itihasa/bhagavadgita/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
     },
     {
       "page": "/_not-found/",
@@ -257,6 +198,32 @@
       "score": 0
     },
     {
+      "page": "/vedic-science/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/vedic-philosophy/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/bhagavadgita/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/itihasa/mahabharata/",
       "status": "PASS",
       "issues": [],
@@ -274,30 +241,9 @@
     },
     {
       "page": "/itihasa/ramayana/",
-      "status": "FAIL",
-      "issues": [
-        "Missing or empty <title>",
-        "Missing <meta name=\"description\">",
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 16
-    },
-    {
-      "page": "/puranas/bhavishya/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/puranas/bhagavata/",
@@ -330,6 +276,16 @@
       "score": 72
     },
     {
+      "page": "/puranas/bhavishya/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
       "page": "/puranas/brahmavaivarta/",
       "status": "WARN",
       "issues": [
@@ -341,6 +297,26 @@
     },
     {
       "page": "/puranas/garuda/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/puranas/kurma/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/puranas/linga/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -370,16 +346,6 @@
       "score": 72
     },
     {
-      "page": "/puranas/linga/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
       "page": "/puranas/narada/",
       "status": "WARN",
       "issues": [
@@ -390,17 +356,7 @@
       "score": 72
     },
     {
-      "page": "/puranas/kurma/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/puranas/padma/",
+      "page": "/puranas/skanda/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -420,7 +376,7 @@
       "score": 72
     },
     {
-      "page": "/puranas/skanda/",
+      "page": "/puranas/padma/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -450,6 +406,12 @@
       "score": 72
     },
     {
+      "page": "/upanishads/aitareya/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/puranas/vishnu/",
       "status": "WARN",
       "issues": [
@@ -460,25 +422,13 @@
       "score": 72
     },
     {
-      "page": "/upanishads/aitareya/",
+      "page": "/upanishads/isha/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/upanishads/brihadaranyaka/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/upanishads/chandogya/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/upanishads/isha/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -496,7 +446,7 @@
       "score": 100
     },
     {
-      "page": "/upanishads/maitri/",
+      "page": "/upanishads/chandogya/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -514,7 +464,25 @@
       "score": 100
     },
     {
+      "page": "/upanishads/maitri/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/upanishads/mundaka/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/shvetashvatara/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/taittiriya/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -536,12 +504,6 @@
       "score": 72
     },
     {
-      "page": "/upanishads/shvetashvatara/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/vedas/rigveda/",
       "status": "WARN",
       "issues": [
@@ -552,23 +514,7 @@
       "score": 72
     },
     {
-      "page": "/upanishads/taittiriya/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/vedas/yajurveda/",
+      "page": "/vedic-philosophy/advaita/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -579,16 +525,6 @@
     },
     {
       "page": "/vedic-philosophy/bhakti/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/vedic-philosophy/advaita/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -618,7 +554,27 @@
       "score": 72
     },
     {
+      "page": "/vedas/samaveda/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
       "page": "/vedic-philosophy/karma/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/vedas/yajurveda/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -638,7 +594,7 @@
       "score": 72
     },
     {
-      "page": "/vedic-philosophy/purushartha/",
+      "page": "/vedic-philosophy/samsara/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -648,7 +604,7 @@
       "score": 72
     },
     {
-      "page": "/vedic-philosophy/samsara/",
+      "page": "/vedic-philosophy/purushartha/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -708,16 +664,6 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter13/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
       "page": "/itihasa/bhagavadgita/chapter12/",
       "status": "WARN",
       "issues": [
@@ -738,7 +684,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter15/",
+      "page": "/itihasa/bhagavadgita/chapter13/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -758,7 +704,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter17/",
+      "page": "/itihasa/bhagavadgita/chapter15/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -769,6 +715,16 @@
     },
     {
       "page": "/itihasa/bhagavadgita/chapter18/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/bhagavadgita/chapter17/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -798,17 +754,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter4/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/itihasa/bhagavadgita/chapter7/",
+      "page": "/itihasa/bhagavadgita/chapter5/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -828,17 +774,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter5/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/itihasa/bhagavadgita/chapter9/",
+      "page": "/itihasa/bhagavadgita/chapter7/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -858,7 +794,37 @@
       "score": 72
     },
     {
+      "page": "/itihasa/bhagavadgita/chapter4/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/bhagavadgita/chapter9/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
       "page": "/itihasa/mahabharata/adi/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/mahabharata/ashramavasika/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -888,27 +854,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/mahabharata/ashramavasika/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
       "page": "/itihasa/mahabharata/bhishma/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
-      "page": "/itihasa/mahabharata/karna/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -928,16 +874,6 @@
       "score": 72
     },
     {
-      "page": "/itihasa/mahabharata/mahaprasthanika/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
       "page": "/itihasa/mahabharata/mousala/",
       "status": "WARN",
       "issues": [
@@ -948,7 +884,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/mahabharata/sauptika/",
+      "page": "/itihasa/mahabharata/mahaprasthanika/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -968,7 +904,17 @@
       "score": 72
     },
     {
-      "page": "/itihasa/mahabharata/shalya/",
+      "page": "/itihasa/mahabharata/karna/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/mahabharata/sauptika/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -979,6 +925,16 @@
     },
     {
       "page": "/itihasa/mahabharata/shanti/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/mahabharata/shalya/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -1018,16 +974,6 @@
       "score": 72
     },
     {
-      "page": "/itihasa/mahabharata/vana/",
-      "status": "WARN",
-      "issues": [
-        "Missing <meta name=\"description\">",
-        "Missing meta property=\"og:description\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 72
-    },
-    {
       "page": "/itihasa/ramayana/aranya/",
       "status": "WARN",
       "issues": [
@@ -1039,6 +985,16 @@
     },
     {
       "page": "/itihasa/mahabharata/virata/",
+      "status": "WARN",
+      "issues": [
+        "Missing <meta name=\"description\">",
+        "Missing meta property=\"og:description\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 72
+    },
+    {
+      "page": "/itihasa/mahabharata/vana/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -1078,7 +1034,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/ramayana/uttara/",
+      "page": "/itihasa/ramayana/sundara/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",
@@ -1088,7 +1044,7 @@
       "score": 72
     },
     {
-      "page": "/itihasa/ramayana/sundara/",
+      "page": "/itihasa/ramayana/uttara/",
       "status": "WARN",
       "issues": [
         "Missing <meta name=\"description\">",

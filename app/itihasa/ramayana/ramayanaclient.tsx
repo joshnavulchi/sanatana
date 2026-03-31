@@ -54,6 +54,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
 export default function RamayanaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_ramayana');
+  const META_KEY = 'itihasa/ramayana/index';
   const shared = useLocaleSection('sharable_strings');
 
   // Extract kanda links from sharable_strings footer itihasa data
@@ -78,14 +79,14 @@ export default function RamayanaClient() {
 
   if (isLoading && !ns?.title && !ramayanaEntry) {
     return (
-      <PageLayout metaKey="scriptures_ramayana" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Ramayana' }]} className="layout-md">
+      <PageLayout metaKey={META_KEY} title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Ramayana' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey="scriptures_ramayana" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
+    <PageLayout metaKey={META_KEY} title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 bg-gradient-to-br from-amber-50 via-amber-100 to-yellow-50 rounded-2xl border-amber-200/30 overflow-hidden mb-8 shadow-lg animate-fadeIn">
           <p className="text-base body-text text-amber-900 drop-shadow">{description}</p>

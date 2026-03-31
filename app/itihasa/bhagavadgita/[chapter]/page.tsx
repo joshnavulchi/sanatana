@@ -4,7 +4,7 @@ import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import ChapterClient from './chapterClient';
+import ChapterClient from './ChapterClient';
 
 const CHAPTERS = Array.from({ length: 18 }, (_, i) => `chapter${i + 1}`);
 

@@ -39,3 +39,8 @@ export default function Custom404() {
     </main>
   );
 }
+
+export const generateMetadata = {
+  title: '404 — Page not found',
+  description: "The requested page couldn't be found.",
+};
