@@ -2,9 +2,10 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
-import VedasClient from './vedasclient';
+import VedasClient from './VedasClient';
 
-export const generateMetadata = createGenerateMetadata('vedas');
+// Use the explicit `vedas/index` namespace so metadata maps to public/data/locales/{locale}/vedas/index.json
+export const generateMetadata = createGenerateMetadata('vedas/index');
 
 export default async function Page() {
   const locale = DEFAULT_LOCALE;

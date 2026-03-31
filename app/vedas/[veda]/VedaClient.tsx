@@ -181,6 +181,14 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {/* Introduction */}
       {data.introduction && <Paragraph>{data.introduction}</Paragraph>}
 
+      {/* Meaning */}
+      {data.meaning_of_word_veda && (
+        <section>
+          <SectionTitle>Meaning</SectionTitle>
+          <Paragraph>{data.meaning_of_word_veda}</Paragraph>
+        </section>
+      )}
+
       {/* Scripture Text */}
       {data.scripture_text && (
         <Block title="Scripture Text" content={data.scripture_text} />
@@ -189,6 +197,66 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {/* Philosophy */}
       {data.philosophical_explanation && (
         <Block title="Philosophical Insights" content={data.philosophical_explanation} />
+      )}
+
+      {/* Estimated composition period */}
+      {data.estimated_composition_period && (
+        <section>
+          <SectionTitle>Estimated composition period</SectionTitle>
+          <div className="text-sm">
+            {Object.entries(data.estimated_composition_period).map(([k, v]) => (
+              <div key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Vedic society */}
+      {data.vedic_society && (
+        <section>
+          <SectionTitle>Vedic society</SectionTitle>
+          {data.vedic_society.social_structure && (
+            <ul className="list-disc pl-5">
+              {data.vedic_society.social_structure.map((s: any, i: number) => <li key={i}>{s}</li>)}
+            </ul>
+          )}
+        </section>
+      )}
+
+      {/* Influence */}
+      {data.influence_of_vedas && (
+        <section>
+          <SectionTitle>Influence of the Vedas</SectionTitle>
+          {Object.entries(data.influence_of_vedas).map(([k, arr]) => (
+            Array.isArray(arr) ? (
+              <div key={k} className="mb-3">
+                <h4 className="font-medium">{k.replace(/_/g, ' ')}</h4>
+                <ul className="list-disc pl-5">
+                  {(arr as any[]).map((it: any, idx: number) => <li key={idx}>{String(it)}</li>)}
+                </ul>
+              </div>
+            ) : null
+          ))}
+        </section>
+      )}
+
+      {/* Timeline and concepts */}
+      {data.vedic_timeline && (
+        <section>
+          <SectionTitle>Vedic timeline</SectionTitle>
+          <ul className="list-disc pl-5 text-sm">
+            {Object.entries(data.vedic_timeline).map(([k, v]) => <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>)}
+          </ul>
+        </section>
+      )}
+
+      {data.vedic_philosophical_concepts && (
+        <section>
+          <SectionTitle>Philosophical concepts</SectionTitle>
+          <div className="text-sm">
+            {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>)}
+          </div>
+        </section>
       )}
 
       {/* Rigveda Mandalas */}
@@ -227,6 +295,16 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
               <li key={i}>{c}</li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {/* Structure (raw summary) */}
+      {data.structure && (
+        <section>
+          <SectionTitle>Structure</SectionTitle>
+          <div className="prose max-w-none">
+            <pre className="text-xs bg-white/60 p-2 rounded overflow-x-auto">{JSON.stringify(data.structure, null, 2)}</pre>
+          </div>
         </section>
       )}
 

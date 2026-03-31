@@ -59,7 +59,7 @@ function normalizeNav(nav: unknown, basePath: string): NavLink[] {
 export default function UpanishadsClient() {
   const { isLoading } = useLocale();
   const shared = useLocaleSection('sharable_strings');
-  const pageNs = useLocaleSection('upanishads');
+  const pageNs = useLocaleSection('upanishads/index');
   const section = shared?.footer?.upanishads;
   const title = section?.title || 'Upanishads';
   const links = normalizeNav(section?.nav, '/upanishads');
@@ -71,14 +71,14 @@ export default function UpanishadsClient() {
 
   if (isLoading && !section) {
     return (
-      <PageLayout metaKey="upanishads" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Upanishads' }]} className="layout-md">
+      <PageLayout metaKey="upanishads/index" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Upanishads' }]} className="layout-md">
         <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey="upanishads" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
+    <PageLayout metaKey="upanishads/index" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
       {introduction && (
         <div className="relative px-4 md:px-6 py-4 md:py-10 bg-amber-50 rounded-2xl border-amber-200/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h3 className="section-title mb-4">Introduction</h3>

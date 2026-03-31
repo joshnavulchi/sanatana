@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 
-import UpanishadsClient from './UpanishadsClient';
+import UpanishadsClient from './UpanishadClient';
 
 type UpanishadsData = {
   title?: string;
@@ -22,7 +22,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params, searchParams }: { params?: { upanishads?: string }; searchParams?: any }) {
   const s = params?.upanishads;
-  const key = s ? `upanishads/${s}/index` : 'upanishads';
+  const key = s ? `upanishads/${s}/index` : 'upanishads/index';
   return await createGenerateMetadata(key)({ searchParams });
 }
 

@@ -278,7 +278,9 @@ export default function Footer() {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
                 const title = section.title || key;
-                const bp = (section.basePath as string) || configBase || `/${key}`;
+                const bp = (typeof section.basePath === 'string')
+                  ? (section.basePath as string)
+                  : (configBase && String(configBase).length > 0 ? configBase : '');
                 const links = normalizeNavLinks(section.nav, bp);
 
                 // Insert ItihasaColumn after puranas

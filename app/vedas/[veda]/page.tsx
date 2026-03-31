@@ -4,7 +4,7 @@ import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import VedaClient from './vedaClient';
+import VedaClient from './VedaClient';
 
 type vedaData = {
   title?: string;
@@ -15,17 +15,17 @@ type vedaData = {
 
 export async function generateStaticParams() {
   const topLevel = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
-  return topLevel.map((v) => ({ vedas: v }));
+  return topLevel.map((v) => ({ veda: v }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: { vedas?: string }; searchParams?: any }) {
-  const v = params?.vedas;
+export async function generateMetadata({ params, searchParams }: { params?: { veda?: string }; searchParams?: any }) {
+  const v = params?.veda;
   const key = v ? `vedas/${v}/index` : 'vedas';
   return await createGenerateMetadata(key)({ searchParams });
 }
 
-export default async function Page({ params }: { params: { vedas?: string } | Promise<{ vedas?: string }> }) {
-  let resolvedParams: { vedas?: string } | undefined = params as any;
+export default async function Page({ params }: { params: { veda?: string } | Promise<{ veda?: string }> }) {
+  let resolvedParams: { veda?: string } | undefined = params as any;
   try {
     if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
       resolvedParams = await (resolvedParams as any);
@@ -33,11 +33,10 @@ export default async function Page({ params }: { params: { vedas?: string } | Pr
   } catch (e) {
     resolvedParams = undefined;
   }
+  const vedaParam = typeof resolvedParams?.veda === 'string' ? resolvedParams.veda : undefined;
+  if (!vedaParam) return notFound();
 
-  const vedasParam = typeof resolvedParams?.vedas === 'string' ? resolvedParams.vedas : undefined;
-  if (!vedasParam) return notFound();
-
-  const vedas = [vedasParam];
+  const vedas = [vedaParam];
   const locale = DEFAULT_LOCALE;
   const fetched = await fetchContentByRoute(locale, ['vedas', ...vedas]);
   let data: vedaData | null = fetched && fetched.data ? (fetched.data as any) : null;
