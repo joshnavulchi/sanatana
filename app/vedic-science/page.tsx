@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@/lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('vedic-science');
 
-import VedicScienceClient from './vedicscienceclient';
+import VedicScienceClient from './VedicscienceClient';
 
 export default function Page() {
   return (
