@@ -1,7 +1,135 @@
 {
   "ramayana": {
-    "title": "Ramayana Structure",
-    "description": "Structured Ramayana navigation with kanda and sarga hierarchy.",
+    "title": "Ramayana - Complete Epic Overview, Kandas, Characters & Teachings",
+    "description": "Explore the Ramayana, the ancient Indian epic attributed to Valmiki. Discover its 7 kandas, key characters like Rama, Sita, and Hanuman, and its deep moral and philosophical teachings.",
+    "meta": {
+      "title": "Ramayana - Complete Epic Overview, Kandas, Characters & Teachings",
+      "description": "Explore the Ramayana, the ancient Indian epic attributed to Valmiki. Discover its 7 kandas, key characters like Rama, Sita, and Hanuman, and its deep moral and philosophical teachings.",
+      "keywords": [
+        "ramayana",
+        "valmiki",
+        "rama",
+        "sita",
+        "hanuman",
+        "ravana",
+        "indian epics",
+        "hindu mythology",
+        "dharma",
+        "ayodhya"
+      ],
+      "author": "valmiki",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": "index, follow",
+      "canonical": "https://yourdomain.com/ramayana",
+      "language": "en",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "open_graph": {
+      "og:title": "Ramayana - The Epic of Dharma, Devotion, and Duty",
+      "og:description": "Discover the Ramayana: the journey of Rama, Sita's devotion, Hanuman's valor, and the battle against Ravana.",
+      "og:type": "book",
+      "og:url": "https://yourdomain.com/ramayana",
+      "og:image": "https://yourdomain.com/images/ramayana-cover.jpg",
+      "og:site_name": "Vedic Knowledge Hub",
+      "og:locale": "en_US"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Ramayana - Story of Rama, Sita & Hanuman",
+      "twitter:description": "Understand the Ramayana: kandas, characters, moral values, and timeless lessons of dharma.",
+      "twitter:image": "https://yourdomain.com/images/ramayana-cover.jpg"
+    },
+    "schema_org": {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Ramayana",
+      "alternateName": [
+        "Valmiki Ramayana",
+        "Ramayan"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Valmiki"
+      },
+      "datePublished": "ancient",
+      "inLanguage": "sa",
+      "bookFormat": "Epos",
+      "genre": [
+        "Epic",
+        "Mythology",
+        "Philosophy"
+      ],
+      "about": [
+        "Dharma",
+        "Rama's exile",
+        "Sita's devotion",
+        "Battle of Lanka",
+        "Hindu philosophy"
+      ],
+      "description": "The Ramayana is one of the greatest ancient Indian epics narrating the life of Rama, his exile, the abduction of Sita by Ravana, and the eventual victory of good over evil.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ancient Oral Tradition"
+      },
+      "hasPart": [
+        {
+          "@type": "Book",
+          "name": "Bala Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Ayodhya Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Aranya Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Kishkindha Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Sundara Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Yuddha Kanda"
+        },
+        {
+          "@type": "Book",
+          "name": "Uttara Kanda"
+        }
+      ],
+      "character": [
+        {
+          "@type": "Person",
+          "name": "Rama"
+        },
+        {
+          "@type": "Person",
+          "name": "Sita"
+        },
+        {
+          "@type": "Person",
+          "name": "Lakshmana"
+        },
+        {
+          "@type": "Person",
+          "name": "Hanuman"
+        },
+        {
+          "@type": "Person",
+          "name": "Ravana"
+        },
+        {
+          "@type": "Person",
+          "name": "Bharata"
+        }
+      ],
+      "numberOfPages": "24000 verses (approx)",
+      "isAccessibleForFree": true
+    },
     "total_kandas": 7,
     "total_sargas": 540,
     "kandas": [

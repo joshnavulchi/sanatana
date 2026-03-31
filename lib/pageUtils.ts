@@ -13,6 +13,9 @@ type SEOOptions = {
 
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, "");
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Sanatana";
+const SITE_DESCRIPTION =
+  process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
+  'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.';
 
 function absoluteUrl(path = "/") {
   if (!path) return SITE_URL + "/";
@@ -21,7 +24,7 @@ function absoluteUrl(path = "/") {
 
 function generateSEO(opts: SEOOptions) {
   const title = opts.title ? `${opts.title} | ${SITE_NAME}` : SITE_NAME;
-  const description = opts.description || "";
+  const description = opts.description || SITE_DESCRIPTION;
   const url = absoluteUrl(opts.path || "/");
 
   const images = opts.image ? [{ url: opts.image }] : undefined;
@@ -115,13 +118,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
 
     // Common structure: { "metaKey": { ...page... } }
     if (isPlainObject((rawNs as any)[metaKey])) return (rawNs as any)[metaKey] as Record<string, unknown>;
-
-    // Nested namespace paths often resolve to a single top-level object such as
-    // { "ramayana": { ... } } or { "bala-kanda": { ... } }.
-    const rawKeys = Object.keys(rawNs);
-    if (rawKeys.length === 1 && isPlainObject((rawNs as any)[rawKeys[0]])) {
-      return (rawNs as any)[rawKeys[0]] as Record<string, unknown>;
-    }
 
     // Alternate: file directly exports the page object
     if ((rawNs as any).meta || (rawNs as any).openGraph || (rawNs as any).schema) return rawNs as Record<string, unknown>;
@@ -285,39 +281,13 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       imageForSeo = typeof first === 'string' ? first : first?.url;
     }
 
-    const metadata = generateSEO({
+    return generateSEO({
       title: title || undefined,
       description: description || undefined,
       path: pathForSeo,
       image: imageForSeo,
       keywords: (meta as any).keywords || undefined,
     });
-
-    metadata.alternates = {
-      ...(metadata.alternates || {}),
-      canonical: canonical || metadata.alternates?.canonical,
-    };
-
-    metadata.openGraph = {
-      ...(metadata.openGraph || {}),
-      title: firstString((openGraph as any).title, title, (metadata.openGraph as any)?.title),
-      description: firstString((openGraph as any).description, description, (metadata.openGraph as any)?.description),
-      url: ogUrl || canonical || (metadata.openGraph as any)?.url,
-      siteName: firstString((openGraph as any).siteName, (metadata.openGraph as any)?.siteName, 'Sanatanadharmam'),
-      type: firstString((openGraph as any).type, (metadata.openGraph as any)?.type, 'website'),
-      images: ogImages || (metadata.openGraph as any)?.images,
-    };
-
-    metadata.twitter = {
-      ...(metadata.twitter || {}),
-      title: firstString((openGraph as any).title, title, (metadata.twitter as any)?.title),
-      description: firstString((openGraph as any).description, description, (metadata.twitter as any)?.description),
-      images: Array.isArray(ogImages)
-        ? ogImages.map((image) => (typeof image === 'string' ? image : image.url))
-        : (metadata.twitter as any)?.images,
-    };
-
-    return metadata;
   };
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */ 

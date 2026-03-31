@@ -39,7 +39,7 @@ export default function SlokasClient() {
         metaKey="about"
         title={page?.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Sanksheparamayana' }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <div className="flex items-center justify-center py-4 text-base leading-relaxed font-normal">
           <Loader />
@@ -53,7 +53,7 @@ export default function SlokasClient() {
       metaKey="sanksheparamayana"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
-      className="layout-sm bg-gradient-to-br from-[#fdf6e3] via-[#f5e6ca] to-[#f7d9c4] min-h-screen animate-fade-in">
+      className="layout-md bg-gradient-to-br from-[#fdf6e3] via-[#f5e6ca] to-[#f7d9c4] min-h-screen animate-fade-in">
       {/* Main characters */}
       {page.main_characters && page.main_characters.length > 0 && (
         <div className="rounded-2xl bg-gradient-to-br from-[#f7d9c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">

@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@/lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('puranas');
 
-import PuranasClient from './puranasclient';
+import PuranasClient from './PuranasClient';
 
 export default function Page() {
   return (

@@ -81,11 +81,11 @@ export default function UnderstandingOfSanatana() {
               {section.items?.map((topic, topicIndex) => (
                 <article
                   key={`${section.id}-${topic.id || topicIndex}`}
-                  className="flex flex-col gap-1 p-4 rounded-xl bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 backdrop-blur-sm shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
+                  className="flex flex-col gap-1 p-4 rounded-xl bg-white/60 backdrop-blur-sm shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
                 >
                   <div className="flex items-center gap-3">
                     {topic.src && (
-                      <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="p-1" />
+                      <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
                       <h4 className="text-md font-semibold text-amber-700">{topic.title}</h4>

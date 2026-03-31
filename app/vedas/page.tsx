@@ -1,32 +1,20 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
-import { DEFAULT_LOCALE } from '@lib/i18n';
-import { fetchContentByRoute } from '@lib/siteUtils';
-import VedasClient from './vedasclient';
+import { DEFAULT_LOCALE, loadLocaleData } from '@lib/i18n';
+import VedasClient from './VedasClient';
 
-export const generateMetadata = createGenerateMetadata('vedas');
+export const generateMetadata = createGenerateMetadata('vedas/index');
 
 export default async function Page() {
   const locale = DEFAULT_LOCALE;
-  const names = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
-  const initialVedas: Record<string, unknown>[] = [];
+  // Prefer reading the locale namespace directly from public/data/locales
+  const parsedRoot = await loadLocaleData(locale, 'vedas/index');
+  let parsed = (parsedRoot && Object.keys(parsedRoot).length > 0) ? parsedRoot : {} as Record<string, any>;
+  if (parsed.vedas && typeof parsed.vedas === 'object') parsed = parsed.vedas as Record<string, any>;
 
-  for (const name of names) {
-    try {
-      const fetched = await fetchContentByRoute(locale, ['vedas', name]);
-      let data = fetched && fetched.data ? (fetched.data as any) : null;
-      if (data && typeof data === 'object') {
-        const key = Object.keys(data)[0];
-        const obj = (data[key] && typeof data[key] === 'object') ? data[key] : data;
-        if (obj) {
-          if (!(obj as any).veda) (obj as any).veda = name.charAt(0).toUpperCase() + name.slice(1);
-          initialVedas.push(obj as Record<string, unknown>);
-        }
-      }
-    } catch (e) {
-      // continue on errors
-    }
-  }
+  const initialVedas: Record<string, unknown>[] = Array.isArray(parsed.scripture_text)
+    ? parsed.scripture_text as Record<string, unknown>[]
+    : [];
 
   return <VedasClient initialVedas={initialVedas} />;
 }
