@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 
-import PhilosophyClient from './philosophyClient';
+import PhilosophyClient from './PhilosophyClient';
 
 type pageData = {
   title?: string;

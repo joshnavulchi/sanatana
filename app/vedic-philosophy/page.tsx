@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '@/lib/pageUtils';
 import { loadLocaleData, DEFAULT_LOCALE } from '@lib/i18n';
 
-import VedicClient from './vedicClient';
+import VedicClient from './VedicClient';
 
 export const generateMetadata = createGenerateMetadata('vedic-philosophy');
 
