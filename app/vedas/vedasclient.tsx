@@ -18,8 +18,8 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
 
   useEffect(() => {
     if (initialVedas && initialVedas.length > 0) {
-      // map initial list into simple data shape
-      setData({ scripture_list: initialVedas });
+      // map initial list into the same shape as locale data
+      setData({ scripture_text: initialVedas });
       setLoading(false);
       return;
     }
@@ -97,7 +97,6 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
             </div>
           </section>
         )}
-
 
         <section className="mt-6">
           <h4 className="text-2xl font-semibold mb-3">Vedas</h4>

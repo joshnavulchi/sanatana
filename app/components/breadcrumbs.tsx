@@ -73,7 +73,7 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
                     {it.label}
                   </Link>
                 ) : (
-                  <span className="text-pink-700 bg-pink-100/60 px-4 py-1 my-1 rounded-full text-sm leading-relaxed font-semibold animate-pulse">{it.label}</span>
+                  <span className="text-pink-700 bg-pink-100/60 px-2 py-1 my-1 rounded-full text-sm leading-relaxed font-semibold animate-pulse">{it.label}</span>
                 )}
                 {idx < normalized.length - 1 && (
                   <svg className="w-4 h-4 mx-1 text-pink-400 flex-shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

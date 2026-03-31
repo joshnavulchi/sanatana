@@ -4,7 +4,7 @@ import { fetchContentByRoute, MAHABHARATA_PARVAS } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import ParvaClient from './parvaClient';
+import ParvaClient from './ParvaClient';
 
 export async function generateStaticParams() {
   return MAHABHARATA_PARVAS.map((p) => ({ parva: p }));

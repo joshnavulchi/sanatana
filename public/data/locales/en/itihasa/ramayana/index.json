@@ -1,6 +1,6 @@
 {
-  "itihasa_ramayana_structure": {
-    "title": "Ramayana Structure",
+  "ramayana": {
+    "title": "Ramayana",
     "description": "Structured Ramayana navigation with kanda and sarga hierarchy.",
     "total_kandas": 7,
     "total_sargas": 540,
