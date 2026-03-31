@@ -28,10 +28,24 @@ function asObject(value: unknown): Record<string, unknown> {
   return {};
 }
 
-function extractMeta(namespaceData: unknown, metakey: string): MetaLike {
+function unwrapNamespaceObject(namespaceData: unknown, metakey: string): Record<string, unknown> {
   const root = asObject(namespaceData);
-  const nested = asObject(root[metakey]);
-  const source = Object.keys(nested).length > 0 ? nested : root;
+  if (!Object.keys(root).length) return {};
+
+  const direct = asObject(root[metakey]);
+  if (Object.keys(direct).length > 0) return direct;
+
+  const keys = Object.keys(root);
+  if (keys.length === 1) {
+    const nested = asObject(root[keys[0]]);
+    if (Object.keys(nested).length > 0) return nested;
+  }
+
+  return root;
+}
+
+function extractMeta(namespaceData: unknown, metakey: string): MetaLike {
+  const source = unwrapNamespaceObject(namespaceData, metakey);
   return source as MetaLike;
 }
 
@@ -51,11 +65,10 @@ export default function StructuredData({ metakey, params, locale }: Props) {
         const extractedMeta = extractMeta(nsMaybe, metakey);
         setMeta(extractedMeta);
 
-        const obj = asObject(nsMaybe);
-        const nested = asObject(obj[metakey]);
+        const nested = unwrapNamespaceObject(nsMaybe, metakey);
         const schema =
           (nested.schema as Record<string, unknown> | null | undefined) ??
-          (obj.schema as Record<string, unknown> | null | undefined) ??
+          (asObject(nsMaybe).schema as Record<string, unknown> | null | undefined) ??
           null;
         setPageSchema(schema);
       } catch (_error) {

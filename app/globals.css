@@ -83,7 +83,6 @@ body,
   height: 100%
 }
 
-
 body {
   background: var(--color-bg);
   color: var(--color-text);
@@ -229,6 +228,15 @@ footer {
 
 .meta-text {
   @apply text-sm text-gray-500
+}
+
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+  var(--color-yellow),
+  var(--color-red) 18%,
+  var(--color-orange) 46%,
+  var(--color-violet) 87%,
+  var(--color-blue));
 }
 
 @media (min-width: 1024px) {

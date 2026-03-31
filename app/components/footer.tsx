@@ -81,7 +81,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-md transition-all duration-300 rounded-xl my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
+          className={`text-base transition-all duration-300 rounded-xl p-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}

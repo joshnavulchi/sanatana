@@ -283,6 +283,7 @@
       },
       "others": {
         "title": "Sanātana Dharma",
+        "basePath": "/",
         "nav": {
           "vedic-gods": "Vedic Gods",
           "about": "About"
