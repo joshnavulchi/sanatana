@@ -93,16 +93,18 @@ export default function MahabharataClient() {
     return () => { cancelled = true; };
   }, [locale]);
 
+  const META_KEY = 'itihasa/mahabharata/index';
+
   if (isLoading && !ns?.title) {
     return (
-      <PageLayout metaKey="scriptures_mahabharata" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Mahabharata' }]} className="layout-md">
+      <PageLayout metaKey={META_KEY} title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Mahabharata' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey="itihasa_mahabharata" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
+    <PageLayout metaKey={META_KEY} title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 rounded-2xl border-blue-200/30 bg-gradient-to-br from-blue-50 via-indigo-100 to-blue-100 overflow-hidden mb-8 shadow-lg animate-fadeIn">
           <p className="text-base body-text text-blue-900 drop-shadow">{description}</p>

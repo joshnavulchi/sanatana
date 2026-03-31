@@ -1,7 +1,180 @@
 {
   "mahabharata": {
-    "title": "Mahabharata Structure",
-    "description": "Structured Mahabharata navigation with parva and chapter hierarchy.",
+    "title": "Mahabharata - Complete Epic Overview, Parvas, Characters & Philosophy",
+    "description": "Explore the Mahabharata, the great Indian epic attributed to Vyasa. Discover its 18 parvas, key characters like Krishna and Arjuna, Bhagavad Gita teachings, and deep philosophical insights.",
+    "meta": {
+      "title": "Mahabharata - Complete Epic Overview, Parvas, Characters & Philosophy",
+      "description": "Explore the Mahabharata, the great Indian epic attributed to Vyasa. Discover its 18 parvas, key characters like Krishna and Arjuna, Bhagavad Gita teachings, and deep philosophical insights.",
+      "keywords": [
+        "mahabharata",
+        "vyasa",
+        "bhagavad gita",
+        "kurukshetra war",
+        "pandavas",
+        "kौरavas",
+        "indian epics",
+        "vedic literature",
+        "dharma",
+        "hindu philosophy"
+      ],
+      "author": "vyasa",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": "index, follow",
+      "canonical": "https://yourdomain.com/mahabharata",
+      "language": "en",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "open_graph": {
+      "og:title": "Mahabharata - The Greatest Indian Epic Explained",
+      "og:description": "Dive into the Mahabharata: 18 parvas, legendary characters, Kurukshetra war, and timeless wisdom of the Bhagavad Gita.",
+      "og:type": "book",
+      "og:url": "https://yourdomain.com/mahabharata",
+      "og:image": "https://yourdomain.com/images/mahabharata-cover.jpg",
+      "og:site_name": "Vedic Knowledge Hub",
+      "og:locale": "en_US"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Mahabharata - Epic of Dharma and Destiny",
+      "twitter:description": "Understand the Mahabharata: story, philosophy, Krishna's teachings, and the Kurukshetra war.",
+      "twitter:image": "https://yourdomain.com/images/mahabharata-cover.jpg"
+    },
+    "schema_org": {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Mahabharata",
+      "alternateName": [
+        "Mahabharat",
+        "Jaya",
+        "Bharata"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Vyasa"
+      },
+      "datePublished": "ancient",
+      "inLanguage": "sa",
+      "bookFormat": "Epos",
+      "genre": [
+        "Epic",
+        "Mythology",
+        "Philosophy"
+      ],
+      "about": [
+        "Dharma",
+        "Kurukshetra War",
+        "Pandavas and Kauravas",
+        "Bhagavad Gita",
+        "Hindu philosophy"
+      ],
+      "description": "The Mahabharata is one of the longest epic poems in the world, narrating the conflict between the Pandavas and Kauravas and containing the Bhagavad Gita.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ancient Oral Tradition"
+      },
+      "hasPart": [
+        {
+          "@type": "Book",
+          "name": "Adi Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Sabha Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Vana Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Virata Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Udyoga Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Bhishma Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Drona Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Karna Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Shalya Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Sauptika Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Stri Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Shanti Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Anushasana Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Ashvamedhika Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Ashramavasika Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Mausala Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Mahaprasthanika Parva"
+        },
+        {
+          "@type": "Book",
+          "name": "Svargarohana Parva"
+        }
+      ],
+      "character": [
+        {
+          "@type": "Person",
+          "name": "Krishna"
+        },
+        {
+          "@type": "Person",
+          "name": "Arjuna"
+        },
+        {
+          "@type": "Person",
+          "name": "Bhishma"
+        },
+        {
+          "@type": "Person",
+          "name": "Karna"
+        },
+        {
+          "@type": "Person",
+          "name": "Duryodhana"
+        },
+        {
+          "@type": "Person",
+          "name": "Yudhishthira"
+        }
+      ],
+      "numberOfPages": "100000+ verses (approx)",
+      "isAccessibleForFree": true
+    },
     "total_parvas": 18,
     "total_chapters": 360,
     "parvas": [
