@@ -13,6 +13,9 @@ type SEOOptions = {
 
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, "");
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Sanatana";
+const SITE_DESCRIPTION =
+  process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
+  'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.';
 
 function absoluteUrl(path = "/") {
   if (!path) return SITE_URL + "/";
@@ -21,7 +24,7 @@ function absoluteUrl(path = "/") {
 
 function generateSEO(opts: SEOOptions) {
   const title = opts.title ? `${opts.title} | ${SITE_NAME}` : SITE_NAME;
-  const description = opts.description || "";
+  const description = opts.description || SITE_DESCRIPTION;
   const url = absoluteUrl(opts.path || "/");
 
   const images = opts.image ? [{ url: opts.image }] : undefined;
