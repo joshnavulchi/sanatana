@@ -1,94 +1,121 @@
 {
   "sanatanadharma": {
-    "title": "Understanding Sanātana Dharma - The Eternal Way of Life",
+    "title": "What is Sanatana Dharma? Meaning, Philosophy, Vedas & Eternal Way of Life",
+    "description": "Discover Sanatana Dharma, the eternal way of life rooted in the Vedas. Learn its meaning, core principles like Dharma, Karma, Moksha, and insights from the Upanishads and Bhagavad Gita.",
     "meta": {
-      "title": "Sanātana Dharma — Understanding Sanātana Dharma",
+      "title": "What is Sanatana Dharma? Meaning, Philosophy, Vedas & Eternal Way of Life",
       "canonical": "https://sanatanadharmam.in/sanatanadharma",
-      "description": "Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "description": "Discover Sanatana Dharma, the eternal way of life rooted in the Vedas. Learn its meaning, core principles like Dharma, Karma, Moksha, and insights from the Upanishads and Bhagavad Gita.",
       "keywords": [
-        "Ancient Indian wisdom",
-        "Ancient Vedic civilization",
-        "Ancient sages and Vedic knowledge",
-        "Ancient wisdom",
-        "Atman and Brahman",
-        "Atman and Brahman concept in Hinduism",
-        "Cosmic order",
-        "Cultural heritage",
-        "Cyclical time concept in Hindu philosophy",
-        "Dharma",
-        "Difference between Atman and Brahman",
-        "Eternal Way of Life",
-        "Eternal truths",
-        "Ethical living",
-        "Harmony with nature",
-        "Hindu philosophy",
-        "History of Sanātana Dharma",
-        "Indian spirituality",
-        "Inner peace",
-        "Karma",
-        "Karma and Rebirth in Sanātana Dharma",
-        "Meaning of moksha in Hindu philosophy",
-        "Modern relevance",
-        "Moksha",
-        "Moksha meaning in Indian philosophy",
-        "Religious philosophy",
-        "Role of Vedas in Sanātana Dharma",
-        "Samsara Cycle in Hindu philosophy",
-        "Sanātana Dharma",
-        "Sanātana Dharma eternal nature",
-        "Sanātana Dharma explained",
-        "Sanātana Dharma origins",
-        "Sanātana Dharma philosophy",
-        "Sanātana Dharma vs religion",
-        "Sanātana Dharma way of life",
-        "Scriptures",
-        "Self-realization",
-        "Spiritual enlightenment",
-        "Spiritual growth",
-        "Spiritual practices",
-        "Timeless teachings",
-        "Universal principles",
-        "Vedas and Sanātana Dharma",
-        "Vedic foundations of Sanātana Dharma",
-        "Vedic traditions",
-        "What is karma according to Sanātana Dharma",
-        "When did Sanātana Dharma begin",
-        "Yoga and meditation"
+        "what is sanatana dharma",
+        "sanatana dharma meaning",
+        "sanatana dharma philosophy",
+        "vedas and sanatana dharma",
+        "karma dharma moksha explained",
+        "hindu philosophy basics",
+        "atman and brahman meaning",
+        "sanatana dharma way of life",
+        "upanishads teachings",
+        "bhagavad gita philosophy"
       ],
-      "ogimage": "images/og/home.png",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/sanatanadharma"
+    },
+    "openGraph": {
+      "title": "What is Sanatana Dharma? Eternal Wisdom Explained",
+      "description": "Explore the philosophy of Sanatana Dharma, including Dharma, Karma, Moksha, and teachings from the Vedas, Upanishads, and Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/sanatanadharma",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/home.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy and Vedic Wisdom"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What is Sanatana Dharma? Meaning and Philosophy",
+          "description": "Comprehensive guide to Sanatana Dharma, its philosophy, principles, and Vedic foundations.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/sanatanadharma"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en"
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "WebPage",
+          "name": "Sanatana Dharma",
+          "url": "https://sanatanadharmam.in/sanatanadharma",
+          "about": {
+            "@type": "Thing",
+            "name": "Sanatana Dharma",
+            "description": "The eternal spiritual tradition rooted in the Vedas and Hindu philosophy."
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Sanatana Dharma",
+              "item": "https://sanatanadharmam.in/sanatanadharma"
+            }
+          ]
+        }
+      ]
     },
     "sections": [
       {
