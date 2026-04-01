@@ -39,12 +39,12 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-200/60 to-amber-100/0 animate-pulse" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-amber-200/60 to-amber-100/0 animate-pulse" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-amber-50 bg-amber-500/80 shadow-lg">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-amber-50 bg-amber-500/80 shadow-lg">
           {index + 1}
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-amber-900 drop-shadow">{section}</h3>
       </div>
-      <div className="text-md text-amber-800 leading-relaxed pl-2">
+      <div className="text-base sm:text-lg text-amber-800 leading-relaxed pl-2">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -89,7 +89,7 @@ export default function RamayanaClient() {
     <PageLayout metaKey={META_KEY} title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 bg-gradient-to-br from-amber-50 via-amber-100 to-yellow-50 rounded-2xl border-amber-200/30 overflow-hidden mb-8 shadow-lg animate-fadeIn">
-          <p className="text-md body-text text-amber-900 drop-shadow">{description}</p>
+          <p className="text-base sm:text-lg body-text text-amber-900 drop-shadow">{description}</p>
         </div>
       )}
 
@@ -132,8 +132,8 @@ export default function RamayanaClient() {
                 <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-gradient-to-br from-amber-50 via-amber-100 to-yellow-50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:bg-amber-100/80 animate-fadeIn">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-200/60 to-amber-100/0 animate-pulse" />
                   <div className="flex items-center gap-3 mt-2">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/15 text-md font-semibold text-amber-700 shadow-md">{idx + 1}</span>
-                    <h3 className="text-md font-semibold text-amber-900 group-hover:text-amber-700 transition-colors">{link.label}</h3>
+                    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/15 text-base sm:text-lg font-semibold text-amber-700 shadow-md">{idx + 1}</span>
+                    <h3 className="text-base sm:text-lg font-semibold text-amber-900 group-hover:text-amber-700 transition-colors">{link.label}</h3>
                   </div>
                 </div>
               </Link>

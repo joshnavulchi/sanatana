@@ -32,12 +32,12 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#a78bfa]/40 via-[#fcd34d]/30 to-[#38bdf8]/20 animate-gradient-x" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-[#a78bfa]/40 to-[#38bdf8]/20 animate-gradient-y" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)] bg-gradient-to-br from-[#a78bfa] to-[#fcd34d] animate-bounceIn">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)] bg-gradient-to-br from-[#a78bfa] to-[#fcd34d] animate-bounceIn">
           {index + 1}
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg animate-gradient-x">{section}</h3>
       </div>
-      <div className="text-md text-[#3b3270] leading-relaxed pl-2 animate-fadeInUp">
+      <div className="text-base sm:text-lg text-[#3b3270] leading-relaxed pl-2 animate-fadeInUp">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -115,8 +115,8 @@ export default function UpanishadsClient() {
             <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md">📜</span>
-                <h3 className="text-md font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-base sm:text-lg">📜</span>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
               </div>
             </div>
           </Link>

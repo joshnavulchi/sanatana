@@ -81,7 +81,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
   return (
     <PageLayout metaKey="vedas/index" title={title} description={description} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
       <div className="space-y-6">
-        {data.definition && <p className="text-md">{data.definition}</p>}
+        {data.definition && <p className="text-base sm:text-lg">{data.definition}</p>}
         {data.introduction && <div className="prose max-w-none"><p>{data.introduction}</p></div>}
 
         {Array.isArray(data.scripture_text) && (
@@ -91,7 +91,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
               {data.scripture_text.map((s: any, idx: number) => (
                 <div key={idx} className="p-4 rounded-lg bg-white/60 shadow-sm">
                   <h5 className="font-semibold text-lg">{s.veda}</h5>
-                  {s.description && <p className="text-md text-gray-700 mt-2">{s.description}</p>}
+                  {s.description && <p className="text-base sm:text-lg text-gray-700 mt-2">{s.description}</p>}
                 </div>
               ))}
             </div>
@@ -112,7 +112,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
         {data.meaning_of_word_veda && (
           <section className="mt-6">
             <h4 className="text-xl font-semibold mb-2">Meaning of the word Veda</h4>
-            <p className="text-md">{data.meaning_of_word_veda}</p>
+            <p className="text-base sm:text-lg">{data.meaning_of_word_veda}</p>
           </section>
         )}
 
@@ -128,7 +128,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
             <h4 className="text-xl font-semibold mb-2">Estimated composition period</h4>
             <dl className="grid grid-cols-1 gap-2">
               {Object.entries(data.estimated_composition_period).map(([k, v]) => (
-                <div key={k} className="text-md">
+                <div key={k} className="text-base sm:text-lg">
                   <strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{' '}{String(v)}
                 </div>
               ))}
@@ -142,7 +142,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
             {data.vedic_society.social_structure && (
               <div>
                 <h5 className="font-medium">Social structure</h5>
-                <ul className="list-disc ml-5 text-md">
+                <ul className="list-disc ml-5 text-base sm:text-lg">
                   {Array.isArray(data.vedic_society.social_structure) && data.vedic_society.social_structure.map((s: any, i: number) => (
                     <li key={i}>{s}</li>
                   ))}
@@ -159,7 +159,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
               Array.isArray(arr) ? (
                 <div key={k} className="mb-3">
                   <h5 className="font-medium">{k.replace(/_/g, ' ')}</h5>
-                  <ul className="list-disc ml-5 text-md">
+                  <ul className="list-disc ml-5 text-base sm:text-lg">
                     {(arr as any[]).map((it: any, idx: number) => <li key={idx}>{String(it)}</li>)}
                   </ul>
                 </div>
@@ -171,7 +171,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
         {data.vedic_timeline && (
           <section className="mt-6">
             <h4 className="text-xl font-semibold mb-2">Vedic timeline</h4>
-            <ul className="list-disc ml-5 text-md">
+            <ul className="list-disc ml-5 text-base sm:text-lg">
               {Object.entries(data.vedic_timeline).map(([k, v]) => (
                 <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>
               ))}
@@ -182,7 +182,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
         {data.vedic_philosophical_concepts && (
           <section className="mt-6">
             <h4 className="text-xl font-semibold mb-2">Vedic philosophical concepts</h4>
-            <dl className="grid grid-cols-1 gap-2 text-md">
+            <dl className="grid grid-cols-1 gap-2 text-base sm:text-lg">
               {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => (
                 <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>
               ))}
@@ -195,7 +195,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
             <h4 className="text-xl font-semibold mb-2">Related concepts</h4>
             <div className="flex flex-wrap gap-2">
               {data.related_concepts.map((r: any, i: number) => (
-                <span key={i} className="text-md px-2 py-1 bg-gray-100 rounded">{r}</span>
+                <span key={i} className="text-base sm:text-lg px-2 py-1 bg-gray-100 rounded">{r}</span>
               ))}
             </div>
           </section>
@@ -207,7 +207,7 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
             {Object.entries(data.structure).map(([k, v]) => (
               <div key={k} className="mb-3">
                 <h5 className="font-medium">{k}</h5>
-                <pre className="text-xs bg-white/60 p-2 rounded overflow-x-auto">{JSON.stringify(v, null, 2)}</pre>
+                <pre className="text-sm bg-white/60 p-2 rounded overflow-x-auto">{JSON.stringify(v, null, 2)}</pre>
               </div>
             ))}
           </section>

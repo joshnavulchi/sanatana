@@ -46,20 +46,20 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
   }
 
   return (
-    <div className="fixed inset-0 z-[120] flex items-center justify-center pointer-events-auto text-md leading-relaxed font-normal">
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm text-md leading-relaxed font-normal" onClick={onClose} aria-label="Close cookie preferences modal" />
-      <div className="relative bg-gradient-to-br from-white via-blue-50 to-blue-100 border-2 border-blue-400 shadow-2xl rounded-2xl max-w-lg md:max-w-4xl w-full mx-4 p-6 flex flex-col gap-4 animate-fadeInUp text-md leading-relaxed font-normal">
-        <div className="flex items-center justify-between text-md leading-relaxed font-normal">
-          <span className="text-blue-700 text-md leading-relaxed font-normal">Cookie Preferences</span>
+    <div className="fixed inset-0 z-[120] flex items-center justify-center pointer-events-auto text-base sm:text-lg leading-relaxed font-normal">
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm text-base sm:text-lg leading-relaxed font-normal" onClick={onClose} aria-label="Close cookie preferences modal" />
+      <div className="relative bg-gradient-to-br from-white via-blue-50 to-blue-100 border-2 border-blue-400 shadow-2xl rounded-2xl max-w-lg md:max-w-4xl w-full mx-4 p-6 flex flex-col gap-4 animate-fadeInUp text-base sm:text-lg leading-relaxed font-normal">
+        <div className="flex items-center justify-between text-base sm:text-lg leading-relaxed font-normal">
+          <span className="text-blue-700 text-base sm:text-lg leading-relaxed font-normal">Cookie Preferences</span>
           <button className="cursor-pointer text-blue-500 hover:text-blue-700 text-2xl font-semibold px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="close" onClick={onClose}>✕</button>
         </div>
-        <div className="flex flex-col md:flex-row gap-4 text-md leading-relaxed font-normal">
+        <div className="flex flex-col md:flex-row gap-4 text-base sm:text-lg leading-relaxed font-normal">
           <nav className="md:w-1/3 w-full" aria-label="Cookie preference sections">
-            <ul className="space-y-2 list-disc pl-5 text-md leading-relaxed">
+            <ul className="space-y-2 list-disc pl-5 text-base sm:text-lg leading-relaxed">
               {TABS.map((t, idx) => (
                 <li key={idx}>
                   <button
-                    className={`text-md cursor-pointer w-full text-left px-8 py-3 rounded-full font-medium transition-colors ${active === t.id ? 'bg-blue-100 text-blue-700' : 'bg-transparent  hover:bg-blue-50'}`}
+                    className={`text-base sm:text-lg cursor-pointer w-full text-left px-8 py-3 rounded-full font-medium transition-colors ${active === t.id ? 'bg-blue-100 text-blue-700' : 'bg-transparent  hover:bg-blue-50'}`}
                     onClick={() => setActive(t.id)}
                   >
                     {t.title}
@@ -68,42 +68,42 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               ))}
             </ul>
           </nav>
-          <div className="md:w-2/3 w-full text-md leading-relaxed font-normal">
-            <div className="text-md leading-relaxed font-normal">
-              <span className="text-blue-700 text-md leading-relaxed font-normal">{TABS.find(t => t.id === active)?.title}</span>
-              <div className="text-md leading-relaxed font-normal">{TABS.find(t => t.id === active)?.description}</div>
+          <div className="md:w-2/3 w-full text-base sm:text-lg leading-relaxed font-normal">
+            <div className="text-base sm:text-lg leading-relaxed font-normal">
+              <span className="text-blue-700 text-base sm:text-lg leading-relaxed font-normal">{TABS.find(t => t.id === active)?.title}</span>
+              <div className="text-base sm:text-lg leading-relaxed font-normal">{TABS.find(t => t.id === active)?.description}</div>
             </div>
             {active === 'your-privacy' && (
-              <div className="bg-blue-50 rounded-lg p-3 text-md leading-relaxed font-normal">
+              <div className="bg-blue-50 rounded-lg p-3 text-base sm:text-lg leading-relaxed font-normal">
                 We use cookies to help improve the site, analyze traffic, and serve personalized content when you consent.
               </div>
             )}
             {active === 'strictly-necessary' && (
-              <div className="bg-gray-100 rounded-lg p-3 flex items-center gap-2 text-md leading-relaxed font-normal">
+              <div className="bg-gray-100 rounded-lg p-3 flex items-center gap-2 text-base sm:text-lg leading-relaxed font-normal">
                 <input type="checkbox" checked disabled className="accent-blue-500" />
                 <span>Strictly necessary (always enabled)</span>
               </div>
             )}
             {active !== 'your-privacy' && active !== 'strictly-necessary' && (
-              <div className="flex items-center gap-2 bg-blue-50 rounded-lg p-3 text-md leading-relaxed font-normal">
+              <div className="flex items-center gap-2 bg-blue-50 rounded-lg p-3 text-base sm:text-lg leading-relaxed font-normal">
                 <input
                   type="checkbox"
                   className="accent-blue-500"
                   checked={active === 'functionality' ? !!prefs.functionality : active === 'performance' ? !!prefs.performance : !!prefs.targeting}
                   onChange={() => toggle(active === 'functionality' ? 'functionality' : active === 'performance' ? 'performance' : 'targeting')}
                 />
-                <span className="text-md leading-relaxed font-normal">Enable {TABS.find(t => t.id === active)?.title}</span>
+                <span className="text-base sm:text-lg leading-relaxed font-normal">Enable {TABS.find(t => t.id === active)?.title}</span>
               </div>
             )}
             {active === 'targeting' && (
-              <div className="text-md leading-relaxed font-normal">
+              <div className="text-base sm:text-lg leading-relaxed font-normal">
                 Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.
               </div>
             )}
-            <div className="flex gap-3 justify-end text-md leading-relaxed font-normal">
-              <button className="text-md cursor-pointer px-8 py-3 rounded-full bg-gray-200 hover:bg-gray-300 transition" onClick={onClose}>Cancel</button>
-              <button className="text-md cursor-pointer px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
-              <button className="text-md cursor-pointer px-8 py-3 rounded-full bg-green-500 text-white hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
+            <div className="flex gap-3 justify-end text-base sm:text-lg leading-relaxed font-normal">
+              <button className="text-base sm:text-lg cursor-pointer px-8 py-3 rounded-full bg-gray-200 hover:bg-gray-300 transition" onClick={onClose}>Cancel</button>
+              <button className="text-base sm:text-lg cursor-pointer px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
+              <button className="text-base sm:text-lg cursor-pointer px-8 py-3 rounded-full bg-green-500 text-white hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
             </div>
           </div>
         </div>

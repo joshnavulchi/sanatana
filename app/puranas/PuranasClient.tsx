@@ -36,12 +36,12 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1" />
       <div className="absolute left-0 top-1 bottom-0 w-1" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
           {index + 1}
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-[#3d2e22]">{section}</h3>
       </div>
-      <div className="text-md text-[#5b2d12] leading-relaxed pl-2">
+      <div className="text-base sm:text-lg text-[#5b2d12] leading-relaxed pl-2">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -118,8 +118,8 @@ export default function PuranasClient() {
             <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md">📖</span>
-                <h3 className="text-md font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-base sm:text-lg">📖</span>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
               </div>
             </div>
           </Link>

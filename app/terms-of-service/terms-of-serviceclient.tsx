@@ -52,7 +52,7 @@ export default function TermsOfService() {
   if (isLoading && !page.title) {
     return (
       <PageLayout metaKey="terms_of_service" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-md">
-        <div className="flex items-center justify-center py-4 text-md leading-relaxed font-normal"><Loader /></div>
+        <div className="flex items-center justify-center py-4 text-base sm:text-lg leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
   }
@@ -69,11 +69,11 @@ export default function TermsOfService() {
       description={page.intro}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-md">
-      <div className="space-y-8 text-md leading-relaxed font-normal" id="terms-of-service-content">
-        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 text-md leading-relaxed font-normal">
-          <div className="flex items-center gap-3 text-md leading-relaxed font-normal">
-            <span className="text-md leading-relaxed font-normal">📋</span>
-            <strong className="text-xl md:text-md">{page.lastupdated}</strong>
+      <div className="space-y-8 text-base sm:text-lg leading-relaxed font-normal" id="terms-of-service-content">
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 text-base sm:text-lg leading-relaxed font-normal">
+          <div className="flex items-center gap-3 text-base sm:text-lg leading-relaxed font-normal">
+            <span className="text-base sm:text-lg leading-relaxed font-normal">📋</span>
+            <strong className="text-xl md:text-base sm:text-lg">{page.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
@@ -81,19 +81,19 @@ export default function TermsOfService() {
         {/* Disclaimer */}
         <section>
           <h6 className="text-lg font-semibold">{page.disclaimertitle}</h6>
-          <p className="text-md leading-relaxed mb-4 font-normal">{page.disclaimertext}</p>
-          <ul role="list" className="space-y-3 list-disc pl-5 text-md leading-relaxed">
+          <p className="text-base sm:text-lg leading-relaxed mb-4 font-normal">{page.disclaimertext}</p>
+          <ul role="list" className="space-y-3 list-disc pl-5 text-base sm:text-lg leading-relaxed">
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
               return item ? (
                 <li key={i} className="flex items-start gap-3 mb-2">
-                  <span className="shrink-0 w-2 h-2 rounded-full text-md leading-relaxed font-normal" />
-                  <span className="flex-1 text-md leading-relaxed font-normal">{item}</span>
+                  <span className="shrink-0 w-2 h-2 rounded-full text-base sm:text-lg leading-relaxed font-normal" />
+                  <span className="flex-1 text-base sm:text-lg leading-relaxed font-normal">{item}</span>
                 </li>
               ) : null;
             })}
           </ul>
-          <p className="text-md leading-relaxed mb-4 font-normal">{page.disclaimerclosing}</p>
+          <p className="text-base sm:text-lg leading-relaxed mb-4 font-normal">{page.disclaimerclosing}</p>
         </section>
 
         {/* Other sections in card format */}
@@ -107,27 +107,27 @@ export default function TermsOfService() {
           { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
         ].map((section, idx) => (
           <section key={idx} className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-            <p className="flex items-center gap-3 text-md leading-relaxed mb-4 font-normal">
-              <span className="text-md leading-relaxed font-normal">{section.icon}</span>
+            <p className="flex items-center gap-3 text-base sm:text-lg leading-relaxed mb-4 font-normal">
+              <span className="text-base sm:text-lg leading-relaxed font-normal">{section.icon}</span>
               {section.title}
             </p>
-            <p className="text-md leading-relaxed mb-4 font-normal">{section.text}</p>
+            <p className="text-base sm:text-lg leading-relaxed mb-4 font-normal">{section.text}</p>
           </section>
         ))}
 
         {/* Contact section */}
         <section className="rounded-2xl p-4 md:p-8">
-          <p className="flex items-center gap-3 text-md leading-relaxed mb-4 font-normal">
-            <span className="text-md leading-relaxed font-normal">📞</span>
+          <p className="flex items-center gap-3 text-base sm:text-lg leading-relaxed mb-4 font-normal">
+            <span className="text-base sm:text-lg leading-relaxed font-normal">📞</span>
             {page.contacttitle}
           </p>
-          <p className="text-md leading-relaxed mb-4 font-normal">{page.contacttext}</p>
-          <div className="space-y-2 text-md leading-relaxed font-normal">
+          <p className="text-base sm:text-lg leading-relaxed mb-4 font-normal">{page.contacttext}</p>
+          <div className="space-y-2 text-base sm:text-lg leading-relaxed font-normal">
             <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
             <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
             <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
           </div>
-          <p className="pt-4 text-md leading-relaxed mb-4 font-normal">{page.closing}</p>
+          <p className="pt-4 text-base sm:text-lg leading-relaxed mb-4 font-normal">{page.closing}</p>
         </section>
       </div>
     </PageLayout>

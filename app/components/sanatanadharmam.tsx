@@ -68,7 +68,7 @@ export default function UnderstandingOfSanatana() {
           >
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h3>
-              <p className="text-md text-gray-600 mb-4">{section.content}</p>
+              <p className="text-base sm:text-lg text-gray-600 mb-4">{section.content}</p>
             </div>
 
             {section.src && (
@@ -88,18 +88,27 @@ export default function UnderstandingOfSanatana() {
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-md font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-md text-gray-600 line-clamp-3">{topic.description}</p>
+                      <h4 className="text-base sm:text-lg font-semibold text-amber-700">{topic.title}</h4>
+                      <p className="text-base sm:text-lg text-gray-600 line-clamp-3">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">
-                    <Link href={topic.link} title={topic.title} className="inline-flex items-center gap-2 text-md font-medium text-amber-700">
-                      Learn more
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
-                    <span className="ml-auto text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">{topic.id || '•'}</span>
+                    {topic.link ? (
+                      <Link href={topic.link} title={topic.title} className="inline-flex items-center gap-2 text-base sm:text-lg font-medium text-amber-700">
+                        Learn more
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </Link>
+                    ) : (
+                      <span aria-disabled className="inline-flex items-center gap-2 text-base sm:text-lg font-medium text-amber-700 opacity-60 cursor-not-allowed">
+                        Learn more
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    )}
+                    <span className="ml-auto text-sm px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">{topic.id || '•'}</span>
                   </div>
                 </article>
               ))}

@@ -183,11 +183,11 @@ const WorldMap = () => {
   }, [era, render]);
 
   return (
-    <div className="w-full min-h-[200px] m-0 p-0 overflow-hidden relative text-md leading-relaxed font-normal">
+    <div className="w-full min-h-[200px] m-0 p-0 overflow-hidden relative text-base sm:text-lg leading-relaxed font-normal">
       <style>{labelStyle}</style>
-      <div className="absolute top-5 left-0 z-10 bg-white/90 rounded-sm px-3 py-1 mx-3 shadow-md text-md leading-relaxed font-normal">
-        <label htmlFor="era-select" className="text-md font-semibold mr-2">Geological Era:</label>
-        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} className="text-md px-2 py-1 rounded">
+      <div className="absolute top-5 left-0 z-10 bg-white/90 rounded-sm px-3 py-1 mx-3 shadow-md text-base sm:text-lg leading-relaxed font-normal">
+        <label htmlFor="era-select" className="text-base sm:text-lg font-semibold mr-2">Geological Era:</label>
+        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} className="text-base sm:text-lg px-2 py-1 rounded">
           {ERA_OPTIONS.map(opt => (
             <option key={opt.value} value={opt.value}>{opt.label}</option>
           ))}
@@ -195,7 +195,7 @@ const WorldMap = () => {
       </div>
       <svg ref={ref} className="w-full h-auto block" />
       {error && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-95 text-red-700 px-4 py-3 rounded shadow-lg z-50 text-md leading-relaxed font-normal">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-95 text-red-700 px-4 py-3 rounded shadow-lg z-50 text-base sm:text-lg leading-relaxed font-normal">
           {error}
         </div>
       )}

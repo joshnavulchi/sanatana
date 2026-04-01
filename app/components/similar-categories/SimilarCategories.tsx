@@ -203,10 +203,10 @@ export default function SimilarCategories({
   if (categories.length === 0) {
     return (
       <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-md leading-relaxed font-normal" />
-        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-md leading-relaxed font-normal" />
-        <h5 className="mb-2 text-xl md:text-md font-semibold tracking-wide text-amber-900">{title}</h5>
-        <p className="text-amber-800/90 text-md leading-relaxed mb-4 font-normal">
+        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base sm:text-lg leading-relaxed font-normal" />
+        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base sm:text-lg leading-relaxed font-normal" />
+        <h5 className="mb-2 text-xl md:text-base sm:text-lg font-semibold tracking-wide text-amber-900">{title}</h5>
+        <p className="text-amber-800/90 text-base sm:text-lg leading-relaxed mb-4 font-normal">
           Loading categories or no categories available...
         </p>
       </aside>
@@ -214,20 +214,20 @@ export default function SimilarCategories({
   }
   return (
     <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-md leading-relaxed font-normal" />
-      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-md leading-relaxed font-normal" />
-      <div className="rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3 text-md leading-relaxed font-normal">
-        <h5 className="text-xl md:text-md font-semibold tracking-wide text-amber-900">{title}</h5>
-        <p className="text-amber-800 text-md leading-relaxed mb-4 font-normal">Sacred pathways to explore related wisdom.</p>
+      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base sm:text-lg leading-relaxed font-normal" />
+      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent text-base sm:text-lg leading-relaxed font-normal" />
+      <div className="rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3 text-base sm:text-lg leading-relaxed font-normal">
+        <h5 className="text-xl md:text-base sm:text-lg font-semibold tracking-wide text-amber-900">{title}</h5>
+        <p className="text-amber-800 text-base sm:text-lg leading-relaxed mb-4 font-normal">Sacred pathways to explore related wisdom.</p>
       </div>
-      <div className="space-y-4 text-md leading-relaxed font-normal">
+      <div className="space-y-4 text-base sm:text-lg leading-relaxed font-normal">
         {categories.map((category) => {
           return (
             <div
               key={category.key}
-              className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)] text-md leading-relaxed font-normal"
+              className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)] text-base sm:text-lg leading-relaxed font-normal"
             >
-              <h6 className="mb-3 border-b border-amber-200 pb-2 text-md md:text-md font-semibold text-amber-900">
+              <h6 className="mb-3 border-b border-amber-200 pb-2 text-base sm:text-lg md:text-base sm:text-lg font-semibold text-amber-900">
                 <Link
                   href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
                   className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline"
@@ -235,20 +235,20 @@ export default function SimilarCategories({
                   {category.title}
                 </Link>
               </h6>
-              <ul className="space-y-2 list-disc pl-5 text-md leading-relaxed">
+              <ul className="space-y-2 list-disc pl-5 text-base sm:text-lg leading-relaxed">
                 {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map((link) => (
                   <li key={link.key} className="mb-2">
                     <Link
                       href={normalizeHref(link.href)}
                       className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
                     >
-                      <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 text-md leading-relaxed font-normal" />
+                      <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 text-base sm:text-lg leading-relaxed font-normal" />
                       {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3 text-md leading-relaxed font-normal">
+              <div className="flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3 text-base sm:text-lg leading-relaxed font-normal">
                 {category.links.length > INITIAL_VISIBLE_LINKS && (
                   <button
                     type="button"
@@ -259,7 +259,7 @@ export default function SimilarCategories({
                       }));
                     }}
                     aria-expanded={Boolean(expandedByCategory[category.key])}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-md font-semibold tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-base sm:text-lg font-semibold tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
                   >
                     <span aria-hidden="true">{expandedByCategory[category.key] ? '−' : '+'}</span>
                     {expandedByCategory[category.key] ? 'Show less' : `More (${category.links.length - INITIAL_VISIBLE_LINKS})`}
@@ -267,7 +267,7 @@ export default function SimilarCategories({
                 )}
                 <Link
                   href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-md font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-base sm:text-lg font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
                 >
                   View all
                   <span aria-hidden="true">→</span>
