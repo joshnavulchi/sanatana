@@ -16,7 +16,7 @@ const AVATARS: ReadonlyArray<{ readonly order: number; readonly name: string }> 
 export default function DashavataraTimeline() {
   return (
     <aside className="bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 rounded-2xl border-2 border-amber-100 shadow-xl p-8 animate-fadeInUp">
-      <div className="flex items-center justify-between gap-4 text-base sm:text-lg leading-relaxed font-normal">
+      <div className="flex items-center justify-between gap-4 text-lg sm:text-base leading-relaxed font-normal">
         <h3 className="text-pink-700 text-3xl font-extrabold leading-snug mb-3 drop-shadow-lg animate-gradient-x">Dashavatara Timeline</h3>
         <div
           className="h-2 w-32 rounded-full bg-gradient-to-r from-pink-400 via-amber-400 to-rose-400 animate-gradient-x"
@@ -33,9 +33,9 @@ export default function DashavataraTimeline() {
             >
               {a.order}
             </span>
-            <div className="flex-1 text-base sm:text-lg leading-relaxed font-normal">
+            <div className="flex-1 text-lg sm:text-base leading-relaxed font-normal">
               <div className="text-pink-900 text-lg font-semibold leading-relaxed animate-gradient-x">{a.name}</div>
-              <div className="text-pink-800/80 text-base sm:text-lg leading-relaxed font-normal">Vishnu avatar</div>
+              <div className="text-pink-800/80 text-lg sm:text-base leading-relaxed font-normal">Vishnu avatar</div>
             </div>
           </li>
         ))}

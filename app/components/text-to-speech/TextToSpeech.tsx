@@ -91,8 +91,8 @@ export default function TextToSpeech({ content = '', sectionId, className = '' }
     : `${styles.textToSpeech} ${className}`;
 
   return (
-    <span className="containerClass text-base sm:text-lg leading-relaxed font-normal">
-      <span className="styles.controls text-base sm:text-lg leading-relaxed font-normal">
+    <span className="containerClass text-lg sm:text-base leading-relaxed font-normal">
+      <span className="styles.controls text-lg sm:text-base leading-relaxed font-normal">
         {!isPlaying && !isPaused && (
           <button
             onClick={handlePlay}

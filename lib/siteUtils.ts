@@ -17,6 +17,10 @@
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { secrets } from './secrets';
 
+// Simple in-process build cache used during server builds to avoid repeated
+// disk reads / network fetches. Keyed by absolute file path.
+export const BUILD_CACHE: Map<string, { ts: number; data: any }> = new Map();
+
 const BASES = [
   'vedas',
   'itihasa',
@@ -74,6 +78,47 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
   const joined = pathSegments.join('/');
 
   const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
+
+  // When running on the server (build / node), prefer reading locale JSON
+  // files from the local `public/data/locales` path and cache them in-memory
+  // for the life of the Node process. This speeds up repeated loads during
+  // static render/build.
+  if (typeof window === 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const diskPath = path.join(process.cwd(), 'public', 'data', 'locales', loc, base, joined, 'index.json');
+
+      // Return cached value when available
+      const cached = BUILD_CACHE.get(diskPath);
+      if (cached) {
+        if (process.env.NODE_ENV !== 'production') {
+          // eslint-disable-next-line no-console
+          console.debug('[fetchContentByRoute] build-cache hit', diskPath);
+        }
+        return { data: cached.data, path: diskPath };
+      }
+
+      // Attempt to read from disk
+      if (fs.existsSync(diskPath)) {
+        const raw = fs.readFileSync(diskPath, 'utf8');
+        const parsed = JSON.parse(raw);
+        BUILD_CACHE.set(diskPath, { ts: Date.now(), data: parsed });
+        if (process.env.NODE_ENV !== 'production') {
+          // eslint-disable-next-line no-console
+          console.debug('[fetchContentByRoute] read from disk', diskPath);
+        }
+        return { data: parsed, path: diskPath };
+      }
+      // fallthrough to network fetch if file missing
+    } catch (e) {
+      if (process.env.NODE_ENV !== 'production') {
+        // eslint-disable-next-line no-console
+        console.warn('[fetchContentByRoute] build-file read failed', primaryPath, e && (e as any).message);
+      }
+      // continue to network fetch fallback
+    }
+  }
 
   try {
     // Determine fetch URL. On server fetch needs an absolute URL; prefer NEXT_PUBLIC_SITE_URL when available.

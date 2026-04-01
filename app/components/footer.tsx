@@ -71,8 +71,8 @@ function NavColumn({ title, links, icon, iconBg }: {
   return (
     // 
     <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
-      <p className="mb-2 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
-        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
+      <p className="mb-2 flex items-center text-sm font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-sm text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
         </span>
         {title}
@@ -82,7 +82,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-md transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
+          className={`text-sm transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -92,7 +92,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-1 flex items-center gap-1 px-2 text-md text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
+          className="mt-1 flex items-center gap-1 px-2 text-sm text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
           aria-expanded={expanded}
         >
           {/* ${links.length - INITIAL_VISIBLE} */}
@@ -144,8 +144,8 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   return (
     // 
     <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
-      <p className="mb-2 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
-        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
+      <p className="mb-2 flex items-center text-sm font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-sm text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
         </span>
         {title}
@@ -156,7 +156,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-md transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
+              className={`text-sm transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -186,7 +186,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-md transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                    className={`text-sm transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -233,7 +233,7 @@ export default function Footer() {
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-relaxed text-gray-900">
+            <p className="mx-auto max-w-5xl text-sm mt-6 px-4 leading-relaxed text-gray-900">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -241,7 +241,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-md md:text-md rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm md:text-sm rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -253,7 +253,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-md md:text-md font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-sm md:text-sm font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -267,7 +267,7 @@ export default function Footer() {
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
-            <span className="text-md text-gray-700" aria-hidden="true">✦</span>
+            <span className="text-sm text-gray-700" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 

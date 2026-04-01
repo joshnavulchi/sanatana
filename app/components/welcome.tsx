@@ -96,7 +96,7 @@ export default function WelcomePage() {
               </h2>
 
               {/* Sanskrit blessing */}
-              <p className="text-base sm:text-lg sm:text-base sm:text-lg italic text-amber-700 tracking-wide">
+              <p className="text-lg sm:text-base sm:text-lg sm:text-base italic text-amber-700 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 
@@ -109,15 +109,15 @@ export default function WelcomePage() {
 
               {/* Main message */}
               <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-base sm:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-base leading-relaxed text-gray-700">
                   We are deeply honored and blessed by your presence here.
                 </p>
-                <p className="text-base sm:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-base leading-relaxed text-gray-700">
                   Thank you for taking this sacred step towards understanding and embracing the
                   <span className="font-semibold text-amber-700"> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
-                <p className="text-base sm:text-lg leading-relaxed text-gray-700">
+                <p className="text-lg sm:text-base leading-relaxed text-gray-700">
                   May your journey through these ancient teachings bring you
                   <span className="font-semibold text-amber-600"> clarity, devotion, and divine grace</span>.
                 </p>
@@ -125,10 +125,10 @@ export default function WelcomePage() {
 
               {/* Closing blessing */}
               <div className="pt-6 space-y-2">
-                <p className="text-base sm:text-lg text-amber-700 font-medium tracking-wide">
+                <p className="text-lg sm:text-base text-amber-700 font-medium tracking-wide">
                   सत्यमेव जयते । धर्मो रक्षति रक्षितः
                 </p>
-                <p className="text-base sm:text-lg text-gray-600 italic">
+                <p className="text-lg sm:text-base text-gray-600 italic">
                   Truth Alone Triumphs · Dharma Protects Those Who Protect It
                 </p>
               </div>
@@ -149,7 +149,7 @@ export default function WelcomePage() {
                     onChange={(e) => setDoNotShowAgain(e.target.checked)}
                     className="w-5 h-5 rounded text-amber-700 focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 cursor-pointer transition-all"
                   />
-                  <span className="text-base sm:text-lg md:text-base sm:text-lg text-gray-700 group-hover:text-amber-700 transition-colors">
+                  <span className="text-lg sm:text-base md:text-lg sm:text-base text-gray-700 group-hover:text-amber-700 transition-colors">
                     Do not show this welcome message again
                   </span>
                 </label>
@@ -157,7 +157,7 @@ export default function WelcomePage() {
                   onClick={handleClose}
                   className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
                 >
-                  <span className="relative z-10 tracking-widest text-base sm:text-lg select-none">Close</span>
+                  <span className="relative z-10 tracking-widest text-lg sm:text-base select-none">Close</span>
                 </button>
               </div>
             </div>

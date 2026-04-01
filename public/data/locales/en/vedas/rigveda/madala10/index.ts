@@ -194,7 +194,7 @@ import _j187 from './hymn96.json';
 import _j188 from './hymn97.json';
 import _j189 from './hymn98.json';
 import _j190 from './hymn99.json';
-import _j191 from './madala10.json';
+import _j191 from './index.json';
 
 
 

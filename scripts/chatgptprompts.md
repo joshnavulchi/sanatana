@@ -401,13 +401,13 @@ Standardize everywhere:
   `text-lg sm:text-xl md:text-2xl font-semibold text-gray-900`
 
 * Subtitle:
-  `text-base sm:text-lg sm:text-lg text-gray-600`
+  `text-lg sm:text-base sm:text-lg text-gray-600`
 
 * Body:
   `text-gray-700 leading-relaxed`
 
 * Small / meta:
-  `text-base sm:text-lg text-gray-500`
+  `text-lg sm:text-base text-gray-500`
 
 DO NOT use arbitrary font sizes.
 
@@ -464,7 +464,7 @@ Create a structured footer:
   * Social links
 
 * Text:
-  `text-base sm:text-lg text-gray-600`
+  `text-lg sm:text-base text-gray-600`
 
 * Bottom bar:
   copyright + links
@@ -1298,7 +1298,7 @@ Typography:
 - Headings:
   - text-xl, text-2xl, text-3xl (consistent hierarchy)
 - Body:
-  - text-base sm:text-lg, text-base sm:text-lg
+  - text-lg sm:text-base, text-lg sm:text-base
 - Avoid mixing arbitrary sizes
 
 --------------------------------------------------
@@ -1357,10 +1357,10 @@ H. PRESERVE RESPONSIVENESS
 
 Example:
 BEFORE:
-text-base sm:text-lg md:text-lg lg:text-xl
+text-lg sm:text-base md:text-lg lg:text-xl
 
 AFTER (if inconsistent):
-text-base sm:text-lg md:text-lg lg:text-xl
+text-lg sm:text-base md:text-lg lg:text-xl
 
 --------------------------------------------------
 
@@ -1476,11 +1476,11 @@ H3 (Subsection):
 - leading-snug
 
 Body (Primary Paragraph):
-- text-base sm:text-lg
+- text-lg sm:text-base
 - leading-relaxed
 
 Secondary Text (Description / Subtitle):
-- text-base sm:text-lg
+- text-lg sm:text-base
 - leading-relaxed
 - text-gray-600 or text-gray-700 (choose one consistently)
 
@@ -1494,7 +1494,7 @@ Small Text:
 
 Lists:
 - list-disc pl-5
-- text-base sm:text-lg leading-relaxed
+- text-lg sm:text-base leading-relaxed
 
 List Items:
 - mb-1 or mb-2 (consistent choice)
@@ -1521,8 +1521,8 @@ Sections:
 A. Replace inconsistent font sizes:
 
 Examples:
-- text-[15px] → text-base sm:text-lg
-- text-lg + text-base sm:text-lg mixed → standardize to text-base sm:text-lg (for body)
+- text-[15px] → text-lg sm:text-base
+- text-lg + text-lg sm:text-base mixed → standardize to text-lg sm:text-base (for body)
 - text-4xl used randomly → restrict only to H1
 
 --------------------------------------------------
@@ -1549,7 +1549,7 @@ C. Normalize font weights:
 D. Remove redundancy:
 
 Examples:
-- "text-base sm:text-lg text-base sm:text-lg" → "text-base sm:text-lg"
+- "text-lg sm:text-base text-lg sm:text-base" → "text-lg sm:text-base"
 - "leading-relaxed leading-7" → "leading-relaxed"
 
 --------------------------------------------------

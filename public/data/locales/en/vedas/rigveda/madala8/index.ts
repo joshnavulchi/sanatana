@@ -106,7 +106,7 @@ import _j99 from './hymn96.json';
 import _j100 from './hymn97.json';
 import _j101 from './hymn98.json';
 import _j102 from './hymn99.json';
-import _j103 from './madala8.json';
+import _j103 from './index.json';
 
 
 
