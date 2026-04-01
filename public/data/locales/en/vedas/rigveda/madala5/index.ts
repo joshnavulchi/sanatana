@@ -90,7 +90,7 @@ import _j83 from './hymn85.json';
 import _j84 from './hymn86.json';
 import _j85 from './hymn87.json';
 import _j86 from './hymn9.json';
-import _j87 from './madala5.json';
+import _j87 from './index.json';
 
 
 

@@ -1,28 +1,29 @@
 {
   "donate": {
-    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+    "title": "Donate to Preserve Sanatana Dharma – Support Vedas, Upanishads & Spiritual Knowledge",
+    "description": "Support the preservation of Sanatana Dharma by donating to Sanatanadharmam. Help digitize Vedas, Upanishads, Bhagavad Gita, and make spiritual wisdom freely accessible worldwide.",
     "meta": {
-      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
+      "title": "Donate to Preserve Sanatana Dharma – Support Vedas, Upanishads & Spiritual Knowledge",
       "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+      "description": "Support the preservation of Sanatana Dharma by donating to Sanatanadharmam. Help digitize Vedas, Upanishads, Bhagavad Gita, and make spiritual wisdom freely accessible worldwide.",
       "keywords": [
-        "donate sanatanadharmam",
-        "support sanatana dharma",
-        "sanatana dharma donations",
-        "vedic knowledge support",
-        "donate for spiritual education",
-        "support hindu philosophy website",
-        "sanatana dharma donation",
-        "support vedic scriptures project",
-        "donation for dharma knowledge"
+        "donate sanatana dharma",
+        "support vedas preservation",
+        "donate for upanishads translation",
+        "sanatana dharma charity",
+        "preserve hindu scriptures",
+        "support spiritual knowledge platform",
+        "donate for bhagavad gita project",
+        "free vedic knowledge initiative",
+        "support dharma education globally",
+        "sanatanadharmam donation"
       ],
-      "robots": "index, follow",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/donate"
     },
     "openGraph": {
-      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
-      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
+      "title": "Donate & Protect Eternal Knowledge – Sanatanadharmam",
+      "description": "Your contribution helps preserve Vedic scriptures, translate ancient texts, and provide free global access to Sanatana Dharma wisdom.",
       "url": "https://sanatanadharmam.in/donate",
       "siteName": "Sanatanadharmam",
       "type": "website",
@@ -31,7 +32,7 @@
           "url": "https://sanatanadharmam.in/og/donate.png",
           "width": 1200,
           "height": 630,
-          "alt": "Support Sanatanadharmam Donations"
+          "alt": "Donate to Preserve Sanatana Dharma Knowledge"
         }
       ]
     },
@@ -39,16 +40,39 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebPage",
+          "name": "Donate to Sanatanadharmam",
+          "url": "https://sanatanadharmam.in/donate",
+          "description": "Donation page dedicated to supporting the preservation and free distribution of Sanatana Dharma knowledge.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        },
+        {
           "@type": "DonateAction",
-          "name": "Donate to Support Sanatanadharmam",
-          "target": "https://sanatanadharmam.in/donate",
-          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
+          "name": "Support Sanatana Dharma Knowledge Preservation",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://sanatanadharmam.in/donate"
+          },
+          "description": "Donate to help digitize, translate, and globally distribute Vedic scriptures and spiritual teachings.",
+          "recipient": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          }
         },
         {
           "@type": "Organization",
           "name": "Sanatanadharmam",
           "url": "https://sanatanadharmam.in",
           "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
           "contactPoint": {
             "@type": "ContactPoint",
             "contactType": "customer support",
@@ -57,21 +81,29 @@
               "English",
               "Hindi",
               "Telugu",
-              "Arabic",
-              "German",
               "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+              "French"
             ],
             "email": "info@sanatanadharmam.in",
             "telephone": "+91-8099181075"
           }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Donate",
+              "item": "https://sanatanadharmam.in/donate"
+            }
+          ]
         }
       ]
     },

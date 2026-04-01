@@ -79,12 +79,12 @@ export default function TopProgress() {
 
   return (
     <>
-      <div aria-hidden className="fixed left-0 top-0 right-0 h-1 z-[9999] text-base leading-relaxed font-normal">
-        <div className="h-full bg-gradient-to-r from-gray-600 to-amber-700 text-base leading-relaxed font-normal" style={{ width: `${progress}%`, transition: 'width 180ms linear' }} />
+      <div aria-hidden className="fixed left-0 top-0 right-0 h-1 z-[9999] text-lg sm:text-base leading-relaxed font-normal">
+        <div className="h-full bg-gradient-to-r from-gray-600 to-amber-700 text-lg sm:text-base leading-relaxed font-normal" style={{ width: `${progress}%`, transition: 'width 180ms linear' }} />
       </div>
       {showSpinner && (
-        <div aria-hidden className="fixed right-1.5 top-1.5 z-[10000] text-base leading-relaxed font-normal">
-          <div className="w-6 h-6 rounded-full border-4 border-white border-t-amber-400 animate-spin text-base leading-relaxed font-normal" />
+        <div aria-hidden className="fixed right-1.5 top-1.5 z-[10000] text-lg sm:text-base leading-relaxed font-normal">
+          <div className="w-6 h-6 rounded-full border-4 border-white border-t-amber-400 animate-spin text-lg sm:text-base leading-relaxed font-normal" />
         </div>
       )}
     </>

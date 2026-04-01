@@ -33,7 +33,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
     <div
       ref={containerRef}
       className={`relative overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 animate-fadeInUp ${className}`}
-      style={{ minHeight: height ? `${height}px` : undefined }}
+      style={{ minWidth: width ? `${width}px` : undefined }}
     >
       {!loadNow ? (
         <div className="flex items-center justify-center w-full h-full animate-fadeInUp">

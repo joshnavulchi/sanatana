@@ -208,7 +208,7 @@ export default function WorldMapAnimated({
   }, [stroke, fill, fillOpacity, borderWidth, loopSpeed, stagger, fillPulse, pauseOnHover, scale, showGraticule, dataUrl]);
 
   return (
-    <div className="hidden md:block text-base leading-relaxed font-normal" ref={wrapRef} aria-label="Animated world map (looping)">
+    <div className="hidden md:block text-lg sm:text-base leading-relaxed font-normal" ref={wrapRef} aria-label="Animated world map (looping)">
       <svg
         ref={svgRef}
         viewBox="0 0 1200 600"

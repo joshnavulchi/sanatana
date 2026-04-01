@@ -1,28 +1,29 @@
 {
   "yajurveda": {
-    "title": "Yajurveda – The Veda of Rituals and Sacrificial Formulas | Sanatana Dharma",
-    "description": "Explore the Yajurveda, the Veda of ritual formulas and sacrificial procedures. Learn about Shukla and Krishna Yajurveda, their chapters, mantras and philosophical significance.",
+    "title": "What is Yajurveda? Meaning, Shukla & Krishna Yajurveda Explained",
+    "description": "Learn about the Yajurveda, the second Veda of Sanatana Dharma. Explore its meaning, ritual formulas, Shukla and Krishna Yajurveda, and its role in Vedic ceremonies.",
     "meta": {
-      "title": "Yajurveda – The Veda of Rituals and Sacrificial Formulas | Sanatana Dharma",
+      "title": "What is Yajurveda? Meaning, Shukla & Krishna Yajurveda Explained",
       "canonical": "https://sanatanadharmam.in/vedas/yajurveda",
-      "description": "Explore the Yajurveda, the Veda of ritual formulas and sacrificial procedures. Learn about Shukla and Krishna Yajurveda, their chapters, mantras and philosophical significance.",
+      "description": "Learn about the Yajurveda, the second Veda of Sanatana Dharma. Explore its meaning, ritual formulas, Shukla and Krishna Yajurveda, and its role in Vedic ceremonies.",
       "keywords": [
-        "Yajurveda",
-        "Yajur Veda meaning",
-        "Shukla Yajurveda",
-        "Krishna Yajurveda",
-        "Vedic rituals",
-        "Vajasaneyi Samhita",
-        "Taittiriya Samhita",
-        "Sanatana Dharma Vedas",
-        "Vedic sacrificial formulas",
-        "ancient Hindu scriptures"
+        "what is yajurveda",
+        "yajurveda meaning",
+        "yajurveda summary",
+        "shukla yajurveda vs krishna yajurveda",
+        "vedic rituals yajurveda",
+        "yajurveda mantras explanation",
+        "second veda explanation",
+        "vajasaneyi samhita meaning",
+        "taittiriya samhita meaning",
+        "sanatana dharma vedas"
       ],
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas/yajurveda"
     },
     "openGraph": {
-      "title": "Yajurveda – The Sacred Veda of Rituals and Ceremonies",
-      "description": "Discover the Yajurveda, the Veda dedicated to sacrificial rituals and sacred formulas that form the heart of Vedic ceremonial practice.",
+      "title": "What is Yajurveda? Vedic Rituals and Sacred Formulas Explained",
+      "description": "Discover the Yajurveda, the Veda of rituals and sacrificial formulas, including Shukla and Krishna Yajurveda traditions.",
       "url": "https://sanatanadharmam.in/vedas/yajurveda",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -31,33 +32,77 @@
           "url": "https://sanatanadharmam.in/images/og/yajurveda.png",
           "width": 1200,
           "height": 630,
-          "alt": "Yajurveda – Sacred Rituals of Vedic Tradition"
+          "alt": "Yajurveda - Vedic Rituals and Sacred Ceremonies"
         }
       ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Yajurveda",
-      "description": "The Yajurveda is one of the four Vedas and focuses on ritual formulas (yajus) used during Vedic sacrificial ceremonies.",
-      "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
-      },
-      "inLanguage": "Sanskrit",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      },
-      "about": [
-        "Yajurveda",
-        "Vedic rituals",
-        "Sanatana Dharma",
-        "sacrificial formulas",
-        "ancient scriptures"
-      ],
-      "url": "https://sanatanadharmam.in/vedas/yajurveda"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What is Yajurveda? Meaning and Structure",
+          "description": "Comprehensive explanation of the Yajurveda, including its rituals, mantras, and branches like Shukla and Krishna Yajurveda.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/yajurveda"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Yajurveda",
+            "description": "The second Veda focusing on ritual formulas (yajus) used in Vedic sacrificial ceremonies."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Yajurveda",
+          "url": "https://sanatanadharmam.in/vedas/yajurveda"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Yajurveda",
+              "item": "https://sanatanadharmam.in/vedas/yajurveda"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
     },
     "introduction": "The Yajurveda is the second of the four Vedas and serves as the liturgical handbook for the Adhvaryu priest who performs the physical actions of Vedic sacrificial rituals known as Yajnas. The name 'Yajurveda' is derived from two Sanskrit roots: 'Yajus', meaning sacrificial formula or worship, and 'Veda', meaning knowledge. Together, the Yajurveda can be understood as the 'knowledge of sacrifice' or 'wisdom of ritual practice'.\n\nUnlike the Rigveda which primarily consists of hymns of praise, the Yajurveda provides the practical instructions and prose mantras that guide the step-by-step execution of sacred rituals. These formulas accompany specific ritual actions such as the preparation of the sacrificial fire, the offering of ghee and grains, and the invocation of divine powers to maintain cosmic order.\n\nThe Yajurveda exists in two major recensions. The Krishna Yajurveda or Black Yajurveda contains a mixture of verse mantras and prose explanations woven together. The Shukla Yajurveda or White Yajurveda presents the mantras separately from the explanatory commentary, offering a cleaner and more organized arrangement.\n\nThe most important text of the Shukla Yajurveda is the Vajasaneyi Samhita, while the Krishna Yajurveda is represented by the Taittiriya Samhita, the Maitrayani Samhita and the Kathaka Samhita. Each of these texts preserves ancient ritual knowledge that was transmitted with remarkable precision through oral tradition.\n\nThe philosophical significance of the Yajurveda extends beyond mere ritual mechanics. The act of sacrifice is understood as a symbolic representation of the cosmic creative process. Just as the universe emerged through a primordial act of sacrifice described in the Purusha Sukta, human beings maintain their connection to the divine order through the disciplined practice of Yajna.\n\nThe Yajurveda thus bridges the gap between spiritual aspiration and practical action, teaching that the path to spiritual growth requires both inner contemplation and outward engagement with the sacred.",
     "scripture_text": [

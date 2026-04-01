@@ -39,7 +39,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-200/60 to-indigo-100/0 animate-pulse" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-blue-200/60 to-indigo-100/0 animate-pulse" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-blue-50 bg-blue-500/80 shadow-lg">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-blue-50 bg-blue-500/80 shadow-lg">
           {index + 1}
         </span>
         <h3 className="section-title font-extrabold text-blue-900 drop-shadow">{section}</h3>
@@ -107,14 +107,14 @@ export default function MahabharataClient() {
     <PageLayout metaKey={META_KEY} title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
       {description && (
         <div className="relative px-4 md:px-6 py-8 md:py-12 rounded-2xl border-blue-200/30 bg-gradient-to-br from-blue-50 via-indigo-100 to-blue-100 overflow-hidden mb-8 shadow-lg animate-fadeIn">
-          <p className="text-base body-text text-blue-900 drop-shadow">{description}</p>
+          <p className="text-lg sm:text-base body-text text-blue-900 drop-shadow">{description}</p>
         </div>
       )}
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 rounded-2xl border-blue-200/30 bg-gradient-to-br from-indigo-100 via-blue-50 to-blue-100 overflow-hidden mb-8 shadow-xl animate-fadeIn">
           <h3 className="section-title mb-4 text-blue-800">Introduction</h3>
-          <div className="body-text md:text-base leading-relaxed">
+          <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={introduction} />
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function MahabharataClient() {
         <div className="mt-10 relative overflow-hidden rounded-3xl border-blue-200/30 p-6 md:p-8 bg-gradient-to-br from-blue-50 via-indigo-100 to-blue-200 shadow-xl animate-fadeIn">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-200/60 to-indigo-100/0 animate-pulse" />
           <h3 className="section-title mb-4 text-blue-900">Philosophical Explanation</h3>
-          <div className="body-text md:text-base leading-relaxed">
+          <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={philosophical} />
           </div>
         </div>
@@ -149,10 +149,10 @@ export default function MahabharataClient() {
               <div className="relative overflow-hidden rounded-2xl border-blue-200/50 bg-gradient-to-r from-blue-100/80 to-indigo-50/60 p-5 shadow-lg transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:bg-blue-100/80 animate-fadeIn">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-200/60 to-indigo-100/0 animate-pulse" />
                 <div className="flex items-center gap-3 mt-2">
-                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-blue-700/15 text-sm font-semibold text-blue-700 shadow-md">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-blue-700/15 text-lg sm:text-base font-semibold text-blue-700 shadow-md">
                     {idx + 1}
                   </span>
-                  <h3 className="text-base font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">
+                  <h3 className="text-lg sm:text-base font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">
                     {toTitleFromSlug(parva)}
                   </h3>
                 </div>

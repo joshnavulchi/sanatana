@@ -1,65 +1,124 @@
 {
   "sanksheparamayana": {
-    "title": "Sanksepa Ramayana",
+    "title": "Sankshepa Ramayana (Summary) – Complete Valmiki Ramayana in Brief",
+    "description": "Read the Sankshepa Ramayana, a concise summary of Valmiki Ramayana covering the life of Lord Rama, Sita, and Ravana with key teachings, events, and spiritual insights.",
     "meta": {
-      "title": "Sanksepa Ramayana — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Sankshepa Ramayana (Summary) – Complete Valmiki Ramayana in Brief",
       "canonical": "https://sanatanadharmam.in/sanksheparamayana",
-      "description": "Ramayana — Valmiki's Epic and Commentary — Articles, translations and concise commentary on Ramayana. Explore practices, history, and guiding principles...",
+      "description": "Read the Sankshepa Ramayana, a concise summary of Valmiki Ramayana covering the life of Lord Rama, Sita, and Ravana with key teachings, events, and spiritual insights.",
       "keywords": [
-        "Sanata Dharma",
-        "Dharma",
-        "Ethical teachings",
-        "Genealogies of gods and sages",
-        "Hindu epics",
-        "Indian mythology",
-        "Itihasa",
-        "Legends of kings",
-        "Mithila",
-        "Moral lessons",
-        "Philosophical insights",
-        "Rama",
-        "Ramayana",
-        "Ravana",
-        "Sankshepa Ramayana",
-        "Sita",
-        "Spiritual liberation",
-        "Spiritual teachings",
-        "Valmiki Ramayana"
+        "sankshepa ramayana summary",
+        "valmiki ramayana summary",
+        "ramayana short summary",
+        "ramayana in brief",
+        "story of lord rama summary",
+        "ramayana key events",
+        "ramayana concise version",
+        "sita rama story summary",
+        "ramayana teachings explained",
+        "valmiki ramayana overview"
       ],
-      "ogimage": "/og/ramayana.png",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/sanksheparamayana"
+    },
+    "openGraph": {
+      "title": "Sankshepa Ramayana – Complete Summary of Valmiki Ramayana",
+      "description": "Explore a concise and structured summary of the Valmiki Ramayana including major events, characters, and spiritual teachings.",
+      "url": "https://sanatanadharmam.in/sanksheparamayana",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/ramayana.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sankshepa Ramayana Summary - Lord Rama Story"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Sankshepa Ramayana – Summary of Valmiki Ramayana",
+          "description": "A concise summary of the Ramayana describing the life of Lord Rama, Sita, Lakshmana, and Ravana.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/sanksheparamayana"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "Book",
+            "name": "Ramayana",
+            "author": {
+              "@type": "Person",
+              "name": "Valmiki"
+            }
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "WebPage",
+          "name": "Sankshepa Ramayana",
+          "url": "https://sanatanadharmam.in/sanksheparamayana"
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Ramayana",
+              "item": "https://sanatanadharmam.in/sanksheparamayana"
+            }
+          ]
+        }
+      ]
     },
     "author": "Valmiki Maharshi",
     "core_themes": [
@@ -73,7 +132,6 @@
         "title": "Truth and Sacrifice"
       }
     ],
-    "description": "Narada Maharshi narrates the entire Ramayana to Sage Valmiki in exactly 100 slokas.",
     "important_places": [
       {
         "desc": "Capital of Rama’s kingdom.",

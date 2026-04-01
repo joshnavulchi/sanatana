@@ -234,6 +234,148 @@ footer {
   @apply text-sm text-gray-500
 }
 
+.multi-text-color {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.multi-text-color span:first-child {
+  color: #ff0800;
+}
+
+.multi-text-color span:nth-child(2) {
+  color: var(--color--deep-blue);
+}
+
+.multi-text-color span:nth-child(3) {
+  color: var(--color-violet);
+}
+
+.multi-text-color span:last-child {
+  color: var(--color-blue);
+}
+
+/* TEXT TO SPEECH */
+.textToSpeech {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.textToSpeech .controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.textToSpeech .playButton,
+.textToSpeech .pauseButton,
+.textToSpeech .resumeButton,
+.textToSpeech .stopButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0.25rem;
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-radius: 50%;
+  background: var(--card-background, #ffffff);
+  color: var(--text-primary, #1f2937);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.textToSpeech .playButton:hover,
+.textToSpeech .pauseButton:hover,
+.textToSpeech .resumeButton:hover,
+.textToSpeech .stopButton:hover {
+  background: var(--primary-color, #f59e0b);
+  color: #ffffff;
+  border-color: var(--primary-color, #f59e0b);
+  transform: scale(1.05);
+}
+
+.textToSpeech .playButton:active,
+.textToSpeech .pauseButton:active,
+.textToSpeech .resumeButton:active,
+.textToSpeech .stopButton:active {
+  transform: scale(0.95);
+}
+
+.textToSpeech .playButton:focus,
+.textToSpeech .pauseButton:focus,
+.textToSpeech .resumeButton:focus,
+.textToSpeech .stopButton:focus {
+  outline: 2px solid var(--primary-color, #f59e0b);
+  outline-offset: 2px;
+}
+
+.textToSpeech .playButton svg,
+.textToSpeech .pauseButton svg,
+.textToSpeech .resumeButton svg,
+.textToSpeech .stopButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* PLAY + RESUME */
+.textToSpeech .playButton,
+.textToSpeech .resumeButton {
+  background: var(--primary-color, #f59e0b);
+  color: #ffffff;
+  border-color: var(--primary-color, #f59e0b);
+}
+
+.textToSpeech .playButton:hover,
+.textToSpeech .resumeButton:hover {
+  background: var(--primary-dark, #d97706);
+  border-color: var(--primary-dark, #d97706);
+}
+
+/* PAUSE */
+.textToSpeech .pauseButton {
+  background: var(--warning-color, #eab308);
+  color: #ffffff;
+  border-color: var(--warning-color, #eab308);
+}
+
+.textToSpeech .pauseButton:hover {
+  background: var(--warning-dark, #ca8a04);
+  border-color: var(--warning-dark, #ca8a04);
+}
+
+/* STOP */
+.textToSpeech .stopButton {
+  background: var(--danger-color, #ef4444);
+  color: #ffffff;
+  border-color: var(--danger-color, #ef4444);
+}
+
+.textToSpeech .stopButton:hover {
+  background: var(--danger-dark, #dc2626);
+  border-color: var(--danger-dark, #dc2626);
+}
+
+/* FLOATING MODE */
+.textToSpeech.floating {
+  position: fixed;
+  top: 6rem;
+  right: 1rem;
+  z-index: 50;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  border-radius: 2rem;
+  background: var(--card-background, #ffffff);
+  border: 1px solid var(--border-color, #e5e7eb);
+}
+
+/* INLINE MODE */
+.textToSpeech.inline {
+  margin: 1rem 0;
+}
+
 @media (min-width: 1024px) {
   html {
     font-size: 18px;

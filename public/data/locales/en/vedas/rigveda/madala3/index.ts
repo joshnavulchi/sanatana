@@ -65,7 +65,7 @@ import _j58 from './hymn62.json';
 import _j59 from './hymn7.json';
 import _j60 from './hymn8.json';
 import _j61 from './hymn9.json';
-import _j62 from './madala3.json';
+import _j62 from './index.json';
 
 
 

@@ -1,24 +1,29 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service – Sanatanadharmam",
-    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+    "title": "Terms of Service & User Agreement | Sanatanadharmam Legal Terms",
+    "description": "Read the Terms of Service for Sanatanadharmam, including user responsibilities, intellectual property rights, acceptable use, disclaimers, and legal conditions governing website usage.",
     "meta": {
-      "title": "Terms of Service – Sanatanadharmam",
+      "title": "Terms of Service & User Agreement | Sanatanadharmam Legal Terms",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+      "description": "Read the Terms of Service for Sanatanadharmam, including user responsibilities, intellectual property rights, acceptable use, disclaimers, and legal conditions governing website usage.",
       "keywords": [
-        "terms of service",
-        "website terms",
-        "user agreement",
-        "sanatanadharmam terms",
-        "website legal terms"
+        "terms of service sanatanadharmam",
+        "website terms and conditions",
+        "user agreement website",
+        "acceptable use policy",
+        "intellectual property terms",
+        "online platform legal terms",
+        "website usage agreement",
+        "sanatanadharmam legal policy",
+        "terms and conditions website",
+        "website liability disclaimer"
       ],
-      "robots": "index, follow",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/terms-of-service"
     },
     "openGraph": {
-      "title": "Terms of Service – Sanatanadharmam",
-      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "title": "Terms of Service & Legal Conditions | Sanatanadharmam",
+      "description": "Understand your rights, responsibilities, and legal conditions when using Sanatanadharmam, including acceptable use and intellectual property policies.",
       "url": "https://sanatanadharmam.in/terms-of-service",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -27,7 +32,7 @@
           "url": "https://sanatanadharmam.in/og/terms.png",
           "width": 1200,
           "height": 630,
-          "alt": "Sanatanadharmam Terms of Service"
+          "alt": "Sanatanadharmam Terms of Service and Legal Agreement"
         }
       ]
     },
@@ -38,6 +43,10 @@
           "@type": "WebPage",
           "name": "Terms of Service",
           "url": "https://sanatanadharmam.in/terms-of-service",
+          "description": "Legal terms governing the use of Sanatanadharmam website.",
+          "inLanguage": "en",
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Sanatanadharmam",
@@ -46,8 +55,9 @@
         },
         {
           "@type": "TermsOfService",
-          "name": "Terms of Service",
+          "name": "Sanatanadharmam Terms of Service",
           "url": "https://sanatanadharmam.in/terms-of-service",
+          "inLanguage": "en",
           "publisher": {
             "@type": "Organization",
             "name": "Sanatanadharmam",
@@ -57,6 +67,48 @@
               "url": "https://sanatanadharmam.in/images/logo.png"
             }
           }
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Terms of Service",
+              "item": "https://sanatanadharmam.in/terms-of-service"
+            }
+          ]
         }
       ]
     },

@@ -39,14 +39,14 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
     resolveKey(captionKey).then(setCaption);
   }, [locale, captionKey]);
   return (
-    <div className="relative basis-1/5 p-3 bg-white text-base leading-relaxed font-normal">
+    <div className="relative basis-1/5 p-3 bg-white text-lg sm:text-base leading-relaxed font-normal">
       {/* Wrap figure tag inside link next set href to  */}
       <Link href={`/${alt.toLowerCase().trim().replace(" ", "-")}`}>
         <figure>
           {/* Loader */}
           {loading && (
-            <div className="absolute inset-0 flex items-center justify-center /70 text-base leading-relaxed font-normal">
-              <div className="w-10 h-10 rounded-full animate-spin text-base leading-relaxed font-normal"></div>
+            <div className="absolute inset-0 flex items-center justify-center /70 text-lg sm:text-base leading-relaxed font-normal">
+              <div className="w-10 h-10 rounded-full animate-spin text-lg sm:text-base leading-relaxed font-normal"></div>
             </div>
           )}
           {/* Image */}

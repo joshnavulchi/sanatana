@@ -243,7 +243,7 @@ export default function AudioPlayer({
   };
 
   return (
-    <div className="fixed z-9 top-25 md:top-24 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full border-2 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer text-base leading-relaxed font-normal">
+    <div className="fixed z-9 top-25 md:top-24 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full border-2 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer text-lg sm:text-base leading-relaxed font-normal">
       {/* Media */}
       <audio ref={audioRef} preload="metadata">
         {currentTrack.sources.map((s, i) => (
@@ -253,7 +253,7 @@ export default function AudioPlayer({
       </audio>
 
       {/* Circular Progress & Play/Pause */}
-      <div className="relative w-[30px] h-[30px] text-base leading-relaxed font-normal">
+      <div className="relative w-[30px] h-[30px] text-lg sm:text-base leading-relaxed font-normal">
         <svg width={24} height={24}>
           <circle
             cx={24}
@@ -298,26 +298,26 @@ export default function AudioPlayer({
       {/* No time display */}
 
       {/* Track Info */}
-      <div className="text-center w-full hidden text-base leading-relaxed font-normal">
+      <div className="text-center w-full hidden text-lg sm:text-base leading-relaxed font-normal">
         <div
-          className="text-indigo-900 truncate text-base leading-relaxed font-normal"
+          className="text-indigo-900 truncate text-lg sm:text-base leading-relaxed font-normal"
           title={currentTrack.title}
         >
           {currentTrack.title ?? "Untitled Track"}
         </div>
         {currentTrack.artist ? (
-          <div className="text-base leading-relaxed font-normal">{currentTrack.artist}</div>
+          <div className="text-lg sm:text-base leading-relaxed font-normal">{currentTrack.artist}</div>
         ) : null}
       </div>
 
       {/* Controls */}
-      <div className="gap-4 items-center hidden text-base leading-relaxed font-normal">
+      <div className="gap-4 items-center hidden text-lg sm:text-base leading-relaxed font-normal">
         {playlist.length > 1 && (
           <button
             type="button"
             onClick={handlePrev}
             title="Previous"
-            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-md text-indigo-700 hover:bg-indigo-50"
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-lg sm:text-base text-indigo-700 hover:bg-indigo-50"
           >⏮</button>
         )}
         <button
@@ -325,28 +325,28 @@ export default function AudioPlayer({
           onClick={() => setIsLoop((l) => !l)}
           aria-pressed={isLoop}
           title={isLoop ? "Loop: On" : "Loop: Off"}
-          className={`px-3 py-2 rounded-lg border border-indigo-200 bg-white text-indigo-700 text-md ${isLoop ? 'bg-indigo-100 text-indigo-900' : ''}`}
+          className={`px-3 py-2 rounded-lg border border-indigo-200 bg-white text-indigo-700 text-lg sm:text-base ${isLoop ? 'bg-indigo-100 text-indigo-900' : ''}`}
         >⟲</button>
         <button
           type="button"
           onClick={() => setIsMuted((m) => !m)}
           aria-pressed={isMuted}
           title={isMuted ? "Unmute (M)" : "Mute (M)"}
-          className={`px-3 py-2 rounded-lg border border-red-200 bg-white text-red-700 text-md ${isMuted ? 'bg-red-100 text-red-900' : ''}`}
+          className={`px-3 py-2 rounded-lg border border-red-200 bg-white text-red-700 text-lg sm:text-base ${isMuted ? 'bg-red-100 text-red-900' : ''}`}
         >{isMuted ? "🔇" : "🔊"}</button>
         {playlist.length > 1 && (
           <button
             type="button"
             onClick={handleNext}
             title="Next"
-            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-md text-indigo-700 hover:bg-indigo-50"
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-lg sm:text-base text-indigo-700 hover:bg-indigo-50"
           >⏭</button>
         )}
       </div>
 
       {/* Volume */}
-      <div className="items-center gap-2 hidden text-base leading-relaxed font-normal">
-        <span className="text-base leading-relaxed font-normal">Vol</span>
+      <div className="items-center gap-2 hidden text-lg sm:text-base leading-relaxed font-normal">
+        <span className="text-lg sm:text-base leading-relaxed font-normal">Vol</span>
         <input
           type="range"
           min={0}
@@ -366,7 +366,7 @@ export default function AudioPlayer({
 
       {/* Playlist */}
       {showPlaylist && playlist.length > 1 && (
-        <div className="pt-2 border-t border-dashed border-indigo-200 hidden flex-col gap-1 w-full text-base leading-relaxed font-normal">
+        <div className="pt-2 border-t border-dashed border-indigo-200 hidden flex-col gap-1 w-full text-lg sm:text-base leading-relaxed font-normal">
           {playlist.map((t, i) => {
             const active = i === currentIndex;
             return (

@@ -83,7 +83,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </h3>
 
         {/* Subtitle */}
-        <p className="mt-2 text-base font-semibold uppercase tracking-widest text-indigo-700">
+        <p className="mt-2 text-lg sm:text-base font-semibold uppercase tracking-widest text-indigo-700">
           {subtitle}
         </p>
 
@@ -91,7 +91,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-base leading-relaxed text-gray-700 dark:text-gray-200">
+              <li key={i} className="flex items-start gap-3 text-lg sm:text-base leading-relaxed text-gray-700 dark:text-gray-200">
                 <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-br from-amber-400 to-pink-400" />
                 {point}
               </li>
@@ -101,7 +101,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-6">
-          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-sm font-bold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
+          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-lg sm:text-base font-bold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
             <svg className="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -147,7 +147,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-4 text-sm leading-relaxed text-gray-700">
+          <p className="mt-4 text-lg sm:text-base leading-relaxed text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -191,7 +191,7 @@ export default function OurFourCoreYugas() {
           {/* Divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
-            <span className="text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
+            <span className="text-lg sm:text-base font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦
             </span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
@@ -200,14 +200,14 @@ export default function OurFourCoreYugas() {
           {/* Highlight note */}
           {earthAgeComparisonNote && (
             <div className="mx-auto max-w-5xl bg-black/5 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md leading-relaxed">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-lg sm:text-base leading-relaxed">
                 {earthAgeComparisonNote}
               </p>
             </div>
           )}
 
           {scalingComment && (
-            <p className="mx-auto mt-5 max-w-4xl text-center text-sm leading-relaxed text-[#5b2d12]">
+            <p className="mx-auto mt-5 max-w-4xl text-center text-lg sm:text-base leading-relaxed text-[#5b2d12]">
               {scalingComment}
             </p>
           )}
