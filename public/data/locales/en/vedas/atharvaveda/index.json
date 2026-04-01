@@ -1,28 +1,29 @@
 {
   "atharvaveda": {
-    "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
-    "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+    "title": "What is Atharvaveda? Meaning, Hymns, Healing Knowledge & Significance",
+    "description": "Learn about the Atharvaveda, the fourth Veda of Sanatana Dharma. Explore its meaning, hymns, healing practices, domestic rituals, and philosophical teachings.",
     "meta": {
-      "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
+      "title": "What is Atharvaveda? Meaning, Hymns, Healing Knowledge & Significance",
       "canonical": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+      "description": "Learn about the Atharvaveda, the fourth Veda of Sanatana Dharma. Explore its meaning, hymns, healing practices, domestic rituals, and philosophical teachings.",
       "keywords": [
-        "Atharvaveda",
-        "Atharva Veda meaning",
-        "Vedic healing",
-        "Vedic medicine",
-        "Atharvaveda hymns",
-        "ancient Indian healing",
-        "domestic rituals",
-        "Sanatana Dharma Vedas",
-        "Prithvi Sukta",
-        "Hindu scriptures"
+        "what is atharvaveda",
+        "atharvaveda meaning",
+        "atharvaveda summary",
+        "fourth veda explanation",
+        "vedic healing practices",
+        "atharvaveda hymns explained",
+        "prithvi sukta meaning",
+        "vedic medicine ancient india",
+        "atharvaveda significance",
+        "sanatana dharma vedas"
       ],
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
     "openGraph": {
-      "title": "Atharvaveda – The Sacred Veda of Healing and Everyday Wisdom",
-      "description": "Discover the Atharvaveda, the fourth Veda covering healing arts, domestic ceremonies, philosophical speculation and the wisdom of everyday life in Vedic tradition.",
+      "title": "What is Atharvaveda? Healing, Rituals & Vedic Wisdom Explained",
+      "description": "Discover the Atharvaveda, the fourth Veda focusing on healing, rituals, and practical wisdom in Vedic tradition.",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -31,33 +32,81 @@
           "url": "https://sanatanadharmam.in/images/og/atharvaveda.png",
           "width": 1200,
           "height": 630,
-          "alt": "Atharvaveda – Healing Wisdom of the Vedic Tradition"
+          "alt": "Atharvaveda - Healing and Wisdom of the Fourth Veda"
         }
       ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Atharvaveda",
-      "description": "The Atharvaveda is the fourth Veda, containing hymns related to healing, domestic rituals, philosophical reflection and the practical wisdom of everyday life.",
-      "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
-      },
-      "inLanguage": "Sanskrit",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      },
-      "about": [
-        "Atharvaveda",
-        "Vedic healing",
-        "Sanatana Dharma",
-        "domestic rituals",
-        "ancient scriptures"
-      ],
-      "url": "https://sanatanadharmam.in/vedas/atharvaveda"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What is Atharvaveda? Meaning and Significance",
+          "description": "Detailed explanation of the Atharvaveda, its hymns, healing knowledge, rituals, and philosophical insights.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/atharvaveda"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Atharvaveda",
+            "description": "The fourth Veda focusing on healing, rituals, and everyday life wisdom."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Atharvaveda",
+          "url": "https://sanatanadharmam.in/vedas/atharvaveda",
+          "about": {
+            "@type": "Thing",
+            "name": "Atharvaveda"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atharvaveda",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
     },
     "introduction": "The Atharvaveda is the fourth and most distinct of the four Vedas. Named after the ancient sage Atharvan who is credited with discovering fire and establishing the earliest ritual practices, the Atharvaveda represents a unique branch of Vedic knowledge that addresses the practical concerns of everyday life alongside profound philosophical speculation.\n\nThe name 'Atharvaveda' combines 'Atharvan', referring to the sage and his tradition of sacred fire practices, with 'Veda', meaning knowledge. An alternative name for this text is the Atharvangirasa Veda, acknowledging both the sage Atharvan and the sage Angiras whose hymns also form a significant part of the collection.\n\nWhile the Rigveda focuses on hymns of praise, the Yajurveda on sacrificial formulas and the Samaveda on musical chants, the Atharvaveda addresses a remarkably wide range of human concerns. Its 730 hymns spread across 20 books cover topics including healing and medicine, protection from disease and evil, domestic ceremonies, marriage and funeral rites, royal consecration, agricultural practices, philosophical inquiry and cosmological speculation.\n\nThe Atharvaveda was initially not included in the Trayi Vidya or the threefold sacred knowledge of the earlier Vedic tradition. Over time, however, its importance was recognized and it was accepted as the fourth Veda. The Brahma priest, who supervises the entire sacrificial ceremony and must possess knowledge of all the Vedas, draws particularly upon the Atharvaveda.\n\nThe two main recensions of the Atharvaveda are the Shaunaka and the Paippalada. The Shaunaka recension is more widely studied and contains 730 hymns organized into 20 books. The Paippalada recension, preserved primarily in the Odisha and Kashmir traditions, contains additional material not found in the Shaunaka version.\n\nThe Atharvaveda's unique character makes it an invaluable source for understanding the full breadth of Vedic civilization, from the spiritual heights of philosophical inquiry to the practical realities of health, agriculture and community life.",
     "scripture_text": [

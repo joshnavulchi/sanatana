@@ -17,10 +17,7 @@
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "readline-sync": "^1.4.10",
-    "tailwindcss": "^4.2.1",
-    "cheerio": "^1.0.0-rc.12",
-    "minimist": "^1.2.8"
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^16.1.6",
@@ -32,6 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^8.57.0",
     "@typescript-eslint/parser": "^8.57.0",
     "autoprefixer": "^10.4.27",
+    "cheerio": "^1.0.0-rc.12",
     "cross-env": "^7.0.3",
     "d3": "^7.9.0",
     "depcheck": "^1.4.7",
@@ -42,8 +40,10 @@
     "glob": "^13.0.6",
     "html-minifier-terser": "^7.2.0",
     "husky": "^8.0.3",
+    "minimist": "^1.2.8",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
+    "readline-sync": "^1.4.10",
     "sass": "^1.98.0",
     "topojson-client": "^3.1.0",
     "ts-prune": "^0.10.3",

@@ -1,28 +1,29 @@
 {
   "samaveda": {
-    "title": "Samaveda – The Veda of Melodies and Sacred Chants | Sanatana Dharma",
-    "description": "Explore the Samaveda, the Veda of music and sacred chants. Learn about its melodic hymns, the Purvarchika and Uttararchika, Samagana tradition and spiritual significance.",
+    "title": "What is Samaveda? Meaning, Chants, Structure & Vedic Music Explained",
+    "description": "Learn about the Samaveda, the third Veda of Sanatana Dharma. Explore its meaning, melodic chants, Purvarchika and Uttararchika, and its role in Vedic music and rituals.",
     "meta": {
-      "title": "Samaveda – The Veda of Melodies and Sacred Chants | Sanatana Dharma",
+      "title": "What is Samaveda? Meaning, Chants, Structure & Vedic Music Explained",
       "canonical": "https://sanatanadharmam.in/vedas/samaveda",
-      "description": "Explore the Samaveda, the Veda of music and sacred chants. Learn about its melodic hymns, the Purvarchika and Uttararchika, Samagana tradition and spiritual significance.",
+      "description": "Learn about the Samaveda, the third Veda of Sanatana Dharma. Explore its meaning, melodic chants, Purvarchika and Uttararchika, and its role in Vedic music and rituals.",
       "keywords": [
-        "Samaveda",
-        "Sama Veda meaning",
-        "Vedic chants",
-        "Samagana",
-        "Purvarchika",
-        "Uttararchika",
-        "Vedic music",
-        "sacred melodies",
-        "Sanatana Dharma Vedas",
-        "ancient Hindu music"
+        "what is samaveda",
+        "samaveda meaning",
+        "samaveda summary",
+        "samaveda chants explained",
+        "samagana meaning",
+        "third veda explanation",
+        "purvarchika uttararchika meaning",
+        "vedic music samaveda",
+        "samaveda vs rigveda",
+        "sanatana dharma vedas"
       ],
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas/samaveda"
     },
     "openGraph": {
-      "title": "Samaveda – The Sacred Veda of Melodies and Chants",
-      "description": "Discover the Samaveda, the musical Veda whose chants form the foundation of Indian classical music and spiritual practice in Sanatana Dharma.",
+      "title": "What is Samaveda? Vedic Music and Sacred Chants Explained",
+      "description": "Discover the Samaveda, the musical Veda of sacred chants that forms the foundation of Vedic rituals and Indian classical music.",
       "url": "https://sanatanadharmam.in/vedas/samaveda",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -31,33 +32,77 @@
           "url": "https://sanatanadharmam.in/images/og/samaveda.png",
           "width": 1200,
           "height": 630,
-          "alt": "Samaveda – Sacred Melodies of the Vedic Tradition"
+          "alt": "Samaveda - Vedic Music and Sacred Chants"
         }
       ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Samaveda",
-      "description": "The Samaveda is one of the four Vedas and consists of hymns set to melodies, forming the basis of Vedic chanting and Indian musical tradition.",
-      "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
-      },
-      "inLanguage": "Sanskrit",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      },
-      "about": [
-        "Samaveda",
-        "Vedic music",
-        "Sanatana Dharma",
-        "sacred chants",
-        "ancient scriptures"
-      ],
-      "url": "https://sanatanadharmam.in/vedas/samaveda"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What is Samaveda? Meaning and Structure",
+          "description": "Comprehensive explanation of the Samaveda, its chants, structure, and role in Vedic music and rituals.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/samaveda"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Samaveda",
+            "description": "The third Veda consisting of melodic hymns used in Vedic chanting and rituals."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Samaveda",
+          "url": "https://sanatanadharmam.in/vedas/samaveda"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Samaveda",
+              "item": "https://sanatanadharmam.in/vedas/samaveda"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
     },
     "introduction": "The Samaveda is the third of the four Vedas and is known as the Veda of Song or the Veda of Melodies. The name 'Samaveda' is derived from two Sanskrit words: 'Saman', meaning melody or song, and 'Veda', meaning knowledge. Together, the Samaveda represents the 'knowledge of sacred song' or 'wisdom expressed through divine music'.\n\nWhile the Rigveda provides the text of hymns and the Yajurveda provides the ritual formulas, the Samaveda transforms these sacred words into melodic chants. Of the 1875 verses in the Samaveda, the vast majority are drawn from the Rigveda, primarily from Mandalas 8 and 9. Only about 75 verses are unique to the Samaveda. However, the Samaveda's profound contribution lies not in the originality of its text but in the musical notation and chanting methodology it introduces.\n\nThe Samaveda was used by the Udgatri priest during Vedic ceremonies. The Udgatri's role was to sing the Samans or melodic hymns at specific moments during the sacrifice, particularly during the Soma rituals. These chants were believed to have the power to elevate consciousness, please the deities and establish harmony between the earthly and celestial realms.\n\nThe musical tradition of the Samaveda is known as Samagana and represents one of the oldest organized musical systems in human history. The hymns are sung according to prescribed melodic patterns using a system of seven notes that many scholars believe formed the foundation of the Indian classical music tradition.\n\nLord Krishna in the Bhagavad Gita declares: 'Among the Vedas, I am the Samaveda.' This statement highlights the special spiritual significance attributed to the Samaveda, suggesting that the divine is most fully expressed through the transformative power of sacred music.\n\nThe Samaveda teaches that sound itself is a manifestation of the divine and that through disciplined musical practice, human beings can access higher states of awareness and spiritual realization.",
     "scripture_text": [

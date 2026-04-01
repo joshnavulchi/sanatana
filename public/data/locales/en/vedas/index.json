@@ -1,49 +1,126 @@
 {
   "vedas": {
+    "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
+    "definition": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
     "meta": {
-      "title": "Vedas – Rigveda, Yajurveda, Samaveda, Atharvaveda",
-      "description": "Learn about the four Vedas of Sanatana Dharma – Rigveda, Yajurveda, Samaveda and Atharvaveda. Explore their history, structure and teachings.",
+      "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
+      "canonical": "https://sanatanadharmam.in/vedas",
+      "description": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
       "keywords": [
-        "Vedas",
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda",
-        "Vedic scriptures",
-        "Sanatana Dharma",
-        "Hindu sacred texts"
-      ]
+        "what are the vedas",
+        "rigveda yajurveda samaveda atharvaveda",
+        "vedas meaning and significance",
+        "vedas explained",
+        "structure of vedas samhita brahmana aranyaka upanishad",
+        "vedic scriptures overview",
+        "hindu sacred texts vedas",
+        "importance of vedas in sanatana dharma",
+        "four vedas names and details",
+        "vedic knowledge basics"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas"
     },
     "openGraph": {
-      "title": "Vedas – Ancient Scriptures of Sanatana Dharma",
-      "description": "Discover the four Vedas and their teachings in Sanatana Dharma.",
+      "title": "What are the Vedas? Ancient Knowledge Explained",
+      "description": "Explore the four Vedas and their teachings, origins, and spiritual significance in Sanatana Dharma.",
       "url": "https://sanatanadharmam.in/vedas",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/vedas.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Four Vedas - Rigveda Yajurveda Samaveda Atharvaveda"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Vedas",
-      "description": "The Vedas are the oldest sacred scriptures of Sanatana Dharma consisting of Rigveda, Yajurveda, Samaveda and Atharvaveda.",
-      "author": {
-        "@type": "Person",
-        "name": "Vyasa"
-      },
-      "about": [
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda"
-      ],
-      "inLanguage": "Sanskrit",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam"
-      },
-      "url": "https://sanatanadharmam.in/vedas"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What are the Vedas? Explanation of the Four Vedas",
+          "description": "An in-depth explanation of the four Vedas and their role in Sanatana Dharma.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": [
+            {
+              "@type": "CreativeWork",
+              "name": "Rigveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Yajurveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Samaveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Atharvaveda"
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "Vedas",
+          "url": "https://sanatanadharmam.in/vedas",
+          "about": {
+            "@type": "Thing",
+            "name": "Vedas",
+            "description": "Ancient Sanskrit scriptures forming the foundation of Hindu philosophy and Sanatana Dharma."
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            }
+          ]
+        }
+      ]
     },
-    "title": "Vedas – The Oldest Sacred Scriptures of Sanatana Dharma",
-    "definition": "The Vedas are the oldest sacred scriptures of Hinduism and among the most ancient surviving texts in the world. They are composed in Vedic Sanskrit and were transmitted orally for thousands of years before being written down.",
     "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
     "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization.\n\nThe Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine.\n\nAccording to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia.\n\nThe teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization?\n\nThrough hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma.\n\nThe Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
     "scripture_text": [

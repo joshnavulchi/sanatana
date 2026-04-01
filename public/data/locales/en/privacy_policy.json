@@ -1,27 +1,29 @@
 {
   "privacy_policy": {
-    "title": "Privacy Policy | Sanatanadharmam",
-    "description": "Read the Privacy Policy of Sanatanadharmam to understand how we collect, use, and protect your information when you visit our website.",
+    "title": "Privacy Policy – Data Protection, Cookies & User Rights | Sanatanadharmam",
+    "description": "Read Sanatanadharmam’s Privacy Policy to understand how we collect, use, store, and protect your data, including cookies, analytics, and your rights under GDPR and CCPA.",
     "meta": {
-      "title": "Privacy Policy | Sanatanadharmam",
+      "title": "Privacy Policy – Data Protection, Cookies & User Rights | Sanatanadharmam",
       "canonical": "https://sanatanadharmam.in/our-privacy-policy",
-      "description": "Read the Privacy Policy of Sanatanadharmam to understand how we collect, use, and protect your information when you visit our website.",
+      "description": "Read Sanatanadharmam’s Privacy Policy to understand how we collect, use, store, and protect your data, including cookies, analytics, and your rights under GDPR and CCPA.",
       "keywords": [
-        "privacy policy",
-        "Sanatanadharmam privacy", 
-        "user privacy policy",
-        "data protection policy",
-        "website privacy policy",
+        "privacy policy sanatanadharmam",
+        "data protection policy website",
+        "GDPR privacy policy",
+        "CCPA compliance privacy",
         "cookies and tracking policy",
-        "user data rights",
-        "Sanatana Dharma website privacy"
+        "user data rights GDPR",
+        "website data usage policy",
+        "privacy policy hindu website",
+        "online privacy protection policy",
+        "sanatanadharmam data privacy"
       ],
-      "robots": "index, follow",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/our-privacy-policy"
     },
     "openGraph": {
-      "title": "Privacy Policy | Sanatanadharmam",
-      "description": "Learn how Sanatanadharmam collects, uses and protects your information when using this website.",
+      "title": "Privacy Policy – Your Data & Rights | Sanatanadharmam",
+      "description": "Learn how we protect your personal data, use cookies, and ensure transparency in accordance with global privacy standards like GDPR and CCPA.",
       "url": "https://sanatanadharmam.in/our-privacy-policy",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -30,7 +32,7 @@
           "url": "https://sanatanadharmam.in/og/privacy.png",
           "width": 1200,
           "height": 630,
-          "alt": "Sanatanadharmam Privacy Policy"
+          "alt": "Sanatanadharmam Privacy Policy and Data Protection"
         }
       ]
     },
@@ -41,18 +43,36 @@
           "@type": "WebPage",
           "name": "Privacy Policy",
           "url": "https://sanatanadharmam.in/our-privacy-policy",
-          "description": "Privacy policy explaining how Sanatanadharmam collects and protects user data."
+          "description": "Detailed privacy policy outlining how user data is collected, processed, and protected by Sanatanadharmam.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01"
         },
         {
           "@type": "PrivacyPolicy",
           "name": "Sanatanadharmam Privacy Policy",
-          "url": "https://sanatanadharmam.in/our-privacy-policy"
+          "url": "https://sanatanadharmam.in/our-privacy-policy",
+          "inLanguage": "en",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          }
         },
         {
           "@type": "Organization",
           "name": "Sanatanadharmam",
           "url": "https://sanatanadharmam.in",
           "logo": "https://sanatanadharmam.in/images/logo.png",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
           "contactPoint": {
             "@type": "ContactPoint",
             "contactType": "customer support",
@@ -61,21 +81,29 @@
               "English",
               "Hindi",
               "Telugu",
-              "Arabic",
-              "German",
               "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+              "French"
             ],
             "email": "contact@sanatanadharmam.in",
             "telephone": "+91-8099181075"
           }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Privacy Policy",
+              "item": "https://sanatanadharmam.in/our-privacy-policy"
+            }
+          ]
         }
       ]
     },

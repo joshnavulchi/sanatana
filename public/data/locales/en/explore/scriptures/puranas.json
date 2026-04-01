@@ -61,22 +61,13 @@
         "contactpoint": {
           "@type": "ContactPoint",
           "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
+          "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
           "contacttype": "Customer Support",
           "email": "info@sanatanadharmam.in",
           "telephone": "+91-8099181075"

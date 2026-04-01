@@ -1,28 +1,29 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "What is Rigveda? Meaning, Mandalas, Hymns & Vedic Philosophy Explained",
+    "description": "Explore the Rigveda, the oldest Veda of Sanatana Dharma. Learn its meaning, 10 mandalas, 1028 hymns, deities like Agni and Indra, and its philosophical insights.",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "What is Rigveda? Meaning, Mandalas, Hymns & Vedic Philosophy Explained",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "Explore the Rigveda, the oldest Veda of Sanatana Dharma. Learn its meaning, 10 mandalas, 1028 hymns, deities like Agni and Indra, and its philosophical insights.",
       "keywords": [
-        "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "what is rigveda",
+        "rigveda meaning",
+        "rigveda summary",
+        "rigveda mandalas explained",
+        "rigveda hymns meaning",
+        "oldest veda explanation",
+        "rigveda deities agni indra",
+        "vedic hymns explanation",
+        "rigveda philosophy",
+        "sanatana dharma vedas"
       ],
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "What is Rigveda? Oldest Veda Explained",
+      "description": "Discover the Rigveda, its 10 mandalas, 1028 hymns, deities, and its role in shaping Vedic philosophy and Sanatana Dharma.",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
       "siteName": "Sanatanadharmam",
       "type": "article",
@@ -31,33 +32,77 @@
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
           "width": 1200,
           "height": 630,
-          "alt": "Rigveda – Ancient Vedic Hymns"
+          "alt": "Rigveda - Oldest Veda with Hymns and Mandalas"
         }
       ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
-      "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
-      },
-      "inLanguage": "Sanskrit",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      },
-      "about": [
-        "Rigveda",
-        "Vedic hymns",
-        "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
-      ],
-      "url": "https://sanatanadharmam.in/vedas/rigveda"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What is Rigveda? Meaning and Structure",
+          "description": "Comprehensive explanation of the Rigveda including its mandalas, hymns, deities, and philosophical significance.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/rigveda"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Rigveda",
+            "description": "The oldest Veda consisting of 10 mandalas and 1028 hymns dedicated to deities like Agni, Indra, and Varuna."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Rigveda",
+          "url": "https://sanatanadharmam.in/vedas/rigveda"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Rigveda",
+              "item": "https://sanatanadharmam.in/vedas/rigveda"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
     },
     "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
     "scripture_text": [
