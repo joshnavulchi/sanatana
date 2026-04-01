@@ -71,17 +71,17 @@ export default function PageLayout(
     <>
       <StructuredData metakey={metaKey ? metaKey : 'home'} />
       <main className={`px-3 ${wrapper} bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 min-h-[80vh] rounded-3xl shadow-2xl border-4 border-amber-100 animate-fadeInUp`}>
-        <div className="w-full text-base leading-relaxed font-normal">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-base leading-relaxed font-normal">
+        <div className="w-full text-md leading-relaxed font-normal">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-md leading-relaxed font-normal">
             <Breadcrumbs items={breadcrumbs} locale={locale} />
             <WordCount />
           </div>
           {/* Hero Header Section */}
-          <div className="relative my-6 overflow-hidden text-base leading-relaxed font-normal animate-fadeInUp">
-            <div className="px-4 py-5 text-base leading-relaxed font-normal">
-              <div className="text-center text-base leading-relaxed font-normal">
-                <div className="inline-block relative text-base leading-relaxed font-normal">
-                  {title && (<h2 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-4xl font-extrabold drop-shadow-lg animate-gradient-x`}>
+          <div className="relative my-6 overflow-hidden text-md leading-relaxed font-normal animate-fadeInUp">
+            <div className="px-4 py-5 text-md leading-relaxed font-normal">
+              <div className="text-center text-md leading-relaxed font-normal">
+                <div className="inline-block relative text-md leading-relaxed font-normal">
+                  {title && (<h2 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-2xl sm:text-xl md:text-2xl font-extrabold drop-shadow-lg animate-gradient-x`}>
                     {title}
                   </h2>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl animate-fadeIn`}></div>
@@ -89,8 +89,8 @@ export default function PageLayout(
                 </div>
               </div>
               {description && (
-                <div className="max-w-3xl mx-auto text-base leading-relaxed font-normal py-10 animate-fadeIn delay-200">
-                  <p className="text-center text-rose-700 italic px-4 text-base leading-relaxed mb-4 font-normal">
+                <div className="max-w-3xl mx-auto text-md leading-relaxed font-normal py-10 animate-fadeIn delay-200">
+                  <p className="text-center text-rose-700 italic px-4 text-md leading-relaxed mb-4 font-normal">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>
@@ -110,14 +110,14 @@ export default function PageLayout(
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
             className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
-            <span className="flex flex-col items-center gap-1 text-base leading-relaxed font-normal">
+            <span className="flex flex-col items-center gap-1 text-md leading-relaxed font-normal">
               <svg
                 className={`h-5 w-5 text-[#7a2e1f] transition-transform duration-300 ${panelOpen ? 'rotate-180' : ''}`}
                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
-              <span className="uppercase text-[#9a3412] [writing-mode:vertical-lr] text-base leading-relaxed font-normal">
+              <span className="uppercase text-[#9a3412] [writing-mode:vertical-lr] text-md leading-relaxed font-normal">
                 Explore
               </span>
             </span>
@@ -126,7 +126,7 @@ export default function PageLayout(
           {/* Backdrop overlay */}
           {panelOpen && (
             <div
-              className="fixed inset-0 z-40 bg-[#5b2d12]/20 backdrop-blur-[2px] transition-opacity duration-300 text-base leading-relaxed font-normal"
+              className="fixed inset-0 z-40 bg-[#5b2d12]/20 backdrop-blur-[2px] transition-opacity duration-300 text-md leading-relaxed font-normal"
               onClick={() => setPanelOpen(false)}
               aria-hidden="true"
             />
@@ -139,10 +139,10 @@ export default function PageLayout(
             aria-label="Explore related topics"
           >
             {/* Panel header */}
-            <div className="flex items-center justify-between border-[#d8a25a]/30 px-5 py-4 text-base leading-relaxed font-normal">
-              <div className="flex items-center gap-2 text-base leading-relaxed font-normal">
-                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#7a2e1f] text-[#fff4df] text-base leading-relaxed font-normal">✦</span>
-                <span className="uppercase text-[#7a2e1f] text-base leading-relaxed font-normal">Explore</span>
+            <div className="flex items-center justify-between border-[#d8a25a]/30 px-5 py-4 text-md leading-relaxed font-normal">
+              <div className="flex items-center gap-2 text-md leading-relaxed font-normal">
+                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#7a2e1f] text-[#fff4df] text-md leading-relaxed font-normal">✦</span>
+                <span className="uppercase text-[#7a2e1f] text-md leading-relaxed font-normal">Explore</span>
               </div>
               <button
                 type="button"
@@ -157,15 +157,15 @@ export default function PageLayout(
             </div>
 
             {/* Accent bar */}
-            <div className="h-0.5 w-full text-base leading-relaxed font-normal" />
+            <div className="h-0.5 w-full text-md leading-relaxed font-normal" />
 
             {/* Scrollable content */}
-            <div className="flex-1 overflow-y-auto px-4 py-5 text-base leading-relaxed font-normal">
+            <div className="flex-1 overflow-y-auto px-4 py-5 text-md leading-relaxed font-normal">
               <SimilarCategories />
             </div>
 
             {/* Bottom ornament */}
-            <div className="h-0.5 w-full text-base leading-relaxed font-normal" />
+            <div className="h-0.5 w-full text-md leading-relaxed font-normal" />
           </aside>
         </>
       )}

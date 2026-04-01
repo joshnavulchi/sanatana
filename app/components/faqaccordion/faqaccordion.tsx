@@ -32,9 +32,9 @@ export default function FaqAccordion({ items, heading }: Props) {
               className={`
                   group relative overflow-hidden rounded-2xl border-2 transition-all duration-300 bg-gradient-to-br from-white via-amber-50 to-pink-50
                   ${open
-                    ? 'border-pink-400 shadow-2xl shadow-pink-500/20 animate-fadeInUp'
-                    : 'border-amber-200 shadow-md hover:shadow-lg hover:border-amber-300 animate-fadeIn'
-                  }
+                  ? 'border-pink-400 shadow-2xl shadow-pink-500/20 animate-fadeInUp'
+                  : 'border-amber-200 shadow-md hover:shadow-lg hover:border-amber-300 animate-fadeIn'
+                }
                 `}
             >
               {/* Gradient background */}

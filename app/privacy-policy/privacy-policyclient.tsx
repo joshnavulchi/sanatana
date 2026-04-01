@@ -121,7 +121,7 @@ export default function PrivacyPolicy() {
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className="layout-md bg-gradient-to-br from-[#f7e8ff] via-[#e0c3fc] to-[#8ec5fc] min-h-screen animate-fade-in">
-      <div id="privacy-content" className="space-y-10 text-base leading-relaxed font-normal">
+      <div id="privacy-content" className="space-y-10 text-md leading-relaxed font-normal">
         {/* Header */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 md:pb-8">
           <div className="flex items-center gap-3">
@@ -146,7 +146,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">📊</span>
             <span>{privacy.informationwecollect.title} {privacy.informationwecollect.lead}</span>
           </h3>
-          <div className="space-y-4 text-base leading-relaxed font-normal">
+          <div className="space-y-4 text-md leading-relaxed font-normal">
             <p><strong className="text-[#a259ec]">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
             <p><strong className="text-[#a259ec]">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
             <p><strong className="text-[#a259ec]">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
@@ -160,8 +160,8 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.howweuse?.lead}</p>
-          <ul className="space-y-3 list-disc pl-5 text-base leading-relaxed">
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.howweuse?.lead}</p>
+          <ul className="space-y-3 list-disc pl-5 text-md leading-relaxed">
             {(privacy.howweuse?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 mb-2">
                 <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#a259ec]" />
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.cookieslocalstorage.text}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.cookieslocalstorage.text}</p>
         </section>
 
         {/* Third Party */}
@@ -186,7 +186,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.thirdparty.text}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.thirdparty.text}</p>
         </section>
 
         {/* Security */}
@@ -195,7 +195,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.security.text}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.security.text}</p>
         </section>
 
         {/* Rights */}
@@ -204,8 +204,8 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.rights.lead}</p>
-          <ul className="space-y-3 list-disc pl-5 text-base leading-relaxed">
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.rights.lead}</p>
+          <ul className="space-y-3 list-disc pl-5 text-md leading-relaxed">
             {(privacy.rights?.items || []).map((p: string, i: number) => (
               <li key={i} className="flex items-start gap-3 mb-2">
                 <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#a259ec]" />
@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
               </li>
             ))}
           </ul>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.rights.contacttext}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.rights.contacttext}</p>
         </section>
 
         {/* Children */}
@@ -222,7 +222,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.children.text}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.children.text}</p>
         </section>
 
         {/* Changes */}
@@ -231,7 +231,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.changes.text}</p>
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.changes.text}</p>
         </section>
 
         {/* Contact */}
@@ -240,12 +240,12 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>
-          <p className="text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.contact.lead}</p>
-          <div className="space-y-2 text-base leading-relaxed font-normal">
+          <p className="text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.contact.lead}</p>
+          <div className="space-y-2 text-md leading-relaxed font-normal">
             <p><strong className="text-[#a259ec]">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
             <p><strong className="text-[#a259ec]">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
           </div>
-          <p className="pt-4 text-base leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.contact.closing}</p>
+          <p className="pt-4 text-md leading-relaxed mb-4 font-medium text-[#4b3869]">{privacy.contact.closing}</p>
         </section>
       </div>
     </PageLayout>

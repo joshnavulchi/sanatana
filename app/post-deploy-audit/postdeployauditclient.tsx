@@ -89,29 +89,29 @@ export default function PostDeployAuditClient({ report }: Props) {
             </span>
           </div>
 
-          <p className="mt-3 text-sm text-[#6b5d4f]">
+          <p className="mt-3 text-md text-[#6b5d4f]">
             Audited at: {new Date(report.auditedAtUtc).toUTCString()} | Source: {report.source}
           </p>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             <article className="rounded-2xl bg-[#fffaf2] p-4">
-              <h5 className="text-sm font-semibold text-[#7a2e1f]">Robots</h5>
-              <p className="mt-2 text-sm text-[#5b2d12]">Exists: {report.robotsTxt.exists ? 'Yes' : 'No'}</p>
-              <p className="text-sm text-[#5b2d12]">
+              <h5 className="text-md font-semibold text-[#7a2e1f]">Robots</h5>
+              <p className="mt-2 text-md text-[#5b2d12]">Exists: {report.robotsTxt.exists ? 'Yes' : 'No'}</p>
+              <p className="text-md text-[#5b2d12]">
                 Sitemap directive: {report.robotsTxt.hasSitemapDirective ? 'Yes' : 'No'}
               </p>
             </article>
             <article className="rounded-2xl bg-[#fffaf2] p-4">
-              <h6 className="text-sm font-semibold text-[#7a2e1f]">Sitemap</h6>
-              <p className="mt-2 text-sm text-[#5b2d12]">Exists: {report.sitemap.exists ? 'Yes' : 'No'}</p>
-              <p className="text-sm text-[#5b2d12]">Approx URL count: {report.sitemap.urlCountApprox}</p>
+              <h6 className="text-md font-semibold text-[#7a2e1f]">Sitemap</h6>
+              <p className="mt-2 text-md text-[#5b2d12]">Exists: {report.sitemap.exists ? 'Yes' : 'No'}</p>
+              <p className="text-md text-[#5b2d12]">Approx URL count: {report.sitemap.urlCountApprox}</p>
             </article>
             <article className="rounded-2xl bg-[#fffaf2] p-4">
-              <h6 className="text-sm font-semibold text-[#7a2e1f]">Potential issues</h6>
-              <p className="mt-2 text-sm text-[#5b2d12]">
+              <h6 className="text-md font-semibold text-[#7a2e1f]">Potential issues</h6>
+              <p className="mt-2 text-md text-[#5b2d12]">
                 404 in sitemap: {report.sitemap.has404Html ? 'Yes' : 'No'}
               </p>
-              <p className="text-sm text-[#5b2d12]">
+              <p className="text-md text-[#5b2d12]">
                 _not-found in sitemap: {report.sitemap.hasNotFoundRoute ? 'Yes' : 'No'}
               </p>
             </article>
@@ -120,7 +120,7 @@ export default function PostDeployAuditClient({ report }: Props) {
           <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
             <h6 className="text-xl font-semibold text-[#7a2e1f]">Page-level Indexing Signals</h6>
             <div className="flex items-center gap-2">
-              <label htmlFor="sortBy" className="text-sm text-[#6b5d4f] font-medium">Sort by:</label>
+              <label htmlFor="sortBy" className="text-md text-[#6b5d4f] font-medium">Sort by:</label>
               {/* ...existing sort controls... */}
             </div>
           </div>
