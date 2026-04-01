@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import Loader from '@components/loader';
+import Link from 'next/link';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { useLocale } from '@app/context/locale-context';
 
@@ -35,7 +36,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] drop-shadow-lg mt-6 mb-3 animate-gradient-x">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-base sm:text-lg text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
+    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -101,14 +102,42 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
         <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {items.map((item: any, idx: number) => (
-            <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
-              {item.title && <h3 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">{item.title}</h3>}
-              {item.introduction && renderContent(item.introduction)}
-              {item.scripture_text && renderContent(item.scripture_text)}
-              {item.philosophical_explanation && renderContent(item.philosophical_explanation)}
-            </div>
-          ))}
+          {items.map((item: any, idx: number) => {
+            const mandalaNum = item.mandala ?? (item.number ?? (idx + 1));
+            const displayTitle = item.title || (mandalaNum ? `Mandala ${mandalaNum}` : `Item ${idx + 1}`);
+            function normalizeSlugFromPath(p: string | undefined, num: number | undefined) {
+              if (!p && !num) return null;
+              if (p) {
+                const parts = String(p).split('/').filter(Boolean);
+                const last = parts[parts.length - 1];
+                if (last) {
+                  // if last looks like 'mandala-1' or 'mandala1', convert to 'madala1' (folder names use 'madala1')
+                  const m = String(last).match(/mandal?a[-_]?([0-9]+)/i);
+                  if (m) return `madala${m[1]}`;
+                  return last;
+                }
+              }
+              if (num) return `madala${num}`;
+              return null;
+            }
+
+            const slug = normalizeSlugFromPath(item.path, mandalaNum as number | undefined);
+            const href = slug ? `/vedas/${vedas && vedas[0] ? vedas[0] : 'rigveda'}/${slug}` : (item.path || '#');
+
+            return (
+              <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
+                <h3 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
+                  {href && href !== '#' ? (
+                    <Link href={href} className="hover:underline">{displayTitle}</Link>
+                  ) : displayTitle}
+                </h3>
+                {item.hymn_count && <div className="text-sm text-gray-600 mb-2">Hymns: {String(item.hymn_count)}</div>}
+                {item.introduction && renderContent(item.introduction)}
+                {item.scripture_text && renderContent(item.scripture_text)}
+                {item.philosophical_explanation && renderContent(item.philosophical_explanation)}
+              </div>
+            );
+          })}
         </div>
       </section>
     );
@@ -203,7 +232,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.estimated_composition_period && (
         <section>
           <SectionTitle>Estimated composition period</SectionTitle>
-          <div className="text-base sm:text-lg">
+          <div className="text-lg sm:text-base">
             {Object.entries(data.estimated_composition_period).map(([k, v]) => (
               <div key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</div>
             ))}
@@ -244,7 +273,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_timeline && (
         <section>
           <SectionTitle>Vedic timeline</SectionTitle>
-          <ul className="list-disc pl-5 text-base sm:text-lg">
+          <ul className="list-disc pl-5 text-lg sm:text-base">
             {Object.entries(data.vedic_timeline).map(([k, v]) => <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>)}
           </ul>
         </section>
@@ -253,7 +282,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_philosophical_concepts && (
         <section>
           <SectionTitle>Philosophical concepts</SectionTitle>
-          <div className="text-base sm:text-lg">
+          <div className="text-lg sm:text-base">
             {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>)}
           </div>
         </section>

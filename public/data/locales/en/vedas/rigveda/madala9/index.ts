@@ -117,7 +117,7 @@ import _j110 from './hymn96.json';
 import _j111 from './hymn97.json';
 import _j112 from './hymn98.json';
 import _j113 from './hymn99.json';
-import _j114 from './madala9.json';
+import _j114 from './index.json';
 
 
 

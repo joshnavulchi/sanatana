@@ -46,7 +46,7 @@ import _j39 from './hymn6.json';
 import _j40 from './hymn7.json';
 import _j41 from './hymn8.json';
 import _j42 from './hymn9.json';
-import _j43 from './madala2.json';
+import _j43 from './index.json';
 
 
 

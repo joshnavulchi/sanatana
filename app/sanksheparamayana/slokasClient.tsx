@@ -41,7 +41,7 @@ export default function SlokasClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Sanksheparamayana' }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-4 text-base sm:text-lg leading-relaxed font-normal">
+        <div className="flex items-center justify-center py-4 text-lg sm:text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>

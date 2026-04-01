@@ -74,10 +74,10 @@ export default async function RootLayout({
           imageSizes="(min-width: 1024px) 50vw, 100vw"
           fetchPriority="high"
         />
-        {/* Page-specific override: cache for 30 days */}
-        <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
+        {/* Page-specific override: cache for 2 days */}
+        <meta httpEquiv="Cache-Control" content="max-age=172800, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
-        <meta httpEquiv="Expires" content="2592000" />
+        <meta httpEquiv="Expires" content="172800" />
         {/* Defer non-critical global styles (preload → convert to stylesheet onload) */}
         <Script
           id="load-deferred-css"

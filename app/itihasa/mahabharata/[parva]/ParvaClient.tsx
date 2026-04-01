@@ -36,7 +36,7 @@ export default function ParvaClient({ initialData, initialLocale, parva }: Props
   }
 
   function Paragraph({ children }: any) {
-    return <p className="text-base sm:text-lg leading-relaxed mb-4">{children}</p>;
+    return <p className="text-lg sm:text-base leading-relaxed mb-4">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
