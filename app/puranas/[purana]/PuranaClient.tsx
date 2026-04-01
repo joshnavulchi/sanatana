@@ -94,7 +94,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
   if (loading) {
     return (
       <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md bg-gradient-to-br from-[#fffbe6] via-[#ffe7ba] to-[#ffd591] min-h-screen animate-fade-in">
-        <div className="flex items-center justify-center py-8 text-base leading-relaxed font-normal"><Loader /></div>
+        <div className="flex items-center justify-center py-8 text-md leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
   }
@@ -102,7 +102,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
   if (error || !data) {
     return (
       <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md bg-gradient-to-br from-[#fffbe6] via-[#ffe7ba] to-[#ffd591] min-h-screen animate-fade-in">
-        <div className="py-12 text-center text-base leading-relaxed font-normal">{error || 'Content not available.'}</div>
+        <div className="py-12 text-center text-md leading-relaxed font-normal">{error || 'Content not available.'}</div>
       </PageLayout>
     );
   }
@@ -112,7 +112,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       {/* Introduction */}
       {typeof data?.introduction === 'string' && (
         <section className="rounded-2xl bg-gradient-to-br from-[#fffbe6]/80 via-[#ffe7ba]/80 to-[#ffd591]/80 shadow-xl border border-[#ffe7ba]/40 p-6 mb-8 animate-fade-in-up">
-          <p className="text-base leading-relaxed mb-4 font-normal text-[#ad6800]">{data.introduction}</p>
+          <p className="text-md leading-relaxed mb-4 font-normal text-[#ad6800]">{data.introduction}</p>
         </section>
       )}
       {/* Sections array */}
@@ -127,7 +127,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
                   <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{secTitle}</h3>
                 ) : null}
                 {secContent ? (
-                  <p className="text-base leading-relaxed mb-4 font-normal">{secContent}</p>
+                  <p className="text-md leading-relaxed mb-4 font-normal">{secContent}</p>
                 ) : null}
               </section>
             );
@@ -137,7 +137,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
 
       {/* Scripture text (detailed sections) */}
       {Array.isArray(data?.scripture_text) && data.scripture_text.length > 0 && (
-        <div className="text-base leading-relaxed font-normal">
+        <div className="text-md leading-relaxed font-normal">
           {data.scripture_text.map((item: any, i: number) => {
             const sTitle = typeof item?.section === 'string' ? item.section : null;
             const sContent = typeof item?.content === 'string' ? item.content : null;
@@ -147,7 +147,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
                   <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">{sTitle}</h3>
                 ) : null}
                 {sContent ? (
-                  <p className="text-base leading-relaxed mb-4 font-normal">{sContent}</p>
+                  <p className="text-md leading-relaxed mb-4 font-normal">{sContent}</p>
                 ) : null}
               </section>
             );
@@ -159,13 +159,13 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       {Array.isArray(data?.chapters) && data.chapters.length > 0 && (
         <section className="mt-6">
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Chapters</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-md leading-relaxed font-normal">
             {data.chapters.map((c: any, i: number) => (
               <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg p-4 bg-white hover:shadow-md">
-                <div className="text-base leading-relaxed font-normal">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
-                {c?.chapter && <div className="text-base leading-relaxed font-normal">Chapter {String(c.chapter)}</div>}
+                <div className="text-md leading-relaxed font-normal">{String(c?.title ?? `Chapter ${c?.chapter ?? i + 1}`)}</div>
+                {c?.chapter && <div className="text-md leading-relaxed font-normal">Chapter {String(c.chapter)}</div>}
                 {c?.verses && Array.isArray(c.verses) && (
-                  <div className="text-base leading-relaxed font-normal">{String(c.verses.length)} verses</div>
+                  <div className="text-md leading-relaxed font-normal">{String(c.verses.length)} verses</div>
                 )}
               </a>
             ))}
@@ -177,12 +177,12 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       {Array.isArray(data?.major_rigvedic_deities) && data.major_rigvedic_deities.length > 0 && (
         <section className="mt-6">
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Major Deities</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base leading-relaxed font-normal">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-md leading-relaxed font-normal">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
-              <div key={`deity-${i}`} className="rounded-lg p-4 bg-white text-base leading-relaxed font-normal">
+              <div key={`deity-${i}`} className="rounded-lg p-4 bg-white text-md leading-relaxed font-normal">
                 <h3 className="text-xl font-semibold leading-snug mb-2">{String(d?.name || '')}</h3>
-                {d?.role && <div className="text-base leading-relaxed font-normal">{d.role}</div>}
-                {d?.importance && <p className="text-base leading-relaxed mb-4 font-normal">{d.importance}</p>}
+                {d?.role && <div className="text-md leading-relaxed font-normal">{d.role}</div>}
+                {d?.importance && <p className="text-md leading-relaxed mb-4 font-normal">{d.importance}</p>}
               </div>
             ))}
           </div>
@@ -193,15 +193,15 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       {Array.isArray(data?.mandalas) && data.mandalas.length > 0 && (
         <section className="mt-6">
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Mandalas</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base leading-relaxed font-normal">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-md leading-relaxed font-normal">
             {data.mandalas.map((m: any, i: number) => (
               <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg p-4 bg-white hover:shadow-md">
-                <div className="flex items-baseline justify-between text-base leading-relaxed font-normal">
-                  <div className="text-amber-800 text-base leading-relaxed font-normal">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
-                  <div className="text-base leading-relaxed font-normal">{String(m?.hymn_count ?? '')} hymns</div>
+                <div className="flex items-baseline justify-between text-md leading-relaxed font-normal">
+                  <div className="text-amber-800 text-md leading-relaxed font-normal">Mandala {String(m?.mandala ?? m?.number ?? i + 1)}</div>
+                  <div className="text-md leading-relaxed font-normal">{String(m?.hymn_count ?? '')} hymns</div>
                 </div>
                 {m?.hymns && Array.isArray(m.hymns) && m.hymns.length > 0 && (
-                  <p className="text-base leading-relaxed mb-4 font-normal">Example: {String(m.hymns[0]?.title || '')}</p>
+                  <p className="text-md leading-relaxed mb-4 font-normal">Example: {String(m.hymns[0]?.title || '')}</p>
                 )}
               </a>
             ))}
@@ -213,9 +213,9 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
       {Array.isArray(data?.related_concepts) && data.related_concepts.length > 0 && (
         <section className="mt-6">
           <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Related Concepts</h3>
-          <div className="flex flex-wrap gap-2 text-base leading-relaxed font-normal">
+          <div className="flex flex-wrap gap-2 text-md leading-relaxed font-normal">
             {data.related_concepts.map((c: any, i: number) => (
-              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-base leading-relaxed font-normal">{String(c)}</span>
+              <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-md leading-relaxed font-normal">{String(c)}</span>
             ))}
           </div>
         </section>
@@ -238,7 +238,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
           return (
             <section>
               <h3 className="text-red-800 text-2xl font-semibold leading-snug mb-3">Philosophical Insights</h3>
-              <p className="text-base leading-relaxed mb-4 font-normal">{val}</p>
+              <p className="text-md leading-relaxed mb-4 font-normal">{val}</p>
             </section>
           );
         }
@@ -264,7 +264,7 @@ export default function PuranaClient({ initialData, initialLocale, segments }: P
           rendered.add(val);
           nodes.push(
             <section key={key}>
-              <p className="text-base leading-relaxed mb-4 font-normal">{val}</p>
+              <p className="text-md leading-relaxed mb-4 font-normal">{val}</p>
             </section>
           );
         }

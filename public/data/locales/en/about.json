@@ -119,27 +119,6 @@
     },
     "introduction": "Sanatanadharmam.in is a dedicated digital initiative created to collect, preserve, explain, and share the spiritual, cultural, and practical knowledge that has been transmitted through Sanātana Dharma over millennia. Our aim is to make this living tradition approachable to seekers, students, practitioners, and curious readers from all backgrounds by presenting authentic texts, devotional hymns, ritual procedures, philosophical essays, and helpful contextual commentary in clear, usable formats.\n\nWe recognize that Sanātana Dharma is not a single monolithic system but a vast, evolving body of thought and practice spanning many languages, lineages, and regional expressions. This site tries to honour that diversity while also offering a coherent entry point for those who are new to the tradition. We focus on authenticity, clarity, and usability: providing accurate transliteration and clean text for chanting, reliable translations that preserve nuance, and plain-language explanations that illuminate the historical, cultural, and spiritual significance of the material.\n\nOur priorities include collecting source materials from trusted editions, presenting stotras and mantras with correct diacritics and transliteration for learners, offering step-by-step puja vidhi guides for common household rituals and festivals, and creating accessible summaries of key philosophical teachings so readers can grasp practical implications rather than just academic descriptions. Wherever possible we include references to original sources, suggest further reading, and indicate variant readings or regional differences to help readers understand context and provenance.\n\nBeyond offering texts, we want the site to be a practical companion for daily spiritual life. To that end we curate collections of daily prayers, morning and evening routines, short stotras suitable for daily recitation, and concise guides for common observances. We also publish explanatory articles that place rituals and scriptures within their broader cultural and ethical frameworks, helping readers connect practice and meaning. The site is intentionally non-sectarian and aims to create a respectful space where traditions that share common roots can be presented side by side with sensitivity to their differences.\n\nAccessibility is important to us. We publish content in multiple Indian and international languages to reach a broad audience and to support those whose primary language is not English. Texts include transliteration and audio where feasible, so that learners can practice correct pronunciation and rhythm. We strive to make content navigable, searchable, and friendly for both beginners and advanced readers by offering layered explanations: short summaries for quick reading, followed by more detailed notes and references for those who wish to study more deeply.\n\nWe believe that preserving and sharing Sanātana Dharma responsibly requires a blend of devotion, scholarly care, and modern publishing practices. All materials are collated with respect for traditional forms and with an eye toward clarity, so they can be read, chanted, and practiced in contemporary life.",
     "disclaimer": "We do not claim to be traditional authorities or an exhaustive scholarly press. This website is maintained with devotion, care, and a commitment to accuracy. Readers should consult established editions or recognized teachers for canonical or liturgical decisions. We encourage cross-verification of important texts with authoritative sources when required.",
-    "faq": {
-      "heading": "Frequently asked questions",
-      "items": [
-        {
-          "a": "The site aims to collect, preserve, and present texts, stotras, ritual guides, and explanatory articles related to Sanātana Dharma in accessible formats for learners, practitioners, and researchers.",
-          "q": "What is the purpose of Sanatanadharmam.in?"
-        },
-        {
-          "a": "We strive to use reliable editions and cite sources. However, we are not a formal scholarly press; readers should consult primary editions and recognized teachers for canonical decisions.",
-          "q": "Are the texts on the site authoritative?"
-        },
-        {
-          "a": "Yes. We welcome contributions; please use the contact page to submit suggested corrections, translations, or sources along with references. Contributions are reviewed before publication.",
-          "q": "Can I contribute corrections or translations?"
-        },
-        {
-          "a": "We provide standardized transliteration and diacritics where possible to aid correct pronunciation, alongside plain-text versions and audio recordings when available.",
-          "q": "How is transliteration handled?"
-        }
-      ]
-    },
     "joinus": {
       "invite": [
         "Share the website with others to spread awareness",
@@ -200,28 +179,6 @@
         "id": "importance-today",
         "title": "Why Sanatana Dharma Matters Today",
         "content": "In today’s world, Sanatana Dharma provides guidance for mental clarity, ethical living, and inner peace. Its teachings help individuals navigate stress, make better decisions, and live a meaningful life."
-      },
-      {
-        "id": "faq",
-        "title": "Frequently Asked Questions",
-        "faqs": [
-          {
-            "question": "What is Sanatana Dharma in simple words?",
-            "answer": "Sanatana Dharma is the eternal way of life that teaches truth, duty, and spiritual growth."
-          },
-          {
-            "question": "Who founded Sanatana Dharma?",
-            "answer": "Sanatana Dharma has no single founder. It evolved over thousands of years through sages and scriptures."
-          },
-          {
-            "question": "Is Sanatana Dharma the same as Hinduism?",
-            "answer": "Sanatana Dharma is the original philosophical system, while Hinduism is a broader modern term."
-          },
-          {
-            "question": "What is the goal of Sanatana Dharma?",
-            "answer": "The ultimate goal is moksha, or liberation from the cycle of birth and rebirth."
-          }
-        ]
       }
     ],
     "vision": {
@@ -279,6 +236,43 @@
     "righteou": "(righteousness),",
     "sannyasa": "Sannyasa",
     "student_life": "Student Life - Learning & Discipline",
-    "vanapras": "Vanaprastha"
+    "vanapras": "Vanaprastha",
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "a": "The site aims to collect, preserve, and present texts, stotras, ritual guides, and explanatory articles related to Sanātana Dharma in accessible formats for learners, practitioners, and researchers.",
+          "q": "What is the purpose of Sanatanadharmam.in?"
+        },
+        {
+          "a": "We strive to use reliable editions and cite sources. However, we are not a formal scholarly press; readers should consult primary editions and recognized teachers for canonical decisions.",
+          "q": "Are the texts on the site authoritative?"
+        },
+        {
+          "a": "Yes. We welcome contributions; please use the contact page to submit suggested corrections, translations, or sources along with references. Contributions are reviewed before publication.",
+          "q": "Can I contribute corrections or translations?"
+        },
+        {
+          "a": "We provide standardized transliteration and diacritics where possible to aid correct pronunciation, alongside plain-text versions and audio recordings when available.",
+          "q": "How is transliteration handled?"
+        },
+        {
+          "q": "What is Sanatana Dharma in simple words?",
+          "a": "Sanatana Dharma is the eternal way of life that teaches truth, duty, and spiritual growth."
+        },
+        {
+          "q": "Who founded Sanatana Dharma?",
+          "a": "Sanatana Dharma has no single founder. It evolved over thousands of years through sages and scriptures."
+        },
+        {
+          "q": "Is Sanatana Dharma the same as Hinduism?",
+          "a": "Sanatana Dharma is the original philosophical system, while Hinduism is a broader modern term."
+        },
+        {
+          "q": "What is the goal of Sanatana Dharma?",
+          "a": "The ultimate goal is moksha, or liberation from the cycle of birth and rebirth."
+        }
+      ]
+    }
   }
 }

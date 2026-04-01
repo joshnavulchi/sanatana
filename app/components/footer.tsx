@@ -71,8 +71,8 @@ function NavColumn({ title, links, icon, iconBg }: {
   return (
     // 
     <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
-      <p className="mb-2 flex items-center text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
-        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
+      <p className="mb-2 flex items-center text-md font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
         </span>
         {title}
@@ -241,7 +241,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-base md:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-md md:text-md rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -253,7 +253,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-md md:text-md font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -267,7 +267,7 @@ export default function Footer() {
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
-            <span className="text-base text-gray-700" aria-hidden="true">✦</span>
+            <span className="text-md text-gray-700" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 

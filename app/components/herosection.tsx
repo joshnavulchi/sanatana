@@ -166,11 +166,11 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               </p>
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-4">
-                <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
-                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-base rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
+                <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/itihasa'}
+                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-md rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
-                    {hero?.primarycta?.label || 'Explore Scriptures'}
+                    {hero?.primarycta?.label || 'Explore Itihasa'}
                     <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
@@ -179,7 +179,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
                 <Link
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
-                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-base font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-md font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
                     {hero?.secondarycta?.label || 'Start Learning'}
                     <svg className="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

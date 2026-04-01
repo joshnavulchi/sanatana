@@ -11,7 +11,7 @@ interface TopicItem {
   id: string;
   title: string;
   description: string;
-  href: string;
+  link?: string;
   src?: string;
 }
 interface Section {
@@ -77,7 +77,7 @@ export default function UnderstandingOfSanatana() {
               </div>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 my-8">
               {section.items?.map((topic, topicIndex) => (
                 <article
                   key={`${section.id}-${topic.id || topicIndex}`}
@@ -89,11 +89,11 @@ export default function UnderstandingOfSanatana() {
                     )}
                     <div>
                       <h4 className="text-md font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-sm text-gray-600">{topic.description}</p>
+                      <p className="text-md text-gray-600 line-clamp-3">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">
-                    <Link href={topic.href} title={topic.title} className="inline-flex items-center gap-2 text-sm font-medium text-amber-700">
+                    <Link href={topic.link} title={topic.title} className="inline-flex items-center gap-2 text-md font-medium text-amber-700">
                       Learn more
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -105,7 +105,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-xl p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-base font-semibold text-gray-800 dark:text-gray-100 mb-3 border border-amber-300/40">
+                <div key={`${section.id}-point-${index}`} className="rounded-xl p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3 border border-amber-300/40">
                   {point}
                 </div>
               ))}

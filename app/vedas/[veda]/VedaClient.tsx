@@ -35,7 +35,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] drop-shadow-lg mt-6 mb-3 animate-gradient-x">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-base text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
+    return <p className="text-md text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -203,7 +203,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.estimated_composition_period && (
         <section>
           <SectionTitle>Estimated composition period</SectionTitle>
-          <div className="text-sm">
+          <div className="text-md">
             {Object.entries(data.estimated_composition_period).map(([k, v]) => (
               <div key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</div>
             ))}
@@ -244,7 +244,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_timeline && (
         <section>
           <SectionTitle>Vedic timeline</SectionTitle>
-          <ul className="list-disc pl-5 text-sm">
+          <ul className="list-disc pl-5 text-md">
             {Object.entries(data.vedic_timeline).map(([k, v]) => <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>)}
           </ul>
         </section>
@@ -253,7 +253,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_philosophical_concepts && (
         <section>
           <SectionTitle>Philosophical concepts</SectionTitle>
-          <div className="text-sm">
+          <div className="text-md">
             {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>)}
           </div>
         </section>
