@@ -35,7 +35,7 @@ export default function VedaClient({ initialData, initialLocale, slug }: Props) 
     return <h2 className="text-2xl font-semibold text-red-800 mt-6 mb-3">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-md text-gray-800 leading-relaxed mb-4">{children}</p>;
+    return <p className="text-base sm:text-lg text-gray-800 leading-relaxed mb-4">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {

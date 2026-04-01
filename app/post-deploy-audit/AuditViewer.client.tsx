@@ -45,16 +45,16 @@ export default function AuditViewer() {
     <div className="max-w-4xl mx-auto p-6">
       <div className="mb-4 flex items-center justify-between">
         <h2 className="text-2xl font-bold">Post-Deploy Audit</h2>
-        <button className="text-md text-amber-800" onClick={() => setShowRaw((s) => !s)}>{showRaw ? 'Hide JSON' : 'Show raw JSON'}</button>
+        <button className="text-base sm:text-lg text-amber-800" onClick={() => setShowRaw((s) => !s)}>{showRaw ? 'Hide JSON' : 'Show raw JSON'}</button>
       </div>
 
       <div className="mb-4 bg-amber-50 p-4 rounded-lg shadow-sm">
-        <div className="text-md">Generated: <strong>{report.generatedAt ?? 'N/A'}</strong></div>
-        <div className="text-md">Pages: <strong>{report.totalPages ?? pages.length}</strong></div>
-        <div className="text-md">Passed: <strong className="text-green-700">{report.passed ?? '—'}</strong> Failed: <strong className="text-red-700">{report.failed ?? '—'}</strong></div>
+        <div className="text-base sm:text-lg">Generated: <strong>{report.generatedAt ?? 'N/A'}</strong></div>
+        <div className="text-base sm:text-lg">Pages: <strong>{report.totalPages ?? pages.length}</strong></div>
+        <div className="text-base sm:text-lg">Passed: <strong className="text-green-700">{report.passed ?? '—'}</strong> Failed: <strong className="text-red-700">{report.failed ?? '—'}</strong></div>
       </div>
 
-      {showRaw && <pre className="mb-4 p-3 bg-gray-100 rounded text-xs overflow-auto">{JSON.stringify(report, null, 2)}</pre>}
+      {showRaw && <pre className="mb-4 p-3 bg-gray-100 rounded text-sm overflow-auto">{JSON.stringify(report, null, 2)}</pre>}
 
       <div className="space-y-3">
         {paginated.map((p, i) => (
@@ -62,9 +62,9 @@ export default function AuditViewer() {
             <div className={p.status === 'PASS' ? 'w-3 h-3 rounded-full mt-1 bg-green-500' : p.status === 'FAIL' ? 'w-3 h-3 rounded-full mt-1 bg-red-500' : 'w-3 h-3 rounded-full mt-1 bg-yellow-500'} />
             <div className="flex-1">
               <div className="font-semibold">{p.page}</div>
-              <div className="text-md text-gray-700">Status: <span className="font-medium">{p.status}</span> — Score: {p.score ?? '—'}</div>
+              <div className="text-base sm:text-lg text-gray-700">Status: <span className="font-medium">{p.status}</span> — Score: {p.score ?? '—'}</div>
               {p.issues && p.issues.length > 0 && (
-                <ul className="mt-2 list-disc pl-5 text-md text-red-700">
+                <ul className="mt-2 list-disc pl-5 text-base sm:text-lg text-red-700">
                   {p.issues.map((it, idx) => <li key={idx}>{it}</li>)}
                 </ul>
               )}

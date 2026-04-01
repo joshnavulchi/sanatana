@@ -165,32 +165,32 @@ export default function CookieConsent() {
   return (
     <>
       <CookiePreferencesModal open={modalOpen} onClose={() => setModalOpen(false)} onSave={savePrefs} initial={prefs ?? {}} />
-      <div className="fixed bottom-0 left-0 right-0 z-50 p-3 md:p-6 pointer-events-none text-md leading-relaxed font-normal">
-        <div className="max-w-6xl mx-auto pointer-events-auto text-md leading-relaxed font-normal">
-          <div className="relative bg-white/95 backdrop-blur-xl border-2 border-amber-200 rounded-2xl shadow-2xl overflow-hidden text-md leading-relaxed font-normal">
+      <div className="fixed bottom-0 left-0 right-0 z-50 p-3 md:p-6 pointer-events-none text-base sm:text-lg leading-relaxed font-normal">
+        <div className="max-w-6xl mx-auto pointer-events-auto text-base sm:text-lg leading-relaxed font-normal">
+          <div className="relative bg-white/95 backdrop-blur-xl border-2 border-amber-200 rounded-2xl shadow-2xl overflow-hidden text-base sm:text-lg leading-relaxed font-normal">
             {/* Decorative gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 pointer-events-none text-md leading-relaxed font-normal" />
+            <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 pointer-events-none text-base sm:text-lg leading-relaxed font-normal" />
 
             {/* Top border accent */}
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 text-md leading-relaxed font-normal" />
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 text-base sm:text-lg leading-relaxed font-normal" />
 
             {/* Content */}
-            <div className="relative z-10 p-4 md:p-8 text-md leading-relaxed font-normal">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-4 text-md leading-relaxed font-normal">
+            <div className="relative z-10 p-4 md:p-8 text-base sm:text-lg leading-relaxed font-normal">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-4 text-base sm:text-lg leading-relaxed font-normal">
                 {/* Cookie icon */}
-                <div className="flex-shrink-0 hidden md:block text-md leading-relaxed font-normal">
-                  <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg animate-bounce text-md leading-relaxed font-normal">
+                <div className="flex-shrink-0 hidden md:block text-base sm:text-lg leading-relaxed font-normal">
+                  <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg animate-bounce text-base sm:text-lg leading-relaxed font-normal">
                     🍪
                   </div>
                 </div>
 
                 {/* Text content */}
-                <div className="flex-1 text-md leading-relaxed font-normal">
+                <div className="flex-1 text-base sm:text-lg leading-relaxed font-normal">
                   <h3 className="flex items-center gap-2 text-xl font-semibold leading-snug mb-2">
-                    <span className="md:hidden text-md leading-relaxed font-normal">🍪</span>
+                    <span className="md:hidden text-base sm:text-lg leading-relaxed font-normal">🍪</span>
                     Cookie Settings
                   </h3>
-                  <div className="text-md leading-relaxed font-normal">
+                  <div className="text-base sm:text-lg leading-relaxed font-normal">
                     {(() => {
                       const paragraph = localeObj?.cookieconsent?.paragraph || '';
                       return (
@@ -208,12 +208,12 @@ export default function CookieConsent() {
               </div>
 
               {/* Buttons */}
-              <div className="flex flex-col sm:flex-row items-center justify-end gap-3 text-md leading-relaxed font-normal">
+              <div className="flex flex-col sm:flex-row items-center justify-end gap-3 text-base sm:text-lg leading-relaxed font-normal">
                 <button
-                  className="px-4 py-2 bg-white border-2 border-amber-300 hover:border-amber-400 text-gray-900 text-md rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
+                  className="px-4 py-2 bg-white border-2 border-amber-300 hover:border-amber-400 text-gray-900 text-base sm:text-lg rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
                   onClick={() => setModalOpen(true)}
                 >
-                  <span className="flex items-center justify-center gap-2 text-md leading-relaxed font-normal">
+                  <span className="flex items-center justify-center gap-2 text-base sm:text-lg leading-relaxed font-normal">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -222,10 +222,10 @@ export default function CookieConsent() {
                   </span>
                 </button>
                 <button
-                  className="px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-md rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
+                  className="px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-base sm:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 no-underline whitespace-nowrap cursor-pointer"
                   onClick={acceptAll}
                 >
-                  <span className="flex items-center justify-center gap-2 text-md leading-relaxed font-normal">
+                  <span className="flex items-center justify-center gap-2 text-base sm:text-lg leading-relaxed font-normal">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -236,7 +236,7 @@ export default function CookieConsent() {
             </div>
 
             {/* Decorative corner accents */}
-            <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-amber-400/10 to-transparent rounded-tl-full pointer-events-none text-md leading-relaxed font-normal" />
+            <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-amber-400/10 to-transparent rounded-tl-full pointer-events-none text-base sm:text-lg leading-relaxed font-normal" />
           </div>
         </div>
       </div>

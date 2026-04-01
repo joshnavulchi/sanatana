@@ -45,12 +45,12 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-200/60 to-indigo-100/0 animate-pulse" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-purple-200/60 to-indigo-100/0 animate-pulse" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-extrabold text-purple-50 bg-purple-500/80 shadow-lg">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-purple-50 bg-purple-500/80 shadow-lg">
           {index + 1}
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-purple-900 drop-shadow">{section}</h3>
       </div>
-      <div className="text-md text-purple-800 leading-relaxed pl-2">
+      <div className="text-base sm:text-lg text-purple-800 leading-relaxed pl-2">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -185,7 +185,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
               <Link key={link.href} href={link.href} className="group block">
                 <article className="relative overflow-hidden rounded-2xl border-amber-200/40 bg-amber-50 p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">{link.label}</h4>
-                  {link.description && <p className="text-md text-gray-700">{link.description}</p>}
+                  {link.description && <p className="text-base sm:text-lg text-gray-700">{link.description}</p>}
                 </article>
               </Link>
             ))}
@@ -199,12 +199,12 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
             <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-4 md:p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md">🔬</span>
-                <h3 className="text-md font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-base sm:text-lg">🔬</span>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
               </div>
               {link.description && <p className="meta-text mt-3">{link.description}</p>}
               {typeof link.totalSubtopics === 'number' && link.totalSubtopics > 0 && (
-                <p className="text-xs text-amber-600 mt-2">{link.totalSubtopics} subtopics</p>
+                <p className="text-sm text-amber-600 mt-2">{link.totalSubtopics} subtopics</p>
               )}
             </div>
           </Link>
