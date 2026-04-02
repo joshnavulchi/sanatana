@@ -59,7 +59,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} dark:from-gray-900/80 dark:via-${gradientfrom} dark:to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
       {/* Top accent gradient border */}
       <div className={`h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
@@ -71,7 +71,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
       <div className="relative flex flex-1 flex-col p-6 sm:p-8">
         {/* Roman numeral badge */}
         <div className="mb-5 flex items-center gap-4">
-          <span className={`inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 via-pink-400 to-indigo-400 shadow-lg text-lg font-black text-white tracking-widest border-4 border-white dark:border-gray-900`}>
+          <span className={`inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 via-pink-400 to-indigo-400 shadow-lg text-lg font-black text-white tracking-widest border-4 border-white`}>
             {ROMAN[index] || index + 1}
           </span>
           <div className="h-1 w-16 bg-linear-to-r from-indigo-300/40 to-transparent" />
@@ -91,7 +91,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-lg sm:text-base leading-relaxed text-gray-700 dark:text-gray-200">
+              <li key={i} className="flex items-start gap-3 text-lg sm:text-base leading-relaxed text-gray-700">
                 <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-br from-amber-400 to-pink-400" />
                 {point}
               </li>
