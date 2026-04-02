@@ -32,13 +32,13 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
         <h3 className="page-title text-3xl font-bold leading-snug mb-4 text-emerald-900 drop-shadow">{page.title}</h3>
         <p className="body-text text-lg sm:text-base leading-relaxed mb-6 font-normal text-emerald-800/90 bg-gradient-to-r from-emerald-100/60 to-teal-50/40 rounded-xl px-4 py-2 shadow-sm">{page.intro}</p>
 
-        <h3 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.informationHeading}</h3>
+        <h4 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.informationHeading}</h4>
         <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-emerald-900/90 bg-gradient-to-r from-emerald-50/80 to-teal-100/60 rounded-lg px-3 py-2 shadow-sm">{page.informationDesc}</p>
 
-        <h3 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.howWeUse}</h3>
+        <h5 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.howWeUse}</h5>
         <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-emerald-900/90 bg-gradient-to-r from-teal-50/80 to-emerald-100/60 rounded-lg px-3 py-2 shadow-sm">{page.howWeUseDesc}</p>
 
-        <h3 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.yourRights}</h3>
+        <h6 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.yourRights}</h6>
         <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-emerald-900/90 bg-gradient-to-r from-emerald-50/80 to-teal-100/60 rounded-lg px-3 py-2 shadow-sm">{page.yourRightsDesc}</p>
 
         <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal text-emerald-700"><strong>{page.lastUpdated}</strong></p>

@@ -128,10 +128,10 @@ export default function PrivacyPolicy() {
 
         {/* Information We Collect */}
         <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="flex items-center gap-3 text-xl font-semibold leading-snug mb-2">
+          <h4 className="flex items-center gap-3 text-xl font-semibold leading-snug mb-2">
             <span className="text-lg sm:text-base leading-relaxed font-normal">📊</span>
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
-          </h3>
+          </h4>
           <div className="space-y-4 text-lg sm:text-base leading-relaxed font-normal">
             <p><strong className="text-amber-800">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
             <p><strong className="text-amber-800">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>

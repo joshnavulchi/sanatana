@@ -149,7 +149,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
     >
       {introduction && (
         <div className="relative px-4 md:px-6 py-4 md:py-10 bg-amber-50 rounded-2xl border-amber-200/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <h3 className="section-title mb-4">Introduction</h3>
+          <h4 className="section-title mb-4">Introduction</h4>
           <div className="body-text">
             <Paragraphs text={introduction} />
           </div>
@@ -158,7 +158,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h3 className="section-title mb-4">Overview</h3>
+          <h5 className="section-title mb-4">Overview</h5>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -170,7 +170,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
       {philosophical && (
         <div className="mt-10 relative overflow-hidden rounded-3xl border-amber-200/30 p-4 md:p-8 bg-amber-50 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1" />
-          <h3 className="section-title mb-4">Philosophical Explanation</h3>
+          <h6 className="section-title mb-4">Philosophical Explanation</h6>
           <div className="body-text">
             <Paragraphs text={philosophical} />
           </div>
@@ -179,7 +179,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
 
       {finalFolderLinks && finalFolderLinks.length > 0 && (
         <div className="mt-6">
-          <h3 className="section-title mb-4">Explore Topics</h3>
+          <h4 className="section-title mb-4">Explore Topics</h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {finalFolderLinks.map((link) => (
               <Link key={link.href} href={link.href} className="group block">
@@ -200,7 +200,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-lg sm:text-base">🔬</span>
-                <h3 className="text-lg sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h3>
+                <h5 className="text-lg sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h5>
               </div>
               {link.description && <p className="meta-text mt-3">{link.description}</p>}
               {typeof link.totalSubtopics === 'number' && link.totalSubtopics > 0 && (

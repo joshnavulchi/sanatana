@@ -119,13 +119,13 @@ Correct
 ```tsx
 const { t } = useLocale();
 
-<h3>{t("about.title")}</h3>
+<h1>{t("about.title")}</h3>
 ```
 
 Incorrect
 
 ```tsx
-<h3>About Us</h3>
+<h1>About Us</h3>
 ```
 
 ---
