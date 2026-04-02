@@ -110,6 +110,42 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
         }
         return { data: parsed, path: diskPath };
       }
+      // If the exact path wasn't found, attempt a slug->folder fallback.
+      // Some namespaces store the content under a shorter folder name whose
+      // index.json contains a top-level key equal to the slug (e.g. folder
+      // `bala` contains `{ "bala-kanda": { ... } }`). In that case we can
+      // scan sibling directories of the requested parent and return the
+      // matching index.json when found.
+      try {
+        const path = require('path');
+        const parentDir = path.dirname(diskPath); // .../ramayana/bala-kanda
+        const parentParent = path.dirname(parentDir); // .../ramayana
+        const lastSegment = path.basename(parentDir); // e.g. 'bala-kanda'
+        if (fs.existsSync(parentParent)) {
+          const entries = fs.readdirSync(parentParent, { withFileTypes: true });
+          for (const ent of entries) {
+            if (!ent.isDirectory()) continue;
+            const candidateIdx = path.join(parentParent, ent.name, 'index.json');
+            try {
+              if (!fs.existsSync(candidateIdx)) continue;
+              const txt = fs.readFileSync(candidateIdx, 'utf8');
+              const parsed = JSON.parse(txt);
+              if (parsed && Object.prototype.hasOwnProperty.call(parsed, lastSegment)) {
+                BUILD_CACHE.set(candidateIdx, { ts: Date.now(), data: parsed });
+                if (process.env.NODE_ENV !== 'production') {
+                  // eslint-disable-next-line no-console
+                  console.debug('[fetchContentByRoute] slug-folder fallback', candidateIdx, 'matched', lastSegment);
+                }
+                return { data: parsed, path: candidateIdx };
+              }
+            } catch (_) {
+              // ignore parse/read errors
+            }
+          }
+        }
+      } catch (_) {
+        // ignore fallback errors and continue to network fetch
+      }
       // fallthrough to network fetch if file missing
     } catch (e) {
       if (process.env.NODE_ENV !== 'production') {

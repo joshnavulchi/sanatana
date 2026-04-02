@@ -18,8 +18,16 @@ export async function generateStaticParams() {
   return topLevel.map((v) => ({ veda: v }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: { veda?: string }; searchParams?: any }) {
-  const v = params?.veda;
+export async function generateMetadata({ params, searchParams }: { params?: { veda?: string } | Promise<{ veda?: string }>; searchParams?: any }) {
+  let resolvedParams: { veda?: string } | undefined = params as any;
+  try {
+    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
+      resolvedParams = await (resolvedParams as any);
+    }
+  } catch (e) {
+    resolvedParams = undefined;
+  }
+  const v = resolvedParams?.veda;
   const key = v ? `vedas/${v}/index` : 'vedas';
   console.log("key ::", key);
   return await createGenerateMetadata(key)({ searchParams }); // testing...

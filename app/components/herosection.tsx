@@ -154,7 +154,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
             {/* Main Heading */}
             <div className="flex flex-col md:mx-auto md:max-w-3xl">
-              <h1 className="text-3xl md:text-4xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
+              <h1 className="text-4xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
                 {hero?.heading || 'Sanātana Dharma'}
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">

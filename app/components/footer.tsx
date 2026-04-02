@@ -214,14 +214,14 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-gradient-to-br from-indigo-200 via-pink-100 via-40% to-amber-100 dark:from-indigo-900 dark:via-pink-900 dark:to-amber-900 overflow-hidden">
+      <footer className="w-full relative bg-gradient-to-br from-indigo-200 via-pink-100 via-40% to-amber-100 overflow-hidden">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -left-32 -top-10 h-72 w-72 rounded-full bg-gradient-to-br from-indigo-400/30 via-pink-200/30 to-amber-200/30 blur-3xl animate-pulse" />
           <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-gradient-to-br from-pink-300/30 via-amber-200/30 to-indigo-300/30 blur-3xl animate-pulse" />
           <div className="absolute left-1/2 top-0 h-40 w-[70%] -translate-x-1/2 rounded-b-full bg-gradient-to-r from-indigo-200/40 via-pink-100/40 to-amber-100/40 blur-2xl animate-pulse" />
-          <div className="absolute inset-0 bg-white/30 dark:bg-gray-900/30 backdrop-blur-[2px] pointer-events-none" />
+          <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px] pointer-events-none" />
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10">

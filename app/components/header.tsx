@@ -153,7 +153,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
 
       {/* Flyout submenu — opens RTL when dropdown anchored to right */}
       {isSubOpen && (
-        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 dark:from-gray-900/90 dark:to-indigo-900/40 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
+        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
           {item.children.map((child) => (
             <Link
               key={child.href}
