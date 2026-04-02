@@ -34,8 +34,8 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 				return (
 					<div key={key} className="mb-3">
 						{content.section && <h3 className="text-lg font-semibold mb-1">{content.section}</h3>}
-						{content.title && <h3 className="text-lg font-semibold mb-1">{content.title}</h3>}
-						{content.heading && <h3 className="text-lg font-semibold mb-1">{content.heading}</h3>}
+						{content.title && <h4 className="text-lg font-semibold mb-1">{content.title}</h4>}
+						{content.heading && <h5 className="text-lg font-semibold mb-1">{content.heading}</h5>}
 						{renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
 					</div>
 				);

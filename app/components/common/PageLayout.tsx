@@ -81,9 +81,9 @@ export default function PageLayout(
             <div className="px-4 py-5 text-lg sm:text-base leading-relaxed font-normal">
               <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
                 <div className="inline-block relative text-lg sm:text-base leading-relaxed font-normal">
-                  {title && (<h2 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-lg sm:text-xl md:text-2xl font-extrabold drop-shadow-lg animate-gradient-x`}>
+                  {title && (<h1 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-lg sm:text-xl md:text-2xl font-extrabold drop-shadow-lg animate-gradient-x`}>
                     {title}
-                  </h2>)}
+                  </h1>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl animate-fadeIn`}></div>
                   <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl animate-fadeIn delay-100`}></div>
                 </div>

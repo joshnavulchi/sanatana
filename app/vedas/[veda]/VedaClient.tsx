@@ -59,8 +59,8 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
         return (
           <div key={key} className="mb-4">
             {content.section && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.section}</h3>}
-            {content.title && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h3>}
-            {content.heading && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h3>}
+            {content.title && <h4 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h4>}
+            {content.heading && <h5 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h5>}
             {renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
           </div>
         );
@@ -126,11 +126,11 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
 
             return (
               <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
-                <h3 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
+                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
                   ) : displayTitle}
-                </h3>
+                </h4>
                 {item.hymn_count && <div className="text-sm text-gray-600 mb-2">Hymns: {String(item.hymn_count)}</div>}
                 {item.introduction && renderContent(item.introduction)}
                 {item.scripture_text && renderContent(item.scripture_text)}

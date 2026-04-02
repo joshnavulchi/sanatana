@@ -58,8 +58,8 @@ export default function ParvaClient({ initialData, initialLocale, parva }: Props
         return (
           <div key={key} className="mb-4">
             {content.section && <h3 className="text-lg font-semibold mb-1">{content.section}</h3>}
-            {content.title && <h3 className="text-lg font-semibold mb-1">{content.title}</h3>}
-            {content.heading && <h3 className="text-lg font-semibold mb-1">{content.heading}</h3>}
+            {content.title && <h4 className="text-lg font-semibold mb-1">{content.title}</h4>}
+            {content.heading && <h5 className="text-lg font-semibold mb-1">{content.heading}</h5>}
             {renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
           </div>
         );
@@ -161,7 +161,7 @@ export default function ParvaClient({ initialData, initialLocale, parva }: Props
 
       {Array.isArray(data.sections) && data.sections.map((s: any, idx: number) => (
         <section key={idx} className="mb-6">
-          {s.title && <h3 className="font-semibold text-lg mb-2">{s.title}</h3>}
+          {s.title && <h6 className="font-semibold text-lg mb-2">{s.title}</h6>}
           {renderContent(s.content)}
         </section>
       ))}

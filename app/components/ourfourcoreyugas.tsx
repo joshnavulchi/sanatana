@@ -78,9 +78,9 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </div>
 
         {/* Title */}
-        <h3 className="text-2xl md:text-3xl font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
+        <h6 className="text-2xl md:text-3xl font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
           {name}
-        </h3>
+        </h6>
 
         {/* Subtitle */}
         <p className="mt-2 text-lg sm:text-base font-semibold uppercase tracking-widest text-indigo-700">

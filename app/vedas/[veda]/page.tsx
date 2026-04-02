@@ -21,7 +21,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params, searchParams }: { params?: { veda?: string }; searchParams?: any }) {
   const v = params?.veda;
   const key = v ? `vedas/${v}/index` : 'vedas';
-  return await createGenerateMetadata(key)({ searchParams });
+  console.log("key ::", key);
+  return await createGenerateMetadata(key)({ searchParams }); // testing...
 }
 
 export default async function Page({ params }: { params: { veda?: string } | Promise<{ veda?: string }> }) {
