@@ -22,8 +22,16 @@ export async function generateStaticParams() {
   return top.map((s) => ({ purana: s }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params: { purana?: string }; searchParams?: any }) {
-  const s = params?.purana;
+export async function generateMetadata({ params, searchParams }: { params?: { purana?: string } | Promise<{ purana?: string }>; searchParams?: any }) {
+  let resolvedParams: { purana?: string } | undefined = params as any;
+  try {
+    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
+      resolvedParams = await (resolvedParams as any);
+    }
+  } catch (e) {
+    resolvedParams = undefined;
+  }
+  const s = resolvedParams?.purana;
   const key = s ? `puranas/${s}/index` : 'puranas';
   return await createGenerateMetadata(key)({ searchParams });
 }

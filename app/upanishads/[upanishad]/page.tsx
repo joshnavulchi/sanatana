@@ -20,8 +20,16 @@ export async function generateStaticParams() {
   return top.map((s) => ({ upanishad: s }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: { upanishad?: string }; searchParams?: any }) {
-  const s = params?.upanishad;
+export async function generateMetadata({ params, searchParams }: { params?: { upanishad?: string } | Promise<{ upanishad?: string }>; searchParams?: any }) {
+  let resolvedParams: { upanishad?: string } | undefined = params as any;
+  try {
+    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
+      resolvedParams = await (resolvedParams as any);
+    }
+  } catch (e) {
+    resolvedParams = undefined;
+  }
+  const s = resolvedParams?.upanishad;
   const key = s ? `upanishads/${s}/index` : 'upanishads/index';
   return await createGenerateMetadata(key)({ searchParams });
 }
