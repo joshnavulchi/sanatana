@@ -67,7 +67,7 @@ export default function UnderstandingOfSanatana() {
             className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'} delay-[${sectionIndex * 120}ms]`}
           >
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h3>
+              <h4 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h4>
               <p className="text-lg sm:text-base text-gray-600 mb-4">{section.content}</p>
             </div>
 
@@ -88,8 +88,8 @@ export default function UnderstandingOfSanatana() {
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-lg sm:text-base font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-lg sm:text-base text-gray-600 line-clamp-3">{topic.description}</p>
+                      <h5 className="text-lg sm:text-base font-semibold text-amber-700">{topic.title}</h5>
+                      <p className="text-lg sm:text-base text-gray-600 line-clamp-3 my-3">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">

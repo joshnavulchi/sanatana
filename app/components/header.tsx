@@ -416,7 +416,7 @@ export default function Header() {
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
       <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}
-        <h1 className="m-0 p-0">
+        <div>
           <Link href="/" className="flex items-center gap-2 group">
             <span className="relative flex items-center justify-center">
               <LazyImage
@@ -431,7 +431,7 @@ export default function Header() {
               {siteTitle}
             </span>
           </Link>
-        </h1>
+        </div>
 
         {/* ─── Desktop Nav ─── */}
         <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
