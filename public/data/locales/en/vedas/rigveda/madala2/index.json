@@ -1,1421 +1,690 @@
 {
   "hymn1": {
-    "rigveda_mandala2_hymn1": {
-      "title": "Rigveda Mandala 2 Hymn 1",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 1",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-1",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-1"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 1",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-1",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 1,
-        "path": "/vedas/rigveda/mandala-2/hymn-1"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 1, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 1,
+      "path": "/vedas/rigveda/mandala-2/hymn-1"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 1, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn10": {
-    "rigveda_mandala2_hymn10": {
-      "title": "Rigveda Mandala 2 Hymn 10",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 10",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-10",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-10"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 10",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-10",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 10,
-        "path": "/vedas/rigveda/mandala-2/hymn-10"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 10, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 10,
+      "path": "/vedas/rigveda/mandala-2/hymn-10"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 10, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn11": {
-    "rigveda_mandala2_hymn11": {
-      "title": "Rigveda Mandala 2 Hymn 11",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 11",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-11",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-11"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 11",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-11",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 11,
-        "path": "/vedas/rigveda/mandala-2/hymn-11"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 11, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 11,
+      "path": "/vedas/rigveda/mandala-2/hymn-11"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 11, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn12": {
-    "rigveda_mandala2_hymn12": {
-      "title": "Rigveda Mandala 2 Hymn 12",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 12",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-12",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-12"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 12",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-12",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 12,
-        "path": "/vedas/rigveda/mandala-2/hymn-12"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 12, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 12,
+      "path": "/vedas/rigveda/mandala-2/hymn-12"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 12, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn13": {
-    "rigveda_mandala2_hymn13": {
-      "title": "Rigveda Mandala 2 Hymn 13",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 13",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-13",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-13"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 13",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-13",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 13,
-        "path": "/vedas/rigveda/mandala-2/hymn-13"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 13, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 13,
+      "path": "/vedas/rigveda/mandala-2/hymn-13"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 13, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn14": {
-    "rigveda_mandala2_hymn14": {
-      "title": "Rigveda Mandala 2 Hymn 14",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 14",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-14",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-14"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 14",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-14",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 14,
-        "path": "/vedas/rigveda/mandala-2/hymn-14"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 14, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 14,
+      "path": "/vedas/rigveda/mandala-2/hymn-14"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 14, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn15": {
-    "rigveda_mandala2_hymn15": {
-      "title": "Rigveda Mandala 2 Hymn 15",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 15",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-15",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-15"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 15",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-15",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 15,
-        "path": "/vedas/rigveda/mandala-2/hymn-15"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 15, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 15,
+      "path": "/vedas/rigveda/mandala-2/hymn-15"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 15, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn16": {
-    "rigveda_mandala2_hymn16": {
-      "title": "Rigveda Mandala 2 Hymn 16",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 16",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-16",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-16"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 16",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-16",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 16,
-        "path": "/vedas/rigveda/mandala-2/hymn-16"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 16, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 16,
+      "path": "/vedas/rigveda/mandala-2/hymn-16"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 16, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn17": {
-    "rigveda_mandala2_hymn17": {
-      "title": "Rigveda Mandala 2 Hymn 17",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 17",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-17",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-17"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 17",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-17",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 17,
-        "path": "/vedas/rigveda/mandala-2/hymn-17"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 17, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 17,
+      "path": "/vedas/rigveda/mandala-2/hymn-17"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 17, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn18": {
-    "rigveda_mandala2_hymn18": {
-      "title": "Rigveda Mandala 2 Hymn 18",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 18",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-18",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-18"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 18",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-18",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 18,
-        "path": "/vedas/rigveda/mandala-2/hymn-18"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 18, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 18,
+      "path": "/vedas/rigveda/mandala-2/hymn-18"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 18, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn19": {
-    "rigveda_mandala2_hymn19": {
-      "title": "Rigveda Mandala 2 Hymn 19",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 19",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-19",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-19"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 19",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-19",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 19,
-        "path": "/vedas/rigveda/mandala-2/hymn-19"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 19, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 19,
+      "path": "/vedas/rigveda/mandala-2/hymn-19"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 19, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn2": {
-    "rigveda_mandala2_hymn2": {
-      "title": "Rigveda Mandala 2 Hymn 2",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 2",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-2",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-2"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 2",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-2",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 2,
-        "path": "/vedas/rigveda/mandala-2/hymn-2"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 2, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 2,
+      "path": "/vedas/rigveda/mandala-2/hymn-2"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 2, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn20": {
-    "rigveda_mandala2_hymn20": {
-      "title": "Rigveda Mandala 2 Hymn 20",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 20",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-20",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-20"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 20",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-20",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 20,
-        "path": "/vedas/rigveda/mandala-2/hymn-20"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 20, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 20,
+      "path": "/vedas/rigveda/mandala-2/hymn-20"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 20, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn21": {
-    "rigveda_mandala2_hymn21": {
-      "title": "Rigveda Mandala 2 Hymn 21",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 21",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-21",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-21"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 21",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-21",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 21,
-        "path": "/vedas/rigveda/mandala-2/hymn-21"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 21, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 21,
+      "path": "/vedas/rigveda/mandala-2/hymn-21"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 21, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn22": {
-    "rigveda_mandala2_hymn22": {
-      "title": "Rigveda Mandala 2 Hymn 22",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 22",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-22",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-22"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 22",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-22",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 22,
-        "path": "/vedas/rigveda/mandala-2/hymn-22"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 22, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 22,
+      "path": "/vedas/rigveda/mandala-2/hymn-22"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 22, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn23": {
-    "rigveda_mandala2_hymn23": {
-      "title": "Rigveda Mandala 2 Hymn 23",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 23",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-23",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-23"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 23",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-23",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 23,
-        "path": "/vedas/rigveda/mandala-2/hymn-23"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 23, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 23,
+      "path": "/vedas/rigveda/mandala-2/hymn-23"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 23, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn24": {
-    "rigveda_mandala2_hymn24": {
-      "title": "Rigveda Mandala 2 Hymn 24",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 24",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-24",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-24"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 24",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-24",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 24,
-        "path": "/vedas/rigveda/mandala-2/hymn-24"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 24, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 24,
+      "path": "/vedas/rigveda/mandala-2/hymn-24"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 24, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn25": {
-    "rigveda_mandala2_hymn25": {
-      "title": "Rigveda Mandala 2 Hymn 25",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 25",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-25",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-25"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 25",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-25",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 25,
-        "path": "/vedas/rigveda/mandala-2/hymn-25"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 25, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 25,
+      "path": "/vedas/rigveda/mandala-2/hymn-25"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 25, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn26": {
-    "rigveda_mandala2_hymn26": {
-      "title": "Rigveda Mandala 2 Hymn 26",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 26",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-26",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-26"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 26",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-26",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 26,
-        "path": "/vedas/rigveda/mandala-2/hymn-26"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 26, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 26,
+      "path": "/vedas/rigveda/mandala-2/hymn-26"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 26, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn27": {
-    "rigveda_mandala2_hymn27": {
-      "title": "Rigveda Mandala 2 Hymn 27",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 27",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-27",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-27"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 27",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-27",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 27,
-        "path": "/vedas/rigveda/mandala-2/hymn-27"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 27, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 27,
+      "path": "/vedas/rigveda/mandala-2/hymn-27"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 27, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn28": {
-    "rigveda_mandala2_hymn28": {
-      "title": "Rigveda Mandala 2 Hymn 28",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 28",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-28",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-28"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 28",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-28",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 28,
-        "path": "/vedas/rigveda/mandala-2/hymn-28"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 28, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 28,
+      "path": "/vedas/rigveda/mandala-2/hymn-28"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 28, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn29": {
-    "rigveda_mandala2_hymn29": {
-      "title": "Rigveda Mandala 2 Hymn 29",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 29",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-29",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-29"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 29",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-29",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 29,
-        "path": "/vedas/rigveda/mandala-2/hymn-29"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 29, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 29,
+      "path": "/vedas/rigveda/mandala-2/hymn-29"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 29, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn3": {
-    "rigveda_mandala2_hymn3": {
-      "title": "Rigveda Mandala 2 Hymn 3",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 3",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-3",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-3"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 3",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-3",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 3,
-        "path": "/vedas/rigveda/mandala-2/hymn-3"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 3, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 3,
+      "path": "/vedas/rigveda/mandala-2/hymn-3"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 3, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn30": {
-    "rigveda_mandala2_hymn30": {
-      "title": "Rigveda Mandala 2 Hymn 30",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 30",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-30",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-30"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 30",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-30",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 30,
-        "path": "/vedas/rigveda/mandala-2/hymn-30"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 30, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 30,
+      "path": "/vedas/rigveda/mandala-2/hymn-30"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 30, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn31": {
-    "rigveda_mandala2_hymn31": {
-      "title": "Rigveda Mandala 2 Hymn 31",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 31",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-31",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-31"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 31",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-31",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 31,
-        "path": "/vedas/rigveda/mandala-2/hymn-31"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 31, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 31,
+      "path": "/vedas/rigveda/mandala-2/hymn-31"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 31, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn32": {
-    "rigveda_mandala2_hymn32": {
-      "title": "Rigveda Mandala 2 Hymn 32",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 32",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-32",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-32"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 32",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-32",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 32,
-        "path": "/vedas/rigveda/mandala-2/hymn-32"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 32, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 32,
+      "path": "/vedas/rigveda/mandala-2/hymn-32"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 32, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn33": {
-    "rigveda_mandala2_hymn33": {
-      "title": "Rigveda Mandala 2 Hymn 33",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 33",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-33",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-33"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 33",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-33",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 33,
-        "path": "/vedas/rigveda/mandala-2/hymn-33"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 33, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 33,
+      "path": "/vedas/rigveda/mandala-2/hymn-33"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 33, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn34": {
-    "rigveda_mandala2_hymn34": {
-      "title": "Rigveda Mandala 2 Hymn 34",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 34",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-34",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-34"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 34",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-34",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 34,
-        "path": "/vedas/rigveda/mandala-2/hymn-34"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 34, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 34,
+      "path": "/vedas/rigveda/mandala-2/hymn-34"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 34, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn35": {
-    "rigveda_mandala2_hymn35": {
-      "title": "Rigveda Mandala 2 Hymn 35",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 35",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-35",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-35"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 35",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-35",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 35,
-        "path": "/vedas/rigveda/mandala-2/hymn-35"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 35, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 35,
+      "path": "/vedas/rigveda/mandala-2/hymn-35"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 35, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn36": {
-    "rigveda_mandala2_hymn36": {
-      "title": "Rigveda Mandala 2 Hymn 36",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 36",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-36",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-36"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 36",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-36",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 36,
-        "path": "/vedas/rigveda/mandala-2/hymn-36"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 36, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 36,
+      "path": "/vedas/rigveda/mandala-2/hymn-36"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 36, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn37": {
-    "rigveda_mandala2_hymn37": {
-      "title": "Rigveda Mandala 2 Hymn 37",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 37",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-37",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-37"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 37",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-37",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 37,
-        "path": "/vedas/rigveda/mandala-2/hymn-37"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 37, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 37,
+      "path": "/vedas/rigveda/mandala-2/hymn-37"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 37, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn38": {
-    "rigveda_mandala2_hymn38": {
-      "title": "Rigveda Mandala 2 Hymn 38",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 38",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-38",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-38"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 38",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-38",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 38,
-        "path": "/vedas/rigveda/mandala-2/hymn-38"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 38, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 38,
+      "path": "/vedas/rigveda/mandala-2/hymn-38"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 38, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn39": {
-    "rigveda_mandala2_hymn39": {
-      "title": "Rigveda Mandala 2 Hymn 39",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 39",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-39",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-39"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 39",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-39",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 39,
-        "path": "/vedas/rigveda/mandala-2/hymn-39"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 39, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 39,
+      "path": "/vedas/rigveda/mandala-2/hymn-39"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 39, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn4": {
-    "rigveda_mandala2_hymn4": {
-      "title": "Rigveda Mandala 2 Hymn 4",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 4",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-4",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-4"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 4",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-4",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 4,
-        "path": "/vedas/rigveda/mandala-2/hymn-4"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 4, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 4,
+      "path": "/vedas/rigveda/mandala-2/hymn-4"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 4, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn40": {
-    "rigveda_mandala2_hymn40": {
-      "title": "Rigveda Mandala 2 Hymn 40",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 40",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-40",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-40"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 40",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-40",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 40,
-        "path": "/vedas/rigveda/mandala-2/hymn-40"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 40, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 40,
+      "path": "/vedas/rigveda/mandala-2/hymn-40"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 40, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn41": {
-    "rigveda_mandala2_hymn41": {
-      "title": "Rigveda Mandala 2 Hymn 41",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 41",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-41",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-41"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 41",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-41",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 41,
-        "path": "/vedas/rigveda/mandala-2/hymn-41"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 41, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 41,
+      "path": "/vedas/rigveda/mandala-2/hymn-41"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 41, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn42": {
-    "rigveda_mandala2_hymn42": {
-      "title": "Rigveda Mandala 2 Hymn 42",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 42",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-42",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-42"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 42",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-42",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 42,
-        "path": "/vedas/rigveda/mandala-2/hymn-42"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 42, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 42,
+      "path": "/vedas/rigveda/mandala-2/hymn-42"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 42, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn43": {
-    "rigveda_mandala2_hymn43": {
-      "title": "Rigveda Mandala 2 Hymn 43",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 43",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-43",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-43"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 43",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-43",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 43,
-        "path": "/vedas/rigveda/mandala-2/hymn-43"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 43, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 43,
+      "path": "/vedas/rigveda/mandala-2/hymn-43"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 43, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn5": {
-    "rigveda_mandala2_hymn5": {
-      "title": "Rigveda Mandala 2 Hymn 5",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 5",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-5",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-5"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 5",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-5",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 5,
-        "path": "/vedas/rigveda/mandala-2/hymn-5"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 5, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 5,
+      "path": "/vedas/rigveda/mandala-2/hymn-5"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 5, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn6": {
-    "rigveda_mandala2_hymn6": {
-      "title": "Rigveda Mandala 2 Hymn 6",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 6",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-6",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-6"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 6",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-6",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 6,
-        "path": "/vedas/rigveda/mandala-2/hymn-6"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 6, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 6,
+      "path": "/vedas/rigveda/mandala-2/hymn-6"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 6, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn7": {
-    "rigveda_mandala2_hymn7": {
-      "title": "Rigveda Mandala 2 Hymn 7",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 7",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-7",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-7"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 7",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-7",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 7,
-        "path": "/vedas/rigveda/mandala-2/hymn-7"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 7, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 7,
+      "path": "/vedas/rigveda/mandala-2/hymn-7"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 7, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn8": {
-    "rigveda_mandala2_hymn8": {
-      "title": "Rigveda Mandala 2 Hymn 8",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 8",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-8",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-8"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 8",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-8",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 8,
-        "path": "/vedas/rigveda/mandala-2/hymn-8"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 8, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 8,
+      "path": "/vedas/rigveda/mandala-2/hymn-8"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 8, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   },
   "hymn9": {
-    "rigveda_mandala2_hymn9": {
-      "title": "Rigveda Mandala 2 Hymn 9",
-      "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "meta": {
-        "title": "Rigveda Mandala 2 Hymn 9",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-9",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-9"
-      },
-      "openGraph": {
-        "title": "Rigveda Mandala 2 Hymn 9",
-        "description": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2/hymn-9",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-2",
-        "label": "Mandala 2",
-        "path": "/vedas/rigveda/mandala-2"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 9,
-        "path": "/vedas/rigveda/mandala-2/hymn-9"
-      },
-      "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 9, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
-    }
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-2",
+      "label": "Mandala 2",
+      "path": "/vedas/rigveda/mandala-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 9,
+      "path": "/vedas/rigveda/mandala-2/hymn-9"
+    },
+    "introduction": "This hymn belongs to Mandala 2 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 2, Hymn 9, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
   }
 }
