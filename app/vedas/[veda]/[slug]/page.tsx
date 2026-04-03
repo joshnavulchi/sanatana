@@ -25,9 +25,18 @@ export async function generateStaticParams() {
 					.filter(Boolean);
 
 				for (const c of children) {
-					const idx = path.join(vPath, c, 'index.json');
-					if (fs.existsSync(idx)) {
-						params.push({ veda: v, slug: c });
+					// Consider any child folder that contains JSON files or an index file
+					try {
+						const childPath = path.join(vPath, c);
+						if (!fs.existsSync(childPath)) continue;
+						const entries = fs.readdirSync(childPath, { withFileTypes: true }).map((e: any) => String(e.name));
+						const hasJson = entries.some((n: string) => n.toLowerCase().endsWith('.json'));
+						const hasIndexFile = entries.some((n: string) => n === 'index.json' || n === 'index.ts' || n === 'index.js');
+						if (hasJson || hasIndexFile) {
+							params.push({ veda: v, slug: c });
+						}
+					} catch (e) {
+						// ignore and skip this child
 					}
 				}
 			}

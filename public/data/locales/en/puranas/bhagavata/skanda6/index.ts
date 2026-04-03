@@ -8,9 +8,10 @@ import _j1 from './chapter2.json';
 import _j2 from './chapter3.json';
 import _j3 from './chapter4.json';
 import _j4 from './chapter5.json';
+import _j5 from './skanda6.json';
 
 
 
-const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4);
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5);
 
 export default merged;
