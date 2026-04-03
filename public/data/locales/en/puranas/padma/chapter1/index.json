@@ -1,6 +1,6 @@
 {
   "chapter1": {
-    "padma_chapter1": {
+    "1": {
       "title": "Padma Purana Chapter 1",
       "description": "Chapter 1 from Padma Purana.",
       "meta": {
@@ -26,7 +26,7 @@
     }
   },
   "verse1": {
-    "padma_chapter1_verse1": {
+    "verse1": {
       "title": "Padma Purana Chapter 1 Verse 1",
       "description": "Verse 1 from Padma Purana, Chapter 1.",
       "meta": {
@@ -56,7 +56,7 @@
     }
   },
   "verse10": {
-    "padma_chapter1_verse10": {
+    "1_verse10": {
       "title": "Padma Purana Chapter 1 Verse 10",
       "description": "Verse 10 from Padma Purana, Chapter 1.",
       "meta": {
@@ -86,7 +86,7 @@
     }
   },
   "verse2": {
-    "padma_chapter1_verse2": {
+    "1_verse2": {
       "title": "Padma Purana Chapter 1 Verse 2",
       "description": "Verse 2 from Padma Purana, Chapter 1.",
       "meta": {
@@ -116,7 +116,7 @@
     }
   },
   "verse3": {
-    "padma_chapter1_verse3": {
+    "1_verse3": {
       "title": "Padma Purana Chapter 1 Verse 3",
       "description": "Verse 3 from Padma Purana, Chapter 1.",
       "meta": {
@@ -146,7 +146,7 @@
     }
   },
   "verse4": {
-    "padma_chapter1_verse4": {
+    "1_verse4": {
       "title": "Padma Purana Chapter 1 Verse 4",
       "description": "Verse 4 from Padma Purana, Chapter 1.",
       "meta": {
@@ -176,7 +176,7 @@
     }
   },
   "verse5": {
-    "padma_chapter1_verse5": {
+    "1_verse5": {
       "title": "Padma Purana Chapter 1 Verse 5",
       "description": "Verse 5 from Padma Purana, Chapter 1.",
       "meta": {
@@ -206,7 +206,7 @@
     }
   },
   "verse6": {
-    "padma_chapter1_verse6": {
+    "1_verse6": {
       "title": "Padma Purana Chapter 1 Verse 6",
       "description": "Verse 6 from Padma Purana, Chapter 1.",
       "meta": {
@@ -236,7 +236,7 @@
     }
   },
   "verse7": {
-    "padma_chapter1_verse7": {
+    "1_verse7": {
       "title": "Padma Purana Chapter 1 Verse 7",
       "description": "Verse 7 from Padma Purana, Chapter 1.",
       "meta": {
@@ -266,7 +266,7 @@
     }
   },
   "verse8": {
-    "padma_chapter1_verse8": {
+    "1_verse8": {
       "title": "Padma Purana Chapter 1 Verse 8",
       "description": "Verse 8 from Padma Purana, Chapter 1.",
       "meta": {
@@ -296,7 +296,7 @@
     }
   },
   "verse9": {
-    "padma_chapter1_verse9": {
+    "1_verse9": {
       "title": "Padma Purana Chapter 1 Verse 9",
       "description": "Verse 9 from Padma Purana, Chapter 1.",
       "meta": {
