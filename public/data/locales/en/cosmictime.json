@@ -1,85 +1,117 @@
 {
   "cosmictime": {
-    "title": "How is a duration of 1,728,000 human years possible?",
+    "title": "What are Yugas? Hindu Cosmic Time Cycles Explained (Kalpa, Manvantara)",
+    "description": "Understand cosmic time in Sanatana Dharma including Yuga cycles, Manvantara, and Kalpa. Learn their durations, structure, and comparison with modern scientific cosmology.",
     "meta": {
-      "title": "Cosmic Time in Sanātana Dharma: Yugas, Manvantara, and Scientific Comparison",
-      "canonical": "https://sanatanadharmam.in/philosophy/cosmictime",
-      "description": "An in-depth explanation of Yuga cycles, Manvantara, Kalpa, and their comparison with modern scientific cosmology.",
+      "title": "What are Yugas? Hindu Cosmic Time Cycles Explained (Kalpa, Manvantara)",
+      "canonical": "https://sanatanadharmam.in/cosmictime",
+      "description": "Understand cosmic time in Sanatana Dharma including Yuga cycles, Manvantara, and Kalpa. Learn their durations, structure, and comparison with modern scientific cosmology.",
       "keywords": [
-        "Kalpa",
-        "Manvantara",
-        "Manvantara and Kalpa explained",
-        "Sanātana Dharma cosmology",
-        "Satya Yuga duration",
-        "Yuga cycles",
-        "Yuga durations explained",
-        "Yuga system mathematical structure",
-        "ancient timekeeping",
-        "comparison with science",
-        "consciousness",
-        "cosmic administration",
-        "cosmic cosmology",
-        "cosmic cycles",
-        "cosmic enlightenment",
-        "cosmic experience",
-        "cosmic function",
-        "cosmic implications",
-        "cosmic insights",
-        "cosmic knowledge",
-        "cosmic metaphysics",
-        "cosmic mythology",
-        "cosmic order",
-        "cosmic philosophy",
-        "cosmic purpose",
-        "cosmic realization",
-        "cosmic significance",
-        "cosmic structure",
-        "cosmic symbolism",
-        "cosmic theology",
-        "cosmic time",
-        "cosmic time scales in Hinduism",
-        "cosmic time vs human time",
-        "cosmic timekeeping",
-        "cosmic understanding",
-        "cosmic wisdom",
-        "cyclical time",
-        "cyclical universe concept",
-        "divine time vs human time",
-        "geological time",
-        "geological time scales",
-        "modern science",
-        "moral and spiritual decline",
-        "moral decline",
-        "philosophy of time",
-        "scientific perspective on Yugas",
-        "spiritual states",
-        "time in Sanātana Dharma"
+        "what are yugas",
+        "yuga cycle explained",
+        "yuga duration satya treta dvapara kali",
+        "kalpa and manvantara meaning",
+        "hindu cosmic time cycles",
+        "cosmic time in hinduism",
+        "yuga cycle vs modern science",
+        "manvantara duration explained",
+        "kalpa duration in years",
+        "cyclical time philosophy"
       ],
-      "ogimage": "/og/cosmictime.png",
-      "url": "https://sanatanadharmam.in/philosophy/cosmictime"
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/cosmictime"
+    },
+    "openGraph": {
+      "title": "What are Yugas? Hindu Cosmic Time Explained",
+      "description": "Explore Yuga cycles, Kalpa, and Manvantara with their durations and comparison to modern cosmology.",
+      "url": "https://sanatanadharmam.in/cosmictime",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/cosmictime.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Yuga Cycles and Cosmic Time in Sanatana Dharma"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "What are Yugas? Hindu Cosmic Time Cycles Explained",
+          "description": "Detailed explanation of Yuga cycles, Manvantara, and Kalpa with scientific comparison.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/cosmictime"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Yuga"
+            },
+            {
+              "@type": "Thing",
+              "name": "Manvantara"
+            },
+            {
+              "@type": "Thing",
+              "name": "Kalpa"
+            }
+          ]
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "WebPage",
+          "name": "Cosmic Time in Sanatana Dharma",
+          "url": "https://sanatanadharmam.in/cosmictime"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Philosophy",
+              "item": "https://sanatanadharmam.in/philosophy"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Cosmic Time",
+              "item": "https://sanatanadharmam.in/cosmictime"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
     },
     "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
     "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
