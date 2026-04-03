@@ -1,6 +1,6 @@
 {
   "chapter1": {
-    "bhagavata_skanda11_chapter1": {
+    "sknda11_chapter1": {
       "title": "Bhagavata Skanda 11 Chapter 1",
       "description": "Chapter 1 from Bhagavata Skanda 11.",
       "meta": {
@@ -30,7 +30,7 @@
     }
   },
   "chapter2": {
-    "bhagavata_skanda11_chapter2": {
+    "sknda11_chapter2": {
       "title": "Bhagavata Skanda 11 Chapter 2",
       "description": "Chapter 2 from Bhagavata Skanda 11.",
       "meta": {
@@ -60,7 +60,7 @@
     }
   },
   "chapter3": {
-    "bhagavata_skanda11_chapter3": {
+    "sknda11_chapter3": {
       "title": "Bhagavata Skanda 11 Chapter 3",
       "description": "Chapter 3 from Bhagavata Skanda 11.",
       "meta": {
@@ -90,7 +90,7 @@
     }
   },
   "chapter4": {
-    "bhagavata_skanda11_chapter4": {
+    "sknda11_chapter4": {
       "title": "Bhagavata Skanda 11 Chapter 4",
       "description": "Chapter 4 from Bhagavata Skanda 11.",
       "meta": {
@@ -120,7 +120,7 @@
     }
   },
   "chapter5": {
-    "bhagavata_skanda11_chapter5": {
+    "sknda11_chapter5": {
       "title": "Bhagavata Skanda 11 Chapter 5",
       "description": "Chapter 5 from Bhagavata Skanda 11.",
       "meta": {
@@ -150,7 +150,7 @@
     }
   },
   "skanda11": {
-    "bhagavata_skanda11": {
+    "sknda11": {
       "title": "Bhagavata Skanda 11",
       "description": "Structure and chapter overview of Bhagavata Skanda 11.",
       "meta": {
