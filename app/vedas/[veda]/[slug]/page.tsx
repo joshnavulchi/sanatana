@@ -40,9 +40,19 @@ export async function generateStaticParams() {
 	return params;
 }
 
-export async function generateMetadata({ params, searchParams }: { params?: { veda?: string; slug?: string }; searchParams?: any }) {
-	const v = params?.veda;
-	const s = params?.slug;
+export async function generateMetadata({ params, searchParams }: { params?: { veda?: string; slug?: string } | Promise<any>; searchParams?: any }) {
+	// `params` may sometimes be a thenable or undefined depending on Next internals.
+	let resolvedParams: any = params;
+	try {
+		if (resolvedParams && typeof resolvedParams.then === 'function') {
+			resolvedParams = await resolvedParams;
+		}
+	} catch (e) {
+		resolvedParams = undefined;
+	}
+
+	const v = resolvedParams?.veda;
+	const s = resolvedParams?.slug;
 	const key = v && s ? `vedas/${v}/${s}/index` : (v ? `vedas/${v}/index` : 'vedas');
 	return await createGenerateMetadata(key)({ searchParams });
 }
