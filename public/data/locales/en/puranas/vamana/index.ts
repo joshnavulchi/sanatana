@@ -4,10 +4,9 @@
 // DO NOT EDIT MANUALLY
 
 import _j0 from './index.json';
-import _j1 from './vamana.json';
 
 
 
-const merged = Object.assign({}, _j0, _j1);
+const merged = Object.assign({}, _j0);
 
 export default merged;

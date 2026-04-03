@@ -2,8 +2,6 @@
 // Merge all JSON files in a folder into a single index.json
 // Usage: node scripts/merge-json.js [folder]
 // Default folder: app/vedas/yajurveda/chapter1
-
-#!/usr/bin/env node
 // Recursively merge JSON files in each folder into that folder's index.json
 // Usage:
 //   node scripts/merge-json.js <root-folder> [--delete|-d]
@@ -23,6 +21,8 @@ async function mergeJsonFilesInDir(absDir, removeOriginals = false) {
   if (jsonFiles.length === 0) return 0;
 
   const result = {};
+  const errors = [];
+  let parsedCount = 0;
   for (const file of jsonFiles) {
     const full = path.join(absDir, file);
     const content = await fs.readFile(full, 'utf8');
@@ -30,15 +30,32 @@ async function mergeJsonFilesInDir(absDir, removeOriginals = false) {
       const parsed = JSON.parse(content);
       const key = path.basename(file, '.json');
       result[key] = parsed;
+      parsedCount++;
     } catch (err) {
       console.error(`Failed to parse ${full}: ${err.message}`);
-      throw err;
+      errors.push({ file: full, error: err.message });
+      // Save original invalid file for inspection
+      try {
+        const destRoot = path.join(process.cwd(), '.merge-json-errors');
+        const rel = path.relative(process.cwd(), full);
+        const dest = path.join(destRoot, rel);
+        await fs.mkdir(path.dirname(dest), { recursive: true });
+        await fs.writeFile(dest, content, 'utf8');
+        console.log(`Saved invalid JSON to ${dest}`);
+      } catch (copyErr) {
+        console.error(`Failed to save invalid file copy for ${full}: ${copyErr.message}`);
+      }
+      // continue with other files
     }
   }
 
-  const outPath = path.join(absDir, 'index.json');
-  await fs.writeFile(outPath, JSON.stringify(result, null, 2) + '\n', 'utf8');
-  console.log(`Merged ${jsonFiles.length} files into ${outPath}`);
+  if (parsedCount === 0) {
+    console.log(`No valid JSON files parsed in ${absDir}; skipping index.json write.`);
+  } else {
+    const outPath = path.join(absDir, 'index.json');
+    await fs.writeFile(outPath, JSON.stringify(result, null, 2) + '\n', 'utf8');
+    console.log(`Merged ${parsedCount} files into ${outPath}`);
+  }
 
   if (removeOriginals) {
     for (const file of jsonFiles) {
@@ -90,6 +107,7 @@ const positional = rawArgs.find((a) => !a.startsWith('-')) || 'public/data/local
   try {
     await processDirectoryRecursive(positional, deleteFlag);
     console.log('Done.');
+    console.log('If any invalid JSON files were found they were copied to .merge-json-errors/');
   } catch (err) {
     console.error(err.message || err);
     process.exit(1);

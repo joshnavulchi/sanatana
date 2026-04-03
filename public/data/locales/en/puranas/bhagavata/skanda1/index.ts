@@ -3,7 +3,7 @@
 // Folder: 'en\puranas\bhagavata\skanda1'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './skanda1.json';
+import _j0 from './index.json';
 
 
 
