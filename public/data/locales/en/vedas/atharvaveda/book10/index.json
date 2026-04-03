@@ -1,6 +1,6 @@
 {
   "hymn1": {
-    "atharvaveda_book10_hymn1": {
+    "hymn1": {
       "title": "Atharvaveda Book 10 Hymn 1",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -33,7 +33,7 @@
     }
   },
   "hymn10": {
-    "atharvaveda_book10_hymn10": {
+    "hymn10": {
       "title": "Atharvaveda Book 10 Hymn 10",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -66,7 +66,7 @@
     }
   },
   "hymn2": {
-    "atharvaveda_book10_hymn2": {
+    "hymn2": {
       "title": "Atharvaveda Book 10 Hymn 2",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -99,7 +99,7 @@
     }
   },
   "hymn3": {
-    "atharvaveda_book10_hymn3": {
+    "hymn3": {
       "title": "Atharvaveda Book 10 Hymn 3",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -132,7 +132,7 @@
     }
   },
   "hymn4": {
-    "atharvaveda_book10_hymn4": {
+    "hymn4": {
       "title": "Atharvaveda Book 10 Hymn 4",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -165,7 +165,7 @@
     }
   },
   "hymn5": {
-    "atharvaveda_book10_hymn5": {
+    "hymn5": {
       "title": "Atharvaveda Book 10 Hymn 5",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -198,7 +198,7 @@
     }
   },
   "hymn6": {
-    "atharvaveda_book10_hymn6": {
+    "hymn6": {
       "title": "Atharvaveda Book 10 Hymn 6",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -231,7 +231,7 @@
     }
   },
   "hymn7": {
-    "atharvaveda_book10_hymn7": {
+    "hymn7": {
       "title": "Atharvaveda Book 10 Hymn 7",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -264,7 +264,7 @@
     }
   },
   "hymn8": {
-    "atharvaveda_book10_hymn8": {
+    "hymn8": {
       "title": "Atharvaveda Book 10 Hymn 8",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
@@ -297,7 +297,7 @@
     }
   },
   "hymn9": {
-    "atharvaveda_book10_hymn9": {
+    "hymn9": {
       "title": "Atharvaveda Book 10 Hymn 9",
       "description": "This hymn belongs to Atharvaveda Book 10.",
       "meta": {
