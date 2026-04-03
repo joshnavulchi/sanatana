@@ -105,3 +105,6 @@ icacls .next /grant "%USERNAME%":F /T
 
 # 3) Start dev again
 npm run dev
+
+
+node scripts/merge-json.js public/data/locales/en/vedas/yajurveda/chapter1 --delete
