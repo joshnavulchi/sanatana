@@ -310,43 +310,48 @@ export default function Footer() {
           <div className="border-t border-gray-100">
             {/* Disclaimer + Socials */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
-              <div>
+              <div className="space-y-2">
                 <small className="text-xs leading-relaxed text-gray-600">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
-              <nav role="list" className="flex items-center gap-4" aria-label="Social links">
-                <Link
-                  role="listitem"
-                  aria-label="Share this page on Facebook"
-                  href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
-                >
-                  <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link
-                  role="listitem"
-                  aria-label="Visit us on Instagram"
-                  href="https://www.instagram.com/vulchivijay"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
-                >
-                  <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link
-                  role="listitem"
-                  aria-label="Share this page on X"
-                  href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
-                >
-                  <LazyImage src="/images/svg/x.svg" alt="x" width={20} height={20} className="inline-block" />
-                </Link>
-              </nav>
+              <div className="text-center">
+                {footer.shareMessage && (
+                  <small className="text-xs text-gray-900">{footer.shareMessage}</small>
+                )}
+                <nav role="list" className="flex items-center justify-end sm:justify-center gap-2" aria-label="Social links">
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on Facebook"
+                    href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Visit us on Instagram"
+                    href="https://www.instagram.com/vulchivijay"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on X"
+                    href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/x.svg" alt="x" width={25} height={25} className="inline-block" />
+                  </Link>
+                </nav>
+              </div>
             </div>
 
             {/* Copyright bar */}
