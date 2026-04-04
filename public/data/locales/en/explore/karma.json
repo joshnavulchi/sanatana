@@ -4,8 +4,8 @@
     "description": "Read The Quiet Return, a reflective spiritual story inspired by the teachings of Karma and the Bhagavad Gita, exploring inner peace, responsibility, and transformation.",
     "meta": {
       "title": "The Quiet Return – Karma and Inner Transformation",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas/karma",
       "description": "Read The Quiet Return, a reflective spiritual story inspired by the teachings of Karma and the Bhagavad Gita, exploring inner peace, responsibility, and transformation.",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas/karma",
       "keywords": [
         "The Quiet Return story",
         "karma philosophy story",
@@ -24,54 +24,17 @@
     "openGraph": {
       "title": "The Quiet Return – A Story of Karma and Inner Peace",
       "description": "A spiritual narrative inspired by Bhagavad Gita teachings showing how karma, awareness and right action transform life.",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/karma",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/og/puranas-quietreturn.png",
-          "width": 1200,
+          "alt": "The Quiet Return Spiritual Story",
           "height": 630,
-          "alt": "The Quiet Return Spiritual Story"
+          "url": "https://sanatanadharmam.in/og/puranas-quietreturn.png",
+          "width": 1200
         }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "headline": "The Quiet Return",
-          "description": "A spiritual narrative inspired by the Bhagavad Gita illustrating the philosophy of karma, awareness and inner transformation.",
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "about": [
-            "Karma philosophy",
-            "Bhagavad Gita teachings",
-            "Sanatana Dharma",
-            "Inner transformation",
-            "Spiritual wisdom"
-          ],
-          "url": "https://sanatanadharmam.in/scriptures/puranas/karma",
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          }
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "The Quiet Return",
-          "genre": "Spiritual Story",
-          "inLanguage": "English",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          }
-        }
-      ]
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/karma"
     },
     "story": [
       "Om. Salutations to the Supreme Lord Sri Krishna.",
@@ -774,7 +737,6 @@
       "To responsibility without fear.",
       "As night approaches, he rests again.",
       "Not seeking resolution.",
-      "Only continuity.",
       "The journey remains alive.",
       "Quietly unfolding.",
       "A deeper test appears when certainty dissolves.",
@@ -951,7 +913,6 @@
       "Morning will come again.",
       "And he will meet it as he is.",
       "Present.",
-      "Grounded.",
       "Enough.",
       "Morning arrives as it always does.",
       "Light enters the room without asking permission.",
@@ -996,6 +957,43 @@
       "It is understanding made steady.",
       "And life, lived as it is.",
       "Whole."
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "description": "A spiritual narrative inspired by the Bhagavad Gita illustrating the philosophy of karma, awareness and inner transformation.",
+          "@type": "Article",
+          "about": [
+            "Karma philosophy",
+            "Bhagavad Gita teachings",
+            "Sanatana Dharma",
+            "Inner transformation",
+            "Spiritual wisdom"
+          ],
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "headline": "The Quiet Return",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/karma"
+        },
+        {
+          "@type": "CreativeWork",
+          "genre": "Spiritual Story",
+          "inLanguage": "English",
+          "name": "The Quiet Return",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          }
+        }
+      ]
+    }
   }
 }

@@ -3,8 +3,8 @@
     "title": "Horoscope Generator",
     "meta": {
       "title": "Horoscope Generator",
-      "canonical": "https://sanatanadharmam.in/horoscope",
       "description": "Horoscope from Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "canonical": "https://sanatanadharmam.in/horoscope",
       "keywords": [
         "astrology",
         "daily horoscope",
@@ -48,29 +48,6 @@
       "ogimage": "images/og/home.png",
       "url": "https://sanatanadharmam.in/horoscope"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "birthdate": "Birth date",
     "errorlabel": "Error:",
     "generate": "Generate",
@@ -79,6 +56,29 @@
     "period": "Period",
     "periodday": "Day",
     "periodmonth": "Month",
-    "periodweek": "Week"
+    "periodweek": "Week",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -3,8 +3,8 @@
     "title": "Bhagavad Gita",
     "meta": {
       "title": "Scriptures | Bhagavad Gita — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/bhagavadgita",
       "description": "Bhagavad Gita — Complete Chapters & Commentary — Articles, translations and concise commentary on Bhagavad Gita. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/scriptures/bhagavadgita",
       "keywords": [
         "Ancient wisdom",
         "Arjuna",
@@ -74,29 +74,6 @@
       ],
       "ogimage": "/og/bhagavadgita.png",
       "url": "https://sanatanadharmam.in/scriptures/bhagavadgita"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "parts": [
       {
@@ -753,7 +730,12 @@
             "devotion": {
               "definition": "Loving surrender to the Divine.",
               "essence": "Bhakti transforms emotion into spiritual energy.",
-              "forms": ["Hearing", "Chanting", "Remembering", "Serving"]
+              "forms": [
+                "Hearing",
+                "Chanting",
+                "Remembering",
+                "Serving"
+              ]
             },
             "dharma": {
               "deep_explanation": "In the Gita, Dharma is not rigid rule-following. It is alignment with truth and higher purpose. Arjuna's crisis arises because he confuses emotional attachment with Dharma. Krishna clarifies that true Dharma must be rooted in wisdom, not sentiment.",
@@ -2492,6 +2474,29 @@
         },
         "order": 37
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

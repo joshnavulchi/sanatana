@@ -3,8 +3,8 @@
     "title": "Hindu Puranas Overview",
     "meta": {
       "title": "Scriptures | Puranas — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas",
       "description": "Puranas — Mythology, Cosmology and Lineages — Articles, translations and concise commentary on Puranas. Explore practices, history, and guiding principles ...",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas",
       "keywords": [
         "Adaptability and relevance",
         "Agni Purana",
@@ -53,29 +53,6 @@
       ],
       "ogimage": "/og/puranas.png",
       "url": "https://sanatanadharmam.in/scriptures/puranas"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "benefits": [
       "Inspires devotion (bhakti) and moral conduct",
@@ -248,6 +225,29 @@
       "Philosophy and dharma",
       "Rituals and festivals"
     ],
-    "unique_insights": "Unlike purely philosophical texts, the Puranas use stories to make spiritual wisdom accessible to all—regardless of age, education, or background. They are dynamic, evolving with society, and remain relevant by addressing contemporary issues through timeless archetypes. The Puranas are not just records of the past, but living guides for personal and collective transformation."
+    "unique_insights": "Unlike purely philosophical texts, the Puranas use stories to make spiritual wisdom accessible to all—regardless of age, education, or background. They are dynamic, evolving with society, and remain relevant by addressing contemporary issues through timeless archetypes. The Puranas are not just records of the past, but living guides for personal and collective transformation.",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

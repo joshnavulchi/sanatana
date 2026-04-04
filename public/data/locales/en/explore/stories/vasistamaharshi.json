@@ -3,8 +3,8 @@
     "title": "Stories | Vasista Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Vasista Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/vasistamaharshi",
       "description": "Learn about Vasistamhari on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/vasistamaharshi",
       "keywords": [
         "Vasista Maharshi Biography",
         "Vasista Maharshi Biography in English",
@@ -35,36 +35,18 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/vasistamaharshi"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "iconography": [
         "Seated in meditation",
         "Holding a rosary and water pot (Kamandalu)",
         "Accompanied by Arundhati"
       ],
-      "virtues": ["Wisdom", "Patience", "Truthfulness", "Compassion"]
+      "virtues": [
+        "Wisdom",
+        "Patience",
+        "Truthfulness",
+        "Compassion"
+      ]
     },
     "biography": {
       "attributes": [
@@ -127,7 +109,10 @@
         "Embodiment of wisdom and Dharma",
         "Author of Vasishta Samhita and Yoga Vasishta"
       ],
-      "titles": ["Maharshi", "Brahmarshi"]
+      "titles": [
+        "Maharshi",
+        "Brahmarshi"
+      ]
     },
     "textsandteachings": [
       {
@@ -173,6 +158,29 @@
         "event": "Continued as a guiding light of Vedantic wisdom; revered in all ages",
         "phase": "Later Life"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

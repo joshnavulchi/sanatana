@@ -1,10 +1,11 @@
 {
   "historical_timeline": {
     "title": "CE and BCE Explained: Meaning, Year Zero Concept, Rules, and Examples",
+    "description": "CE & BCE — The Complete Guide (with Year Zero Clarified)",
     "meta": {
       "title": "CE and BCE Explained: Meaning, Year Zero Concept, Rules, and Examples",
-      "canonical": "https://sanatanadharmam.in/historical-timeline",
       "description": "Learn the meaning of BCE and CE, why there is no year zero, how timelines are counted, and see clear examples with a simple diagram.",
+      "canonical": "https://sanatanadharmam.in/historical-timeline",
       "keywords": [
         "BC/AD equivalence",
         "BCE",
@@ -44,29 +45,6 @@
       ],
       "ogimage": "images/og/homhistoricl_timeline.png",
       "url": "https://sanatanadharmam.in/historical-timeline"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "academic": {
       "title": "Understanding the CE and BCE Dating System: The Absence of Year Zero and Its Historical Implications",
@@ -358,15 +336,14 @@
       ]
     },
     "counting_directio": "Counting Direction:",
-    "description": "CE & BCE — The Complete Guide (with Year Zero Clarified)",
     "diagrams": {
       "ascii": {
-        "art": "PAST                                              PRESENT\n←─────── BCE ────────│────── CE ──────→\n 5  4  3  2  1 BCE     │     1  2  3  4  5 CE\n                      (NO YEAR 0)",
+        "art": "PAST PRESENT ←─────── BCE ────────│────── CE ──────→ 5 4 3 2 1 BCE │ 1 2 3 4 5 CE (NO YEAR 0)",
         "caption": "Transition from BCE to CE showing no year zero."
       },
       "mermaid": {
         "caption": "Mermaid timeline (render with a client Mermaid component).",
-        "code": "timeline\n  title BCE to CE (No Year Zero)\n  section BCE\n    5 BCE: 5\n    4 BCE: 4\n    3 BCE: 3\n    2 BCE: 2\n    1 BCE: 1\n  section Transition\n    No Year 0: milestone\n  section CE\n    1 CE: 1\n    2 CE: 2\n    3 CE: 3\n    4 CE: 4\n    5 CE: 5"
+        "code": "timeline title BCE to CE (No Year Zero) section BCE 5 BCE: 5 4 BCE: 4 3 BCE: 3 2 BCE: 2 1 BCE: 1 section Transition No Year 0: milestone section CE 1 CE: 1 2 CE: 2 3 CE: 3 4 CE: 4 5 CE: 5"
       }
     },
     "duration": "Duration:",
@@ -567,6 +544,29 @@
     "uses_year": "Uses Year Zero:",
     "visual_timeline": "Visual Timeline",
     "worked_examples": "Worked Examples:",
-    "years": "years"
+    "years": "years",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

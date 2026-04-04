@@ -5,31 +5,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 1",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-1",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-1",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-1"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 1,
+        "path": "/vedas/rigveda/mandala-4/hymn-1",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 1",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-1",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-1"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 1,
-        "path": "/vedas/rigveda/mandala-4/hymn-1"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 1, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 1, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn10": {
@@ -38,31 +38,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 10",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-10",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-10",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-10"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 10,
+        "path": "/vedas/rigveda/mandala-4/hymn-10",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 10",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-10",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-10"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 10,
-        "path": "/vedas/rigveda/mandala-4/hymn-10"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 10, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 10, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn11": {
@@ -71,31 +71,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 11",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-11",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-11",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-11"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 11,
+        "path": "/vedas/rigveda/mandala-4/hymn-11",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 11",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-11",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-11"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 11,
-        "path": "/vedas/rigveda/mandala-4/hymn-11"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 11, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 11, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn12": {
@@ -104,31 +104,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 12",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-12",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-12",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-12"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 12,
+        "path": "/vedas/rigveda/mandala-4/hymn-12",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 12",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-12",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-12"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 12,
-        "path": "/vedas/rigveda/mandala-4/hymn-12"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 12, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 12, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn13": {
@@ -137,31 +137,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 13",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-13",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-13",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-13"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 13,
+        "path": "/vedas/rigveda/mandala-4/hymn-13",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 13",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-13",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-13"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 13,
-        "path": "/vedas/rigveda/mandala-4/hymn-13"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 13, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 13, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn14": {
@@ -170,31 +170,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 14",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-14",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-14",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-14"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 14,
+        "path": "/vedas/rigveda/mandala-4/hymn-14",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 14",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-14",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-14"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 14,
-        "path": "/vedas/rigveda/mandala-4/hymn-14"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 14, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 14, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn15": {
@@ -203,31 +203,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 15",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-15",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-15",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-15"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 15,
+        "path": "/vedas/rigveda/mandala-4/hymn-15",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 15",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-15",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-15"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 15,
-        "path": "/vedas/rigveda/mandala-4/hymn-15"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 15, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 15, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn16": {
@@ -236,31 +236,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 16",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-16",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-16",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-16"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 16,
+        "path": "/vedas/rigveda/mandala-4/hymn-16",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 16",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-16",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-16"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 16,
-        "path": "/vedas/rigveda/mandala-4/hymn-16"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 16, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 16, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn17": {
@@ -269,31 +269,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 17",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-17",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-17",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-17"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 17,
+        "path": "/vedas/rigveda/mandala-4/hymn-17",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 17",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-17",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-17"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 17,
-        "path": "/vedas/rigveda/mandala-4/hymn-17"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 17, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 17, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn18": {
@@ -302,31 +302,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 18",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-18",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-18",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-18"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 18,
+        "path": "/vedas/rigveda/mandala-4/hymn-18",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 18",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-18",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-18"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 18,
-        "path": "/vedas/rigveda/mandala-4/hymn-18"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 18, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 18, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn19": {
@@ -335,31 +335,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 19",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-19",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-19",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-19"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 19,
+        "path": "/vedas/rigveda/mandala-4/hymn-19",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 19",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-19",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-19"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 19,
-        "path": "/vedas/rigveda/mandala-4/hymn-19"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 19, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 19, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn2": {
@@ -368,31 +368,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 2",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-2",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-2",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-2"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 2,
+        "path": "/vedas/rigveda/mandala-4/hymn-2",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 2",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-2",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-2"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 2,
-        "path": "/vedas/rigveda/mandala-4/hymn-2"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 2, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 2, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn20": {
@@ -401,31 +401,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 20",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-20",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-20",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-20"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 20,
+        "path": "/vedas/rigveda/mandala-4/hymn-20",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 20",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-20",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-20"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 20,
-        "path": "/vedas/rigveda/mandala-4/hymn-20"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 20, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 20, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn21": {
@@ -434,31 +434,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 21",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-21",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-21",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-21"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 21,
+        "path": "/vedas/rigveda/mandala-4/hymn-21",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 21",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-21",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-21"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 21,
-        "path": "/vedas/rigveda/mandala-4/hymn-21"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 21, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 21, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn22": {
@@ -467,31 +467,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 22",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-22",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-22",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-22"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 22,
+        "path": "/vedas/rigveda/mandala-4/hymn-22",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 22",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-22",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-22"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 22,
-        "path": "/vedas/rigveda/mandala-4/hymn-22"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 22, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 22, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn23": {
@@ -500,31 +500,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 23",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-23",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-23",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-23"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 23,
+        "path": "/vedas/rigveda/mandala-4/hymn-23",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 23",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-23",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-23"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 23,
-        "path": "/vedas/rigveda/mandala-4/hymn-23"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 23, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 23, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn24": {
@@ -533,31 +533,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 24",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-24",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-24",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-24"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 24,
+        "path": "/vedas/rigveda/mandala-4/hymn-24",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 24",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-24",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-24"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 24,
-        "path": "/vedas/rigveda/mandala-4/hymn-24"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 24, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 24, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn25": {
@@ -566,31 +566,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 25",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-25",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-25",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-25"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 25,
+        "path": "/vedas/rigveda/mandala-4/hymn-25",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 25",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-25",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-25"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 25,
-        "path": "/vedas/rigveda/mandala-4/hymn-25"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 25, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 25, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn26": {
@@ -599,31 +599,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 26",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-26",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-26",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-26"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 26,
+        "path": "/vedas/rigveda/mandala-4/hymn-26",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 26",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-26",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-26"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 26,
-        "path": "/vedas/rigveda/mandala-4/hymn-26"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 26, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 26, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn27": {
@@ -632,31 +632,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 27",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-27",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-27",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-27"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 27,
+        "path": "/vedas/rigveda/mandala-4/hymn-27",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 27",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-27",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-27"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 27,
-        "path": "/vedas/rigveda/mandala-4/hymn-27"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 27, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 27, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn28": {
@@ -665,31 +665,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 28",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-28",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-28",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-28"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 28,
+        "path": "/vedas/rigveda/mandala-4/hymn-28",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 28",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-28",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-28"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 28,
-        "path": "/vedas/rigveda/mandala-4/hymn-28"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 28, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 28, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn29": {
@@ -698,31 +698,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 29",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-29",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-29",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-29"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 29,
+        "path": "/vedas/rigveda/mandala-4/hymn-29",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 29",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-29",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-29"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 29,
-        "path": "/vedas/rigveda/mandala-4/hymn-29"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 29, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 29, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn3": {
@@ -731,31 +731,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 3",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-3",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-3",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-3"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 3,
+        "path": "/vedas/rigveda/mandala-4/hymn-3",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 3",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-3",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-3"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 3,
-        "path": "/vedas/rigveda/mandala-4/hymn-3"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 3, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 3, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn30": {
@@ -764,31 +764,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 30",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-30",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-30",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-30"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 30,
+        "path": "/vedas/rigveda/mandala-4/hymn-30",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 30",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-30",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-30"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 30,
-        "path": "/vedas/rigveda/mandala-4/hymn-30"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 30, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 30, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn31": {
@@ -797,31 +797,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 31",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-31",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-31",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-31"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 31,
+        "path": "/vedas/rigveda/mandala-4/hymn-31",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 31",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-31",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-31"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 31,
-        "path": "/vedas/rigveda/mandala-4/hymn-31"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 31, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 31, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn32": {
@@ -830,31 +830,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 32",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-32",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-32",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-32"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 32,
+        "path": "/vedas/rigveda/mandala-4/hymn-32",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 32",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-32",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-32"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 32,
-        "path": "/vedas/rigveda/mandala-4/hymn-32"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 32, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 32, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn33": {
@@ -863,31 +863,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 33",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-33",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-33",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-33"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 33,
+        "path": "/vedas/rigveda/mandala-4/hymn-33",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 33",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-33",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-33"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 33,
-        "path": "/vedas/rigveda/mandala-4/hymn-33"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 33, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 33, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn34": {
@@ -896,31 +896,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 34",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-34",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-34",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-34"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 34,
+        "path": "/vedas/rigveda/mandala-4/hymn-34",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 34",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-34",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-34"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 34,
-        "path": "/vedas/rigveda/mandala-4/hymn-34"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 34, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 34, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn35": {
@@ -929,31 +929,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 35",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-35",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-35",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-35"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 35,
+        "path": "/vedas/rigveda/mandala-4/hymn-35",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 35",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-35",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-35"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 35,
-        "path": "/vedas/rigveda/mandala-4/hymn-35"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 35, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 35, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn36": {
@@ -962,31 +962,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 36",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-36",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-36",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-36"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 36,
+        "path": "/vedas/rigveda/mandala-4/hymn-36",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 36",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-36",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-36"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 36,
-        "path": "/vedas/rigveda/mandala-4/hymn-36"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 36, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 36, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn37": {
@@ -995,31 +995,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 37",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-37",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-37",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-37"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 37,
+        "path": "/vedas/rigveda/mandala-4/hymn-37",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 37",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-37",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-37"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 37,
-        "path": "/vedas/rigveda/mandala-4/hymn-37"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 37, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 37, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn38": {
@@ -1028,31 +1028,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 38",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-38",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-38",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-38"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 38,
+        "path": "/vedas/rigveda/mandala-4/hymn-38",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 38",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-38",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-38"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 38,
-        "path": "/vedas/rigveda/mandala-4/hymn-38"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 38, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 38, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn39": {
@@ -1061,31 +1061,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 39",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-39",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-39",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-39"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 39,
+        "path": "/vedas/rigveda/mandala-4/hymn-39",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 39",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-39",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-39"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 39,
-        "path": "/vedas/rigveda/mandala-4/hymn-39"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 39, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 39, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn4": {
@@ -1094,31 +1094,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 4",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-4",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-4",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-4"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 4,
+        "path": "/vedas/rigveda/mandala-4/hymn-4",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 4",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-4",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-4"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 4,
-        "path": "/vedas/rigveda/mandala-4/hymn-4"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 4, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 4, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn40": {
@@ -1127,31 +1127,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 40",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-40",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-40",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-40"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 40,
+        "path": "/vedas/rigveda/mandala-4/hymn-40",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 40",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-40",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-40"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 40,
-        "path": "/vedas/rigveda/mandala-4/hymn-40"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 40, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 40, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn41": {
@@ -1160,31 +1160,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 41",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-41",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-41",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-41"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 41,
+        "path": "/vedas/rigveda/mandala-4/hymn-41",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 41",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-41",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-41"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 41,
-        "path": "/vedas/rigveda/mandala-4/hymn-41"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 41, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 41, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn42": {
@@ -1193,31 +1193,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 42",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-42",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-42",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-42"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 42,
+        "path": "/vedas/rigveda/mandala-4/hymn-42",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 42",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-42",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-42"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 42,
-        "path": "/vedas/rigveda/mandala-4/hymn-42"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 42, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 42, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn43": {
@@ -1226,31 +1226,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 43",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-43",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-43",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-43"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 43,
+        "path": "/vedas/rigveda/mandala-4/hymn-43",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 43",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-43",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-43"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 43,
-        "path": "/vedas/rigveda/mandala-4/hymn-43"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 43, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 43, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn44": {
@@ -1259,31 +1259,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 44",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-44",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-44",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-44"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 44,
+        "path": "/vedas/rigveda/mandala-4/hymn-44",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 44",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-44",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-44"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 44,
-        "path": "/vedas/rigveda/mandala-4/hymn-44"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 44, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 44, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn45": {
@@ -1292,31 +1292,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 45",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-45",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-45",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-45"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 45,
+        "path": "/vedas/rigveda/mandala-4/hymn-45",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 45",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-45",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-45"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 45,
-        "path": "/vedas/rigveda/mandala-4/hymn-45"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 45, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 45, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn46": {
@@ -1325,31 +1325,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 46",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-46",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-46",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-46"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 46,
+        "path": "/vedas/rigveda/mandala-4/hymn-46",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 46",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-46",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-46"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 46,
-        "path": "/vedas/rigveda/mandala-4/hymn-46"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 46, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 46, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn47": {
@@ -1358,31 +1358,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 47",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-47",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-47",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-47"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 47,
+        "path": "/vedas/rigveda/mandala-4/hymn-47",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 47",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-47",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-47"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 47,
-        "path": "/vedas/rigveda/mandala-4/hymn-47"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 47, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 47, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn48": {
@@ -1391,31 +1391,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 48",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-48",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-48",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-48"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 48,
+        "path": "/vedas/rigveda/mandala-4/hymn-48",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 48",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-48",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-48"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 48,
-        "path": "/vedas/rigveda/mandala-4/hymn-48"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 48, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 48, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn49": {
@@ -1424,31 +1424,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 49",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-49",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-49",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-49"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 49,
+        "path": "/vedas/rigveda/mandala-4/hymn-49",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 49",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-49",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-49"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 49,
-        "path": "/vedas/rigveda/mandala-4/hymn-49"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 49, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 49, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn5": {
@@ -1457,31 +1457,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 5",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-5",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-5",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-5"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 5,
+        "path": "/vedas/rigveda/mandala-4/hymn-5",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 5",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-5",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-5"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 5,
-        "path": "/vedas/rigveda/mandala-4/hymn-5"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 5, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 5, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn50": {
@@ -1490,31 +1490,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 50",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-50",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-50",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-50"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 50,
+        "path": "/vedas/rigveda/mandala-4/hymn-50",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 50",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-50",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-50"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 50,
-        "path": "/vedas/rigveda/mandala-4/hymn-50"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 50, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 50, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn51": {
@@ -1523,31 +1523,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 51",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-51",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-51",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-51"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 51,
+        "path": "/vedas/rigveda/mandala-4/hymn-51",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 51",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-51",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-51"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 51,
-        "path": "/vedas/rigveda/mandala-4/hymn-51"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 51, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 51, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn52": {
@@ -1556,31 +1556,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 52",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-52",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-52",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-52"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 52,
+        "path": "/vedas/rigveda/mandala-4/hymn-52",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 52",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-52",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-52"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 52,
-        "path": "/vedas/rigveda/mandala-4/hymn-52"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 52, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 52, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn53": {
@@ -1589,31 +1589,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 53",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-53",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-53",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-53"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 53,
+        "path": "/vedas/rigveda/mandala-4/hymn-53",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 53",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-53",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-53"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 53,
-        "path": "/vedas/rigveda/mandala-4/hymn-53"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 53, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 53, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn54": {
@@ -1622,31 +1622,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 54",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-54",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-54",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-54"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 54,
+        "path": "/vedas/rigveda/mandala-4/hymn-54",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 54",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-54",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-54"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 54,
-        "path": "/vedas/rigveda/mandala-4/hymn-54"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 54, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 54, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn55": {
@@ -1655,31 +1655,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 55",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-55",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-55",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-55"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 55,
+        "path": "/vedas/rigveda/mandala-4/hymn-55",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 55",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-55",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-55"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 55,
-        "path": "/vedas/rigveda/mandala-4/hymn-55"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 55, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 55, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn56": {
@@ -1688,31 +1688,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 56",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-56",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-56",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-56"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 56,
+        "path": "/vedas/rigveda/mandala-4/hymn-56",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 56",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-56",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-56"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 56,
-        "path": "/vedas/rigveda/mandala-4/hymn-56"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 56, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 56, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn57": {
@@ -1721,31 +1721,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 57",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-57",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-57",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-57"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 57,
+        "path": "/vedas/rigveda/mandala-4/hymn-57",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 57",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-57",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-57"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 57,
-        "path": "/vedas/rigveda/mandala-4/hymn-57"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 57, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 57, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn58": {
@@ -1754,31 +1754,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 58",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-58",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-58",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-58"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 58,
+        "path": "/vedas/rigveda/mandala-4/hymn-58",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 58",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-58",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-58"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 58,
-        "path": "/vedas/rigveda/mandala-4/hymn-58"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 58, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 58, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn6": {
@@ -1787,31 +1787,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 6",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-6",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-6",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-6"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 6,
+        "path": "/vedas/rigveda/mandala-4/hymn-6",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 6",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-6",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-6"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 6,
-        "path": "/vedas/rigveda/mandala-4/hymn-6"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 6, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 6, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn7": {
@@ -1820,31 +1820,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 7",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-7",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-7",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-7"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 7,
+        "path": "/vedas/rigveda/mandala-4/hymn-7",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 7",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-7",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-7"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 7,
-        "path": "/vedas/rigveda/mandala-4/hymn-7"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 7, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 7, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn8": {
@@ -1853,31 +1853,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 8",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-8",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-8",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-8"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 8,
+        "path": "/vedas/rigveda/mandala-4/hymn-8",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 8",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-8",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-8"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 8,
-        "path": "/vedas/rigveda/mandala-4/hymn-8"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 8, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 8, celebrating divine light, sacred order, and contemplative insight."
     }
   },
   "hymn9": {
@@ -1886,31 +1886,31 @@
       "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
       "meta": {
         "title": "Rigveda Mandala 4 Hymn 9",
-        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-9",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+        "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-9",
         "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-9"
+      },
+      "chapter": {
+        "key": "mandala-4",
+        "label": "Mandala 4",
+        "path": "/vedas/rigveda/mandala-4",
+        "slug": "rigveda"
+      },
+      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "item": {
+        "number": 9,
+        "path": "/vedas/rigveda/mandala-4/hymn-9",
+        "prefix": "hymn"
       },
       "openGraph": {
         "title": "Rigveda Mandala 4 Hymn 9",
         "description": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-9",
         "siteName": "Sanatanadharmam",
-        "type": "article"
+        "type": "article",
+        "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4/hymn-9"
       },
-      "chapter": {
-        "slug": "rigveda",
-        "key": "mandala-4",
-        "label": "Mandala 4",
-        "path": "/vedas/rigveda/mandala-4"
-      },
-      "item": {
-        "prefix": "hymn",
-        "number": 9,
-        "path": "/vedas/rigveda/mandala-4/hymn-9"
-      },
-      "introduction": "This hymn belongs to Mandala 4 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
-      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 9, celebrating divine light, sacred order, and contemplative insight.",
-      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+      "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth.",
+      "scripture_text": "A representative Rigvedic mantra passage for Mandala 4, Hymn 9, celebrating divine light, sacred order, and contemplative insight."
     }
   }
 }

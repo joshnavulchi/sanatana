@@ -2,8 +2,8 @@
   "philosophy_vastu": {
     "meta": {
       "title": "Practices | Vastu — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/practices/vastu",
       "description": "Practices — Vastu — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/practices/vastu",
       "keywords": [
         "Ancient Wisdom",
         "Bhagavathgita",
@@ -46,7 +46,6 @@
         "Sacred texts",
         "Sanatanadharma",
         "Sanātana Dharma",
-        "Sanātana Dharma",
         "Sanātana dharma's view on science and spirituality",
         "Self-realization",
         "Spirituality",
@@ -76,29 +75,6 @@
       ],
       "ogimage": "/og/practices-vastu.png",
       "url": "https://sanatanadharmam.in/practices/vastu"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "common_vastu_doshas": [
       {
@@ -174,6 +150,29 @@
       "Yantras represent cosmic energy alignment.",
       "Colors influence mood and energy balance.",
       "Plants purify air and attract positive vibrations."
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

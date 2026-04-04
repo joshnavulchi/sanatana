@@ -3,8 +3,8 @@
     "title": "Stotras & Mantras | Devi — Sanatana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stotras & Mantras | Devi — Sanatana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stotrasmantras/devi",
       "description": "Stotrasmantras — Devi — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Stotrasmantras. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/devi",
       "keywords": [
         "Ancient Wisdom Stotrasmantras Devi",
         "Ayurveda Stotrasmantras Devi",
@@ -39,18 +39,22 @@
     },
     "devi_stotras": [
       {
+        "description": "A sacred scripture describing the victories of Goddess Durga over various demons such as Mahishasura, Shumbha, and Nishumbha.",
         "benefits": [
           "Removes fear, suffering, and negative influences",
           "Gives strength, courage, and divine protection",
           "Brings prosperity and spiritual upliftment"
         ],
-        "description": "A sacred scripture describing the victories of Goddess Durga over various demons such as Mahishasura, Shumbha, and Nishumbha.",
         "id": 1,
         "key_excerpt": "या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥",
         "language": "Sanskrit",
         "name": "Durga Saptashati (Devi Mahatmyam)",
         "origin": "Markandeya Purana, Chapters 81–93",
-        "parts": ["Prathama Charitra", "Madhyama Charitra", "Uttama Charitra"],
+        "parts": [
+          "Prathama Charitra",
+          "Madhyama Charitra",
+          "Uttama Charitra"
+        ],
         "sections": {
           "argala": "Argala Stotram",
           "kavacha": "Devi Kavacham (armor prayer)",
@@ -62,12 +66,12 @@
         "type": "Stotra / Scripture"
       },
       {
+        "description": "1000 names of Goddess Lalitha Tripura Sundari describing her divine form, qualities, and cosmic presence.",
         "benefits": [
           "Brings peace, prosperity, and grace",
           "Destroys karmic blocks",
           "Enhances spiritual growth"
         ],
-        "description": "1000 names of Goddess Lalitha Tripura Sundari describing her divine form, qualities, and cosmic presence.",
         "id": 2,
         "key_excerpt": "श्री माताऽ श्री महाराज्ञी श्रीमत् सिम्हासनेश्वरी ।",
         "language": "Sanskrit",
@@ -77,12 +81,12 @@
         "type": "Sahasranama"
       },
       {
+        "description": "A powerful armor prayer invoking Devi Durga for protection from worldly and spiritual dangers.",
         "benefits": [
           "Ultimate protection",
           "Removes fear and bad dreams",
           "Brings physical and mental strength"
         ],
-        "description": "A powerful armor prayer invoking Devi Durga for protection from worldly and spiritual dangers.",
         "id": 3,
         "key_excerpt": "त्रैलोक्य मोहनं हि एतत् कवचं परमाद्भुतम् ।",
         "language": "Sanskrit",
@@ -91,13 +95,13 @@
         "type": "Kavacha"
       },
       {
+        "description": "A hymn to Goddess Lakshmi composed by Adi Shankaracharya to bless a poor woman with prosperity.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Blessings of wealth and abundance",
           "Removal of poverty and hardship",
           "Divine grace and compassion"
         ],
-        "description": "A hymn to Goddess Lakshmi composed by Adi Shankaracharya to bless a poor woman with prosperity.",
         "id": 4,
         "key_excerpt": "अङ्गं हरेः पुलकभूष्णम् आश्रितम् हृद्या कदम्बं शिशिरम् कटाक्षम् ।",
         "language": "Sanskrit",
@@ -105,13 +109,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A powerful hymn describing the victory of Goddess Durga over Mahishasura, filled with rhythmic and energetic verses.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Destroys negative energies",
           "Enhances courage and confidence",
           "Invokes divine feminine power"
         ],
-        "description": "A powerful hymn describing the victory of Goddess Durga over Mahishasura, filled with rhythmic and energetic verses.",
         "id": 5,
         "key_excerpt": "ऐगिरी नन्दिनी नन्दित मदिनी विश्व विनोदिनि नन्दनोते ।",
         "language": "Sanskrit",
@@ -119,13 +123,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A heartfelt prayer apologizing to the Goddess for errors committed knowingly or unknowingly.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Removes karmic burdens",
           "Gives peace and forgiveness",
           "Cleanses the heart"
         ],
-        "description": "A heartfelt prayer apologizing to the Goddess for errors committed knowingly or unknowingly.",
         "id": 6,
         "key_excerpt": "आपत्सु मग्नः स्मरणं त्वदीयं कर्तुं न शक्ता गतिम् अन्यमार्गम् ।",
         "language": "Sanskrit",
@@ -133,13 +137,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A hymn to Goddess Annapurna, the giver of nourishment and spiritual fulfillment.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Blessings of food and prosperity",
           "Removes hunger — physical & spiritual",
           "Improves family harmony"
         ],
-        "description": "A hymn to Goddess Annapurna, the giver of nourishment and spiritual fulfillment.",
         "id": 7,
         "key_excerpt": "नित्यानन्दकरी वराभयकरी सौन्दर्यरत्नाकरी ।",
         "language": "Sanskrit",
@@ -147,12 +151,12 @@
         "type": "Stotra"
       },
       {
+        "description": "108 names of Goddess Lakshmi describing her divine attributes.",
         "benefits": [
           "Attracts prosperity and good fortune",
           "Improves financial stability",
           "Brings harmony and peace"
         ],
-        "description": "108 names of Goddess Lakshmi describing her divine attributes.",
         "id": 8,
         "key_excerpt": "ॐ प्रपन्नपारिजातायै नमः ।",
         "language": "Sanskrit",
@@ -160,13 +164,13 @@
         "type": "Namavali"
       },
       {
+        "description": "A five-verse hymn praising Goddess Meenakshi of Madurai for her beauty and power.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Blessings of marriage and harmony",
           "Removes fear and confusion",
           "Grants divine grace"
         ],
-        "description": "A five-verse hymn praising Goddess Meenakshi of Madurai for her beauty and power.",
         "id": 9,
         "key_excerpt": "उद्यद्भानुसहस्रकोटिसदृशं केयूरहारोज्ज्वलम् ।",
         "language": "Sanskrit",
@@ -174,12 +178,12 @@
         "type": "Stotra"
       },
       {
+        "description": "Hymns dedicated to Goddess Saraswati, the deity of learning and arts.",
         "benefits": [
           "Improves memory and intelligence",
           "Success in education and arts",
           "Removes confusion and ignorance"
         ],
-        "description": "Hymns dedicated to Goddess Saraswati, the deity of learning and arts.",
         "id": 10,
         "key_excerpt": "या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता ।",
         "language": "Sanskrit",

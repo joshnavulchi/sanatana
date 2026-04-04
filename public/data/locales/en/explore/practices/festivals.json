@@ -2,8 +2,8 @@
   "practices_festivals": {
     "meta": {
       "title": "Practices | Festivals — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/practices/festivals",
       "description": "Practices — Festivals — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles...",
+      "canonical": "https://sanatanadharmam.in/practices/festivals",
       "keywords": [
         "diwali",
         "diwali explained",
@@ -60,29 +60,6 @@
       ],
       "ogimage": "/og/practices-festivals.png",
       "url": "https://sanatanadharmam.in/practices/festivals"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "definition": "Festivals in Sanātana Dharma are sacred occasions that celebrate cosmic principles, deities, and seasonal changes, combining spiritual, cultural, and social dimensions.",
     "key_scriptural_references": [
@@ -141,25 +118,40 @@
     "origin": {
       "purpose": "To honor deities, express gratitude, and reinforce Dharma in community life.",
       "roots": "Vedic and Puranic traditions",
-      "texts": ["Vedas", "Puranas", "Smritis"]
+      "texts": [
+        "Vedas",
+        "Puranas",
+        "Smritis"
+      ]
     },
     "seasonal_festivals": {
       "autumn": [
         {
           "name": "Navaratri",
-          "practices": ["Fasting", "Garba dance", "Reciting scriptures"],
+          "practices": [
+            "Fasting",
+            "Garba dance",
+            "Reciting scriptures"
+          ],
           "significance": "Nine nights of Devi worship."
         },
         {
           "name": "Diwali",
-          "practices": ["Lighting lamps", "Lakshmi Puja", "Fireworks"],
+          "practices": [
+            "Lighting lamps",
+            "Lakshmi Puja",
+            "Fireworks"
+          ],
           "significance": "Festival of Lights."
         }
       ],
       "monsoon": [
         {
           "name": "Krishna Janmashtami",
-          "practices": ["Midnight puja", "Dahi Handi celebrations"],
+          "practices": [
+            "Midnight puja",
+            "Dahi Handi celebrations"
+          ],
           "significance": "Birth of Lord Krishna."
         }
       ],
@@ -205,7 +197,10 @@
         },
         {
           "name": "Maha Shivaratri",
-          "practices": ["Night-long vigil", "Bilva leaf offerings"],
+          "practices": [
+            "Night-long vigil",
+            "Bilva leaf offerings"
+          ],
           "significance": "Night of Shiva."
         }
       ]
@@ -214,6 +209,29 @@
       "Light represents knowledge and removal of ignorance.",
       "Colors signify joy and diversity.",
       "Fasting purifies body and mind for spiritual focus."
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -1,10 +1,25 @@
 {
+  "meta": {
+    "keywords": [
+      "hindu puranas",
+      "ramayana",
+      "mahabharata",
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "bhagavata",
+      "vishnu purana"
+    ]
+  },
   "indian_constition": {
     "title": "The Constitution of India",
     "meta": {
       "title": "The Constitution of India: Historical Evolution, Drafting Process, and Constitutional Philosophy",
-      "canonical": "https://sanatanadharmam.in/indian-constition",
       "description": "A comprehensive scholarly analysis of the Constitution of India, its historical background, drafting committee members, Dr. B. R. Ambedkar’s role, timeline, structure, foreign influences, and critical evaluation.",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
       "keywords": [
         "Amendment Process of Indian Constitution",
         "Constituent Assembly",
@@ -56,29 +71,6 @@
       ],
       "ogimage": "images/og/indian_constitution.png",
       "url": "https://sanatanadharmam.in/indian-constition"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "overview": {
       "adoptiondate": "26 November 1949",
@@ -178,7 +170,9 @@
           },
           {
             "biography": "Former Premier of Assam.",
-            "contributions": ["Minority safeguards discussions"],
+            "contributions": [
+              "Minority safeguards discussions"
+            ],
             "name": "Mohammad Saadulla",
             "politicalbackground": "Muslim League representative.",
             "specialization": "Provincial autonomy"
@@ -297,21 +291,29 @@
           "Strong federal yet unified structure"
         ]
       }
-    ]
-  },
-  "meta": {
-    "keywords": [
-      "hindu puranas",
-      "ramayana",
-      "mahabharata",
-      "veda",
-      "upanishad",
-      "kena",
-      "katha",
-      "mundaka",
-      "mandukya",
-      "bhagavata",
-      "vishnu purana"
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

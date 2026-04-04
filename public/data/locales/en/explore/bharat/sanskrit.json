@@ -4,8 +4,8 @@
     "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
     "meta": {
       "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
       "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
+      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
       "keywords": [
         "sanskrit concepts",
         "dharma meaning",
@@ -17,21 +17,6 @@
       ],
       "robots": "index, follow",
       "url": "https://sanatanadharmam.in/sanskrit-concepts"
-    },
-    "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanskrit Concepts of Sanatana Dharma"
-        }
-      ]
     },
     "concepts": [
       "Dharma",
@@ -45,70 +30,85 @@
       "Yoga",
       "Jnana"
     ],
+    "openGraph": {
+      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
+      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
+      "images": [
+        {
+          "alt": "Sanskrit Concepts of Sanatana Dharma",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    },
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
+          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
           "@type": "CollectionPage",
           "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
           "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
         {
           "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma"
+              "name": "Dharma",
+              "position": 1
             },
             {
               "@type": "ListItem",
-              "position": 2,
-              "name": "Karma"
+              "name": "Karma",
+              "position": 2
             },
             {
               "@type": "ListItem",
-              "position": 3,
-              "name": "Atman"
+              "name": "Atman",
+              "position": 3
             },
             {
               "@type": "ListItem",
-              "position": 4,
-              "name": "Brahman"
+              "name": "Brahman",
+              "position": 4
             },
             {
               "@type": "ListItem",
-              "position": 5,
-              "name": "Maya"
+              "name": "Maya",
+              "position": 5
             },
             {
               "@type": "ListItem",
-              "position": 6,
-              "name": "Moksha"
+              "name": "Moksha",
+              "position": 6
             },
             {
               "@type": "ListItem",
-              "position": 7,
-              "name": "Samsara"
+              "name": "Samsara",
+              "position": 7
             },
             {
               "@type": "ListItem",
-              "position": 8,
-              "name": "Purushartha"
+              "name": "Purushartha",
+              "position": 8
             },
             {
               "@type": "ListItem",
-              "position": 9,
-              "name": "Yoga"
+              "name": "Yoga",
+              "position": 9
             },
             {
               "@type": "ListItem",
-              "position": 10,
-              "name": "Jnana"
+              "name": "Jnana",
+              "position": 10
             }
-          ]
+          ],
+          "name": "Philosophical Concepts of Sanātana Dharma"
         }
       ]
     }

@@ -2,8 +2,8 @@
   "stories_adishankaracharya": {
     "meta": {
       "title": "Stories | Adi Shankaracharya — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/adishankaracharya",
       "description": "Learn about Adishankar on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/adishankaracharya",
       "keywords": [
         "Adi Shankaracharya Stories",
         "Shankaracharya Biography",
@@ -44,29 +44,6 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/adishankaracharya"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "biography": {
       "birth": {
         "parents": "Shivaguru and Aryamba",
@@ -102,16 +79,16 @@
     ],
     "keyteachings": [
       {
-        "concept": "Advaita",
-        "description": "Non-dual reality; Brahman is the only truth, world is illusory"
+        "description": "Non-dual reality; Brahman is the only truth, world is illusory",
+        "concept": "Advaita"
       },
       {
-        "concept": "Maya",
-        "description": "Cosmic illusion that veils true knowledge"
+        "description": "Cosmic illusion that veils true knowledge",
+        "concept": "Maya"
       },
       {
-        "concept": "Jnana Yoga",
-        "description": "Path of knowledge leading to liberation"
+        "description": "Path of knowledge leading to liberation",
+        "concept": "Jnana Yoga"
       }
     ],
     "lineage": {
@@ -139,7 +116,10 @@
         "Unifier of Hindu thought",
         "Founder of four mathas (monastic centers)"
       ],
-      "titles": ["Jagadguru", "Acharya"]
+      "titles": [
+        "Jagadguru",
+        "Acharya"
+      ]
     },
     "textsandverses": [
       {
@@ -186,6 +166,29 @@
         "event": "Attained Samadhi at Kedarnath (traditional belief)",
         "phase": "Mahasamadhi"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -2,8 +2,8 @@
   "practices_dailypoojas": {
     "meta": {
       "title": "Practices | Daily Puja — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
       "description": "Practices — Dailypuja — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles...",
+      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
       "keywords": [
         "daily puja",
         "daily puja benefits",
@@ -41,29 +41,6 @@
       "ogimage": "/og/practices-dailypuja.png",
       "url": "https://sanatanadharmam.in/practices/dailypoojas"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "benefits_of_daily_puja": {
       "mental": [
         "Reduces stress and anxiety through meditative practices.",
@@ -99,25 +76,37 @@
       },
       {
         "name": "Surya Puja",
-        "practices": ["Offering water to Sun", "Chanting Surya Mantras"],
+        "practices": [
+          "Offering water to Sun",
+          "Chanting Surya Mantras"
+        ],
         "significance": "Worship of Sun God for health and vitality.",
         "time": "Morning"
       },
       {
         "name": "Tulsi Puja",
-        "practices": ["Lighting lamp near Tulsi", "Offering water and flowers"],
+        "practices": [
+          "Lighting lamp near Tulsi",
+          "Offering water and flowers"
+        ],
         "significance": "Worship of Tulsi plant for purity and prosperity.",
         "time": "Morning or Evening"
       },
       {
         "name": "Shiva Puja",
-        "practices": ["Offering Bilva leaves", "Chanting 'Om Namah Shivaya'"],
+        "practices": [
+          "Offering Bilva leaves",
+          "Chanting 'Om Namah Shivaya'"
+        ],
         "significance": "Worship of Lord Shiva for peace and liberation.",
         "time": "Morning or Evening"
       },
       {
         "name": "Lakshmi Puja",
-        "practices": ["Lighting lamps", "Offering flowers and sweets"],
+        "practices": [
+          "Lighting lamps",
+          "Offering flowers and sweets"
+        ],
         "significance": "Worship of Goddess Lakshmi for wealth and harmony.",
         "time": "Evening"
       }
@@ -141,7 +130,11 @@
     "origin": {
       "purpose": "To invoke divine blessings and purify the mind.",
       "roots": "Vedic tradition",
-      "texts": ["Agamas", "Smritis", "Puranas"]
+      "texts": [
+        "Agamas",
+        "Smritis",
+        "Puranas"
+      ]
     },
     "steps_in_home_puja": [
       "Clean the altar and surrounding area.",
@@ -155,6 +148,29 @@
       "Lamp signifies removal of darkness (ignorance).",
       "Flowers represent purity and devotion.",
       "Water offering symbolizes surrender and life energy."
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

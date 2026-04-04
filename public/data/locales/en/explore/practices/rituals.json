@@ -2,8 +2,8 @@
   "practices_rituals": {
     "meta": {
       "title": "Practices | Rituals — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/practices/rituals",
       "description": "Practices — Rituals — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/practices/rituals",
       "keywords": [
         "daily rituals in hinduism",
         "daily rituals in hinduism explained",
@@ -61,29 +61,6 @@
       "ogimage": "/og/practices-rituals.png",
       "url": "https://sanatanadharmam.in/practices/rituals"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "definition": "Rituals and practices in Sanātana Dharma are spiritual and cultural activities performed to maintain harmony with cosmic order and express devotion.",
     "key_scriptural_references": [
       {
@@ -103,7 +80,11 @@
     "origin": {
       "purpose": "To connect the individual with the divine and uphold Dharma.",
       "roots": "Vedic tradition",
-      "texts": ["Vedas", "Smritis", "Puranas"]
+      "texts": [
+        "Vedas",
+        "Smritis",
+        "Puranas"
+      ]
     },
     "types_of_rituals": {
       "daily_practices": [
@@ -160,6 +141,29 @@
           "Aarti represents removal of darkness and welcoming divine light.",
           "Prasadam symbolizes grace and blessings of the deity."
         ]
+      }
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
       }
     }
   }

@@ -45,33 +45,13 @@
       ],
       "url": "https://sanatanadharmam.in/stories/lakshmi"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "ashta_lakshmi_stories": {
       "forms_detail": [
         {
-          "aliases": ["Primeval Lakshmi", "Maha Lakshmi"],
+          "aliases": [
+            "Primeval Lakshmi",
+            "Maha Lakshmi"
+          ],
           "blessings": [
             "Inner peace",
             "Devotion (bhakti)",
@@ -87,7 +67,9 @@
           ]
         },
         {
-          "aliases": ["Aishwarya Lakshmi"],
+          "aliases": [
+            "Aishwarya Lakshmi"
+          ],
           "blessings": [
             "Financial stability",
             "Success in enterprise",
@@ -103,7 +85,9 @@
           ]
         },
         {
-          "aliases": ["Anna Lakshmi"],
+          "aliases": [
+            "Anna Lakshmi"
+          ],
           "blessings": [
             "Abundant harvests",
             "Nutrition and health",
@@ -119,7 +103,9 @@
           ]
         },
         {
-          "aliases": ["Royal Lakshmi"],
+          "aliases": [
+            "Royal Lakshmi"
+          ],
           "blessings": [
             "Leadership grace",
             "Honor and recognition",
@@ -135,7 +121,9 @@
           ]
         },
         {
-          "aliases": ["Progeny Lakshmi"],
+          "aliases": [
+            "Progeny Lakshmi"
+          ],
           "blessings": [
             "Blessing of progeny",
             "Maternal health",
@@ -151,7 +139,9 @@
           ]
         },
         {
-          "aliases": ["Jaya Lakshmi"],
+          "aliases": [
+            "Jaya Lakshmi"
+          ],
           "blessings": [
             "Triumph in exams or projects",
             "Courage to persist",
@@ -167,7 +157,9 @@
           ]
         },
         {
-          "aliases": ["Aparna Lakshmi (Knowledge Lakshmi)"],
+          "aliases": [
+            "Aparna Lakshmi (Knowledge Lakshmi)"
+          ],
           "blessings": [
             "Academic success",
             "Clarity of thought",
@@ -183,8 +175,14 @@
           ]
         },
         {
-          "aliases": ["Dhairya Lakshmi (Courage Lakshmi)"],
-          "blessings": ["Inner strength", "Emotional balance", "Moral bravery"],
+          "aliases": [
+            "Dhairya Lakshmi (Courage Lakshmi)"
+          ],
+          "blessings": [
+            "Inner strength",
+            "Emotional balance",
+            "Moral bravery"
+          ],
           "name": "Veera Lakshmi",
           "significance": "Represents courage, resilience, patience, and steadfastness.",
           "story": "In tumultuous times, Lakshmi appears as Veera/Dhairya Lakshmi, bestowing fortitude, resilience, and moral courage. She is invoked by those facing adversity, reminding that prosperity includes the strength to stand for truth.",
@@ -228,8 +226,8 @@
     "lakshmi_story": {
       "meta": {
         "title": "Stories | Lakshmi — Sanātana Dharma - Explore Sanatan Dharma",
-        "canonical": "https://sanatanadharmam.in/stories/lakshmi",
         "description": "Learn about Lakshmi on SanatanaDharma.in — articles, translations and commentary.",
+        "canonical": "https://sanatanadharmam.in/stories/lakshmi",
         "keywords": [
           "What is learn about lakshmi?",
           "Why learn about lakshmi?",
@@ -282,7 +280,10 @@
         },
         {
           "name": "Varalakshmi Vratam",
-          "practices": ["Decorating Kalash", "Reciting Lakshmi Sahasranama"],
+          "practices": [
+            "Decorating Kalash",
+            "Reciting Lakshmi Sahasranama"
+          ],
           "significance": "Observed by women for family well-being."
         }
       ],
@@ -323,13 +324,40 @@
       "origin": {
         "meaning": "Lakshmi means 'goal' or 'aim', signifying prosperity and success.",
         "roots": "Vedic and Puranic traditions",
-        "texts": ["Rig Veda", "Vishnu Purana", "Padma Purana"]
+        "texts": [
+          "Rig Veda",
+          "Vishnu Purana",
+          "Padma Purana"
+        ]
       },
       "symbolism": [
         "Lotus – Spiritual purity amidst material life.",
         "Gold coins – Prosperity and abundance.",
         "Red attire – Energy and auspiciousness."
       ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

@@ -3,8 +3,8 @@
     "title": "Stories | Ramana Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Ramana Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/ramanamaharshi",
       "description": "Learn about Ramanamaharshi on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/ramanamaharshi",
       "keywords": [
         "Ramana Maharshi Arunachala",
         "Ramana Maharshi Arunachala in English",
@@ -39,36 +39,18 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/ramanamaharshi"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "iconography": [
         "Seated in silence at Arunachala",
         "Radiant calm expression",
         "Minimalistic lifestyle"
       ],
-      "virtues": ["Compassion", "Detachment", "Simplicity", "Wisdom"]
+      "virtues": [
+        "Compassion",
+        "Detachment",
+        "Simplicity",
+        "Wisdom"
+      ]
     },
     "biography": {
       "arunachala": "Drawn to the sacred hill Arunachala, he left home and spent years in deep meditation, living in caves and silence.",
@@ -83,16 +65,16 @@
     },
     "keyteachings": [
       {
-        "concept": "Atma-Vichara",
-        "description": "Investigate the source of the 'I' thought to realize the Self"
+        "description": "Investigate the source of the 'I' thought to realize the Self",
+        "concept": "Atma-Vichara"
       },
       {
-        "concept": "Silence",
-        "description": "True teaching is beyond words; silence conveys the highest truth"
+        "description": "True teaching is beyond words; silence conveys the highest truth",
+        "concept": "Silence"
       },
       {
-        "concept": "Surrender",
-        "description": "Complete surrender to the Self or God leads to liberation"
+        "description": "Complete surrender to the Self or God leads to liberation",
+        "concept": "Surrender"
       }
     ],
     "lineage": {
@@ -123,7 +105,10 @@
         "Silent teacher of non-dual truth",
         "Established Arunachala as a spiritual center"
       ],
-      "titles": ["Bhagavan", "Maharshi"]
+      "titles": [
+        "Bhagavan",
+        "Maharshi"
+      ]
     },
     "textsandverses": [
       {
@@ -166,6 +151,29 @@
         "event": "Established Ramanashram; continued guiding seekers until Mahasamadhi in 1950",
         "phase": "Later Life"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -3,8 +3,8 @@
     "title": "Upanishads",
     "meta": {
       "title": "Scriptures | Upanishads — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/upanishads",
       "description": "Scriptures — Upanishads — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Scriptures. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/scriptures/upanishads",
       "keywords": [
         "Ancient wisdom",
         "Atman",
@@ -67,42 +67,19 @@
       "unique_insights": "The Upanishads are unique in their radical inwardness and universality. They do not prescribe dogma, but invite each seeker to discover truth directly. Their teachings—'Tat Tvam Asi' (You are That), 'Aham Brahmasmi' (I am Brahman)—have inspired countless generations to look within and realize the unity of all existence. The Upanishads remain a living wellspring for spiritual explorers, philosophers, and mystics worldwide.",
       "url": "https://sanatanadharmam.in/scriptures/upanishads"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "features": [
-      "Dialogical format—wisdom unfolds through questions and answers between teacher and student",
-      "Use of paradox, metaphor, and subtle reasoning to express the inexpressible",
-      "Focus on inner transformation rather than external ritual",
-      "Universal themes—applicable to all, regardless of caste, gender, or background",
-      "Integration of philosophy, meditation, and ethics"
-    ],
     "benefits": [
       "Awakens self-knowledge and inner freedom",
       "Dissolves fear, doubt, and attachment through insight into oneness",
       "Inspires compassion, tolerance, and respect for all life",
       "Provides a foundation for Vedanta, Yoga, and other spiritual paths",
       "Encourages fearless inquiry and lifelong learning"
+    ],
+    "features": [
+      "Dialogical format—wisdom unfolds through questions and answers between teacher and student",
+      "Use of paradox, metaphor, and subtle reasoning to express the inexpressible",
+      "Focus on inner transformation rather than external ritual",
+      "Universal themes—applicable to all, regardless of caste, gender, or background",
+      "Integration of philosophy, meditation, and ethics"
     ],
     "list": [
       {
@@ -405,6 +382,29 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

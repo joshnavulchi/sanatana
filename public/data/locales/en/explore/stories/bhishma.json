@@ -2,8 +2,8 @@
   "stories_bhishma": {
     "meta": {
       "title": "Stories | Bhishma — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/bhishma",
       "description": "Learn about Bhishma on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/bhishma",
       "keywords": [
         "Bhishma Amba Episode",
         "Bhishma Amba Episode in English",
@@ -44,29 +44,6 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/bhishma"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "iconography": [
         "Elder statesman",
@@ -80,7 +57,11 @@
         "Loyalty",
         "Detachment"
       ],
-      "weapons": ["Bow", "Arrows", "Kshatriya martial skills"]
+      "weapons": [
+        "Bow",
+        "Arrows",
+        "Kshatriya martial skills"
+      ]
     },
     "biography": {
       "birth": {
@@ -143,7 +124,11 @@
     },
     "lineage": {
       "birthname": "Devavrata",
-      "epithets": ["Bhishma", "Gangaputra", "Pitamah"],
+      "epithets": [
+        "Bhishma",
+        "Gangaputra",
+        "Pitamah"
+      ],
       "father": "King Shantanu",
       "house": "Kuru",
       "mother": "Ganga (river goddess)"
@@ -220,6 +205,29 @@
         "event": "Chooses time of death during Uttarayana; attains peace in Krishna’s presence",
         "phase": "Mahaprayana (Final Departure)"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

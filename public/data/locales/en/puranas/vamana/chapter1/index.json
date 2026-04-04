@@ -5,24 +5,24 @@
       "description": "Chapter 1 from Vamana Purana.",
       "meta": {
         "title": "Vamana Purana Chapter 1",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1",
         "description": "Chapter 1 from Vamana Purana.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1",
-        "description": "Chapter 1 from Vamana Purana.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This chapter belongs to Vamana Purana.",
-      "scripture_text": "Chapter-level summary text for Vamana Purana, Chapter 1.",
-      "philosophical_explanation": "Vamana Purana chapters combine dharma, devotion, and symbolic teaching.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
-      }
+      },
+      "introduction": "This chapter belongs to Vamana Purana.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1",
+        "description": "Chapter 1 from Vamana Purana.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1"
+      },
+      "philosophical_explanation": "Vamana Purana chapters combine dharma, devotion, and symbolic teaching.",
+      "scripture_text": "Chapter-level summary text for Vamana Purana, Chapter 1."
     }
   },
   "verse1": {
@@ -31,24 +31,24 @@
       "description": "Verse 1 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 1",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-1",
         "description": "Verse 1 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-1",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-1"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 1",
-        "description": "Verse 1 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-1",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 1, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 1",
+        "description": "Verse 1 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-1"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 1, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1/verse-1"
@@ -61,24 +61,24 @@
       "description": "Verse 10 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 10",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-10",
         "description": "Verse 10 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-10",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-10"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 10",
-        "description": "Verse 10 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-10",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 10, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 10",
+        "description": "Verse 10 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-10"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 10, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 10,
         "path": "/puranas/vamana/chapter-1/verse-10"
@@ -91,24 +91,24 @@
       "description": "Verse 2 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 2",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-2",
         "description": "Verse 2 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-2",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-2"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 2",
-        "description": "Verse 2 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-2",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 2, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 2",
+        "description": "Verse 2 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-2"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 2, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 2,
         "path": "/puranas/vamana/chapter-1/verse-2"
@@ -121,24 +121,24 @@
       "description": "Verse 3 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 3",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-3",
         "description": "Verse 3 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-3",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-3"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 3",
-        "description": "Verse 3 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-3",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 3, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 3",
+        "description": "Verse 3 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-3"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 3, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 3,
         "path": "/puranas/vamana/chapter-1/verse-3"
@@ -151,24 +151,24 @@
       "description": "Verse 4 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 4",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-4",
         "description": "Verse 4 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-4",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-4"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 4",
-        "description": "Verse 4 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-4",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 4, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 4",
+        "description": "Verse 4 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-4"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 4, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 4,
         "path": "/puranas/vamana/chapter-1/verse-4"
@@ -181,24 +181,24 @@
       "description": "Verse 5 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 5",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-5",
         "description": "Verse 5 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-5",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-5"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 5",
-        "description": "Verse 5 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-5",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 5, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 5",
+        "description": "Verse 5 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-5"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 5, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 5,
         "path": "/puranas/vamana/chapter-1/verse-5"
@@ -211,24 +211,24 @@
       "description": "Verse 6 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 6",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-6",
         "description": "Verse 6 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-6",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-6"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 6",
-        "description": "Verse 6 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-6",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 6, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 6",
+        "description": "Verse 6 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-6"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 6, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 6,
         "path": "/puranas/vamana/chapter-1/verse-6"
@@ -241,24 +241,24 @@
       "description": "Verse 7 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 7",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-7",
         "description": "Verse 7 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-7",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-7"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 7",
-        "description": "Verse 7 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-7",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 7, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 7",
+        "description": "Verse 7 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-7"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 7, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 7,
         "path": "/puranas/vamana/chapter-1/verse-7"
@@ -271,24 +271,24 @@
       "description": "Verse 8 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 8",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-8",
         "description": "Verse 8 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-8",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-8"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 8",
-        "description": "Verse 8 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-8",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 8, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 8",
+        "description": "Verse 8 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-8"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 8, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 8,
         "path": "/puranas/vamana/chapter-1/verse-8"
@@ -301,24 +301,24 @@
       "description": "Verse 9 from Vamana Purana, Chapter 1.",
       "meta": {
         "title": "Vamana Purana Chapter 1 Verse 9",
-        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-9",
         "description": "Verse 9 from Vamana Purana, Chapter 1.",
+        "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-9",
         "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-9"
       },
-      "openGraph": {
-        "title": "Vamana Purana Chapter 1 Verse 9",
-        "description": "Verse 9 from Vamana Purana, Chapter 1.",
-        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-9",
-        "siteName": "Sanatanadharmam",
-        "type": "article"
-      },
-      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
-      "scripture_text": "In Vamana Purana, Chapter 1, Verse 9, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
-      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
       "chapter": {
         "number": 1,
         "path": "/puranas/vamana/chapter-1"
       },
+      "introduction": "This verse belongs to Vamana Purana, Chapter 1.",
+      "openGraph": {
+        "title": "Vamana Purana Chapter 1 Verse 9",
+        "description": "Verse 9 from Vamana Purana, Chapter 1.",
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/puranas/vamana/chapter-1/verse-9"
+      },
+      "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vamana Purana.",
+      "scripture_text": "In Vamana Purana, Chapter 1, Verse 9, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
       "verse": {
         "number": 9,
         "path": "/puranas/vamana/chapter-1/verse-9"

@@ -3,8 +3,8 @@
     "title": "Stotras & Mantras | Ganesha — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stotras & Mantras | Ganesha — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stotrasmantras/ganesha",
       "description": "Stotrasmantras — Ganesha — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Stotrasmantras. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/ganesha",
       "keywords": [
         "Ancient Wisdom Stotrasmantras Ganesha",
         "Ayurveda Stotrasmantras Ganesha",
@@ -37,31 +37,9 @@
       "ogimage": "/og/stotrasmantras-ganesha.png",
       "url": "https://sanatanadharmam.in/stotrasmantras/ganesha"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "ganesh_stotras": [
       {
+        "description": "A five-gem hymn composed by Adi Shankaracharya praising Lord Ganesha as the remover of obstacles and giver of wisdom.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Removes obstacles",
@@ -69,7 +47,6 @@
           "Increases positive energy",
           "Purifies the mind"
         ],
-        "description": "A five-gem hymn composed by Adi Shankaracharya praising Lord Ganesha as the remover of obstacles and giver of wisdom.",
         "id": 1,
         "key_excerpt": "मुदाकरात्तमोदकं सदाविमुक्तिसाधकम् ।",
         "language": "Sanskrit",
@@ -81,13 +58,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A sacred Upanishadic text declaring Ganesha as the Supreme Brahman, the manifestation of Om, and the cosmic reality.",
         "benefits": [
           "Spiritual strength",
           "Protection from negativity",
           "Purifies mind and environment",
           "Bestows success in all endeavors"
         ],
-        "description": "A sacred Upanishadic text declaring Ganesha as the Supreme Brahman, the manifestation of Om, and the cosmic reality.",
         "id": 2,
         "key_excerpt": "त्वं एव प्रत्यक्षं तत्त्वम् असि ।",
         "language": "Sanskrit",
@@ -102,6 +79,7 @@
         "type": "Upanishadic Hymn"
       },
       {
+        "description": "A protective armor prayer invoking various forms of Ganesha to guard the body and mind.",
         "benefits": [
           "Protection from harm",
           "Removes fear",
@@ -112,7 +90,6 @@
           "body_protection": "Head, heart, limbs, senses",
           "closing": "Blessings for success"
         },
-        "description": "A protective armor prayer invoking various forms of Ganesha to guard the body and mind.",
         "id": 3,
         "key_excerpt": "लम्बोदरः पातु मे हृदयं",
         "language": "Sanskrit",
@@ -121,12 +98,12 @@
         "type": "Kavacha"
       },
       {
+        "description": "A hymn built around the core Ganesha moola mantra 'Om Gam Ganapataye Namaha', praising his cosmic form.",
         "benefits": [
           "Focus and clarity",
           "Eliminates internal obstacles",
           "Improves emotional balance"
         ],
-        "description": "A hymn built around the core Ganesha moola mantra 'Om Gam Ganapataye Namaha', praising his cosmic form.",
         "id": 4,
         "key_excerpt": "ॐ गं गणपतये नमः",
         "language": "Sanskrit",
@@ -135,12 +112,12 @@
         "type": "Stotra / Mantra"
       },
       {
+        "description": "One of the most popular short stotras used before starting any work or puja.",
         "benefits": [
           "Removes difficulties before beginning tasks",
           "Enhances concentration",
           "Invokes blessings for success"
         ],
-        "description": "One of the most popular short stotras used before starting any work or puja.",
         "id": 5,
         "key_excerpt": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।",
         "language": "Sanskrit",
@@ -150,12 +127,12 @@
         "verses": 1
       },
       {
+        "description": "A popular Ganesha dhyana shloka describing the one-tusked Lord, the remover of obstacles.",
         "benefits": [
           "Purifies the space",
           "Brings peace and clarity",
           "Invokes auspiciousness"
         ],
-        "description": "A popular Ganesha dhyana shloka describing the one-tusked Lord, the remover of obstacles.",
         "id": 6,
         "key_excerpt": "गजाननं भूतगणादि सेवितम्",
         "language": "Sanskrit",
@@ -165,12 +142,12 @@
         "verses": 1
       },
       {
+        "description": "A hymn dedicated to the Siddhi-Vinayaka form of Ganesha, granting fulfillment and success.",
         "benefits": [
           "Material prosperity",
           "Achievement of goals",
           "Overcomes legal and professional obstacles"
         ],
-        "description": "A hymn dedicated to the Siddhi-Vinayaka form of Ganesha, granting fulfillment and success.",
         "id": 7,
         "key_excerpt": "सिद्धि विनायकं वन्दे",
         "language": "Sanskrit",
@@ -183,12 +160,12 @@
         "type": "Stotra"
       },
       {
+        "description": "A hymn describing Ganesha as the beloved son of Shiva who grants boons instantly.",
         "benefits": [
           "Removes karmic obstacles",
           "Strengthens devotion",
           "Brings family peace"
         ],
-        "description": "A hymn describing Ganesha as the beloved son of Shiva who grants boons instantly.",
         "id": 8,
         "key_excerpt": "सुरासुरैर्यत् परिपूज्यमानम्",
         "language": "Sanskrit",
@@ -196,6 +173,29 @@
         "origin": "Shiva Purana – Rudra Samhita",
         "type": "Stotra"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

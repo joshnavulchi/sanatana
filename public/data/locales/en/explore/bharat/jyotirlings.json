@@ -3,8 +3,8 @@
     "title": "12 Jyotirlingas of India | Sanātana Dharma - The Eternal Way of Life",
     "meta": {
       "title": "12 Jyotirlingas of India | Sanātana Dharma - The Eternal Way of Life",
-      "canonical": "https://sanatanadharmam.in/jyotirlings",
       "description": "Canonical dataset of the 12 Jyotirlingas with core attributes and historical timelines.",
+      "canonical": "https://sanatanadharmam.in/jyotirlings",
       "keywords": [
         "Ancient India",
         "Bhimashankar",
@@ -79,32 +79,14 @@
       "ogimage": "images/og/home.png",
       "url": "https://sanatanadharmam.in/jyotirlings"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "lingas": [
       {
-        "dynasties": ["Maitraka", "Solanki", "Maratha", "Government of India"],
+        "dynasties": [
+          "Maitraka",
+          "Solanki",
+          "Maratha",
+          "Government of India"
+        ],
         "location": "Prabhas Patan, Gujarat",
         "name": "Somnath",
         "timeline": {
@@ -119,7 +101,12 @@
         }
       },
       {
-        "dynasties": ["Satavahana", "Kakatiya", "Reddi", "Vijayanagara"],
+        "dynasties": [
+          "Satavahana",
+          "Kakatiya",
+          "Reddi",
+          "Vijayanagara"
+        ],
         "location": "Srisailam, Andhra Pradesh",
         "name": "Mallikarjuna",
         "timeline": {
@@ -137,7 +124,9 @@
           "maratha_reconstruction": "18th century CE (Ranoji Shinde)",
           "paramara_reconstruction": "12th century CE"
         },
-        "unique_features": ["Dakshinamukhi (south-facing) lingam"]
+        "unique_features": [
+          "Dakshinamukhi (south-facing) lingam"
+        ]
       },
       {
         "location": "Mandhata Island, Madhya Pradesh",
@@ -146,10 +135,14 @@
           "early_shaivism": "6th–7th century CE",
           "paramara_construction": "12th century CE"
         },
-        "unique_features": ["Island in the shape of the sacred Om (ॐ)"]
+        "unique_features": [
+          "Island in the shape of the sacred Om (ॐ)"
+        ]
       },
       {
-        "architecture": ["High-altitude Himalayan stone temple"],
+        "architecture": [
+          "High-altitude Himalayan stone temple"
+        ],
         "location": "Uttarakhand, Himalayas",
         "name": "Kedarnath",
         "timeline": {
@@ -225,7 +218,9 @@
       {
         "location": "Ellora, Maharashtra",
         "name": "Grishneshwar",
-        "nearby_sites": ["Ellora Caves (UNESCO World Heritage Site)"],
+        "nearby_sites": [
+          "Ellora Caves (UNESCO World Heritage Site)"
+        ],
         "timeline": {
           "early_shaivism": "8th–11th century CE (Ellora cave era)",
           "holkar_reconstruction": "18th century CE (Ahilyabai Holkar)"
@@ -239,6 +234,29 @@
       "10th–14th century CE: Reconstruction of Ujjain, Rameshwaram, Trimbak temples",
       "15th–18th century CE: Maratha and Holkar reconstructions",
       "1950s–Present: Modern restorations and pilgrim infrastructure development"
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

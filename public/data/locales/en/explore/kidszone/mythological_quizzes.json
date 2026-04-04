@@ -1,10 +1,11 @@
 {
   "kidszone_mythologicalquizzes": {
     "title": "Mythological Quizzes",
+    "description": "Answer 10 random questions in 10 minutes. Good luck!",
     "meta": {
       "title": "Kids Zone | Mythological Quizzes — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
       "description": "KidsZone — mythologicalquizzes — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on KidsZone. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
       "keywords": [
         "hindu epics quizzes",
         "hindu gods and goddesses quizzes",
@@ -38,35 +39,11 @@
       "ogimage": "/og/kidszone-mythologicalquizzes.png",
       "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "allorigins": "All origins",
     "allthemes": "All themes",
     "characterslabel": "Characters:",
     "comicnotfounddesc": "We couldn't find that comic.",
     "comicnotfoundtitle": "Comic not found",
-    "description": "Answer 10 random questions in 10 minutes. Good luck!",
     "filter": "Filter",
     "morallabel": "Moral:",
     "next": "Next",
@@ -75,6 +52,29 @@
     "searchlabel": "Search",
     "showing": "Showing {start}–{end} of {total}",
     "themelabel": "Theme",
-    "themeslabel": "Themes:"
+    "themeslabel": "Themes:",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -4,8 +4,8 @@
     "description": "Discover the Vedic gods including Indra, Agni, Varuna, Surya and Soma. Learn how these deities represent cosmic forces in the Vedic scriptures.",
     "meta": {
       "title": "Vedic Gods – Deities of the Vedic Tradition",
-      "canonical": "https://sanatanadharmam.in/vedic-gods",
       "description": "Discover the Vedic gods including Indra, Agni, Varuna, Surya and Soma. Learn how these deities represent cosmic forces in the Vedic scriptures.",
+      "canonical": "https://sanatanadharmam.in/vedic-gods",
       "keywords": [
         "Vedic gods",
         "Vedic deities",
@@ -21,21 +21,6 @@
       "robots": "index, follow",
       "url": "https://sanatanadharmam.in/vedic-gods"
     },
-    "openGraph": {
-      "title": "Vedic Gods – Cosmic Deities of the Vedas",
-      "description": "Explore the ancient Vedic deities such as Indra, Agni, Varuna, Surya and Soma described in the Rigveda and other Vedic scriptures.",
-      "url": "https://sanatanadharmam.in/vedic-gods",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/vedic-gods.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Vedic Gods and Deities"
-        }
-      ]
-    },
     "gods": [
       "Indra",
       "Agni",
@@ -48,70 +33,85 @@
       "Prajapati",
       "Aditi"
     ],
+    "openGraph": {
+      "title": "Vedic Gods – Cosmic Deities of the Vedas",
+      "description": "Explore the ancient Vedic deities such as Indra, Agni, Varuna, Surya and Soma described in the Rigveda and other Vedic scriptures.",
+      "images": [
+        {
+          "alt": "Vedic Gods and Deities",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/vedic-gods.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/vedic-gods"
+    },
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
+          "description": "Collection of Vedic deities representing cosmic forces described in the Vedas.",
           "@type": "CollectionPage",
           "name": "Vedic Gods",
-          "description": "Collection of Vedic deities representing cosmic forces described in the Vedas.",
           "url": "https://sanatanadharmam.in/vedic-gods"
         },
         {
           "@type": "ItemList",
-          "name": "Vedic Deities",
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 1,
-              "name": "Indra"
+              "name": "Indra",
+              "position": 1
             },
             {
               "@type": "ListItem",
-              "position": 2,
-              "name": "Agni"
+              "name": "Agni",
+              "position": 2
             },
             {
               "@type": "ListItem",
-              "position": 3,
-              "name": "Varuna"
+              "name": "Varuna",
+              "position": 3
             },
             {
               "@type": "ListItem",
-              "position": 4,
-              "name": "Surya"
+              "name": "Surya",
+              "position": 4
             },
             {
               "@type": "ListItem",
-              "position": 5,
-              "name": "Soma"
+              "name": "Soma",
+              "position": 5
             },
             {
               "@type": "ListItem",
-              "position": 6,
-              "name": "Vayu"
+              "name": "Vayu",
+              "position": 6
             },
             {
               "@type": "ListItem",
-              "position": 7,
-              "name": "Ushas"
+              "name": "Ushas",
+              "position": 7
             },
             {
               "@type": "ListItem",
-              "position": 8,
-              "name": "Rudra"
+              "name": "Rudra",
+              "position": 8
             },
             {
               "@type": "ListItem",
-              "position": 9,
-              "name": "Prajapati"
+              "name": "Prajapati",
+              "position": 9
             },
             {
               "@type": "ListItem",
-              "position": 10,
-              "name": "Aditi"
+              "name": "Aditi",
+              "position": 10
             }
-          ]
+          ],
+          "name": "Vedic Deities"
         }
       ]
     }

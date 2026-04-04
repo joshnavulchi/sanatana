@@ -31,29 +31,6 @@
       ],
       "url": "https://sanatanadharmam.in/stories/vishnu"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "abode": "Vaikuntha – the eternal heavenly realm.",
       "appearance": [
@@ -76,17 +53,27 @@
     "festivals": [
       {
         "name": "Vaikuntha Ekadashi",
-        "practices": ["Temple visits", "Chanting Vishnu Sahasranama"],
+        "practices": [
+          "Temple visits",
+          "Chanting Vishnu Sahasranama"
+        ],
         "significance": "Day of fasting and devotion to Vishnu for liberation."
       },
       {
         "name": "Janmashtami",
-        "practices": ["Midnight puja", "Bhajans", "Dahi Handi"],
+        "practices": [
+          "Midnight puja",
+          "Bhajans",
+          "Dahi Handi"
+        ],
         "significance": "Celebrates Krishna's birth."
       },
       {
         "name": "Rama Navami",
-        "practices": ["Reading Ramayana", "Fasting"],
+        "practices": [
+          "Reading Ramayana",
+          "Fasting"
+        ],
         "significance": "Celebrates Rama's birth."
       }
     ],
@@ -116,7 +103,12 @@
     "origin": {
       "meaning": "Vishnu means 'all-pervading' or 'omnipresent'.",
       "roots": "Vedic tradition evolving into Puranic texts",
-      "texts": ["Rig Veda", "Vishnu Purana", "Bhagavata Purana", "Mahabharata"]
+      "texts": [
+        "Rig Veda",
+        "Vishnu Purana",
+        "Bhagavata Purana",
+        "Mahabharata"
+      ]
     },
     "philosophical_significance": {
       "bhagavad_gita": "Teaches Dharma, Karma Yoga, and surrender to God.",
@@ -188,6 +180,29 @@
         "vaishnavism": "Dashavatara illustrates divine intervention to maintain cosmic order."
       },
       "symbolism": "Each avatar represents a stage in evolution and a principle of Dharma restoration."
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

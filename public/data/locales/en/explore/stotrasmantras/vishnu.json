@@ -3,8 +3,8 @@
     "title": "",
     "meta": {
       "title": "Stotras & Mantras | Vishnu — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stotrasmantras/vishnu",
       "description": "Scriptures — Puranas — Vishnu — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Scriptures. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/vishnu",
       "keywords": [
         "Ancient Wisdom Stotrasmantras Vishnu",
         "Ayurveda Stotrasmantras Vishnu",
@@ -37,31 +37,9 @@
       "ogimage": "/og/scriptures-puranas-vishnu.png",
       "url": "https://sanatanadharmam.in/stotrasmantras/vishnu"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "vishnu_stotras": [
       {
+        "description": "A list of the 1000 divine names of Lord Vishnu, chanted for spiritual protection, peace, and liberation.",
         "author": "Sage Vyasa",
         "benefits": [
           "Removes fear and suffering",
@@ -69,7 +47,6 @@
           "Improves mental clarity",
           "Destroys negativity"
         ],
-        "description": "A list of the 1000 divine names of Lord Vishnu, chanted for spiritual protection, peace, and liberation.",
         "id": 1,
         "key_excerpt": "शान्ताकारं भुजगशयनं पद्मनाभं सुरेशम् । विश्वाधारं गगनसदृशं मेघवर्णं शुभाङ्गम् ॥",
         "language": "Sanskrit",
@@ -83,13 +60,13 @@
         "type": "Stotra / Sahasranama"
       },
       {
+        "description": "A powerful armor prayer invoking the protection of Lord Narayana on all sides of the body.",
         "author": "Sage Vishvarupa",
         "benefits": [
           "Protection from physical and spiritual harm",
           "Removes fear, evil influences",
           "Strengthens mental and spiritual resilience"
         ],
-        "description": "A powerful armor prayer invoking the protection of Lord Narayana on all sides of the body.",
         "id": 2,
         "key_excerpt": "ॐ नमो नारायणाय",
         "language": "Sanskrit",
@@ -103,29 +80,33 @@
         "type": "Kavacha"
       },
       {
+        "description": "The heartfelt prayer chanted by Gajendra to invoke Vishnu’s presence when caught by a crocodile.",
         "benefits": [
           "Removes suffering and obstacles",
           "Invokes divine grace during difficulty",
           "Strengthens devotion"
         ],
-        "description": "The heartfelt prayer chanted by Gajendra to invoke Vishnu’s presence when caught by a crocodile.",
         "id": 3,
         "key_excerpt": "ॐ नमो भगवते तस्मै यत एतच्चिदात्मकम्",
         "language": "Sanskrit",
         "name": "Vishnu Stuti (Gajendra Moksham Prayer)",
         "origin": "Srimad Bhagavatam 8th Skandha",
         "speaker": "Gajendra (Elephant King)",
-        "themes": ["Surrender", "Divine rescue", "Freedom from rebirth"],
+        "themes": [
+          "Surrender",
+          "Divine rescue",
+          "Freedom from rebirth"
+        ],
         "type": "Stuti"
       },
       {
+        "description": "A devotional collection of verses praising Lord Krishna as Mukunda—the giver of liberation.",
         "author": "King Kulasekhara Alwar",
         "benefits": [
           "Deepens devotion",
           "Purifies mind and speech",
           "Removes sorrow"
         ],
-        "description": "A devotional collection of verses praising Lord Krishna as Mukunda—the giver of liberation.",
         "id": 4,
         "key_excerpt": "जयतु जयतु देवो देवकी-नन्दनोऽयम् ।",
         "language": "Sanskrit",
@@ -135,12 +116,12 @@
         "type": "Stotra"
       },
       {
+        "description": "A powerful hymn invoking Surya-Narayana to destroy fear and grant victory.",
         "benefits": [
           "Boosts confidence and energy",
           "Destroys mental stress",
           "Improves focus and courage"
         ],
-        "description": "A powerful hymn invoking Surya-Narayana to destroy fear and grant victory.",
         "id": 5,
         "key_excerpt": "ततो युध्दपरिश्रान्तं समरे चिन्तया स्थितम् ।",
         "language": "Sanskrit",
@@ -151,13 +132,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A reminder to remember Govinda—the supreme Lord—amid daily struggles.",
         "author": "Adi Shankaracharya",
         "benefits": [
           "Reduces stress",
           "Strengthens focus on dharma",
           "Encourages remembrance of God"
         ],
-        "description": "A reminder to remember Govinda—the supreme Lord—amid daily struggles.",
         "id": 6,
         "key_excerpt": "भज गोविन्दं भज गोविन्दं गोविन्दं भज मूढमते ।",
         "language": "Sanskrit",
@@ -165,13 +146,13 @@
         "type": "Stotra"
       },
       {
+        "description": "A praise of Lord Hari describing his compassion, form and cosmic presence.",
         "author": "Brahma",
         "benefits": [
           "Spiritual upliftment",
           "Peace and divine blessings",
           "Improves concentration on Vishnu"
         ],
-        "description": "A praise of Lord Hari describing his compassion, form and cosmic presence.",
         "id": 7,
         "key_excerpt": "शान्ताकारं भुजगशयनं पद्मनाभं सुरेशम्",
         "language": "Sanskrit",
@@ -179,6 +160,29 @@
         "origin": "Puranic literature",
         "type": "Stotra"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

@@ -3,8 +3,8 @@
     "title": "Diseases curing temples | Sanātana Dharma - The Eternal Way of Life",
     "meta": {
       "title": "Diseases curing temples | Sanātana Dharma - The Eternal Way of Life",
-      "canonical": "https://sanatanadharmam.in/diseases-curing-temples",
       "description": "Diseases curing temples.",
+      "canonical": "https://sanatanadharmam.in/diseases-curing-temples",
       "keywords": [
         "anxiety and stress relief",
         "chronic diseases",
@@ -29,29 +29,6 @@
       ],
       "ogimage": "images/og/home.png",
       "url": "https://sanatanadharmam.in/diseases-curing-temples"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "healing_temples_india": [
       {
@@ -208,6 +185,29 @@
           "Relief from obstacles and distress"
         ]
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

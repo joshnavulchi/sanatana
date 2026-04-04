@@ -1,9 +1,25 @@
 {
+  "biography": {
+    "attributes": [
+      "Diverse narratives spanning gods, sages, heroes, and ordinary people",
+      "Illustrative of dharma, karma, and spiritual truths",
+      "Accessible to children and adults alike"
+    ],
+    "full_name": "Sanātana Dharma Stories (Overview)",
+    "influence": "The stories of Sanātana Dharma remain a living tradition, inspiring new interpretations in literature, art, and media, and offering timeless lessons for the modern world.",
+    "legacy": "These stories have shaped the values, beliefs, and practices of countless generations. They continue to be retold in homes, temples, and schools, nurturing the moral and spiritual fabric of society.",
+    "mythic_origin": "The stories of Sanātana Dharma are drawn from the Vedas, Puranas, Itihasas, and folklore, reflecting the spiritual, ethical, and cultural heritage of India. They are designed to inspire, educate, and guide seekers of all ages.",
+    "roles": [
+      "Transmitters of ancient wisdom",
+      "Sources of ethical and spiritual guidance",
+      "Cultural touchstones for Indian society"
+    ]
+  },
   "stories": {
     "meta": {
       "title": "Stories | Overview — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories",
       "description": "KidsZone — IllustratedStories — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on KidsZone. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stories",
       "keywords": [
         "Ancient Wisdom Stories",
         "Ayurveda Stories",
@@ -44,12 +60,12 @@
           "@type": "ContactPoint",
           "areaserved": "Worldwide",
           "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
           "contacttype": "Customer Support",
           "email": "info@sanatanadharmam.in",
           "telephone": "+91-8099181075"
@@ -59,21 +75,5 @@
         "url": "https://sanatanadharmam.in"
       }
     }
-  },
-  "biography": {
-    "full_name": "Sanātana Dharma Stories (Overview)",
-    "mythic_origin": "The stories of Sanātana Dharma are drawn from the Vedas, Puranas, Itihasas, and folklore, reflecting the spiritual, ethical, and cultural heritage of India. They are designed to inspire, educate, and guide seekers of all ages.",
-    "attributes": [
-      "Diverse narratives spanning gods, sages, heroes, and ordinary people",
-      "Illustrative of dharma, karma, and spiritual truths",
-      "Accessible to children and adults alike"
-    ],
-    "roles": [
-      "Transmitters of ancient wisdom",
-      "Sources of ethical and spiritual guidance",
-      "Cultural touchstones for Indian society"
-    ],
-    "legacy": "These stories have shaped the values, beliefs, and practices of countless generations. They continue to be retold in homes, temples, and schools, nurturing the moral and spiritual fabric of society.",
-    "influence": "The stories of Sanātana Dharma remain a living tradition, inspiring new interpretations in literature, art, and media, and offering timeless lessons for the modern world."
   }
 }

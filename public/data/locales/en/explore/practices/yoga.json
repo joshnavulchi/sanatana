@@ -3,8 +3,8 @@
     "title": "",
     "meta": {
       "title": "Philosophy | Yoga — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
       "description": "Philosophy — Yoga — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
       "keywords": [
         "bhagavadgita yoga",
         "hindu yoga",
@@ -56,29 +56,6 @@
       "ogimage": "/og/philosophy-yoga.png",
       "url": "https://sanatanadharmam.in/philosophy/yoga"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "core_principles": [
       "Union of individual self (Atman) with universal consciousness (Brahman)",
       "Balance of physical, mental, and spiritual aspects",
@@ -119,7 +96,11 @@
     "origin": {
       "meaning": "Derived from Sanskrit 'yuj', meaning 'to unite or join'.",
       "roots": "Vedic tradition and Upanishads",
-      "texts": ["Yoga Sutras of Patanjali", "Bhagavathgita", "Upanishads"]
+      "texts": [
+        "Yoga Sutras of Patanjali",
+        "Bhagavathgita",
+        "Upanishads"
+      ]
     },
     "paths_of_yoga": {
       "bhakti_yoga": "Path of devotion and love for the divine.",
@@ -132,6 +113,29 @@
       "dharma": "Yoga supports righteous living.",
       "karma": "Yoga purifies actions and intentions.",
       "moksha": "Yoga is a direct path to liberation."
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

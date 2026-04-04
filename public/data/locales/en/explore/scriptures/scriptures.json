@@ -2,8 +2,8 @@
   "scriptures": {
     "meta": {
       "title": "Scriptures | Overview — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures",
       "description": "Scriptures — Gita — Chapter — Chapter — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Scriptures. Explore practices, history, and...",
+      "canonical": "https://sanatanadharmam.in/scriptures",
       "keywords": [
         "Ancient Wisdom Facts Scriptures",
         "Ancient Wisdom Scriptures",
@@ -70,12 +70,12 @@
           "@type": "ContactPoint",
           "areaserved": "Worldwide",
           "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
           "contacttype": "Customer Support",
           "email": "info@sanatanadharmam.in",
           "telephone": "+91-8099181075"

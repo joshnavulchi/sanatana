@@ -3,8 +3,8 @@
     "title": "Incident-level Documentation: Hindu Temple Damage in India (Evidence-based)",
     "meta": {
       "title": "Incident-level Documentation: Hindu Temple Damage in India (Evidence-based)",
-      "canonical": "https://sanatanadharmam.in/temples-destroyed",
       "description": "Specific temple names cannot be included because no such verified entries were provided by the fetched sources.",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
       "keywords": [
         "Hindu temple damage",
         "India",
@@ -51,37 +51,19 @@
       "ogimage": "images/og/temples-destroyed.png",
       "url": "https://sanatanadharmam.in/temples-destroyed"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "canonical": "https://sanatanadharmam.in/temples-destroyed",
     "incidents": [
       {
         "alleged_perpetrator_affiliation": "Army of the Ghurid/early Indo‑Muslim state",
         "approx_date": "1192 CE",
-        "context_motive": ["dynastic_war", "political_signal"],
+        "context_motive": [
+          "dynastic_war",
+          "political_signal"
+        ],
         "deity": "Shiva (inferred from regional prevalence)",
-        "event_type": ["desecration"],
+        "event_type": [
+          "desecration"
+        ],
         "id": "eaton_case_01_delhi_sultanate_1192",
         "location": {
           "city_or_district": "North India",
@@ -108,9 +90,14 @@
       {
         "alleged_perpetrator_affiliation": "Tughluq administrative officials",
         "approx_date": "1326 CE",
-        "context_motive": ["state_maintenance"],
+        "context_motive": [
+          "state_maintenance"
+        ],
         "deity": "Shiva",
-        "event_type": ["repair", "state_intervention"],
+        "event_type": [
+          "repair",
+          "state_intervention"
+        ],
         "id": "eaton_case_02_tughluq_deccan_1326",
         "location": {
           "city_or_district": "Kalyana",
@@ -127,16 +114,23 @@
         ],
         "summary": "A Sanskrit inscription (cited in Eaton’s analysis) records that in 1326 CE, Sultan Muhammad bin Tughluq appointed Muslim officials to repair a Shiva temple in Kalyana — contradicting claims of blanket religious destruction.",
         "temple_name": "Shiva temple at Kalyana (exact structural details not included in search results)",
-        "timeline": ["1326: Temple repair ordered under state authority"],
+        "timeline": [
+          "1326: Temple repair ordered under state authority"
+        ],
         "tradition": "Hindu",
         "verification_status": "verified_multisource"
       },
       {
         "alleged_perpetrator_affiliation": "Kashmir Sultanate",
         "approx_date": "1355–1373 CE",
-        "context_motive": ["statecraft", "religious_pluralism"],
+        "context_motive": [
+          "statecraft",
+          "religious_pluralism"
+        ],
         "deity": "Various",
-        "event_type": ["protection"],
+        "event_type": [
+          "protection"
+        ],
         "id": "eaton_case_03_kashmir_1355_1373",
         "location": {
           "city_or_district": "Kashmir Valley",
@@ -153,16 +147,23 @@
         ],
         "summary": "Sultan Shihab al‑Din reprimanded ministers for suggesting melting Hindu/Buddhist temple images for revenue, citing classical Hindu kings as examples of temple protection, showing that not all Indo‑Muslim rulers pursued destruction.",
         "temple_name": "Multiple Hindu/Buddhist temples (names not specified)",
-        "timeline": ["1355–1373: Documented temple protection policy"],
+        "timeline": [
+          "1355–1373: Documented temple protection policy"
+        ],
         "tradition": "Hindu",
         "verification_status": "verified_multisource"
       },
       {
         "alleged_perpetrator_affiliation": "Region‑conquering armies",
         "approx_date": "14th century",
-        "context_motive": ["dynastic_war", "political_signal"],
+        "context_motive": [
+          "dynastic_war",
+          "political_signal"
+        ],
         "deity": "Shiva or regional deities",
-        "event_type": ["desecration"],
+        "event_type": [
+          "desecration"
+        ],
         "id": "eaton_case_04_deccan_statebuilding_14th_century",
         "location": {
           "city_or_district": "Northern Deccan",
@@ -189,9 +190,15 @@
       {
         "alleged_perpetrator_affiliation": "Mughal imperial administration",
         "approx_date": "16th–17th century",
-        "context_motive": ["statecraft", "revenue_policy"],
+        "context_motive": [
+          "statecraft",
+          "revenue_policy"
+        ],
         "deity": "Shiva/various",
-        "event_type": ["protection", "patronage"],
+        "event_type": [
+          "protection",
+          "patronage"
+        ],
         "id": "eaton_case_05_statecraft_protection_early_modern",
         "location": {
           "city_or_district": "Multiple",
@@ -223,7 +230,11 @@
           "political_signal"
         ],
         "deity": "Shiva",
-        "event_type": ["sack", "plunder", "demolition"],
+        "event_type": [
+          "sack",
+          "plunder",
+          "demolition"
+        ],
         "id": "somnath_1026_ghazni",
         "location": {
           "city_or_district": "Prabhas Patan (Veraval)",
@@ -255,9 +266,14 @@
       {
         "alleged_perpetrator_affiliation": "Delhi Sultanate (Ulugh Khan under Alauddin Khalji)",
         "approx_date": "1299",
-        "context_motive": ["dynastic_war", "economic_plunder"],
+        "context_motive": [
+          "dynastic_war",
+          "economic_plunder"
+        ],
         "deity": "Shiva",
-        "event_type": ["sack"],
+        "event_type": [
+          "sack"
+        ],
         "id": "somnath_1299_khalji",
         "location": {
           "city_or_district": "Prabhas Patan (Veraval)",
@@ -284,9 +300,15 @@
       {
         "alleged_perpetrator_affiliation": "Mughal imperial order (Aurangzeb)",
         "approx_date": "1669",
-        "context_motive": ["political_signal", "state_policy"],
+        "context_motive": [
+          "political_signal",
+          "state_policy"
+        ],
         "deity": "Shiva",
-        "event_type": ["demolition", "conversion"],
+        "event_type": [
+          "demolition",
+          "conversion"
+        ],
         "id": "kashi_vishwanath_1669",
         "location": {
           "city_or_district": "Varanasi",
@@ -319,9 +341,15 @@
       {
         "alleged_perpetrator_affiliation": "Mughal imperial order (Aurangzeb)",
         "approx_date": "1670",
-        "context_motive": ["political_signal", "state_policy"],
+        "context_motive": [
+          "political_signal",
+          "state_policy"
+        ],
         "deity": "Krishna (Keshavdev)",
-        "event_type": ["demolition", "conversion"],
+        "event_type": [
+          "demolition",
+          "conversion"
+        ],
         "id": "mathura_keshavdev_1670",
         "location": {
           "city_or_district": "Mathura",
@@ -358,7 +386,11 @@
           "economic_plunder"
         ],
         "deity": "Various",
-        "event_type": ["sack", "pillage", "abandonment"],
+        "event_type": [
+          "sack",
+          "pillage",
+          "abandonment"
+        ],
         "id": "hampi_1565",
         "location": {
           "city_or_district": "Hampi/Vijayanagara",
@@ -396,7 +428,10 @@
           "other_or_disputed"
         ],
         "deity": "Surya (Martand)",
-        "event_type": ["demolition", "ruination"],
+        "event_type": [
+          "demolition",
+          "ruination"
+        ],
         "id": "martand_sun_temple_15c",
         "location": {
           "city_or_district": "Mattan (Anantnag)",
@@ -429,9 +464,15 @@
       {
         "alleged_perpetrator_affiliation": "Bengal Sultanate general known as Kalapahad",
         "approx_date": "1568",
-        "context_motive": ["dynastic_war", "political_signal"],
+        "context_motive": [
+          "dynastic_war",
+          "political_signal"
+        ],
         "deity": "Jagannath (Vishnu avatar tradition)",
-        "event_type": ["desecration", "looting"],
+        "event_type": [
+          "desecration",
+          "looting"
+        ],
         "id": "puri_jagannath_1568",
         "location": {
           "city_or_district": "Puri",
@@ -463,9 +504,16 @@
       {
         "alleged_perpetrator_affiliation": "Malik Kafur (Delhi Sultanate)",
         "approx_date": "1311-02",
-        "context_motive": ["economic_plunder", "dynastic_war"],
+        "context_motive": [
+          "economic_plunder",
+          "dynastic_war"
+        ],
         "deity": "Shiva",
-        "event_type": ["sack", "tribute", "damage"],
+        "event_type": [
+          "sack",
+          "tribute",
+          "damage"
+        ],
         "id": "halebidu_1311",
         "location": {
           "city_or_district": "Halebidu (Dwarasamudra)",
@@ -492,9 +540,15 @@
       {
         "alleged_perpetrator_affiliation": "Portuguese colonial authorities (Estado da Índia), ecclesiastical actions",
         "approx_date": "1540s–1600s",
-        "context_motive": ["state_policy"],
+        "context_motive": [
+          "state_policy"
+        ],
         "deity": "Various",
-        "event_type": ["demolition", "confiscation", "relocation"],
+        "event_type": [
+          "demolition",
+          "confiscation",
+          "relocation"
+        ],
         "id": "goa_old_conquests_16c",
         "location": {
           "city_or_district": "Tiswadi/Bardez/Salcete (Old Goa); later Ponda",
@@ -526,9 +580,15 @@
       {
         "alleged_perpetrator_affiliation": "Local mob; political/religious agitators",
         "approx_date": "2020-12-30",
-        "context_motive": ["sectarian_targeting"],
+        "context_motive": [
+          "sectarian_targeting"
+        ],
         "deity": "Krishna/Paramhans Ji (samadhi)",
-        "event_type": ["arson", "demolition", "mob_violence"],
+        "event_type": [
+          "arson",
+          "demolition",
+          "mob_violence"
+        ],
         "id": "pakistan_karak_2020",
         "location": {
           "city_or_district": "Teri, Karak",
@@ -560,9 +620,16 @@
       {
         "alleged_perpetrator_affiliation": "Mobs in communal unrest",
         "approx_date": "1992-12",
-        "context_motive": ["retaliation", "sectarian_targeting"],
+        "context_motive": [
+          "retaliation",
+          "sectarian_targeting"
+        ],
         "deity": "Various",
-        "event_type": ["vandalism", "arson", "demolition"],
+        "event_type": [
+          "vandalism",
+          "arson",
+          "demolition"
+        ],
         "id": "pakistan_post_ayodhya_1992",
         "location": {
           "country": "Pakistan"
@@ -591,9 +658,16 @@
       {
         "alleged_perpetrator_affiliation": "Mobs reacting to viral rumor",
         "approx_date": "2021-10",
-        "context_motive": ["sectarian_targeting", "social_media_rumor"],
+        "context_motive": [
+          "sectarian_targeting",
+          "social_media_rumor"
+        ],
         "deity": "Durga/associated deities",
-        "event_type": ["vandalism", "arson", "rioting"],
+        "event_type": [
+          "vandalism",
+          "arson",
+          "rioting"
+        ],
         "id": "bangladesh_durga_puja_2021",
         "location": {
           "country": "Bangladesh"
@@ -622,9 +696,16 @@
       {
         "alleged_perpetrator_affiliation": "Extremist mobs amid political unrest",
         "approx_date": "2013-02 to 2013-06",
-        "context_motive": ["political_unrest", "sectarian_targeting"],
+        "context_motive": [
+          "political_unrest",
+          "sectarian_targeting"
+        ],
         "deity": "Various",
-        "event_type": ["vandalism", "arson", "assault"],
+        "event_type": [
+          "vandalism",
+          "arson",
+          "assault"
+        ],
         "id": "bangladesh_2013_anti_hindu_violence",
         "location": {
           "country": "Bangladesh"
@@ -653,9 +734,16 @@
       {
         "alleged_perpetrator_affiliation": "Hired agitators; rival groups around relocation dispute (per government statements/cases)",
         "approx_date": "2018-11-26",
-        "context_motive": ["property_dispute", "communal_tension"],
+        "context_motive": [
+          "property_dispute",
+          "communal_tension"
+        ],
         "deity": "Mariamman (Shakti)",
-        "event_type": ["riots", "arson", "assault"],
+        "event_type": [
+          "riots",
+          "arson",
+          "assault"
+        ],
         "id": "malaysia_seafield_2018",
         "location": {
           "city_or_district": "USJ 25, Subang Jaya",
@@ -687,9 +775,13 @@
       {
         "alleged_perpetrator_affiliation": "Unknown (police investigation)",
         "approx_date": "2023-05",
-        "context_motive": ["political_tension"],
+        "context_motive": [
+          "political_tension"
+        ],
         "deity": "Swaminarayan tradition",
-        "event_type": ["vandalism"],
+        "event_type": [
+          "vandalism"
+        ],
         "id": "australia_sydney_baps_2023",
         "location": {
           "city_or_district": "Rosehill (Parramatta)",
@@ -715,9 +807,14 @@
       {
         "alleged_perpetrator_affiliation": "Unknown (investigations)",
         "approx_date": "2023-01",
-        "context_motive": ["political_tension"],
+        "context_motive": [
+          "political_tension"
+        ],
         "deity": "Various",
-        "event_type": ["vandalism", "graffiti"],
+        "event_type": [
+          "vandalism",
+          "graffiti"
+        ],
         "id": "australia_melbourne_iskcon_2023",
         "location": {
           "city_or_district": "Melbourne",
@@ -748,9 +845,14 @@
       {
         "alleged_perpetrator_affiliation": "Unknown (police investigation)",
         "approx_date": "2025-07-21",
-        "context_motive": ["racial_hatred"],
+        "context_motive": [
+          "racial_hatred"
+        ],
         "deity": "Swaminarayan tradition",
-        "event_type": ["vandalism", "hate_graffiti"],
+        "event_type": [
+          "vandalism",
+          "hate_graffiti"
+        ],
         "id": "australia_boronia_2025",
         "location": {
           "city_or_district": "Boronia (Melbourne)",
@@ -781,9 +883,15 @@
       {
         "alleged_perpetrator_affiliation": "Competing protest groups; several charged by police",
         "approx_date": "2024-11-03",
-        "context_motive": ["diaspora_political_tension"],
+        "context_motive": [
+          "diaspora_political_tension"
+        ],
         "deity": "Various",
-        "event_type": ["violence", "clashes", "vandalism"],
+        "event_type": [
+          "violence",
+          "clashes",
+          "vandalism"
+        ],
         "id": "canada_brampton_hindu_sabha_2024",
         "location": {
           "city_or_district": "Brampton (GTA)",
@@ -809,9 +917,13 @@
       {
         "alleged_perpetrator_affiliation": "Unknown; police released suspect photos",
         "approx_date": "2025-03/04",
-        "context_motive": ["hate_incident"],
+        "context_motive": [
+          "hate_incident"
+        ],
         "deity": "Krishna",
-        "event_type": ["vandalism"],
+        "event_type": [
+          "vandalism"
+        ],
         "id": "canada_georgetown_skb_2025",
         "location": {
           "city_or_district": "Halton Hills (GTA)",
@@ -833,16 +945,23 @@
         ],
         "summary": "Temple sign torn down/damaged; police launched manhunt; community groups flagged rising extremism context.",
         "temple_name": "Sri Krishna Brundavana (Georgetown)",
-        "timeline": ["Mar–Apr 2025: Incident & suspect images published"],
+        "timeline": [
+          "Mar–Apr 2025: Incident & suspect images published"
+        ],
         "tradition": "Hindu",
         "verification_status": "verified_multisource"
       },
       {
         "alleged_perpetrator_affiliation": "Unknown (police investigation; possible hate crime)",
         "approx_date": "2023-12-23/24",
-        "context_motive": ["diaspora_political_tension"],
+        "context_motive": [
+          "diaspora_political_tension"
+        ],
         "deity": "Swaminarayan tradition",
-        "event_type": ["vandalism", "hate_graffiti"],
+        "event_type": [
+          "vandalism",
+          "hate_graffiti"
+        ],
         "id": "usa_newark_ca_2023",
         "location": {
           "city_or_district": "Newark (Bay Area)",
@@ -870,6 +989,29 @@
         "tradition": "Hindu",
         "verification_status": "verified_multisource"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

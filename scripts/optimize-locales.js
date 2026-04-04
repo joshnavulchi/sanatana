@@ -7,9 +7,22 @@ function isObject(v) { return v && typeof v === 'object' && !Array.isArray(v); }
 function sortKeysDeep(value) {
   if (Array.isArray(value)) return value.map(sortKeysDeep);
   if (isObject(value)) {
-    const keys = Object.keys(value).sort();
+    const keys = Object.keys(value);
+    const preferred = ['title', 'description', 'meta', 'opengraph'];
+    const containsPreferred = preferred.some(k => keys.includes(k));
+    const hasSchema = keys.includes('schema');
+    let orderedKeys;
+    if (containsPreferred) {
+      const remaining = keys.filter(k => !preferred.includes(k) && k !== 'schema').sort();
+      orderedKeys = [];
+      for (const k of preferred) if (keys.includes(k)) orderedKeys.push(k);
+      orderedKeys.push(...remaining);
+      if (hasSchema) orderedKeys.push('schema');
+    } else {
+      orderedKeys = keys.sort();
+    }
     const out = {};
-    for (const k of keys) out[k] = sortKeysDeep(value[k]);
+    for (const k of orderedKeys) out[k] = sortKeysDeep(value[k]);
     return out;
   }
   return value;
