@@ -67,7 +67,7 @@ export default function UnderstandingOfSanatana() {
             className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'} delay-[${sectionIndex * 120}ms]`}
           >
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h3>
+              <h4 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h4>
               <p className="text-lg sm:text-base text-gray-600 mb-4">{section.content}</p>
             </div>
 
@@ -88,21 +88,26 @@ export default function UnderstandingOfSanatana() {
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-lg sm:text-base font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-lg sm:text-base text-gray-600 line-clamp-3">{topic.description}</p>
+                      <h5 className="text-lg sm:text-base font-semibold text-amber-700">{topic.title}</h5>
+                      <p className="text-lg sm:text-base text-gray-600 line-clamp-3 my-3">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">
                     {topic.link ? (
-                      <Link href={topic.link} title={topic.title} className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700">
-                        Learn more
+                      <Link
+                        href={topic.link}
+                        title={topic.title}
+                        aria-label={`Learn more about ${topic.title}`}
+                        className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700"
+                      >
+                        Learn more about {topic.title}
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </Link>
                     ) : (
                       <span aria-disabled className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700 opacity-60 cursor-not-allowed">
-                        Learn more
+                        Learn more about {topic.title}
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
@@ -114,7 +119,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-xl p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3 border border-amber-300/40">
+                <div key={`${section.id}-point-${index}`} className="rounded-xl p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-lg font-semibold text-gray-800 mb-3 border border-amber-300/40">
                   {point}
                 </div>
               ))}

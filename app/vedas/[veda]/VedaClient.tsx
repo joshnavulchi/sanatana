@@ -59,8 +59,8 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
         return (
           <div key={key} className="mb-4">
             {content.section && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.section}</h3>}
-            {content.title && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h3>}
-            {content.heading && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h3>}
+            {content.title && <h4 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h4>}
+            {content.heading && <h5 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h5>}
             {renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
           </div>
         );
@@ -103,34 +103,65 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
         {title && <SectionTitle>{title}</SectionTitle>}
         <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-6">
           {items.map((item: any, idx: number) => {
-            const mandalaNum = item.mandala ?? (item.number ?? (idx + 1));
-            const displayTitle = item.title || (mandalaNum ? `Mandala ${mandalaNum}` : `Item ${idx + 1}`);
-            function normalizeSlugFromPath(p: string | undefined, num: number | undefined) {
+            // Determine numeric index and logical type for this item (chapter/book/mandala/number)
+            const num = item.chapter ?? item.book ?? item.mandala ?? item.number ?? (idx + 1);
+            // Friendly display title per veda
+            const vedaKey = vedas && vedas[0] ? vedas[0] : 'rigveda';
+            console.log('Item:', num, vedaKey);
+            const displayLabel = (vedaKey === 'rigveda') ? 'Mandala' : (vedaKey === 'yajurveda' ? 'Chapter' : (vedaKey === 'atharvaveda' ? 'Book' : 'Item'));
+            const displayTitle = item.title || (num ? `${displayLabel} ${num}` : `Item ${idx + 1}`);
+
+            function normalizeSlugFromPath(p: string | undefined, num: number | undefined, veda?: string) {
               if (!p && !num) return null;
+              // prefer path-derived slug
               if (p) {
                 const parts = String(p).split('/').filter(Boolean);
                 const last = parts[parts.length - 1];
                 if (last) {
-                  // if last looks like 'mandala-1' or 'mandala1', convert to 'madala1' (folder names use 'madala1')
-                  const m = String(last).match(/mandal?a[-_]?([0-9]+)/i);
-                  if (m) return `madala${m[1]}`;
-                  return last;
+                  const s = String(last);
+                  // Rigveda: accept 'mandala-1' or 'mandala1' -> 'madala1' (folder names use 'madala1')
+                  const mand = s.match(/mandal?a[-_]?([0-9]+)/i);
+                  if (mand) return `madala${mand[1]}`;
+
+                  // Atharvaveda: 'book-1' or 'book1' -> 'book1' (folders use 'book1')
+                  const book = s.match(/book[-_]?([0-9]+)/i);
+                  if (book) return `book${book[1]}`;
+
+                  // Yajurveda/Samaveda: 'chapter-1' or 'chapter1' -> 'chapter1'
+                  const chap = s.match(/chapter[-_]?([0-9]+)/i);
+                  if (chap) return `chapter${chap[1]}`;
+
+                  // Hymn or generic numeric suffix -> collapse separators (e.g. 'hymn-1' -> 'hymn1')
+                  const generic = s.match(/^([a-zA-Z]+)[-_]?([0-9]+)$/i);
+                  if (generic) return `${generic[1]}${generic[2]}`;
+
+                  // fallback: return raw last segment
+                  return s;
                 }
               }
-              if (num) return `madala${num}`;
+
+              // If no path provided but numeric position exists, guess using mandala naming
+              if (num) {
+                const k = veda || (vedas && vedas[0]) || 'rigveda';
+                if (k === 'rigveda') return `madala${num}`;
+                if (k === 'yajurveda') return `chapter${num}`;
+                if (k === 'atharvaveda') return `book${num}`;
+                if (k === 'samaveda') return `section${num}`;
+                return `item${num}`;
+              }
               return null;
             }
 
-            const slug = normalizeSlugFromPath(item.path, mandalaNum as number | undefined);
-            const href = slug ? `/vedas/${vedas && vedas[0] ? vedas[0] : 'rigveda'}/${slug}` : (item.path || '#');
+            const slug = normalizeSlugFromPath(item.path, num as number | undefined, vedaKey);
+            const href = slug ? `/vedas/${vedaKey}/${slug}` : (item.path || '#');
 
             return (
               <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
-                <h3 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
+                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
                   ) : displayTitle}
-                </h3>
+                </h4>
                 {item.hymn_count && <div className="text-sm text-gray-600 mb-2">Hymns: {String(item.hymn_count)}</div>}
                 {item.introduction && renderContent(item.introduction)}
                 {item.scripture_text && renderContent(item.scripture_text)}

@@ -55,9 +55,9 @@ export default function RamayanaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_ramayana');
   const META_KEY = 'itihasa/ramayana/index';
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
 
-  // Extract kanda links from sharable_strings footer itihasa data
+  // Extract kanda links from sharable-strings footer itihasa data
   const itihasaNav = shared?.footer?.itihasa?.nav;
   const ramayanaEntry = Array.isArray(itihasaNav)
     ? itihasaNav.find((item: Record<string, unknown>) => item?.name === 'Ramayana')
@@ -95,7 +95,7 @@ export default function RamayanaClient() {
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 bg-gradient-to-br from-amber-100 via-amber-50 to-yellow-100 rounded-2xl border-amber-200/30 overflow-hidden mb-8 shadow-xl animate-fadeIn">
-          <h3 className="section-title mb-4 text-amber-800">Introduction</h3>
+          <h4 className="section-title mb-4 text-amber-800">Introduction</h4>
           <div className="body-text">
             <Paragraphs text={introduction} />
           </div>
@@ -104,7 +104,7 @@ export default function RamayanaClient() {
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h3 className="section-title mb-6 text-amber-900">Overview</h3>
+          <h5 className="section-title mb-6 text-amber-900">Overview</h5>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -116,7 +116,7 @@ export default function RamayanaClient() {
       {philosophical && (
         <div className="mt-10 relative overflow-hidden rounded-3xl border-amber-200/30 p-6 md:p-8 bg-gradient-to-br from-yellow-50 via-amber-100 to-amber-200 shadow-xl animate-fadeIn">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-200/60 to-amber-100/0 animate-pulse" />
-          <h3 className="section-title mb-4 text-amber-900">Philosophical Explanation</h3>
+          <h6 className="section-title mb-4 text-amber-900">Philosophical Explanation</h6>
           <div className="body-text">
             <Paragraphs text={philosophical} />
           </div>
@@ -125,7 +125,7 @@ export default function RamayanaClient() {
 
       {kandas.length > 0 && (
         <div className="mt-8">
-          <h3 className="text-2xl font-semibold text-amber-900 mb-6">Kandas</h3>
+          <h6 className="text-2xl font-semibold text-amber-900 mb-6">Kandas</h6>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {kandas.map((link, idx) => (
               <Link key={link.href} href={link.href} className="group block">
@@ -133,7 +133,7 @@ export default function RamayanaClient() {
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-200/60 to-amber-100/0 animate-pulse" />
                   <div className="flex items-center gap-3 mt-2">
                     <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/15 text-lg sm:text-base font-semibold text-amber-700 shadow-md">{idx + 1}</span>
-                    <h3 className="text-lg sm:text-base font-semibold text-amber-900 group-hover:text-amber-700 transition-colors">{link.label}</h3>
+                    <h6 className="text-lg sm:text-base font-semibold text-amber-900 group-hover:text-amber-700 transition-colors">{link.label}</h6>
                   </div>
                 </div>
               </Link>
@@ -145,3 +145,4 @@ export default function RamayanaClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

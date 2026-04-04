@@ -11,7 +11,7 @@ export function detectLocale(searchParams?: Record<string, any>): string {
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
+  'en', 'te'
 ];
 
 // Public path where locale JSONs are served (update if you move them)
@@ -115,14 +115,39 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
       }
 
       for (const candidate of candidates) {
+        // Try `{namespace}.json` first, then `{namespace}/index.json` for folder namespaces
         try {
           const resp = await fetch(localeFilePath(locale, candidate), { cache: 'force-cache' } as any);
-          if (!resp.ok) continue;
-          const parsed = await resp.json();
-          try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
-          return parsed;
+          if (resp.ok) {
+            const parsed = await resp.json();
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+            return parsed;
+          }
         } catch (e) {
-          // ignore fetch/json errors and try next candidate
+          // ignore and try index.json fallback
+        }
+
+        try {
+          const indexUrl = `${LOCALES_PUBLIC_PATH}/${locale}/${candidate}/index.json`;
+          const resp2 = await fetch(indexUrl, { cache: 'force-cache' } as any);
+          if (resp2.ok) {
+            const parsed2 = await resp2.json();
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
+            return parsed2;
+          }
+        } catch (e) {
+          // ignore and try candidate/candidate.json fallback
+        }
+
+        try {
+          const nestedUrl = `${LOCALES_PUBLIC_PATH}/${locale}/${candidate}/${candidate}.json`;
+          const resp3 = await fetch(nestedUrl, { cache: 'force-cache' } as any);
+          if (!resp3.ok) continue;
+          const parsed3 = await resp3.json();
+          try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
+          return parsed3;
+        } catch (e) {
+          // ignore and try next candidate
         }
       }
     } catch (_) { }
@@ -216,11 +241,30 @@ export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, nam
           const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
           for (const candidate of candidates) {
             try {
+              // Try namespace.json first
               const filePath = path.join(process.cwd(), 'public', 'data', 'locales', locale, `${candidate}.json`);
-              const txt = await fs.readFile(filePath, 'utf8');
-              const parsed = JSON.parse(txt);
-              try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
-              return parsed;
+              try {
+                const txt = await fs.readFile(filePath, 'utf8');
+                const parsed = JSON.parse(txt);
+                try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+                return parsed;
+              } catch (_) {
+                // Try folder/index.json fallback
+                const idxPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, 'index.json');
+                try {
+                  const txt2 = await fs.readFile(idxPath, 'utf8');
+                  const parsed2 = JSON.parse(txt2);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
+                  return parsed2;
+                } catch (_) {
+                  // Try nested file {candidate}/{candidate}.json
+                  const nestedPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, `${candidate}.json`);
+                  const txt3 = await fs.readFile(nestedPath, 'utf8');
+                  const parsed3 = JSON.parse(txt3);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
+                  return parsed3;
+                }
+              }
             } catch (e) {
               // ignore file read/parse errors and try next candidate
             }

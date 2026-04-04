@@ -28,7 +28,7 @@ export default function SlokasClient() {
   const CHUNK = 10;
   const total = Array.isArray(page.slokas) ? page.slokas.length : 0;
   const maxVisible = Math.min(100, total);
-  const [visible, setVisible] = useState(Math.min(CHUNK, maxVisible));
+  const [visible, setVisible] = useState(CHUNK);
 
   const loadMore = () => setVisible((v) => Math.min(v + CHUNK, maxVisible));
 
@@ -108,9 +108,10 @@ export default function SlokasClient() {
       <div className="sankshepa-slokas">
         {Array.isArray(page.slokas) && page.slokas.slice(0, visible).map((s: any, idx: number) => (
           <div key={s.sloka || s.sanskrit || idx} className="text-center mt-10">
-            {s.sanskrit ? <p className="h5">{s.sanskrit}</p> : null}
-            {s.transliteration ? <p className="h5">{s.transliteration}</p> : null}
-            {s.meaning ? <p className="text-left">Meaning: {s.meaning}</p> : null}
+            {s.sanskrit ? <p className="h5 text-lg sm:text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{s.sanskrit}</p> : null}
+            {s.transliteration ? <p className="mb-3">{s.transliteration}</p> : null}
+            {s.storycontext ? <p className="text-left my-1"><span className="text-amber-900 underline">Context:</span> {s.storycontext}</p> : null}
+            {s.simplemeaning ? <p className="text-left my-1"><span className="text-amber-900 underline">Meaning:</span> {s.simplemeaning}</p> : null}
           </div>
         ))}
 
@@ -119,9 +120,15 @@ export default function SlokasClient() {
             onClick={loadMore}
             disabled={visible >= maxVisible}
             aria-disabled={visible >= maxVisible}
-            className={`btn btn-outline cursor-pointer ${visible >= maxVisible ? 'opacity-30 cursor-not-allowed' : ''}`}
+            className={`group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-lg sm:text-base rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden cursor-pointer ${visible >= maxVisible ? 'opacity-30 cursor-not-allowed' : ''}`}
           >
-            {visible >= maxVisible ? 'All loaded' : `Load (${Math.min(CHUNK, maxVisible - visible)} more)`}
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span className="relative flex items-center justify-center gap-2">
+              {visible >= maxVisible ? 'All loaded' : `Load (${Math.min(CHUNK, maxVisible - visible)} more)`}
+              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </span>
           </button>
         </div>
       </div>

@@ -54,6 +54,17 @@ function isPlainObject(value: unknown): value is Record<string, unknown> {
   return !!value && typeof value === 'object' && !Array.isArray(value);
 }
 
+function unwrapNamespaceObject(ns: Record<string, unknown>, section: string): Record<string, unknown> {
+  if (ns[section] && isPlainObject(ns[section])) {
+    return ns[section] as Record<string, unknown>;
+  }
+  const keys = Object.keys(ns);
+  if (keys.length === 1 && isPlainObject(ns[keys[0]])) {
+    return ns[keys[0]] as Record<string, unknown>;
+  }
+  return ns;
+}
+
 function slugFromName(name: string) {
   return name
     .toLowerCase()
@@ -154,10 +165,10 @@ export default function SimilarCategories({
     let mounted = true;
     (async () => {
       try {
-        const ns = await getLocaleNamespaceObject(locale, 'sharable_strings');
+        const ns = await getLocaleNamespaceObject(locale, 'sharable-strings');
         if (!mounted) return;
         const locObj = isPlainObject(ns) ? ns : {};
-        const sharableStrings = isPlainObject(locObj.sharable_strings) ? (locObj.sharable_strings as Record<string, unknown>) : {};
+        const sharableStrings = unwrapNamespaceObject(locObj, 'sharable-strings');
 
         const source =
           isPlainObject(sharableStrings.similar_categories)

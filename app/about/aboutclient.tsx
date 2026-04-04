@@ -143,7 +143,7 @@ export default function AboutClient() {
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
                   🎯
                 </div>
-                <h3 className="text-amber-800 text-xl font-semibold leading-snug mb-2">पुरुषार्थ - Life&apos;s Purpose</h3>
+                <h4 className="text-amber-800 text-xl font-semibold leading-snug mb-2">पुरुषार्थ - Life&apos;s Purpose</h4>
                 <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
                   Life is a sacred journey toward the four Purusharthas:
                   <span className="text-amber-700 text-lg sm:text-base leading-relaxed font-normal"> Dharma</span> (righteousness),
@@ -158,7 +158,7 @@ export default function AboutClient() {
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
                   ✨
                 </div>
-                <h3 className="text-orange-800 text-xl font-semibold leading-snug mb-2">आत्मा - The Eternal Soul</h3>
+                <h5 className="text-orange-800 text-xl font-semibold leading-snug mb-2">आत्मा - The Eternal Soul</h5>
                 <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
                   The Atman, your true self, is eternal and divine.
                   <span className="italic text-lg sm:text-base leading-relaxed font-normal"> `&quot;`न जायते म्रियते वा`&quot;` </span>
@@ -171,7 +171,7 @@ export default function AboutClient() {
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
                   ⚖️
                 </div>
-                <h3 className="text-yellow-800 text-xl font-semibold leading-snug mb-2">कर्म - Law of Action</h3>
+                <h6 className="text-yellow-800 text-xl font-semibold leading-snug mb-2">कर्म - Law of Action</h6>
                 <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
                   Every action creates karma, shaping our destiny.
                   <span className="text-amber-700 text-lg sm:text-base leading-relaxed font-normal"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
@@ -184,7 +184,7 @@ export default function AboutClient() {
                 <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
                   🌌
                 </div>
-                <h3 className="text-amber-800 text-xl font-semibold leading-snug mb-2">माया - Illusion & Truth</h3>
+                <h6 className="text-amber-800 text-xl font-semibold leading-snug mb-2">माया - Illusion & Truth</h6>
                 <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
                   Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
                   <span className="text-orange-600 text-lg sm:text-base leading-relaxed font-normal"> eternal truth</span> that pervades all existence.
@@ -216,9 +216,9 @@ export default function AboutClient() {
 
             {/* Four stages of life */}
             <div className="text-lg sm:text-base leading-relaxed font-normal">
-              <h3 className="text-center text-amber-800 text-xl font-semibold leading-snug mb-2">
+              <h6 className="text-center text-amber-800 text-xl font-semibold leading-snug mb-2">
                 आश्रम - The Four Stages of Life
-              </h3>
+              </h6>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 my-6 text-lg sm:text-base leading-relaxed font-normal">
                 <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-amber-200/40 flex-1 text-lg sm:text-base leading-relaxed font-normal">
                   <div className="text-lg sm:text-base leading-relaxed font-normal">📚</div>

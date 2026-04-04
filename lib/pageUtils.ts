@@ -290,4 +290,15 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     });
   };
 }
+
+export async function resolveParams<T>(params: T | Promise<T> | null | undefined): Promise<T | undefined> {
+  if (params == null) return undefined;
+
+  try {
+    return await params;
+  } catch {
+    return undefined;
+  }
+}
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */ 

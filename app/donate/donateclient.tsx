@@ -84,7 +84,7 @@ export default function DonateClient() {
                 </div>
                 <h3 className="text-xl font-semibold leading-snug mb-2">{donate.purpose?.heading}</h3>
               </div>
-              <ul className="space-y-4 list-disc pl-5 text-lg sm:text-base leading-relaxed">
+              <ul className="space-y-4 list-disc pl-5 text-lg sm:text-base leading-relaxed mt-6">
                 {(donate.purpose?.points || []).map((p: string, i: number) => (
                   <li key={i} className="flex items-start gap-2 group mb-2">
                     <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform duration-200 text-lg sm:text-base leading-relaxed font-normal">
@@ -200,3 +200,4 @@ export default function DonateClient() {
     </PageLayout>
   );
 }
+

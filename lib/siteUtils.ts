@@ -32,11 +32,29 @@ const BASES = [
 
 type BaseType = (typeof BASES)[number];
 
+const EXCLUDE_KEYS = new Set(['meta', 'openGraph', 'schema', 'openSpec', 'openspec']);
+
 function normalizeSegments(segments: string[]) {
   return Array.isArray(segments)
     ? segments.map(s => String(s).replace(/^\/+|\/+$/g, '')).filter(Boolean)
     : [];
 }
+
+function stripExcluded(obj: any) {
+  if (!obj || typeof obj !== 'object') return obj;
+  if (Array.isArray(obj)) return obj;
+  try {
+    const copy: Record<string, any> = {};
+    for (const k of Object.keys(obj)) {
+      if (EXCLUDE_KEYS.has(k)) continue;
+      copy[k] = obj[k];
+    }
+    return copy;
+  } catch (_) {
+    return obj;
+  }
+}
+
 
 /**
  * Resolve base + segments from URL
@@ -79,44 +97,22 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
 
   const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
 
-  // When running on the server (build / node), prefer reading locale JSON
-  // files from the local `public/data/locales` path and cache them in-memory
   // for the life of the Node process. This speeds up repeated loads during
   // static render/build.
   if (typeof window === 'undefined') {
     try {
-      const fs = require('fs');
-      const path = require('path');
-      const diskPath = path.join(process.cwd(), 'public', 'data', 'locales', loc, base, joined, 'index.json');
-
-      // Return cached value when available
-      const cached = BUILD_CACHE.get(diskPath);
-      if (cached) {
-        if (process.env.NODE_ENV !== 'production') {
-          // eslint-disable-next-line no-console
-          console.debug('[fetchContentByRoute] build-cache hit', diskPath);
+      const server = await import('./siteUtils.server');
+      const diskResult = await server.fetchContentByRouteFromDisk(loc, base, joined);
+      if (diskResult) {
+        const cached = BUILD_CACHE.get(diskResult.path);
+        if (cached) {
+          return { data: cached.data, path: diskResult.path };
         }
-        return { data: cached.data, path: diskPath };
+        BUILD_CACHE.set(diskResult.path, { ts: Date.now(), data: diskResult.data });
+        return { data: diskResult.data, path: diskResult.path };
       }
-
-      // Attempt to read from disk
-      if (fs.existsSync(diskPath)) {
-        const raw = fs.readFileSync(diskPath, 'utf8');
-        const parsed = JSON.parse(raw);
-        BUILD_CACHE.set(diskPath, { ts: Date.now(), data: parsed });
-        if (process.env.NODE_ENV !== 'production') {
-          // eslint-disable-next-line no-console
-          console.debug('[fetchContentByRoute] read from disk', diskPath);
-        }
-        return { data: parsed, path: diskPath };
-      }
-      // fallthrough to network fetch if file missing
-    } catch (e) {
-      if (process.env.NODE_ENV !== 'production') {
-        // eslint-disable-next-line no-console
-        console.warn('[fetchContentByRoute] build-file read failed', primaryPath, e && (e as any).message);
-      }
-      // continue to network fetch fallback
+    } catch (_) {
+      // ignore server-only import/fetch failures and fall back to network fetch
     }
   }
 
@@ -146,10 +142,90 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
         // eslint-disable-next-line no-console
         console.warn('[fetchContentByRoute] fetch failed', fetchUrl, 'status', res.status);
       }
+      // Network fallback: attempt to fetch parent index and aggregate child JSON files
+      if (typeof window !== 'undefined') {
+        return { data: null, path: fetchUrl };
+      }
+      try {
+        const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
+        // parent index URL e.g. /data/locales/${loc}/${base}/index.json
+        const parentUrl = ` /data/locales/${loc}/${base}/index.json`.replace(/\s+/g, '');
+        const parentResp = await fetch(parentUrl, { cache: 'force-cache' } as any);
+        if (!parentResp.ok) return { data: null, path: fetchUrl };
+        const parentJson = await parentResp.json();
+
+        // Find candidate child file basenames that reference the requested joined path
+        const joinedParts = String(joined).split('/').filter(Boolean);
+        const slug = joinedParts[joinedParts.length - 1];
+
+        const candidates: string[] = [];
+        const collectPaths = (obj: any) => {
+          if (!obj || typeof obj !== 'object') return;
+          for (const k of Object.keys(obj)) {
+            const v = obj[k];
+            if (typeof v === 'string' && v.includes(`/${slug}/`)) {
+              const parts = String(v).split('/').filter(Boolean);
+              const last = parts[parts.length - 1];
+              if (last) candidates.push(last);
+            } else if (Array.isArray(v)) {
+              for (const it of v) collectPaths(it);
+            } else if (typeof v === 'object') {
+              collectPaths(v);
+            }
+          }
+        };
+        collectPaths(parentJson);
+
+        // Normalize candidate names and try to fetch each variant from the folder
+        const tryNames = (name: string) => {
+          const out = new Set<string>();
+          out.add(name);
+          out.add(name.replace(/[-_]/g, ''));
+          out.add(name.replace(/-/g, '_'));
+          out.add(name.replace(/_/g, '-'));
+          return Array.from(out);
+        };
+
+        const aggregated: Record<string, any> = {};
+        for (const raw of candidates) {
+          const variants = tryNames(raw.replace(/\.json$/i, ''));
+          for (const vname of variants) {
+            const fileUrl = `/data/locales/${loc}/${base}/${joined}/${vname}.json`;
+            try {
+              const r = await fetch(fileUrl, { cache: 'force-cache' } as any);
+              if (!r.ok) continue;
+              let parsed = await r.json();
+              parsed = stripExcluded(parsed);
+              const key = vname;
+              if (parsed && typeof parsed === 'object' && Object.keys(parsed).length === 1) {
+                const innerKey = Object.keys(parsed)[0];
+                aggregated[key] = parsed[innerKey];
+              } else {
+                aggregated[key] = parsed;
+              }
+            } catch (_) {
+              // ignore individual file errors
+            }
+          }
+        }
+
+        if (Object.keys(aggregated).length > 0) {
+          if (process.env.NODE_ENV !== 'production') {
+            // eslint-disable-next-line no-console
+            console.debug('[fetchContentByRoute] network-aggregated folder JSON', fetchUrl);
+          }
+          return { data: aggregated, path: fetchUrl };
+        }
+      } catch (_) {
+        // ignore network aggregation errors
+      }
+
       return { data: null, path: fetchUrl };
     }
 
-    return { data: await res.json(), path: fetchUrl };
+    const top = await res.json();
+    const topStripped = stripExcluded(top);
+    return { data: topStripped, path: fetchUrl };
   } catch (err) {
     if (process.env.NODE_ENV !== 'production') {
       // eslint-disable-next-line no-console
@@ -163,45 +239,6 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
 // Default fallbacks (used on client or if fs read fails)
 export let MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabhaparva', 'vanaparva'];
 export let RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakanda'];
-
-// Attempt to populate from public/data/locales/{locale}/itihasa on server start.
-// This runs only in Node (server) and won't pull `fs` into client bundles.
-if (typeof window === 'undefined') {
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const baseLocale = String(DEFAULT_LOCALE || 'en');
-
-    const mahabPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'mahabharata');
-    const ramaPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'ramayana');
-
-    try {
-      const mahabDirs = fs.readdirSync(mahabPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(mahabDirs) && mahabDirs.length > 0) {
-        MAHABHARATA_PARVAS = mahabDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
-
-    try {
-      const ramaDirs = fs.readdirSync(ramaPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(ramaDirs) && ramaDirs.length > 0) {
-        RAMAYANA_KANDAS = ramaDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
-  } catch (e) {
-    // fs not available or other error — keep fallbacks
-  }
-}
 
 export function parseNumericSuffix(slug: string): number | null {
   const m = String(slug || '').match(/-(\d+)$/);

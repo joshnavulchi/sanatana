@@ -81,9 +81,9 @@ export default function PageLayout(
             <div className="px-4 py-5 text-lg sm:text-base leading-relaxed font-normal">
               <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
                 <div className="inline-block relative text-lg sm:text-base leading-relaxed font-normal">
-                  {title && (<h2 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-lg sm:text-xl md:text-2xl font-extrabold drop-shadow-lg animate-gradient-x`}>
+                  {title && (<h1 className={`bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 text-lg sm:text-xl md:text-2xl font-extrabold drop-shadow-lg animate-gradient-x`}>
                     {title}
-                  </h2>)}
+                  </h1>)}
                   <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl animate-fadeIn`}></div>
                   <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl animate-fadeIn delay-100`}></div>
                 </div>
@@ -108,7 +108,7 @@ export default function PageLayout(
             type="button"
             onClick={togglePanel}
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
-            className="hidden fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
           >
             <span className="flex flex-col items-center gap-1 text-lg sm:text-base leading-relaxed font-normal">
               <svg
@@ -172,3 +172,4 @@ export default function PageLayout(
     </>
   );
 }
+

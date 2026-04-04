@@ -3,7 +3,7 @@
 // Folder: 'en\vedic-science\astronomy'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './astronomy.json';
+import _j0 from './index.json';
 
 
 

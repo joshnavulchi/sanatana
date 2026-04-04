@@ -25,34 +25,73 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 		return <p className="text-base text-[#5b2d12] leading-relaxed mb-3">{children}</p>;
 	}
 
-	function renderContent(content: any, key?: number | string) {
-		if (content === null || content === undefined) return null;
-		if (typeof content === 'string' || typeof content === 'number') return <Paragraph key={key}>{String(content)}</Paragraph>;
-		if (Array.isArray(content)) return <div key={key} className="space-y-2">{content.map((c, i) => <div key={i}>{renderContent(c, i)}</div>)}</div>;
-		if (typeof content === 'object') {
-			if (content.section || content.title || content.heading) {
+	function RenderValue({ value, label }: { value: any; label?: string }) {
+		if (value === null || value === undefined) return null;
+
+		// Primitive
+		if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+			return <Paragraph>{String(value)}</Paragraph>;
+		}
+
+		// Array
+		if (Array.isArray(value)) {
+			// array of strings -> chips
+			if (value.every((v) => typeof v === 'string' || typeof v === 'number')) {
 				return (
-					<div key={key} className="mb-3">
-						{content.section && <h3 className="text-lg font-semibold mb-1">{content.section}</h3>}
-						{content.title && <h3 className="text-lg font-semibold mb-1">{content.title}</h3>}
-						{content.heading && <h3 className="text-lg font-semibold mb-1">{content.heading}</h3>}
-						{renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
+					<div className="flex flex-wrap gap-2">
+						{value.map((v, i) => (
+							<span key={i} className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-sm">{String(v)}</span>
+						))}
 					</div>
 				);
 			}
-			const entries = Object.entries(content);
-			if (entries.length === 0) return null;
+
+			// array of objects -> cards
 			return (
-				<div key={key} className="mb-2">
-					{entries.map(([k, v], i) => (
-						<div key={i}>
-							<strong className="mr-2">{k}:</strong>
-							{renderContent(v, i)}
+				<div className="space-y-3">
+					{value.map((item, i) => (
+						<div key={i} className="p-4 bg-white/60 dark:bg-gray-800/60 rounded-lg shadow-sm">
+							{typeof item === 'object' ? <RenderValue value={item} /> : <Paragraph>{String(item)}</Paragraph>}
 						</div>
 					))}
 				</div>
 			);
 		}
+
+		// Object
+		if (typeof value === 'object') {
+			// avoid rendering meta/og/schema/title/description directly
+			const excluded = new Set(['meta', 'openGraph', 'schema', 'title', 'description']);
+			const entries = Object.entries(value).filter(([k]) => !excluded.has(k));
+			if (entries.length === 0) return null;
+
+			// If object looks like a section/hymn with header-like fields, render header then remaining
+			const headerKeys = ['section', 'title', 'heading', 'name', 'hymn_number'];
+			const headers: any = {};
+			const rest: any = {};
+			for (const [k, v] of entries) {
+				if (headerKeys.includes(k)) headers[k] = v; else rest[k] = v;
+			}
+
+			return (
+				<div className="mb-4">
+					{Object.keys(headers).length > 0 && (
+						<div className="mb-2">
+							{headers.hymn_number && <h3 className="text-sm font-medium text-gray-600">Hymn {headers.hymn_number}</h3>}
+							{headers.title && <h4 className="text-lg font-semibold text-[#7c2d12]">{headers.title}</h4>}
+							{headers.section && <h5 className="text-sm text-gray-500">{headers.section}</h5>}
+						</div>
+					)}
+					{Object.entries(rest).map(([k, v]) => (
+						<div key={k} className="mt-3">
+							<strong className="block text-sm text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}:</strong>
+							<RenderValue value={v} />
+						</div>
+					))}
+				</div>
+			);
+		}
+
 		return null;
 	}
 
@@ -80,9 +119,18 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 		return () => { cancelled = true; };
 	}, [initialData, initialLocale, ctxLocale, locale, veda, slug]);
 
-	const title = String(data?.meta?.title ?? data?.title ?? slug ?? `${veda}`);
-	const description = String(data?.meta?.description ?? data?.description ?? '');
-	const metaKey = (data?.meta?.key && String(data.meta.key)) || `vedas/${veda}/${slug}/index`;
+	// If the JSON uses a nested key (e.g. `{ "mandala-1": { ... } }`) use that object for meta/title
+	let mainData: any = data;
+	if (data && !data.meta && !data.title) {
+		const entries = Object.entries(data || {});
+		if (entries.length === 1 && typeof entries[0][1] === 'object') {
+			mainData = entries[0][1];
+		}
+	}
+
+	const title = String(mainData?.meta?.title ?? mainData?.title ?? slug ?? `${veda}`);
+	const description = String(mainData?.meta?.description ?? mainData?.description ?? '');
+	const metaKey = (mainData?.meta?.key && String(mainData.meta.key)) || `vedas/${veda}/${slug}/index`;
 
 	const breadcrumbs = [
 		{ labelKey: 'Home', href: '/' },
@@ -90,6 +138,9 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 		{ label: veda, href: `/vedas/${veda}` },
 		{ label: slug, href: `/vedas/${veda}/${slug}` },
 	];
+
+	// Build entries to display, excluding metadata and structural keys
+	const displayEntries = Object.entries(mainData || {}).filter(([k]) => !['meta', 'openGraph', 'schema', 'title', 'description', 'introduction'].includes(k));
 
 	if (loading) return (
 		<PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
@@ -107,15 +158,13 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 		<PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
 			<div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 				<main className="md:col-span-3">
-					{data.introduction && <Paragraph>{data.introduction}</Paragraph>}
+					{mainData.introduction && <Paragraph>{mainData.introduction}</Paragraph>}
 
-					{Object.entries(data).map(([k, v]) => (
-						k === 'meta' || k === 'introduction' ? null : (
-							<section key={k} className="mb-6">
-								<SectionTitle>{k.replace(/_/g, ' ')}</SectionTitle>
-								{renderContent(v)}
-							</section>
-						)
+					{displayEntries.map(([k, v]) => (
+						<section key={k} className="mb-6">
+							<SectionTitle>{k.replace(/_/g, ' ')}</SectionTitle>
+							<RenderValue value={v} />
+						</section>
 					))}
 				</main>
 

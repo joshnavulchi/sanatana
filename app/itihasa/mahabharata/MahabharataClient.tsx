@@ -113,7 +113,7 @@ export default function MahabharataClient() {
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 rounded-2xl border-blue-200/30 bg-gradient-to-br from-indigo-100 via-blue-50 to-blue-100 overflow-hidden mb-8 shadow-xl animate-fadeIn">
-          <h3 className="section-title mb-4 text-blue-800">Introduction</h3>
+          <h4 className="section-title mb-4 text-blue-800">Introduction</h4>
           <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={introduction} />
           </div>
@@ -122,7 +122,7 @@ export default function MahabharataClient() {
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h3 className="section-title mb-6 text-blue-900">Overview</h3>
+          <h5 className="section-title mb-6 text-blue-900">Overview</h5>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -134,7 +134,7 @@ export default function MahabharataClient() {
       {philosophical && (
         <div className="mt-10 relative overflow-hidden rounded-3xl border-blue-200/30 p-6 md:p-8 bg-gradient-to-br from-blue-50 via-indigo-100 to-blue-200 shadow-xl animate-fadeIn">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-200/60 to-indigo-100/0 animate-pulse" />
-          <h3 className="section-title mb-4 text-blue-900">Philosophical Explanation</h3>
+          <h6 className="section-title mb-4 text-blue-900">Philosophical Explanation</h6>
           <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={philosophical} />
           </div>
@@ -142,7 +142,7 @@ export default function MahabharataClient() {
       )}
 
       <div className="mt-8">
-        <h3 className="section-title mb-6 text-blue-900">Parvas</h3>
+        <h6 className="section-title mb-6 text-blue-900">Parvas</h6>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {parvas.map((parva: string, idx: number) => (
             <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">
@@ -152,9 +152,9 @@ export default function MahabharataClient() {
                   <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-blue-700/15 text-lg sm:text-base font-semibold text-blue-700 shadow-md">
                     {idx + 1}
                   </span>
-                  <h3 className="text-lg sm:text-base font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">
+                  <h6 className="text-lg sm:text-base font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">
                     {toTitleFromSlug(parva)}
-                  </h3>
+                  </h6>
                 </div>
               </div>
             </Link>
@@ -165,3 +165,4 @@ export default function MahabharataClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Loader from './loader';
-import useDeferAssets from '@lib/useDeferAssets';
+import useDeferAssets from '../hooks/useDeferAssets';
 
 export default function LazyImage({ src, alt, width, height, className, placeholder, onLoad, unoptimized, ...rest }: any) {
   // Only pass rest props that are not src, alt, width, height

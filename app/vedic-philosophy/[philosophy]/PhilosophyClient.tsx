@@ -58,8 +58,8 @@ export default function VedaClient({ initialData, initialLocale, slug }: Props) 
         return (
           <div key={key} className="mb-4">
             {content.section && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.section}</h3>}
-            {content.title && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h3>}
-            {content.heading && <h3 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h3>}
+            {content.title && <h4 className="text-lg font-semibold text-gray-900 mb-1">{content.title}</h4>}
+            {content.heading && <h5 className="text-lg font-semibold text-gray-900 mb-1">{content.heading}</h5>}
             {renderContent(content.content ?? content.introduction ?? content.text ?? content.body)}
           </div>
         );
@@ -101,7 +101,7 @@ export default function VedaClient({ initialData, initialLocale, slug }: Props) 
         <div className="space-y-4">
           {items.map((item: any, idx: number) => (
             <div key={idx}>
-              {item.title && <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>}
+              {item.title && <h6 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h6>}
               {item.introduction && renderContent(item.introduction)}
               {item.scripture_text && renderContent(item.scripture_text)}
               {item.philosophical_explanation && renderContent(item.philosophical_explanation)}

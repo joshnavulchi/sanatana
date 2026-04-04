@@ -3,83 +3,33 @@
 import { useEffect, useState } from 'react';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from '@lib/parse';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 import PageLayout from '@components/common/PageLayout';
+import { normalizePolicyContent, type PolicyContentState } from '@lib/policyNormalizer';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('privacy_policy');
-  type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
-  // Normalize a source object (either server-injected locale or the loaded namespace)
-  const normalizePrivacy = (src: any): PrivacyState => {
-    const safe = ns || {};
+  const ns = useLocaleSection('privacy-policy');
+  type PrivacyState = PolicyContentState;
+  const normalizePrivacy = (src: unknown): PrivacyState => {
     try {
-      const title = safe.title || '';
-      const lastupdated = safe.lastupdated || '';
-      const keys = [
-        'intro',
-        'informationwecollect',
-        'howweuse',
-        'cookieslocalstorage',
-        'thirdparty',
-        'security',
-        'rights',
-        'children',
-        'changes',
-        'contact'
-      ];
-      const data: Record<string, any> = {};
-      keys.forEach((k) => { data[k] = parseMaybeObject(safe[k] || ''); });
-
-      if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
-
-      if (data.informationwecollect && typeof data.informationwecollect === 'object') {
-        const iw = data.informationwecollect;
-        data.informationwecollect = {
-          title: iw.title,
-          lead: iw.lead,
-          usagelabel: iw.usagelabel,
-          usage: iw.usage,
-          devicelabel: iw.devicelabel,
-          device: iw.device,
-          cookieslabel: iw.cookieslabel,
-          cookies: iw.cookies,
-          contactlabel: iw.contactlabel,
-          contact: iw.contact
-        };
-      } else {
-        data.informationwecollect = { title: '', lead: '', usagelabel: '', usage: '', devicelabel: '', device: '', cookieslabel: '', cookies: '', contactlabel: '', contact: '' };
-      }
-
-      if (data.howweuse && typeof data.howweuse === 'object') {
-        data.howweuse.items = parseSections(data.howweuse.items);
-      } else {
-        data.howweuse = { title: data.howweuse?.title, lead: data.howweuse?.lead, items: parseSections(data.howweuse) };
-      }
-
-      ['cookieslocalstorage', 'thirdparty', 'security', 'children', 'changes'].forEach((k) => {
-        if (data[k] && typeof data[k] === 'object') data[k] = { title: data[k].title, text: data[k].text };
-        else data[k] = { title: '', text: '' };
-      });
-
-      if (data.rights && typeof data.rights === 'object') {
-        data.rights.items = parseSections(data.rights.items);
-      } else {
-        data.rights = { title: data.rights?.title, lead: data.rights?.lead, items: parseSections(data.rights), contacttext: data.rights?.contacttext };
-      }
-
-      if (data.contact && typeof data.contact === 'object') {
-        const c = data.contact;
-        data.contact = { title: c.title, lead: c.lead, emaillabel: c.emaillabel, email: c.email, websitelabel: c.websitelabel, website: c.website, closing: c.closing };
-      } else {
-        data.contact = { title: '', lead: '', emaillabel: '', email: '', websitelabel: '', website: '', closing: '' };
-      }
-
-      return { title, lastupdated, ...data };
-    } catch (e) {
-      return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
+      return normalizePolicyContent(src);
+    } catch {
+      return {
+        title: '',
+        lastupdated: '',
+        intro: {} as any,
+        informationwecollect: {} as any,
+        howweuse: {} as any,
+        cookieslocalstorage: {} as any,
+        thirdparty: {} as any,
+        security: {} as any,
+        rights: {} as any,
+        children: {} as any,
+        changes: {} as any,
+        contact: {} as any,
+      };
     }
   };
 
@@ -104,7 +54,7 @@ export default function PrivacyPolicy() {
   if (isLoading && !privacy.title) {
     return (
       <PageLayout
-        metaKey="privacy_policy"
+        metaKey="privacy-policy"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]}
         className="layout-md bg-gradient-to-br from-[#f7e8ff] via-[#e0c3fc] to-[#8ec5fc] min-h-screen animate-fade-in">
@@ -117,7 +67,7 @@ export default function PrivacyPolicy() {
 
   return (
     <PageLayout
-      metaKey="privacy_policy"
+      metaKey="privacy-policy"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className="layout-md bg-gradient-to-br from-[#f7e8ff] via-[#e0c3fc] to-[#8ec5fc] min-h-screen animate-fade-in">
@@ -142,10 +92,10 @@ export default function PrivacyPolicy() {
 
         {/* Information We Collect */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#e0c3fc]/80 via-[#f7e8ff]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h3 className="flex items-center gap-3 text-2xl font-bold leading-snug mb-3 text-[#7f53ac]">
+          <h4 className="flex items-center gap-3 text-2xl font-bold leading-snug mb-3 text-[#7f53ac]">
             <span className="text-2xl">📊</span>
             <span>{privacy.informationwecollect.title} {privacy.informationwecollect.lead}</span>
-          </h3>
+          </h4>
           <div className="space-y-4 text-lg sm:text-base leading-relaxed font-normal">
             <p><strong className="text-[#a259ec]">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
             <p><strong className="text-[#a259ec]">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
@@ -251,3 +201,4 @@ export default function PrivacyPolicy() {
     </PageLayout>
   );
 }
+

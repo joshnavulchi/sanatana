@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/pageUtils';
 
 import PuranaClient from './PuranaClient';
 
@@ -22,22 +23,15 @@ export async function generateStaticParams() {
   return top.map((s) => ({ purana: s }));
 }
 
-export async function generateMetadata({ params, searchParams }: { params: { purana?: string }; searchParams?: any }) {
-  const s = params?.purana;
+export async function generateMetadata({ params, searchParams }: { params?: { purana?: string } | Promise<{ purana?: string }>; searchParams?: any }) {
+  const resolvedParams = await resolveParams(params);
+  const s = resolvedParams?.purana;
   const key = s ? `puranas/${s}/index` : 'puranas';
   return await createGenerateMetadata(key)({ searchParams });
 }
 
 export default async function Page({ params }: { params: { purana: string } | Promise<{ purana?: string }> }) {
-  let resolvedParams: { purana?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const up = typeof resolvedParams?.purana === 'string' ? resolvedParams.purana : undefined;
   if (!up) return notFound();
 

@@ -153,7 +153,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
 
       {/* Flyout submenu — opens RTL when dropdown anchored to right */}
       {isSubOpen && (
-        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 dark:from-gray-900/90 dark:to-indigo-900/40 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
+        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
           {item.children.map((child) => (
             <Link
               key={child.href}
@@ -372,7 +372,7 @@ export default function Header() {
   const pathname = usePathname();
   const headerRef = useRef<HTMLElement | null>(null);
 
-  const sharable = useLocaleSection('sharable_strings');
+  const sharable = useLocaleSection('sharable-strings');
   const siteTitle = sharable?.sitetitle || defaultSiteTitle;
   const headerData = (sharable?.header || {}) as Record<string, unknown>;
   const navSections = buildNavSections(headerData);
@@ -412,11 +412,11 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
-      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Barat.</div>
+      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Bharat alias India.</div>
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
       <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}
-        <h1 className="m-0 p-0">
+        <div>
           <Link href="/" className="flex items-center gap-2 group">
             <span className="relative flex items-center justify-center">
               <LazyImage
@@ -427,26 +427,26 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl sm:text-3xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <span className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>
-        </h1>
+        </div>
 
         {/* ─── Desktop Nav ─── */}
         <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          {/* <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          <div className="border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-          </div> */}
+          </div>
           <ThemeToggle />
         </nav>
 
         {/* ─── Mobile Toggle ─── */}
         <div className="flex items-center md:hidden gap-2">
-          {/* <LanguageDropdown /> */}
+          <LanguageDropdown />
           <ThemeToggle />
           <button
             aria-label={open ? "Close menu" : "Open menu"}

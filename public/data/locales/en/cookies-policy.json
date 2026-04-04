@@ -3,8 +3,8 @@
     "title": "Cookies Policy",
     "meta": {
       "title": "Cookies Policy | Cookies — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/cookies-policy",
       "description": "Cookies Policy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Cookies Policy. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/cookies-policy",
       "keywords": [
         "cookies",
         "dharma",
@@ -20,29 +20,6 @@
       ],
       "ogimage": "/og/privacy.png",
       "url": "https://sanatanadharmam.in/cookies-policy"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "changes": {
       "title": "9. Changes to This Policy",
@@ -111,6 +88,29 @@
     "thirdparty": {
       "title": "5. Third-Party Services",
       "text": "We may use third-party analytics services to understand website usage patterns. These services may collect anonymous data about your visit. We do not share personally identifiable information with third parties without your consent."
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

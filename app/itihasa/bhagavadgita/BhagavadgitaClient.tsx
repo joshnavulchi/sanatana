@@ -55,9 +55,9 @@ export default function BhagavadGitaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavadgita');
   const META_KEY = 'itihasa/bhagavadgita/index';
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
 
-  // Extract chapter links from sharable_strings footer itihasa data
+  // Extract chapter links from sharable-strings footer itihasa data
   const itihasaNav = shared?.footer?.itihasa?.nav;
   const bgEntry = Array.isArray(itihasaNav)
     ? itihasaNav.find((item: Record<string, unknown>) => item?.chapters_list && !item?.name)
@@ -95,7 +95,7 @@ export default function BhagavadGitaClient() {
 
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 rounded-2xl border-emerald-200/30 bg-gradient-to-br from-green-100 via-emerald-50 to-emerald-100 overflow-hidden mb-8 shadow-xl animate-fadeIn">
-          <h3 className="section-title mb-4 text-emerald-800">Introduction</h3>
+          <h4 className="section-title mb-4 text-emerald-800">Introduction</h4>
           <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={introduction} />
           </div>
@@ -104,7 +104,7 @@ export default function BhagavadGitaClient() {
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h3 className="section-title mb-4 text-emerald-900">Overview</h3>
+          <h5 className="section-title mb-4 text-emerald-900">Overview</h5>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -116,7 +116,7 @@ export default function BhagavadGitaClient() {
       {philosophical && (
         <div className="mt-10 relative overflow-hidden rounded-3xl border-emerald-200/30 p-6 md:p-8 bg-gradient-to-br from-emerald-50 via-green-100 to-emerald-200 shadow-xl animate-fadeIn">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-200/60 to-green-100/0 animate-pulse" />
-          <h3 className="section-title mb-4 text-emerald-900">Philosophical Explanation</h3>
+          <h6 className="section-title mb-4 text-emerald-900">Philosophical Explanation</h6>
           <div className="body-text md:text-lg sm:text-base leading-relaxed">
             <Paragraphs text={philosophical} />
           </div>
@@ -125,7 +125,7 @@ export default function BhagavadGitaClient() {
 
       {chapters.length > 0 && (
         <div className="mt-8">
-          <h3 className="section-title mb-6 text-emerald-900">Chapters</h3>
+          <h6 className="section-title mb-6 text-emerald-900">Chapters</h6>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {chapters.map((link, idx) => (
               <Link key={link.href} href={link.href} className="group block">
@@ -133,7 +133,7 @@ export default function BhagavadGitaClient() {
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-200/60 to-green-100/0 animate-pulse" />
                   <div className="flex items-center gap-3 mt-2">
                     <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-700/15 text-lg sm:text-base font-semibold text-emerald-700 shadow-md">{idx + 1}</span>
-                    <h3 className="text-lg sm:text-base font-semibold text-emerald-900 group-hover:text-emerald-700 transition-colors">{link.label}</h3>
+                    <h6 className="text-lg sm:text-base font-semibold text-emerald-900 group-hover:text-emerald-700 transition-colors">{link.label}</h6>
                   </div>
                 </div>
               </Link>
@@ -145,3 +145,4 @@ export default function BhagavadGitaClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
