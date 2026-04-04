@@ -1,63 +1,63 @@
 {
-  "purana": {
-    "garuda": {
-      "title": "Garuda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "meta": {
-        "title": "Garuda Purana – Purana Overview and Key Themes",
-        "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-        "canonical": "https://sanatanadharmam.in/puranas/garuda",
-        "keywords": [
-          "Garuda Purana",
-          "Purana",
-          "Puranas",
-          "Sanatana Dharma",
-          "bhakti",
-          "dharma"
-        ],
-        "ogImage": "https://sanatanadharmam.in/og/garuda.png",
-        "robots": "index, follow",
-        "url": "https://sanatanadharmam.in/puranas/garuda"
-      },
-      "introduction": "Garuda Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living. Traditionally, Garuda Purana is associated with ethics, rites, and reflective teachings. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-      "openGraph": {
-        "title": "Garuda Purana – Purana Overview and Key Themes",
-        "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-        "images": [
-          {
-            "alt": "Garuda Purana – Purana Overview and Key Themes",
-            "height": 630,
-            "url": "https://sanatanadharmam.in/og/garuda.png",
-            "width": 1200
-          }
-        ],
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/puranas/garuda"
-      },
-      "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom.",
-      "scripture_text": [
-        {
-          "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice.",
-          "section": "What you will find on this page"
-        },
-        {
-          "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment.",
-          "section": "How to read Puranic material"
+    "purana": {
+        "garuda": {
+            "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
+            "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
+            "meta": {
+                "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
+                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
+                "canonical": "https://sanatanadharmam.in/puranas/garuda",
+                "keywords": [
+                    "గరుడ పురాణం",
+                    "పురాణం",
+                    "పురాణాలు",
+                    "సనాతన ధర్మం",
+                    "భక్తి",
+                    "ధర్మము"
+                ],
+                "ogImage": "https://sanatanadharmam.in/og/garuda.png",
+                "robots": "సూచిక, అనుసరించండి",
+                "url": "https://sanatanadharmam.in/puranas/garuda"
+            },
+            "introduction": "గరుడ పురాణం సనాతన ధర్మం యొక్క విస్తృత పురాణ సాహిత్యంలో మహాపురాణాలలో ఒకటి. పురాణాలు కథలు, సంభాషణలు, శ్లోకాలు మరియు నైతిక జీవనానికి మార్గదర్శకత్వం ద్వారా తత్వశాస్త్రం, భక్తి మరియు సాంస్కృతిక జ్ఞాపకశక్తిని ప్రసారం చేస్తాయి. సాంప్రదాయకంగా, గరుడ పురాణం నీతి, ఆచారాలు మరియు ప్రతిబింబ బోధనలతో ముడిపడి ఉంది. పాఠకులు తరచుగా దీనిని ఒకే-జానర్ పుస్తకంగా కాకుండా భక్తి-తాత్విక గ్రంథంగా సంప్రదిస్తారు: ఇందులో విశ్వశాస్త్రం, పవిత్ర భూగోళశాస్త్రం, నీతిశాస్త్రం, ప్రమాణాలు మరియు క్రియలో ధర్మాన్ని వివరించే కథనాలు ఉండవచ్చు.",
+            "openGraph": {
+                "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
+                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
+                "images": [
+                    {
+                        "alt": "Garuda Purana – Purana Overview and Key Themes",
+                        "height": 630,
+                        "url": "https://sanatanadharmam.in/og/garuda.png",
+                        "width": 1200
+                    }
+                ],
+                "siteName": "సనాతనధర్మం",
+                "type": "వ్యాసం",
+                "url": "https://sanatanadharmam.in/puranas/garuda"
+            },
+            "philosophical_explanation": "తాత్వికంగా, పురాణాలు ప్రత్యక్ష దృశ్యాల ద్వారా బోధిస్తాయి: కోరిక, భయం, గర్వం మరియు కరుణ విధిని ఎలా రూపొందిస్తాయో. వారు చక్రీయ సమయం మరియు అశాశ్వతతను కూడా నొక్కి చెబుతారు, వినయం మరియు స్థిరత్వాన్ని ప్రోత్సహిస్తారు. భక్తి (భక్తి) తరచుగా హృదయాన్ని శుద్ధి చేసే మరియు జ్ఞానానికి మద్దతు ఇచ్చే ప్రత్యక్ష, ప్రాప్యత క్రమశిక్షణగా ప్రదర్శించబడుతుంది.",
+            "scripture_text": [
+                {
+                    "content": "నిర్మాణాత్మక అవలోకనం: (1) సందర్భం మరియు ఇతివృత్తాలు, (2) కీలకమైన కథన ఆలోచనలు, (3) భక్తి ప్రాధాన్యత మరియు (4) అంతర్గత అభ్యాసానికి కథను అనుసంధానించే తాత్విక ప్రతిబింబాలు.",
+                    "section": "ఈ పేజీలో మీరు ఏమి కనుగొంటారు"
+                },
+                {
+                    "content": "పురాణ కథనాలను బహుళ స్థాయిలలో చదవవచ్చు-భక్తి, నైతిక మరియు ప్రతీక. పునశ్చరణలలో వివరాలు మారినప్పుడు, శాశ్వతమైన విలువ తరచుగా ధార్మిక పాఠం: పాత్ర, భక్తి మరియు వివేచన పెంపకం.",
+                    "section": "పురాణ విషయాలను ఎలా చదవాలి"
+                }
+            ],
+            "schema": {
+                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
+                "@context": "https://schema.org",
+                "@type": "వ్యాసం",
+                "isPartOf": {
+                    "@type": "వెబ్‌సైట్",
+                    "name": "సనాతనధర్మం",
+                    "url": "https://sanatanadharmam.in"
+                },
+                "name": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
+                "url": "https://sanatanadharmam.in/puranas/garuda"
+            }
         }
-      ],
-      "schema": {
-        "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in"
-        },
-        "name": "Garuda Purana – Purana Overview and Key Themes",
-        "url": "https://sanatanadharmam.in/puranas/garuda"
-      }
     }
-  }
 }

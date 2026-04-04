@@ -246,7 +246,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm md:text-sm rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-sm md:text-sm rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
