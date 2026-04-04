@@ -8,7 +8,7 @@ import useLocaleSection from '@app/hooks/useLocaleSection';
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
   const pathname = usePathname();
-  const locale = useLocaleSection('sharable_strings');
+  const locale = useLocaleSection('sharable-strings');
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {

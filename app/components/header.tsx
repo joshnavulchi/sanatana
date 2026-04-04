@@ -372,7 +372,7 @@ export default function Header() {
   const pathname = usePathname();
   const headerRef = useRef<HTMLElement | null>(null);
 
-  const sharable = useLocaleSection('sharable_strings');
+  const sharable = useLocaleSection('sharable-strings');
   const siteTitle = sharable?.sitetitle || defaultSiteTitle;
   const headerData = (sharable?.header || {}) as Record<string, unknown>;
   const navSections = buildNavSections(headerData);

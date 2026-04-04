@@ -10,7 +10,7 @@ import PageLayout from '@components/common/PageLayout';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('privacy_policy');
+  const ns = useLocaleSection('privacy-policy');
   type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
   // Normalize a source object (either server-injected locale or the loaded namespace)
   const normalizePrivacy = (src: any): PrivacyState => {
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
   if (isLoading && !privacy.title) {
     return (
       <PageLayout
-        metaKey="privacy_policy"
+        metaKey="privacy-policy"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]}
         className="layout-md bg-gradient-to-br from-[#f7e8ff] via-[#e0c3fc] to-[#8ec5fc] min-h-screen animate-fade-in">
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
 
   return (
     <PageLayout
-      metaKey="privacy_policy"
+      metaKey="privacy-policy"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className="layout-md bg-gradient-to-br from-[#f7e8ff] via-[#e0c3fc] to-[#8ec5fc] min-h-screen animate-fade-in">

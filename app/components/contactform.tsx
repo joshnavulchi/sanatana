@@ -19,7 +19,7 @@ type Props = {
 };
 
 export default function ContactForm({ fields, submitButton }: Props) {
-  const localeObj = useLocaleSection('sharable_strings');
+  const localeObj = useLocaleSection('sharable-strings');
   const defaults: Field[] = useMemo(() => ([
     { name: 'name', type: 'text', label: localeObj?.contactForm?.name || 'Name', placeholder: localeObj?.contactForm?.placeholderName || '' },
     { name: 'email', type: 'email', label: localeObj?.contactForm?.email || 'Email', placeholder: localeObj?.contactForm?.placeholderEmail || '', required: true },

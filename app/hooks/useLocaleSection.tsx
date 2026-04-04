@@ -4,7 +4,7 @@ import { getLocaleNamespaceObject } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 
 // Hook: read a primary locale file/object for a component.
-// - `section` is the primary filename (e.g., 'sharable_strings', 'home', 'about')
+// - `section` is the primary filename (e.g., 'sharable-strings', 'home', 'about')
 // Returns the resolved object (may be {} until loaded).
 /**
  * Unwrap a loaded namespace object.

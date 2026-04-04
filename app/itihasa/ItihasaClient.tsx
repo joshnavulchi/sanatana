@@ -10,7 +10,7 @@ interface NavLink { href: string; label: string; description?: string }
 
 export default function ItihasaClient() {
   const { isLoading } = useLocale();
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const section = shared?.footer?.itihasa;
   const title = section?.title || 'Itihasa';
 

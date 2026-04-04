@@ -202,7 +202,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 }
 
 export default function Footer() {
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const footer = shared?.footer || {};
   const pathname = usePathname();
 

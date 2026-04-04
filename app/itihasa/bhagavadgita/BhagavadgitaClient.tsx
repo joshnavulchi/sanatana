@@ -55,9 +55,9 @@ export default function BhagavadGitaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavadgita');
   const META_KEY = 'itihasa/bhagavadgita/index';
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
 
-  // Extract chapter links from sharable_strings footer itihasa data
+  // Extract chapter links from sharable-strings footer itihasa data
   const itihasaNav = shared?.footer?.itihasa?.nav;
   const bgEntry = Array.isArray(itihasaNav)
     ? itihasaNav.find((item: Record<string, unknown>) => item?.chapters_list && !item?.name)

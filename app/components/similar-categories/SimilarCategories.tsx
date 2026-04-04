@@ -154,10 +154,10 @@ export default function SimilarCategories({
     let mounted = true;
     (async () => {
       try {
-        const ns = await getLocaleNamespaceObject(locale, 'sharable_strings');
+        const ns = await getLocaleNamespaceObject(locale, 'sharable-strings');
         if (!mounted) return;
         const locObj = isPlainObject(ns) ? ns : {};
-        const sharableStrings = isPlainObject(locObj.sharable_strings) ? (locObj.sharable_strings as Record<string, unknown>) : {};
+        const sharableStrings = isPlainObject(locObj.sharable - strings) ? (locObj.sharable - strings as Record<string, unknown>) : {};
 
         const source =
           isPlainObject(sharableStrings.similar_categories)

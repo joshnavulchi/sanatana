@@ -158,7 +158,7 @@ export default function CookieConsent() {
     }
   }
 
-  const localeObj = useLocaleSection('sharable_strings');
+  const localeObj = useLocaleSection('sharable-strings');
 
   if (!visible) return null;
 

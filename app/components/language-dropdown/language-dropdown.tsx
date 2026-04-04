@@ -10,7 +10,7 @@ import { useLocale } from '@app/context/locale-context';
 import locales from '@lib/locales.json';
 
 export default function LanguageDropdown() {
-  const locale = useLocaleSection('sharable_strings');
+  const locale = useLocaleSection('sharable-strings');
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
