@@ -1,18 +1,4 @@
-[
-  {
-    "code": "ar",
-    "name": "Arabic",
-    "nativeName": "العربية",
-    "flag": "🇸🇦",
-    "region": "Saudi Arabia"
-  },
-  {
-    "code": "de",
-    "name": "German",
-    "nativeName": "Deutsch",
-    "flag": "🇩🇪",
-    "region": "Germany"
-  },
+﻿[
   {
     "code": "en",
     "name": "English",
@@ -21,52 +7,10 @@
     "region": "United States"
   },
   {
-    "code": "es",
-    "name": "Spanish",
-    "nativeName": "Español",
-    "flag": "🇪🇸",
-    "region": "Spain"
-  },
-  {
-    "code": "fr",
-    "name": "French",
-    "nativeName": "Français",
-    "flag": "🇫🇷",
-    "region": "France"
-  },
-  {
-    "code": "hi",
-    "name": "Hindi",
-    "nativeName": "हिन्दी",
-    "flag": "🇮🇳",
-    "region": "India"
-  },
-  {
-    "code": "ja",
-    "name": "Japanese",
-    "nativeName": "日本語",
-    "flag": "🇯🇵",
-    "region": "Japan"
-  },
-  {
-    "code": "ru",
-    "name": "Russian",
-    "nativeName": "Русский",
-    "flag": "🇷🇺",
-    "region": "Russia"
-  },
-  {
     "code": "te",
     "name": "Telugu",
     "nativeName": "తెలుగు",
     "flag": "🇮🇳",
     "region": "India"
-  },
-  {
-    "code": "zh-CN",
-    "name": "Chinese (Simplified)",
-    "nativeName": "中文 (简体)",
-    "flag": "🇨🇳",
-    "region": "China"
   }
 ]
