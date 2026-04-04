@@ -4,6 +4,10 @@ services:
     env: node
     plan: free
 
+    cache:
+      - node_modules
+      - .next/cache
+
     envVars:
       - key: NEXT_BUILD_MAX_WORKERS
         value: "4"
