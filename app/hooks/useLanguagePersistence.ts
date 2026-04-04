@@ -3,9 +3,8 @@
 
 import { useEffect, useState } from 'react';
 import { DEFAULT_LOCALE } from '@lib/i18n';
+import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import storage from '@lib/storage';
-
-const LANGUAGE_STORAGE_KEY = "sanatana_dharma_language";
 
 export function useLanguagePersistence() {
   const [language, setLanguage] = useState<string>(DEFAULT_LOCALE);

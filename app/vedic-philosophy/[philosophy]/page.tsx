@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/resolveParams';
 
 import PhilosophyClient from './PhilosophyClient';
 
@@ -40,15 +41,7 @@ export async function generateMetadata({ params, searchParams }: { params?: { ph
 }
 
 export default async function Page({ params }: { params: { philosophy?: string } | Promise<{ philosophy?: string }> }) {
-  let resolvedParams: { philosophy?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const slug = typeof resolvedParams?.philosophy === 'string' ? resolvedParams.philosophy : undefined;
   if (!slug) return notFound();
 

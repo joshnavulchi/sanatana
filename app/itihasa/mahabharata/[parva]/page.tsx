@@ -2,6 +2,7 @@
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute, MAHABHARATA_PARVAS } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/resolveParams';
 import { notFound } from 'next/navigation';
 
 import ParvaClient from './ParvaClient';
@@ -17,15 +18,7 @@ export async function generateMetadata({ params, searchParams }: { params?: { pa
 }
 
 export default async function Page({ params }: { params: { parva?: string } | Promise<{ parva?: string }> }) {
-  let resolvedParams: { parva?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const parvaParam = typeof resolvedParams?.parva === 'string' ? resolvedParams.parva : undefined;
   if (!parvaParam) return notFound();
 

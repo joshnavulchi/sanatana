@@ -2,6 +2,7 @@
 import { DEFAULT_LOCALE, detectLocale } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/resolveParams';
 import { notFound } from 'next/navigation';
 
 import KandaClient from './KandaClient';
@@ -23,14 +24,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params, searchParams }: { params?: { kanda?: string } | Promise<{ kanda?: string }>; searchParams?: any }) {
-  let resolvedParams: { kanda?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
+  const resolvedParams = await resolveParams(params);
   const v = resolvedParams?.kanda;
   // Determine locale from searchParams (fallback to DEFAULT_LOCALE)
   let locale = detectLocale(typeof searchParams === 'object' && searchParams ? (searchParams as any) : undefined);
@@ -62,15 +56,7 @@ export async function generateMetadata({ params, searchParams }: { params?: { ka
 }
 
 export default async function Page({ params }: { params: { kanda?: string } | Promise<{ kanda?: string }> }) {
-  let resolvedParams: { kanda?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const kandaParam = typeof resolvedParams?.kanda === 'string' ? resolvedParams.kanda : undefined;
   if (!kandaParam) return notFound();
 

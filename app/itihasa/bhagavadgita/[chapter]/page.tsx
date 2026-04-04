@@ -2,6 +2,7 @@
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/resolveParams';
 import { notFound } from 'next/navigation';
 
 import ChapterClient from './ChapterClient';
@@ -19,15 +20,7 @@ export async function generateMetadata({ params, searchParams }: { params?: { ch
 }
 
 export default async function Page({ params }: { params: { chapter?: string } | Promise<{ chapter?: string }> }) {
-  let resolvedParams: { chapter?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const chapterParam = typeof resolvedParams?.chapter === 'string' ? resolvedParams.chapter : undefined;
   if (!chapterParam) return notFound();
 

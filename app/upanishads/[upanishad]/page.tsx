@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { resolveParams } from '@lib/resolveParams';
 
 import UpanishadsClient from './UpanishadClient';
 
@@ -21,29 +22,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params, searchParams }: { params?: { upanishad?: string } | Promise<{ upanishad?: string }>; searchParams?: any }) {
-  let resolvedParams: { upanishad?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
+  const resolvedParams = await resolveParams(params);
   const s = resolvedParams?.upanishad;
   const key = s ? `upanishads/${s}/index` : 'upanishads/index';
   return await createGenerateMetadata(key)({ searchParams });
 }
 
 export default async function Page({ params }: { params: { upanishad?: string } | Promise<{ upanishad?: string }> }) {
-  let resolvedParams: { upanishad?: string } | undefined = params as any;
-  try {
-    if (resolvedParams && typeof (resolvedParams as any).then === 'function') {
-      resolvedParams = await (resolvedParams as any);
-    }
-  } catch (e) {
-    resolvedParams = undefined;
-  }
-
+  const resolvedParams = await resolveParams(params);
   const up = typeof resolvedParams?.upanishad === 'string' ? resolvedParams.upanishad : undefined;
   if (!up) return notFound();
 

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '@app/hooks/useLanguagePersistence';
 import { DEFAULT_LOCALE } from '@lib/i18n';
+import { LANGUAGE_COOKIE_MAX_AGE_SECONDS, LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
@@ -89,9 +90,7 @@ export default function LanguageDropdown() {
     saveLanguage(langCode);
     // Also set a cookie so server-side rendering can pick up the new language
     try {
-      // 1 year
-      const maxAge = 60 * 60 * 24 * 365;
-      document.cookie = `sanatana_dharma_language=${langCode}; Path=/; Max-Age=${maxAge}; SameSite=Lax`;
+      document.cookie = `${LANGUAGE_STORAGE_KEY}=${langCode}; Path=/; Max-Age=${LANGUAGE_COOKIE_MAX_AGE_SECONDS}; SameSite=Lax`;
     } catch (e) {
       // ignore cookie set errors
     }
