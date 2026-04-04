@@ -237,7 +237,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
 
 // Itihasa helpers (kept here for convenience)
 // Default fallbacks (used on client or if fs read fails)
-export let MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabhaparva', 'vanaparva'];
+export let MAHABHARATA_PARVAS: string[] = ['adi-parva', 'sabha-parva', 'vana-parva'];
 export let RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakanda'];
 
 export function parseNumericSuffix(slug: string): number | null {
