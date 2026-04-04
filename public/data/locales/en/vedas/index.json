@@ -1,6 +1,7 @@
 {
   "vedas": {
     "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
+    "definition": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
     "meta": {
       "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
       "description": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
@@ -20,7 +21,106 @@
       "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas"
     },
-    "definition": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
+    "openGraph": {
+      "title": "What are the Vedas? Ancient Knowledge Explained",
+      "description": "Explore the four Vedas and their teachings, origins, and spiritual significance in Sanatana Dharma.",
+      "images": [
+        {
+          "alt": "Four Vedas - Rigveda Yajurveda Samaveda Atharvaveda",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/vedas.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "description": "An in-depth explanation of the four Vedas and their role in Sanatana Dharma.",
+          "@type": "Article",
+          "about": [
+            {
+              "@type": "CreativeWork",
+              "name": "Rigveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Yajurveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Samaveda"
+            },
+            {
+              "@type": "CreativeWork",
+              "name": "Atharvaveda"
+            }
+          ],
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "dateModified": "2026-01-01",
+          "datePublished": "2024-01-01",
+          "headline": "What are the Vedas? Explanation of the Four Vedas",
+          "inLanguage": "en",
+          "mainEntityOfPage": {
+            "@id": "https://sanatanadharmam.in/vedas",
+            "@type": "WebPage"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            },
+            "name": "Sanatanadharmam"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "about": {
+            "description": "Ancient Sanskrit scriptures forming the foundation of Hindu philosophy and Sanatana Dharma.",
+            "@type": "Thing",
+            "name": "Vedas"
+          },
+          "name": "Vedas",
+          "url": "https://sanatanadharmam.in/vedas"
+        },
+        {
+          "@type": "Organization",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
+          "url": "https://sanatanadharmam.in"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in/vedas",
+              "name": "Vedas",
+              "position": 2
+            }
+          ]
+        }
+      ]
+    },
     "estimated_composition_period": {
       "early_vedic_period": "1500 BCE – 1200 BCE",
       "later_additions": "1200 BCE – 1000 BCE"
@@ -49,21 +149,6 @@
     },
     "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization. The Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine. According to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia. The teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization? Through hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma. The Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
     "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "openGraph": {
-      "title": "What are the Vedas? Ancient Knowledge Explained",
-      "description": "Explore the four Vedas and their teachings, origins, and spiritual significance in Sanatana Dharma.",
-      "images": [
-        {
-          "alt": "Four Vedas - Rigveda Yajurveda Samaveda Atharvaveda",
-          "height": 630,
-          "url": "https://sanatanadharmam.in/og/vedas.png",
-          "width": 1200
-        }
-      ],
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "url": "https://sanatanadharmam.in/vedas"
-    },
     "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence. Human beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony. Another fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha. The Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge. Through meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness. The Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
     "related_concepts": [
       "Upanishads",
@@ -231,91 +316,6 @@
       "middle_vedic_period": "1200 BCE - 900 BCE",
       "proto_vedic_period": "Before 2000 BCE",
       "upanishadic_period": "800 BCE - 300 BCE"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "description": "An in-depth explanation of the four Vedas and their role in Sanatana Dharma.",
-          "@type": "Article",
-          "about": [
-            {
-              "@type": "CreativeWork",
-              "name": "Rigveda"
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Yajurveda"
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Samaveda"
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Atharvaveda"
-            }
-          ],
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "dateModified": "2026-01-01",
-          "datePublished": "2024-01-01",
-          "headline": "What are the Vedas? Explanation of the Four Vedas",
-          "inLanguage": "en",
-          "mainEntityOfPage": {
-            "@id": "https://sanatanadharmam.in/vedas",
-            "@type": "WebPage"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://sanatanadharmam.in/images/logo.png"
-            },
-            "name": "Sanatanadharmam"
-          }
-        },
-        {
-          "@type": "WebPage",
-          "about": {
-            "description": "Ancient Sanskrit scriptures forming the foundation of Hindu philosophy and Sanatana Dharma.",
-            "@type": "Thing",
-            "name": "Vedas"
-          },
-          "name": "Vedas",
-          "url": "https://sanatanadharmam.in/vedas"
-        },
-        {
-          "@type": "Organization",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "name": "Sanatanadharmam",
-          "sameAs": [
-            "https://facebook.com/sanatanadharmam",
-            "https://twitter.com/sanatanadharmam",
-            "https://youtube.com/sanatanadharmam"
-          ],
-          "url": "https://sanatanadharmam.in"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "item": "https://sanatanadharmam.in",
-              "name": "Home",
-              "position": 1
-            },
-            {
-              "@type": "ListItem",
-              "item": "https://sanatanadharmam.in/vedas",
-              "name": "Vedas",
-              "position": 2
-            }
-          ]
-        }
-      ]
     }
   }
 }

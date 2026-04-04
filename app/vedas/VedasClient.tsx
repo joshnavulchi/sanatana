@@ -8,15 +8,21 @@ import PageLayout from '@components/common/PageLayout';
 
 type VedasData = Record<string, any> | null;
 
-export default function VedasClient({ initialVedas }: { initialVedas?: Record<string, unknown>[] } = {}) {
+export default function VedasClient({ initialData, initialVedas }: { initialData?: VedasData; initialVedas?: Record<string, unknown>[] } = {}) {
   const { isLoading, locale: ctxLocale } = useLocale();
-  const [data, setData] = useState<VedasData>(null);
-  const [loading, setLoading] = useState<boolean>(!initialVedas);
+  const [data, setData] = useState<VedasData>(initialData ?? null);
+  const [loading, setLoading] = useState<boolean>(!initialData && !initialVedas);
   const [error, setError] = useState<string | null>(null);
 
   const locale = (ctxLocale || DEFAULT_LOCALE) as string;
 
   useEffect(() => {
+    if (initialData) {
+      setData(initialData);
+      setLoading(false);
+      return;
+    }
+
     if (initialVedas && initialVedas.length > 0) {
       // map initial list into the same shape as locale data
       setData({ scripture_text: initialVedas });
@@ -71,6 +77,37 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
     );
   }
 
+  function renderValue(value: any, key?: string | number) {
+    if (value === null || value === undefined) return null;
+    if (typeof value === 'string' || typeof value === 'number') {
+      return <p key={key} className="text-lg sm:text-base text-gray-700 leading-relaxed">{String(value)}</p>;
+    }
+    if (Array.isArray(value)) {
+      return (
+        <ul key={key} className="list-disc ml-5 space-y-2 text-lg sm:text-base">
+          {value.map((item, index) => (
+            <li key={index}>{renderValue(item, index)}</li>
+          ))}
+        </ul>
+      );
+    }
+    if (typeof value === 'object') {
+      const entries = Object.entries(value);
+      if (entries.length === 0) return null;
+      return (
+        <div key={key} className="space-y-3 text-lg sm:text-base">
+          {entries.map(([childKey, childValue]) => (
+            <div key={childKey}>
+              <strong className="block text-gray-900">{childKey.replace(/_/g, ' ')}:</strong>
+              {renderValue(childValue, childKey)}
+            </div>
+          ))}
+        </div>
+      );
+    }
+    return null;
+  }
+
   const scriptureList = Array.isArray(data.scripture_text) ? data.scripture_text.map((s: any) => ({ id: (s.veda || '').toLowerCase().replace(/\s+/g, ''), label: s.veda || s.title || 'Veda' })) : [
     { id: 'rigveda', label: 'Rigveda' },
     { id: 'yajurveda', label: 'Yajurveda' },
@@ -92,22 +129,19 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
                 <div key={idx} className="p-4 rounded-lg bg-white/60 shadow-sm">
                   <h5 className="font-semibold text-lg">{s.veda}</h5>
                   {s.description && <p className="text-lg sm:text-base text-gray-700 mt-2">{s.description}</p>}
+                  {s.primary_focus && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Focus:</strong> {s.primary_focus}</p>}
+                  {s.importance && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Importance:</strong> {s.importance}</p>}
+                  {s.applications && renderValue(s.applications)}
+                  {s.topics && renderValue(s.topics)}
+                  {s.structure && renderValue(s.structure)}
+                  {s.divisions && renderValue(s.divisions)}
+                  {s.primary_topics && renderValue(s.primary_topics)}
+                  {s.hymn_count && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Hymn count:</strong> {String(s.hymn_count)}</p>}
                 </div>
               ))}
             </div>
           </section>
         )}
-
-        <section className="mt-6">
-          <h4 className="text-2xl font-semibold mb-3">Vedas</h4>
-          <ul className="space-y-3">
-            {scriptureList.map((v) => (
-              <li key={v.id}>
-                <Link href={`/vedas/${v.id}`} className="text-amber-800 hover:underline">{v.label}</Link>
-              </li>
-            ))}
-          </ul>
-        </section>
 
         {data.meaning_of_word_veda && (
           <section className="mt-6">
@@ -120,6 +154,13 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
           <section className="mt-6">
             <h4 className="text-xl font-semibold mb-2">Philosophical explanation</h4>
             <div className="prose max-w-none"><p>{data.philosophical_explanation}</p></div>
+          </section>
+        )}
+
+        {data.structure_text && (
+          <section className="mt-6">
+            <h4 className="text-xl font-semibold mb-2">Structure text</h4>
+            {renderValue(data.structure_text, 'structure_text')}
           </section>
         )}
 
@@ -204,14 +245,40 @@ export default function VedasClient({ initialVedas }: { initialVedas?: Record<st
         {data.structure && (
           <section className="mt-6">
             <h4 className="text-xl font-semibold mb-2">Structure summary</h4>
-            {Object.entries(data.structure).map(([k, v]) => (
-              <div key={k} className="mb-3">
-                <h5 className="font-medium">{k}</h5>
-                <pre className="text-sm bg-white/60 p-2 rounded overflow-x-auto">{JSON.stringify(v, null, 2)}</pre>
-              </div>
-            ))}
+            <div className="space-y-4 text-lg sm:text-base text-gray-700">
+              {Object.entries(data.structure).map(([k, v]) => (
+                <div key={k} className="mb-3">
+                  <h5 className="font-medium text-gray-900">{k.replace(/_/g, ' ')}</h5>
+                  {renderValue(v, k)}
+                </div>
+              ))}
+            </div>
           </section>
         )}
+
+        {(() => {
+          const hiddenKeys = new Set([
+            'title', 'definition', 'meta', 'openGraph', 'schema',
+            'introduction', 'scripture_text', 'meaning_of_word_veda', 'philosophical_explanation',
+            'estimated_composition_period', 'vedic_society', 'influence_of_vedas',
+            'vedic_timeline', 'vedic_philosophical_concepts', 'related_concepts', 'structure'
+          ]);
+          const extraKeys = Object.keys(data).filter((key) => !hiddenKeys.has(key));
+          if (extraKeys.length === 0) return null;
+          return (
+            <section className="mt-6">
+              <h4 className="text-xl font-semibold mb-2">Additional Vedas content</h4>
+              <div className="space-y-6">
+                {extraKeys.map((key) => (
+                  <div key={key}>
+                    <h5 className="font-medium capitalize">{key.replace(/_/g, ' ')}</h5>
+                    {renderValue(data[key], key)}
+                  </div>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
       </div>
     </PageLayout>
   );
