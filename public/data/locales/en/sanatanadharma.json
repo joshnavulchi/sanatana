@@ -4,8 +4,8 @@
     "description": "Discover Sanatana Dharma, the eternal way of life rooted in the Vedas. Learn its meaning, core principles like Dharma, Karma, Moksha, and insights from the Upanishads and Bhagavad Gita.",
     "meta": {
       "title": "What is Sanatana Dharma? Meaning, Philosophy, Vedas & Eternal Way of Life",
-      "canonical": "https://sanatanadharmam.in/sanatanadharma",
       "description": "Discover Sanatana Dharma, the eternal way of life rooted in the Vedas. Learn its meaning, core principles like Dharma, Karma, Moksha, and insights from the Upanishads and Bhagavad Gita.",
+      "canonical": "https://sanatanadharmam.in/sanatanadharma",
       "keywords": [
         "what is sanatana dharma",
         "sanatana dharma meaning",
@@ -24,98 +24,17 @@
     "openGraph": {
       "title": "What is Sanatana Dharma? Eternal Wisdom Explained",
       "description": "Explore the philosophy of Sanatana Dharma, including Dharma, Karma, Moksha, and teachings from the Vedas, Upanishads, and Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/sanatanadharma",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
       "images": [
         {
-          "url": "https://sanatanadharmam.in/images/og/home.png",
-          "width": 1200,
+          "alt": "Sanatana Dharma Philosophy and Vedic Wisdom",
           "height": 630,
-          "alt": "Sanatana Dharma Philosophy and Vedic Wisdom"
+          "url": "https://sanatanadharmam.in/images/og/home.png",
+          "width": 1200
         }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "headline": "What is Sanatana Dharma? Meaning and Philosophy",
-          "description": "Comprehensive guide to Sanatana Dharma, its philosophy, principles, and Vedic foundations.",
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://sanatanadharmam.in/images/logo.png"
-            }
-          },
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/sanatanadharma"
-          },
-          "datePublished": "2024-01-01",
-          "dateModified": "2026-01-01",
-          "inLanguage": "en"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Sanatana Dharma",
-          "url": "https://sanatanadharmam.in/sanatanadharma",
-          "about": {
-            "@type": "Thing",
-            "name": "Sanatana Dharma",
-            "description": "The eternal spiritual tradition rooted in the Vedas and Hindu philosophy."
-          }
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "sameAs": [
-            "https://facebook.com/sanatanadharmam",
-            "https://twitter.com/sanatanadharmam",
-            "https://youtube.com/sanatanadharmam"
-          ],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://sanatanadharmam.in"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Sanatana Dharma",
-              "item": "https://sanatanadharmam.in/sanatanadharma"
-            }
-          ]
-        }
-      ]
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/sanatanadharma"
     },
     "sections": [
       {
@@ -564,6 +483,87 @@
         "para2": "Modern Relevance Environmental Ethics: Seeing nature as sacred promotes sustainability and respect for the planet. Mental Well-being: Practices like Yoga and meditation, rooted in cosmic harmony, help manage stress and anxiety. Global Harmony: The idea of Vasudhaiva Kutumbakam (“The world is one family”) fosters peace and inclusivity. Work-Life Balance: Gita’s teaching of detached action helps reduce burnout and increase productivity. Science and Spirituality: Concepts like interconnectedness resonate with modern physics and ecology.",
         "para3": "Essence: Cosmic vision reminds us that life is not isolated—it’s part of a vast, divine order. Living with this awareness brings balance, compassion, and purpose."
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "description": "Comprehensive guide to Sanatana Dharma, its philosophy, principles, and Vedic foundations.",
+          "@type": "Article",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "dateModified": "2026-01-01",
+          "datePublished": "2024-01-01",
+          "headline": "What is Sanatana Dharma? Meaning and Philosophy",
+          "inLanguage": "en",
+          "mainEntityOfPage": {
+            "@id": "https://sanatanadharmam.in/sanatanadharma",
+            "@type": "WebPage"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            },
+            "name": "Sanatanadharmam"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "about": {
+            "description": "The eternal spiritual tradition rooted in the Vedas and Hindu philosophy.",
+            "@type": "Thing",
+            "name": "Sanatana Dharma"
+          },
+          "name": "Sanatana Dharma",
+          "url": "https://sanatanadharmam.in/sanatanadharma"
+        },
+        {
+          "@type": "Organization",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "contactType": "customer support",
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          },
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "sameAs": [
+            "https://facebook.com/sanatanadharmam",
+            "https://twitter.com/sanatanadharmam",
+            "https://youtube.com/sanatanadharmam"
+          ],
+          "url": "https://sanatanadharmam.in"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in/sanatanadharma",
+              "name": "Sanatana Dharma",
+              "position": 2
+            }
+          ]
+        }
+      ]
+    }
   }
 }

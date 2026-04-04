@@ -3,7 +3,7 @@
 // Folder: 'en\vedic-science\mathematics'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './mathematics.json';
+import _j0 from './index.json';
 
 
 

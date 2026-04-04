@@ -3,13 +3,13 @@
 // Folder: 'en\explore'
 // DO NOT EDIT MANUALLY
 
-import _j0 from './cosmictime.json';
-import _j1 from './drip_irrigation_process.json';
-import _j2 from './earth.json';
-import _j3 from './explore.json';
-import _j4 from './historical_timeline.json';
-import _j5 from './horoscope.json';
-import _j6 from './humans.json';
+import _j0 from './drip_irrigation_process.json';
+import _j1 from './earth.json';
+import _j2 from './explore.json';
+import _j3 from './historical_timeline.json';
+import _j4 from './horoscope.json';
+import _j5 from './humans.json';
+import _j6 from './karma.json';
 import _j7 from './religion_conversion.json';
 import _j8 from './shakti_peethas.json';
 import _j9 from './solar.json';

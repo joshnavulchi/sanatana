@@ -1,3 +1,13 @@
+---
+name: Code Quality
+description: |
+  A workspace agent focused on enforcing code quality standards, best practices, and maintainability across the codebase. Use this agent to review code for readability, consistency, performance, and adherence to established coding guidelines.
+applyTo:
+  - app/**
+  - lib/**
+author: vulchi.vijay@gmail.com
+---
+
 # ⚙️ Next.js + React Coding Standards (Enterprise Grade)
 
 ## 🧠 Objective

@@ -100,3 +100,4 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
     </span>
   );
 }
+

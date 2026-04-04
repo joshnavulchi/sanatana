@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
@@ -41,7 +42,7 @@ export default async function RootLayout({
   try {
     const hdrs = await headers();
     const cookie = hdrs.get('cookie') || '';
-    const match = cookie.match(/sanatana_dharma_language=([^;]+)/);
+    const match = cookie.match(new RegExp(`${LANGUAGE_STORAGE_KEY}=([^;]+)`));
     if (match && SUPPORTED_LOCALES.includes(match[1])) {
       lang = match[1];
     } else {

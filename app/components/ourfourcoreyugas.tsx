@@ -150,7 +150,7 @@ export default function OurFourCoreYugas() {
           <p className="mt-4 text-lg sm:text-base leading-relaxed text-gray-700">
             {subtitle}{' '}
             <Link
-              href="/"
+              href="/cosmictime"
               className="group inline-flex items-center gap-1 text-[#9a3412] underline decoration-[#d97706]/40 underline-offset-4 transition-all duration-300 hover:text-[#7a2e1f] hover:decoration-[#d97706]"
               aria-label="Learn more about Cosmic Time"
             >

@@ -3,6 +3,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, t as translate } from '@lib/i18n';
+import { LANGUAGE_COOKIE_MAX_AGE_SECONDS, LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import storage from '@lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
@@ -55,17 +56,16 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
       // Persist to storage (localStorage abstraction may throw in some envs)
       try {
-        storage.setItem("sanatana_dharma_language", lang);
+        storage.setItem(LANGUAGE_STORAGE_KEY, lang);
       } catch (e) {
         // ignore storage errors
       }
 
       // Ensure a cookie exists so server-side rendering picks up the user's preference
       try {
-        const cookieMatch = typeof document !== 'undefined' ? document.cookie.match(/sanatana_dharma_language=([^;]+)/) : null;
-        const maxAge = 60 * 60 * 24 * 365; // 1 year
+        const cookieMatch = typeof document !== 'undefined' ? document.cookie.match(new RegExp(`${LANGUAGE_STORAGE_KEY}=([^;]+)`)) : null;
         if (!cookieMatch || cookieMatch[1] !== lang) {
-          document.cookie = `sanatana_dharma_language=${lang}; Path=/; Max-Age=${maxAge}; SameSite=Lax`;
+          document.cookie = `${LANGUAGE_STORAGE_KEY}=${lang}; Path=/; Max-Age=${LANGUAGE_COOKIE_MAX_AGE_SECONDS}; SameSite=Lax`;
           try { router.refresh(); } catch (e) { /* ignore refresh errors */ }
         }
       } catch (e) {
@@ -82,7 +82,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
       }
 
       try {
-        const storedLang = storage.getItem("sanatana_dharma_language");
+        const storedLang = storage.getItem(LANGUAGE_STORAGE_KEY);
         if (storedLang) {
           await applyLocale(storedLang);
           return;
@@ -133,3 +133,4 @@ export function useLocale() {
   return useContext(LocaleContext);
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

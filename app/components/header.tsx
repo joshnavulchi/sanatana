@@ -372,7 +372,7 @@ export default function Header() {
   const pathname = usePathname();
   const headerRef = useRef<HTMLElement | null>(null);
 
-  const sharable = useLocaleSection('sharable_strings');
+  const sharable = useLocaleSection('sharable-strings');
   const siteTitle = sharable?.sitetitle || defaultSiteTitle;
   const headerData = (sharable?.header || {}) as Record<string, unknown>;
   const navSections = buildNavSections(headerData);
@@ -412,7 +412,7 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
-      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Barat.</div>
+      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Bharat alias India.</div>
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
       <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}
@@ -427,7 +427,7 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl sm:text-3xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <span className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>
@@ -438,15 +438,15 @@ export default function Header() {
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          {/* <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          <div className="border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
-          </div> */}
+          </div>
           <ThemeToggle />
         </nav>
 
         {/* ─── Mobile Toggle ─── */}
         <div className="flex items-center md:hidden gap-2">
-          {/* <LanguageDropdown /> */}
+          <LanguageDropdown />
           <ThemeToggle />
           <button
             aria-label={open ? "Close menu" : "Open menu"}
