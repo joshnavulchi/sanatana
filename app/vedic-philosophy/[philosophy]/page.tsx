@@ -2,8 +2,7 @@
 import { notFound } from 'next/navigation';
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
-import { createGenerateMetadata } from '@lib/pageUtils';
-import { resolveParams } from '@lib/resolveParams';
+import { createGenerateMetadata, resolveParams } from '@lib/pageUtils';
 
 import PhilosophyClient from './PhilosophyClient';
 

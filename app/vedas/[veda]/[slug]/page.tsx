@@ -1,8 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { DEFAULT_LOCALE } from '@lib/i18n';
 import { fetchContentByRoute } from '@lib/siteUtils';
-import { createGenerateMetadata } from '@lib/pageUtils';
-import { resolveParams } from '@lib/resolveParams';
+import { createGenerateMetadata, resolveParams } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
 import SlugClient from './SlugClient';
