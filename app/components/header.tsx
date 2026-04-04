@@ -427,7 +427,7 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl sm:text-3xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <span className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>
@@ -438,7 +438,7 @@ export default function Header() {
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
+          <div className="border-l border-transparent flex items-center gap-1">
             <LanguageDropdown />
           </div>
           <ThemeToggle />

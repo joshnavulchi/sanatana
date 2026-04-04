@@ -220,6 +220,12 @@ Runs:
 
 Also ensure formatting and tests pass if the project provides scripts for them
 
+
+## Build Script Policy
+
+* Do NOT modify `.render-build.sh` or the `scripts` section of `package.json` without explicit approval from repository maintainers.
+* Changes to deployment or CI scripts require clear justification and maintainer approval.
+
 ---
 
 # Build and Locale Handling
@@ -245,6 +251,28 @@ export async function generateStaticParams() {
 * Ensure output: 'export' is used for static generation
 * Filter out invalid items and those missing locales
 * This solution must be applied to all pages and OpenSpec artifacts
+
+---
+
+# SEO and Static Export Requirements
+
+* Generate `sitemap.xml` automatically and include all static and dynamic routes.
+* Generate `robots.txt` and allow all indexable pages while blocking only unnecessary paths.
+* Add canonical URLs for every page using absolute URLs in metadata.
+* Use `generateMetadata()` on every page with title, description, keywords, Open Graph, and Twitter metadata.
+* Add structured data (JSON-LD) where appropriate using `Article`, `WebPage`, or `Breadcrumb` schemas.
+* Implement `generateStaticParams()` for all dynamic routes so every page exists at build time.
+* Use clean static URLs and avoid query-based navigation for core content.
+* Ensure critical content is server-rendered and indexable without client-only hydration.
+* Avoid server-only features or runtime-only pages that break static export.
+
+---
+
+# Repository Build Script Policy
+
+* Do NOT modify `.render-build.sh` or the `scripts` section of `package.json` without explicit approval from repository maintainers.
+* These scripts are critical for deployment and CI/CD stability.
+* Any change to build/deploy scripts must include a clear justification and maintainer approval.
 
 ---
 

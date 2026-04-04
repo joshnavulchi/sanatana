@@ -1,5 +1,5 @@
 ---
-name: JSON Optimizer Agent
+name: JSON Optimizer
 description: |
   A workspace agent specialized in auditing, validating, and optimizing JSON locale files (especially `en`),
   plus guiding localization workflows. Use this agent when working on translations, locale merges, or publishing localized builds.

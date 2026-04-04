@@ -1,2325 +1,2325 @@
 {
-  "cosmictime": {
-    "abiogenesis": {
-      "chemical_evolution": {
-        "lipid_world": {
-          "protocells": "Spontaneous lipid bilayer vesicle formation"
-        },
-        "prebiotic_synthesis": {
-          "miller_urey": "Amino acids from electric discharge in primitive atmosphere"
-        },
-        "rna_world": {
-          "self_replicating_molecules": "RNA as genetic + catalytic agent"
-        }
-      },
-      "earliest_life": {
-        "evidence": [
-          "Stromatolites",
-          "Isotopic carbon fractionation"
-        ],
-        "organisms": "Prokaryotic microbes",
-        "time": "3.7–3.5 billion years ago"
-      }
-    },
-    "biological_evolution": {
-      "cambrian_explosion": {
-        "diversification": "Major animal body plans emerged",
-        "time": "541 million years ago"
-      },
-      "eukaryotic_cells": {
-        "theory": "Endosymbiosis",
-        "time": "2.1 billion years ago"
-      },
-      "mass_extinctions": [
-        {
-          "event": "Permian-Triassic",
-          "loss": "96% marine species",
-          "time": "252 million years ago"
-        },
-        {
-          "cause": "Asteroid impact",
-          "effect": "Dinosaur extinction",
-          "event": "Cretaceous-Paleogene",
-          "time": "66 million years ago"
-        }
-      ],
-      "oxygenation_event": {
-        "impact": [
-          "Aerobic respiration evolution",
-          "Ozone layer formation"
-        ],
-        "time": "2.4 billion years ago"
-      }
-    },
-    "cosmic_evolution": {
-      "big_bang": {
-        "evidence": [
-          "Cosmic Microwave Background radiation",
-          "Hubble expansion",
-          "Primordial element abundance ratios"
-        ],
-        "physics": {
-          "baryogenesis": "Matter-antimatter asymmetry formation.",
-          "inflation_epoch": "10^-36 to 10^-32 seconds; exponential expansion.",
-          "nucleosynthesis": {
-            "elements_formed": [
-              "Hydrogen",
-              "Helium-4",
-              "Deuterium",
-              "Lithium"
-            ],
-            "time": "First 3 minutes"
-          },
-          "planck_epoch": "Quantum gravity dominated; physics not fully understood."
-        },
-        "time": "13.8 billion years ago"
-      },
-      "stellar_evolution": {
-        "first_stars": {
-          "role": "Created heavy elements via fusion",
-          "time": "200 million years after Big Bang",
-          "type": "Population III stars"
-        },
-        "supernovae": {
-          "role": "Distributed carbon, oxygen, iron into interstellar medium"
-        }
-      }
-    },
     "cosmictime": {
-      "title": "What are Yugas? Hindu Cosmic Time Cycles Explained (Kalpa, Manvantara)",
-      "description": "Understand cosmic time in Sanatana Dharma including Yuga cycles, Manvantara, and Kalpa. Learn their durations, structure, and comparison with modern scientific cosmology.",
-      "meta": {
-        "title": "What are Yugas? Hindu Cosmic Time Cycles Explained (Kalpa, Manvantara)",
-        "description": "Understand cosmic time in Sanatana Dharma including Yuga cycles, Manvantara, and Kalpa. Learn their durations, structure, and comparison with modern scientific cosmology.",
-        "canonical": "https://sanatanadharmam.in/cosmictime",
-        "keywords": [
-          "what are yugas",
-          "yuga cycle explained",
-          "yuga duration satya treta dvapara kali",
-          "kalpa and manvantara meaning",
-          "hindu cosmic time cycles",
-          "cosmic time in hinduism",
-          "yuga cycle vs modern science",
-          "manvantara duration explained",
-          "kalpa duration in years",
-          "cyclical time philosophy"
-        ],
-        "robots": "index, follow, max-image-preview:large",
-        "url": "https://sanatanadharmam.in/cosmictime"
-      },
-      "answer": "Because: Time is cyclical, not linear, Creation and dissolution repeat endlessly, Consciousness governs time flow, Vast scales are expected, not exceptional",
-      "assumes": "Sanātana Dharma assumes: creation → preservation → dissolution → recreation (repeat)",
-      "brahma_full_day": "One Full Day of Brahma",
-      "cosmictimesystem": {
-        "baseunithumanyears": 432000,
-        "brahmalifetimeyears": 311040000000000,
-        "chaturyuga": {
-          "durationyears": 4320000,
-          "ratio": "4:3:2:1",
-          "yugas": [
-            {
-              "dharma": "100%",
-              "duration": 1728000,
-              "name": "Satya Yuga"
+        "abiogenesis": {
+            "chemical_evolution": {
+                "lipid_world": {
+                    "protocells": "ఆకస్మిక లిపిడ్ బిలేయర్ వెసికిల్ నిర్మాణం"
+                },
+                "prebiotic_synthesis": {
+                    "miller_urey": "ఆదిమ వాతావరణంలో విద్యుత్ ఉత్సర్గ నుండి అమైనో ఆమ్లాలు"
+                },
+                "rna_world": {
+                    "self_replicating_molecules": "జన్యు + ఉత్ప్రేరక ఏజెంట్‌గా RNA"
+                }
             },
-            {
-              "dharma": "75%",
-              "duration": 1296000,
-              "name": "Treta Yuga"
-            },
-            {
-              "dharma": "50%",
-              "duration": 864000,
-              "name": "Dvapara Yuga"
-            },
-            {
-              "dharma": "25%",
-              "duration": 432000,
-              "name": "Kali Yuga"
+            "earliest_life": {
+                "evidence": [
+                    "స్ట్రోమాటోలైట్స్",
+                    "ఐసోటోపిక్ కార్బన్ భిన్నం"
+                ],
+                "organisms": "ప్రొకార్యోటిక్ సూక్ష్మజీవులు",
+                "time": "3.7–3.5 బిలియన్ సంవత్సరాల క్రితం"
             }
-          ]
         },
-        "kalpa": {
-          "description": "One day of Brahma",
-          "durationyears": 4320000000,
-          "manvantaras": 14
-        },
-        "manvantara": {
-          "chaturyugas": 71,
-          "durationyears": 306720000
-        }
-      },
-      "cyclical_universe": "Cyclical Universe, Not Linear History",
-      "definition": "In Sanātana Dharma, time is not conceived in short, linear spans (centures or millennia) but as Vast, Cyclic, Cosmological scales. The duration of Satya Yuga = 1,728,000 human years becomes understandable when viewed through this framework.",
-      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-      "final_consolidated_insight": {
-        "kalpas_explain": "Planetary-scale existence",
-        "manvantaras_explain": "Civilizational resets",
-        "overall_conclusion": "Together they form a complete macro–micro philosophy of cosmic time.",
-        "sanatana_dharma_explains": "Cyclic nature and moral dynamics",
-        "science_validates": "Scale of time",
-        "yugas_explain": "Moral and spiritual decline"
-      },
-      "human_years": "When durations are expressed in human years, they appear enormous, but within cosmic timekeeping, they are proportionate and finite.",
-      "keypoint": "These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1).",
-      "lifetime_brahma": "Lifetime of Brahma - 100 Brahma years - Each year = 360 days",
-      "longduration": "What Makes Such a Long Duration “Possible”?",
-      "manvantara": {
-        "definition": "A Manvantara is a major cosmic age ruled by a Manu, the progenitor and lawgiver of humanity.",
-        "each_manvantara": [
-          "One Manu",
-          "One Indra",
-          "New Rishis",
-          "New cosmic and moral order"
-        ],
-        "explains": [
-          "Repeated rise and fall of civilizations",
-          "Loss and reemergence of knowledge",
-          "Absence of a single first humanity",
-          "Cosmic administrative structure"
-        ],
-        "fourteen_kalpas": [
-          "Svayambhuva",
-          "Svarocisa",
-          "Uttama",
-          "Tamasa",
-          "Raivata",
-          "Caksusa",
-          "Vaivasvata",
-          "Future Manu"
-        ],
-        "human_history": {
-          "implications": [
-            "Large archaeological gaps are expected",
-            "Sudden emergence of advanced concepts",
-            "Recurring global mythological patterns"
-          ],
-          "one_manvantara_years": 306720000,
-          "recorded_human_history_years": 6000
-        },
-        "manvantara_within_kalpa": {
-          "kalpa": "1 kalpa = 14",
-          "periods": "Sandhya phases between Manvantaras",
-          "type": "Partial dissolution at transitions"
-        },
-        "purpose": "Represents a complete reset of civilization, governance, and cosmic administration.",
-        "structure_of_manvantara": {
-          "calculation": "71 × 4,320,000",
-          "chaturyugas_per_manvantara": 71,
-          "duration_human_years": 306720000
-        }
-      },
-      "modern_thinking_assumes": "Modern thinking assumes: civilization → progress → end",
-      "night_of_brahma": "Night of Brahma - Equal in length to one Kalpa, Universe enters partial dissolution, No manifest life",
-      "non_contradictory": "Scientific Perspective (Non-Contradictory) - While modern science does not formally accept Yuga timelines, it does not disprove long epochs: Earth is ~4.54 billion years old, Homo sapiens ~300,000 years old, Geological ages span millions of years, Civilizations may have existed and disappeared without fossil or material continuity",
-      "non_contradictory_thus": "Thus, long durations are scientifically plausible, even if interpretations differ.",
-      "numericalradio": "The four Yugas follow a strict numerical ratio",
-      "openGraph": {
-        "title": "What are Yugas? Hindu Cosmic Time Explained",
-        "description": "Explore Yuga cycles, Kalpa, and Manvantara with their durations and comparison to modern cosmology.",
-        "images": [
-          {
-            "alt": "Yuga Cycles and Cosmic Time in Sanatana Dharma",
-            "height": 630,
-            "url": "https://sanatanadharmam.in/og/cosmictime.png",
-            "width": 1200
-          }
-        ],
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/cosmictime"
-      },
-      "question": "Why These Numbers Are “Possible”?",
-      "ratio": [
-        "Yuga Ratio Duration (human years)",
-        "Satya (Krita) 4 1,728,000",
-        "Treta 3 1,296,000",
-        "Dvapara 2 864,000",
-        "Kali 1 432,000"
-      ],
-      "satya_yuga_long_design": "Satya Yuga is long by design, reflecting a universe operating at its highest ethical and spiritual equilibrium. The Full Time Hierarchy (Small → Vast)",
-      "scale_of_time": "Different Scale of Time (Divine vs Human) Ancient texts distinguish between: Manuṣya Kāla (human time), Divya Kāla (divine/cosmic time)",
-      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
-      "scientific": {
-        "evolution_vs_moral": {
-          "key_insight": "Scientific progress and moral decline can occur simultaneously without contradiction.",
-          "modern_science": {
-            "focus": "Biological evolution",
-            "moral_dimension": "No inherent moral or spiritual metric",
-            "time_nature": "Value-neutral",
-            "trend": "Increase in physical and technological complexity"
-          },
-          "yuga_system": {
-            "focus": "Moral and spiritual condition",
-            "physical_progress": "May coexist with spiritual decline",
-            "time_nature": "Consciousness-dependent",
-            "trend": "Decline of Dharma across Yugas"
-          }
-        },
-        "fundamental_approach_difference": {
-          "modern_science": {
-            "creation_process": "Big Bang expansion",
-            "end_state": "Heat death or collapse (theoretical)",
-            "measurement_basis": "Matter, energy, and physical laws",
-            "time_model": "Linear",
-            "universe_nature": "Single observable universe"
-          },
-          "sanatana_dharma": {
-            "creation_process": "Repeated creation, preservation, and dissolution",
-            "end_state": "Dissolution followed by rebirth",
-            "measurement_basis": "Consciousness, Dharma, and cosmic order",
-            "time_model": "Cyclical",
-            "universe_nature": "Eternal and recurring"
-          }
-        },
-        "reason_for_vast_numbers_in_ancient_texts": {
-          "base_number_significance": {
-            "properties": [
-              "Highly divisible",
-              "Cyclic",
-              "Structurally scalable"
+        "biological_evolution": {
+            "cambrian_explosion": {
+                "diversification": "ప్రధాన జంతు శరీర ప్రణాళికలు ఉద్భవించాయి",
+                "time": "541 మిలియన్ సంవత్సరాల క్రితం"
+            },
+            "eukaryotic_cells": {
+                "theory": "ఎండోసింబియోసిస్",
+                "time": "2.1 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "mass_extinctions": [
+                {
+                    "event": "పెర్మియన్-ట్రయాసిక్",
+                    "loss": "96% సముద్ర జాతులు",
+                    "time": "252 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                {
+                    "cause": "గ్రహశకలం ప్రభావం",
+                    "effect": "డైనోసార్ విలుప్తం",
+                    "event": "క్రెటేషియస్-పాలియోజీన్",
+                    "time": "66 మిలియన్ సంవత్సరాల క్రితం"
+                }
             ],
-            "value": 432000
-          },
-          "cosmic_reference": "Time measured at a universal, not human, scale",
-          "numerical_structure": "Repetition and scalability",
-          "oral_tradition_support": "Precise ratios aided memorization"
+            "oxygenation_event": {
+                "impact": [
+                    "ఏరోబిక్ శ్వాసక్రియ పరిణామం",
+                    "ఓజోన్ పొర ఏర్పడటం"
+                ],
+                "time": "2.4 బిలియన్ సంవత్సరాల క్రితం"
+            }
         },
-        "scientific_acceptability_of_long_time_spans": {
-          "accepted_by_science": [
-            "Stellar lifetimes spanning billions of years",
-            "Galactic cycles spanning trillions of years",
-            "Unknown conditions before the Big Bang"
-          ],
-          "conclusion": "Objections to Yuga durations are philosophical rather than scientific."
+        "cosmic_evolution": {
+            "big_bang": {
+                "evidence": [
+                    "కాస్మిక్ మైక్రోవేవ్ బ్యాక్‌గ్రౌండ్ రేడియేషన్",
+                    "హబుల్ విస్తరణ",
+                    "ప్రిమోర్డియల్ ఎలిమెంట్ సమృద్ధి నిష్పత్తులు"
+                ],
+                "physics": {
+                    "baryogenesis": "పదార్థం-వ్యతిరేక అసమానత ఏర్పడటం.",
+                    "inflation_epoch": "10^-36 నుండి 10^-32 సెకన్లు; ఘాతాంక విస్తరణ.",
+                    "nucleosynthesis": {
+                        "elements_formed": [
+                            "హైడ్రోజన్",
+                            "హీలియం-4",
+                            "డ్యూటెరియం",
+                            "లిథియం"
+                        ],
+                        "time": "మొదటి 3 నిమిషాలు"
+                    },
+                    "planck_epoch": "క్వాంటం గ్రావిటీ ఆధిపత్యం; భౌతికశాస్త్రం పూర్తిగా అర్థం కాలేదు."
+                },
+                "time": "13.8 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "stellar_evolution": {
+                "first_stars": {
+                    "role": "ఫ్యూజన్ ద్వారా భారీ మూలకాలను సృష్టించారు",
+                    "time": "బిగ్ బ్యాంగ్ తర్వాత 200 మిలియన్ సంవత్సరాల",
+                    "type": "జనాభా III నక్షత్రాలు"
+                },
+                "supernovae": {
+                    "role": "కార్బన్, ఆక్సిజన్, ఇనుము ఇంటర్స్టెల్లార్ మాధ్యమంలోకి పంపిణీ చేయబడింది"
+                }
+            }
         },
-        "scientific_summary": {
-          "core_difference": "Purpose, not scale",
-          "sanatana_dharma_role": "Explains decay of moral and cosmic order",
-          "science_role": "Explains behavior of matter and energy",
-          "shared_ground": "Acceptance of vast cosmic time"
-        },
-        "timeline_comparison_years": {
-          "age_of_earth_science": {
-            "description": "Estimated geological age of Earth",
-            "value_years": 4540000000
-          },
-          "age_of_universe_science": {
-            "description": "Estimated age since the Big Bang",
-            "value_years": 13800000000
-          },
-          "day_and_night_of_brahma": {
-            "description": "One full day-night cycle of Brahma",
-            "value_years": 8640000000
-          },
-          "lifespan_of_brahma": {
-            "description": "100 Brahma years",
-            "value_years": 311040000000000
-          },
-          "observation": "The duration of a Kalpa closely matches the geological age of Earth in scale, though not in interpretation.",
-          "one_kalpa": {
-            "description": "One day of Brahma",
-            "value_years": 4320000000
-          }
-        }
-      },
-      "scope": "Comparison between Sanātana Dharma cosmology and modern science, including Yugas, Manvantara, Kalpa, and philosophical interpretations of time.",
-      "staya_yuga_longest": "Why Satya Yuga Is the Longest",
-      "staya_yuga_longest_definition": "Satya Yuga is called the Golden Age because: Dharma stands on all four legs (truth, compassion, purity, austerity), Human lifespan is extremely long, Disease, conflict, and deceit are minimal, Consciousness is predominantly sattvic (pure, luminous). Higher spiritual stability → slower moral decay → longer epoch. As Dharma declines in later Yugas, time contracts, leading to shorter ages.",
-      "summary_direct_answer": "Summary (Direct Answer) - It is possible because: Sanātana Dharma uses cosmic time cycles, Yuga durations follow precise mathematical ratios, Time is cyclical, not linear, Divine and human time scales differ, Long epochs are consistent with both metaphysics and geology",
-      "symbolic_structural": "Symbolic + Structural Meaning (Both Apply) - Satya Yuga duration works on two levels simultaneously: Literal cosmological time, Moral–consciousness measurement. As truth and harmony dominate longer, time itself is said to “flow slowly.” As chaos increases, time “accelerates” (Kali Yuga experience).",
-      "symbolic_structural_this": "This aligns with human psychology: peaceful life feels long; chaotic life feels short.",
-      "system": "1 divine year = 360 human years",
-      "thus": "Universes are born and dissolved, Civilizations rise and reset, Moral and spiritual states cycle, not permanently advance In such a model, millions of years are expected, not exceptional.",
-      "yugasystem": "The Yuga System Is Mathematical, Not Symbolic Guesswork",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "description": "Detailed explanation of Yuga cycles, Manvantara, and Kalpa with scientific comparison.",
-            "@type": "Article",
-            "about": [
-              {
-                "@type": "Thing",
-                "name": "Yuga"
-              },
-              {
-                "@type": "Thing",
-                "name": "Manvantara"
-              },
-              {
-                "@type": "Thing",
-                "name": "Kalpa"
-              }
+        "cosmictime": {
+            "title": "యుగాలు అంటే ఏమిటి? హిందూ కాస్మిక్ టైమ్ సైకిల్స్ వివరించబడ్డాయి (కల్ప, మన్వంతర)",
+            "description": "యుగ చక్రాలు, మన్వంతరం మరియు కల్పంతో సహా సనాతన ధర్మంలో విశ్వ కాలాన్ని అర్థం చేసుకోండి. ఆధునిక శాస్త్రీయ విశ్వోద్భవ శాస్త్రంతో వాటి వ్యవధి, నిర్మాణం మరియు పోలికను తెలుసుకోండి.",
+            "meta": {
+                "title": "యుగాలు అంటే ఏమిటి? హిందూ కాస్మిక్ టైమ్ సైకిల్స్ వివరించబడ్డాయి (కల్ప, మన్వంతర)",
+                "description": "యుగ చక్రాలు, మన్వంతరం మరియు కల్పంతో సహా సనాతన ధర్మంలో విశ్వ కాలాన్ని అర్థం చేసుకోండి. ఆధునిక శాస్త్రీయ విశ్వోద్భవ శాస్త్రంతో వాటి వ్యవధి, నిర్మాణం మరియు పోలికను తెలుసుకోండి.",
+                "canonical": "https://sanatanadharmam.in/cosmictime",
+                "keywords": [
+                    "యుగాలు అంటే ఏమిటి",
+                    "యుగ చక్రం వివరించబడింది",
+                    "యుగ వ్యవధి సత్య త్రేతా ద్వాపర కలి",
+                    "కల్ప మరియు మన్వంతర అర్థం",
+                    "హిందూ విశ్వ కాల చక్రాలు",
+                    "హిందూమతంలో విశ్వ సమయం",
+                    "యుగ చక్రం vs ఆధునిక శాస్త్రం",
+                    "మన్వంతర వ్యవధిని వివరించారు",
+                    "సంవత్సరాలలో కల్ప వ్యవధి",
+                    "చక్రీయ సమయ తత్వశాస్త్రం"
+                ],
+                "robots": "సూచిక, అనుసరించండి, max-image-preview:large",
+                "url": "https://sanatanadharmam.in/cosmictime"
+            },
+            "answer": "ఎందుకంటే: సమయం చక్రీయమైనది, సరళమైనది కాదు, సృష్టి మరియు రద్దు అనంతంగా పునరావృతమవుతుంది, స్పృహ సమయ ప్రవాహాన్ని నియంత్రిస్తుంది, భారీ ప్రమాణాలు ఆశించబడతాయి, అసాధారణమైనవి కావు",
+            "assumes": "సనాతన ధర్మం ఊహిస్తుంది: సృష్టి → సంరక్షణ → రద్దు → వినోదం (పునరావృతం)",
+            "brahma_full_day": "బ్రహ్మ యొక్క ఒక పూర్తి రోజు",
+            "cosmictimesystem": {
+                "baseunithumanyears": 432000,
+                "brahmalifetimeyears": 311040000000000,
+                "chaturyuga": {
+                    "durationyears": 4320000,
+                    "ratio": "4:3:2:1",
+                    "yugas": [
+                        {
+                            "dharma": "100%",
+                            "duration": 1728000,
+                            "name": "సత్య యుగం"
+                        },
+                        {
+                            "dharma": "75%",
+                            "duration": 1296000,
+                            "name": "త్రేతా యుగం"
+                        },
+                        {
+                            "dharma": "50%",
+                            "duration": 864000,
+                            "name": "ద్వాపర యుగం"
+                        },
+                        {
+                            "dharma": "25%",
+                            "duration": 432000,
+                            "name": "కలియుగం"
+                        }
+                    ]
+                },
+                "kalpa": {
+                    "description": "బ్రహ్మదేవుని ఒక రోజు",
+                    "durationyears": 4320000000,
+                    "manvantaras": 14
+                },
+                "manvantara": {
+                    "chaturyugas": 71,
+                    "durationyears": 306720000
+                }
+            },
+            "cyclical_universe": "సైక్లికల్ యూనివర్స్, లీనియర్ హిస్టరీ కాదు",
+            "definition": "సనాతన ధర్మంలో, సమయం అనేది క్లుప్తంగా, రేఖీయంగా (శతాబ్దాలు లేదా సహస్రాబ్దాలు) కాకుండా విస్తారమైన, చక్రీయ, కాస్మోలాజికల్ ప్రమాణాలుగా భావించబడుతుంది. సత్యయుగ కాల వ్యవధి = 1,728,000 మానవ సంవత్సరాలు ఈ ఫ్రేమ్‌వర్క్ ద్వారా చూస్తే అర్థమవుతుంది.",
+            "earth_age_comparison_note": "1 కల్ప (4.32 బిలియన్ సంవత్సరాలు) ఆశ్చర్యకరంగా భూమి వయస్సు (~4.54 బిలియన్ సంవత్సరాలు) యొక్క ఆధునిక శాస్త్రీయ అంచనాకు దగ్గరగా ఉంది.",
+            "final_consolidated_insight": {
+                "kalpas_explain": "గ్రహ-స్థాయి ఉనికి",
+                "manvantaras_explain": "నాగరికత రీసెట్లు",
+                "overall_conclusion": "అవి కలిసి విశ్వ సమయం యొక్క పూర్తి స్థూల-సూక్ష్మ తత్వశాస్త్రాన్ని ఏర్పరుస్తాయి.",
+                "sanatana_dharma_explains": "చక్రీయ స్వభావం మరియు నైతిక డైనమిక్స్",
+                "science_validates": "సమయం యొక్క స్కేల్",
+                "yugas_explain": "నైతిక మరియు ఆధ్యాత్మిక క్షీణత"
+            },
+            "human_years": "మానవ సంవత్సరాల్లో వ్యవధులు వ్యక్తీకరించబడినప్పుడు, అవి అపారంగా కనిపిస్తాయి, కానీ విశ్వ సమయపాలనలో, అవి అనులోమానుపాతంలో మరియు పరిమితమైనవి.",
+            "keypoint": "ఈ సంఖ్యలు యాదృచ్ఛికంగా లేవు. అవి 432,000 బేస్ యూనిట్ నుండి తీసుకోబడ్డాయి, దామాషా ప్రకారం గుణించబడతాయి (4: 3: 2: 1).",
+            "lifetime_brahma": "బ్రహ్మ జీవితకాలం - 100 బ్రహ్మ సంవత్సరాలు - ప్రతి సంవత్సరం = 360 రోజులు",
+            "longduration": "ఇంత సుదీర్ఘ కాల వ్యవధిని \"సాధ్యం\" చేస్తుంది?",
+            "manvantara": {
+                "definition": "మన్వంతరం అనేది మానవాళికి మూలపురుషుడు మరియు శాసనకర్త అయిన మనువుచే పాలించబడే ఒక ప్రధాన విశ్వ యుగం.",
+                "each_manvantara": [
+                    "ఒక మను",
+                    "ఒకడు ఇంద్రుడు",
+                    "కొత్త ఋషులు",
+                    "కొత్త కాస్మిక్ మరియు నైతిక క్రమం"
+                ],
+                "explains": [
+                    "నాగరికతల యొక్క పునరావృత పెరుగుదల మరియు పతనం",
+                    "జ్ఞానం యొక్క నష్టం మరియు పునఃప్రారంభం",
+                    "ఒకే మొదటి మానవత్వం లేకపోవడం",
+                    "కాస్మిక్ అడ్మినిస్ట్రేటివ్ నిర్మాణం"
+                ],
+                "fourteen_kalpas": [
+                    "స్వయంభువ",
+                    "స్వరోసిసా",
+                    "ఉత్తమ",
+                    "తమసా",
+                    "రైవత",
+                    "కాక్సుసా",
+                    "వైవస్వత",
+                    "భవిష్యత్తు మను"
+                ],
+                "human_history": {
+                    "implications": [
+                        "పెద్ద పురావస్తు ఖాళీలు ఆశించబడ్డాయి",
+                        "అధునాతన భావనల ఆకస్మిక ఆవిర్భావం",
+                        "పునరావృతమయ్యే ప్రపంచ పౌరాణిక నమూనాలు"
+                    ],
+                    "one_manvantara_years": 306720000,
+                    "recorded_human_history_years": 6000
+                },
+                "manvantara_within_kalpa": {
+                    "kalpa": "1 కల్ప = 14",
+                    "periods": "మన్వంతరాల మధ్య సంధ్యా దశలు",
+                    "type": "పరివర్తనాల వద్ద పాక్షిక రద్దు"
+                },
+                "purpose": "నాగరికత, పాలన మరియు విశ్వ పరిపాలన యొక్క పూర్తి రీసెట్‌ను సూచిస్తుంది.",
+                "structure_of_manvantara": {
+                    "calculation": "71 × 4,320,000",
+                    "chaturyugas_per_manvantara": 71,
+                    "duration_human_years": 306720000
+                }
+            },
+            "modern_thinking_assumes": "ఆధునిక ఆలోచన ఊహిస్తుంది: నాగరికత → పురోగతి → ముగింపు",
+            "night_of_brahma": "బ్రహ్మ రాత్రి - ఒక కల్పానికి సమానం, విశ్వం పాక్షికంగా కరిగిపోతుంది, ప్రత్యక్ష జీవితం లేదు",
+            "non_contradictory": "శాస్త్రీయ దృక్పథం (విరుద్ధం కానిది) - ఆధునిక శాస్త్రం యుగ కాలక్రమాలను అధికారికంగా అంగీకరించనప్పటికీ, ఇది దీర్ఘ యుగాలను తిరస్కరించదు: భూమి ~4.54 బిలియన్ సంవత్సరాలు, హోమో సేపియన్స్ ~300,000 సంవత్సరాలు, భౌగోళిక యుగాలు మిలియన్ల సంవత్సరాలుగా ఉన్నాయి, నాగరికతలు ఉనికిలో లేక అదృశ్యమై ఉండవచ్చు.",
+            "non_contradictory_thus": "అందువల్ల, వివరణలు భిన్నంగా ఉన్నప్పటికీ, దీర్ఘ కాలాలు శాస్త్రీయంగా ఆమోదయోగ్యమైనవి.",
+            "numericalradio": "నాలుగు యుగాలు ఖచ్చితమైన సంఖ్యా నిష్పత్తిని అనుసరిస్తాయి",
+            "openGraph": {
+                "title": "యుగాలు అంటే ఏమిటి? హిందూ కాస్మిక్ టైమ్ వివరించబడింది",
+                "description": "యుగ చక్రాలు, కల్ప మరియు మన్వంతరాలను వాటి కాలవ్యవధులు మరియు ఆధునిక విశ్వోద్భవ శాస్త్రంతో పోల్చండి.",
+                "images": [
+                    {
+                        "alt": "Yuga Cycles and Cosmic Time in Sanatana Dharma",
+                        "height": 630,
+                        "url": "https://sanatanadharmam.in/og/cosmictime.png",
+                        "width": 1200
+                    }
+                ],
+                "siteName": "సనాతనధర్మం",
+                "type": "వ్యాసం",
+                "url": "https://sanatanadharmam.in/cosmictime"
+            },
+            "question": "ఈ సంఖ్యలు ఎందుకు \"సాధ్యం\"?",
+            "ratio": [
+                "యుగ నిష్పత్తి వ్యవధి (మానవ సంవత్సరాలు)",
+                "సత్య (కృత) 4 1,728,000",
+                "త్రేతా 3 1,296,000",
+                "ద్వాపర 2 864,000",
+                "కలి 1 432,000"
             ],
-            "author": {
-              "@type": "Organization",
-              "name": "Sanatanadharmam"
+            "satya_yuga_long_design": "సత్య యుగము రూపకల్పన ద్వారా సుదీర్ఘమైనది, దాని అత్యున్నత నైతిక మరియు ఆధ్యాత్మిక సమతుల్యతతో పనిచేసే విశ్వాన్ని ప్రతిబింబిస్తుంది. పూర్తి సమయం శ్రేణి (చిన్న → పెద్ద)",
+            "scale_of_time": "వివిధ కాల ప్రమాణాలు (దైవిక వర్సెస్ మానవుడు) ప్రాచీన గ్రంథాలు వీటిని వేరు చేస్తాయి: మనుష్య కాల (మానవ సమయం), దివ్య కాల (దైవిక/కాస్మిక్ సమయం)",
+            "scaling_comment": "ఈ గణిత స్కేలింగ్ అన్ని విశ్వ స్థాయిలలో అత్యంత నిర్మాణాత్మకంగా మరియు అనుపాతంగా ఉంటుంది.",
+            "scientific": {
+                "evolution_vs_moral": {
+                    "key_insight": "వైరుధ్యం లేకుండా వైజ్ఞానిక పురోగతి మరియు నైతిక క్షీణత ఏకకాలంలో సంభవించవచ్చు.",
+                    "modern_science": {
+                        "focus": "జీవ పరిణామం",
+                        "moral_dimension": "స్వాభావిక నైతిక లేదా ఆధ్యాత్మిక మెట్రిక్ లేదు",
+                        "time_nature": "విలువ-తటస్థ",
+                        "trend": "భౌతిక మరియు సాంకేతిక సంక్లిష్టతలో పెరుగుదల"
+                    },
+                    "yuga_system": {
+                        "focus": "నైతిక మరియు ఆధ్యాత్మిక స్థితి",
+                        "physical_progress": "ఆధ్యాత్మిక క్షీణతతో కలిసి ఉండవచ్చు",
+                        "time_nature": "స్పృహ-ఆధారిత",
+                        "trend": "యుగాలలో ధర్మ క్షీణత"
+                    }
+                },
+                "fundamental_approach_difference": {
+                    "modern_science": {
+                        "creation_process": "బిగ్ బ్యాంగ్ విస్తరణ",
+                        "end_state": "హీట్ డెత్ లేదా పతనం (సైద్ధాంతిక)",
+                        "measurement_basis": "పదార్థం, శక్తి మరియు భౌతిక చట్టాలు",
+                        "time_model": "లీనియర్",
+                        "universe_nature": "ఒకే పరిశీలించదగిన విశ్వం"
+                    },
+                    "sanatana_dharma": {
+                        "creation_process": "పునరావృత సృష్టి, సంరక్షణ మరియు రద్దు",
+                        "end_state": "పునర్జన్మ తరువాత రద్దు",
+                        "measurement_basis": "చైతన్యం, ధర్మం మరియు విశ్వ క్రమం",
+                        "time_model": "చక్రీయ",
+                        "universe_nature": "శాశ్వతమైనది మరియు పునరావృతమవుతుంది"
+                    }
+                },
+                "reason_for_vast_numbers_in_ancient_texts": {
+                    "base_number_significance": {
+                        "properties": [
+                            "ఎక్కువగా విభజించదగినది",
+                            "చక్రీయ",
+                            "నిర్మాణపరంగా కొలవదగినది"
+                        ],
+                        "value": 432000
+                    },
+                    "cosmic_reference": "సమయం మానవ స్థాయిలో కాకుండా సార్వత్రిక స్థాయిలో కొలుస్తారు",
+                    "numerical_structure": "పునరావృతం మరియు స్కేలబిలిటీ",
+                    "oral_tradition_support": "ఖచ్చితమైన నిష్పత్తులు జ్ఞాపకశక్తికి సహాయపడతాయి"
+                },
+                "scientific_acceptability_of_long_time_spans": {
+                    "accepted_by_science": [
+                        "నక్షత్రాల జీవితకాలం బిలియన్ల సంవత్సరాలు",
+                        "ట్రిలియన్ల సంవత్సరాల పాటు విస్తరించి ఉన్న గెలాక్సీ చక్రాలు",
+                        "బిగ్ బ్యాంగ్ ముందు తెలియని పరిస్థితులు"
+                    ],
+                    "conclusion": "యుగ కాలాల పట్ల అభ్యంతరాలు శాస్త్రీయంగా కాకుండా తాత్వికమైనవి."
+                },
+                "scientific_summary": {
+                    "core_difference": "ప్రయోజనం, స్థాయి కాదు",
+                    "sanatana_dharma_role": "నైతిక మరియు విశ్వ క్రమం యొక్క క్షీణతను వివరిస్తుంది",
+                    "science_role": "పదార్థం మరియు శక్తి యొక్క ప్రవర్తనను వివరిస్తుంది",
+                    "shared_ground": "విస్తారమైన విశ్వ సమయాన్ని అంగీకరించడం"
+                },
+                "timeline_comparison_years": {
+                    "age_of_earth_science": {
+                        "description": "భూమి యొక్క భౌగోళిక యుగం అంచనా వేయబడింది",
+                        "value_years": 4540000000
+                    },
+                    "age_of_universe_science": {
+                        "description": "బిగ్ బ్యాంగ్ నుండి అంచనా వేసిన వయస్సు",
+                        "value_years": 13800000000
+                    },
+                    "day_and_night_of_brahma": {
+                        "description": "బ్రహ్మ యొక్క ఒక పూర్తి పగలు-రాత్రి చక్రం",
+                        "value_years": 8640000000
+                    },
+                    "lifespan_of_brahma": {
+                        "description": "100 బ్రహ్మ సంవత్సరాలు",
+                        "value_years": 311040000000000
+                    },
+                    "observation": "కల్పం యొక్క వ్యవధి వివరణలో కానప్పటికీ, స్కేల్‌లో భూమి యొక్క భౌగోళిక యుగానికి దగ్గరగా సరిపోతుంది.",
+                    "one_kalpa": {
+                        "description": "బ్రహ్మదేవుని ఒక రోజు",
+                        "value_years": 4320000000
+                    }
+                }
             },
-            "dateModified": "2026-01-01",
-            "datePublished": "2024-01-01",
-            "headline": "What are Yugas? Hindu Cosmic Time Cycles Explained",
-            "inLanguage": "en",
-            "mainEntityOfPage": {
-              "@id": "https://sanatanadharmam.in/cosmictime",
-              "@type": "WebPage"
+            "scope": "యుగాలు, మన్వంతరం, కల్పం మరియు సమయం యొక్క తాత్విక వివరణలతో సహా సనాతన ధర్మ విశ్వోద్భవ శాస్త్రం మరియు ఆధునిక శాస్త్రం మధ్య పోలిక.",
+            "staya_yuga_longest": "సత్యయుగం ఎందుకు సుదీర్ఘమైనది",
+            "staya_yuga_longest_definition": "సత్యయుగాన్ని స్వర్ణయుగం అంటారు ఎందుకంటే: ధర్మం నాలుగు కాళ్లపై (సత్యం, కరుణ, స్వచ్ఛత, కాఠిన్యం) నిలుస్తుంది, మానవ ఆయుర్దాయం చాలా ఎక్కువ, వ్యాధి, సంఘర్షణ మరియు మోసం చాలా తక్కువ, స్పృహ ప్రధానంగా సాత్వికమైనది (స్వచ్ఛమైనది, ప్రకాశవంతమైనది). అధిక ఆధ్యాత్మిక స్థిరత్వం → నెమ్మదిగా నైతిక క్షీణత → సుదీర్ఘ యుగం. తరువాతి యుగాలలో ధర్మం క్షీణించడంతో, సమయం సంకోచిస్తుంది, ఇది తక్కువ యుగాలకు దారి తీస్తుంది.",
+            "summary_direct_answer": "సారాంశం (ప్రత్యక్ష సమాధానం) - ఇది సాధ్యమే ఎందుకంటే: సనాతన ధర్మం విశ్వ కాల చక్రాలను ఉపయోగిస్తుంది, యుగ కాలాలు ఖచ్చితమైన గణిత నిష్పత్తులను అనుసరిస్తాయి, సమయం చక్రీయమైనది, సరళమైనది కాదు, దైవిక మరియు మానవ కాల ప్రమాణాలు భిన్నంగా ఉంటాయి, దీర్ఘ యుగాలు మెటాఫిజిక్స్ మరియు జియాలజీ రెండింటికీ అనుగుణంగా ఉంటాయి",
+            "symbolic_structural": "సింబాలిక్ + స్ట్రక్చరల్ అర్థం (రెండూ వర్తిస్తాయి) - సత్య యుగ వ్యవధి ఏకకాలంలో రెండు స్థాయిలలో పనిచేస్తుంది: సాహిత్య విశ్వ సమయం, నైతిక-స్పృహ కొలత. సత్యం మరియు సామరస్యం ఎక్కువ కాలం ఆధిపత్యం చెలాయిస్తుంది కాబట్టి, సమయం కూడా \"నెమ్మదిగా ప్రవహిస్తుంది\" అని చెప్పబడింది. గందరగోళం పెరిగేకొద్దీ, సమయం \"వేగవంతమవుతుంది\" (కలియుగ అనుభవం).",
+            "symbolic_structural_this": "ఇది మానవ మనస్తత్వ శాస్త్రానికి అనుగుణంగా ఉంటుంది: శాంతియుత జీవితం దీర్ఘకాలం అనిపిస్తుంది; అస్తవ్యస్తమైన జీవితం చిన్నదిగా అనిపిస్తుంది.",
+            "system": "1 దివ్య సంవత్సరం = 360 మానవ సంవత్సరాలు",
+            "thus": "విశ్వాలు పుట్టాయి మరియు కరిగిపోతాయి, నాగరికతలు పెరుగుతాయి మరియు రీసెట్ చేయబడతాయి, నైతిక మరియు ఆధ్యాత్మిక స్థితి చక్రం, శాశ్వతంగా ముందుకు సాగవు అటువంటి నమూనాలో, మిలియన్ల సంవత్సరాలు ఊహించబడతాయి, అసాధారణమైనవి కావు.",
+            "yugasystem": "యుగ వ్యవస్థ గణిత శాస్త్రం, సింబాలిక్ అంచనా కాదు",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "description": "శాస్త్రీయ పోలికతో యుగ చక్రాలు, మన్వంతరం మరియు కల్పాల వివరణాత్మక వివరణ.",
+                        "@type": "వ్యాసం",
+                        "about": [
+                            {
+                                "@type": "విషయం",
+                                "name": "యుగము"
+                            },
+                            {
+                                "@type": "విషయం",
+                                "name": "మన్వంతర"
+                            },
+                            {
+                                "@type": "విషయం",
+                                "name": "కల్ప"
+                            }
+                        ],
+                        "author": {
+                            "@type": "సంస్థ",
+                            "name": "సనాతనధర్మం"
+                        },
+                        "dateModified": "2026-01-01",
+                        "datePublished": "2024-01-01",
+                        "headline": "యుగాలు అంటే ఏమిటి? హిందూ కాస్మిక్ టైమ్ సైకిల్స్ వివరించబడ్డాయి",
+                        "inLanguage": "en",
+                        "mainEntityOfPage": {
+                            "@id": "https://sanatanadharmam.in/cosmictime",
+                            "@type": "వెబ్‌పేజీ"
+                        },
+                        "publisher": {
+                            "@type": "సంస్థ",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://sanatanadharmam.in/images/logo.png"
+                            },
+                            "name": "సనాతనధర్మం"
+                        }
+                    },
+                    {
+                        "@type": "వెబ్‌పేజీ",
+                        "name": "సనాతన ధర్మంలో విశ్వ సమయం",
+                        "url": "https://sanatanadharmam.in/cosmictime"
+                    },
+                    {
+                        "@type": "బ్రెడ్‌క్రంబ్‌లిస్ట్",
+                        "itemListElement": [
+                            {
+                                "@type": "జాబితా అంశం",
+                                "item": "https://sanatanadharmam.in",
+                                "name": "హోమ్",
+                                "position": 1
+                            },
+                            {
+                                "@type": "జాబితా అంశం",
+                                "item": "https://sanatanadharmam.in/philosophy",
+                                "name": "తత్వశాస్త్రం",
+                                "position": 2
+                            },
+                            {
+                                "@type": "జాబితా అంశం",
+                                "item": "https://sanatanadharmam.in/cosmictime",
+                                "name": "కాస్మిక్ సమయం",
+                                "position": 3
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "సంస్థ",
+                        "logo": "https://sanatanadharmam.in/images/logo.png",
+                        "name": "సనాతనధర్మం",
+                        "url": "https://sanatanadharmam.in"
+                    }
+                ]
+            }
+        },
+        "human_evolution_global": {
+            "australopithecus": {
+                "time": "4-2 మిలియన్ సంవత్సరాల క్రితం",
+                "traits": [
+                    "బైపెడలిజం",
+                    "చిన్న మెదడు పరిమాణం"
+                ]
             },
-            "publisher": {
-              "@type": "Organization",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://sanatanadharmam.in/images/logo.png"
-              },
-              "name": "Sanatanadharmam"
-            }
-          },
-          {
-            "@type": "WebPage",
-            "name": "Cosmic Time in Sanatana Dharma",
-            "url": "https://sanatanadharmam.in/cosmictime"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "item": "https://sanatanadharmam.in",
-                "name": "Home",
-                "position": 1
-              },
-              {
-                "@type": "ListItem",
-                "item": "https://sanatanadharmam.in/philosophy",
-                "name": "Philosophy",
-                "position": 2
-              },
-              {
-                "@type": "ListItem",
-                "item": "https://sanatanadharmam.in/cosmictime",
-                "name": "Cosmic Time",
-                "position": 3
-              }
-            ]
-          },
-          {
-            "@type": "Organization",
-            "logo": "https://sanatanadharmam.in/images/logo.png",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          }
-        ]
-      }
-    },
-    "human_evolution_global": {
-      "australopithecus": {
-        "time": "4–2 million years ago",
-        "traits": [
-          "Bipedalism",
-          "Small brain size"
-        ]
-      },
-      "genetic_evidence": {
-        "mitochondrial_eve": "Common maternal ancestor ~150,000–200,000 years ago",
-        "neanderthal_interbreeding": "1–2% DNA in non-African populations"
-      },
-      "genus_homo": {
-        "homo_erectus": {
-          "innovation": "Controlled fire",
-          "migration": "First out-of-Africa expansion",
-          "time": "1.9 million years ago"
-        },
-        "homo_habilis": {
-          "innovation": "Oldowan tools",
-          "time": "2.4 million years ago"
-        },
-        "homo_sapiens": {
-          "cognitive_traits": [
-            "Symbolic reasoning",
-            "Complex language",
-            "Art creation"
-          ],
-          "time": "300,000 years ago"
-        }
-      },
-      "hominin_divergence": {
-        "species": [
-          "Sahelanthropus",
-          "Orrorin",
-          "Ardipithecus"
-        ],
-        "time": "7 million years ago"
-      }
-    },
-    "human_evolution_india": {
-      "early_hominin_presence": {
-        "narmada_hominin": {
-          "classification": "Archaic Homo species",
-          "estimated_age": "250,000–300,000 years ago",
-          "location": "Narmada Valley"
-        }
-      },
-      "genetic_history": {
-        "ani_asi_model": {
-          "ANI": "Ancestral North Indian (West Eurasian related)",
-          "ASI": "Ancestral South Indian (deep indigenous lineage)"
-        },
-        "migration_waves": [
-          {
-            "time": "65,000 years ago",
-            "wave": "Out of Africa"
-          },
-          {
-            "time": "3300–1300 BCE",
-            "wave": "Indus Valley Civilization"
-          }
-        ]
-      },
-      "paleolithic_india": {
-        "sites": [
-          "Bhimbetka rock shelters",
-          "Attirampakkam (Tamil Nadu)"
-        ],
-        "stone_tool_cultures": [
-          "Acheulean",
-          "Middle Paleolithic"
-        ]
-      }
-    },
-    "part1": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "13.8 billion years ago – 4.0 billion years ago",
-        "methodology_sources": [
-          "Cosmic Microwave Background measurements",
-          "Radiometric dating",
-          "Astrophysical spectroscopy",
-          "Isotope geochemistry",
-          "Planetary simulation modeling"
-        ],
-        "scope": "Cosmic evolution through early planetary differentiation",
-        "volume": 1
-      },
-      "section_1_cosmic_origin": {
-        "epoch_1_planck_epoch": {
-          "dominant_forces": "All four fundamental forces unified",
-          "observational_status": "Currently beyond experimental verification",
-          "physical_state": "Quantum gravity regime; classical spacetime undefined",
-          "research_questions": [
-            "Nature of quantum gravity",
-            "Pre-Big Bang state",
-            "Multiverse possibility"
-          ],
-          "theoretical_framework": [
-            "String theory (hypothetical)",
-            "Loop quantum gravity (hypothetical)"
-          ],
-          "time_range": "0 – 10^-43 seconds"
-        },
-        "epoch_2_inflation": {
-          "cosmological_implications": [
-            "Flatness problem resolved",
-            "Horizon problem resolved",
-            "Seed fluctuations for structure formation"
-          ],
-          "evidence": [
-            "CMB anisotropy patterns",
-            "Large-scale structure distribution"
-          ],
-          "expansion_factor": "At least 10^26 increase in size",
-          "mechanism": "Scalar field (inflaton) caused exponential expansion",
-          "time_range": "10^-36 to 10^-32 seconds"
-        },
-        "epoch_3_baryogenesis": {
-          "problem_addressed": "Matter-antimatter asymmetry",
-          "sakharov_conditions": [
-            "Baryon number violation",
-            "C and CP violation",
-            "Departure from thermal equilibrium"
-          ],
-          "time_range": "Within first second",
-          "unknowns": "Exact mechanism not experimentally confirmed"
-        },
-        "epoch_4_primordial_nucleosynthesis": {
-          "elements_produced": {
-            "helium_4": "≈25%",
-            "hydrogen": "≈75%",
-            "lithium_7": "trace"
-          },
-          "evidence": "Observed primordial element ratios",
-          "importance": "Determined early chemical composition of universe",
-          "temperature_range_kelvin": "10^9 – 10^7 K",
-          "time_range": "First 3–20 minutes"
-        },
-        "epoch_5_recombination": {
-          "event": "Electrons combined with nuclei forming neutral atoms",
-          "photon_decoupling": "Light began traveling freely",
-          "result": "Cosmic Microwave Background radiation",
-          "temperature_kelvin": 3000,
-          "time": "380,000 years after origin"
-        }
-      },
-      "section_2_structure_formation": {
-        "dark_matter_role": {
-          "description": "Non-baryonic matter dominating gravitational mass",
-          "function": "Gravitational scaffolding for galaxy formation",
-          "percentage_of_universe": "≈27%"
-        },
-        "first_stars_population_III": {
-          "composition": "Hydrogen and helium only",
-          "importance": "Created first heavy elements",
-          "lifespan": "Very short (~few million years)",
-          "mass_range": "Extremely massive (100+ solar masses)",
-          "time": "100–200 million years after Big Bang"
-        },
-        "supernova_nucleosynthesis": {
-          "distribution": "Ejected into interstellar medium",
-          "elements_produced": [
-            "Carbon",
-            "Oxygen",
-            "Iron",
-            "Silicon",
-            "Nickel"
-          ],
-          "process": "Heavy elements forged during stellar explosion"
-        }
-      },
-      "section_3_solar_system_formation": {
-        "accretion_process": {
-          "dust_coagulation": "Micrometer particles stuck via electrostatic forces",
-          "oligarchic_growth": "Protoplanets dominated orbital zones",
-          "planetesimal_growth": "Kilometer-scale bodies formed",
-          "runaway_growth": "Larger bodies accreted faster"
-        },
-        "gas_giant_formation": {
-          "alternative_model": "Disk instability hypothesis",
-          "core_accretion_model": "Rocky core + rapid gas capture",
-          "location": "Beyond frost line"
-        },
-        "molecular_cloud_collapse": {
-          "angular_momentum": "Flattened cloud into rotating disk",
-          "central_mass": "Proto-Sun formed",
-          "time": "4.6 billion years ago",
-          "trigger": "Nearby supernova shockwave (hypothesized)"
-        }
-      },
-      "section_4_earth_formation": {
-        "iron_catastrophe": {
-          "geodynamo": "Generated planetary magnetic field",
-          "layers_formed": [
-            "Inner core (solid iron)",
-            "Outer core (liquid iron-nickel)",
-            "Mantle (silicate rock)",
-            "Crust"
-          ],
-          "mechanism": "Gravitational differentiation",
-          "time": "Within first 100 million years"
-        },
-        "late_heavy_bombardment": {
-          "cause": "Orbital migration of giant planets",
-          "impact": "Crust remelting; potential sterilization events",
-          "time_range": "4.1–3.8 billion years ago"
-        },
-        "theia_impact_hypothesis": {
-          "collision_partner": "Mars-sized protoplanet",
-          "result": "Debris disk → Moon formation",
-          "supporting_evidence": [
-            "Isotopic similarity Earth-Moon",
-            "Angular momentum distribution"
-          ]
-        }
-      },
-      "section_5_early_earth_environment": {
-        "atmosphere": {
-          "composition": [
-            "Carbon dioxide",
-            "Nitrogen",
-            "Methane",
-            "Ammonia",
-            "Water vapor"
-          ],
-          "oxygen_absent": true
-        },
-        "ocean_formation": {
-          "mechanism_1": "Volcanic outgassing condensation",
-          "mechanism_2": "Cometary water delivery",
-          "zircon_evidence": "Liquid water existed 4.4 billion years ago"
-        },
-        "tectonic_activity": {
-          "heat_sources": [
-            "Radioactive decay",
-            "Accretion energy",
-            "Core formation energy"
-          ],
-          "plate_tectonics_origin": "Debated; possibly early Archean"
-        }
-      }
-    },
-    "part10": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "1700 CE – Present",
-        "disciplines": [
-          "Modern History",
-          "Political Economy",
-          "Demography",
-          "Population Genetics",
-          "Anthropology",
-          "Globalization Studies"
-        ],
-        "scope": "Colonial transformation to modern anthropological synthesis",
-        "volume": 10
-      },
-      "section_10_contemporary_human_condition": {
-        "education_expansion": true,
-        "future_questions": [
-          "AI-human integration",
-          "Genetic editing (CRISPR)",
-          "Climate adaptation capacity"
-        ],
-        "lifespan_increase": {
-          "modern_india": "~69 years",
-          "preindustrial": "~30–40 years"
-        },
-        "technological_dependency": true
-      },
-      "section_1_late_mughal_fragmentation": {
-        "regional_polities": [
-          "Maratha Confederacy",
-          "Sikh Misls",
-          "Mysore Kingdom",
-          "Nawabs of Bengal"
-        ],
-        "structural_weakening": [
-          "Provincial autonomy rise",
-          "Fiscal strain",
-          "Maratha expansion"
-        ],
-        "time_range": "1707–1757 CE"
-      },
-      "section_2_european_colonial_dominance": {
-        "east_india_company_phase": {
-          "battle_of_plassey": "1757 CE",
-          "economic_shift": "From manufacturing exporter to raw material supplier",
-          "revenue_extraction": "Permanent Settlement (1793)"
-        },
-        "industrial_impact": {
-          "deindustrialization": "Decline of handloom textile sectors",
-          "railway_infrastructure": "Integrated colonial economy"
-        }
-      },
-      "section_3_demographic_transformation": {
-        "mortality_shift": {
-          "public_health_improvements": true,
-          "vaccination": true
-        },
-        "population_trends": {
-          "1700_estimate_millions": 165,
-          "1900_estimate_millions": 300,
-          "2020_estimate_millions": 1380
-        },
-        "urbanization": {
-          "colonial_cities": [
-            "Calcutta",
-            "Bombay",
-            "Madras"
-          ],
-          "post_independence_expansion": true
-        }
-      },
-      "section_4_nationalism_and_state_formation": {
-        "constitutional_framework": {
-          "democratic_republic": true,
-          "universal_suffrage": true
-        },
-        "independence": {
-          "migration_scale": "One of the largest human migrations",
-          "partition": "India-Pakistan division",
-          "year": 1947
-        },
-        "intellectual_currents": [
-          "Reform movements (Brahmo Samaj, Arya Samaj)",
-          "Print capitalism and vernacular press"
-        ]
-      },
-      "section_5_post_independence_development": {
-        "economic_model": {
-          "liberalization": "1991 reforms",
-          "planned_economy_phase": "1950–1990"
-        },
-        "green_revolution": {
-          "environmental_cost": "Groundwater depletion",
-          "impact": "Food grain self-sufficiency"
-        }
-      },
-      "section_6_population_genetics_revolution": {
-        "genome_sequencing": {
-          "high_throughput_sequencing": true,
-          "human_genome_project": "2003 completion"
-        },
-        "medical_genomics": {
-          "founder_effects": "Caste-linked recessive disorders",
-          "precision_medicine": "Genetic risk profiling"
-        },
-        "south_asian_studies": {
-          "ancient_dna": "Rakhigarhi Harappan genome",
-          "ani_asi_clarification": "Refined admixture timelines",
-          "steppe_component_modeling": true
-        }
-      },
-      "section_7_modern_anthropological_synthesis": {
-        "cultural_identity": {
-          "constructed_identity": true,
-          "diaspora_expansion": "Global Indian communities"
-        },
-        "paradigm_shift": {
-          "cline_model": "Gradual variation across geography",
-          "race_rejected": "Biological race invalid as scientific category"
-        }
-      },
-      "section_8_globalization_and_technology": {
-        "digital_revolution": {
-          "ai_and_biotechnology": "Emerging fields",
-          "internet_penetration": true
-        },
-        "migration_patterns": {
-          "remittance_flows": "Major economic factor",
-          "skilled_migration": "IT and medical professionals"
-        }
-      },
-      "section_9_environmental_constraints": {
-        "biodiversity_loss": true,
-        "climate_change": {
-          "monsoon_variability": "Increasing unpredictability",
-          "temperature_rise": "Anthropogenic greenhouse gases"
-        },
-        "sustainability_challenges": [
-          "Urban pollution",
-          "Water scarcity",
-          "Agricultural stress"
-        ]
-      }
-    },
-    "part2": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "4.4 – 1.5 billion years ago",
-        "primary_disciplines": [
-          "Geochemistry",
-          "Molecular Biology",
-          "Biochemistry",
-          "Astrobiology",
-          "Evolutionary Biology"
-        ],
-        "scope": "Abiogenesis through early cellular evolution",
-        "volume": 2
-      },
-      "section_10_astrobio_implications": {
-        "extremophiles": {
-          "habitats": [
-            "Deep sea vents",
-            "Acidic hot springs",
-            "Subglacial lakes"
-          ],
-          "implication": "Life possible beyond Earth"
-        },
-        "mars_and_europa": {
-          "habitability_factors": [
-            "Liquid water",
-            "Energy gradient",
-            "Organic molecules"
-          ]
-        }
-      },
-      "section_1_prebiotic_earth_chemistry": {
-        "environmental_context": {
-          "energy_sources": [
-            "Ultraviolet radiation",
-            "Lightning discharges",
-            "Volcanic geothermal heat",
-            "Hydrothermal vent redox gradients",
-            "Tidal heating"
-          ],
-          "surface_conditions": {
-            "atmosphere": {
-              "composition_estimated": [
-                "CO2",
-                "N2",
-                "H2O vapor",
-                "CH4",
-                "NH3 (trace)"
-              ],
-              "oxygen_absent": true
+            "genetic_evidence": {
+                "mitochondrial_eve": "సాధారణ తల్లి పూర్వీకులు ~150,000–200,000 సంవత్సరాల క్రితం",
+                "neanderthal_interbreeding": "ఆఫ్రికన్ కాని జనాభాలో 1–2% DNA"
             },
-            "ocean_chemistry": "Iron-rich, reducing environment",
-            "temperature_range_celsius": "Likely 0–100°C regionally variable"
-          }
-        },
-        "prebiotic_molecule_synthesis": {
-          "extraterrestrial_contribution": {
-            "meteorite_evidence": {
-              "implication": "Organic chemistry widespread in cosmos",
-              "murchison_meteorite": "Contains amino acids and nucleobases"
+            "genus_homo": {
+                "homo_erectus": {
+                    "innovation": "నియంత్రిత అగ్ని",
+                    "migration": "ఆఫ్రికా వెలుపల మొదటి విస్తరణ",
+                    "time": "1.9 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "homo_habilis": {
+                    "innovation": "ఓల్డోవన్ సాధనాలు",
+                    "time": "2.4 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "homo_sapiens": {
+                    "cognitive_traits": [
+                        "సింబాలిక్ రీజనింగ్",
+                        "సంక్లిష్టమైన భాష",
+                        "కళ సృష్టి"
+                    ],
+                    "time": "300,000 సంవత్సరాల క్రితం"
+                }
+            },
+            "hominin_divergence": {
+                "species": [
+                    "సహేలంత్రోపస్",
+                    "ఒర్రోరిన్",
+                    "ఆర్డిపిథెకస్"
+                ],
+                "time": "7 మిలియన్ సంవత్సరాల క్రితం"
             }
-          },
-          "hydrothermal_vent_synthesis": {
-            "alkaline_vents": {
-              "chemical_gradients": "Proton gradients across micropores",
-              "importance": "Natural proton-motive force prototype",
-              "location_model": "Lost City hydrothermal field analog"
+        },
+        "human_evolution_india": {
+            "early_hominin_presence": {
+                "narmada_hominin": {
+                    "classification": "ప్రాచీన హోమో జాతులు",
+                    "estimated_age": "250,000-300,000 సంవత్సరాల క్రితం",
+                    "location": "నర్మదా లోయ"
+                }
+            },
+            "genetic_history": {
+                "ani_asi_model": {
+                    "ANI": "పూర్వీకులు ఉత్తర భారతీయులు (పశ్చిమ యురేషియాకు సంబంధించిన)",
+                    "ASI": "పూర్వీకుల దక్షిణ భారతీయ (లోతైన దేశీయ వంశం)"
+                },
+                "migration_waves": [
+                    {
+                        "time": "65,000 సంవత్సరాల క్రితం",
+                        "wave": "ఆఫ్రికా వెలుపల"
+                    },
+                    {
+                        "time": "3300–1300 BCE",
+                        "wave": "సింధు లోయ నాగరికత"
+                    }
+                ]
+            },
+            "paleolithic_india": {
+                "sites": [
+                    "భీంబేట్కా రాక్ షెల్టర్స్",
+                    "అత్తిరంపాక్కం (తమిళనాడు)"
+                ],
+                "stone_tool_cultures": [
+                    "అచెయులియన్",
+                    "మధ్య శిలాయుగం"
+                ]
             }
-          },
-          "miller_urey_experiment": {
-            "limitations": "Atmospheric composition likely less reducing than original model",
-            "result": "Amino acids synthesized from inorganic precursors",
-            "year": 1953
-          }
-        }
-      },
-      "section_2_rna_world_hypothesis": {
-        "alternative_models": [
-          "PNA (Peptide Nucleic Acid)",
-          "TNA (Threose Nucleic Acid)",
-          "Metabolism-first hypothesis"
-        ],
-        "challenges": [
-          "Ribose instability",
-          "Nucleotide synthesis difficulty under early conditions",
-          "Replication fidelity limits"
-        ],
-        "core_concept": "RNA functioned as both genetic material and catalytic molecule",
-        "supporting_evidence": {
-          "ribosome_structure": "Peptide bond formation catalyzed by RNA core",
-          "ribozymes": "RNA molecules with catalytic activity",
-          "self_splicing_introns": "RNA capable of autonomous modification"
-        }
-      },
-      "section_3_protocell_formation": {
-        "encapsulation": {
-          "co-evolution": "RNA replication within lipid vesicles",
-          "importance": "Concentration of reactants enhances reaction probability"
         },
-        "lipid_self_assembly": {
-          "mechanism": "Amphiphilic molecules form bilayer vesicles spontaneously",
-          "properties": [
-            "Selective permeability",
-            "Compartmentalization",
-            "Self-repair capacity"
-          ]
+        "part1": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "13.8 బిలియన్ సంవత్సరాల క్రితం - 4.0 బిలియన్ సంవత్సరాల క్రితం",
+                "methodology_sources": [
+                    "కాస్మిక్ మైక్రోవేవ్ బ్యాక్‌గ్రౌండ్ కొలతలు",
+                    "రేడియోమెట్రిక్ డేటింగ్",
+                    "ఆస్ట్రోఫిజికల్ స్పెక్ట్రోస్కోపీ",
+                    "ఐసోటోప్ జియోకెమిస్ట్రీ",
+                    "ప్లానెటరీ సిమ్యులేషన్ మోడలింగ్"
+                ],
+                "scope": "ప్రారంభ గ్రహ భేదం ద్వారా కాస్మిక్ పరిణామం",
+                "volume": 1
+            },
+            "section_1_cosmic_origin": {
+                "epoch_1_planck_epoch": {
+                    "dominant_forces": "నాలుగు ప్రాథమిక శక్తులు ఏకమయ్యాయి",
+                    "observational_status": "ప్రస్తుతం ప్రయోగాత్మక ధృవీకరణకు మించి ఉంది",
+                    "physical_state": "క్వాంటం గ్రావిటీ పాలన; క్లాసికల్ స్పేస్‌టైమ్ నిర్వచించబడలేదు",
+                    "research_questions": [
+                        "క్వాంటం గురుత్వాకర్షణ స్వభావం",
+                        "బిగ్ బ్యాంగ్‌కు ముందు స్థితి",
+                        "బహుళ అవకాశం"
+                    ],
+                    "theoretical_framework": [
+                        "స్ట్రింగ్ సిద్ధాంతం (ఊహాత్మక)",
+                        "లూప్ క్వాంటం గ్రావిటీ (ఊహాత్మక)"
+                    ],
+                    "time_range": "0 – 10^-43 సెకన్లు"
+                },
+                "epoch_2_inflation": {
+                    "cosmological_implications": [
+                        "ఫ్లాట్‌నెస్ సమస్య పరిష్కరించబడింది",
+                        "క్షితిజ సమాంతర సమస్య పరిష్కరించబడింది",
+                        "నిర్మాణం ఏర్పడటానికి సీడ్ హెచ్చుతగ్గులు"
+                    ],
+                    "evidence": [
+                        "CMB అనిసోట్రోపి నమూనాలు",
+                        "పెద్ద ఎత్తున నిర్మాణ పంపిణీ"
+                    ],
+                    "expansion_factor": "పరిమాణంలో కనీసం 10^26 పెరుగుదల",
+                    "mechanism": "స్కేలార్ ఫీల్డ్ (ఇన్‌ఫ్లాటన్) ఘాతాంక విస్తరణకు కారణమైంది",
+                    "time_range": "10^-36 నుండి 10^-32 సెకన్లు"
+                },
+                "epoch_3_baryogenesis": {
+                    "problem_addressed": "పదార్థం-వ్యతిరేక అసమానత",
+                    "sakharov_conditions": [
+                        "బేరియన్ సంఖ్య ఉల్లంఘన",
+                        "C మరియు CP ఉల్లంఘన",
+                        "ఉష్ణ సమతుల్యత నుండి నిష్క్రమణ"
+                    ],
+                    "time_range": "మొదటి సెకనులోపు",
+                    "unknowns": "ఖచ్చితమైన యంత్రాంగం ప్రయోగాత్మకంగా నిర్ధారించబడలేదు"
+                },
+                "epoch_4_primordial_nucleosynthesis": {
+                    "elements_produced": {
+                        "helium_4": "≈25%",
+                        "hydrogen": "≈75%",
+                        "lithium_7": "జాడ"
+                    },
+                    "evidence": "ఆదిమ మూలక నిష్పత్తులను గమనించారు",
+                    "importance": "విశ్వం యొక్క ప్రారంభ రసాయన కూర్పును నిర్ణయించారు",
+                    "temperature_range_kelvin": "10^9 – 10^7 K",
+                    "time_range": "మొదటి 3-20 నిమిషాలు"
+                },
+                "epoch_5_recombination": {
+                    "event": "ఎలక్ట్రాన్లు న్యూక్లియైలతో కలిపి తటస్థ అణువులను ఏర్పరుస్తాయి",
+                    "photon_decoupling": "కాంతి స్వేచ్ఛగా ప్రయాణించడం ప్రారంభించింది",
+                    "result": "కాస్మిక్ మైక్రోవేవ్ బ్యాక్‌గ్రౌండ్ రేడియేషన్",
+                    "temperature_kelvin": 3000,
+                    "time": "మూలం తర్వాత 380,000 సంవత్సరాలు"
+                }
+            },
+            "section_2_structure_formation": {
+                "dark_matter_role": {
+                    "description": "గురుత్వాకర్షణ ద్రవ్యరాశిని ఆధిపత్యం చేసే నాన్-బారియోనిక్ పదార్థం",
+                    "function": "గెలాక్సీ నిర్మాణం కోసం గురుత్వాకర్షణ పరంజా",
+                    "percentage_of_universe": "≈27%"
+                },
+                "first_stars_population_III": {
+                    "composition": "హైడ్రోజన్ మరియు హీలియం మాత్రమే",
+                    "importance": "మొదటి భారీ అంశాలు సృష్టించబడ్డాయి",
+                    "lifespan": "చాలా తక్కువ (~కొన్ని మిలియన్ సంవత్సరాలు)",
+                    "mass_range": "అత్యంత భారీ (100+ సౌర ద్రవ్యరాశి)",
+                    "time": "బిగ్ బ్యాంగ్ తర్వాత 100–200 మిలియన్ సంవత్సరాల"
+                },
+                "supernova_nucleosynthesis": {
+                    "distribution": "ఇంటర్స్టెల్లార్ మాధ్యమంలోకి ఎజెక్ట్ చేయబడింది",
+                    "elements_produced": [
+                        "కార్బన్",
+                        "ఆక్సిజన్",
+                        "ఇనుము",
+                        "సిలికాన్",
+                        "నికెల్"
+                    ],
+                    "process": "నక్షత్ర విస్ఫోటనం సమయంలో భారీ మూలకాలు నకిలీ చేయబడ్డాయి"
+                }
+            },
+            "section_3_solar_system_formation": {
+                "accretion_process": {
+                    "dust_coagulation": "ఎలెక్ట్రోస్టాటిక్ శక్తుల ద్వారా మైక్రోమీటర్ కణాలు అతుక్కుపోయాయి",
+                    "oligarchic_growth": "ప్రొటోప్లానెట్‌లు కక్ష్య మండలాలపై ఆధిపత్యం చెలాయిస్తున్నాయి",
+                    "planetesimal_growth": "కిలోమీటర్ స్కేల్ బాడీలు ఏర్పడ్డాయి",
+                    "runaway_growth": "పెద్ద శరీరాలు వేగంగా చేరతాయి"
+                },
+                "gas_giant_formation": {
+                    "alternative_model": "డిస్క్ అస్థిరత పరికల్పన",
+                    "core_accretion_model": "రాకీ కోర్ + వేగవంతమైన గ్యాస్ క్యాప్చర్",
+                    "location": "ఫ్రాస్ట్ లైన్ దాటి"
+                },
+                "molecular_cloud_collapse": {
+                    "angular_momentum": "తిరిగే డిస్క్‌లోకి చదును చేసిన క్లౌడ్",
+                    "central_mass": "ప్రోటో-సన్ ఏర్పడింది",
+                    "time": "4.6 బిలియన్ సంవత్సరాల క్రితం",
+                    "trigger": "సమీపంలోని సూపర్‌నోవా షాక్‌వేవ్ (ఊహించబడింది)"
+                }
+            },
+            "section_4_earth_formation": {
+                "iron_catastrophe": {
+                    "geodynamo": "గ్రహ అయస్కాంత క్షేత్రాన్ని సృష్టించింది",
+                    "layers_formed": [
+                        "లోపలి కోర్ (ఘన ఇనుము)",
+                        "ఔటర్ కోర్ (ద్రవ ఇనుము-నికెల్)",
+                        "మాంటిల్ (సిలికేట్ రాక్)",
+                        "క్రస్ట్"
+                    ],
+                    "mechanism": "గురుత్వాకర్షణ భేదం",
+                    "time": "మొదటి 100 మిలియన్ సంవత్సరాలలో"
+                },
+                "late_heavy_bombardment": {
+                    "cause": "జెయింట్ గ్రహాల కక్ష్య వలస",
+                    "impact": "క్రస్ట్ రీమెల్టింగ్; సంభావ్య స్టెరిలైజేషన్ సంఘటనలు",
+                    "time_range": "4.1–3.8 బిలియన్ సంవత్సరాల క్రితం"
+                },
+                "theia_impact_hypothesis": {
+                    "collision_partner": "మార్స్-పరిమాణ ప్రోటోప్లానెట్",
+                    "result": "డెబ్రిస్ డిస్క్ → చంద్రుని నిర్మాణం",
+                    "supporting_evidence": [
+                        "ఐసోటోపిక్ సారూప్యత భూమి-చంద్రుడు",
+                        "కోణీయ మొమెంటం పంపిణీ"
+                    ]
+                }
+            },
+            "section_5_early_earth_environment": {
+                "atmosphere": {
+                    "composition": [
+                        "కార్బన్ డయాక్సైడ్",
+                        "నైట్రోజన్",
+                        "మీథేన్",
+                        "అమ్మోనియా",
+                        "నీటి ఆవిరి"
+                    ],
+                    "oxygen_absent": true
+                },
+                "ocean_formation": {
+                    "mechanism_1": "అగ్నిపర్వత ఔట్‌గ్యాసింగ్ కండెన్సేషన్",
+                    "mechanism_2": "కామెటరీ నీటి పంపిణీ",
+                    "zircon_evidence": "4.4 బిలియన్ సంవత్సరాల క్రితం ద్రవ నీరు ఉనికిలో ఉంది"
+                },
+                "tectonic_activity": {
+                    "heat_sources": [
+                        "రేడియోధార్మిక క్షయం",
+                        "వృద్ధి శక్తి",
+                        "కోర్ ఏర్పడే శక్తి"
+                    ],
+                    "plate_tectonics_origin": "చర్చనీయాంశమైంది; బహుశా ప్రారంభ ఆర్కియన్"
+                }
+            }
         },
-        "selection_pressure": {
-          "competition_between_protocells": "Resource acquisition efficiency",
-          "evolutionary_advantage": "Membrane stability and replication speed"
-        }
-      },
-      "section_4_first_cells_prokaryotes": {
-        "cellular_structure": {
-          "dna_location": "Cytoplasmic nucleoid",
-          "metabolism_types": [
-            "Anaerobic respiration",
-            "Fermentation",
-            "Chemolithotrophy"
-          ],
-          "no_nucleus": true
+        "part10": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "1700 CE - ప్రస్తుతం",
+                "disciplines": [
+                    "ఆధునిక చరిత్ర",
+                    "రాజకీయ ఆర్థిక వ్యవస్థ",
+                    "డెమోగ్రఫీ",
+                    "జనాభా జన్యుశాస్త్రం",
+                    "ఆంత్రోపాలజీ",
+                    "ప్రపంచీకరణ అధ్యయనాలు"
+                ],
+                "scope": "ఆధునిక మానవ శాస్త్ర సంశ్లేషణకు వలసవాద పరివర్తన",
+                "volume": 10
+            },
+            "section_10_contemporary_human_condition": {
+                "education_expansion": true,
+                "future_questions": [
+                    "AI-మానవ ఏకీకరణ",
+                    "జన్యు సవరణ (CRISPR)",
+                    "వాతావరణ అనుకూలత సామర్థ్యం"
+                ],
+                "lifespan_increase": {
+                    "modern_india": "~ 69 సంవత్సరాలు",
+                    "preindustrial": "~ 30-40 సంవత్సరాలు"
+                },
+                "technological_dependency": true
+            },
+            "section_1_late_mughal_fragmentation": {
+                "regional_polities": [
+                    "మరాఠా సమాఖ్య",
+                    "సిక్కు మిస్ల్స్",
+                    "మైసూర్ రాజ్యం",
+                    "బెంగాల్ నవాబులు"
+                ],
+                "structural_weakening": [
+                    "ప్రాంతీయ స్వయంప్రతిపత్తి పెరుగుతుంది",
+                    "ఆర్థిక ఒత్తిడి",
+                    "మరాఠా విస్తరణ"
+                ],
+                "time_range": "1707–1757 CE"
+            },
+            "section_2_european_colonial_dominance": {
+                "east_india_company_phase": {
+                    "battle_of_plassey": "1757 CE",
+                    "economic_shift": "తయారీ ఎగుమతిదారు నుండి ముడిసరుకు సరఫరాదారు వరకు",
+                    "revenue_extraction": "శాశ్వత పరిష్కారం (1793)"
+                },
+                "industrial_impact": {
+                    "deindustrialization": "చేనేత వస్త్ర రంగాల క్షీణత",
+                    "railway_infrastructure": "సమీకృత వలస ఆర్థిక వ్యవస్థ"
+                }
+            },
+            "section_3_demographic_transformation": {
+                "mortality_shift": {
+                    "public_health_improvements": true,
+                    "vaccination": true
+                },
+                "population_trends": {
+                    "1700_estimate_millions": 165,
+                    "1900_estimate_millions": 300,
+                    "2020_estimate_millions": 1380
+                },
+                "urbanization": {
+                    "colonial_cities": [
+                        "కలకత్తా",
+                        "బొంబాయి",
+                        "మద్రాసు"
+                    ],
+                    "post_independence_expansion": true
+                }
+            },
+            "section_4_nationalism_and_state_formation": {
+                "constitutional_framework": {
+                    "democratic_republic": true,
+                    "universal_suffrage": true
+                },
+                "independence": {
+                    "migration_scale": "అతిపెద్ద మానవ వలసలలో ఒకటి",
+                    "partition": "భారతదేశం-పాకిస్తాన్ విభజన",
+                    "year": 1947
+                },
+                "intellectual_currents": [
+                    "సంస్కరణ ఉద్యమాలు (బ్రహ్మ సమాజం, ఆర్య సమాజం)",
+                    "ప్రింట్ క్యాపిటలిజం మరియు వర్నాక్యులర్ ప్రెస్"
+                ]
+            },
+            "section_5_post_independence_development": {
+                "economic_model": {
+                    "liberalization": "1991 సంస్కరణలు",
+                    "planned_economy_phase": "1950–1990"
+                },
+                "green_revolution": {
+                    "environmental_cost": "భూగర్భ జలాలు క్షీణించడం",
+                    "impact": "ఆహార ధాన్యాల స్వయం సమృద్ధి"
+                }
+            },
+            "section_6_population_genetics_revolution": {
+                "genome_sequencing": {
+                    "high_throughput_sequencing": true,
+                    "human_genome_project": "2003 పూర్తి"
+                },
+                "medical_genomics": {
+                    "founder_effects": "కుల-సంబంధిత మాంద్యం రుగ్మతలు",
+                    "precision_medicine": "జన్యు ప్రమాద ప్రొఫైలింగ్"
+                },
+                "south_asian_studies": {
+                    "ancient_dna": "రాఖీగర్హి హరప్పన్ జన్యువు",
+                    "ani_asi_clarification": "శుద్ధి చేసిన మిక్స్చర్ టైమ్‌లైన్‌లు",
+                    "steppe_component_modeling": true
+                }
+            },
+            "section_7_modern_anthropological_synthesis": {
+                "cultural_identity": {
+                    "constructed_identity": true,
+                    "diaspora_expansion": "గ్లోబల్ ఇండియన్ కమ్యూనిటీలు"
+                },
+                "paradigm_shift": {
+                    "cline_model": "భౌగోళికం అంతటా క్రమంగా వైవిధ్యం",
+                    "race_rejected": "శాస్త్రీయ వర్గం వలె జీవ జాతి చెల్లదు"
+                }
+            },
+            "section_8_globalization_and_technology": {
+                "digital_revolution": {
+                    "ai_and_biotechnology": "ఉద్భవిస్తున్న క్షేత్రాలు",
+                    "internet_penetration": true
+                },
+                "migration_patterns": {
+                    "remittance_flows": "ప్రధాన ఆర్థిక అంశం",
+                    "skilled_migration": "IT మరియు వైద్య నిపుణులు"
+                }
+            },
+            "section_9_environmental_constraints": {
+                "biodiversity_loss": true,
+                "climate_change": {
+                    "monsoon_variability": "అనూహ్యతను పెంచుతోంది",
+                    "temperature_rise": "ఆంత్రోపోజెనిక్ గ్రీన్హౌస్ వాయువులు"
+                },
+                "sustainability_challenges": [
+                    "పట్టణ కాలుష్యం",
+                    "నీటి కొరత",
+                    "వ్యవసాయ ఒత్తిడి"
+                ]
+            }
         },
-        "evidence": {
-          "isotopic_fractionation": {
-            "carbon_isotope_ratio": "Light carbon preference indicates biological metabolism"
-          },
-          "stromatolites": {
-            "age": "3.5 billion years",
-            "location": "Western Australia",
-            "significance": "Layered microbial biofilm fossils"
-          }
+        "part2": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "4.4 - 1.5 బిలియన్ సంవత్సరాల క్రితం",
+                "primary_disciplines": [
+                    "జియోకెమిస్ట్రీ",
+                    "మాలిక్యులర్ బయాలజీ",
+                    "బయోకెమిస్ట్రీ",
+                    "ఆస్ట్రోబయాలజీ",
+                    "ఎవల్యూషనరీ బయాలజీ"
+                ],
+                "scope": "ప్రారంభ సెల్యులార్ పరిణామం ద్వారా అబియోజెనిసిస్",
+                "volume": 2
+            },
+            "section_10_astrobio_implications": {
+                "extremophiles": {
+                    "habitats": [
+                        "లోతైన సముద్రపు గుంటలు",
+                        "ఆమ్ల వేడి నీటి బుగ్గలు",
+                        "సబ్‌గ్లాసియల్ సరస్సులు"
+                    ],
+                    "implication": "భూమికి అవతల జీవితం సాధ్యమే"
+                },
+                "mars_and_europa": {
+                    "habitability_factors": [
+                        "ద్రవ నీరు",
+                        "శక్తి ప్రవణత",
+                        "సేంద్రీయ అణువులు"
+                    ]
+                }
+            },
+            "section_1_prebiotic_earth_chemistry": {
+                "environmental_context": {
+                    "energy_sources": [
+                        "అతినీలలోహిత వికిరణం",
+                        "మెరుపు స్రావాలు",
+                        "అగ్నిపర్వత భూఉష్ణ వేడి",
+                        "హైడ్రోథర్మల్ వెంట్ రెడాక్స్ ప్రవణతలు",
+                        "టైడల్ హీటింగ్"
+                    ],
+                    "surface_conditions": {
+                        "atmosphere": {
+                            "composition_estimated": [
+                                "CO2",
+                                "N2",
+                                "H2O ఆవిరి",
+                                "CH4",
+                                "NH3 (ట్రేస్)"
+                            ],
+                            "oxygen_absent": true
+                        },
+                        "ocean_chemistry": "ఐరన్-రిచ్, తగ్గించే పర్యావరణం",
+                        "temperature_range_celsius": "0–100°C ప్రాంతీయంగా మారవచ్చు"
+                    }
+                },
+                "prebiotic_molecule_synthesis": {
+                    "extraterrestrial_contribution": {
+                        "meteorite_evidence": {
+                            "implication": "కాస్మోస్‌లో ఆర్గానిక్ కెమిస్ట్రీ విస్తృతంగా వ్యాపించింది",
+                            "murchison_meteorite": "అమైనో ఆమ్లాలు మరియు న్యూక్లియోబేస్‌లను కలిగి ఉంటుంది"
+                        }
+                    },
+                    "hydrothermal_vent_synthesis": {
+                        "alkaline_vents": {
+                            "chemical_gradients": "మైక్రోపోర్స్ అంతటా ప్రోటాన్ ప్రవణతలు",
+                            "importance": "సహజ ప్రోటాన్-మోటివ్ ఫోర్స్ ప్రోటోటైప్",
+                            "location_model": "లాస్ట్ సిటీ హైడ్రోథర్మల్ ఫీల్డ్ అనలాగ్"
+                        }
+                    },
+                    "miller_urey_experiment": {
+                        "limitations": "వాతావరణ కూర్పు అసలైన మోడల్ కంటే తక్కువగా తగ్గుతుంది",
+                        "result": "అమైనో ఆమ్లాలు అకర్బన పూర్వగాములు నుండి సంశ్లేషణ చేయబడ్డాయి",
+                        "year": 1953
+                    }
+                }
+            },
+            "section_2_rna_world_hypothesis": {
+                "alternative_models": [
+                    "PNA (పెప్టైడ్ న్యూక్లియిక్ యాసిడ్)",
+                    "TNA (మూడు న్యూక్లియిక్ యాసిడ్)",
+                    "జీవక్రియ-మొదటి పరికల్పన"
+                ],
+                "challenges": [
+                    "రైబోస్ అస్థిరత",
+                    "ప్రారంభ పరిస్థితుల్లో న్యూక్లియోటైడ్ సంశ్లేషణ కష్టం",
+                    "ప్రతిరూపణ విశ్వసనీయత పరిమితులు"
+                ],
+                "core_concept": "RNA జన్యు పదార్ధం మరియు ఉత్ప్రేరక అణువుగా పనిచేస్తుంది",
+                "supporting_evidence": {
+                    "ribosome_structure": "పెప్టైడ్ బాండ్ నిర్మాణం RNA కోర్ ద్వారా ఉత్ప్రేరకమవుతుంది",
+                    "ribozymes": "ఉత్ప్రేరక చర్యతో RNA అణువులు",
+                    "self_splicing_introns": "RNA స్వయంప్రతిపత్తమైన మార్పు చేయగలదు"
+                }
+            },
+            "section_3_protocell_formation": {
+                "encapsulation": {
+                    "co-evolution": "లిపిడ్ వెసికిల్స్ లోపల RNA రెప్లికేషన్",
+                    "importance": "ప్రతిచర్యల ఏకాగ్రత ప్రతిచర్య సంభావ్యతను పెంచుతుంది"
+                },
+                "lipid_self_assembly": {
+                    "mechanism": "యాంఫిఫిలిక్ అణువులు బిలేయర్ వెసికిల్స్‌ను ఆకస్మికంగా ఏర్పరుస్తాయి",
+                    "properties": [
+                        "ఎంపిక పారగమ్యత",
+                        "కంపార్ట్మెంటలైజేషన్",
+                        "స్వీయ మరమ్మత్తు సామర్థ్యం"
+                    ]
+                },
+                "selection_pressure": {
+                    "competition_between_protocells": "వనరుల సేకరణ సామర్థ్యం",
+                    "evolutionary_advantage": "మెంబ్రేన్ స్థిరత్వం మరియు ప్రతిరూపణ వేగం"
+                }
+            },
+            "section_4_first_cells_prokaryotes": {
+                "cellular_structure": {
+                    "dna_location": "సైటోప్లాస్మిక్ న్యూక్లియోయిడ్",
+                    "metabolism_types": [
+                        "వాయురహిత శ్వాసక్రియ",
+                        "కిణ్వ ప్రక్రియ",
+                        "కెమోలిథోట్రోఫీ"
+                    ],
+                    "no_nucleus": true
+                },
+                "evidence": {
+                    "isotopic_fractionation": {
+                        "carbon_isotope_ratio": "లైట్ కార్బన్ ప్రాధాన్యత జీవ జీవక్రియను సూచిస్తుంది"
+                    },
+                    "stromatolites": {
+                        "age": "3.5 బిలియన్ సంవత్సరాలు",
+                        "location": "పశ్చిమ ఆస్ట్రేలియా",
+                        "significance": "లేయర్డ్ మైక్రోబియల్ బయోఫిల్మ్ శిలాజాలు"
+                    }
+                },
+                "time": "3.7–3.5 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_5_metabolic_diversification": {
+                "anoxygenic_photosynthesis": {
+                    "electron_donors": [
+                        "హైడ్రోజన్ సల్ఫైడ్",
+                        "ఫెర్రస్ ఇనుము"
+                    ],
+                    "oxygen_production": false
+                },
+                "methanogenesis": {
+                    "domain": "ఆర్కియా",
+                    "role": "వాయురహిత పరిస్థితుల్లో మీథేన్ ఉత్పత్తి"
+                },
+                "oxygenic_photosynthesis": {
+                    "byproduct": "పరమాణు ఆక్సిజన్ (O2)",
+                    "innovation": "నీటి విభజన ప్రతిచర్య",
+                    "organisms": "సైనోబాక్టీరియా"
+                }
+            },
+            "section_6_great_oxygenation_event": {
+                "atmospheric_transition": {
+                    "iron_oxidation": "బ్యాండెడ్ ఇనుప నిర్మాణాల ఏర్పాటు",
+                    "oxygen_increase": "<0.001% నుండి కొలవదగిన% వరకు"
+                },
+                "climate_effect": "హురోనియన్ హిమానీనదం యొక్క సంభావ్య ట్రిగ్గర్",
+                "ecological_consequences": [
+                    "వాయురహిత విలుప్తత",
+                    "ఏరోబిక్ శ్వాసక్రియ పెరుగుదల",
+                    "ఓజోన్ పొర ఏర్పడటం"
+                ],
+                "time": "2.4 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_7_origin_of_eukaryotes": {
+                "cellular_advancements": [
+                    "అణు పొర",
+                    "సైటోస్కెలిటన్",
+                    "లైంగిక పునరుత్పత్తి (తరువాత అభివృద్ధి)"
+                ],
+                "endosymbiotic_theory": {
+                    "chloroplast_origin": "ఎంగల్ఫ్డ్ సైనోబాక్టీరియా",
+                    "mitochondria_origin": "ఆల్ఫా-ప్రోటీబాక్టీరియాను చుట్టుముట్టింది"
+                },
+                "genomic_complexity": {
+                    "introns_present": true,
+                    "linear_chromosomes": true
+                },
+                "time": "2.1–1.8 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_8_multicellularity": {
+                "advantages": [
+                    "శ్రమ విభజన",
+                    "పెరిగిన పరిమాణం",
+                    "ప్రిడేటర్ ఎగవేత"
+                ],
+                "cellular_specialization": {
+                    "adhesion_molecules": "క్యాథరిన్లు మరియు సమగ్రతలు",
+                    "gene_regulation": "భేదాత్మక వ్యక్తీకరణ"
+                },
+                "independent_origins": [
+                    "జంతువులు",
+                    "మొక్కలు",
+                    "శిలీంధ్రాలు",
+                    "ఆల్గే"
+                ]
+            },
+            "section_9_genetic_mechanisms": {
+                "horizontal_gene_transfer": {
+                    "impact": "వేగవంతమైన ప్రారంభ పరిణామం",
+                    "mechanisms": [
+                        "పరివర్తన",
+                        "ట్రాన్స్డక్షన్",
+                        "సంయోగం"
+                    ]
+                },
+                "mutation": {
+                    "types": [
+                        "పాయింట్ మ్యుటేషన్",
+                        "చొప్పించడం",
+                        "తొలగింపు",
+                        "డూప్లికేషన్"
+                    ]
+                },
+                "natural_selection": {
+                    "definition": "లక్షణ ప్రయోజనం ఆధారంగా అవకలన పునరుత్పత్తి విజయం"
+                }
+            }
         },
-        "time": "3.7–3.5 billion years ago"
-      },
-      "section_5_metabolic_diversification": {
-        "anoxygenic_photosynthesis": {
-          "electron_donors": [
-            "Hydrogen sulfide",
-            "Ferrous iron"
-          ],
-          "oxygen_production": false
+        "part3": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "1.5 బిలియన్ సంవత్సరాల క్రితం - 66 మిలియన్ సంవత్సరాల క్రితం",
+                "disciplines": [
+                    "పాలియోబయాలజీ",
+                    "ఎవల్యూషనరీ డెవలప్‌మెంటల్ బయాలజీ",
+                    "ఎర్త్ సిస్టమ్ సైన్స్",
+                    "పాలియోక్లిమాటాలజీ",
+                    "తులనాత్మక అనాటమీ"
+                ],
+                "scope": "డైనోసార్ అంతరించిపోవడం ద్వారా సంక్లిష్టమైన బహుళ సెల్యులార్ జీవితం",
+                "volume": 3
+            },
+            "section_1_multicellular_complexity": {
+                "early_multicellular_forms": {
+                    "colonial_protists": "జంతువులకు సాధ్యమైన పూర్వగాములు",
+                    "eukaryotic_algae": "1.2 బిలియన్ సంవత్సరాల క్రితం",
+                    "fungal_lineages": "ప్రారంభ హెటెరోట్రోఫిక్ బహుళ సెల్యులారిటీ"
+                },
+                "time_range": "1.5 బిలియన్ - 600 మిలియన్ సంవత్సరాల క్రితం",
+                "transition_mechanisms": {
+                    "cell_adhesion_evolution": {
+                        "molecules": [
+                            "క్యాథరిన్స్",
+                            "సమగ్రతలు"
+                        ],
+                        "role": "స్థిరమైన కణజాల నిర్మాణం"
+                    },
+                    "developmental_signaling_pathways": [
+                        "Wnt signaling",
+                        "Notch signaling",
+                        "Hedgehog pathway"
+                    ],
+                    "gene_regulatory_networks": {
+                        "effect": "ప్రాదేశిక శరీర నమూనా",
+                        "innovation": "మాస్టర్ కంట్రోల్ జన్యువులు (ఉదా., హాక్స్ జన్యువులు)"
+                    }
+                }
+            },
+            "section_2_ediacaran_biota": {
+                "body_plan_characteristics": {
+                    "bilateral_symmetry": "కొన్ని రూపాల్లో ఉద్భవించింది",
+                    "feeding_strategy": "ఓస్మోట్రోఫీ అనుమానం",
+                    "soft_bodied": true
+                },
+                "evolutionary_significance": "కేంబ్రియన్ జంతుజాలానికి పూర్వగామి పర్యావరణ వ్యవస్థ",
+                "organisms": [
+                    "డికిన్సోనియా",
+                    "కర్నియోడిస్కస్",
+                    "స్ప్రిగ్గినా"
+                ],
+                "time": "635-541 మిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_3_cambrian_explosion": {
+                "diversification_features": {
+                    "hard_parts": "కాల్షియం కార్బోనేట్ మరియు చిటిన్ ఎక్సోస్కెలిటన్లు",
+                    "major_animal_phyla": [
+                        "ఆర్థ్రోపోడా",
+                        "మొలస్కా",
+                        "చోర్డేటా",
+                        "అన్నెలిడా",
+                        "ఎచినోడెర్మాటా"
+                    ],
+                    "predator_prey_arms_race": "పరిణామాత్మక పెరుగుదల"
+                },
+                "key_fossil_sites": [
+                    "బర్గెస్ షేల్ (కెనడా)",
+                    "చెంగ్జియాంగ్ బయోటా (చైనా)"
+                ],
+                "possible_causes": [
+                    "పెరిగిన ఆక్సిజన్ స్థాయిలు",
+                    "జన్యు ఆవిష్కరణ (హాక్స్ జన్యు విస్తరణ)",
+                    "పర్యావరణ సముచిత నిర్మాణం",
+                    "కాంటినెంటల్ ఫ్రాగ్మెంటేషన్"
+                ],
+                "time": "541-520 మిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_4_vertebrate_origins": {
+                "early_chordates": {
+                    "organisms": [
+                        "పికైయా",
+                        "హైకౌచ్తీస్"
+                    ],
+                    "traits": [
+                        "నోటోకార్డ్",
+                        "డోర్సల్ నరాల త్రాడు",
+                        "ఫారింజియల్ చీలికలు"
+                    ]
+                },
+                "jawed_vertebrates": {
+                    "advantage": "మెరుగైన ప్రెడేషన్ మరియు ఫీడింగ్ సామర్థ్యం",
+                    "innovation": "గ్నాథోస్టోమ్స్"
+                }
+            },
+            "section_5_land_colonization": {
+                "arthropods": {
+                    "advantage": "నీటి నిలుపుదల కోసం ఎక్సోస్కెలిటన్",
+                    "time": "450 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "plants": {
+                    "innovations": [
+                        "క్యూటికల్",
+                        "వాస్కులర్ కణజాలం",
+                        "ఎండబెట్టడాన్ని నిరోధించే బీజాంశం"
+                    ],
+                    "time": "470 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "tetrapods": {
+                    "limb_evolution": "ఫిన్ కిరణాల నుండి అంకెలు",
+                    "lungs_development": "గాలి శ్వాస అనుసరణ",
+                    "transition_from_lobe_finned_fish": "టిక్తాలిక్ పరివర్తన శిలాజంగా"
+                }
+            },
+            "section_6_paleozoic_mass_extinctions": {
+                "late_devonian": {
+                    "possible_causes": [
+                        "ఓషన్ అనోక్సియా",
+                        "మొక్కల ఆధారిత వాతావరణ మార్పు"
+                    ],
+                    "time": "372 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "ordovician_silurian": {
+                    "cause": "గ్లేసియేషన్ మరియు సముద్ర మట్టం తగ్గుదల",
+                    "time": "444 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "permian_triassic": {
+                    "mechanisms": [
+                        "భారీ CO2 విడుదల",
+                        "సముద్ర ఆమ్లీకరణ",
+                        "మీథేన్ హైడ్రేట్ అస్థిరత"
+                    ],
+                    "probable_cause": "సైబీరియన్ ట్రాప్స్ అగ్నిపర్వతం",
+                    "severity": "96% సముద్ర జాతులు అంతరించిపోయాయి",
+                    "time": "252 మిలియన్ సంవత్సరాల క్రితం"
+                }
+            },
+            "section_7_mesozoic_dominance": {
+                "birds": {
+                    "origin": "థెరోపాడ్ డైనోసార్ల నుండి ఉద్భవించింది",
+                    "transitional_fossil": "ఆర్కియోప్టెరిక్స్"
+                },
+                "dinosaurs": {
+                    "adaptive_features": [
+                        "సమర్థవంతమైన శ్వాసక్రియ (గాలి సంచులు)",
+                        "నిటారుగా ఉన్న భంగిమ",
+                        "అధిక వృద్ధి రేట్లు"
+                    ],
+                    "clades": [
+                        "థెరోపోడ్స్",
+                        "సౌరోపాడ్స్",
+                        "ఆర్నిథిస్షియన్లు"
+                    ],
+                    "time_range": "230-66 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "triassic_recovery": {
+                    "ecological_reset": "ఆర్కోసార్స్ పెరుగుతాయి"
+                }
+            },
+            "section_8_mammalian_origins": {
+                "nocturnal_adaptation": "డైనోసార్ ఆధిపత్యం సమయంలో మనుగడ వ్యూహం",
+                "synapsids": {
+                    "features": "సింగిల్ టెంపోరల్ స్కల్ ఓపెనింగ్",
+                    "time": "పెర్మియన్ కాలం"
+                },
+                "therapsids": {
+                    "transitional_group": "క్షీరదాల వైపు"
+                },
+                "true_mammals": {
+                    "time": "లేట్ ట్రయాసిక్",
+                    "traits": [
+                        "జుట్టు",
+                        "క్షీర గ్రంధులు",
+                        "విభిన్న దంతాలు"
+                    ]
+                }
+            },
+            "section_9_cretaceous_paleogene_extinction": {
+                "evidence": [
+                    "ఇరిడియం పొర",
+                    "షాక్ క్వార్ట్జ్",
+                    "టెక్టైట్స్"
+                ],
+                "global_effects": [
+                    "ప్రభావం శీతాకాలం",
+                    "కిరణజన్య సంయోగక్రియ పతనం",
+                    "ఆహార గొలుసు అంతరాయం"
+                ],
+                "impact_site": "చిక్సులబ్ బిలం (యుకాటన్ ద్వీపకల్పం)",
+                "result": "నాన్-ఏవియన్ డైనోసార్ విలుప్తం; క్షీరద రేడియేషన్ అవకాశం",
+                "time": "66 మిలియన్ సంవత్సరాల క్రితం"
+            }
         },
-        "methanogenesis": {
-          "domain": "Archaea",
-          "role": "Methane production in anaerobic conditions"
+        "part4": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "66 మిలియన్ సంవత్సరాల క్రితం - 1 మిలియన్ సంవత్సరాల క్రితం",
+                "disciplines": [
+                    "పాలియోఆంత్రోపాలజీ",
+                    "కంపారిటివ్ న్యూరోబయాలజీ",
+                    "ఫంక్షనల్ మోర్ఫాలజీ",
+                    "ప్రిమటాలజీ",
+                    "పాలియోక్లిమాటాలజీ",
+                    "ఎవల్యూషనరీ ఎకాలజీ"
+                ],
+                "scope": "ప్రైమేట్ ఎవల్యూషన్ మరియు ప్రారంభ హోమినిన్ డైవర్జెన్స్",
+                "volume": 4
+            },
+            "section_10_paleoecology_and_selection_pressures": {
+                "african_rift_valley": {
+                    "climate_variability": "ఊగిసలాడే తడి-పొడి చక్రాలు",
+                    "tectonic_activity": "పర్యావరణ వైవిధ్యాన్ని సృష్టించారు"
+                },
+                "selection_pressures": [
+                    "కాలానుగుణ ఆహార కొరత",
+                    "ప్రిడేటర్ ఎక్స్పోజర్",
+                    "సుదూర చలనశీలత అవసరం"
+                ]
+            },
+            "section_1_mammalian_radiation": {
+                "placental_diversification": {
+                    "advantage": "పెరిగిన నవజాత శిశువు మెదడు అభివృద్ధి",
+                    "innovation": "సుదీర్ఘ గర్భధారణను ఎనేబుల్ చేసే అధునాతన ప్లాసెంటా",
+                    "time": "65-50 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "post_kpg_ecological_release": {
+                    "adaptive_radiation": [
+                        "క్రిమిసంహారకాలు",
+                        "శాకాహారులు",
+                        "మాంసాహారులు",
+                        "ఆర్బోరియల్ నిపుణులు"
+                    ],
+                    "genetic_acceleration": "క్షీరద వంశాల వేగవంతమైన వైవిధ్యీకరణ",
+                    "mechanism": "నాన్-ఏవియన్ డైనోసార్ల తొలగింపు పర్యావరణ గూడులను తెరిచింది",
+                    "time": "66 మిలియన్ సంవత్సరాల క్రితం"
+                }
+            },
+            "section_2_primate_origins": {
+                "arboreal_adaptations": {
+                    "grasping_hands": true,
+                    "nails_instead_of_claws": true,
+                    "opposable_thumb": true,
+                    "stereoscopic_vision": "లోతు అవగాహన కోసం ముందుకు చూసే కళ్ళు"
+                },
+                "early_primate_groups": [
+                    "Plesiadapiforms",
+                    "అడాపిఫార్మ్స్",
+                    "Omomyiforms"
+                ],
+                "environment": "వెచ్చని పాలియోసిన్-ఈయోసిన్ అడవులు",
+                "time": "55-65 మిలియన్ సంవత్సరాల క్రితం"
+            },
+            "section_3_neurobiological_expansion": {
+                "encephalization_trend": {
+                    "definition": "మెదడు-నుండి-శరీర పరిమాణం నిష్పత్తిలో పెరుగుదల",
+                    "drivers": [
+                        "కాంప్లెక్స్ అర్బోరియల్ లోకోమోషన్",
+                        "సామాజిక సమూహ సమన్వయం",
+                        "ఆహార సంక్లిష్టత (పండ్ల ఆధారిత)"
+                    ]
+                },
+                "prefrontal_cortex_growth": "మెరుగైన ప్రణాళిక మరియు జ్ఞాపకశక్తి",
+                "visual_cortex_expansion": "పండు గుర్తింపు కోసం మెరుగైన వర్ణ వివక్ష"
+            },
+            "section_4_catarrhine_and_ape_divergence": {
+                "catarrhine_monkeys": {
+                    "time": "30-25 మిలియన్ సంవత్సరాల క్రితం",
+                    "traits": [
+                        "క్రిందికి ఎదురుగా ఉన్న నాసికా రంధ్రాలు",
+                        "డెంటల్ ఫార్ములా 2.1.2.3"
+                    ]
+                },
+                "hominoids": {
+                    "groups": [
+                        "గిబ్బన్స్",
+                        "ఒరంగుటాన్లు",
+                        "గొరిల్లాలు",
+                        "చింపాంజీలు",
+                        "మానవులు"
+                    ],
+                    "time": "20-15 మిలియన్ సంవత్సరాల క్రితం"
+                }
+            },
+            "section_5_climate_and_hominin_divergence": {
+                "human_chimp_split": {
+                    "evidence": "జన్యు వైవిధ్యం ~1–2% తేడా",
+                    "time": "6-7 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "miocene_climate_shift": {
+                    "result": "ఫారెస్ట్ ఫ్రాగ్మెంటేషన్ → సవన్నా విస్తరణ",
+                    "time": "23-5 మిలియన్ సంవత్సరాల క్రితం",
+                    "trend": "శీతలీకరణ మరియు ఎండబెట్టడం"
+                }
+            },
+            "section_6_early_hominins": {
+                "ardipithecus_ramidus": {
+                    "locomotion": "అర్బోరియల్ సామర్థ్యంతో పాక్షిక బైపెడలిజం",
+                    "time": "4.4 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "australopithecus_afarensis": {
+                    "brain_volume_cc": 400,
+                    "notable_specimen": "లూసీ",
+                    "pelvic_structure": "నిటారుగా నడవడానికి అనుకూలం",
+                    "time": "3.9–2.9 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "sahelanthropus_tchadensis": {
+                    "time": "7 మిలియన్ సంవత్సరాల క్రితం",
+                    "traits": [
+                        "సాధ్యమైన ద్విపాద భంగిమ",
+                        "కుక్కల పరిమాణం తగ్గింది"
+                    ]
+                }
+            },
+            "section_7_bipedalism_mechanics": {
+                "anatomical_changes": {
+                    "femur_angle": "వాల్గస్ మోకాలి అమరిక",
+                    "foramen_magnum_position": "పుర్రె కింద కేంద్రీకృతమై ఉంది",
+                    "pelvis_shape": "చిన్న, గిన్నె ఆకారపు పెల్విస్",
+                    "spinal_curvature": "S- ఆకారపు వెన్నుపూస కాలమ్"
+                },
+                "energy_efficiency": "బైపెడల్ నడక చాలా దూరాలకు లోకోమోషన్ శక్తి వ్యయాన్ని తగ్గిస్తుంది",
+                "thermoregulation": "సౌర వికిరణానికి ఉపరితల బహిర్గతం తగ్గింది"
+            },
+            "section_8_genus_homo_emergence": {
+                "dietary_shift": {
+                    "cooking_hypothesis": "తరువాత కానీ శక్తి రూపాంతరం",
+                    "meat_consumption": "పెరిగిన కెలోరిక్ సాంద్రత"
+                },
+                "homo_habilis": {
+                    "brain_volume_cc": 600,
+                    "time": "2.4–1.4 మిలియన్ సంవత్సరాల క్రితం",
+                    "tool_industry": "ఓల్డోవన్ (మోడ్ 1)"
+                },
+                "social_complexity": "సహకార స్కావెంజింగ్ మరియు వేట"
+            },
+            "section_9_homo_erectus_expansion": {
+                "brain_volume_cc": 900,
+                "fire_control": {
+                    "benefits": [
+                        "వంట",
+                        "ప్రిడేటర్ నిరోధం",
+                        "విస్తరించిన సామాజిక పరస్పర చర్య"
+                    ],
+                    "estimated_time": "1–1.5 మిలియన్ సంవత్సరాల క్రితం"
+                },
+                "migration": {
+                    "regions": [
+                        "జార్జియా (డమనిసి)",
+                        "ఇండోనేషియా (జావా)",
+                        "చైనా (జౌకౌడియన్)"
+                    ]
+                },
+                "technological_innovation": "అచెయులియన్ హ్యాండ్యాక్స్ (మోడ్ 2)",
+                "time": "1.9 మిలియన్ సంవత్సరాల క్రితం"
+            }
         },
-        "oxygenic_photosynthesis": {
-          "byproduct": "Molecular oxygen (O2)",
-          "innovation": "Water splitting reaction",
-          "organisms": "Cyanobacteria"
-        }
-      },
-      "section_6_great_oxygenation_event": {
-        "atmospheric_transition": {
-          "iron_oxidation": "Formation of banded iron formations",
-          "oxygen_increase": "From <0.001% to measurable %"
+        "part5": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "1 మిలియన్ సంవత్సరాల క్రితం - 10,000 BCE",
+                "disciplines": [
+                    "పాలియోఆంత్రోపాలజీ",
+                    "ఆర్కియోజెనెటిక్స్",
+                    "అభిజ్ఞా పరిణామం",
+                    "లిథిక్ టెక్నాలజీ స్టడీస్",
+                    "దక్షిణాసియా పూర్వ చరిత్ర"
+                ],
+                "scope": "ప్రాచీన మానవులు హోమో సేపియన్స్ ఆవిర్భావం మరియు భారతదేశంలోకి వలస వచ్చారు",
+                "volume": 5
+            },
+            "section_10_symbolism_and_culture": {
+                "artistic_expression": {
+                    "rock_art_india": "భీంబేట్కా గుహ చిత్రాలు",
+                    "symbolic_motifs": "జంతువులు, వేట దృశ్యాలు"
+                },
+                "language_evolution": {
+                    "cultural_transmission": "మౌఖిక సంప్రదాయ పునాదులు",
+                    "syntax_complexity": "పునరావృత వ్యాకరణ సామర్థ్యం"
+                },
+                "ritual_behavior": {
+                    "body_adornment": "షెల్ పూసలు",
+                    "burials": "సమాధి వస్తువులు మరియు వర్ణద్రవ్యం ఉపయోగం"
+                }
+            },
+            "section_1_late_homo_erectus_transition": {
+                "anatomical_trends": {
+                    "brain_expansion_cc": "900 → 1100",
+                    "cranial_vault": "పెరిగిన ఎత్తు",
+                    "reduced_prognathism": true
+                },
+                "regional_variation": {
+                    "africa": "హోమో హైడెల్బెర్గెన్సిస్ ఆవిర్భావం",
+                    "asia": "లేట్ హోమో ఎరెక్టస్ పెర్సిస్టెన్స్"
+                },
+                "technological_complexity": {
+                    "acheulean_refinement": "సమరూపత మరియు ప్రమాణీకరణ పెరిగింది",
+                    "planned_flake_production": "అధునాతన కాగ్నిటివ్ సీక్వెన్సింగ్"
+                },
+                "time_range": "1 మిలియన్ - 300,000 సంవత్సరాల క్రితం"
+            },
+            "section_2_homo_heidelbergensis": {
+                "behavioral_traits": [
+                    "పెద్ద ఆట వేట",
+                    "చెక్క ఈటె వాడకం",
+                    "సాధ్యమైన షెల్టర్ నిర్మాణం"
+                ],
+                "brain_volume_cc": 1100,
+                "geographic_distribution": [
+                    "ఆఫ్రికా",
+                    "యూరప్"
+                ],
+                "significance": "నియాండర్తల్ మరియు హోమో సేపియన్స్ యొక్క సాధారణ పూర్వీకులు",
+                "time": "700,000 - 300,000 సంవత్సరాల క్రితం"
+            },
+            "section_3_neanderthals": {
+                "anatomical_adaptations": {
+                    "large_nasal_cavity": "గాలి వేడెక్కడం సామర్థ్యం",
+                    "robust_skeleton": "చల్లని వాతావరణ అనుసరణ",
+                    "short_limb_proportions": "తగ్గిన ఉష్ణ నష్టం"
+                },
+                "brain_volume_cc": 1400,
+                "cognition_and_culture": {
+                    "burial_practices": true,
+                    "language_capacity": "FOXP2 జన్యు రూపాంతరం సేపియన్‌లతో భాగస్వామ్యం చేయబడింది",
+                    "mousterian_tools": "ప్రిపేర్డ్-కోర్ లెవాల్లోయిస్ టెక్నిక్",
+                    "symbolic_objects": [
+                        "వర్ణద్రవ్యం వాడకం (ఓచర్)",
+                        "వ్యక్తిగత ఆభరణాలు"
+                    ]
+                },
+                "extinction_factors": [
+                    "వాతావరణ అస్థిరత",
+                    "హోమో సేపియన్స్‌తో పోటీ",
+                    "చిన్న జనాభా పరిమాణం"
+                ],
+                "region": "యూరప్ మరియు పశ్చిమ ఆసియా",
+                "time": "400,000 - 40,000 సంవత్సరాల క్రితం"
+            },
+            "section_4_denisovans": {
+                "discovery": "డెనిసోవా గుహ, సైబీరియా",
+                "genetic_significance": {
+                    "adaptations": [
+                        "హై-ఎలిట్యూడ్ అడాప్టేషన్ (టిబెటన్లలో EPAS1 జన్యువు)"
+                    ],
+                    "interbreeding": "మెలనేసియన్ మరియు దక్షిణాసియా జనాభాకు DNA తోడ్పడింది"
+                },
+                "time": "300,000 - 30,000 సంవత్సరాల క్రితం"
+            },
+            "section_5_emergence_of_homo_sapiens": {
+                "anatomical_modernity": {
+                    "chin_presence": true,
+                    "globular_cranium": true,
+                    "reduced_brow_ridge": true
+                },
+                "cognitive_modernity": {
+                    "abstract_thought": true,
+                    "complex_language": true,
+                    "symbolic_art": true
+                },
+                "location": "ఆఫ్రికా (జెబెల్ ఇర్హౌడ్ శిలాజాలు)",
+                "time": "300,000 సంవత్సరాల క్రితం"
+            },
+            "section_6_cognitive_revolution": {
+                "behavioral_manifestations": [
+                    "గుహ కళ (చౌవెట్, లాస్కాక్స్)",
+                    "సంగీత వాయిద్యాలు",
+                    "పురాణాల తయారీ మరియు కథ చెప్పడం"
+                ],
+                "neural_changes": {
+                    "prefrontal_cortex_organization": "మెరుగైన కార్యనిర్వాహక పనితీరు",
+                    "temporal_lobe_language_circuits": "కాంప్లెక్స్ సింటాక్స్ అభివృద్ధి"
+                },
+                "social_structures": {
+                    "Large cooperative groups": true,
+                    "Long-distance trade networks": true
+                },
+                "time": "70,000 - 40,000 సంవత్సరాల క్రితం"
+            },
+            "section_7_out_of_africa_migration": {
+                "genetic_bottleneck": "ఆఫ్రికన్ కాని జనాభాలో వ్యవస్థాపక ప్రభావం",
+                "primary_wave": {
+                    "mechanism": "అనుకూలమైన వాతావరణ విండో సమయంలో జనాభా విస్తరణ",
+                    "route": "దక్షిణ తీర మార్గం",
+                    "time": "65,000 - 70,000 సంవత్సరాల క్రితం"
+                }
+            },
+            "section_8_migration_into_india": {
+                "archaeological_sites": [
+                    "జ్వాలాపురం (ఆంధ్రప్రదేశ్)",
+                    "అత్తిరంపాక్కం (తమిళనాడు)",
+                    "భింబేట్కా (మధ్యప్రదేశ్)"
+                ],
+                "genetic_impact": {
+                    "ancestral_components": [
+                        "పురాతన దక్షిణాసియా వేటగాళ్ళు",
+                        "డెనిసోవన్ మిక్స్చర్ జాడలు"
+                    ]
+                },
+                "route": "తీర అరేబియా సముద్ర మార్గం",
+                "time": "65,000 సంవత్సరాల క్రితం",
+                "tool_traditions": [
+                    "మధ్య శిలాయుగపు రేకులు",
+                    "మైక్రోలిథిక్ టెక్నాలజీ (తరువాతి కాలం)"
+                ]
+            },
+            "section_9_indian_paleolithic_sequence": {
+                "lower_paleolithic": {
+                    "culture": "అచెయులియన్",
+                    "site": "ఇసంపూర్ క్వారీ",
+                    "time": "1.5 మిలియన్ - 200,000 సంవత్సరాల క్రితం"
+                },
+                "middle_paleolithic": {
+                    "technology": "ప్రధాన సాంకేతికతలను సిద్ధం చేసింది",
+                    "time": "200,000 - 45,000 సంవత్సరాల క్రితం"
+                },
+                "upper_paleolithic": {
+                    "innovation": "బ్లేడ్ టూల్స్ మరియు ప్రారంభ కళ",
+                    "time": "45,000 - 10,000 సంవత్సరాల క్రితం"
+                }
+            }
         },
-        "climate_effect": "Possible trigger of Huronian glaciation",
-        "ecological_consequences": [
-          "Anaerobic extinction",
-          "Rise of aerobic respiration",
-          "Ozone layer formation"
-        ],
-        "time": "2.4 billion years ago"
-      },
-      "section_7_origin_of_eukaryotes": {
-        "cellular_advancements": [
-          "Nuclear membrane",
-          "Cytoskeleton",
-          "Sexual reproduction (later development)"
-        ],
-        "endosymbiotic_theory": {
-          "chloroplast_origin": "Engulfed cyanobacteria",
-          "mitochondria_origin": "Engulfed alpha-proteobacteria"
+        "part6": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "10,000 BCE - 1500 BCE",
+                "disciplines": [
+                    "ఆర్కియాలజీ",
+                    "ఆర్కియోజెనెటిక్స్",
+                    "పాలియోక్లిమాటాలజీ",
+                    "ఆంత్రోపాలజీ",
+                    "ప్రారంభ పట్టణ అధ్యయనాలు",
+                    "హిస్టారికల్ లింగ్విస్టిక్స్"
+                ],
+                "scope": "భారత ఉపఖండంలో నియోలిథిక్ పరివర్తన మరియు ప్రారంభ నాగరికత",
+                "volume": 6
+            },
+            "section_1_terminal_pleistocene_transition": {
+                "holocene_onset": {
+                    "climatic_stability": true,
+                    "importance": "వ్యవసాయ తీవ్రతను ప్రారంభించింది",
+                    "time": "11,700 సంవత్సరాల క్రితం"
+                },
+                "younger_dryas_event": {
+                    "characteristic": "హిమనదీయ పరిస్థితులకు ఆకస్మికంగా తిరిగి రావడం",
+                    "impact": [
+                        "మెగాఫౌనల్ విలుప్తాలు",
+                        "మానవ జీవనోపాధి ఒత్తిడి",
+                        "మొక్కల పెంపకం ప్రయోగం వైపు మళ్లండి"
+                    ],
+                    "possible_cause": "ఉత్తర అట్లాంటిక్ మంచినీటి ప్రవాహం థర్మోహలైన్ ప్రసరణకు అంతరాయం కలిగిస్తుంది",
+                    "time": "12,900–11,700 సంవత్సరాల క్రితం"
+                }
+            },
+            "section_2_global_neolithic_revolution": {
+                "fertile_crescent": {
+                    "domesticated_animals": [
+                        "మేక",
+                        "గొర్రెలు"
+                    ],
+                    "domesticated_plants": [
+                        "గోధుమ",
+                        "బార్లీ"
+                    ],
+                    "sedentism": "శాశ్వత గ్రామ నిర్మాణం"
+                },
+                "independent_centers": [
+                    "చైనా (వరి, మిల్లెట్)",
+                    "మెసోఅమెరికా (మొక్కజొన్న)",
+                    "న్యూ గినియా (టారో)",
+                    "దక్షిణ ఆసియా (జెబు పశువులు, బార్లీ అనుసరణ)"
+                ],
+                "technological_innovations": [
+                    "గ్రౌండింగ్ రాళ్ళు",
+                    "కుండలు",
+                    "నీటిపారుదల ప్రారంభం"
+                ]
+            },
+            "section_3_mehrgarh_and_early_south_asian_agriculture": {
+                "cultural_traits": [
+                    "మట్టి ఇటుక ఇళ్లు",
+                    "సమాధి వస్తువులతో ఖననం",
+                    "పూసల తయారీ మరియు ప్రారంభ క్రాఫ్ట్ స్పెషలైజేషన్"
+                ],
+                "economic_structure": {
+                    "animal_domestication": [
+                        "జెబు పశువులు",
+                        "గొర్రెలు",
+                        "మేక"
+                    ],
+                    "farming": [
+                        "బార్లీ",
+                        "గోధుమ"
+                    ]
+                },
+                "genetic_significance": {
+                    "ancestry_components": [
+                        "పురాతన ఇరానియన్ వ్యవసాయదారులు",
+                        "స్వదేశీ దక్షిణాసియా వేటగాళ్లు"
+                    ]
+                },
+                "location": "మెహర్‌ఘర్ (బలూచిస్తాన్ ప్రాంతం)",
+                "time_range": "7000–2600 BCE"
+            },
+            "section_4_indus_valley_civilization": {
+                "economic_system": {
+                    "craft_specialization": [
+                        "పూసల పరిశ్రమ",
+                        "మెటలర్జీ (రాగి/కాంస్య)",
+                        "సీల్ చెక్కడం"
+                    ],
+                    "trade_networks": [
+                        "మెసొపొటేమియా",
+                        "పెర్షియన్ గల్ఫ్",
+                        "మధ్య ఆసియా"
+                    ]
+                },
+                "major_sites": [
+                    "హరప్పా",
+                    "మొహెంజదారో",
+                    "ధోలవీర",
+                    "రాఖీగర్హి"
+                ],
+                "social_structure": {
+                    "evidence_of_palaces": false,
+                    "relative_egalitarianism": "చర్చనీయాంశమైంది కానీ పరిమిత స్మారక సోపానక్రమం"
+                },
+                "time_range": "3300–1300 BCE",
+                "urban_planning": {
+                    "drainage_system": "అధునాతన కప్పబడిన మురుగునీరు",
+                    "grid_layout": true,
+                    "standardized_bricks": true
+                },
+                "writing_system": {
+                    "indus_script": "అర్థం చేసుకోని",
+                    "mediums": [
+                        "సీల్స్",
+                        "కుండలు",
+                        "మాత్రలు"
+                    ]
+                }
+            },
+            "section_5_climate_and_ivc_transformation": {
+                "monsoon_shift": {
+                    "effect": "నది ఎండబెట్టడం, ముఖ్యంగా ఘగ్గర్-హక్రా వ్యవస్థ",
+                    "pattern": "వేసవి రుతుపవనాలు బలహీనపడుతున్నాయి",
+                    "time": "2200–1900 BCE"
+                },
+                "no_clear_invasion_evidence": true,
+                "urban_decline": {
+                    "process": "క్రమేణా డీర్బనైజేషన్",
+                    "shift": "నగరాల నుండి గ్రామీణ స్థావరాల వరకు"
+                }
+            },
+            "section_6_archaeogenetics_of_india": {
+                "ani_asi_model": {
+                    "ANI": {
+                        "description": "పూర్వీకులు ఉత్తర భారతీయుడు",
+                        "related_to": [
+                            "పురాతన ఇరానియన్ రైతులు",
+                            "స్టెప్పీ కాపరులు"
+                        ]
+                    },
+                    "ASI": {
+                        "description": "పూర్వీకులు దక్షిణ భారతీయుడు",
+                        "deep_lineage": "స్వదేశీ వేటగాడు వంశపారంపర్యం"
+                    }
+                },
+                "modern_population_structure": {
+                    "admixture": "భారతీయ జనాభా అంతా ANI మరియు ASI భాగాల మిశ్రమాలు",
+                    "gradient_pattern": "ఉత్తర-దక్షిణ క్లినికల్ పంపిణీ"
+                },
+                "steppe_migration": {
+                    "associated_culture": "ఇండో-ఇరానియన్ పాస్టోరలిస్టులు",
+                    "genetic_marker": "Y-క్రోమోజోమ్ R1a-Z93 వంశం",
+                    "time": "2000–1500 BCE"
+                }
+            },
+            "section_7_linguistic_development": {
+                "dravidians": {
+                    "possible_pre_ivc_presence": true,
+                    "southern_continuity": "ద్వీపకల్ప భారతదేశంలో భద్రపరచబడింది"
+                },
+                "language_diversification": {
+                    "mechanism": "వలస + ఒంటరితనం + పర్యావరణ విభజన"
+                },
+                "proto_indo_iranian": {
+                    "arrival_window": "2000-క్రీ.పూ",
+                    "relation": "ఇండో-యూరోపియన్ భాషా కుటుంబం"
+                }
+            },
+            "section_8_technological_and_social_evolution": {
+                "metallurgy": {
+                    "copper_bronze_transition": true,
+                    "tool_advancement": "వ్యవసాయ మరియు సైనిక అనువర్తనాలు"
+                },
+                "religious_symbolism": {
+                    "mother_goddess_figures": true,
+                    "proto_shiva_seal": "పశుపతి మూలాంశం వివరణ చర్చనీయాంశమైంది"
+                },
+                "trade_standardization": {
+                    "maritime_trade": "లోథాల్ వద్ద డాక్ యార్డ్",
+                    "weights_and_measures": "అత్యంత ప్రామాణికమైన ఘనపు బరువులు"
+                }
+            }
         },
-        "genomic_complexity": {
-          "introns_present": true,
-          "linear_chromosomes": true
+        "part7": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "1500 BCE - 500 BCE",
+                "disciplines": [
+                    "సౌత్ ఏషియన్ ఆర్కియాలజీ",
+                    "వేద అధ్యయనాలు",
+                    "ఆర్కియోజెనెటిక్స్",
+                    "హిస్టారికల్ లింగ్విస్టిక్స్",
+                    "ప్రారంభ రాష్ట్ర ఏర్పాటు సిద్ధాంతం",
+                    "మతపరమైన అధ్యయనాలు"
+                ],
+                "scope": "ప్రారంభ ఇనుప యుగం రాష్ట్ర ఏర్పాటు ద్వారా చివరి హరప్పా పరివర్తన",
+                "volume": 7
+            },
+            "section_10_civilizational_significance": {
+                "cultural_synthesis": "హరప్పా వారసత్వం, స్టెప్పీ పాస్టోరల్ ప్రభావం మరియు దేశీయ సంప్రదాయాల కలయిక",
+                "intellectual_foundations": "సాంప్రదాయ భారతీయ తత్వశాస్త్రం యొక్క ఆధారం",
+                "state_formation_trajectory": "మౌర్య సామ్రాజ్య ఏకీకరణకు పూర్వగామి"
+            },
+            "section_1_late_harappan_transition": {
+                "characteristics": {
+                    "deurbanization": true,
+                    "material_changes": [
+                        "ప్రామాణిక బరువులలో క్షీణత",
+                        "ప్రాంతీయ కుండల శైలులు",
+                        "సుదూర వాణిజ్యం తగ్గింది"
+                    ],
+                    "ruralization": "చిన్న వ్యవసాయ-పాస్టోరల్ సెటిల్మెంట్లకు మారండి"
+                },
+                "climate_factor": "రుతుపవనాలు బలహీనపడటం మరియు నది మార్పులు",
+                "continuity_elements": [
+                    "వ్యవసాయ పద్ధతులు",
+                    "పశువుల పెంపకం",
+                    "నదుల వెంట స్థిరనివాసం"
+                ],
+                "time_range": "1900–1300 BCE"
+            },
+            "section_2_steppe_associated_migration": {
+                "cultural_associations": [
+                    "గుర్రపు పెంపకం",
+                    "రథ సాంకేతికత",
+                    "ప్రోటో-ఇండో-ఇరానియన్ భాషా వ్యాప్తి"
+                ],
+                "genetic_markers": [
+                    "Y-క్రోమోజోమ్ R1a-Z93 వంశం",
+                    "Steppe_MLBA పూర్వీకుల భాగం"
+                ],
+                "interaction_model": {
+                    "result": "హరప్పా అనంతర జనాభాతో ఏకీకరణ",
+                    "type": "సాంస్కృతిక మరియు జన్యు సమ్మేళనం"
+                },
+                "time_range": "2000–1500 BCE"
+            },
+            "section_3_early_vedic_society": {
+                "economic_model": {
+                    "agriculture": "తరువాతి వేద దశలో ప్రాముఖ్యత పెరగడం",
+                    "pastoralism": "సంపదకు ప్రధానమైన పశువులు"
+                },
+                "primary_textual_source": "ఋగ్వేదం (నోటి కూర్పు దశ)",
+                "religious_practice": {
+                    "cosmic_order_concept": "Rta (కాస్మిక్ చట్టం)",
+                    "deities": [
+                        "ఇంద్రుడు",
+                        "అగ్ని",
+                        "వరుణుడు",
+                        "సోమ"
+                    ],
+                    "ritual_fire_sacrifices": true
+                },
+                "social_structure": {
+                    "chieftainship": "రాజన్ నాయకత్వ నమూనా",
+                    "tribal_polities": "జానాస్",
+                    "varna_system": "ఉద్భవిస్తున్న నాలుగు రెట్లు వర్గీకరణ"
+                }
+            },
+            "section_4_linguistic_structuring": {
+                "indo_aryan_language": {
+                    "branch": "ఇండో-యూరోపియన్ కుటుంబం",
+                    "phonetic_features": [
+                        "రెట్రోఫ్లెక్స్ హల్లులు (బహుశా సబ్‌స్ట్రేట్ ప్రభావం)",
+                        "సంక్లిష్ట విభక్తి స్వరూపం"
+                    ]
+                },
+                "substrate_influence": {
+                    "dravidian_elements": "లోన్వర్డ్స్ మరియు ఫోనోలాజికల్ లక్షణాలు",
+                    "munda_hypothesis": "సాధ్యమైన ఆస్ట్రోయాసియాటిక్ పరస్పర చర్య"
+                }
+            },
+            "section_5_iron_age_transformation": {
+                "archaeological_culture": {
+                    "northern_black_polished_ware": "తరువాత పట్టణ పునరుజ్జీవన దశ",
+                    "painted_grey_ware": "తరువాతి వేద స్థావరాలతో అనుబంధించబడింది"
+                },
+                "technological_shift": {
+                    "agricultural_expansion": "గంగా మైదానాల్లో అటవీ నిర్మూలన",
+                    "iron_smelted_tools": true
+                },
+                "time_range": "1200–600 BCE"
+            },
+            "section_6_second_urbanization": {
+                "drivers": [
+                    "వ్యవసాయాన్ని ఎనేబుల్ చేసే ఇనుప సాధనాలు",
+                    "జనాభా పెరుగుదల",
+                    "వాణిజ్యం తీవ్రతరం"
+                ],
+                "mahajanapadas": [
+                    "మగధ",
+                    "కోసల",
+                    "వత్స",
+                    "అవంతి"
+                ],
+                "political_evolution": {
+                    "monarchies": true,
+                    "republican_ganasanghas": true
+                },
+                "region": "గంగా-యమునా దోయాబ్ మరియు తూర్పు భారతదేశం",
+                "time_range": "800–500 BCE"
+            },
+            "section_7_philosophical_transformation": {
+                "sramana_movements": {
+                    "themes": [
+                        "త్యజించుట",
+                        "అహింస",
+                        "విముక్తి (మోక్షం/నిర్వాణం)"
+                    ],
+                    "time": "6వ శతాబ్దం BCE",
+                    "traditions": [
+                        "ప్రారంభ బౌద్ధమతం",
+                        "జైనమతం"
+                    ]
+                },
+                "upanishadic_thought": {
+                    "concepts": [
+                        "ఆత్మ (స్వయం)",
+                        "బ్రహ్మం (అంతిమ వాస్తవం)",
+                        "కర్మ",
+                        "సంసారం"
+                    ],
+                    "shift": "ఆచార ఆర్థోప్రాక్సీ నుండి మెటాఫిజికల్ విచారణ వరకు"
+                }
+            },
+            "section_8_genetic_stabilization_phase": {
+                "evidence_sources": [
+                    "పురాతన DNA అధ్యయనాలు",
+                    "ఆధునిక జనాభా జెనోమిక్ మోడలింగ్"
+                ],
+                "pattern": {
+                    "admixture_completion": "ప్రధాన ANI-ASI మిశ్రమం చాలా వరకు పూర్తయింది",
+                    "increasing_endogamy": "క్రమంగా సామాజిక స్తరీకరణ జన్యుపరంగా ప్రతిబింబిస్తుంది"
+                },
+                "time_range": "1000–500 BCE"
+            },
+            "section_9_economic_and_trade_networks": {
+                "coinage_emergence": "పంచ్-మార్క్ నాణేలు",
+                "external_trade": [
+                    "పెర్షియన్ అకేమెనిడ్ పరిచయాలు (తరువాతి కాలం)",
+                    "వాయువ్య సరిహద్దు మార్పిడి మార్గాలు"
+                ],
+                "internal_trade": "గంగా వ్యవస్థ ద్వారా నదీ రవాణా"
+            }
         },
-        "time": "2.1–1.8 billion years ago"
-      },
-      "section_8_multicellularity": {
-        "advantages": [
-          "Division of labor",
-          "Increased size",
-          "Predator avoidance"
-        ],
-        "cellular_specialization": {
-          "adhesion_molecules": "Cadherins and integrins",
-          "gene_regulation": "Differential expression"
+        "part8": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "500 BCE - 600 CE",
+                "disciplines": [
+                    "ప్రాచీన చరిత్ర",
+                    "రాజకీయ మానవ శాస్త్రం",
+                    "ఎపిగ్రఫీ",
+                    "న్యూమిస్మాటిక్స్",
+                    "తత్వశాస్త్రం",
+                    "జనాభా జన్యుశాస్త్రం"
+                ],
+                "scope": "సాంప్రదాయ దక్షిణాసియా రాష్ట్ర ఏర్పాటు మరియు మేధో ఏకీకరణ",
+                "volume": 8
+            },
+            "section_10_civilizational_legacy": {
+                "institutional_foundations": [
+                    "ఇంపీరియల్ పాలన నమూనాలు",
+                    "క్రోడీకరించబడిన చట్టపరమైన సంప్రదాయాలు",
+                    "తాత్విక వ్యవస్థలు ఇప్పటికీ ప్రభావం చూపుతున్నాయి"
+                ],
+                "knowledge_transmission": "గణితం మరియు ఖగోళ శాస్త్రం పశ్చిమ దిశగా బదిలీ చేయబడ్డాయి"
+            },
+            "section_1_late_mahajanapada_phase": {
+                "magadha_advantages": {
+                    "geography": "సారవంతమైన గంగా మైదానాలు",
+                    "iron_resources": "తూర్పు ఖనిజ మండలాలకు ప్రవేశం",
+                    "river_transport": true
+                },
+                "major_powers": [
+                    "మగధ",
+                    "కోసల",
+                    "అవంతి",
+                    "వత్స"
+                ],
+                "political_evolution": {
+                    "administrative_centralization": "ప్రారంభ బ్యూరోక్రాటిక్ నిర్మాణాలు",
+                    "bimbisara_and_ajatasatru": "ప్రాదేశిక విస్తరణ"
+                },
+                "time_range": "600–321 BCE"
+            },
+            "section_2_achaemenid_and_hellenistic_interactions": {
+                "achaemenid_presence": {
+                    "impact": [
+                        "పరిపాలనా నమూనాలు",
+                        "అరామిక్ లిపి ప్రభావం"
+                    ],
+                    "region": "వాయువ్య భారతదేశం",
+                    "time": "6వ-4వ శతాబ్దం BCE"
+                },
+                "alexander_campaign": {
+                    "impact": [
+                        "వాయువ్యంలో రాజకీయ విచ్ఛిన్నం",
+                        "గ్రీకో-భారతీయ సాంస్కృతిక మార్పిడి"
+                    ],
+                    "time": "327–325 BCE"
+                }
+            },
+            "section_3_mauryan_empire": {
+                "administrative_system": {
+                    "arthashastra_model": "కేంద్రీకృత పన్నులు మరియు గూఢచర్యం",
+                    "provincial_governors": true
+                },
+                "ashoka": {
+                    "conversion_to_buddhism": true,
+                    "dhamma_policy": "నైతిక పాలన",
+                    "international_missions": [
+                        "శ్రీలంక",
+                        "మధ్య ఆసియా"
+                    ],
+                    "rock_edicts": "తొలి విస్తృతమైన లిఖిత శాసనాలు"
+                },
+                "founder": "చంద్రగుప్త మౌర్య",
+                "territorial_extent": "ఆధునిక పూర్వపు అతిపెద్ద దక్షిణాసియా సామ్రాజ్యం",
+                "time_range": "321–185 BCE"
+            },
+            "section_4_post_mauryan_polities": {
+                "indo_greek_kingdoms": {
+                    "cultural_exchange": "గ్రీకో-బౌద్ధ కళ (గాంధార)"
+                },
+                "kushan_empire": {
+                    "religious_pluralism": true,
+                    "role": "సిల్క్ రోడ్ ట్రేడ్ కనెక్టర్",
+                    "time": "1వ-3వ శతాబ్దం CE"
+                },
+                "saka_and_parthian": {
+                    "integration": "స్థానికీకరించిన ఎలైట్ సమీకరణ",
+                    "steppe_origin": true
+                }
+            },
+            "section_5_religious_and_philosophical_systems": {
+                "buddhist_schools": [
+                    "తెరవాడ",
+                    "మహాయాన"
+                ],
+                "classical_hindu_philosophy": {
+                    "metaphysical_concepts": [
+                        "బ్రాహ్మణుడు",
+                        "ఆత్మ",
+                        "ప్రకృతి",
+                        "పురుష"
+                    ],
+                    "schools": [
+                        "న్యాయా",
+                        "వైశేషిక",
+                        "సాంఖ్య",
+                        "యోగా",
+                        "మీమాంస",
+                        "వేదాంత"
+                    ]
+                },
+                "jain_philosophy": {
+                    "anekantavada": "బహుళ దృక్కోణాల సిద్ధాంతం"
+                }
+            },
+            "section_6_scientific_and_mathematical_developments": {
+                "astronomy": {
+                    "aryabhata": "గ్రహ నమూనాలలో సూర్యకేంద్ర మూలకాలు",
+                    "sidereal_calculations": true
+                },
+                "mathematics": {
+                    "concept_of_zero": "గుప్తుల కాలంలో అధికారికీకరణ",
+                    "decimal_system": true
+                },
+                "medicine": {
+                    "charaka_samhita": "అంతర్గత ఔషధం",
+                    "sushruta_samhita": "శస్త్రచికిత్స పద్ధతులు"
+                }
+            },
+            "section_7_gupta_classical_age": {
+                "art_and_architecture": {
+                    "iconography_standardization": true,
+                    "temple_architecture_emergence": true
+                },
+                "characteristics": [
+                    "రాజకీయ స్థిరత్వం",
+                    "సాంస్కృతిక పుష్పగుచ్ఛము",
+                    "సంస్కృత సాహిత్య విస్తరణ"
+                ],
+                "economic_structure": {
+                    "agrarian_base": true,
+                    "guild_organization": "అర్బన్ క్రాఫ్ట్ గిల్డ్స్"
+                },
+                "time_range": "320–550 CE"
+            },
+            "section_8_genetic_and_demographic_patterns": {
+                "population_growth": {
+                    "agrarian_expansion": "వాహక సామర్థ్యం పెరుగుతుంది",
+                    "urban_centers": "ట్రేడ్-ఆధారిత డెమోగ్రాఫిక్ క్లస్టరింగ్"
+                },
+                "post_admixture_phase": {
+                    "limited_new_large_scale_migrations": true,
+                    "regional_endogamy_increase": true
+                }
+            },
+            "section_9_trade_networks": {
+                "maritime_trade": {
+                    "indian_ocean_routes": true,
+                    "roman_trade_links": "Archaeological coin evidence"
+                },
+                "silk_road": {
+                    "cultural_transmission": "మతపరమైన ఆలోచనలు వ్యాప్తి చెందుతాయి",
+                    "goods": [
+                        "సుగంధ ద్రవ్యాలు",
+                        "వస్త్రాలు",
+                        "విలువైన రాళ్ళు"
+                    ]
+                }
+            }
         },
-        "independent_origins": [
-          "Animals",
-          "Plants",
-          "Fungi",
-          "Algae"
+        "part9": {
+            "dataset_metadata": {
+                "title": "కాస్మిక్ టు హ్యూమన్ ఎవల్యూషన్ అల్ట్రా-డీప్ రీసెర్చ్ డేటాసెట్",
+                "academic_level": "గ్రాడ్యుయేట్ / పరిశోధన",
+                "chronological_span_years": "600 CE - 1700 CE",
+                "disciplines": [
+                    "మధ్యయుగ చరిత్ర",
+                    "హిస్టారికల్ సోషియాలజీ",
+                    "జనాభా జన్యుశాస్త్రం",
+                    "ఆర్థిక చరిత్ర",
+                    "మతపరమైన అధ్యయనాలు",
+                    "కళా చరిత్ర"
+                ],
+                "scope": "మధ్యయుగ దక్షిణాసియా రాజకీయ, సాంస్కృతిక మరియు జనాభా పరివర్తనలు",
+                "volume": 9
+            },
+            "section_10_structural_transition_to_early_modernity": {
+                "economic_strain": "అధిక విస్తరణ మరియు ప్రాంతీయ తిరుగుబాట్లు",
+                "european_commercial_dominance": "ప్రపంచ వాణిజ్య శక్తిలో మార్పు",
+                "foundation_for_colonial_phase": true
+            },
+            "section_1_post_gupta_regionalization": {
+                "administrative_features": {
+                    "agrarian_expansion": "ఫారెస్ట్ క్లియరెన్స్ మరియు సెటిల్మెంట్ పెరుగుదల",
+                    "land_grant_system": "బ్రహ్మదేయ మరియు ఆలయ మంజూరు"
+                },
+                "major_powers": [
+                    "హర్ష రాజ్యం",
+                    "చాళుక్యులు",
+                    "పల్లవులు",
+                    "రాష్ట్రకూటులు",
+                    "పలాస్"
+                ],
+                "political_pattern": "ఛిన్నాభిన్నమైన ప్రాంతీయ రాజ్యాలు",
+                "temple_urbanism": {
+                    "architectural_styles": [
+                        "నగారా (ఉత్తర భారతదేశం)",
+                        "ద్రవిడ (దక్షిణ భారతదేశం)"
+                    ],
+                    "role": "ఆర్థిక, కర్మ, మరియు పరిపాలనా కేంద్రాలు"
+                },
+                "time_range": "600–1000 CE"
+            },
+            "section_2_religious_and_intellectual_flourishing": {
+                "bhakti_movements": {
+                    "features": [
+                        "వ్యక్తిగత భక్తి",
+                        "స్థానిక కవిత్వం",
+                        "సామాజిక చేరిక థీమ్స్"
+                    ],
+                    "time_range": "7వ-15వ శతాబ్దాలు"
+                },
+                "buddhist_decline_in_india": {
+                    "factors": [
+                        "హిందూ ఫ్రేమ్‌వర్క్‌లలో కలిసిపోవడం",
+                        "సన్యాసుల పోషణ కోల్పోవడం"
+                    ]
+                },
+                "tantric_traditions": {
+                    "integration_with_buddhist_and_hindu_streams": true,
+                    "ritual_complexity": true
+                }
+            },
+            "section_3_early_islamic_contacts": {
+                "arab_trade_links": {
+                    "coastal_centers": [
+                        "Kerala",
+                        "Gujarat"
+                    ],
+                    "exchange_goods": [
+                        "Spices",
+                        "Textiles",
+                        "Horses"
+                    ],
+                    "time_range": "7th–10th centuries"
+                },
+                "cultural_exchange": {
+                    "introduction_of_islam": "ప్రధానంగా వాణిజ్యం మరియు సూఫీ నెట్‌వర్క్‌ల ద్వారా",
+                    "syncretic_practices": true
+                }
+            },
+            "section_4_delhi_sultanate": {
+                "administrative_changes": {
+                    "centralized_taxation": true,
+                    "iqta_system": "భూ రెవెన్యూ కేటాయింపులు"
+                },
+                "dynasties": [
+                    "మమ్లుక్",
+                    "ఖిల్జీ",
+                    "తుగ్లక్",
+                    "సయ్యద్",
+                    "లోడి"
+                ],
+                "military_innovation": {
+                    "mounted_cavalry": true,
+                    "use_of_composite_bows": true
+                },
+                "time_range": "1206–1526 CE",
+                "urban_growth": "ఢిల్లీ ప్రధాన రాజకీయ రాజధాని"
+            },
+            "section_5_mughal_empire": {
+                "administrative_model": {
+                    "land_revenue_system": "జాబ్త్ మరియు జాగీర్దారి",
+                    "mansabdari_system": true
+                },
+                "art_and_architecture": [
+                    "తాజ్ మహల్",
+                    "హుమాయున్ సమాధి",
+                    "సూక్ష్మ పెయింటింగ్ సంప్రదాయాలు"
+                ],
+                "economic_scale": {
+                    "global_gdp_share": "17వ శతాబ్దంలో ~20–25% అంచనా వేయబడింది",
+                    "textile_exports": "ప్రపంచ వాణిజ్యానికి ప్రధాన సహకారి"
+                },
+                "founder": "బాబర్",
+                "religious_policy": {
+                    "akbar": "సుల్-ఇ-కుల్ (సార్వత్రిక సహనం)",
+                    "integration_of_elites": "రాజపుత్ర పొత్తులు"
+                },
+                "time_range": "1526–1707 CE"
+            },
+            "section_6_maritime_and_global_trade": {
+                "european_entry": {
+                    "portuguese_arrival": "1498 CE (వాస్కో డ గామా)",
+                    "subsequent_powers": [
+                        "డచ్",
+                        "ఫ్రెంచ్",
+                        "బ్రిటిష్"
+                    ]
+                },
+                "indian_ocean_network": {
+                    "participants": [
+                        "అరబ్బులు",
+                        "పర్షియన్లు",
+                        "చైనీస్",
+                        "యూరోపియన్లు"
+                    ],
+                    "ports": [
+                        "కాలికట్",
+                        "సూరత్",
+                        "మసూలీపట్నం"
+                    ]
+                }
+            },
+            "section_7_social_stratification_and_endogamy": {
+                "caste_solidification": {
+                    "genetic_evidence": "జన్యుసంబంధ అధ్యయనాలలో గుర్తించదగిన పెరిగిన ఎండోగామి",
+                    "jati_localization": "స్థానికీకరించిన వృత్తి సమూహ సరిహద్దులు",
+                    "period": "1000–1600 CE"
+                },
+                "religious_conversion_patterns": {
+                    "islamic_conversion": "క్రమంగా, ప్రాంతీయంగా వైవిధ్యమైనది",
+                    "sufi_influence": "ఆధ్యాత్మిక సమానత్వ విజ్ఞప్తి"
+                }
+            },
+            "section_8_population_genetics_medieval_phase": {
+                "admixture_patterns": {
+                    "continuity_of_asi_component": true,
+                    "west_eurasian_gene_flow": "పరిమితమైనది కానీ ప్రాంతీయంగా గుర్తించదగినది"
+                },
+                "genetic_isolation_trends": {
+                    "founder_effects": "కొన్ని కుల సమూహాలు బలమైన అడ్డంకులను చూపుతాయి",
+                    "increasing_endogamy": true
+                }
+            },
+            "section_9_intellectual_and_scientific_currents": {
+                "astronomy": {
+                    "kerala_school": "ప్రారంభ కాలిక్యులస్ లాంటి అనంత శ్రేణి పని"
+                },
+                "literature": {
+                    "persianate_culture": true,
+                    "regional_languages_flourish": [
+                        "హిందీ",
+                        "బెంగాలీ",
+                        "తమిళం",
+                        "మరాఠీ"
+                    ]
+                },
+                "medicine": {
+                    "unani_system": "గ్రీకో-అరబిక్ ఇంటిగ్రేషన్"
+                }
+            }
+        },
+        "planetary_evolution": {
+            "earth_formation": {
+                "core_formation": {
+                    "iron_catastrophe": "మెటాలిక్ కోర్ ఏర్పడటానికి ఇనుము మునిగిపోయింది",
+                    "magnetic_field": "జియోడైనమో ద్వారా ఉత్పత్తి చేయబడింది"
+                },
+                "early_atmosphere": {
+                    "composition": [
+                        "CO2",
+                        "నైట్రోజన్",
+                        "నీటి ఆవిరి",
+                        "మీథేన్"
+                    ],
+                    "source": "అగ్నిపర్వత ఔట్ గ్యాస్సింగ్"
+                },
+                "moon_formation": {
+                    "theia_impact": "మార్స్-సైజ్ బాడీ తాకిడి పరికల్పన"
+                },
+                "time": "4.54 బిలియన్ సంవత్సరాల క్రితం"
+            },
+            "solar_system": {
+                "accretion_stages": [
+                    "ధూళి ధాన్యం తాకిడి",
+                    "ప్లానెటిసిమల్ నిర్మాణం",
+                    "ప్రోటోప్లానెట్ నిర్మాణం",
+                    "కక్ష్య క్లియరింగ్"
+                ],
+                "mechanism": "పరమాణు మేఘం యొక్క గురుత్వాకర్షణ పతనం",
+                "time": "4.6 బిలియన్ సంవత్సరాల క్రితం"
+            }
+        },
+        "timeline": [
+            {
+                "category": "విశ్వరూపం",
+                "event": "బిగ్ బ్యాంగ్",
+                "years_ago": 13800000000
+            },
+            {
+                "category": "గ్రహసంబంధమైన",
+                "event": "సౌర వ్యవస్థ నిర్మాణం",
+                "years_ago": 4600000000
+            },
+            {
+                "category": "జీవసంబంధమైన",
+                "event": "జీవితం యొక్క మూలం",
+                "years_ago": 3800000000
+            },
+            {
+                "category": "జీవసంబంధమైన",
+                "event": "కేంబ్రియన్ పేలుడు",
+                "years_ago": 541000000
+            },
+            {
+                "category": "జీవసంబంధమైన",
+                "event": "డైనోసార్ విలుప్తం",
+                "years_ago": 66000000
+            },
+            {
+                "category": "మానవ_ప్రపంచ",
+                "event": "హోమో సేపియన్స్ ఆవిర్భావం",
+                "years_ago": 300000
+            },
+            {
+                "category": "మానవ_భారతదేశం",
+                "event": "భారతదేశంలోకి మానవ వలసలు",
+                "years_ago": 65000
+            },
+            {
+                "category": "మానవ_భారతదేశం",
+                "event": "సింధు లోయ నాగరికత",
+                "years_ago": 4500
+            }
         ]
-      },
-      "section_9_genetic_mechanisms": {
-        "horizontal_gene_transfer": {
-          "impact": "Accelerated early evolution",
-          "mechanisms": [
-            "Transformation",
-            "Transduction",
-            "Conjugation"
-          ]
-        },
-        "mutation": {
-          "types": [
-            "Point mutation",
-            "Insertion",
-            "Deletion",
-            "Duplication"
-          ]
-        },
-        "natural_selection": {
-          "definition": "Differential reproductive success based on trait advantage"
-        }
-      }
-    },
-    "part3": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "1.5 billion years ago – 66 million years ago",
-        "disciplines": [
-          "Paleobiology",
-          "Evolutionary Developmental Biology",
-          "Earth System Science",
-          "Paleoclimatology",
-          "Comparative Anatomy"
-        ],
-        "scope": "Complex multicellular life through dinosaur extinction",
-        "volume": 3
-      },
-      "section_1_multicellular_complexity": {
-        "early_multicellular_forms": {
-          "colonial_protists": "Possible precursors to animals",
-          "eukaryotic_algae": "1.2 billion years ago",
-          "fungal_lineages": "Early heterotrophic multicellularity"
-        },
-        "time_range": "1.5 billion – 600 million years ago",
-        "transition_mechanisms": {
-          "cell_adhesion_evolution": {
-            "molecules": [
-              "Cadherins",
-              "Integrins"
-            ],
-            "role": "Stable tissue formation"
-          },
-          "developmental_signaling_pathways": [
-            "Wnt signaling",
-            "Notch signaling",
-            "Hedgehog pathway"
-          ],
-          "gene_regulatory_networks": {
-            "effect": "Spatial body patterning",
-            "innovation": "Master control genes (e.g., Hox genes)"
-          }
-        }
-      },
-      "section_2_ediacaran_biota": {
-        "body_plan_characteristics": {
-          "bilateral_symmetry": "Emerging in some forms",
-          "feeding_strategy": "Osmotrophy suspected",
-          "soft_bodied": true
-        },
-        "evolutionary_significance": "Precursor ecosystem to Cambrian fauna",
-        "organisms": [
-          "Dickinsonia",
-          "Charniodiscus",
-          "Spriggina"
-        ],
-        "time": "635–541 million years ago"
-      },
-      "section_3_cambrian_explosion": {
-        "diversification_features": {
-          "hard_parts": "Calcium carbonate and chitin exoskeletons",
-          "major_animal_phyla": [
-            "Arthropoda",
-            "Mollusca",
-            "Chordata",
-            "Annelida",
-            "Echinodermata"
-          ],
-          "predator_prey_arms_race": "Evolutionary escalation"
-        },
-        "key_fossil_sites": [
-          "Burgess Shale (Canada)",
-          "Chengjiang Biota (China)"
-        ],
-        "possible_causes": [
-          "Increased oxygen levels",
-          "Genetic innovation (Hox gene expansion)",
-          "Ecological niche construction",
-          "Continental fragmentation"
-        ],
-        "time": "541–520 million years ago"
-      },
-      "section_4_vertebrate_origins": {
-        "early_chordates": {
-          "organisms": [
-            "Pikaia",
-            "Haikouichthys"
-          ],
-          "traits": [
-            "Notochord",
-            "Dorsal nerve cord",
-            "Pharyngeal slits"
-          ]
-        },
-        "jawed_vertebrates": {
-          "advantage": "Enhanced predation and feeding efficiency",
-          "innovation": "Gnathostomes"
-        }
-      },
-      "section_5_land_colonization": {
-        "arthropods": {
-          "advantage": "Exoskeleton for water retention",
-          "time": "450 million years ago"
-        },
-        "plants": {
-          "innovations": [
-            "Cuticle",
-            "Vascular tissue",
-            "Spores resistant to desiccation"
-          ],
-          "time": "470 million years ago"
-        },
-        "tetrapods": {
-          "limb_evolution": "Digits from fin rays",
-          "lungs_development": "Air breathing adaptation",
-          "transition_from_lobe_finned_fish": "Tiktaalik as transitional fossil"
-        }
-      },
-      "section_6_paleozoic_mass_extinctions": {
-        "late_devonian": {
-          "possible_causes": [
-            "Ocean anoxia",
-            "Plant-driven climate change"
-          ],
-          "time": "372 million years ago"
-        },
-        "ordovician_silurian": {
-          "cause": "Glaciation and sea-level drop",
-          "time": "444 million years ago"
-        },
-        "permian_triassic": {
-          "mechanisms": [
-            "Massive CO2 release",
-            "Ocean acidification",
-            "Methane hydrate destabilization"
-          ],
-          "probable_cause": "Siberian Traps volcanism",
-          "severity": "96% marine species extinct",
-          "time": "252 million years ago"
-        }
-      },
-      "section_7_mesozoic_dominance": {
-        "birds": {
-          "origin": "Derived from theropod dinosaurs",
-          "transitional_fossil": "Archaeopteryx"
-        },
-        "dinosaurs": {
-          "adaptive_features": [
-            "Efficient respiration (air sacs)",
-            "Upright posture",
-            "High growth rates"
-          ],
-          "clades": [
-            "Theropods",
-            "Sauropods",
-            "Ornithischians"
-          ],
-          "time_range": "230–66 million years ago"
-        },
-        "triassic_recovery": {
-          "ecological_reset": "Archosaurs rise"
-        }
-      },
-      "section_8_mammalian_origins": {
-        "nocturnal_adaptation": "Likely survival strategy during dinosaur dominance",
-        "synapsids": {
-          "features": "Single temporal skull opening",
-          "time": "Permian period"
-        },
-        "therapsids": {
-          "transitional_group": "Towards mammals"
-        },
-        "true_mammals": {
-          "time": "Late Triassic",
-          "traits": [
-            "Hair",
-            "Mammary glands",
-            "Differentiated teeth"
-          ]
-        }
-      },
-      "section_9_cretaceous_paleogene_extinction": {
-        "evidence": [
-          "Iridium layer",
-          "Shock quartz",
-          "Tektites"
-        ],
-        "global_effects": [
-          "Impact winter",
-          "Photosynthesis collapse",
-          "Food chain disruption"
-        ],
-        "impact_site": "Chicxulub crater (Yucatán Peninsula)",
-        "result": "Non-avian dinosaur extinction; mammalian radiation opportunity",
-        "time": "66 million years ago"
-      }
-    },
-    "part4": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "66 million years ago – 1 million years ago",
-        "disciplines": [
-          "Paleoanthropology",
-          "Comparative Neurobiology",
-          "Functional Morphology",
-          "Primatology",
-          "Paleoclimatology",
-          "Evolutionary Ecology"
-        ],
-        "scope": "Primate evolution and early hominin divergence",
-        "volume": 4
-      },
-      "section_10_paleoecology_and_selection_pressures": {
-        "african_rift_valley": {
-          "climate_variability": "Oscillating wet-dry cycles",
-          "tectonic_activity": "Created ecological diversity"
-        },
-        "selection_pressures": [
-          "Seasonal food scarcity",
-          "Predator exposure",
-          "Long-distance mobility requirement"
-        ]
-      },
-      "section_1_mammalian_radiation": {
-        "placental_diversification": {
-          "advantage": "Increased neonatal brain development",
-          "innovation": "Advanced placenta enabling longer gestation",
-          "time": "65–50 million years ago"
-        },
-        "post_kpg_ecological_release": {
-          "adaptive_radiation": [
-            "Insectivores",
-            "Herbivores",
-            "Carnivores",
-            "Arboreal specialists"
-          ],
-          "genetic_acceleration": "Rapid diversification of mammalian lineages",
-          "mechanism": "Removal of non-avian dinosaurs opened ecological niches",
-          "time": "66 million years ago"
-        }
-      },
-      "section_2_primate_origins": {
-        "arboreal_adaptations": {
-          "grasping_hands": true,
-          "nails_instead_of_claws": true,
-          "opposable_thumb": true,
-          "stereoscopic_vision": "Forward-facing eyes for depth perception"
-        },
-        "early_primate_groups": [
-          "Plesiadapiforms",
-          "Adapiforms",
-          "Omomyiforms"
-        ],
-        "environment": "Warm Paleocene–Eocene forests",
-        "time": "55–65 million years ago"
-      },
-      "section_3_neurobiological_expansion": {
-        "encephalization_trend": {
-          "definition": "Increase in brain-to-body size ratio",
-          "drivers": [
-            "Complex arboreal locomotion",
-            "Social group coordination",
-            "Dietary complexity (fruit-based)"
-          ]
-        },
-        "prefrontal_cortex_growth": "Enhanced planning and memory",
-        "visual_cortex_expansion": "Improved color discrimination for fruit detection"
-      },
-      "section_4_catarrhine_and_ape_divergence": {
-        "catarrhine_monkeys": {
-          "time": "30–25 million years ago",
-          "traits": [
-            "Downward-facing nostrils",
-            "Dental formula 2.1.2.3"
-          ]
-        },
-        "hominoids": {
-          "groups": [
-            "Gibbons",
-            "Orangutans",
-            "Gorillas",
-            "Chimpanzees",
-            "Humans"
-          ],
-          "time": "20–15 million years ago"
-        }
-      },
-      "section_5_climate_and_hominin_divergence": {
-        "human_chimp_split": {
-          "evidence": "Genetic divergence ~1–2% difference",
-          "time": "6–7 million years ago"
-        },
-        "miocene_climate_shift": {
-          "result": "Forest fragmentation → savanna expansion",
-          "time": "23–5 million years ago",
-          "trend": "Cooling and drying"
-        }
-      },
-      "section_6_early_hominins": {
-        "ardipithecus_ramidus": {
-          "locomotion": "Partial bipedalism with arboreal ability",
-          "time": "4.4 million years ago"
-        },
-        "australopithecus_afarensis": {
-          "brain_volume_cc": 400,
-          "notable_specimen": "Lucy",
-          "pelvic_structure": "Adapted for upright walking",
-          "time": "3.9–2.9 million years ago"
-        },
-        "sahelanthropus_tchadensis": {
-          "time": "7 million years ago",
-          "traits": [
-            "Possible bipedal posture",
-            "Reduced canine size"
-          ]
-        }
-      },
-      "section_7_bipedalism_mechanics": {
-        "anatomical_changes": {
-          "femur_angle": "Valgus knee alignment",
-          "foramen_magnum_position": "Centered under skull",
-          "pelvis_shape": "Short, bowl-shaped pelvis",
-          "spinal_curvature": "S-shaped vertebral column"
-        },
-        "energy_efficiency": "Bipedal gait reduces locomotion energy cost over long distances",
-        "thermoregulation": "Reduced surface exposure to solar radiation"
-      },
-      "section_8_genus_homo_emergence": {
-        "dietary_shift": {
-          "cooking_hypothesis": "Later but energy transformative",
-          "meat_consumption": "Increased caloric density"
-        },
-        "homo_habilis": {
-          "brain_volume_cc": 600,
-          "time": "2.4–1.4 million years ago",
-          "tool_industry": "Oldowan (Mode 1)"
-        },
-        "social_complexity": "Cooperative scavenging and hunting"
-      },
-      "section_9_homo_erectus_expansion": {
-        "brain_volume_cc": 900,
-        "fire_control": {
-          "benefits": [
-            "Cooking",
-            "Predator deterrence",
-            "Extended social interaction"
-          ],
-          "estimated_time": "1–1.5 million years ago"
-        },
-        "migration": {
-          "regions": [
-            "Georgia (Dmanisi)",
-            "Indonesia (Java)",
-            "China (Zhoukoudian)"
-          ]
-        },
-        "technological_innovation": "Acheulean handaxes (Mode 2)",
-        "time": "1.9 million years ago onward"
-      }
-    },
-    "part5": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "1 million years ago – 10,000 BCE",
-        "disciplines": [
-          "Paleoanthropology",
-          "Archaeogenetics",
-          "Cognitive Evolution",
-          "Lithic Technology Studies",
-          "South Asian Prehistory"
-        ],
-        "scope": "Archaic humans to emergence of Homo sapiens and migration into India",
-        "volume": 5
-      },
-      "section_10_symbolism_and_culture": {
-        "artistic_expression": {
-          "rock_art_india": "Bhimbetka cave paintings",
-          "symbolic_motifs": "Animals, hunting scenes"
-        },
-        "language_evolution": {
-          "cultural_transmission": "Oral tradition foundations",
-          "syntax_complexity": "Recursive grammar capability"
-        },
-        "ritual_behavior": {
-          "body_adornment": "Shell beads",
-          "burials": "Grave goods and pigment use"
-        }
-      },
-      "section_1_late_homo_erectus_transition": {
-        "anatomical_trends": {
-          "brain_expansion_cc": "900 → 1100",
-          "cranial_vault": "Increased height",
-          "reduced_prognathism": true
-        },
-        "regional_variation": {
-          "africa": "Homo heidelbergensis emergence",
-          "asia": "Late Homo erectus persistence"
-        },
-        "technological_complexity": {
-          "acheulean_refinement": "Symmetry and standardization increased",
-          "planned_flake_production": "Advanced cognitive sequencing"
-        },
-        "time_range": "1 million – 300,000 years ago"
-      },
-      "section_2_homo_heidelbergensis": {
-        "behavioral_traits": [
-          "Large game hunting",
-          "Wooden spear usage",
-          "Possible shelter construction"
-        ],
-        "brain_volume_cc": 1100,
-        "geographic_distribution": [
-          "Africa",
-          "Europe"
-        ],
-        "significance": "Common ancestor of Neanderthals and Homo sapiens",
-        "time": "700,000 – 300,000 years ago"
-      },
-      "section_3_neanderthals": {
-        "anatomical_adaptations": {
-          "large_nasal_cavity": "Air warming efficiency",
-          "robust_skeleton": "Cold climate adaptation",
-          "short_limb_proportions": "Reduced heat loss"
-        },
-        "brain_volume_cc": 1400,
-        "cognition_and_culture": {
-          "burial_practices": true,
-          "language_capacity": "FOXP2 gene variant shared with sapiens",
-          "mousterian_tools": "Prepared-core Levallois technique",
-          "symbolic_objects": [
-            "Pigment use (ochre)",
-            "Personal ornaments"
-          ]
-        },
-        "extinction_factors": [
-          "Climate instability",
-          "Competition with Homo sapiens",
-          "Small population size"
-        ],
-        "region": "Europe and Western Asia",
-        "time": "400,000 – 40,000 years ago"
-      },
-      "section_4_denisovans": {
-        "discovery": "Denisova Cave, Siberia",
-        "genetic_significance": {
-          "adaptations": [
-            "High-altitude adaptation (EPAS1 gene in Tibetans)"
-          ],
-          "interbreeding": "Contributed DNA to Melanesian and South Asian populations"
-        },
-        "time": "300,000 – 30,000 years ago"
-      },
-      "section_5_emergence_of_homo_sapiens": {
-        "anatomical_modernity": {
-          "chin_presence": true,
-          "globular_cranium": true,
-          "reduced_brow_ridge": true
-        },
-        "cognitive_modernity": {
-          "abstract_thought": true,
-          "complex_language": true,
-          "symbolic_art": true
-        },
-        "location": "Africa (Jebel Irhoud fossils)",
-        "time": "300,000 years ago"
-      },
-      "section_6_cognitive_revolution": {
-        "behavioral_manifestations": [
-          "Cave art (Chauvet, Lascaux)",
-          "Musical instruments",
-          "Myth-making and storytelling"
-        ],
-        "neural_changes": {
-          "prefrontal_cortex_organization": "Enhanced executive function",
-          "temporal_lobe_language_circuits": "Complex syntax development"
-        },
-        "social_structures": {
-          "Large cooperative groups": true,
-          "Long-distance trade networks": true
-        },
-        "time": "70,000 – 40,000 years ago"
-      },
-      "section_7_out_of_africa_migration": {
-        "genetic_bottleneck": "Founder effect in non-African populations",
-        "primary_wave": {
-          "mechanism": "Population expansion during favorable climate window",
-          "route": "Southern coastal route",
-          "time": "65,000 – 70,000 years ago"
-        }
-      },
-      "section_8_migration_into_india": {
-        "archaeological_sites": [
-          "Jwalapuram (Andhra Pradesh)",
-          "Attirampakkam (Tamil Nadu)",
-          "Bhimbetka (Madhya Pradesh)"
-        ],
-        "genetic_impact": {
-          "ancestral_components": [
-            "Ancient South Asian hunter-gatherers",
-            "Denisovan admixture traces"
-          ]
-        },
-        "route": "Coastal Arabian Sea pathway",
-        "time": "65,000 years ago",
-        "tool_traditions": [
-          "Middle Paleolithic flakes",
-          "Microlithic technology (later period)"
-        ]
-      },
-      "section_9_indian_paleolithic_sequence": {
-        "lower_paleolithic": {
-          "culture": "Acheulean",
-          "site": "Isampur Quarry",
-          "time": "1.5 million – 200,000 years ago"
-        },
-        "middle_paleolithic": {
-          "technology": "Prepared core techniques",
-          "time": "200,000 – 45,000 years ago"
-        },
-        "upper_paleolithic": {
-          "innovation": "Blade tools and early art",
-          "time": "45,000 – 10,000 years ago"
-        }
-      }
-    },
-    "part6": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "10,000 BCE – 1500 BCE",
-        "disciplines": [
-          "Archaeology",
-          "Archaeogenetics",
-          "Paleoclimatology",
-          "Anthropology",
-          "Early Urban Studies",
-          "Historical Linguistics"
-        ],
-        "scope": "Neolithic transition and early civilization in the Indian subcontinent",
-        "volume": 6
-      },
-      "section_1_terminal_pleistocene_transition": {
-        "holocene_onset": {
-          "climatic_stability": true,
-          "importance": "Enabled agricultural intensification",
-          "time": "11,700 years ago"
-        },
-        "younger_dryas_event": {
-          "characteristic": "Abrupt return to glacial-like conditions",
-          "impact": [
-            "Megafaunal extinctions",
-            "Human subsistence stress",
-            "Shift toward plant domestication experimentation"
-          ],
-          "possible_cause": "North Atlantic freshwater influx disrupting thermohaline circulation",
-          "time": "12,900–11,700 years ago"
-        }
-      },
-      "section_2_global_neolithic_revolution": {
-        "fertile_crescent": {
-          "domesticated_animals": [
-            "Goat",
-            "Sheep"
-          ],
-          "domesticated_plants": [
-            "Wheat",
-            "Barley"
-          ],
-          "sedentism": "Permanent village formation"
-        },
-        "independent_centers": [
-          "China (Rice, Millet)",
-          "Mesoamerica (Maize)",
-          "New Guinea (Taro)",
-          "South Asia (Zebu cattle, barley adaptation)"
-        ],
-        "technological_innovations": [
-          "Grinding stones",
-          "Pottery",
-          "Irrigation beginnings"
-        ]
-      },
-      "section_3_mehrgarh_and_early_south_asian_agriculture": {
-        "cultural_traits": [
-          "Mud-brick houses",
-          "Burial with grave goods",
-          "Bead-making and early craft specialization"
-        ],
-        "economic_structure": {
-          "animal_domestication": [
-            "Zebu cattle",
-            "Sheep",
-            "Goat"
-          ],
-          "farming": [
-            "Barley",
-            "Wheat"
-          ]
-        },
-        "genetic_significance": {
-          "ancestry_components": [
-            "Ancient Iranian agriculturalists",
-            "Indigenous South Asian hunter-gatherers"
-          ]
-        },
-        "location": "Mehrgarh (Balochistan region)",
-        "time_range": "7000–2600 BCE"
-      },
-      "section_4_indus_valley_civilization": {
-        "economic_system": {
-          "craft_specialization": [
-            "Bead industry",
-            "Metallurgy (Copper/Bronze)",
-            "Seal carving"
-          ],
-          "trade_networks": [
-            "Mesopotamia",
-            "Persian Gulf",
-            "Central Asia"
-          ]
-        },
-        "major_sites": [
-          "Harappa",
-          "Mohenjo-daro",
-          "Dholavira",
-          "Rakhigarhi"
-        ],
-        "social_structure": {
-          "evidence_of_palaces": false,
-          "relative_egalitarianism": "Debated but limited monumental hierarchy"
-        },
-        "time_range": "3300–1300 BCE",
-        "urban_planning": {
-          "drainage_system": "Advanced covered sewage",
-          "grid_layout": true,
-          "standardized_bricks": true
-        },
-        "writing_system": {
-          "indus_script": "Undeciphered",
-          "mediums": [
-            "Seals",
-            "Pottery",
-            "Tablets"
-          ]
-        }
-      },
-      "section_5_climate_and_ivc_transformation": {
-        "monsoon_shift": {
-          "effect": "River drying, especially Ghaggar-Hakra system",
-          "pattern": "Weakening summer monsoon",
-          "time": "2200–1900 BCE"
-        },
-        "no_clear_invasion_evidence": true,
-        "urban_decline": {
-          "process": "Gradual deurbanization",
-          "shift": "From cities to rural settlements"
-        }
-      },
-      "section_6_archaeogenetics_of_india": {
-        "ani_asi_model": {
-          "ANI": {
-            "description": "Ancestral North Indian",
-            "related_to": [
-              "Ancient Iranian farmers",
-              "Steppe pastoralists"
-            ]
-          },
-          "ASI": {
-            "description": "Ancestral South Indian",
-            "deep_lineage": "Indigenous hunter-gatherer ancestry"
-          }
-        },
-        "modern_population_structure": {
-          "admixture": "All Indian populations are mixtures of ANI and ASI components",
-          "gradient_pattern": "North-south clinal distribution"
-        },
-        "steppe_migration": {
-          "associated_culture": "Indo-Iranian pastoralists",
-          "genetic_marker": "Y-chromosome R1a-Z93 lineage",
-          "time": "2000–1500 BCE"
-        }
-      },
-      "section_7_linguistic_development": {
-        "dravidians": {
-          "possible_pre_ivc_presence": true,
-          "southern_continuity": "Preserved in peninsular India"
-        },
-        "language_diversification": {
-          "mechanism": "Migration + isolation + ecological separation"
-        },
-        "proto_indo_iranian": {
-          "arrival_window": "Post-2000 BCE",
-          "relation": "Indo-European language family"
-        }
-      },
-      "section_8_technological_and_social_evolution": {
-        "metallurgy": {
-          "copper_bronze_transition": true,
-          "tool_advancement": "Agricultural and military applications"
-        },
-        "religious_symbolism": {
-          "mother_goddess_figures": true,
-          "proto_shiva_seal": "Pashupati motif interpretation debated"
-        },
-        "trade_standardization": {
-          "maritime_trade": "Dockyard at Lothal",
-          "weights_and_measures": "Highly standardized cubical weights"
-        }
-      }
-    },
-    "part7": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "1500 BCE – 500 BCE",
-        "disciplines": [
-          "South Asian Archaeology",
-          "Vedic Studies",
-          "Archaeogenetics",
-          "Historical Linguistics",
-          "Early State Formation Theory",
-          "Religious Studies"
-        ],
-        "scope": "Late Harappan transformation through early Iron Age state formation",
-        "volume": 7
-      },
-      "section_10_civilizational_significance": {
-        "cultural_synthesis": "Fusion of Harappan legacy, steppe pastoral influence, and indigenous traditions",
-        "intellectual_foundations": "Basis of classical Indian philosophy",
-        "state_formation_trajectory": "Precursor to Mauryan imperial consolidation"
-      },
-      "section_1_late_harappan_transition": {
-        "characteristics": {
-          "deurbanization": true,
-          "material_changes": [
-            "Decline in standardized weights",
-            "Regional pottery styles",
-            "Reduced long-distance trade"
-          ],
-          "ruralization": "Shift to smaller agro-pastoral settlements"
-        },
-        "climate_factor": "Monsoon weakening and river shifts",
-        "continuity_elements": [
-          "Agricultural practices",
-          "Cattle domestication",
-          "Settlement clustering along rivers"
-        ],
-        "time_range": "1900–1300 BCE"
-      },
-      "section_2_steppe_associated_migration": {
-        "cultural_associations": [
-          "Horse domestication",
-          "Chariot technology",
-          "Proto-Indo-Iranian language diffusion"
-        ],
-        "genetic_markers": [
-          "Y-chromosome R1a-Z93 lineage",
-          "Steppe_MLBA ancestry component"
-        ],
-        "interaction_model": {
-          "result": "Integration with post-Harappan populations",
-          "type": "Cultural and genetic admixture"
-        },
-        "time_range": "2000–1500 BCE"
-      },
-      "section_3_early_vedic_society": {
-        "economic_model": {
-          "agriculture": "Increasing importance in later Vedic phase",
-          "pastoralism": "Cattle central to wealth"
-        },
-        "primary_textual_source": "Rigveda (oral composition phase)",
-        "religious_practice": {
-          "cosmic_order_concept": "Rta (cosmic law)",
-          "deities": [
-            "Indra",
-            "Agni",
-            "Varuna",
-            "Soma"
-          ],
-          "ritual_fire_sacrifices": true
-        },
-        "social_structure": {
-          "chieftainship": "Rajan leadership model",
-          "tribal_polities": "Janas",
-          "varna_system": "Emerging four-fold classification"
-        }
-      },
-      "section_4_linguistic_structuring": {
-        "indo_aryan_language": {
-          "branch": "Indo-European family",
-          "phonetic_features": [
-            "Retroflex consonants (possibly substrate influence)",
-            "Complex inflectional morphology"
-          ]
-        },
-        "substrate_influence": {
-          "dravidian_elements": "Loanwords and phonological traits",
-          "munda_hypothesis": "Possible Austroasiatic interaction"
-        }
-      },
-      "section_5_iron_age_transformation": {
-        "archaeological_culture": {
-          "northern_black_polished_ware": "Later urban resurgence phase",
-          "painted_grey_ware": "Associated with later Vedic settlements"
-        },
-        "technological_shift": {
-          "agricultural_expansion": "Forest clearance in Ganga plains",
-          "iron_smelted_tools": true
-        },
-        "time_range": "1200–600 BCE"
-      },
-      "section_6_second_urbanization": {
-        "drivers": [
-          "Iron tools enabling agriculture",
-          "Population growth",
-          "Trade intensification"
-        ],
-        "mahajanapadas": [
-          "Magadha",
-          "Kosala",
-          "Vatsa",
-          "Avanti"
-        ],
-        "political_evolution": {
-          "monarchies": true,
-          "republican_ganasanghas": true
-        },
-        "region": "Ganga-Yamuna Doab and eastern India",
-        "time_range": "800–500 BCE"
-      },
-      "section_7_philosophical_transformation": {
-        "sramana_movements": {
-          "themes": [
-            "Renunciation",
-            "Non-violence",
-            "Liberation (moksha/nirvana)"
-          ],
-          "time": "6th century BCE",
-          "traditions": [
-            "Early Buddhism",
-            "Jainism"
-          ]
-        },
-        "upanishadic_thought": {
-          "concepts": [
-            "Atman (self)",
-            "Brahman (ultimate reality)",
-            "Karma",
-            "Samsara"
-          ],
-          "shift": "From ritual orthopraxy to metaphysical inquiry"
-        }
-      },
-      "section_8_genetic_stabilization_phase": {
-        "evidence_sources": [
-          "Ancient DNA studies",
-          "Modern population genomic modeling"
-        ],
-        "pattern": {
-          "admixture_completion": "Major ANI–ASI admixture largely complete",
-          "increasing_endogamy": "Gradual social stratification reflected genetically"
-        },
-        "time_range": "1000–500 BCE"
-      },
-      "section_9_economic_and_trade_networks": {
-        "coinage_emergence": "Punch-marked coins",
-        "external_trade": [
-          "Persian Achaemenid contacts (later period)",
-          "Northwest frontier exchange routes"
-        ],
-        "internal_trade": "Riverine transport via Ganges system"
-      }
-    },
-    "part8": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "500 BCE – 600 CE",
-        "disciplines": [
-          "Ancient History",
-          "Political Anthropology",
-          "Epigraphy",
-          "Numismatics",
-          "Philosophy",
-          "Population Genetics"
-        ],
-        "scope": "Classical South Asian state formation and intellectual consolidation",
-        "volume": 8
-      },
-      "section_10_civilizational_legacy": {
-        "institutional_foundations": [
-          "Imperial governance models",
-          "Codified legal traditions",
-          "Philosophical systems still influential"
-        ],
-        "knowledge_transmission": "Mathematics and astronomy transferred westward"
-      },
-      "section_1_late_mahajanapada_phase": {
-        "magadha_advantages": {
-          "geography": "Fertile Ganga plains",
-          "iron_resources": "Access to eastern mineral zones",
-          "river_transport": true
-        },
-        "major_powers": [
-          "Magadha",
-          "Kosala",
-          "Avanti",
-          "Vatsa"
-        ],
-        "political_evolution": {
-          "administrative_centralization": "Early bureaucratic structures",
-          "bimbisara_and_ajatasatru": "Territorial expansion"
-        },
-        "time_range": "600–321 BCE"
-      },
-      "section_2_achaemenid_and_hellenistic_interactions": {
-        "achaemenid_presence": {
-          "impact": [
-            "Administrative models",
-            "Aramaic script influence"
-          ],
-          "region": "Northwest India",
-          "time": "6th–4th century BCE"
-        },
-        "alexander_campaign": {
-          "impact": [
-            "Political fragmentation in northwest",
-            "Greco-Indian cultural exchange"
-          ],
-          "time": "327–325 BCE"
-        }
-      },
-      "section_3_mauryan_empire": {
-        "administrative_system": {
-          "arthashastra_model": "Centralized taxation and espionage",
-          "provincial_governors": true
-        },
-        "ashoka": {
-          "conversion_to_buddhism": true,
-          "dhamma_policy": "Moral governance",
-          "international_missions": [
-            "Sri Lanka",
-            "Central Asia"
-          ],
-          "rock_edicts": "Earliest extensive written inscriptions"
-        },
-        "founder": "Chandragupta Maurya",
-        "territorial_extent": "Largest pre-modern South Asian empire",
-        "time_range": "321–185 BCE"
-      },
-      "section_4_post_mauryan_polities": {
-        "indo_greek_kingdoms": {
-          "cultural_exchange": "Greco-Buddhist art (Gandhara)"
-        },
-        "kushan_empire": {
-          "religious_pluralism": true,
-          "role": "Silk Road trade connector",
-          "time": "1st–3rd century CE"
-        },
-        "saka_and_parthian": {
-          "integration": "Localized elite assimilation",
-          "steppe_origin": true
-        }
-      },
-      "section_5_religious_and_philosophical_systems": {
-        "buddhist_schools": [
-          "Theravada",
-          "Mahayana"
-        ],
-        "classical_hindu_philosophy": {
-          "metaphysical_concepts": [
-            "Brahman",
-            "Atman",
-            "Prakriti",
-            "Purusha"
-          ],
-          "schools": [
-            "Nyaya",
-            "Vaisheshika",
-            "Samkhya",
-            "Yoga",
-            "Mimamsa",
-            "Vedanta"
-          ]
-        },
-        "jain_philosophy": {
-          "anekantavada": "Doctrine of multiple viewpoints"
-        }
-      },
-      "section_6_scientific_and_mathematical_developments": {
-        "astronomy": {
-          "aryabhata": "Heliocentric elements in planetary models",
-          "sidereal_calculations": true
-        },
-        "mathematics": {
-          "concept_of_zero": "Formalization in Gupta period",
-          "decimal_system": true
-        },
-        "medicine": {
-          "charaka_samhita": "Internal medicine",
-          "sushruta_samhita": "Surgical techniques"
-        }
-      },
-      "section_7_gupta_classical_age": {
-        "art_and_architecture": {
-          "iconography_standardization": true,
-          "temple_architecture_emergence": true
-        },
-        "characteristics": [
-          "Political stability",
-          "Cultural florescence",
-          "Sanskrit literary expansion"
-        ],
-        "economic_structure": {
-          "agrarian_base": true,
-          "guild_organization": "Urban craft guilds"
-        },
-        "time_range": "320–550 CE"
-      },
-      "section_8_genetic_and_demographic_patterns": {
-        "population_growth": {
-          "agrarian_expansion": "Carrying capacity increase",
-          "urban_centers": "Trade-driven demographic clustering"
-        },
-        "post_admixture_phase": {
-          "limited_new_large_scale_migrations": true,
-          "regional_endogamy_increase": true
-        }
-      },
-      "section_9_trade_networks": {
-        "maritime_trade": {
-          "indian_ocean_routes": true,
-          "roman_trade_links": "Archaeological coin evidence"
-        },
-        "silk_road": {
-          "cultural_transmission": "Religious ideas spread",
-          "goods": [
-            "Spices",
-            "Textiles",
-            "Precious stones"
-          ]
-        }
-      }
-    },
-    "part9": {
-      "dataset_metadata": {
-        "title": "Cosmic to Human Evolution Ultra-Deep Research Dataset",
-        "academic_level": "Graduate / Research",
-        "chronological_span_years": "600 CE – 1700 CE",
-        "disciplines": [
-          "Medieval History",
-          "Historical Sociology",
-          "Population Genetics",
-          "Economic History",
-          "Religious Studies",
-          "Art History"
-        ],
-        "scope": "Medieval South Asian political, cultural, and demographic transformations",
-        "volume": 9
-      },
-      "section_10_structural_transition_to_early_modernity": {
-        "economic_strain": "Overextension and regional rebellions",
-        "european_commercial_dominance": "Shift in global trade power",
-        "foundation_for_colonial_phase": true
-      },
-      "section_1_post_gupta_regionalization": {
-        "administrative_features": {
-          "agrarian_expansion": "Forest clearance and settlement growth",
-          "land_grant_system": "Brahmadeya and temple grants"
-        },
-        "major_powers": [
-          "Harsha's Kingdom",
-          "Chalukyas",
-          "Pallavas",
-          "Rashtrakutas",
-          "Palas"
-        ],
-        "political_pattern": "Fragmented regional kingdoms",
-        "temple_urbanism": {
-          "architectural_styles": [
-            "Nagara (North India)",
-            "Dravida (South India)"
-          ],
-          "role": "Economic, ritual, and administrative hubs"
-        },
-        "time_range": "600–1000 CE"
-      },
-      "section_2_religious_and_intellectual_flourishing": {
-        "bhakti_movements": {
-          "features": [
-            "Personal devotion",
-            "Vernacular poetry",
-            "Social inclusivity themes"
-          ],
-          "time_range": "7th–15th centuries"
-        },
-        "buddhist_decline_in_india": {
-          "factors": [
-            "Assimilation into Hindu frameworks",
-            "Loss of monastic patronage"
-          ]
-        },
-        "tantric_traditions": {
-          "integration_with_buddhist_and_hindu_streams": true,
-          "ritual_complexity": true
-        }
-      },
-      "section_3_early_islamic_contacts": {
-        "arab_trade_links": {
-          "coastal_centers": [
-            "Kerala",
-            "Gujarat"
-          ],
-          "exchange_goods": [
-            "Spices",
-            "Textiles",
-            "Horses"
-          ],
-          "time_range": "7th–10th centuries"
-        },
-        "cultural_exchange": {
-          "introduction_of_islam": "Primarily via trade and Sufi networks",
-          "syncretic_practices": true
-        }
-      },
-      "section_4_delhi_sultanate": {
-        "administrative_changes": {
-          "centralized_taxation": true,
-          "iqta_system": "Land revenue assignments"
-        },
-        "dynasties": [
-          "Mamluk",
-          "Khilji",
-          "Tughlaq",
-          "Sayyid",
-          "Lodi"
-        ],
-        "military_innovation": {
-          "mounted_cavalry": true,
-          "use_of_composite_bows": true
-        },
-        "time_range": "1206–1526 CE",
-        "urban_growth": "Delhi as major political capital"
-      },
-      "section_5_mughal_empire": {
-        "administrative_model": {
-          "land_revenue_system": "Zabt and jagirdari",
-          "mansabdari_system": true
-        },
-        "art_and_architecture": [
-          "Taj Mahal",
-          "Humayun’s Tomb",
-          "Miniature painting traditions"
-        ],
-        "economic_scale": {
-          "global_gdp_share": "Estimated ~20–25% in 17th century",
-          "textile_exports": "Major contributor to world trade"
-        },
-        "founder": "Babur",
-        "religious_policy": {
-          "akbar": "Sulh-i-kul (universal tolerance)",
-          "integration_of_elites": "Rajput alliances"
-        },
-        "time_range": "1526–1707 CE"
-      },
-      "section_6_maritime_and_global_trade": {
-        "european_entry": {
-          "portuguese_arrival": "1498 CE (Vasco da Gama)",
-          "subsequent_powers": [
-            "Dutch",
-            "French",
-            "British"
-          ]
-        },
-        "indian_ocean_network": {
-          "participants": [
-            "Arabs",
-            "Persians",
-            "Chinese",
-            "Europeans"
-          ],
-          "ports": [
-            "Calicut",
-            "Surat",
-            "Masulipatnam"
-          ]
-        }
-      },
-      "section_7_social_stratification_and_endogamy": {
-        "caste_solidification": {
-          "genetic_evidence": "Increased endogamy detectable in genomic studies",
-          "jati_localization": "Localized occupational group boundaries",
-          "period": "1000–1600 CE"
-        },
-        "religious_conversion_patterns": {
-          "islamic_conversion": "Gradual, regionally varied",
-          "sufi_influence": "Spiritual egalitarian appeal"
-        }
-      },
-      "section_8_population_genetics_medieval_phase": {
-        "admixture_patterns": {
-          "continuity_of_asi_component": true,
-          "west_eurasian_gene_flow": "Limited but regionally detectable"
-        },
-        "genetic_isolation_trends": {
-          "founder_effects": "Certain caste groups show strong bottlenecks",
-          "increasing_endogamy": true
-        }
-      },
-      "section_9_intellectual_and_scientific_currents": {
-        "astronomy": {
-          "kerala_school": "Early calculus-like infinite series work"
-        },
-        "literature": {
-          "persianate_culture": true,
-          "regional_languages_flourish": [
-            "Hindi",
-            "Bengali",
-            "Tamil",
-            "Marathi"
-          ]
-        },
-        "medicine": {
-          "unani_system": "Greco-Arabic integration"
-        }
-      }
-    },
-    "planetary_evolution": {
-      "earth_formation": {
-        "core_formation": {
-          "iron_catastrophe": "Iron sank to form metallic core",
-          "magnetic_field": "Generated by geodynamo"
-        },
-        "early_atmosphere": {
-          "composition": [
-            "CO2",
-            "Nitrogen",
-            "Water vapor",
-            "Methane"
-          ],
-          "source": "Volcanic outgassing"
-        },
-        "moon_formation": {
-          "theia_impact": "Mars-sized body collision hypothesis"
-        },
-        "time": "4.54 billion years ago"
-      },
-      "solar_system": {
-        "accretion_stages": [
-          "Dust grain collision",
-          "Planetesimal formation",
-          "Protoplanet formation",
-          "Orbital clearing"
-        ],
-        "mechanism": "Gravitational collapse of molecular cloud",
-        "time": "4.6 billion years ago"
-      }
-    },
-    "timeline": [
-      {
-        "category": "cosmic",
-        "event": "Big Bang",
-        "years_ago": 13800000000
-      },
-      {
-        "category": "planetary",
-        "event": "Formation of Solar System",
-        "years_ago": 4600000000
-      },
-      {
-        "category": "biological",
-        "event": "Origin of Life",
-        "years_ago": 3800000000
-      },
-      {
-        "category": "biological",
-        "event": "Cambrian Explosion",
-        "years_ago": 541000000
-      },
-      {
-        "category": "biological",
-        "event": "Dinosaur Extinction",
-        "years_ago": 66000000
-      },
-      {
-        "category": "human_global",
-        "event": "Emergence of Homo sapiens",
-        "years_ago": 300000
-      },
-      {
-        "category": "human_india",
-        "event": "Human Migration into India",
-        "years_ago": 65000
-      },
-      {
-        "category": "human_india",
-        "event": "Indus Valley Civilization",
-        "years_ago": 4500
-      }
-    ]
-  }
+    }
 }

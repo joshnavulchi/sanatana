@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 
-import { useState, Fragment } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -205,6 +205,11 @@ export default function Footer() {
   const shared = useLocaleSection('sharable-strings');
   const footer = shared?.footer || {};
   const pathname = usePathname();
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
 
   const normalize = (p?: string) => {
     if (!p) return '/';
@@ -311,18 +316,36 @@ export default function Footer() {
                 </small>
               </div>
               <nav role="list" className="flex items-center gap-4" aria-label="Social links">
-                {/* <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
+                <Link
+                  role="listitem"
+                  aria-label="Share this page on Facebook"
+                  href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                >
+                  <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
+                <Link
+                  role="listitem"
+                  aria-label="Visit us on Instagram"
+                  href="https://www.instagram.com/vulchivijay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                >
+                  <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
+                <Link
+                  role="listitem"
+                  aria-label="Share this page on X"
+                  href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                >
+                  <LazyImage src="/images/svg/x.svg" alt="x" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
-                </Link> */}
               </nav>
             </div>
 
