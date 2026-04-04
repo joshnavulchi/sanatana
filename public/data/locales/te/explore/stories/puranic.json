@@ -1,0 +1,64 @@
+{
+  "stories_puranic": {
+    "title": "Stories | Puranic — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Puranic — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Stories — Puranic — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Stories. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/stories/puranic",
+      "keywords": [
+        "Ancient Wisdom Stories Puranic",
+        "Ayurveda Stories Puranic",
+        "Bhagavad Gita Stories Puranic",
+        "Deities Stories Puranic",
+        "Festivals and Traditions Stories Puranic",
+        "Hindu Mythology Stories Puranic",
+        "Hinduism Stories Puranic",
+        "Indian Culture Stories Puranic",
+        "Indian Festivals Stories Puranic",
+        "Indian Philosophy Stories Puranic",
+        "Mahabharata Stories Puranic",
+        "Mythology Stories Puranic",
+        "Philosophy Stories Puranic",
+        "Pilgrimage Stories Puranic",
+        "Puranas Stories Puranic",
+        "Ramayana Stories Puranic",
+        "Religious Knowledge Stories Puranic",
+        "Rituals Stories Puranic",
+        "Sanatanadharmam Stories Puranic",
+        "Sanskrit Stories Puranic",
+        "Spiritual Practices Stories Puranic",
+        "Spirituality Stories Puranic",
+        "Stories Puranic Overview",
+        "Temples Stories Puranic",
+        "Upanishads Stories Puranic",
+        "Vedas Stories Puranic",
+        "Yoga and Meditation Stories Puranic"
+      ],
+      "ogimage": "/og/stories-puranic.png",
+      "url": "https://sanatanadharmam.in/stories/puranic"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

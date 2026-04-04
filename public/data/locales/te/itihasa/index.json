@@ -1,0 +1,65 @@
+{
+  "itihasa": {
+    "itihasa": {
+      "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
+      "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
+      "meta": {
+        "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
+        "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
+        "canonical": "https://sanatanadharmam.in/itihasa",
+        "keywords": [
+          "Itihasa",
+          "Ramayana",
+          "Mahabharata",
+          "Bhagavad Gita",
+          "Hindu epics",
+          "Sanatana Dharma epics",
+          "Indian epics",
+          "Itihasa meaning"
+        ],
+        "url": "https://sanatanadharmam.in/itihasa"
+      },
+      "openGraph": {
+        "title": "Itihasa – Sacred Epics of Sanatana Dharma",
+        "description": "Explore the great epics of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita.",
+        "images": [
+          {
+            "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita",
+            "height": 630,
+            "url": "https://sanatanadharmam.in/og/itihasa.png",
+            "width": 1200
+          }
+        ],
+        "siteName": "Sanatanadharmam",
+        "type": "article",
+        "url": "https://sanatanadharmam.in/itihasa"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "description": "The Itihasas are historical epics of Sanatana Dharma including Ramayana, Mahabharata and Bhagavad Gita.",
+            "@type": "CollectionPage",
+            "name": "Itihasa",
+            "url": "https://sanatanadharmam.in/itihasa"
+          },
+          {
+            "@type": "CreativeWork",
+            "author": "Valmiki",
+            "name": "Ramayana"
+          },
+          {
+            "@type": "CreativeWork",
+            "author": "Ved Vyasa",
+            "name": "Mahabharata"
+          },
+          {
+            "@type": "CreativeWork",
+            "isPartOf": "Mahabharata",
+            "name": "Bhagavad Gita"
+          }
+        ]
+      }
+    }
+  }
+}

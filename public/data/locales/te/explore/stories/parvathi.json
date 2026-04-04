@@ -1,0 +1,135 @@
+{
+  "stories_parvathi": {
+    "title": "Stories | Parvati — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Parvati — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Learn about Parvati on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/parvathi",
+      "keywords": [
+        "Parvati Biography",
+        "Parvati Biography in English",
+        "Parvati Festivals",
+        "Parvati Festivals in English",
+        "Parvati Legacy",
+        "Parvati Legacy in English",
+        "Parvati Major Legends",
+        "Parvati Major Legends in English",
+        "Parvati Modern Relevance",
+        "Parvati Modern Relevance in English",
+        "Parvati Origin and Texts",
+        "Parvati Origin and Texts in English",
+        "Parvati Philosophy",
+        "Parvati Philosophy in English",
+        "Parvati Role in Hinduism",
+        "Parvati Role in Hinduism in English",
+        "Parvati Stories",
+        "Parvati Symbolism",
+        "Parvati Symbolism in English",
+        "Parvati Teachings",
+        "Parvati Teachings in English",
+        "Parvati Timeline",
+        "Parvati Timeline in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/parvathi"
+    },
+    "attributes": {
+      "appearance": [
+        "Graceful form adorned with ornaments and silk garments.",
+        "Often depicted with Lord Shiva and their sons Ganesha and Kartikeya.",
+        "Carries lotus, trident, and sometimes a mirror."
+      ],
+      "symbols": [
+        "Lotus – purity and spiritual awakening.",
+        "Red attire – energy and fertility.",
+        "Lion or tiger as vehicle – courage and strength."
+      ]
+    },
+    "definition": "Parvati is the Hindu goddess of love, fertility, devotion, and power. She is the consort of Lord Shiva and represents Shakti, the divine feminine energy.",
+    "festivals": [
+      {
+        "name": "Navaratri",
+        "practices": [
+          "Fasting",
+          "Chanting Devi Mahatmya",
+          "Decorating idols"
+        ],
+        "significance": "Nine nights celebrating Parvati in her various forms."
+      },
+      {
+        "name": "Teej",
+        "practices": [
+          "Women observe fast",
+          "Offer prayers to Parvati"
+        ],
+        "significance": "Festival for marital bliss and devotion to Shiva."
+      }
+    ],
+    "forms_of_parvati": [
+      "Durga – Warrior goddess.",
+      "Kali – Fierce destroyer of evil.",
+      "Annapurna – Goddess of nourishment.",
+      "Meenakshi – Regional form worshipped in Tamil Nadu."
+    ],
+    "major_legends": [
+      {
+        "name": "Birth and Marriage to Shiva",
+        "summary": "Born as the daughter of King Himavan, Parvati performed severe penance to win Lord Shiva as her husband, symbolizing devotion and perseverance."
+      },
+      {
+        "name": "Incarnation as Durga",
+        "summary": "Parvati took the fierce form of Durga to destroy the demon Mahishasura, representing the triumph of good over evil."
+      },
+      {
+        "name": "Incarnation as Kali",
+        "summary": "In her wrathful form, Parvati became Kali to annihilate demons, symbolizing ultimate power and destruction of ego."
+      },
+      {
+        "name": "Mother of Ganesha and Kartikeya",
+        "summary": "Parvati created Ganesha from her body and gave birth to Kartikeya, both revered as divine sons."
+      }
+    ],
+    "modern_relevance": {
+      "culture": "Inspires art, dance, and literature.",
+      "empowerment": "Represents feminine power and resilience.",
+      "spirituality": "Symbol of inner strength and devotion."
+    },
+    "origin": {
+      "meaning": "Parvati means 'daughter of the mountain' (Himalaya).",
+      "roots": "Vedic and Puranic traditions",
+      "texts": [
+        "Shiva Purana",
+        "Devi Bhagavata Purana",
+        "Skanda Purana"
+      ]
+    },
+    "symbolism": [
+      "Represents Shakti – the dynamic energy of the universe.",
+      "Embodies love, devotion, and strength.",
+      "Balances Shiva’s ascetic nature with nurturing energy."
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}
