@@ -1,0 +1,557 @@
+{
+  "book10": {
+    "id": "SV-BOOK-10",
+    "title": "Samaveda Chapter 10 – Spiritual Realization, Liberation & Meaning",
+    "description": "Explore Samaveda Chapter 10 focusing on spiritual realization, transcendence, and liberation (moksha) through Vedic chanting and inner understanding.",
+    "meta": {
+      "title": "Samaveda Chapter 10 – Spiritual Realization & Liberation",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-10",
+      "description": "Explore Samaveda Chapter 10 explaining spiritual realization, transcendence, and liberation through Vedic chanting.",
+      "keywords": [
+        "samaveda chapter 10",
+        "moksha samaveda",
+        "vedic liberation meaning",
+        "spiritual realization vedas",
+        "samaveda transcendence",
+        "vedanta samaveda connection",
+        "inner realization chanting",
+        "samaveda mantra explanation",
+        "sanatana dharma moksha",
+        "samaveda chapter 10 summary"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+    },
+    "openGraph": {
+      "title": "Samaveda Chapter 10 – Spiritual Realization & Liberation",
+      "description": "Discover the ultimate goal of Samaveda chants—spiritual realization and liberation through Vedic wisdom.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/samaveda-chapter10.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Samaveda Chapter 10 Spiritual Realization and Liberation"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Samaveda Chapter 10 – Spiritual Realization and Liberation",
+          "description": "Detailed presentation of Samaveda Chapter 10 including transcendence, liberation (moksha), and philosophical insights of Vedic chanting.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Samaveda Chapter 10",
+            "description": "The tenth chapter of the Samaveda focusing on spiritual realization, transcendence, and liberation (moksha) through Vedic chanting and inner knowledge."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Samaveda Chapter 10",
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Samaveda",
+              "item": "https://sanatanadharmam.in/vedas/samaveda"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Chapter 10",
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
+    },
+    "chants": [
+      {
+        "id": "SV-10-1",
+        "chant_number": 1,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-2",
+        "chant_number": 2,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-3",
+        "chant_number": 3,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-4",
+        "chant_number": 4,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-5",
+        "chant_number": 5,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-6",
+        "chant_number": 6,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-7",
+        "chant_number": 7,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-8",
+        "chant_number": 8,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-9",
+        "chant_number": 9,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-10",
+        "chant_number": 10,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-11",
+        "chant_number": 11,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-12",
+        "chant_number": 12,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-13",
+        "chant_number": 13,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-14",
+        "chant_number": 14,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-15",
+        "chant_number": 15,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-16",
+        "chant_number": 16,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-17",
+        "chant_number": 17,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-18",
+        "chant_number": 18,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-19",
+        "chant_number": 19,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-20",
+        "chant_number": 20,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-21",
+        "chant_number": 21,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-22",
+        "chant_number": 22,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-23",
+        "chant_number": 23,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-24",
+        "chant_number": 24,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-25",
+        "chant_number": 25,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-26",
+        "chant_number": 26,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-27",
+        "chant_number": 27,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-28",
+        "chant_number": 28,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-29",
+        "chant_number": 29,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-30",
+        "chant_number": 30,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-31",
+        "chant_number": 31,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-32",
+        "chant_number": 32,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-33",
+        "chant_number": 33,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-34",
+        "chant_number": 34,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-35",
+        "chant_number": 35,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-36",
+        "chant_number": 36,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-37",
+        "chant_number": 37,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-38",
+        "chant_number": 38,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-39",
+        "chant_number": 39,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      },
+      {
+        "id": "SV-10-40",
+        "chant_number": 40,
+        "sanskrit": "अग्न आ याहि वीटये",
+        "transliteration": "agna ā yāhi vītaye",
+        "meaning": {
+          "literal": "O Agni, come for the feast.",
+          "interpretive": "Invocation of divine presence.",
+          "applied": "Ritual chanting."
+        }
+      }
+    ]
+  }
+}

@@ -108,7 +108,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
             // Friendly display title per veda
             const vedaKey = vedas && vedas[0] ? vedas[0] : 'rigveda';
             console.log('Item:', num, vedaKey);
-            const displayLabel = (vedaKey === 'rigveda') ? 'Mandala' : (vedaKey === 'yajurveda' ? 'Chapter' : (vedaKey === 'atharvaveda' ? 'Book' : 'Item'));
+            const displayLabel = (vedaKey === 'rigveda') ? 'Mandala' : (vedaKey === 'yajurveda' ? 'Chapter' : (vedaKey === 'atharvaveda' ? 'Book' : (vedaKey === 'samaveda' ? 'Hymn' : 'Item')));
             const displayTitle = item.title || (num ? `${displayLabel} ${num}` : `Item ${idx + 1}`);
 
             function normalizeSlugFromPath(p: string | undefined, num: number | undefined, veda?: string) {
@@ -146,7 +146,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
                 if (k === 'rigveda') return `madala${num}`;
                 if (k === 'yajurveda') return `chapter${num}`;
                 if (k === 'atharvaveda') return `book${num}`;
-                if (k === 'samaveda') return `section${num}`;
+                if (k === 'samaveda') return `hymn${num}`;
                 return `item${num}`;
               }
               return null;
@@ -172,6 +172,45 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
         </div>
       </section>
     );
+  }
+
+  function getSamavedaSections(source: any) {
+    if (!source || typeof source !== 'object') return [];
+    return Object.entries(source)
+      .flatMap(([key, value]) => {
+        if (!value || typeof value !== 'object') return [];
+        const entry = Object.values(value).find((v) => v && typeof v === 'object' && ('path' in v || 'title' in v)) as any || value;
+        const prefix = entry?.item?.prefix ? `${entry.item.prefix.charAt(0).toUpperCase()}${entry.item.prefix.slice(1)}` : 'Hymn';
+        const title = entry.title || entry.chapter?.label || `${prefix} ${entry.item?.number ?? key}`;
+        const path = entry.path || entry.chapter?.path || entry.item?.path;
+        return path ? [{ ...entry, title, path }] : [];
+      });
+  }
+
+  function getPageMeta(source: any) {
+    if (!source || typeof source !== 'object') return {};
+    const title = source?.title;
+    const description = source?.description;
+    const meta = source?.meta;
+    if ((meta && (meta.title || meta.description)) || title || description) {
+      return { title: meta?.title ?? title, description: meta?.description ?? description };
+    }
+
+    // Samaveda-style root object with grouped hymn entries
+    const childEntries = Object.values(source).filter((v) => v && typeof v === 'object');
+    for (const entry of childEntries) {
+      if (!entry || typeof entry !== 'object') continue;
+      const maybeMeta = entry?.meta || entry?.samaveda_hymn1?.meta || entry?.chapter?.meta;
+      const titleFallback = entry?.title || entry?.name || entry?.label;
+      if (maybeMeta && (maybeMeta.title || maybeMeta.description)) {
+        return { title: maybeMeta.title ?? titleFallback, description: maybeMeta.description ?? entry?.description ?? titleFallback };
+      }
+      if (titleFallback || entry?.description) {
+        return { title: titleFallback, description: entry?.description };
+      }
+    }
+
+    return {};
   }
 
   useEffect(() => {
@@ -208,8 +247,9 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return () => { cancelled = true; };
   }, [initialData, initialLocale, ctxLocale, locale, vedas]);
 
-  const title = String(data?.meta?.title ?? data?.title ?? vedas.join(' / ') ?? 'Vedas');
-  const description = String(data?.meta?.description ?? data?.description ?? '');
+  const pageMeta = getPageMeta(data);
+  const title = String(pageMeta.title ?? data?.meta?.title ?? data?.title ?? vedas.join(' / ') ?? 'Vedas');
+  const description = String(pageMeta.description ?? data?.meta?.description ?? data?.description ?? '');
 
   const breadcrumbs = [
     { labelKey: 'Home', href: '/' },
@@ -218,6 +258,8 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   if (vedas && vedas.length > 0) breadcrumbs.push({ label: vedas[0], href: `/vedas/${vedas[0]}` });
 
   const metaKey = (data?.meta?.key && String(data.meta.key)) || `vedas/${vedas.join('/')}/index`;
+  const samavedaSections = data?.samaveda_sections ?? getSamavedaSections(data);
+  const yajurvedaChapters = data?.chapters ?? data?.yajurveda_chapters ?? [];
 
   if (loading) {
     return (
@@ -323,10 +365,10 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       <ArrayBlock title="Mandalas" items={data.mandalas} />
 
       {/* Yajurveda Chapters */}
-      <ArrayBlock title="Chapters" items={data.yajurveda_chapters} />
+      <ArrayBlock title="Chapters" items={yajurvedaChapters} />
 
       {/* Samaveda Sections */}
-      <ArrayBlock title="Sections" items={data.samaveda_sections} />
+      <ArrayBlock title={vedas && vedas[0] === 'samaveda' ? 'Hymns' : 'Sections'} items={samavedaSections} />
 
       {/* Atharvaveda Books */}
       <ArrayBlock title="Books" items={data.atharvaveda_books} />

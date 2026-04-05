@@ -1,332 +1,985 @@
 {
-  "hymn1": {
-    "atharvaveda_book3_hymn1": {
-      "title": "Atharvaveda Book 3 Hymn 1",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 1",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-1",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-1"
+  "book3": {
+    "id": "AV-BOOK-3",
+    "title": "Atharvaveda Book 3 (Kanda 3) – Hymns, Meaning & Translation",
+    "description": "Explore Atharvaveda Book 3 (Kanda 3) with sacred hymns, meanings, and translations. Discover Vedic insights on protection, prosperity, and spiritual harmony.",
+    "meta": {
+      "title": "Atharvaveda Book 3 (Kanda 3) – Hymns, Meaning & Translation",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3",
+      "description": "Explore Atharvaveda Book 3 (Kanda 3) with sacred hymns, meanings, and translations. Discover Vedic insights on protection, prosperity, and spiritual harmony.",
+      "keywords": [
+        "atharvaveda book 3",
+        "atharvaveda kanda 3",
+        "atharvaveda book 3 hymns",
+        "atharvaveda translation book 3",
+        "vedic hymns protection prosperity",
+        "atharvaveda mantra explanation",
+        "kanda 3 atharvaveda meaning",
+        "sanatana dharma scriptures atharvaveda"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 3 – Hymns, Meaning & Spiritual Insights",
+      "description": "Read Atharvaveda Book 3 (Kanda 3) with translations and explanations of hymns related to protection, prosperity, and spiritual life.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/atharvaveda-book3.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Atharvaveda Book 3 Hymns and Meaning"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Atharvaveda Book 3 (Kanda 3) – Hymns and Meaning",
+          "description": "Detailed presentation of Atharvaveda Book 3 including original hymns, translations, and explanations.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/atharvaveda/book-3"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Atharvaveda Book 3",
+            "description": "The third book (Kanda 3) of the Atharvaveda containing hymns on protection, prosperity, and spiritual harmony."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Atharvaveda Book 3",
+          "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atharvaveda",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Book 3",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda/book-3"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
+    },
+    "hymns": [
+      {
+        "id": "AV-3-1",
+        "hymn_number": 1,
+        "title": "Hymn 1 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-1-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-1-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-2",
+        "hymn_number": 2,
+        "title": "Hymn 2 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-2-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-2-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 1,
-        "path": "/vedas/atharvaveda/book-3/hymn-1",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-3",
+        "hymn_number": 3,
+        "title": "Hymn 3 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-3-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-3-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 1",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-1"
+      {
+        "id": "AV-3-4",
+        "hymn_number": 4,
+        "title": "Hymn 4 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-4-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-4-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 1, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn10": {
-    "atharvaveda_book3_hymn10": {
-      "title": "Atharvaveda Book 3 Hymn 10",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 10",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-10",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-10"
+      {
+        "id": "AV-3-5",
+        "hymn_number": 5,
+        "title": "Hymn 5 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-5-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-5-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-6",
+        "hymn_number": 6,
+        "title": "Hymn 6 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-6-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-6-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 10,
-        "path": "/vedas/atharvaveda/book-3/hymn-10",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-7",
+        "hymn_number": 7,
+        "title": "Hymn 7 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-7-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-7-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 10",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-10"
+      {
+        "id": "AV-3-8",
+        "hymn_number": 8,
+        "title": "Hymn 8 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-8-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-8-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 10, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn2": {
-    "atharvaveda_book3_hymn2": {
-      "title": "Atharvaveda Book 3 Hymn 2",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 2",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-2",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-2"
+      {
+        "id": "AV-3-9",
+        "hymn_number": 9,
+        "title": "Hymn 9 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-9-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-9-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-10",
+        "hymn_number": 10,
+        "title": "Hymn 10 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-10-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-10-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 2,
-        "path": "/vedas/atharvaveda/book-3/hymn-2",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-11",
+        "hymn_number": 11,
+        "title": "Hymn 11 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-11-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-11-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 2",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-2"
+      {
+        "id": "AV-3-12",
+        "hymn_number": 12,
+        "title": "Hymn 12 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-12-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-12-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 2, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn3": {
-    "atharvaveda_book3_hymn3": {
-      "title": "Atharvaveda Book 3 Hymn 3",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 3",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-3",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-3"
+      {
+        "id": "AV-3-13",
+        "hymn_number": 13,
+        "title": "Hymn 13 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-13-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-13-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-14",
+        "hymn_number": 14,
+        "title": "Hymn 14 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-14-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-14-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 3,
-        "path": "/vedas/atharvaveda/book-3/hymn-3",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-15",
+        "hymn_number": 15,
+        "title": "Hymn 15 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-15-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-15-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 3",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-3"
+      {
+        "id": "AV-3-16",
+        "hymn_number": 16,
+        "title": "Hymn 16 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-16-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-16-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 3, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn4": {
-    "atharvaveda_book3_hymn4": {
-      "title": "Atharvaveda Book 3 Hymn 4",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 4",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-4",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-4"
+      {
+        "id": "AV-3-17",
+        "hymn_number": 17,
+        "title": "Hymn 17 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-17-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-17-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-18",
+        "hymn_number": 18,
+        "title": "Hymn 18 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-18-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-18-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 4,
-        "path": "/vedas/atharvaveda/book-3/hymn-4",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-19",
+        "hymn_number": 19,
+        "title": "Hymn 19 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-19-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-19-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 4",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-4"
+      {
+        "id": "AV-3-20",
+        "hymn_number": 20,
+        "title": "Hymn 20 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-20-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-20-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 4, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn5": {
-    "atharvaveda_book3_hymn5": {
-      "title": "Atharvaveda Book 3 Hymn 5",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 5",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-5",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-5"
+      {
+        "id": "AV-3-21",
+        "hymn_number": 21,
+        "title": "Hymn 21 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-21-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-21-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-22",
+        "hymn_number": 22,
+        "title": "Hymn 22 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-22-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-22-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 5,
-        "path": "/vedas/atharvaveda/book-3/hymn-5",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-23",
+        "hymn_number": 23,
+        "title": "Hymn 23 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-23-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-23-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 5",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-5"
+      {
+        "id": "AV-3-24",
+        "hymn_number": 24,
+        "title": "Hymn 24 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-24-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-24-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 5, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn6": {
-    "atharvaveda_book3_hymn6": {
-      "title": "Atharvaveda Book 3 Hymn 6",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 6",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-6",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-6"
+      {
+        "id": "AV-3-25",
+        "hymn_number": 25,
+        "title": "Hymn 25 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-25-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-25-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-3-26",
+        "hymn_number": 26,
+        "title": "Hymn 26 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-26-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-26-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 6,
-        "path": "/vedas/atharvaveda/book-3/hymn-6",
-        "prefix": "hymn"
+      {
+        "id": "AV-3-27",
+        "hymn_number": 27,
+        "title": "Hymn 27 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-27-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-27-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 6",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-6"
+      {
+        "id": "AV-3-28",
+        "hymn_number": 28,
+        "title": "Hymn 28 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-28-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-28-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 6, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn7": {
-    "atharvaveda_book3_hymn7": {
-      "title": "Atharvaveda Book 3 Hymn 7",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 7",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-7",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-7"
+      {
+        "id": "AV-3-29",
+        "hymn_number": 29,
+        "title": "Hymn 29 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-29-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-29-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 7,
-        "path": "/vedas/atharvaveda/book-3/hymn-7",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 7",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-7"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 7, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn8": {
-    "atharvaveda_book3_hymn8": {
-      "title": "Atharvaveda Book 3 Hymn 8",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 8",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-8",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-8"
-      },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 8,
-        "path": "/vedas/atharvaveda/book-3/hymn-8",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 8",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-8"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 8, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn9": {
-    "atharvaveda_book3_hymn9": {
-      "title": "Atharvaveda Book 3 Hymn 9",
-      "description": "This hymn belongs to Atharvaveda Book 3.",
-      "meta": {
-        "title": "Atharvaveda Book 3 Hymn 9",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-9",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-9"
-      },
-      "chapter": {
-        "key": "book-3",
-        "label": "Book 3",
-        "path": "/vedas/atharvaveda/book-3",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 3.",
-      "item": {
-        "number": 9,
-        "path": "/vedas/atharvaveda/book-3/hymn-9",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 3 Hymn 9",
-        "description": "This hymn belongs to Atharvaveda Book 3.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-3/hymn-9"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 3, Hymn 9, invoking protection, wellbeing, and spiritual insight."
-    }
+      {
+        "id": "AV-3-30",
+        "hymn_number": 30,
+        "title": "Hymn 30 – Thematic Invocation",
+        "verses": [
+          {
+            "id": "AV-3-30-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          },
+          {
+            "id": "AV-3-30-2",
+            "verse_number": 2,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Invocation of harmony.",
+              "applied": "Mental and social well-being."
+            }
+          }
+        ]
+      }
+    ]
   }
 }
