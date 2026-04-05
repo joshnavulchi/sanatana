@@ -28,11 +28,28 @@ function asObject(value: unknown): Record<string, unknown> {
   return {};
 }
 
-function extractMeta(namespaceData: unknown, metakey: string): MetaLike {
+function resolveNamespacePage(namespaceData: unknown, metakey: string): Record<string, unknown> {
   const root = asObject(namespaceData);
-  const nested = asObject(root[metakey]);
-  const source = Object.keys(nested).length > 0 ? nested : root;
-  return source as MetaLike;
+  const candidates = [metakey, metakey.replace(/\/index$/, ''), ...Object.keys(root)];
+
+  for (const key of candidates) {
+    if (Object.prototype.hasOwnProperty.call(root, key)) {
+      const nested = asObject(root[key]);
+      if (Object.keys(nested).length > 0) return nested;
+    }
+  }
+
+  if (Object.keys(root).length === 1) {
+    const onlyKey = Object.keys(root)[0];
+    const nested = asObject(root[onlyKey]);
+    if (Object.keys(nested).length > 0) return nested;
+  }
+
+  return root;
+}
+
+function extractMeta(namespaceData: unknown, metakey: string): MetaLike {
+  return resolveNamespacePage(namespaceData, metakey) as MetaLike;
 }
 
 export default function StructuredData({ metakey, params, locale }: Props) {
@@ -48,14 +65,11 @@ export default function StructuredData({ metakey, params, locale }: Props) {
         const nsMaybe = await Promise.resolve(getLocaleNamespaceObject(loc, metakey));
         if (!isMounted) return;
 
-        const extractedMeta = extractMeta(nsMaybe, metakey);
-        setMeta(extractedMeta);
+        const pageData = resolveNamespacePage(nsMaybe, metakey);
+        setMeta(pageData as MetaLike);
 
-        const obj = asObject(nsMaybe);
-        const nested = asObject(obj[metakey]);
         const schema =
-          (nested.schema as Record<string, unknown> | null | undefined) ??
-          (obj.schema as Record<string, unknown> | null | undefined) ??
+          (pageData.schema as Record<string, unknown> | null | undefined) ??
           null;
         setPageSchema(schema);
       } catch (_error) {

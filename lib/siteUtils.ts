@@ -32,29 +32,11 @@ const BASES = [
 
 type BaseType = (typeof BASES)[number];
 
-const EXCLUDE_KEYS = new Set(['meta', 'openGraph', 'schema', 'openSpec', 'openspec']);
-
 function normalizeSegments(segments: string[]) {
   return Array.isArray(segments)
     ? segments.map(s => String(s).replace(/^\/+|\/+$/g, '')).filter(Boolean)
     : [];
 }
-
-function stripExcluded(obj: any) {
-  if (!obj || typeof obj !== 'object') return obj;
-  if (Array.isArray(obj)) return obj;
-  try {
-    const copy: Record<string, any> = {};
-    for (const k of Object.keys(obj)) {
-      if (EXCLUDE_KEYS.has(k)) continue;
-      copy[k] = obj[k];
-    }
-    return copy;
-  } catch (_) {
-    return obj;
-  }
-}
-
 
 /**
  * Resolve base + segments from URL
@@ -194,8 +176,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
             try {
               const r = await fetch(fileUrl, { cache: 'force-cache' } as any);
               if (!r.ok) continue;
-              let parsed = await r.json();
-              parsed = stripExcluded(parsed);
+              const parsed = await r.json();
               const key = vname;
               if (parsed && typeof parsed === 'object' && Object.keys(parsed).length === 1) {
                 const innerKey = Object.keys(parsed)[0];
@@ -224,8 +205,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
     }
 
     const top = await res.json();
-    const topStripped = stripExcluded(top);
-    return { data: topStripped, path: fetchUrl };
+    return { data: top, path: fetchUrl };
   } catch (err) {
     if (process.env.NODE_ENV !== 'production') {
       // eslint-disable-next-line no-console

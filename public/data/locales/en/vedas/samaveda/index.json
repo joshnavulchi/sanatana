@@ -1,332 +1,153 @@
 {
-  "hymn1": {
-    "samaveda_hymn1": {
-      "title": "Agni Decade – Purvarchika",
-      "description": "The opening section of the Purvarchika contains hymns dedicated to Agni, the fire deity, set to melodic patterns for ritual chanting.",
-      "meta": {
-        "title": "Agni Decade – Purvarchika",
-        "description": "The opening section of the Purvarchika contains hymns dedicated to Agni, the fire deity, set to melodic patterns for ritual chanting.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-1",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-1"
+  "samaveda": {
+    "title": "Samaveda – The Veda of Melodies",
+    "description": "The Samaveda is the Veda of melodies and chants, containing hymns set to musical patterns for ritual singing. It emphasizes the spiritual power of sound and music in Vedic worship.",
+    "meta": {
+      "title": "Samaveda – The Veda of Melodies",
+      "description": "The Samaveda is the Veda of melodies and chants, containing hymns set to musical patterns for ritual singing. It emphasizes the spiritual power of sound and music in Vedic worship.",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda",
+      "url": "https://sanatanadharmam.in/vedas/samaveda"
+    },
+    "openGraph": {
+      "title": "Samaveda – The Veda of Melodies",
+      "description": "The Samaveda is the Veda of melodies and chants, containing hymns set to musical patterns for ritual singing. It emphasizes the spiritual power of sound and music in Vedic worship.",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/vedas/samaveda"
+    },
+    "chapter": {
+      "key": "samaveda",
+      "label": "Samaveda",
+      "path": "/vedas/samaveda",
+      "slug": "samaveda"
+    },
+    "introduction": "The Samaveda is the Veda of melodies and chants, containing hymns set to musical patterns for ritual singing. It emphasizes the spiritual power of sound and music in Vedic worship.",
+    "hero": {
+      "title": "Samaveda",
+      "subtitle": "The Veda of Music, Chanting & Divine Sound",
+      "image": "/images/samaveda-hero.jpg"
+    },
+    "chapters": [
+      {
+        "id": 1,
+        "slug": "chapter1",
+        "title": "Introduction to Samaveda Chants",
+        "theme": "Foundations of chanting",
+        "description": "Introduction to sacred chants and their role in Vedic rituals.",
+        "href": "/vedas/samaveda/chapter1"
       },
-      "chapter": {
-        "key": "hymn-1",
-        "label": "Hymn 1",
-        "path": "/vedas/samaveda/hymn-1",
-        "slug": "samaveda"
+      {
+        "id": 2,
+        "slug": "chapter2",
+        "title": "Agni Chants",
+        "theme": "Fire deity chants",
+        "description": "Chants dedicated to Agni used in yajnas.",
+        "href": "/vedas/samaveda/chapter2"
       },
-      "introduction": "The opening section of the Purvarchika contains hymns dedicated to Agni, the fire deity, set to melodic patterns for ritual chanting.",
-      "item": {
-        "number": 1,
-        "path": "/vedas/samaveda/hymn-1",
-        "prefix": "hymn"
+      {
+        "id": 3,
+        "slug": "chapter3",
+        "title": "Indra Chants",
+        "theme": "Indra hymns",
+        "description": "Chants invoking Indra, king of the gods.",
+        "href": "/vedas/samaveda/chapter3"
       },
-      "openGraph": {
-        "title": "Agni Decade – Purvarchika",
-        "description": "The opening section of the Purvarchika contains hymns dedicated to Agni, the fire deity, set to melodic patterns for ritual chanting.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-1"
+      {
+        "id": 4,
+        "slug": "chapter4",
+        "title": "Soma Chants",
+        "theme": "Soma rituals",
+        "description": "Chants focused on Soma and its ritual significance.",
+        "href": "/vedas/samaveda/chapter4"
       },
-      "philosophical_explanation": "Agni represents both the external sacrificial fire and the inner spiritual flame of consciousness. The musical praise of Agni symbolizes the awakening of spiritual awareness through devoted practice.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 1, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn10": {
-    "samaveda_hymn10": {
-      "title": "Legacy of Samavedic Music",
-      "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
-      "meta": {
-        "title": "Legacy of Samavedic Music",
-        "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-10",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-10"
+      {
+        "id": 5,
+        "slug": "chapter5",
+        "title": "Ritual Chanting",
+        "theme": "Yajna chanting",
+        "description": "Chants used in Vedic ceremonies and yajnas.",
+        "href": "/vedas/samaveda/chapter5"
       },
-      "chapter": {
-        "key": "hymn-10",
-        "label": "Hymn 10",
-        "path": "/vedas/samaveda/hymn-10",
-        "slug": "samaveda"
+      {
+        "id": 6,
+        "slug": "chapter6",
+        "title": "Musical Structure",
+        "theme": "Svara system",
+        "description": "Explanation of musical notes and chanting patterns.",
+        "href": "/vedas/samaveda/chapter6"
       },
-      "introduction": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
-      "item": {
-        "number": 10,
-        "path": "/vedas/samaveda/hymn-10",
-        "prefix": "hymn"
+      {
+        "id": 7,
+        "slug": "chapter7",
+        "title": "Priest Roles",
+        "theme": "Udgatri system",
+        "description": "Roles of priests in Samaveda chanting.",
+        "href": "/vedas/samaveda/chapter7"
       },
-      "openGraph": {
-        "title": "Legacy of Samavedic Music",
-        "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-10"
+      {
+        "id": 8,
+        "slug": "chapter8",
+        "title": "Chant Variations",
+        "theme": "Saman variations",
+        "description": "Different melodic and chanting styles.",
+        "href": "/vedas/samaveda/chapter8"
       },
-      "philosophical_explanation": "The Samaveda's enduring legacy lies in its demonstration that beauty and truth are inseparable. Sacred music is not merely an accompaniment to spiritual practice but is itself a direct path to the divine.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 10, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn2": {
-    "samaveda_hymn2": {
-      "title": "Indra Decade – Purvarchika",
-      "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
-      "meta": {
-        "title": "Indra Decade – Purvarchika",
-        "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-2",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-2"
+      {
+        "id": 9,
+        "slug": "chapter9",
+        "title": "Symbolism",
+        "theme": "Philosophical meaning",
+        "description": "Symbolic and spiritual interpretation of chants.",
+        "href": "/vedas/samaveda/chapter9"
       },
-      "chapter": {
-        "key": "hymn-2",
-        "label": "Hymn 2",
-        "path": "/vedas/samaveda/hymn-2",
-        "slug": "samaveda"
-      },
-      "introduction": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
-      "item": {
-        "number": 2,
-        "path": "/vedas/samaveda/hymn-2",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Indra Decade – Purvarchika",
-        "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-2"
-      },
-      "philosophical_explanation": "Indra symbolizes the power of consciousness to overcome obstacles and ignorance. The musical celebration of his victories represents the spiritual triumph of knowledge over darkness.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 2, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn3": {
-    "samaveda_hymn3": {
-      "title": "Soma Decades – Purvarchika",
-      "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
-      "meta": {
-        "title": "Soma Decades – Purvarchika",
-        "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-3",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-3"
-      },
-      "chapter": {
-        "key": "hymn-3",
-        "label": "Hymn 3",
-        "path": "/vedas/samaveda/hymn-3",
-        "slug": "samaveda"
-      },
-      "introduction": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
-      "item": {
-        "number": 3,
-        "path": "/vedas/samaveda/hymn-3",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Soma Decades – Purvarchika",
-        "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-3"
-      },
-      "philosophical_explanation": "Soma represents divine inspiration and spiritual ecstasy. The musical worship of Soma through Samagana was believed to generate the highest forms of spiritual experience accessible through ritual practice.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 3, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn4": {
-    "samaveda_hymn4": {
-      "title": "Uttararchika – Ritual Songs",
-      "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
-      "meta": {
-        "title": "Uttararchika – Ritual Songs",
-        "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-4",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-4"
-      },
-      "chapter": {
-        "key": "hymn-4",
-        "label": "Hymn 4",
-        "path": "/vedas/samaveda/hymn-4",
-        "slug": "samaveda"
-      },
-      "introduction": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
-      "item": {
-        "number": 4,
-        "path": "/vedas/samaveda/hymn-4",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Uttararchika – Ritual Songs",
-        "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-4"
-      },
-      "philosophical_explanation": "The liturgical organization reflects the understanding that music and ritual together create a comprehensive spiritual practice that engages all aspects of human experience.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 4, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn5": {
-    "samaveda_hymn5": {
-      "title": "Gramageya Gana – Public Songs",
-      "description": "The Gramageya Gana contains Samans intended for performance in village gatherings and public ceremonies.",
-      "meta": {
-        "title": "Gramageya Gana – Public Songs",
-        "description": "The Gramageya Gana contains Samans intended for performance in village gatherings and public ceremonies.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-5",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-5"
-      },
-      "chapter": {
-        "key": "hymn-5",
-        "label": "Hymn 5",
-        "path": "/vedas/samaveda/hymn-5",
-        "slug": "samaveda"
-      },
-      "introduction": "The Gramageya Gana contains Samans intended for performance in village gatherings and public ceremonies.",
-      "item": {
-        "number": 5,
-        "path": "/vedas/samaveda/hymn-5",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Gramageya Gana – Public Songs",
-        "description": "The Gramageya Gana contains Samans intended for performance in village gatherings and public ceremonies.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-5"
-      },
-      "philosophical_explanation": "The public songs demonstrate that sacred music has the power to unite communities and create shared spiritual experiences that strengthen social bonds and collective devotion.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 5, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn6": {
-    "samaveda_hymn6": {
-      "title": "Aranyaka Gana – Forest Songs",
-      "description": "The Aranyaka Gana contains contemplative chants meant for solitary practice in forest hermitages away from populated areas.",
-      "meta": {
-        "title": "Aranyaka Gana – Forest Songs",
-        "description": "The Aranyaka Gana contains contemplative chants meant for solitary practice in forest hermitages away from populated areas.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-6",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-6"
-      },
-      "chapter": {
-        "key": "hymn-6",
-        "label": "Hymn 6",
-        "path": "/vedas/samaveda/hymn-6",
-        "slug": "samaveda"
-      },
-      "introduction": "The Aranyaka Gana contains contemplative chants meant for solitary practice in forest hermitages away from populated areas.",
-      "item": {
-        "number": 6,
-        "path": "/vedas/samaveda/hymn-6",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Aranyaka Gana – Forest Songs",
-        "description": "The Aranyaka Gana contains contemplative chants meant for solitary practice in forest hermitages away from populated areas.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-6"
-      },
-      "philosophical_explanation": "The forest songs represent the internalization of musical worship, where the outer performance gives way to inner meditative experience and the practitioner seeks direct communion with the divine through sound.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 6, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn7": {
-    "samaveda_hymn7": {
-      "title": "The Jaiminiya Samhita",
-      "description": "The Jaiminiya or Talavakara Samhita is an important recension of the Samaveda preserved by the school of the sage Jaimini.",
-      "meta": {
-        "title": "The Jaiminiya Samhita",
-        "description": "The Jaiminiya or Talavakara Samhita is an important recension of the Samaveda preserved by the school of the sage Jaimini.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-7",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-7"
-      },
-      "chapter": {
-        "key": "hymn-7",
-        "label": "Hymn 7",
-        "path": "/vedas/samaveda/hymn-7",
-        "slug": "samaveda"
-      },
-      "introduction": "The Jaiminiya or Talavakara Samhita is an important recension of the Samaveda preserved by the school of the sage Jaimini.",
-      "item": {
-        "number": 7,
-        "path": "/vedas/samaveda/hymn-7",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "The Jaiminiya Samhita",
-        "description": "The Jaiminiya or Talavakara Samhita is an important recension of the Samaveda preserved by the school of the sage Jaimini.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-7"
-      },
-      "philosophical_explanation": "The diversity of Samavedic recensions reflects the rich multiplicity of Vedic musical traditions and the recognition that divine truth can be expressed through many different melodic forms.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 7, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn8": {
-    "samaveda_hymn8": {
-      "title": "The Kena Upanishad",
-      "description": "The Kena Upanishad is an important philosophical text associated with the Samaveda. Its name comes from its opening word 'Kena' meaning 'by whom'.",
-      "meta": {
-        "title": "The Kena Upanishad",
-        "description": "The Kena Upanishad is an important philosophical text associated with the Samaveda. Its name comes from its opening word 'Kena' meaning 'by whom'.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-8",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-8"
-      },
-      "chapter": {
-        "key": "hymn-8",
-        "label": "Hymn 8",
-        "path": "/vedas/samaveda/hymn-8",
-        "slug": "samaveda"
-      },
-      "introduction": "The Kena Upanishad is an important philosophical text associated with the Samaveda. Its name comes from its opening word 'Kena' meaning 'by whom'.",
-      "item": {
-        "number": 8,
-        "path": "/vedas/samaveda/hymn-8",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "The Kena Upanishad",
-        "description": "The Kena Upanishad is an important philosophical text associated with the Samaveda. Its name comes from its opening word 'Kena' meaning 'by whom'.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-8"
-      },
-      "philosophical_explanation": "The Kena Upanishad teaches that the ultimate reality cannot be fully grasped by the mind or described by words, yet it is the very power that enables thinking, seeing and knowing. True wisdom lies in recognizing this mysterious foundation of all experience.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 8, expressing melodic devotion, sacred recitation, and meditative harmony."
-    }
-  },
-  "hymn9": {
-    "samaveda_hymn9": {
-      "title": "Meditation on Om",
-      "description": "The Samaveda tradition places special emphasis on the meditation upon the sacred syllable Om as the Udgitha or supreme chant.",
-      "meta": {
-        "title": "Meditation on Om",
-        "description": "The Samaveda tradition places special emphasis on the meditation upon the sacred syllable Om as the Udgitha or supreme chant.",
-        "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-9",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-9"
-      },
-      "chapter": {
-        "key": "hymn-9",
-        "label": "Hymn 9",
-        "path": "/vedas/samaveda/hymn-9",
-        "slug": "samaveda"
-      },
-      "introduction": "The Samaveda tradition places special emphasis on the meditation upon the sacred syllable Om as the Udgitha or supreme chant.",
-      "item": {
-        "number": 9,
-        "path": "/vedas/samaveda/hymn-9",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Meditation on Om",
-        "description": "The Samaveda tradition places special emphasis on the meditation upon the sacred syllable Om as the Udgitha or supreme chant.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-9"
-      },
-      "philosophical_explanation": "Om represents the convergence of music, language and spiritual truth. Through devoted meditation on this sacred sound, the practitioner can transcend the limitations of ordinary consciousness and realize the unity of the individual self with the universal reality.",
-      "scripture_text": "A representative Samavedic hymn passage for Hymn 9, expressing melodic devotion, sacred recitation, and meditative harmony."
+      {
+        "id": 10,
+        "slug": "chapter10",
+        "title": "Spiritual Realization",
+        "theme": "Moksha",
+        "description": "Liberation through chanting and realization.",
+        "href": "/vedas/samaveda/chapter10"
+      }
+    ],
+    "navigation": {
+      "prev": null,
+      "next": "/vedas/rigveda",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "Vedas",
+          "href": "/vedas"
+        },
+        {
+          "name": "Samaveda",
+          "href": "/vedas/samaveda"
+        }
+      ]
+    },
+    "crossLinks": {
+      "relatedVedas": [
+        {
+          "name": "Rigveda",
+          "href": "/vedas/rigveda"
+        },
+        {
+          "name": "Yajurveda",
+          "href": "/vedas/yajurveda"
+        },
+        {
+          "name": "Atharvaveda",
+          "href": "/vedas/atharvaveda"
+        }
+      ],
+      "relatedConcepts": [
+        "Sama Chanting",
+        "Yajna",
+        "Svara",
+        "Moksha"
+      ]
     }
   }
 }

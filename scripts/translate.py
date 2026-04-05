@@ -72,7 +72,7 @@ def translate_json_values(data, target_lang, progress_callback=None, total=1, co
     """Recursively translates values in a dictionary or list."""
     if counter is None:
         counter = {"done": 0}
-    skip_keys = {"url", "link", "links", "@context", "logo", "canonical", "src", "href", "ogimage", "email", "action"}
+    skip_keys = {"url", "link", "links", "@context", "logo", "canonical", "src", "href", "ogimage", "email", "action", "sanskrit", "sloka", "shloka", "verse", "mantra", "transliteration"}
     def is_skip_key(key):
         key_lower = key.lower()
         if key_lower in skip_keys:
@@ -117,7 +117,7 @@ def count_strings(data):
 
 
 def _is_skip_key(key):
-    skip_keys = {"url", "link", "links", "@context", "logo", "canonical", "src", "href", "ogimage", "email", "action"}
+    skip_keys = {"url", "link", "links", "@context", "logo", "canonical", "src", "href", "ogimage", "email", "action", "sanskrit", "sloka", "shloka", "verse", "mantra", "transliteration"}
     key_lower = key.lower()
     if key_lower in skip_keys:
         return True

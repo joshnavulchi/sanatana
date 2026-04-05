@@ -33,10 +33,10 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] drop-shadow-lg mt-6 mb-3 animate-gradient-x">{children}</h2>;
+    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text drop-shadow-lg mt-6 mb-3">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
+    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 px-3 py-2">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -101,14 +101,13 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return (
       <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
-        <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((item: any, idx: number) => {
             // Determine numeric index and logical type for this item (chapter/book/mandala/number)
             const num = item.chapter ?? item.book ?? item.mandala ?? item.number ?? (idx + 1);
             // Friendly display title per veda
             const vedaKey = vedas && vedas[0] ? vedas[0] : 'rigveda';
-            console.log('Item:', num, vedaKey);
-            const displayLabel = (vedaKey === 'rigveda') ? 'Mandala' : (vedaKey === 'yajurveda' ? 'Chapter' : (vedaKey === 'atharvaveda' ? 'Book' : 'Item'));
+            const displayLabel = (vedaKey === 'rigveda') ? 'Mandala' : (vedaKey === 'yajurveda' ? 'Chapter' : (vedaKey === 'atharvaveda' ? 'Book' : (vedaKey === 'samaveda' ? 'Hymn' : 'Item')));
             const displayTitle = item.title || (num ? `${displayLabel} ${num}` : `Item ${idx + 1}`);
 
             function normalizeSlugFromPath(p: string | undefined, num: number | undefined, veda?: string) {
@@ -146,7 +145,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
                 if (k === 'rigveda') return `madala${num}`;
                 if (k === 'yajurveda') return `chapter${num}`;
                 if (k === 'atharvaveda') return `book${num}`;
-                if (k === 'samaveda') return `section${num}`;
+                if (k === 'samaveda') return `hymn${num}`;
                 return `item${num}`;
               }
               return null;
@@ -156,8 +155,8 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
             const href = slug ? `/vedas/${vedaKey}/${slug}` : (item.path || '#');
 
             return (
-              <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
-                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
+              <div key={idx} className="shadow-sm">
+                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
                   ) : displayTitle}
@@ -172,6 +171,59 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
         </div>
       </section>
     );
+  }
+
+  function getSamavedaSections(source: any) {
+    if (!source || typeof source !== 'object') return [];
+    if (Array.isArray(source.chapters)) {
+      return source.chapters
+        .filter((item: any) => item && typeof item === 'object')
+        .map((item: any) => ({
+          ...item,
+          title: item.title || item.chapter?.label || item.slug || `Hymn ${item.id ?? ''}`,
+          path: item.href || item.path || item.chapter?.path,
+        }))
+        .filter((item: any) => item.path);
+    }
+    return Object.entries(source)
+      .flatMap(([key, value]) => {
+        if (!value || typeof value !== 'object') return [];
+        const entry = Object.values(value).find((v) => v && typeof v === 'object' && ('path' in v || 'title' in v)) as any || value;
+        const prefix = entry?.item?.prefix ? `${entry.item.prefix.charAt(0).toUpperCase()}${entry.item.prefix.slice(1)}` : 'Hymn';
+        const title = entry.title || entry.chapter?.label || `${prefix} ${entry.item?.number ?? key}`;
+        const path = entry.path || entry.chapter?.path || entry.item?.path;
+        return path ? [{ ...entry, title, path }] : [];
+      });
+  }
+
+  function getPageMeta(source: any) {
+    if (!source || typeof source !== 'object') return {};
+    const title = source?.title;
+    const description = source?.description;
+    const meta = source?.meta;
+    if ((meta && (meta.title || meta.description)) || title || description) {
+      return { title: meta?.title ?? title, description: meta?.description ?? description };
+    }
+
+    // Samaveda-style root object with grouped hymn entries
+    const childEntries = Object.values(source).filter((v): v is Record<string, any> => v !== null && typeof v === 'object');
+    for (const entry of childEntries) {
+      const maybeMeta = entry.meta || entry.samaveda_hymn1?.meta || entry.chapter?.meta;
+      const titleFallback = entry.title || entry.name || entry.label;
+      if (maybeMeta && (maybeMeta.title || maybeMeta.description)) {
+        return { title: maybeMeta.title ?? titleFallback, description: maybeMeta.description ?? entry.description ?? titleFallback };
+      }
+      if (titleFallback || entry.description) {
+        return { title: titleFallback, description: entry.description };
+      }
+    }
+
+    return {};
+  }
+
+  function normalizeMetaKey(rawKey: unknown, fallback: string) {
+    if (typeof rawKey === 'string' && rawKey.includes('/')) return rawKey;
+    return fallback;
   }
 
   useEffect(() => {
@@ -208,8 +260,9 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return () => { cancelled = true; };
   }, [initialData, initialLocale, ctxLocale, locale, vedas]);
 
-  const title = String(data?.meta?.title ?? data?.title ?? vedas.join(' / ') ?? 'Vedas');
-  const description = String(data?.meta?.description ?? data?.description ?? '');
+  const pageMeta = getPageMeta(data);
+  const title = String(pageMeta.title ?? data?.meta?.title ?? data?.title ?? vedas.join(' / ') ?? 'Vedas');
+  const description = String(pageMeta.description ?? data?.meta?.description ?? data?.description ?? '');
 
   const breadcrumbs = [
     { labelKey: 'Home', href: '/' },
@@ -217,7 +270,9 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   ];
   if (vedas && vedas.length > 0) breadcrumbs.push({ label: vedas[0], href: `/vedas/${vedas[0]}` });
 
-  const metaKey = (data?.meta?.key && String(data.meta.key)) || `vedas/${vedas.join('/')}/index`;
+  const metaKey = normalizeMetaKey(data?.meta?.key, `vedas/${vedas.join('/')}/index`);
+  const samavedaSections = vedas && vedas[0] === 'samaveda' ? (data?.samaveda_sections ?? getSamavedaSections(data)) : [];
+  const yajurvedaChapters = vedas && vedas[0] === 'yajurveda' ? (data?.chapters ?? data?.yajurveda_chapters ?? []) : [];
 
   if (loading) {
     return (
@@ -323,10 +378,10 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       <ArrayBlock title="Mandalas" items={data.mandalas} />
 
       {/* Yajurveda Chapters */}
-      <ArrayBlock title="Chapters" items={data.yajurveda_chapters} />
+      <ArrayBlock title="Chapters" items={yajurvedaChapters} />
 
       {/* Samaveda Sections */}
-      <ArrayBlock title="Sections" items={data.samaveda_sections} />
+      <ArrayBlock title={vedas && vedas[0] === 'samaveda' ? 'Hymns' : 'Sections'} items={samavedaSections} />
 
       {/* Atharvaveda Books */}
       <ArrayBlock title="Books" items={data.atharvaveda_books} />
@@ -367,7 +422,6 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
           </div>
         </section>
       )}
-
     </PageLayout>
   );
 }

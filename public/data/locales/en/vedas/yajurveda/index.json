@@ -21,6 +21,89 @@
       "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas/yajurveda"
     },
+    "openGraph": {
+      "title": "What is Yajurveda? Vedic Rituals and Sacred Formulas Explained",
+      "description": "Discover the Yajurveda, the Veda of rituals and sacrificial formulas, including Shukla and Krishna Yajurveda traditions.",
+      "images": [
+        {
+          "alt": "Yajurveda - Vedic Rituals and Sacred Ceremonies",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/images/og/yajurveda.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "description": "Comprehensive explanation of the Yajurveda, including its rituals, mantras, and branches like Shukla and Krishna Yajurveda.",
+          "@type": "Article",
+          "about": {
+            "description": "The second Veda focusing on ritual formulas (yajus) used in Vedic sacrificial ceremonies.",
+            "@type": "CreativeWork",
+            "name": "Yajurveda"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "dateModified": "2026-01-01",
+          "datePublished": "2024-01-01",
+          "headline": "What is Yajurveda? Meaning and Structure",
+          "inLanguage": "en",
+          "mainEntityOfPage": {
+            "@id": "https://sanatanadharmam.in/vedas/yajurveda",
+            "@type": "WebPage"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            },
+            "name": "Sanatanadharmam"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Yajurveda",
+          "url": "https://sanatanadharmam.in/vedas/yajurveda"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in/vedas",
+              "name": "Vedas",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://sanatanadharmam.in/vedas/yajurveda",
+              "name": "Yajurveda",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in"
+        }
+      ]
+    },
     "chapters": [
       {
         "title": "Vajasaneyi Samhita â€“ Books 1 to 10",
@@ -1106,21 +1189,6 @@
         "role": "Fierce deity associated with storms and healing"
       }
     ],
-    "openGraph": {
-      "title": "What is Yajurveda? Vedic Rituals and Sacred Formulas Explained",
-      "description": "Discover the Yajurveda, the Veda of rituals and sacrificial formulas, including Shukla and Krishna Yajurveda traditions.",
-      "images": [
-        {
-          "alt": "Yajurveda - Vedic Rituals and Sacred Ceremonies",
-          "height": 630,
-          "url": "https://sanatanadharmam.in/images/og/yajurveda.png",
-          "width": 1200
-        }
-      ],
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "url": "https://sanatanadharmam.in/vedas/yajurveda"
-    },
     "philosophical_explanation": "The Yajurveda embodies a profound philosophical understanding of the relationship between action and knowledge, between the visible world of ritual and the invisible realm of cosmic truth. At its core, the Yajurveda teaches that every purposeful action when performed with awareness and dedication becomes a form of sacred offering. The concept of Yajna or sacrifice is not limited to ritualistic fire ceremonies but represents a universal principle of selfless giving, transformation and renewal. The philosophy of the Yajurveda recognizes that the universe itself emerged through an act of primordial sacrifice. The famous Purusha Sukta describes how the cosmic being offered itself to create the world. Human beings, as participants in this cosmic process, maintain their connection to the divine order by performing their own acts of sacrifice and service. The Yajurveda also introduces the important concept of Karma Kanda, the path of ritualistic action as a means of spiritual purification and growth. Through the disciplined performance of prescribed duties, individuals can gradually refine their understanding and prepare themselves for higher spiritual knowledge. This is not mere ritualism for its own sake. The Yajurvedic tradition recognizes that external rituals are ultimately meant to internalize spiritual truths. The journey from external sacrifice to internal contemplation is seen as a natural progression, which is why the Yajurveda's associated texts culminate in the profound philosophical teachings of the Upanishads. The Isha Upanishad, which forms the final chapter of the Vajasaneyi Samhita, beautifully integrates the paths of action and knowledge by teaching that the divine pervades everything and that true wisdom lies in seeing unity in diversity.",
     "related_concepts": [
       "Vedas",
@@ -1223,74 +1291,6 @@
         "philosophical_explanation": "The Brihadaranyaka Upanishad represents the pinnacle of Yajurvedic philosophical thought, teaching that the individual self and the universal self are identical and that liberation comes through direct knowledge of this fundamental truth.",
         "scripture_text": "The text contains famous dialogues including the conversation between Yajnavalkya and Maitreyi on the nature of the self, and Yajnavalkya's teachings to King Janaka about Brahman. The great saying 'Aham Brahmasmi' or 'I am Brahman' originates from this Upanishad."
       }
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "description": "Comprehensive explanation of the Yajurveda, including its rituals, mantras, and branches like Shukla and Krishna Yajurveda.",
-          "@type": "Article",
-          "about": {
-            "description": "The second Veda focusing on ritual formulas (yajus) used in Vedic sacrificial ceremonies.",
-            "@type": "CreativeWork",
-            "name": "Yajurveda"
-          },
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "dateModified": "2026-01-01",
-          "datePublished": "2024-01-01",
-          "headline": "What is Yajurveda? Meaning and Structure",
-          "inLanguage": "en",
-          "mainEntityOfPage": {
-            "@id": "https://sanatanadharmam.in/vedas/yajurveda",
-            "@type": "WebPage"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://sanatanadharmam.in/images/logo.png"
-            },
-            "name": "Sanatanadharmam"
-          }
-        },
-        {
-          "@type": "WebPage",
-          "name": "Yajurveda",
-          "url": "https://sanatanadharmam.in/vedas/yajurveda"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "item": "https://sanatanadharmam.in",
-              "name": "Home",
-              "position": 1
-            },
-            {
-              "@type": "ListItem",
-              "item": "https://sanatanadharmam.in/vedas",
-              "name": "Vedas",
-              "position": 2
-            },
-            {
-              "@type": "ListItem",
-              "item": "https://sanatanadharmam.in/vedas/yajurveda",
-              "name": "Yajurveda",
-              "position": 3
-            }
-          ]
-        },
-        {
-          "@type": "Organization",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in"
-        }
-      ]
-    }
+    ]
   }
 }

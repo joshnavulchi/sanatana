@@ -219,7 +219,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-gradient-to-br from-indigo-200 via-pink-100 via-40% to-amber-100 overflow-hidden">
+      <footer className="gradient-background w-full relative overflow-hidden">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">

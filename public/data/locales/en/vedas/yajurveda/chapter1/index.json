@@ -1,398 +1,557 @@
 {
-  "mantra1": {
-    "yajurveda_chapter1_mantra1": {
-      "title": "Yajurveda Chapter 1 Mantra 1",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 1",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-1",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-1"
+  "chapter1": {
+    "id": "YV-CHAPTER-1",
+    "title": "Yajurveda Chapter 1 – Ritual Mantras, Meaning & Translation",
+    "description": "Explore Yajurveda Chapter 1 with sacred ritual mantras, Sanskrit text, meanings, and translations used in Vedic yajnas and ceremonies.",
+    "meta": {
+      "title": "Yajurveda Chapter 1 – Ritual Mantras, Meaning & Translation",
+      "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1",
+      "description": "Explore Yajurveda Chapter 1 with ritual mantras, Sanskrit text, meanings, and translations used in Vedic yajnas.",
+      "keywords": [
+        "yajurveda chapter 1",
+        "yajurveda mantras",
+        "vedic ritual mantras",
+        "yajurveda yajna chants",
+        "yajurveda meaning",
+        "yajurveda mantra explanation",
+        "vedic sacrifice mantras",
+        "sanatana dharma yajurveda",
+        "yajurveda chapter 1 summary",
+        "yajurveda rituals explanation"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1"
+    },
+    "openGraph": {
+      "title": "Yajurveda Chapter 1 – Ritual Mantras & Meaning",
+      "description": "Read Yajurveda Chapter 1 with sacred ritual mantras, Sanskrit text, and explanations used in Vedic yajnas.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/yajurveda-chapter1.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Yajurveda Chapter 1 Ritual Mantras and Meaning"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Yajurveda Chapter 1 – Ritual Mantras and Meaning",
+          "description": "Detailed presentation of Yajurveda Chapter 1 including ritual mantras, Sanskrit text, translations, and explanations.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Yajurveda Chapter 1",
+            "description": "The first chapter of the Yajurveda focusing on ritual mantras and procedures used in Vedic sacrifices (yajnas)."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Yajurveda Chapter 1",
+          "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Yajurveda",
+              "item": "https://sanatanadharmam.in/vedas/yajurveda"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Chapter 1",
+              "item": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
+    },
+    "mantras": [
+      {
+        "id": "YV-1-1",
+        "mantra_number": 1,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-2",
+        "mantra_number": 2,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 1,
-        "path": "/vedas/yajurveda/chapter-1/mantra-1",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-3",
+        "mantra_number": 3,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 1",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-1"
+      {
+        "id": "YV-1-4",
+        "mantra_number": 4,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 1, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra10": {
-    "yajurveda_chapter1_mantra10": {
-      "title": "Yajurveda Chapter 1 Mantra 10",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 10",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-10",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-10"
+      {
+        "id": "YV-1-5",
+        "mantra_number": 5,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-6",
+        "mantra_number": 6,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 10,
-        "path": "/vedas/yajurveda/chapter-1/mantra-10",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-7",
+        "mantra_number": 7,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 10",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-10"
+      {
+        "id": "YV-1-8",
+        "mantra_number": 8,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 10, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra11": {
-    "yajurveda_chapter1_mantra11": {
-      "title": "Yajurveda Chapter 1 Mantra 11",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 11",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-11",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-11"
+      {
+        "id": "YV-1-9",
+        "mantra_number": 9,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-10",
+        "mantra_number": 10,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 11,
-        "path": "/vedas/yajurveda/chapter-1/mantra-11",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-11",
+        "mantra_number": 11,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 11",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-11"
+      {
+        "id": "YV-1-12",
+        "mantra_number": 12,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 11, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra12": {
-    "yajurveda_chapter1_mantra12": {
-      "title": "Yajurveda Chapter 1 Mantra 12",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 12",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-12",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-12"
+      {
+        "id": "YV-1-13",
+        "mantra_number": 13,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-14",
+        "mantra_number": 14,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 12,
-        "path": "/vedas/yajurveda/chapter-1/mantra-12",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-15",
+        "mantra_number": 15,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 12",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-12"
+      {
+        "id": "YV-1-16",
+        "mantra_number": 16,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 12, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra2": {
-    "yajurveda_chapter1_mantra2": {
-      "title": "Yajurveda Chapter 1 Mantra 2",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 2",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-2",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-2"
+      {
+        "id": "YV-1-17",
+        "mantra_number": 17,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-18",
+        "mantra_number": 18,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 2,
-        "path": "/vedas/yajurveda/chapter-1/mantra-2",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-19",
+        "mantra_number": 19,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 2",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-2"
+      {
+        "id": "YV-1-20",
+        "mantra_number": 20,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 2, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra3": {
-    "yajurveda_chapter1_mantra3": {
-      "title": "Yajurveda Chapter 1 Mantra 3",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 3",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-3",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-3"
+      {
+        "id": "YV-1-21",
+        "mantra_number": 21,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-22",
+        "mantra_number": 22,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 3,
-        "path": "/vedas/yajurveda/chapter-1/mantra-3",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-23",
+        "mantra_number": 23,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 3",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-3"
+      {
+        "id": "YV-1-24",
+        "mantra_number": 24,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 3, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra4": {
-    "yajurveda_chapter1_mantra4": {
-      "title": "Yajurveda Chapter 1 Mantra 4",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 4",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4"
+      {
+        "id": "YV-1-25",
+        "mantra_number": 25,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-26",
+        "mantra_number": 26,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 4,
-        "path": "/vedas/yajurveda/chapter-1/mantra-4",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-27",
+        "mantra_number": 27,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 4",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4"
+      {
+        "id": "YV-1-28",
+        "mantra_number": 28,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 4, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra5": {
-    "yajurveda_chapter1_mantra5": {
-      "title": "Yajurveda Chapter 1 Mantra 5",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 5",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-5",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-5"
+      {
+        "id": "YV-1-29",
+        "mantra_number": 29,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-30",
+        "mantra_number": 30,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 5,
-        "path": "/vedas/yajurveda/chapter-1/mantra-5",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-31",
+        "mantra_number": 31,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 5",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-5"
+      {
+        "id": "YV-1-32",
+        "mantra_number": 32,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 5, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra6": {
-    "yajurveda_chapter1_mantra6": {
-      "title": "Yajurveda Chapter 1 Mantra 6",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 6",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-6",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-6"
+      {
+        "id": "YV-1-33",
+        "mantra_number": 33,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-34",
+        "mantra_number": 34,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 6,
-        "path": "/vedas/yajurveda/chapter-1/mantra-6",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-35",
+        "mantra_number": 35,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 6",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-6"
+      {
+        "id": "YV-1-36",
+        "mantra_number": 36,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 6, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra7": {
-    "yajurveda_chapter1_mantra7": {
-      "title": "Yajurveda Chapter 1 Mantra 7",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 7",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-7",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-7"
+      {
+        "id": "YV-1-37",
+        "mantra_number": 37,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
+      {
+        "id": "YV-1-38",
+        "mantra_number": 38,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 7,
-        "path": "/vedas/yajurveda/chapter-1/mantra-7",
-        "prefix": "mantra"
+      {
+        "id": "YV-1-39",
+        "mantra_number": 39,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
       },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 7",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-7"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 7, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra8": {
-    "yajurveda_chapter1_mantra8": {
-      "title": "Yajurveda Chapter 1 Mantra 8",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 8",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-8",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-8"
-      },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 8,
-        "path": "/vedas/yajurveda/chapter-1/mantra-8",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 8",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-8"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 8, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra9": {
-    "yajurveda_chapter1_mantra9": {
-      "title": "Yajurveda Chapter 1 Mantra 9",
-      "description": "This mantra belongs to Yajurveda Chapter 1.",
-      "meta": {
-        "title": "Yajurveda Chapter 1 Mantra 9",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-9",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-9"
-      },
-      "chapter": {
-        "key": "chapter-1",
-        "label": "Chapter 1",
-        "path": "/vedas/yajurveda/chapter-1",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 1.",
-      "item": {
-        "number": 9,
-        "path": "/vedas/yajurveda/chapter-1/mantra-9",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 1 Mantra 9",
-        "description": "This mantra belongs to Yajurveda Chapter 1.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-9"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 1, Mantra 9, invoking sacred offering, disciplined action, and inner purification."
-    }
+      {
+        "id": "YV-1-40",
+        "mantra_number": 40,
+        "sanskrit": "ॐ अग्नये स्वाहा",
+        "transliteration": "om agnaye svāhā",
+        "meaning": {
+          "literal": "Oblation to Agni.",
+          "interpretive": "Offering to divine fire.",
+          "applied": "Ritual invocation."
+        }
+      }
+    ]
   }
 }
