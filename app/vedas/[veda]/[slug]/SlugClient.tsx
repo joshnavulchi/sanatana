@@ -151,6 +151,16 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     return null;
   }
 
+  function unwrapSlugData(source: any) {
+    let result = source;
+    while (result && typeof result === 'object' && !result.meta && !result.title && !result.description) {
+      const entries = Object.entries(result || {}).filter(([_k, v]) => v && typeof v === 'object' && !Array.isArray(v));
+      if (entries.length !== 1) break;
+      result = entries[0][1];
+    }
+    return result;
+  }
+
   useEffect(() => {
     const shouldLoad = !initialData || locale !== initialLocale;
     if (!shouldLoad) return;
@@ -176,13 +186,7 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     return () => { cancelled = true; };
   }, [initialData, initialLocale, ctxLocale, locale, veda, slug]);
 
-  let mainData: any = data;
-  if (data && !data.meta && !data.title) {
-    const entries = Object.entries(data || {});
-    if (entries.length === 1 && typeof entries[0][1] === 'object') {
-      mainData = entries[0][1];
-    }
-  }
+  let mainData: any = unwrapSlugData(data);
 
   const title = String(mainData?.meta?.title ?? mainData?.title ?? slug ?? `${veda}`);
   const description = String(mainData?.meta?.description ?? mainData?.description ?? '');

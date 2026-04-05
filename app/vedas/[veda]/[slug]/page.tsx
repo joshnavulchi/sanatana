@@ -60,13 +60,16 @@ export async function generateMetadata({ params, searchParams }: { params?: { ve
     const locale = DEFAULT_LOCALE;
     const fetched = await fetchContentByRoute(locale, ['vedas', v, s]);
     const data = fetched && fetched.data ? (fetched.data as any) : null;
-    let pageData: any = data;
-    if (pageData && !pageData.meta && !pageData.title) {
-      const entries = Object.entries(pageData || {});
-      if (entries.length === 1 && typeof entries[0][1] === 'object') {
-        pageData = entries[0][1];
+    function unwrapPageData(source: any) {
+      let result = source;
+      while (result && typeof result === 'object' && !result.meta && !result.title && !result.description) {
+        const entries = Object.entries(result || {}).filter(([_k, v]) => v && typeof v === 'object' && !Array.isArray(v));
+        if (entries.length !== 1) break;
+        result = entries[0][1];
       }
+      return result;
     }
+    const pageData = unwrapPageData(data);
     const metaKey = pageData?.meta?.key ? String(pageData.meta.key) : fallbackKey;
     return await createGenerateMetadata(metaKey)({ searchParams });
   }
@@ -87,6 +90,17 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
   const fetched = await fetchContentByRoute(locale, ['vedas', veda, slug]);
   const data = fetched && fetched.data ? (fetched.data as any) : null;
   if (!data) return notFound();
+  function unwrapPageData(source: any) {
+    let result = source;
+    while (result && typeof result === 'object' && !result.meta && !result.title && !result.description) {
+      const entries = Object.entries(result || {}).filter(([_k, v]) => v && typeof v === 'object' && !Array.isArray(v));
+      if (entries.length !== 1) break;
+      result = entries[0][1];
+    }
+    return result;
+  }
+  const pageData = unwrapPageData(data);
+  if (!pageData) return notFound();
 
   // attempt to fetch parent index to collect siblings (if parent exposes children)
   const parent = await fetchContentByRoute(locale, ['vedas', veda]);
