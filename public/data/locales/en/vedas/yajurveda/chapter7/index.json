@@ -1,398 +1,451 @@
 {
-  "mantra1": {
-    "yajurveda_chapter7_mantra1": {
-      "title": "Yajurveda Chapter 7 Mantra 1",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 1",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-1",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-1"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 1,
-        "path": "/vedas/yajurveda/chapter-7/mantra-1",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 1",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-1"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 1, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra10": {
-    "yajurveda_chapter7_mantra10": {
-      "title": "Yajurveda Chapter 7 Mantra 10",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 10",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-10",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-10"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 10,
-        "path": "/vedas/yajurveda/chapter-7/mantra-10",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 10",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-10"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 10, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra11": {
-    "yajurveda_chapter7_mantra11": {
-      "title": "Yajurveda Chapter 7 Mantra 11",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 11",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-11",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-11"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 11,
-        "path": "/vedas/yajurveda/chapter-7/mantra-11",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 11",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-11"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 11, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra12": {
-    "yajurveda_chapter7_mantra12": {
-      "title": "Yajurveda Chapter 7 Mantra 12",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 12",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-12",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-12"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 12,
-        "path": "/vedas/yajurveda/chapter-7/mantra-12",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 12",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-12"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 12, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra2": {
-    "yajurveda_chapter7_mantra2": {
-      "title": "Yajurveda Chapter 7 Mantra 2",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 2",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-2",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-2"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 2,
-        "path": "/vedas/yajurveda/chapter-7/mantra-2",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 2",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-2"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 2, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra3": {
-    "yajurveda_chapter7_mantra3": {
-      "title": "Yajurveda Chapter 7 Mantra 3",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 3",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-3",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-3"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 3,
-        "path": "/vedas/yajurveda/chapter-7/mantra-3",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 3",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-3"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 3, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra4": {
-    "yajurveda_chapter7_mantra4": {
-      "title": "Yajurveda Chapter 7 Mantra 4",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 4",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-4",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-4"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 4,
-        "path": "/vedas/yajurveda/chapter-7/mantra-4",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 4",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-4"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 4, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra5": {
-    "yajurveda_chapter7_mantra5": {
-      "title": "Yajurveda Chapter 7 Mantra 5",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 5",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-5",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-5"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 5,
-        "path": "/vedas/yajurveda/chapter-7/mantra-5",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 5",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-5"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 5, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra6": {
-    "yajurveda_chapter7_mantra6": {
-      "title": "Yajurveda Chapter 7 Mantra 6",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 6",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-6",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-6"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 6,
-        "path": "/vedas/yajurveda/chapter-7/mantra-6",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 6",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-6"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 6, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra7": {
-    "yajurveda_chapter7_mantra7": {
-      "title": "Yajurveda Chapter 7 Mantra 7",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 7",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-7",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-7"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 7,
-        "path": "/vedas/yajurveda/chapter-7/mantra-7",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 7",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-7"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 7, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra8": {
-    "yajurveda_chapter7_mantra8": {
-      "title": "Yajurveda Chapter 7 Mantra 8",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 8",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-8",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-8"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 8,
-        "path": "/vedas/yajurveda/chapter-7/mantra-8",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 8",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-8"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 8, invoking sacred offering, disciplined action, and inner purification."
-    }
-  },
-  "mantra9": {
-    "yajurveda_chapter7_mantra9": {
-      "title": "Yajurveda Chapter 7 Mantra 9",
-      "description": "This mantra belongs to Yajurveda Chapter 7.",
-      "meta": {
-        "title": "Yajurveda Chapter 7 Mantra 9",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-9",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-9"
-      },
-      "chapter": {
-        "key": "chapter-7",
-        "label": "Chapter 7",
-        "path": "/vedas/yajurveda/chapter-7",
-        "slug": "yajurveda"
-      },
-      "introduction": "This mantra belongs to Yajurveda Chapter 7.",
-      "item": {
-        "number": 9,
-        "path": "/vedas/yajurveda/chapter-7/mantra-9",
-        "prefix": "mantra"
-      },
-      "openGraph": {
-        "title": "Yajurveda Chapter 7 Mantra 9",
-        "description": "This mantra belongs to Yajurveda Chapter 7.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-7/mantra-9"
-      },
-      "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention.",
-      "scripture_text": "A representative Yajurvedic mantra passage for Chapter 7, Mantra 9, invoking sacred offering, disciplined action, and inner purification."
+  "yajurveda": {
+    "chapter": {
+      "id": "YV-CHAPTER-7",
+      "chapter_number": 7,
+      "note": "Structured dataset scaffold",
+      "mantras": [
+        {
+          "id": "YV-7-1",
+          "mantra_number": 1,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-2",
+          "mantra_number": 2,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-3",
+          "mantra_number": 3,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-4",
+          "mantra_number": 4,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-5",
+          "mantra_number": 5,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-6",
+          "mantra_number": 6,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-7",
+          "mantra_number": 7,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-8",
+          "mantra_number": 8,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-9",
+          "mantra_number": 9,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-10",
+          "mantra_number": 10,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-11",
+          "mantra_number": 11,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-12",
+          "mantra_number": 12,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-13",
+          "mantra_number": 13,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-14",
+          "mantra_number": 14,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-15",
+          "mantra_number": 15,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-16",
+          "mantra_number": 16,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-17",
+          "mantra_number": 17,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-18",
+          "mantra_number": 18,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-19",
+          "mantra_number": 19,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-20",
+          "mantra_number": 20,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-21",
+          "mantra_number": 21,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-22",
+          "mantra_number": 22,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-23",
+          "mantra_number": 23,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-24",
+          "mantra_number": 24,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-25",
+          "mantra_number": 25,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-26",
+          "mantra_number": 26,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-27",
+          "mantra_number": 27,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-28",
+          "mantra_number": 28,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-29",
+          "mantra_number": 29,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-30",
+          "mantra_number": 30,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-31",
+          "mantra_number": 31,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-32",
+          "mantra_number": 32,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-33",
+          "mantra_number": 33,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-34",
+          "mantra_number": 34,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-35",
+          "mantra_number": 35,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-36",
+          "mantra_number": 36,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-37",
+          "mantra_number": 37,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-38",
+          "mantra_number": 38,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-39",
+          "mantra_number": 39,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        },
+        {
+          "id": "YV-7-40",
+          "mantra_number": 40,
+          "sanskrit": "ॐ अग्नये स्वाहा",
+          "transliteration": "om agnaye svāhā",
+          "meaning": {
+            "literal": "Oblation to Agni.",
+            "interpretive": "Offering to divine fire.",
+            "applied": "Ritual invocation."
+          }
+        }
+      ]
     }
   }
 }
