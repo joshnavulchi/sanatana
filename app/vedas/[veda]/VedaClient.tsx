@@ -33,10 +33,10 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7c2d12] via-[#c2410c] to-[#f59e0b] drop-shadow-lg mt-6 mb-3 animate-gradient-x">{children}</h2>;
+    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text drop-shadow-lg mt-6 mb-3">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 bg-gradient-to-r from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{children}</p>;
+    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 px-3 py-2 shadow-sm">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -101,7 +101,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return (
       <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
-        <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((item: any, idx: number) => {
             // Determine numeric index and logical type for this item (chapter/book/mandala/number)
             const num = item.chapter ?? item.book ?? item.mandala ?? item.number ?? (idx + 1);
@@ -156,8 +156,8 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
             const href = slug ? `/vedas/${vedaKey}/${slug}` : (item.path || '#');
 
             return (
-              <div key={idx} className="rounded-2xl bg-gradient-to-br from-[#fffaf0] via-[#fde68a]/30 to-[#fbe8c8]/10 p-4 shadow-lg hover:scale-[1.02] transition-transform duration-300 animate-fadeInUp">
-                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm animate-gradient-x">
+              <div key={idx} className="shadow-sm">
+                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
                   ) : displayTitle}
@@ -367,7 +367,6 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
           </div>
         </section>
       )}
-
     </PageLayout>
   );
 }

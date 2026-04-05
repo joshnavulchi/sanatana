@@ -19,10 +19,11 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
   const locale = ctxLocale || initialLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-gray-900 dark:text-white mt-6 mb-4">{children}</h2>;
+    return <p className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900 m-3">{children}</p>;
   }
+
   function Paragraph({ children }: any) {
-    return <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 mb-5">{children}</p>;
+    return <p className="text-lg leading-relaxed text-red-600">{children}</p>;
   }
 
   function isVerseRecord(value: any): value is Record<string, any> {
@@ -33,31 +34,31 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 
   function renderVerse(verse: Record<string, any>) {
     return (
-      <div className="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white/95 dark:bg-gray-950/95 p-5 shadow-sm hover:shadow-xl transition-all duration-300">
+      <div className="bg-white/95 p-4">
         <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
           {verse.verse_number !== undefined && (
-            <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 dark:bg-indigo-900/20 dark:text-indigo-300 px-3 py-1 text-sm font-medium">
+            <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
               Verse {String(verse.verse_number)}
             </span>
           )}
-          {verse.title && <span className="text-sm uppercase tracking-[0.18em] text-gray-500 dark:text-gray-400">{verse.title}</span>}
+          {verse.title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
         </div>
         {verse.sanskrit && (
-          <p className="font-serif text-xl leading-relaxed text-gray-900 dark:text-gray-100 mb-3">{verse.sanskrit}</p>
+          <p className="text-xl leading-relaxed text-gray-900 mb-3">{verse.sanskrit}</p>
         )}
         {verse.transliteration && (
-          <p className="text-base text-gray-700 dark:text-gray-300 italic mb-4">{verse.transliteration}</p>
+          <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>
         )}
         {verse.meaning && (
           <div className="space-y-3 mb-4">
-            <div className="text-sm font-semibold uppercase tracking-[0.18em] text-gray-500 dark:text-gray-400">Meaning</div>
+            <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
             {typeof verse.meaning === 'string' ? (
-              <Paragraph>{verse.meaning}</Paragraph>
+              <Paragraph></Paragraph>
             ) : (
               Object.entries(verse.meaning).map(([k, v]) => (
-                <div key={k} className="rounded-2xl bg-gray-50 dark:bg-gray-900 p-3">
-                  <div className="text-sm font-semibold text-gray-700 dark:text-gray-200 mb-1">{k.replace(/[-_]/g, ' ')}</div>
-                  <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">{String(v)}</p>
+                <div key={k} className="rounded-xl bg-gray-50">
+                  <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
+                  <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
                 </div>
               ))
             )}
@@ -67,10 +68,10 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
           <div className="space-y-2 mb-3">
             {Object.entries(verse.entities).map(([key, value]) => (
               <div key={key}>
-                <div className="text-sm font-semibold text-gray-700 dark:text-gray-200">{key.replace(/[-_]/g, ' ')}</div>
-                <div className="mt-1 flex flex-wrap gap-2 text-sm text-gray-600 dark:text-gray-300">
+                <div className="text-lg sm:text-base font-semibold text-gray-700">{key.replace(/[-_]/g, ' ')}</div>
+                <div className="mt-1 flex flex-wrap gap-2 text-lg sm:text-base text-gray-600">
                   {Array.isArray(value) ? value.map((item: any, idx: number) => (
-                    <span key={idx} className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2.5 py-1">{String(item)}</span>
+                    <span key={idx} className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-1">{String(item)}</span>
                   )) : <span>{String(value)}</span>}
                 </div>
               </div>
@@ -84,16 +85,12 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
   function RenderValue({ value }: { value: any }) {
     if (value === null || value === undefined) return null;
 
-    if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
-      return <Paragraph>{String(value)}</Paragraph>;
-    }
-
     if (Array.isArray(value)) {
       if (value.every((v) => typeof v === 'string' || typeof v === 'number')) {
         return (
           <div className="flex flex-wrap gap-2">
             {value.map((v, i) => (
-              <span key={i} className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-sm">{String(v)}</span>
+              <span key={i} className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-lg sm:text-base">{String(v)}</span>
             ))}
           </div>
         );
@@ -112,8 +109,8 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
       return (
         <div className="space-y-3">
           {value.map((item, i) => (
-            <div key={i} className="p-4 rounded-3xl border border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-gray-950/90 shadow-sm hover:shadow-xl transition-all duration-300">
-              {typeof item === 'object' ? <RenderValue value={item} /> : <Paragraph>{String(item)}</Paragraph>}
+            <div key={i} className="p-4">
+              {typeof item === 'object' ? <RenderValue value={item} /> : <Paragraph></Paragraph>}
             </div>
           ))}
         </div>
@@ -140,14 +137,12 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
         <div className="mb-4">
           {Object.keys(headers).length > 0 && (
             <div className="mb-3">
-              {headers.hymn_number && <h3 className="text-sm font-medium text-indigo-700 mb-1">Hymn {headers.hymn_number}</h3>}
-              {headers.title && <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-1">{headers.title}</h4>}
-              {headers.section && <h5 className="text-sm text-gray-500 dark:text-gray-400">{headers.section}</h5>}
+              {headers.hymn_number && <h3 className="text-xl font-medium text-indigo-700 mb-1">Hymn {headers.hymn_number}</h3>}
+              {headers.section && <h5 className="text-lg sm:text-base text-gray-500">{headers.section}</h5>}
             </div>
           )}
           {Object.entries(rest).map(([k, v]) => (
             <div key={k} className="mt-4">
-              <strong className="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-2">{k.replace(/[-_]/g, ' ')}:</strong>
               <RenderValue value={v} />
             </div>
           ))}
@@ -212,7 +207,7 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 
   if (error || !data) return (
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
-      <div className="py-14 px-6 text-center rounded-3xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-600 dark:text-gray-300 shadow-sm">
+      <div className="py-14 px-6 text-center rounded-3xl bg-gray-50 border border-gray-200 text-gray-600 shadow-sm">
         {error || 'Content not available.'}
       </div>
     </PageLayout>
@@ -222,10 +217,10 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-10 py-6">
         <main className="lg:col-span-3 space-y-8">
-          {mainData.introduction && <Paragraph>{mainData.introduction}</Paragraph>}
+          {mainData.introduction && <Paragraph>Vijay : {mainData.introduction}</Paragraph>}
 
           {displayEntries.map(([k, v]) => (
-            <section key={k} className="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-gray-950/90 p-6 shadow-sm hover:shadow-xl transition-shadow duration-300">
+            <section key={k} className="border border-gray-200 bg-white/90 shadow-sm">
               <SectionTitle>{k.replace(/_/g, ' ')}</SectionTitle>
               <RenderValue value={v} />
             </section>
@@ -233,22 +228,22 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
         </main>
 
         <aside className="lg:col-span-1">
-          <div className="sticky top-24 bg-white/90 dark:bg-gray-950/90 backdrop-blur-xl border border-gray-200 dark:border-gray-800 rounded-3xl p-5 shadow-sm">
-            <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Contents</h4>
-            <ul className="space-y-3 text-sm text-gray-700 dark:text-gray-300">
+          <div className="sticky top-24 bg-white/90 backdrop-blur-xl border border-gray-200 rounded-3xl p-5 shadow-sm">
+            <h4 className="text-lg font-semibold text-gray-900 mb-4">Contents</h4>
+            <ul className="space-y-3 text-lg sm:text-base text-gray-700">
               {Array.isArray(siblings) && siblings.length > 0 ? (
                 siblings.map((s) => (
                   <li key={s}>
                     <Link
                       href={`/vedas/${veda}/${s}`}
-                      className={s === slug ? 'font-semibold text-indigo-700' : 'text-gray-700 dark:text-gray-300 hover:text-indigo-600 transition-colors duration-200'}
+                      className={s === slug ? 'font-semibold text-indigo-700' : 'text-gray-700 hover:text-indigo-600 transition-colors duration-200'}
                     >
                       {s.replace(/[-_]/g, ' ')}
                     </Link>
                   </li>
                 ))
               ) : (
-                <li className="text-gray-500 dark:text-gray-400">No other items</li>
+                <li className="text-gray-50">No other items</li>
               )}
             </ul>
           </div>
