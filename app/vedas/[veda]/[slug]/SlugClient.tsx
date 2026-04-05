@@ -161,6 +161,11 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     return result;
   }
 
+  function normalizeMetaKey(rawKey: unknown, fallback: string) {
+    if (typeof rawKey === 'string' && rawKey.includes('/')) return rawKey;
+    return fallback;
+  }
+
   useEffect(() => {
     const shouldLoad = !initialData || locale !== initialLocale;
     if (!shouldLoad) return;
@@ -190,7 +195,7 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 
   const title = String(mainData?.meta?.title ?? mainData?.title ?? slug ?? `${veda}`);
   const description = String(mainData?.meta?.description ?? mainData?.description ?? '');
-  const metaKey = (mainData?.meta?.key && String(mainData.meta.key)) || `vedas/${veda}/${slug}/index`;
+  const metaKey = normalizeMetaKey(mainData?.meta?.key, `vedas/${veda}/${slug}/index`);
 
   const breadcrumbs = [
     { labelKey: 'Home', href: '/' },
