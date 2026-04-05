@@ -1,552 +1,655 @@
 {
-  "atharvaveda": {
-    "book": {
-      "id": "AV-BOOK-7",
-      "book_number": 7,
-      "recension": "Shaunaka",
-      "note": "Structured dataset scaffold",
-      "hymns": [
+  "book7": {
+    "id": "AV-BOOK-7",
+    "title": "Atharvaveda Book 7 (Kanda 7) – Hymns, Meaning & Translation",
+    "description": "Explore Atharvaveda Book 7 (Kanda 7) with sacred hymns, meanings, and translations. Discover Vedic teachings on protection, spiritual practices, and inner harmony.",
+    "meta": {
+      "title": "Atharvaveda Book 7 (Kanda 7) – Hymns, Meaning & Translation",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-7",
+      "description": "Explore Atharvaveda Book 7 (Kanda 7) with sacred hymns, meanings, and translations. Discover Vedic teachings on protection, spiritual practices, and inner harmony.",
+      "keywords": [
+        "atharvaveda book 7",
+        "atharvaveda kanda 7",
+        "atharvaveda book 7 hymns",
+        "atharvaveda translation book 7",
+        "vedic protection hymns",
+        "atharvaveda mantra explanation",
+        "kanda 7 atharvaveda meaning",
+        "sanatana dharma scriptures atharvaveda"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-7"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 7 – Hymns, Meaning & Spiritual Insights",
+      "description": "Read Atharvaveda Book 7 (Kanda 7) with translations and explanations of hymns related to protection, spirituality, and inner balance.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-7",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
         {
-          "id": "AV-7-1",
-          "hymn_number": 1,
-          "title": "Hymn 1",
-          "verses": [
-            {
-              "id": "AV-7-1-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-2",
-          "hymn_number": 2,
-          "title": "Hymn 2",
-          "verses": [
-            {
-              "id": "AV-7-2-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-3",
-          "hymn_number": 3,
-          "title": "Hymn 3",
-          "verses": [
-            {
-              "id": "AV-7-3-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-4",
-          "hymn_number": 4,
-          "title": "Hymn 4",
-          "verses": [
-            {
-              "id": "AV-7-4-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-5",
-          "hymn_number": 5,
-          "title": "Hymn 5",
-          "verses": [
-            {
-              "id": "AV-7-5-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-6",
-          "hymn_number": 6,
-          "title": "Hymn 6",
-          "verses": [
-            {
-              "id": "AV-7-6-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-7",
-          "hymn_number": 7,
-          "title": "Hymn 7",
-          "verses": [
-            {
-              "id": "AV-7-7-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-8",
-          "hymn_number": 8,
-          "title": "Hymn 8",
-          "verses": [
-            {
-              "id": "AV-7-8-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-9",
-          "hymn_number": 9,
-          "title": "Hymn 9",
-          "verses": [
-            {
-              "id": "AV-7-9-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-10",
-          "hymn_number": 10,
-          "title": "Hymn 10",
-          "verses": [
-            {
-              "id": "AV-7-10-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-11",
-          "hymn_number": 11,
-          "title": "Hymn 11",
-          "verses": [
-            {
-              "id": "AV-7-11-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-12",
-          "hymn_number": 12,
-          "title": "Hymn 12",
-          "verses": [
-            {
-              "id": "AV-7-12-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-13",
-          "hymn_number": 13,
-          "title": "Hymn 13",
-          "verses": [
-            {
-              "id": "AV-7-13-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-14",
-          "hymn_number": 14,
-          "title": "Hymn 14",
-          "verses": [
-            {
-              "id": "AV-7-14-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-15",
-          "hymn_number": 15,
-          "title": "Hymn 15",
-          "verses": [
-            {
-              "id": "AV-7-15-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-16",
-          "hymn_number": 16,
-          "title": "Hymn 16",
-          "verses": [
-            {
-              "id": "AV-7-16-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-17",
-          "hymn_number": 17,
-          "title": "Hymn 17",
-          "verses": [
-            {
-              "id": "AV-7-17-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-18",
-          "hymn_number": 18,
-          "title": "Hymn 18",
-          "verses": [
-            {
-              "id": "AV-7-18-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-19",
-          "hymn_number": 19,
-          "title": "Hymn 19",
-          "verses": [
-            {
-              "id": "AV-7-19-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-20",
-          "hymn_number": 20,
-          "title": "Hymn 20",
-          "verses": [
-            {
-              "id": "AV-7-20-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-21",
-          "hymn_number": 21,
-          "title": "Hymn 21",
-          "verses": [
-            {
-              "id": "AV-7-21-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-22",
-          "hymn_number": 22,
-          "title": "Hymn 22",
-          "verses": [
-            {
-              "id": "AV-7-22-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-23",
-          "hymn_number": 23,
-          "title": "Hymn 23",
-          "verses": [
-            {
-              "id": "AV-7-23-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-24",
-          "hymn_number": 24,
-          "title": "Hymn 24",
-          "verses": [
-            {
-              "id": "AV-7-24-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-25",
-          "hymn_number": 25,
-          "title": "Hymn 25",
-          "verses": [
-            {
-              "id": "AV-7-25-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-26",
-          "hymn_number": 26,
-          "title": "Hymn 26",
-          "verses": [
-            {
-              "id": "AV-7-26-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-27",
-          "hymn_number": 27,
-          "title": "Hymn 27",
-          "verses": [
-            {
-              "id": "AV-7-27-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-28",
-          "hymn_number": 28,
-          "title": "Hymn 28",
-          "verses": [
-            {
-              "id": "AV-7-28-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-29",
-          "hymn_number": 29,
-          "title": "Hymn 29",
-          "verses": [
-            {
-              "id": "AV-7-29-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
-        },
-        {
-          "id": "AV-7-30",
-          "hymn_number": 30,
-          "title": "Hymn 30",
-          "verses": [
-            {
-              "id": "AV-7-30-1",
-              "verse_number": 1,
-              "sanskrit": "शं नो अस्तु",
-              "transliteration": "śaṃ no astu",
-              "meaning": {
-                "literal": "May there be peace for us.",
-                "interpretive": "Harmony invocation.",
-                "applied": "Well-being."
-              }
-            }
-          ]
+          "url": "https://sanatanadharmam.in/images/og/atharvaveda-book7.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Atharvaveda Book 7 Hymns and Meaning"
         }
       ]
-    }
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Atharvaveda Book 7 (Kanda 7) – Hymns and Meaning",
+          "description": "Detailed presentation of Atharvaveda Book 7 including original hymns, translations, and explanations.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/atharvaveda/book-7"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Atharvaveda Book 7",
+            "description": "The seventh book (Kanda 7) of the Atharvaveda containing hymns related to protection, spiritual practices, and inner harmony."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Atharvaveda Book 7",
+          "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-7"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atharvaveda",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Book 7",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda/book-7"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
+    },
+    "hymns": [
+      {
+        "id": "AV-7-1",
+        "hymn_number": 1,
+        "title": "Hymn 1",
+        "verses": [
+          {
+            "id": "AV-7-1-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-2",
+        "hymn_number": 2,
+        "title": "Hymn 2",
+        "verses": [
+          {
+            "id": "AV-7-2-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-3",
+        "hymn_number": 3,
+        "title": "Hymn 3",
+        "verses": [
+          {
+            "id": "AV-7-3-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-4",
+        "hymn_number": 4,
+        "title": "Hymn 4",
+        "verses": [
+          {
+            "id": "AV-7-4-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-5",
+        "hymn_number": 5,
+        "title": "Hymn 5",
+        "verses": [
+          {
+            "id": "AV-7-5-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-6",
+        "hymn_number": 6,
+        "title": "Hymn 6",
+        "verses": [
+          {
+            "id": "AV-7-6-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-7",
+        "hymn_number": 7,
+        "title": "Hymn 7",
+        "verses": [
+          {
+            "id": "AV-7-7-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-8",
+        "hymn_number": 8,
+        "title": "Hymn 8",
+        "verses": [
+          {
+            "id": "AV-7-8-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-9",
+        "hymn_number": 9,
+        "title": "Hymn 9",
+        "verses": [
+          {
+            "id": "AV-7-9-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-10",
+        "hymn_number": 10,
+        "title": "Hymn 10",
+        "verses": [
+          {
+            "id": "AV-7-10-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-11",
+        "hymn_number": 11,
+        "title": "Hymn 11",
+        "verses": [
+          {
+            "id": "AV-7-11-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-12",
+        "hymn_number": 12,
+        "title": "Hymn 12",
+        "verses": [
+          {
+            "id": "AV-7-12-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-13",
+        "hymn_number": 13,
+        "title": "Hymn 13",
+        "verses": [
+          {
+            "id": "AV-7-13-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-14",
+        "hymn_number": 14,
+        "title": "Hymn 14",
+        "verses": [
+          {
+            "id": "AV-7-14-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-15",
+        "hymn_number": 15,
+        "title": "Hymn 15",
+        "verses": [
+          {
+            "id": "AV-7-15-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-16",
+        "hymn_number": 16,
+        "title": "Hymn 16",
+        "verses": [
+          {
+            "id": "AV-7-16-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-17",
+        "hymn_number": 17,
+        "title": "Hymn 17",
+        "verses": [
+          {
+            "id": "AV-7-17-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-18",
+        "hymn_number": 18,
+        "title": "Hymn 18",
+        "verses": [
+          {
+            "id": "AV-7-18-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-19",
+        "hymn_number": 19,
+        "title": "Hymn 19",
+        "verses": [
+          {
+            "id": "AV-7-19-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-20",
+        "hymn_number": 20,
+        "title": "Hymn 20",
+        "verses": [
+          {
+            "id": "AV-7-20-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-21",
+        "hymn_number": 21,
+        "title": "Hymn 21",
+        "verses": [
+          {
+            "id": "AV-7-21-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-22",
+        "hymn_number": 22,
+        "title": "Hymn 22",
+        "verses": [
+          {
+            "id": "AV-7-22-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-23",
+        "hymn_number": 23,
+        "title": "Hymn 23",
+        "verses": [
+          {
+            "id": "AV-7-23-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-24",
+        "hymn_number": 24,
+        "title": "Hymn 24",
+        "verses": [
+          {
+            "id": "AV-7-24-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-25",
+        "hymn_number": 25,
+        "title": "Hymn 25",
+        "verses": [
+          {
+            "id": "AV-7-25-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-26",
+        "hymn_number": 26,
+        "title": "Hymn 26",
+        "verses": [
+          {
+            "id": "AV-7-26-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-27",
+        "hymn_number": 27,
+        "title": "Hymn 27",
+        "verses": [
+          {
+            "id": "AV-7-27-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-28",
+        "hymn_number": 28,
+        "title": "Hymn 28",
+        "verses": [
+          {
+            "id": "AV-7-28-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-29",
+        "hymn_number": 29,
+        "title": "Hymn 29",
+        "verses": [
+          {
+            "id": "AV-7-29-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      },
+      {
+        "id": "AV-7-30",
+        "hymn_number": 30,
+        "title": "Hymn 30",
+        "verses": [
+          {
+            "id": "AV-7-30-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      }
+    ]
   }
 }

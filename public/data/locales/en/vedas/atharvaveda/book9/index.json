@@ -1,6 +1,114 @@
 {
   "book9": {
     "id": "AV-BOOK-9",
+    "title": "Atharvaveda Book 9 (Kanda 9) – Hymns, Meaning & Translation",
+    "description": "Explore Atharvaveda Book 9 (Kanda 9) with sacred hymns, meanings, and translations. Discover Vedic insights on spiritual practices, protection, cosmic order, and philosophical understanding.",
+    "meta": {
+      "title": "Atharvaveda Book 9 (Kanda 9) – Hymns, Meaning & Translation",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-9",
+      "description": "Explore Atharvaveda Book 9 (Kanda 9) with sacred hymns, meanings, and translations. Discover Vedic insights on spiritual practices, protection, cosmic order, and philosophical understanding.",
+      "keywords": [
+        "atharvaveda book 9",
+        "atharvaveda kanda 9",
+        "atharvaveda book 9 hymns",
+        "atharvaveda translation book 9",
+        "vedic spiritual hymns",
+        "atharvaveda mantra explanation",
+        "kanda 9 atharvaveda meaning",
+        "sanatana dharma scriptures atharvaveda"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-9"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 9 – Hymns, Meaning & Spiritual Insights",
+      "description": "Read Atharvaveda Book 9 (Kanda 9) with translations and explanations of hymns related to spiritual practices, protection, and philosophical wisdom.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/atharvaveda-book9.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Atharvaveda Book 9 Hymns and Meaning"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Atharvaveda Book 9 (Kanda 9) – Hymns and Meaning",
+          "description": "Detailed presentation of Atharvaveda Book 9 including original hymns, translations, and explanations.",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sanatanadharmam.in/vedas/atharvaveda/book-9"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-01-01",
+          "inLanguage": "en",
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Atharvaveda Book 9",
+            "description": "The ninth book (Kanda 9) of the Atharvaveda containing hymns related to spiritual practices, protection, cosmic order, and philosophical insights."
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Atharvaveda Book 9",
+          "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-9"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sanatanadharmam.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Vedas",
+              "item": "https://sanatanadharmam.in/vedas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atharvaveda",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Book 9",
+              "item": "https://sanatanadharmam.in/vedas/atharvaveda/book-9"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png"
+        }
+      ]
+    },
     "hymns": [
       {
         "id": "AV-9-1",

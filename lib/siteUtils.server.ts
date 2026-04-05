@@ -1,20 +1,3 @@
-const EXCLUDE_KEYS = new Set(['meta', 'openGraph', 'schema']);
-
-function stripExcluded(obj: any) {
-  if (!obj || typeof obj !== 'object') return obj;
-  if (Array.isArray(obj)) return obj;
-  try {
-    const copy: Record<string, any> = {};
-    for (const k of Object.keys(obj)) {
-      if (EXCLUDE_KEYS.has(k)) continue;
-      copy[k] = obj[k];
-    }
-    return copy;
-  } catch (_) {
-    return obj;
-  }
-}
-
 function buildDiskPath(...segments: string[]) {
   const cwd = process.cwd().replace(/\\/g, '/').replace(/\/+$/, '');
   const normalized = segments.map((s) => String(s || '').replace(/^\/+|\/+$/g, '')).filter(Boolean);
@@ -25,7 +8,7 @@ async function readJsonFile(filePath: string) {
   try {
     const fs = await Promise.resolve().then(() => require('fs')) as typeof import('fs');
     const raw = fs.readFileSync(filePath, 'utf8');
-    return stripExcluded(JSON.parse(raw));
+    return JSON.parse(raw);
   } catch (_) {
     return null;
   }
