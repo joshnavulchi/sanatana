@@ -18,9 +18,6 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
   const { locale: ctxLocale } = useLocale();
   const locale = ctxLocale || initialLocale || DEFAULT_LOCALE;
 
-  function SectionTitle({ children }: any) {
-    return <p className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900 m-3">{children}</p>;
-  }
 
   function Paragraph({ children }: any) {
     return <p className="text-lg leading-relaxed text-red-600">{children}</p>;
@@ -28,7 +25,8 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
 
   function isVerseRecord(value: any): value is Record<string, any> {
     return value && typeof value === 'object' && (
-      'verse_number' in value || 'sanskrit' in value || 'transliteration' in value || 'meaning' in value
+      ('sanskrit' in value || 'transliteration' in value || 'meaning' in value) ||
+      ('verse_number' in value && (('sanskrit' in value) || ('transliteration' in value) || ('meaning' in value)))
     );
   }
 
@@ -53,7 +51,7 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
           <div className="space-y-3 mb-4">
             <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
             {typeof verse.meaning === 'string' ? (
-              <Paragraph></Paragraph>
+              <Paragraph>{verse.meaning}</Paragraph>
             ) : (
               Object.entries(verse.meaning).map(([k, v]) => (
                 <div key={k} className="rounded-xl bg-gray-50">
@@ -110,7 +108,7 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
         <div className="space-y-3">
           {value.map((item, i) => (
             <div key={i} className="p-4">
-              {typeof item === 'object' ? <RenderValue value={item} /> : <Paragraph></Paragraph>}
+              {typeof item === 'object' ? <RenderValue value={item} /> : <Paragraph>{String(item)}</Paragraph>}
             </div>
           ))}
         </div>
@@ -197,7 +195,16 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     { label: slug, href: `/vedas/${veda}/${slug}` },
   ];
 
-  const displayEntries = Object.entries(mainData || {}).filter(([k]) => !['meta', 'openGraph', 'schema', 'title', 'description', 'introduction'].includes(k));
+  const displayEntries = Object.entries(mainData || {}).filter(([k]) => !['meta', 'openGraph', 'schema', 'id', 'title', 'description'].includes(k));
+  const sidebarItems = Array.isArray(siblings) && siblings.length > 0
+    ? siblings.map((s) => ({ label: s.replace(/[-_]/g, ' '), href: `/vedas/${veda}/${s}`, active: s === slug }))
+    : Array.isArray(mainData?.hymns) && mainData.hymns.length > 0
+      ? mainData.hymns.map((item: any, idx: number) => ({
+        label: item.title || `Hymn ${item.hymn_number ?? idx + 1}`,
+        href: item.path ? String(item.path) : `/vedas/${veda}/${slug}#${item.hymn_number ?? idx + 1}`,
+        active: false,
+      }))
+      : [];
 
   if (loading) return (
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
@@ -217,33 +224,33 @@ export default function SlugClient({ initialData, initialLocale, veda, slug, sib
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-10 py-6">
         <main className="lg:col-span-3 space-y-8">
-          {mainData.introduction && <Paragraph>Vijay : {mainData.introduction}</Paragraph>}
-
-          {displayEntries.map(([k, v]) => (
-            <section key={k} className="border border-gray-200 bg-white/90 shadow-sm">
-              <SectionTitle>{k.replace(/_/g, ' ')}</SectionTitle>
-              <RenderValue value={v} />
-            </section>
-          ))}
+          {mainData.introduction && <Paragraph>{mainData.introduction}</Paragraph>}
+          {displayEntries.map(([k, v]) => {
+            return (
+              <section key={k} className="bg-white/90">
+                <RenderValue value={v} />
+              </section>
+            );
+          })}
         </main>
 
         <aside className="lg:col-span-1">
-          <div className="sticky top-24 bg-white/90 backdrop-blur-xl border border-gray-200 rounded-3xl p-5 shadow-sm">
-            <h4 className="text-lg font-semibold text-gray-900 mb-4">Contents</h4>
-            <ul className="space-y-3 text-lg sm:text-base text-gray-700">
-              {Array.isArray(siblings) && siblings.length > 0 ? (
-                siblings.map((s) => (
-                  <li key={s}>
+          <div className="bg-white/90 backdrop-blur-xl border border-gray-200 rounded-3xl p-5 shadow-sm">
+            <h4 className="text-lg sm:text-base font-semibold text-gray-900 mb-4">Contents</h4>
+            <ul className="space-y-3 text-gray-700">
+              {sidebarItems.length > 0 ? (
+                sidebarItems.map((item: any, index: number) => (
+                  <li key={index}>
                     <Link
-                      href={`/vedas/${veda}/${s}`}
-                      className={s === slug ? 'font-semibold text-indigo-700' : 'text-gray-700 hover:text-indigo-600 transition-colors duration-200'}
+                      href={item.href}
+                      className={`text-md ${item.active ? 'font-semibold text-indigo-700' : 'text-gray-700 hover:text-indigo-600 transition-colors duration-200'}`}
                     >
-                      {s.replace(/[-_]/g, ' ')}
+                      {item.label}
                     </Link>
                   </li>
                 ))
               ) : (
-                <li className="text-gray-50">No other items</li>
+                <li className="text-gray-500">No hymns available</li>
               )}
             </ul>
           </div>

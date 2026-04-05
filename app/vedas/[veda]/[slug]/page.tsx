@@ -50,13 +50,28 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params, searchParams }: { params?: { veda?: string; slug?: string } | Promise<any>; searchParams?: any }) {
-  // `params` may sometimes be a thenable or undefined depending on Next internals.
   const resolvedParams = await resolveParams(params);
 
   const v = resolvedParams?.veda;
   const s = resolvedParams?.slug;
-  const key = v && s ? `vedas/${v}/${s}/index` : (v ? `vedas/${v}/index` : 'vedas');
-  return await createGenerateMetadata(key)({ searchParams });
+  const fallbackKey = v && s ? `vedas/${v}/${s}/index` : (v ? `vedas/${v}/index` : 'vedas');
+
+  if (v && s) {
+    const locale = DEFAULT_LOCALE;
+    const fetched = await fetchContentByRoute(locale, ['vedas', v, s]);
+    const data = fetched && fetched.data ? (fetched.data as any) : null;
+    let pageData: any = data;
+    if (pageData && !pageData.meta && !pageData.title) {
+      const entries = Object.entries(pageData || {});
+      if (entries.length === 1 && typeof entries[0][1] === 'object') {
+        pageData = entries[0][1];
+      }
+    }
+    const metaKey = pageData?.meta?.key ? String(pageData.meta.key) : fallbackKey;
+    return await createGenerateMetadata(metaKey)({ searchParams });
+  }
+
+  return await createGenerateMetadata(fallbackKey)({ searchParams });
 }
 
 export default async function Page({ params }: { params: { veda?: string; slug?: string } | Promise<{ veda?: string; slug?: string }> }) {
