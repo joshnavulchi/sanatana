@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 7 focusing on the roles of Vedic priests, chanting duties, and their importance in yajnas and ritual ceremonies.",
     "meta": {
       "title": "Samaveda Chapter 7 – Priest Roles & Chanting Duties",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-7",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter7",
       "description": "Explore Samaveda Chapter 7 explaining Vedic priest roles, chanting responsibilities, and ritual functions in yajnas.",
       "keywords": [
         "samaveda chapter 7",
@@ -20,12 +20,12 @@
         "vedic chanting roles"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-7"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter7"
     },
     "openGraph": {
       "title": "Samaveda Chapter 7 – Priest Roles & Chanting Duties",
       "description": "Learn about the roles of Vedic priests in Samaveda chanting and ritual performance.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-7",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter7",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-7"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter7"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 7",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-7"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter7"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 7",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-7"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter7"
             }
           ]
         },

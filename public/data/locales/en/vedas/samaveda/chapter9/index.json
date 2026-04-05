@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 9 focusing on symbolic meanings of chants, spiritual interpretations, and philosophical insights behind Vedic music and rituals.",
     "meta": {
       "title": "Samaveda Chapter 9 – Symbolism & Spiritual Meaning",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-9",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter9",
       "description": "Explore Samaveda Chapter 9 explaining symbolism, deeper meanings, and philosophical insights behind Vedic chants.",
       "keywords": [
         "samaveda chapter 9",
@@ -20,12 +20,12 @@
         "samaveda chapter 9 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-9"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter9"
     },
     "openGraph": {
       "title": "Samaveda Chapter 9 – Symbolism & Spiritual Meaning",
       "description": "Discover the deeper symbolic and spiritual meanings behind Samaveda chants and Vedic music.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-9",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter9",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-9"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter9"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 9",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-9"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter9"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 9",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-9"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter9"
             }
           ]
         },

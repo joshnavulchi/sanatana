@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 10 focusing on spiritual realization, transcendence, and liberation (moksha) through Vedic chanting and inner understanding.",
     "meta": {
       "title": "Samaveda Chapter 10 – Spiritual Realization & Liberation",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-10",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter10",
       "description": "Explore Samaveda Chapter 10 explaining spiritual realization, transcendence, and liberation through Vedic chanting.",
       "keywords": [
         "samaveda chapter 10",
@@ -20,12 +20,12 @@
         "samaveda chapter 10 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter10"
     },
     "openGraph": {
       "title": "Samaveda Chapter 10 – Spiritual Realization & Liberation",
       "description": "Discover the ultimate goal of Samaveda chants—spiritual realization and liberation through Vedic wisdom.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter10",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter10"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 10",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter10"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 10",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-10"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter10"
             }
           ]
         },

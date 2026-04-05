@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 2 with sacred chants dedicated to Agni, including Sanskrit text, meanings, and musical recitation used in Vedic rituals.",
     "meta": {
       "title": "Samaveda Chapter 2 – Agni Chants, Meaning & Translation",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-2",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter2",
       "description": "Explore Samaveda Chapter 2 with Agni chants, Sanskrit text, meanings, and musical recitation used in Vedic rituals.",
       "keywords": [
         "samaveda chapter 2",
@@ -20,12 +20,12 @@
         "samaveda chapter 2 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-2"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter2"
     },
     "openGraph": {
       "title": "Samaveda Chapter 2 – Agni Chants & Meaning",
       "description": "Read Samaveda Chapter 2 with sacred Agni chants, Sanskrit text, and explanations.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-2",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter2",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-2"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter2"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 2",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-2"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter2"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 2",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-2"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter2"
             }
           ]
         },

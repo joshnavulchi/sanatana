@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 6 focusing on the musical structure of Vedic chants, including svaras, chanting patterns, and their spiritual significance.",
     "meta": {
       "title": "Samaveda Chapter 6 – Musical Structure & Chanting Patterns",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-6",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter6",
       "description": "Explore Samaveda Chapter 6 explaining musical structure, svaras, and chanting patterns used in Vedic recitation.",
       "keywords": [
         "samaveda chapter 6",
@@ -20,12 +20,12 @@
         "samaveda chapter 6 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-6"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter6"
     },
     "openGraph": {
       "title": "Samaveda Chapter 6 – Musical Structure & Chanting Patterns",
       "description": "Learn about the musical structure of Samaveda chants including svaras and chanting patterns.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-6",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter6",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-6"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter6"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 6",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-6"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter6"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 6",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-6"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter6"
             }
           ]
         },

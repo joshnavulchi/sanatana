@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 4 with sacred Soma chants, including Sanskrit text, meanings, and musical recitation. Discover the importance of Soma in Vedic rituals and spiritual symbolism.",
     "meta": {
       "title": "Samaveda Chapter 4 – Soma Chants, Meaning & Translation",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-4",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter4",
       "description": "Explore Samaveda Chapter 4 with Soma chants, Sanskrit text, meanings, and musical recitation used in Vedic rituals.",
       "keywords": [
         "samaveda chapter 4",
@@ -20,12 +20,12 @@
         "samaveda chapter 4 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-4"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter4"
     },
     "openGraph": {
       "title": "Samaveda Chapter 4 – Soma Chants & Meaning",
       "description": "Read Samaveda Chapter 4 with sacred Soma chants, Sanskrit text, and explanations.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-4",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter4",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-4"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter4"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 4",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-4"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter4"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 4",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-4"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter4"
             }
           ]
         },

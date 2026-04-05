@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 3 with sacred chants dedicated to Indra, including Sanskrit text, meanings, and musical recitation used in Vedic rituals.",
     "meta": {
       "title": "Samaveda Chapter 3 – Indra Chants, Meaning & Translation",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-3",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter3",
       "description": "Explore Samaveda Chapter 3 with Indra chants, Sanskrit text, meanings, and musical recitation used in Vedic rituals.",
       "keywords": [
         "samaveda chapter 3",
@@ -20,12 +20,12 @@
         "samaveda chapter 3 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-3"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter3"
     },
     "openGraph": {
       "title": "Samaveda Chapter 3 – Indra Chants & Meaning",
       "description": "Read Samaveda Chapter 3 with sacred Indra chants, Sanskrit text, and explanations.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-3",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter3",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-3"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter3"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 3",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-3"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter3"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 3",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-3"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter3"
             }
           ]
         },

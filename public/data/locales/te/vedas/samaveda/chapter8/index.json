@@ -5,7 +5,7 @@
     "description": "Explore Samaveda Chapter 8 focusing on chant variations, melodic forms, and recitation styles used in Vedic chanting traditions.",
     "meta": {
       "title": "Samaveda Chapter 8 – Chant Variations & Forms",
-      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter-8",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/chapter8",
       "description": "Explore Samaveda Chapter 8 explaining chant variations, melodic structures, and recitation forms in Vedic chanting.",
       "keywords": [
         "samaveda chapter 8",
@@ -20,12 +20,12 @@
         "samaveda chapter 8 summary"
       ],
       "robots": "index, follow, max-image-preview:large",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-8"
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter8"
     },
     "openGraph": {
       "title": "Samaveda Chapter 8 – Chant Variations & Forms",
       "description": "Learn about chant variations and melodic forms in Samaveda chanting traditions.",
-      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-8",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/chapter8",
       "siteName": "Sanatanadharmam",
       "type": "article",
       "images": [
@@ -58,7 +58,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter-8"
+            "@id": "https://sanatanadharmam.in/vedas/samaveda/chapter8"
           },
           "datePublished": "2024-01-01",
           "dateModified": "2026-01-01",
@@ -72,7 +72,7 @@
         {
           "@type": "WebPage",
           "name": "Samaveda Chapter 8",
-          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter-8"
+          "url": "https://sanatanadharmam.in/vedas/samaveda/chapter8"
         },
         {
           "@type": "BreadcrumbList",
@@ -99,7 +99,7 @@
               "@type": "ListItem",
               "position": 4,
               "name": "Chapter 8",
-              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter-8"
+              "item": "https://sanatanadharmam.in/vedas/samaveda/chapter8"
             }
           ]
         },
