@@ -1,332 +1,547 @@
 {
-  "hymn1": {
-    "atharvaveda_book8_hymn1": {
-      "title": "Atharvaveda Book 8 Hymn 1",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 1",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-1",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-1"
+  "book8": {
+    "id": "AV-BOOK-8",
+    "hymns": [
+      {
+        "id": "AV-8-1",
+        "hymn_number": 1,
+        "title": "Hymn 1",
+        "verses": [
+          {
+            "id": "AV-8-1-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-2",
+        "hymn_number": 2,
+        "title": "Hymn 2",
+        "verses": [
+          {
+            "id": "AV-8-2-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 1,
-        "path": "/vedas/atharvaveda/book-8/hymn-1",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-3",
+        "hymn_number": 3,
+        "title": "Hymn 3",
+        "verses": [
+          {
+            "id": "AV-8-3-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 1",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-1"
+      {
+        "id": "AV-8-4",
+        "hymn_number": 4,
+        "title": "Hymn 4",
+        "verses": [
+          {
+            "id": "AV-8-4-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 1, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn10": {
-    "atharvaveda_book8_hymn10": {
-      "title": "Atharvaveda Book 8 Hymn 10",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 10",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-10",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-10"
+      {
+        "id": "AV-8-5",
+        "hymn_number": 5,
+        "title": "Hymn 5",
+        "verses": [
+          {
+            "id": "AV-8-5-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-6",
+        "hymn_number": 6,
+        "title": "Hymn 6",
+        "verses": [
+          {
+            "id": "AV-8-6-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 10,
-        "path": "/vedas/atharvaveda/book-8/hymn-10",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-7",
+        "hymn_number": 7,
+        "title": "Hymn 7",
+        "verses": [
+          {
+            "id": "AV-8-7-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 10",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-10"
+      {
+        "id": "AV-8-8",
+        "hymn_number": 8,
+        "title": "Hymn 8",
+        "verses": [
+          {
+            "id": "AV-8-8-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 10, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn2": {
-    "atharvaveda_book8_hymn2": {
-      "title": "Atharvaveda Book 8 Hymn 2",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 2",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-2",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-2"
+      {
+        "id": "AV-8-9",
+        "hymn_number": 9,
+        "title": "Hymn 9",
+        "verses": [
+          {
+            "id": "AV-8-9-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-10",
+        "hymn_number": 10,
+        "title": "Hymn 10",
+        "verses": [
+          {
+            "id": "AV-8-10-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 2,
-        "path": "/vedas/atharvaveda/book-8/hymn-2",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-11",
+        "hymn_number": 11,
+        "title": "Hymn 11",
+        "verses": [
+          {
+            "id": "AV-8-11-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 2",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-2"
+      {
+        "id": "AV-8-12",
+        "hymn_number": 12,
+        "title": "Hymn 12",
+        "verses": [
+          {
+            "id": "AV-8-12-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 2, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn3": {
-    "atharvaveda_book8_hymn3": {
-      "title": "Atharvaveda Book 8 Hymn 3",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 3",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-3",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-3"
+      {
+        "id": "AV-8-13",
+        "hymn_number": 13,
+        "title": "Hymn 13",
+        "verses": [
+          {
+            "id": "AV-8-13-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-14",
+        "hymn_number": 14,
+        "title": "Hymn 14",
+        "verses": [
+          {
+            "id": "AV-8-14-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 3,
-        "path": "/vedas/atharvaveda/book-8/hymn-3",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-15",
+        "hymn_number": 15,
+        "title": "Hymn 15",
+        "verses": [
+          {
+            "id": "AV-8-15-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 3",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-3"
+      {
+        "id": "AV-8-16",
+        "hymn_number": 16,
+        "title": "Hymn 16",
+        "verses": [
+          {
+            "id": "AV-8-16-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 3, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn4": {
-    "atharvaveda_book8_hymn4": {
-      "title": "Atharvaveda Book 8 Hymn 4",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 4",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-4",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-4"
+      {
+        "id": "AV-8-17",
+        "hymn_number": 17,
+        "title": "Hymn 17",
+        "verses": [
+          {
+            "id": "AV-8-17-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-18",
+        "hymn_number": 18,
+        "title": "Hymn 18",
+        "verses": [
+          {
+            "id": "AV-8-18-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 4,
-        "path": "/vedas/atharvaveda/book-8/hymn-4",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-19",
+        "hymn_number": 19,
+        "title": "Hymn 19",
+        "verses": [
+          {
+            "id": "AV-8-19-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 4",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-4"
+      {
+        "id": "AV-8-20",
+        "hymn_number": 20,
+        "title": "Hymn 20",
+        "verses": [
+          {
+            "id": "AV-8-20-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 4, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn5": {
-    "atharvaveda_book8_hymn5": {
-      "title": "Atharvaveda Book 8 Hymn 5",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 5",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-5",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-5"
+      {
+        "id": "AV-8-21",
+        "hymn_number": 21,
+        "title": "Hymn 21",
+        "verses": [
+          {
+            "id": "AV-8-21-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-22",
+        "hymn_number": 22,
+        "title": "Hymn 22",
+        "verses": [
+          {
+            "id": "AV-8-22-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 5,
-        "path": "/vedas/atharvaveda/book-8/hymn-5",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-23",
+        "hymn_number": 23,
+        "title": "Hymn 23",
+        "verses": [
+          {
+            "id": "AV-8-23-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 5",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-5"
+      {
+        "id": "AV-8-24",
+        "hymn_number": 24,
+        "title": "Hymn 24",
+        "verses": [
+          {
+            "id": "AV-8-24-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 5, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn6": {
-    "atharvaveda_book8_hymn6": {
-      "title": "Atharvaveda Book 8 Hymn 6",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 6",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-6",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-6"
+      {
+        "id": "AV-8-25",
+        "hymn_number": 25,
+        "title": "Hymn 25",
+        "verses": [
+          {
+            "id": "AV-8-25-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
+      {
+        "id": "AV-8-26",
+        "hymn_number": 26,
+        "title": "Hymn 26",
+        "verses": [
+          {
+            "id": "AV-8-26-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 6,
-        "path": "/vedas/atharvaveda/book-8/hymn-6",
-        "prefix": "hymn"
+      {
+        "id": "AV-8-27",
+        "hymn_number": 27,
+        "title": "Hymn 27",
+        "verses": [
+          {
+            "id": "AV-8-27-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 6",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-6"
+      {
+        "id": "AV-8-28",
+        "hymn_number": 28,
+        "title": "Hymn 28",
+        "verses": [
+          {
+            "id": "AV-8-28-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 6, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn7": {
-    "atharvaveda_book8_hymn7": {
-      "title": "Atharvaveda Book 8 Hymn 7",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 7",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-7",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-7"
+      {
+        "id": "AV-8-29",
+        "hymn_number": 29,
+        "title": "Hymn 29",
+        "verses": [
+          {
+            "id": "AV-8-29-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
       },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 7,
-        "path": "/vedas/atharvaveda/book-8/hymn-7",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 7",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-7"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 7, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn8": {
-    "atharvaveda_book8_hymn8": {
-      "title": "Atharvaveda Book 8 Hymn 8",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 8",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-8",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-8"
-      },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 8,
-        "path": "/vedas/atharvaveda/book-8/hymn-8",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 8",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-8"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 8, invoking protection, wellbeing, and spiritual insight."
-    }
-  },
-  "hymn9": {
-    "atharvaveda_book8_hymn9": {
-      "title": "Atharvaveda Book 8 Hymn 9",
-      "description": "This hymn belongs to Atharvaveda Book 8.",
-      "meta": {
-        "title": "Atharvaveda Book 8 Hymn 9",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-9",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-9"
-      },
-      "chapter": {
-        "key": "book-8",
-        "label": "Book 8",
-        "path": "/vedas/atharvaveda/book-8",
-        "slug": "atharvaveda"
-      },
-      "introduction": "This hymn belongs to Atharvaveda Book 8.",
-      "item": {
-        "number": 9,
-        "path": "/vedas/atharvaveda/book-8/hymn-9",
-        "prefix": "hymn"
-      },
-      "openGraph": {
-        "title": "Atharvaveda Book 8 Hymn 9",
-        "description": "This hymn belongs to Atharvaveda Book 8.",
-        "siteName": "Sanatanadharmam",
-        "type": "article",
-        "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-8/hymn-9"
-      },
-      "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight.",
-      "scripture_text": "A representative Atharvavedic hymn passage for Book 8, Hymn 9, invoking protection, wellbeing, and spiritual insight."
-    }
+      {
+        "id": "AV-8-30",
+        "hymn_number": 30,
+        "title": "Hymn 30",
+        "verses": [
+          {
+            "id": "AV-8-30-1",
+            "verse_number": 1,
+            "sanskrit": "शं नो अस्तु",
+            "transliteration": "śaṃ no astu",
+            "meaning": {
+              "literal": "May there be peace for us.",
+              "interpretive": "Harmony invocation.",
+              "applied": "Well-being."
+            }
+          }
+        ]
+      }
+    ]
   }
 }
