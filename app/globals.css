@@ -35,8 +35,10 @@
   --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.16);
 
   /* Fluid base size: scales ~15px → ~18px between 360px and 1280px */
-  --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem); /* 15px → 18px */
-  --line-height-base: 1.65; /* good for prose */
+  --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem);
+  /* 15px → 18px */
+  --line-height-base: 1.65;
+  /* good for prose */
 
   /* Modular scale step (minor third ≈ 1.2) for headings */
   --scale: 1.2;
@@ -76,7 +78,7 @@
   /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
-  
+
   /* Spacing scale */
   --space-xxs: 4px;
   --space-xs: 8px;
@@ -96,6 +98,7 @@
   --content-width-lg: 1680px;
   --content-width-xl: 1900px;
 }
+
 /* 2) Dark theme */
 /* :root[data-theme="dark"] {
   --color-bg: #0F172A;
@@ -183,6 +186,7 @@
   --content-width-lg: 1680px;
   --content-width-xl: 1900px;
 }
+
 /* 3) Core layout & typography */
 html {
   scroll-behavior: smooth;
@@ -244,13 +248,16 @@ body.dark {
 
 .gradient-background {
   background-image: radial-gradient(circle farthest-corner at 90% 0%,
-  var(--color-yellow),
-  var(--color-red) 18%,
-  var(--color-orange) 46%,
-  var(--color-violet) 87%,
-  var(--color-blue));
+      var(--color-yellow),
+      var(--color-red) 18%,
+      var(--color-orange) 46%,
+      var(--color-violet) 87%,
+      var(--color-blue));
 }
 
+.layout-sm,
+.layout-md,
+.layout-lg,
 .content-wrapper {
   padding: var(--space-xl) var(--space-md);
 }
@@ -258,8 +265,7 @@ body.dark {
 .layout-sm,
 .layout-md,
 .layout-lg {
-  margin: -1rem auto;
-  padding: var(--space-2xl) var(--space-md);
+  margin: 0 auto;
 }
 
 .layout-sm {

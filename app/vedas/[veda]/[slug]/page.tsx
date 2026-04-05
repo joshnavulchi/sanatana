@@ -50,13 +50,31 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params, searchParams }: { params?: { veda?: string; slug?: string } | Promise<any>; searchParams?: any }) {
-  // `params` may sometimes be a thenable or undefined depending on Next internals.
   const resolvedParams = await resolveParams(params);
 
   const v = resolvedParams?.veda;
   const s = resolvedParams?.slug;
-  const key = v && s ? `vedas/${v}/${s}/index` : (v ? `vedas/${v}/index` : 'vedas');
-  return await createGenerateMetadata(key)({ searchParams });
+  const fallbackKey = v && s ? `vedas/${v}/${s}/index` : (v ? `vedas/${v}/index` : 'vedas');
+
+  if (v && s) {
+    const locale = DEFAULT_LOCALE;
+    const fetched = await fetchContentByRoute(locale, ['vedas', v, s]);
+    const data = fetched && fetched.data ? (fetched.data as any) : null;
+    function unwrapPageData(source: any) {
+      let result = source;
+      while (result && typeof result === 'object' && !result.meta && !result.title && !result.description) {
+        const entries = Object.entries(result || {}).filter(([_k, v]) => v && typeof v === 'object' && !Array.isArray(v));
+        if (entries.length !== 1) break;
+        result = entries[0][1];
+      }
+      return result;
+    }
+    const pageData = unwrapPageData(data);
+    const metaKey = pageData?.meta?.key ? String(pageData.meta.key) : fallbackKey;
+    return await createGenerateMetadata(metaKey)({ searchParams });
+  }
+
+  return await createGenerateMetadata(fallbackKey)({ searchParams });
 }
 
 export default async function Page({ params }: { params: { veda?: string; slug?: string } | Promise<{ veda?: string; slug?: string }> }) {
@@ -72,6 +90,17 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
   const fetched = await fetchContentByRoute(locale, ['vedas', veda, slug]);
   const data = fetched && fetched.data ? (fetched.data as any) : null;
   if (!data) return notFound();
+  function unwrapPageData(source: any) {
+    let result = source;
+    while (result && typeof result === 'object' && !result.meta && !result.title && !result.description) {
+      const entries = Object.entries(result || {}).filter(([_k, v]) => v && typeof v === 'object' && !Array.isArray(v));
+      if (entries.length !== 1) break;
+      result = entries[0][1];
+    }
+    return result;
+  }
+  const pageData = unwrapPageData(data);
+  if (!pageData) return notFound();
 
   // attempt to fetch parent index to collect siblings (if parent exposes children)
   const parent = await fetchContentByRoute(locale, ['vedas', veda]);

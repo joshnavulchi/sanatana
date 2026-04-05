@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import StructuredData from '../structured-data/StructuredData';
-import WordCount from '@components/wordcount/wordcount';
+import WordCount from '@components/wordcount';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 import Breadcrumbs from '../breadcrumbs';
@@ -70,7 +70,7 @@ export default function PageLayout(
   return (
     <>
       <StructuredData metakey={metaKey ? metaKey : 'home'} />
-      <main className={`px-3 ${wrapper} bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 min-h-[80vh] rounded-3xl shadow-2xl border-4 border-amber-100 animate-fadeInUp`}>
+      <main className={`px-3 ${wrapper} min-h-[80vh] shadow-xl border-l-4 border-r-4 border-amber-100 animate-fadeInUp`}>
         <div className="w-full text-lg sm:text-base leading-relaxed font-normal">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-lg sm:text-base leading-relaxed font-normal">
             <Breadcrumbs items={breadcrumbs} locale={locale} />
@@ -89,8 +89,8 @@ export default function PageLayout(
                 </div>
               </div>
               {description && (
-                <div className="max-w-3xl mx-auto text-lg sm:text-base leading-relaxed font-normal py-10 animate-fadeIn delay-200">
-                  <p className="text-center text-rose-700 italic px-4 text-lg sm:text-base leading-relaxed mb-4 font-normal">
+                <div className="max-w-3xl mx-auto text-lg sm:text-base leading-relaxed font-normal pt-10 animate-fadeIn delay-200">
+                  <p className="text-center text-rose-700 italic px-4 text-lg sm:text-base leading-relaxed font-normal">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>

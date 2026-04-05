@@ -17,7 +17,7 @@ export default function SanatanadharmaClient() {
       metaKey="sanatanadharma"
       title={title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: title }]}
-      className="layout-md bg-gradient-to-br from-[#e0f7fa] via-[#b2ebf2] to-[#80deea] min-h-screen animate-fade-in">
+      className="layout-md min-h-screen">
       <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
           const chap = ch?.chapter ?? (i + 1);
@@ -27,7 +27,7 @@ export default function SanatanadharmaClient() {
           const chapPara3 = ch?.para3 || `Paragraph 3`;
           const primary = Array.isArray(ch?.keypoints) ? ch.keypoints : [];
           return (
-            <article key={i} className="rounded-2xl bg-gradient-to-br from-[#b2ebf2]/80 via-[#e0f7fa]/80 to-[#80deea]/80 shadow-xl border border-[#b2ebf2]/40 p-6 animate-fade-in-up">
+            <article key={i} className="border border-[#b2ebf2]/40 p-6">
               <p className="subtitle h4! text-[#00796b] font-bold mb-2 drop-shadow">{`Chapter ${chap}: ${chapTitle}`}</p>
               <p className="description md:indent-16 text-[#004d40] mb-2">{chapPara1}</p>
               <p className="description md:indent-16 text-[#004d40] mb-2">{chapPara2}</p>
