@@ -113,608 +113,6 @@
       {
         "id": "AV-5-1",
         "hymn_number": 1,
-        "title": "Charm for Healing from Severe Disease",
-        "verses": [
-          {
-            "id": "AV-5-1-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Well-being."
-            }
-          },
-          {
-            "id": "AV-5-1-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Energy and resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-2",
-        "hymn_number": 2,
-        "title": "Charm Against Malevolent Forces",
-        "verses": [
-          {
-            "id": "AV-5-2-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Well-being."
-            }
-          },
-          {
-            "id": "AV-5-2-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Energy and resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-3",
-        "hymn_number": 3,
-        "title": "Charm for Strength and Vitality",
-        "verses": [
-          {
-            "id": "AV-5-3-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Well-being."
-            }
-          },
-          {
-            "id": "AV-5-3-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Energy and resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-4",
-        "hymn_number": 4,
-        "title": "Charm for Success in Conflict",
-        "verses": [
-          {
-            "id": "AV-5-4-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Well-being."
-            }
-          },
-          {
-            "id": "AV-5-4-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Energy and resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-5",
-        "hymn_number": 5,
-        "title": "Charm for Prosperity and Sustenance",
-        "verses": [
-          {
-            "id": "AV-5-5-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Well-being."
-            }
-          },
-          {
-            "id": "AV-5-5-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Energy and resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-6",
-        "hymn_number": 6,
-        "title": "Hymn 6 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-6-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-7",
-        "hymn_number": 7,
-        "title": "Hymn 7 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-7-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-8",
-        "hymn_number": 8,
-        "title": "Hymn 8 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-8-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-9",
-        "hymn_number": 9,
-        "title": "Hymn 9 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-9-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-10",
-        "hymn_number": 10,
-        "title": "Hymn 10 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-10-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-11",
-        "hymn_number": 11,
-        "title": "Hymn 11 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-11-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-12",
-        "hymn_number": 12,
-        "title": "Hymn 12 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-12-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-13",
-        "hymn_number": 13,
-        "title": "Hymn 13 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-13-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-14",
-        "hymn_number": 14,
-        "title": "Hymn 14 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-14-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-15",
-        "hymn_number": 15,
-        "title": "Hymn 15 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-15-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-16",
-        "hymn_number": 16,
-        "title": "Hymn 16 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-16-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-17",
-        "hymn_number": 17,
-        "title": "Hymn 17 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-17-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-18",
-        "hymn_number": 18,
-        "title": "Hymn 18 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-18-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-19",
-        "hymn_number": 19,
-        "title": "Hymn 19 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-19-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-20",
-        "hymn_number": 20,
-        "title": "Hymn 20 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-20-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-21",
-        "hymn_number": 21,
-        "title": "Hymn 21 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-21-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-22",
-        "hymn_number": 22,
-        "title": "Hymn 22 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-22-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-23",
-        "hymn_number": 23,
-        "title": "Hymn 23 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-23-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-24",
-        "hymn_number": 24,
-        "title": "Hymn 24 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-24-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-25",
-        "hymn_number": 25,
-        "title": "Hymn 25 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-25-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-26",
-        "hymn_number": 26,
-        "title": "Hymn 26 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-26-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-27",
-        "hymn_number": 27,
-        "title": "Hymn 27 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-27-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-28",
-        "hymn_number": 28,
-        "title": "Hymn 28 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-28-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-29",
-        "hymn_number": 29,
-        "title": "Hymn 29 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-29-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-5-30",
-        "hymn_number": 30,
-        "title": "Hymn 30 – Placeholder",
-        "verses": [
-          {
-            "id": "AV-5-30-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Harmony invocation.",
-              "applied": "Balance."
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part1": {
-    "hymns": [
-      {
-        "id": "AV-5-1",
-        "hymn_number": 1,
         "theme": "Charm for Protection and Victory",
         "source": "Atharvaveda 5.1",
         "verses": [
@@ -750,7 +148,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-2",
         "hymn_number": 2,
@@ -789,7 +186,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-3",
         "hymn_number": 3,
@@ -827,14 +223,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-5-4",
         "hymn_number": 4,
@@ -873,7 +262,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-5",
         "hymn_number": 5,
@@ -912,7 +300,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-6",
         "hymn_number": 6,
@@ -950,14 +337,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-5-4",
         "hymn_number": 4,
@@ -996,7 +376,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-5",
         "hymn_number": 5,
@@ -1035,7 +414,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-6",
         "hymn_number": 6,
@@ -1073,14 +451,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part3": {
-    "hymns": [
+      },
       {
         "id": "AV-5-7",
         "hymn_number": 7,
@@ -1119,7 +490,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-8",
         "hymn_number": 8,
@@ -1158,7 +528,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-9",
         "hymn_number": 9,
@@ -1196,14 +565,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part4": {
-    "hymns": [
+      },
       {
         "id": "AV-5-10",
         "hymn_number": 10,
@@ -1242,7 +604,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-11",
         "hymn_number": 11,
@@ -1281,7 +642,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-12",
         "hymn_number": 12,
@@ -1319,139 +679,70 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-
-
-{
-  "book5_part4": {
-    "hymns": [
-      {
-        "id": "AV-5-10",
-        "hymn_number": 10,
-        "theme": "Charm for Purification and Release from Sin",
-        "source": "Atharvaveda 5.10",
-        "verses": [
-          {
-            "id": "AV-5-10-1",
-            "sanskrit": "पापं मे अपगच्छतु दूरं गच्छ",
-            "transliteration": "pāpaṃ me apagacchatu dūraṃ gaccha",
-            "meaning": {
-              "literal": "Let sin depart from me, go far away.",
-              "interpretive": "Impurity is removable.",
-              "applied": "Moral cleansing."
-            }
-          },
-          {
-            "id": "AV-5-10-2",
-            "sanskrit": "शुद्धोऽहमस्मि पवित्रेण",
-            "transliteration": "śuddho'ham asmi pavitreṇa",
-            "meaning": {
-              "literal": "I am purified by the purifier.",
-              "interpretive": "Purification restores balance.",
-              "applied": "Inner renewal."
-            }
-          },
-          {
-            "id": "AV-5-10-3",
-            "sanskrit": "अग्निः पावकः पातु माम्",
-            "transliteration": "agniḥ pāvakaḥ pātu mām",
-            "meaning": {
-              "literal": "Agni the purifier protects me.",
-              "interpretive": "Fire cleanses and safeguards.",
-              "applied": "Spiritual purification."
-            }
-          }
-        ]
       },
-
       {
-        "id": "AV-5-11",
-        "hymn_number": 11,
-        "theme": "Harmony with Natural Elements",
-        "source": "Atharvaveda 5.11",
+        "hymn_id": 13,
+        "deity": "Herbs (Oshadhi)",
+        "theme": "Healing and restoration",
         "verses": [
           {
-            "id": "AV-5-11-1",
-            "sanskrit": "पृथिवी मे शं करोतु",
-            "transliteration": "pṛthivī me śaṃ karotu",
-            "meaning": {
-              "literal": "May Earth bring me peace.",
-              "interpretive": "Earth sustains life.",
-              "applied": "Grounding."
-            }
+            "verse_id": 1,
+            "sanskrit": "ओषधयः सं भवन्तु भेषजं रोगनाशनम्।",
+            "transliteration": "oṣadhayaḥ saṁ bhavantu bheṣajaṁ roganāśanam |",
+            "meaning": "Let the herbs unite to become medicine that destroys disease."
           },
           {
-            "id": "AV-5-11-2",
-            "sanskrit": "आपः शं नो भवन्तु",
-            "transliteration": "āpaḥ śaṃ no bhavantu",
-            "meaning": {
-              "literal": "May waters bring peace.",
-              "interpretive": "Water purifies and nourishes.",
-              "applied": "Cleansing."
-            }
-          },
-          {
-            "id": "AV-5-11-3",
-            "sanskrit": "वायुः प्राणो जीवने",
-            "transliteration": "vāyuḥ prāṇo jīvane",
-            "meaning": {
-              "literal": "Air is the life-breath.",
-              "interpretive": "Air sustains life.",
-              "applied": "Vitality."
-            }
+            "verse_id": 2,
+            "sanskrit": "याः पृथिव्यां दिवि जाताः ताः नः शं करोतु वै।",
+            "transliteration": "yāḥ pṛthivyāṁ divi jātāḥ tāḥ naḥ śaṁ karotu vai |",
+            "meaning": "Those herbs born on earth and in heaven—may they bring us well-being."
           }
-        ]
+        ],
+        "application": "Used in herbal healing rituals and Ayurvedic practices",
+        "philosophy": "Nature embodies divine healing intelligence"
       },
-
       {
-        "id": "AV-5-12",
-        "hymn_number": 12,
-        "theme": "Charm for Strength and Stability",
-        "source": "Atharvaveda 5.12",
+        "hymn_id": 14,
+        "deity": "Water (Apah)",
+        "theme": "Purification and life energy",
         "verses": [
           {
-            "id": "AV-5-12-1",
-            "sanskrit": "स्थिरो भवामि धृत्या",
-            "transliteration": "sthiro bhavāmi dhṛtyā",
-            "meaning": {
-              "literal": "I become stable through firmness.",
-              "interpretive": "Stability arises from strength.",
-              "applied": "Mental resilience."
-            }
+            "verse_id": 1,
+            "sanskrit": "आपः शुद्धयन्तु नः सर्वं जीवनं धारयन्तु च।",
+            "transliteration": "āpaḥ śuddhayantu naḥ sarvaṁ jīvanaṁ dhārayantu ca |",
+            "meaning": "May the waters purify us and sustain all life."
           },
           {
-            "id": "AV-5-12-2",
-            "sanskrit": "बलं मे अस्तु तनुवे",
-            "transliteration": "balaṃ me astu tanuve",
-            "meaning": {
-              "literal": "Let strength be in my body.",
-              "interpretive": "Strength supports existence.",
-              "applied": "Physical health."
-            }
-          },
-          {
-            "id": "AV-5-12-3",
-            "sanskrit": "धैर्यं मे देहि",
-            "transliteration": "dhairyaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me courage.",
-              "interpretive": "Courage sustains effort.",
-              "applied": "Confidence."
-            }
+            "verse_id": 2,
+            "sanskrit": "आपो हि जीवनस्य मूलं तासु नः शक्तिर्धीयताम्।",
+            "transliteration": "āpo hi jīvanasya mūlaṁ tāsu naḥ śaktir dhīyatām |",
+            "meaning": "Water is the root of life; may it grant us strength."
           }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part6": {
-    "hymns": [
+        ],
+        "application": "Purification rites, sacred bathing, and healing rituals",
+        "philosophy": "Water symbolizes renewal, flow, and purification of existence"
+      },
+      {
+        "hymn_id": 15,
+        "deity": "Agni",
+        "theme": "Protection and transformation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्ने पावक दीदिहि रक्ष नः सर्वतो भयात्।",
+            "transliteration": "agne pāvaka dīdihi rakṣa naḥ sarvato bhayāt |",
+            "meaning": "O radiant Agni, shine forth and protect us from all fear."
+          },
+          {
+            "verse_id": 2,
+            "sanskrit": "त्वं नः पापं दहसि विश्वतो नः परित्राहि।",
+            "transliteration": "tvaṁ naḥ pāpaṁ dahasi viśvato naḥ paritrāhi |",
+            "meaning": "You burn away sin and protect us from all sides."
+          }
+        ],
+        "application": "Fire rituals for protection and purification",
+        "philosophy": "Fire transforms negativity into purity and light"
+      },
       {
         "id": "AV-5-16",
         "hymn_number": 16,
@@ -1490,7 +781,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-17",
         "hymn_number": 17,
@@ -1529,7 +819,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-18",
         "hymn_number": 18,
@@ -1567,137 +856,72 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part6": {
-    "hymns": [
-      {
-        "id": "AV-5-16",
-        "hymn_number": 16,
-        "theme": "Charm for Harmony and Unity",
-        "source": "Atharvaveda 5.16",
-        "verses": [
-          {
-            "id": "AV-5-16-1",
-            "sanskrit": "समानो मनः सह चित्तम् अस्तु",
-            "transliteration": "samāno manaḥ saha cittam astu",
-            "meaning": {
-              "literal": "Let minds be united and thoughts together.",
-              "interpretive": "Unity creates harmony.",
-              "applied": "Relationships."
-            }
-          },
-          {
-            "id": "AV-5-16-2",
-            "sanskrit": "समानं वः हृदयं अस्तु",
-            "transliteration": "samānaṃ vaḥ hṛdayaṃ astu",
-            "meaning": {
-              "literal": "Let hearts be one.",
-              "interpretive": "Emotional unity strengthens bonds.",
-              "applied": "Family harmony."
-            }
-          },
-          {
-            "id": "AV-5-16-3",
-            "sanskrit": "मा विभेदः भवतु",
-            "transliteration": "mā vibhedaḥ bhavatu",
-            "meaning": {
-              "literal": "Let there be no division.",
-              "interpretive": "Avoid conflict.",
-              "applied": "Peaceful coexistence."
-            }
-          }
-        ]
       },
-
       {
-        "id": "AV-5-17",
-        "hymn_number": 17,
-        "theme": "Charm for Prosperity and Growth",
-        "source": "Atharvaveda 5.17",
+        "hymn_id": 19,
+        "deity": "Indra",
+        "theme": "Strength and victory",
         "verses": [
           {
-            "id": "AV-5-17-1",
-            "sanskrit": "वृद्धिं मे देहि",
-            "transliteration": "vṛddhiṃ me dehi",
-            "meaning": {
-              "literal": "Grant me growth.",
-              "interpretive": "Expansion supports life.",
-              "applied": "Development."
-            }
+            "verse_id": 1,
+            "sanskrit": "इन्द्रः शक्तिं ददातु नः जयाय चाभिभूतये।",
+            "transliteration": "indraḥ śaktiṁ dadātu naḥ jayāya cābhibhūtaye |",
+            "meaning": "May Indra grant us strength for victory and dominance."
           },
           {
-            "id": "AV-5-17-2",
-            "sanskrit": "धनं मे आगच्छतु",
-            "transliteration": "dhanaṃ me āgacchatu",
-            "meaning": {
-              "literal": "Let wealth come to me.",
-              "interpretive": "Resources support life.",
-              "applied": "Financial stability."
-            }
-          },
-          {
-            "id": "AV-5-17-3",
-            "sanskrit": "समृद्धिर्मे अस्तु",
-            "transliteration": "samṛddhir me astu",
-            "meaning": {
-              "literal": "May prosperity be mine.",
-              "interpretive": "Abundance reflects balance.",
-              "applied": "Success."
-            }
+            "verse_id": 2,
+            "sanskrit": "वज्रिणं हवामहे यो नः शत्रून् नुदाति।",
+            "transliteration": "vajriṇaṁ havāmahe yo naḥ śatrūn nudāti |",
+            "meaning": "We invoke the thunderbolt-bearing god who drives away enemies."
           }
-        ]
+        ],
+        "application": "Used in prayers for success, courage, and overcoming opposition",
+        "philosophy": "Divine strength empowers human effort and resilience"
       },
-
+  
       {
-        "id": "AV-5-18",
-        "hymn_number": 18,
-        "theme": "Charm for Removal of Fear",
-        "source": "Atharvaveda 5.18",
+        "hymn_id": 20,
+        "deity": "Varuna",
+        "theme": "Moral order and forgiveness",
         "verses": [
           {
-            "id": "AV-5-18-1",
-            "sanskrit": "अभयं मे अस्तु सर्वतः",
-            "transliteration": "abhayaṃ me astu sarvataḥ",
-            "meaning": {
-              "literal": "Let there be fearlessness everywhere.",
-              "interpretive": "Protection removes fear.",
-              "applied": "Confidence."
-            }
+            "verse_id": 1,
+            "sanskrit": "वरुणं राजानं हवामहे ऋतस्य गोपाम्।",
+            "transliteration": "varuṇaṁ rājānaṁ havāmahe ṛtasya gopām |",
+            "meaning": "We invoke King Varuna, the guardian of cosmic order (ṛta)."
           },
           {
-            "id": "AV-5-18-2",
-            "sanskrit": "मा भयम् आगात्",
-            "transliteration": "mā bhayam āgāt",
-            "meaning": {
-              "literal": "Let fear not come.",
-              "interpretive": "Fear can be controlled.",
-              "applied": "Calmness."
-            }
-          },
-          {
-            "id": "AV-5-18-3",
-            "sanskrit": "धैर्यं मे अस्तु",
-            "transliteration": "dhairyaṃ me astu",
-            "meaning": {
-              "literal": "May courage be mine.",
-              "interpretive": "Courage overcomes fear.",
-              "applied": "Resilience."
-            }
+            "verse_id": 2,
+            "sanskrit": "यद् अघं कृतं मया तन्मे क्षमस्व देव।",
+            "transliteration": "yad aghaṁ kṛtaṁ mayā tan me kṣamasva deva |",
+            "meaning": "Forgive whatever wrong I have committed, O divine one."
           }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part8": {
-    "hymns": [
+        ],
+        "application": "Repentance rituals and moral purification practices",
+        "philosophy": "Harmony with cosmic law leads to forgiveness and balance"
+      },
+  
+      {
+        "hymn_id": 21,
+        "deity": "Brahman",
+        "theme": "Unity and cosmic consciousness",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "ब्रह्म सर्वं प्रतिष्ठितं यत्र विश्वं प्रतिष्ठितम्।",
+            "transliteration": "brahma sarvaṁ pratiṣṭhitaṁ yatra viśvaṁ pratiṣṭhitam |",
+            "meaning": "Brahman is the foundation of all; the universe rests within it."
+          },
+          {
+            "verse_id": 2,
+            "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सनातनः।",
+            "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sanātanaḥ |",
+            "meaning": "One divine reality dwells hidden in all beings, eternal and all-pervading."
+          }
+        ],
+        "application": "Meditation and philosophical contemplation",
+        "philosophy": "All existence is unified in a single cosmic consciousness"
+      },
       {
         "id": "AV-5-22",
         "hymn_number": 22,
@@ -1736,7 +960,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-23",
         "hymn_number": 23,
@@ -1775,7 +998,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-24",
         "hymn_number": 24,
@@ -1813,14 +1035,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part9": {
-    "hymns": [
+      },
       {
         "id": "AV-5-25",
         "hymn_number": 25,
@@ -1859,7 +1074,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-26",
         "hymn_number": 26,
@@ -1898,7 +1112,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-27",
         "hymn_number": 27,
@@ -1936,14 +1149,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book5_part10": {
-    "hymns": [
+      },
       {
         "id": "AV-5-28",
         "hymn_number": 28,
@@ -1982,7 +1188,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-29",
         "hymn_number": 29,
@@ -2021,7 +1226,6 @@
           }
         ]
       },
-
       {
         "id": "AV-5-30",
         "hymn_number": 30,
