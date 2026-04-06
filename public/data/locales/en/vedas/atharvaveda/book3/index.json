@@ -113,883 +113,6 @@
       {
         "id": "AV-3-1",
         "hymn_number": 1,
-        "title": "Hymn 1 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-1-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-1-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-2",
-        "hymn_number": 2,
-        "title": "Hymn 2 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-2-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-2-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-3",
-        "hymn_number": 3,
-        "title": "Hymn 3 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-3-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-3-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-4",
-        "hymn_number": 4,
-        "title": "Hymn 4 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-4-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-4-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-5",
-        "hymn_number": 5,
-        "title": "Hymn 5 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-5-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-5-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-6",
-        "hymn_number": 6,
-        "title": "Hymn 6 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-6-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-6-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-7",
-        "hymn_number": 7,
-        "title": "Hymn 7 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-7-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-7-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-8",
-        "hymn_number": 8,
-        "title": "Hymn 8 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-8-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-8-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-9",
-        "hymn_number": 9,
-        "title": "Hymn 9 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-9-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-9-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-10",
-        "hymn_number": 10,
-        "title": "Hymn 10 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-10-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-10-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-11",
-        "hymn_number": 11,
-        "title": "Hymn 11 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-11-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-11-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-12",
-        "hymn_number": 12,
-        "title": "Hymn 12 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-12-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-12-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-13",
-        "hymn_number": 13,
-        "title": "Hymn 13 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-13-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-13-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-14",
-        "hymn_number": 14,
-        "title": "Hymn 14 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-14-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-14-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-15",
-        "hymn_number": 15,
-        "title": "Hymn 15 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-15-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-15-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-16",
-        "hymn_number": 16,
-        "title": "Hymn 16 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-16-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-16-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-17",
-        "hymn_number": 17,
-        "title": "Hymn 17 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-17-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-17-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-18",
-        "hymn_number": 18,
-        "title": "Hymn 18 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-18-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-18-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-19",
-        "hymn_number": 19,
-        "title": "Hymn 19 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-19-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-19-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-20",
-        "hymn_number": 20,
-        "title": "Hymn 20 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-20-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-20-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-21",
-        "hymn_number": 21,
-        "title": "Hymn 21 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-21-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-21-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-22",
-        "hymn_number": 22,
-        "title": "Hymn 22 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-22-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-22-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-23",
-        "hymn_number": 23,
-        "title": "Hymn 23 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-23-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-23-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-24",
-        "hymn_number": 24,
-        "title": "Hymn 24 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-24-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-24-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-25",
-        "hymn_number": 25,
-        "title": "Hymn 25 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-25-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-25-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-26",
-        "hymn_number": 26,
-        "title": "Hymn 26 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-26-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-26-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-27",
-        "hymn_number": 27,
-        "title": "Hymn 27 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-27-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-27-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-28",
-        "hymn_number": 28,
-        "title": "Hymn 28 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-28-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-28-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-29",
-        "hymn_number": 29,
-        "title": "Hymn 29 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-29-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-29-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-3-30",
-        "hymn_number": 30,
-        "title": "Hymn 30 – Thematic Invocation",
-        "verses": [
-          {
-            "id": "AV-3-30-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          },
-          {
-            "id": "AV-3-30-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Mental and social well-being."
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part1": {
-    "hymns": [
-      {
-        "id": "AV-3-1",
-        "hymn_number": 1,
         "theme": "Charm for Strength and Victory",
         "source": "Atharvaveda 3.1",
         "verses": [
@@ -1025,7 +148,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-2",
         "hymn_number": 2,
@@ -1064,7 +186,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-3",
         "hymn_number": 3,
@@ -1102,14 +223,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-3-4",
         "hymn_number": 4,
@@ -1148,7 +262,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-5",
         "hymn_number": 5,
@@ -1187,7 +300,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-6",
         "hymn_number": 6,
@@ -1225,14 +337,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part3": {
-    "hymns": [
+      },
       {
         "id": "AV-3-7",
         "hymn_number": 7,
@@ -1271,7 +376,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-8",
         "hymn_number": 8,
@@ -1310,7 +414,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-9",
         "hymn_number": 9,
@@ -1348,14 +451,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part4": {
-    "hymns": [
+      },
       {
         "id": "AV-3-10",
         "hymn_number": 10,
@@ -1394,7 +490,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-11",
         "hymn_number": 11,
@@ -1433,7 +528,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-12",
         "hymn_number": 12,
@@ -1471,14 +565,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part5": {
-    "hymns": [
+      },
       {
         "id": "AV-3-13",
         "hymn_number": 13,
@@ -1517,7 +604,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-14",
         "hymn_number": 14,
@@ -1556,7 +642,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-15",
         "hymn_number": 15,
@@ -1594,14 +679,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part6": {
-    "hymns": [
+      },
       {
         "id": "AV-3-16",
         "hymn_number": 16,
@@ -1640,7 +718,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-17",
         "hymn_number": 17,
@@ -1679,7 +756,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-18",
         "hymn_number": 18,
@@ -1717,14 +793,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part7": {
-    "hymns": [
+      },
       {
         "id": "AV-3-19",
         "hymn_number": 19,
@@ -1763,7 +832,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-20",
         "hymn_number": 20,
@@ -1802,7 +870,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-21",
         "hymn_number": 21,
@@ -1840,15 +907,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-
-{
-  "book3_part8": {
-    "hymns": [
+      },
       {
         "id": "AV-3-22",
         "hymn_number": 22,
@@ -1887,7 +946,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-23",
         "hymn_number": 23,
@@ -1926,7 +984,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-24",
         "hymn_number": 24,
@@ -1964,14 +1021,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part9": {
-    "hymns": [
+      },
       {
         "id": "AV-3-25",
         "hymn_number": 25,
@@ -2010,7 +1060,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-26",
         "hymn_number": 26,
@@ -2049,7 +1098,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-27",
         "hymn_number": 27,
@@ -2087,14 +1135,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part10": {
-    "hymns": [
+      },
       {
         "id": "AV-3-28",
         "hymn_number": 28,
@@ -2133,7 +1174,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-29",
         "hymn_number": 29,
@@ -2172,7 +1212,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-30",
         "hymn_number": 30,
