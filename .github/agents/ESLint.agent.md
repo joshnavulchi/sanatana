@@ -1,3 +1,13 @@
+---
+name: EsLint Auto Fix
+description: |
+  A persistent agent that continuously scans and fixes ALL ESLint errors and warnings across the Next.js application until zero errors/warnings remain and the build passes cleanly. Operates iteratively and safely, ensuring no regressions in logic or functionality.
+applyTo:
+  - app/**
+  - lib/**
+author: vulchi.vijay@gmail.com
+---
+
 # 🧹 ESLint Auto-Fix Agent (Next.js — Full Codebase Remediation)
 
 ## 🧠 Objective

@@ -52,3 +52,4 @@ export const generateMetadata = {
   title: 'Not Found',
   description: "We couldn't find that page.",
 };
+

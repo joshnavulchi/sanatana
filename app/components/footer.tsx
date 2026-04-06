@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 
-import { useState, Fragment } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -202,9 +202,14 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 }
 
 export default function Footer() {
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const footer = shared?.footer || {};
   const pathname = usePathname();
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
 
   const normalize = (p?: string) => {
     if (!p) return '/';
@@ -214,7 +219,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-gradient-to-br from-indigo-200 via-pink-100 via-40% to-amber-100 overflow-hidden">
+      <footer className="gradient-background w-full relative overflow-hidden">
         <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
@@ -241,7 +246,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm md:text-sm rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-sm md:text-sm rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -305,25 +310,48 @@ export default function Footer() {
           <div className="border-t border-gray-100">
             {/* Disclaimer + Socials */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
-              <div>
+              <div className="space-y-2">
                 <small className="text-xs leading-relaxed text-gray-600">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
-              <nav role="list" className="flex items-center gap-4" aria-label="Social links">
-                {/* <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
-                </Link> */}
-              </nav>
+              <div className="text-center">
+                {footer.shareMessage && (
+                  <small className="text-xs text-gray-900">{footer.shareMessage}</small>
+                )}
+                <nav role="list" className="flex items-center justify-end sm:justify-center gap-2" aria-label="Social links">
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on Facebook"
+                    href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Visit us on Instagram"
+                    href="https://www.instagram.com/vulchivijay"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on X"
+                    href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center border border-amber-200/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/x.svg" alt="x" width={25} height={25} className="inline-block" />
+                  </Link>
+                </nav>
+              </div>
             </div>
 
             {/* Copyright bar */}

@@ -11,3 +11,4 @@ export default function Card({ children, className = '' }: Props) {
     </div>
   );
 }
+

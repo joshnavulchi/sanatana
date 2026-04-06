@@ -62,7 +62,7 @@ function normalizeNav(nav: unknown, basePath: string): NavLink[] {
 
 export default function PuranasClient() {
   const { isLoading } = useLocale();
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const pageNs = useLocaleSection('puranas');
   const section = shared?.footer?.puranas;
   const title = section?.title || 'Puranas';
@@ -128,3 +128,4 @@ export default function PuranasClient() {
     </PageLayout>
   );
 }
+

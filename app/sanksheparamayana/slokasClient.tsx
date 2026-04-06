@@ -53,10 +53,10 @@ export default function SlokasClient() {
       metaKey="sanksheparamayana"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
-      className="layout-md bg-gradient-to-br from-[#fdf6e3] via-[#f5e6ca] to-[#f7d9c4] min-h-screen animate-fade-in">
+      className="layout-md min-h-screen">
       {/* Main characters */}
       {page.main_characters && page.main_characters.length > 0 && (
-        <div className="rounded-2xl bg-gradient-to-br from-[#f7d9c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+        <div className="rounded-2xl p-6 mb-8">
           <h2 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Main Characters</h2>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.main_characters.map((c: any, idx: number) => (
@@ -69,7 +69,7 @@ export default function SlokasClient() {
       )}
       {/* Important places */}
       {page.important_places && page.important_places.length > 0 && (
-        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+        <div className="border border-[#f5e6ca]/40 p-6 mb-8">
           <h3 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Important Places</h3>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.important_places.map((p: any, idx: number) => (
@@ -82,7 +82,7 @@ export default function SlokasClient() {
       )}
       {/* Timeline */}
       {page.timeline && page.timeline.length > 0 && (
-        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+        <div className="border border-[#f5e6ca]/40 p-6 mb-8">
           <h4 className="text-[#a15c1b] font-bold mb-3 drop-shadow">Timeline</h4>
           <ol role="list" className="list-decimal ml-6 space-y-2">
             {page.timeline.map((ev: any, idx: number) => (
@@ -95,7 +95,7 @@ export default function SlokasClient() {
       )}
       {/* Core themes */}
       {page.core_themes && page.core_themes.length > 0 && (
-        <div className="rounded-2xl bg-gradient-to-br from-[#f7e6c4]/80 via-[#f5e6ca]/80 to-[#fdf6e3]/80 shadow-xl border border-[#f5e6ca]/40 p-6 mb-8 animate-fade-in-up">
+        <div className="border border-[#f5e6ca]/40 p-6 mb-8">
           <h5 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Core Themes</h5>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.core_themes.map((ct: any, idx: number) => (

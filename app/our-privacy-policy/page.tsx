@@ -3,7 +3,7 @@ import { t, DEFAULT_LOCALE } from '@lib/i18n';
 import PageLayout from '@components/common/PageLayout';
 import { createGenerateMetadata } from '@lib/pageUtils';
 
-export const generateMetadata = createGenerateMetadata('privacy_policy');
+export const generateMetadata = createGenerateMetadata('privacy-policy');
 
 export default function PrivacyPolicyPage({ searchParams }: any) {
   const locale = DEFAULT_LOCALE;

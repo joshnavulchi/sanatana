@@ -11,7 +11,7 @@ export function detectLocale(searchParams?: Record<string, any>): string {
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
+  'en', 'te'
 ];
 
 // Public path where locale JSONs are served (update if you move them)
@@ -241,30 +241,30 @@ export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, nam
           const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
           for (const candidate of candidates) {
             try {
-                  // Try namespace.json first
-                  const filePath = path.join(process.cwd(), 'public', 'data', 'locales', locale, `${candidate}.json`);
-                  try {
-                    const txt = await fs.readFile(filePath, 'utf8');
-                    const parsed = JSON.parse(txt);
-                    try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
-                    return parsed;
-                  } catch (_) {
-                    // Try folder/index.json fallback
-                    const idxPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, 'index.json');
-                    try {
-                      const txt2 = await fs.readFile(idxPath, 'utf8');
-                      const parsed2 = JSON.parse(txt2);
-                      try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
-                      return parsed2;
-                    } catch (_) {
-                      // Try nested file {candidate}/{candidate}.json
-                      const nestedPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, `${candidate}.json`);
-                      const txt3 = await fs.readFile(nestedPath, 'utf8');
-                      const parsed3 = JSON.parse(txt3);
-                      try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
-                      return parsed3;
-                    }
-                  }
+              // Try namespace.json first
+              const filePath = path.join(process.cwd(), 'public', 'data', 'locales', locale, `${candidate}.json`);
+              try {
+                const txt = await fs.readFile(filePath, 'utf8');
+                const parsed = JSON.parse(txt);
+                try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+                return parsed;
+              } catch (_) {
+                // Try folder/index.json fallback
+                const idxPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, 'index.json');
+                try {
+                  const txt2 = await fs.readFile(idxPath, 'utf8');
+                  const parsed2 = JSON.parse(txt2);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
+                  return parsed2;
+                } catch (_) {
+                  // Try nested file {candidate}/{candidate}.json
+                  const nestedPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, `${candidate}.json`);
+                  const txt3 = await fs.readFile(nestedPath, 'utf8');
+                  const parsed3 = JSON.parse(txt3);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
+                  return parsed3;
+                }
+              }
             } catch (e) {
               // ignore file read/parse errors and try next candidate
             }

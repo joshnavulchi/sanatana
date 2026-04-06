@@ -14,12 +14,14 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const { locale } = useLocale();
   const [hero, setHero] = useState<Record<string, any>>({});
   const [isVisible, setIsVisible] = useState(false);
+  const heroRef = useRef<HTMLDivElement | null>(null);
 
   // added: video readiness + refs for mobile & desktop
   const videoRefMobile = useRef<HTMLVideoElement | null>(null);
   const videoRefDesktop = useRef<HTMLVideoElement | null>(null);
   const [isVideoReady, setIsVideoReady] = useState(false);
   const [showPlayOverlay, setShowPlayOverlay] = useState(false);
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
   // Helper to detect mobile
   const isMobile = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
 
@@ -36,6 +38,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
   // Fix: Ensure video plays on all browsers (Safari, Edge, Chrome mobile)
   useEffect(() => {
+    if (!shouldLoadVideo) return;
+
     const playVideo = (video: HTMLVideoElement | null) => {
       if (!video) return Promise.resolve();
       video.muted = true;
@@ -47,30 +51,50 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       // Try to play programmatically
       return video.play();
     };
-    // Only show overlay for mobile if play fails
-    if (isMobile) {
-      playVideo(videoRefMobile.current).then(() => {
-        setShowPlayOverlay(false);
-        setIsVideoReady(true);
-      }).catch(() => {
-        setShowPlayOverlay(true);
-        setIsVideoReady(false);
-      });
-    } else {
-      playVideo(videoRefDesktop.current).then(() => {
-        setShowPlayOverlay(false);
-        setIsVideoReady(true);
-      }).catch(() => {
-        setShowPlayOverlay(false); // never show overlay on desktop
-        setIsVideoReady(false);
-      });
+    // Only desktop video exists in this hero section, so use it directly.
+    const target = videoRefDesktop.current;
+    if (!target) return;
+
+    playVideo(target).then(() => {
+      setShowPlayOverlay(false);
+      setIsVideoReady(true);
+    }).catch(() => {
+      setShowPlayOverlay(false);
+      setIsVideoReady(false);
+    });
+  }, [shouldLoadVideo]);
+
+  useEffect(() => {
+    if (isMobile) return;
+    const node = heroRef.current;
+    if (!node || typeof IntersectionObserver === 'undefined') {
+      setShouldLoadVideo(true);
+      return;
     }
-  }, [hero?.video?.src]);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setShouldLoadVideo(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      {
+        rootMargin: '200px 0px',
+      }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [isMobile]);
 
   return (
     <div className="relative w-full min-h-[600px] px-3 overflow-hidden">
       {/* Background Images with Overlay */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" ref={heroRef}>
         <Image
           className="block md:hidden object-cover bg-top"
           src="/images/home/mobile-hero.png"
@@ -85,14 +109,28 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
         <div className="hidden md:block absolute inset-0">
           <video
             ref={videoRefDesktop}
-            src="/videos/kurushetra.mp4"
-            preload="auto"
+            preload={shouldLoadVideo ? 'metadata' : 'none'}
             playsInline
             muted
             loop
-            autoPlay
+            autoPlay={shouldLoadVideo}
+            poster={hero?.desktopImage ?? '/images/home/hero.png'}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-          />
+          >
+            {shouldLoadVideo ? (
+              <>
+                <source src="/videos/kurushetra.webm" type="video/webm" />
+                <source src="/videos/kurushetra.mp4" type="video/mp4" />
+                <track
+                  kind="captions"
+                  src="/videos/kurushetra-captions.vtt"
+                  srcLang="en"
+                  label="English captions"
+                  default
+                />
+              </>
+            ) : null}
+          </video>
           <Image
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-0' : 'opacity-100'}`}
             src={hero?.desktopImage ?? '/images/home/hero.png'}

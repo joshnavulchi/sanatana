@@ -1,10 +1,11 @@
 {
   "kidszone_illustratedstories": {
     "title": "Illustrated Stories",
+    "description": "A curated collection of short illustrated stories and morals from Indian tradition. Click a story to read its summary and moral.",
     "meta": {
       "title": "Kids Zone | Illustrated Stories — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
       "description": "KidsZone — IllustratedStories — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on KidsZone. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
       "keywords": [
         "Animal Fables",
         "Bedtime Stories for Kids",
@@ -53,6 +54,833 @@
       "ogimage": "/og/kidszone-illustratedstories.png",
       "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
     },
+    "kids_indian_stories": [
+      {
+        "title": "The Clever Rabbit and the Lion",
+        "characters": [
+          "Rabbit",
+          "Lion"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "Wisdom is stronger than strength.",
+        "origin": "Panchatantra",
+        "summary": "A small rabbit outsmarts a fierce lion by tricking him into jumping into a well after seeing his reflection.",
+        "themes": [
+          "Courage",
+          "Intelligence"
+        ]
+      },
+      {
+        "title": "The Monkey and the Crocodile",
+        "characters": [
+          "Monkey",
+          "Crocodile"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "Presence of mind saves lives.",
+        "origin": "Panchatantra",
+        "summary": "A monkey avoids danger by tricking a crocodile that tries to eat his heart.",
+        "themes": [
+          "Friendship",
+          "Deception"
+        ]
+      },
+      {
+        "title": "The Thirsty Crow",
+        "characters": [
+          "Crow"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "Where there is a will, there is a way.",
+        "origin": "Indian Folktale",
+        "summary": "A thirsty crow drops pebbles into a pot to raise the water level and drinks it.",
+        "themes": [
+          "Perseverance",
+          "Creativity"
+        ]
+      },
+      {
+        "title": "The Foolish Lion and the Clever Fox",
+        "characters": [
+          "Lion",
+          "Fox"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "Greed leads to downfall.",
+        "origin": "Panchatantra",
+        "summary": "A fox fools a lion into entering a deserted cave and the lion gets trapped forever.",
+        "themes": [
+          "Greed",
+          "Intelligence"
+        ]
+      },
+      {
+        "title": "The Talkative Tortoise",
+        "characters": [
+          "Tortoise",
+          "Swans"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "Talking too much can lead to trouble.",
+        "origin": "Panchatantra",
+        "summary": "A tortoise falls from the sky because he opens his mouth while being carried by two birds.",
+        "themes": [
+          "Discipline",
+          "Humor"
+        ]
+      },
+      {
+        "title": "Tenali Rama and the Thieves",
+        "characters": [
+          "Tenali Rama",
+          "Thieves"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "Smart thinking can save your home.",
+        "origin": "Tenali Raman Tales",
+        "summary": "Tenali Rama tricks thieves by pretending to clean his well all night while dropping stones into it.",
+        "themes": [
+          "Wisdom",
+          "Strategy"
+        ]
+      },
+      {
+        "title": "Birbal’s Khichdi Story",
+        "characters": [
+          "Birbal",
+          "Akbar"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "Patience and presence of mind win.",
+        "origin": "Akbar–Birbal",
+        "summary": "Birbal proves that thinking about heat from far away is the same as warming food from far away.",
+        "themes": [
+          "Justice",
+          "Logic"
+        ]
+      },
+      {
+        "title": "The Loyal Mongoose",
+        "characters": [
+          "Mongoose",
+          "Baby",
+          "Mother"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "Don't jump to conclusions.",
+        "origin": "Indian Folklore",
+        "summary": "A mongoose saves a baby from a snake, but is punished by mistake.",
+        "themes": [
+          "Loyalty",
+          "Trust"
+        ]
+      },
+      {
+        "title": "Krishna and the Butter Pot",
+        "characters": [
+          "Krishna",
+          "Gopis"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "Curiosity and playfulness are natural, but honesty matters.",
+        "origin": "Krishna Childhood Stories",
+        "summary": "Baby Krishna steals butter with his friends and charms everyone with his innocence.",
+        "themes": [
+          "Mischief",
+          "Love"
+        ]
+      },
+      {
+        "title": "Sudama and Krishna",
+        "characters": [
+          "Krishna",
+          "Sudama"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "True friendship is unconditional.",
+        "origin": "Bhagavata Purana",
+        "summary": "Poor Sudama visits Krishna with a humble gift, and Krishna showers him with love and blessings.",
+        "themes": [
+          "Friendship",
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Elephant and the Tailor",
+        "characters": [
+          "Elephant",
+          "Tailor"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "Kindness returns kindness; cruelty returns cruelty.",
+        "origin": "Indian Folktale",
+        "summary": "A tailor pricks an elephant, and the elephant throws muddy water on him in revenge.",
+        "themes": [
+          "Behavior",
+          "Consequences"
+        ]
+      },
+      {
+        "title": "The Wise Parrot",
+        "characters": [
+          "Parrot",
+          "King"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "Good advice can save lives.",
+        "origin": "Panchatantra",
+        "summary": "A parrot warns a king about his kingdom’s dangers and becomes his trusted friend.",
+        "themes": [
+          "Wisdom",
+          "Responsibility"
+        ]
+      },
+      {
+        "title": "Shravan Kumar’s Devotion",
+        "characters": [
+          "Shravan",
+          "Parents",
+          "King Dasharatha"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "Serving parents is noble.",
+        "origin": "Ramayana",
+        "summary": "Shravan Kumar cares for his blind parents and becomes a symbol of devotion.",
+        "themes": [
+          "Devotion",
+          "Family"
+        ]
+      },
+      {
+        "title": "Ganesha and the Mango",
+        "characters": [
+          "Ganesha",
+          "Kartikeya",
+          "Shiva",
+          "Parvati"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "Wisdom is greater than speed.",
+        "origin": "Puranas",
+        "summary": "Ganesha wins a contest by circling his parents instead of the world.",
+        "themes": [
+          "Family",
+          "Wisdom"
+        ]
+      },
+      {
+        "title": "The King and the Sparrow",
+        "characters": [
+          "King",
+          "Sparrow"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "Small acts of kindness matter.",
+        "origin": "Indian Folktale",
+        "summary": "A sparrow helps a king learn humility.",
+        "themes": [
+          "Kindness",
+          "Humility"
+        ]
+      },
+      {
+        "title": "The Golden Swan",
+        "characters": [
+          "Golden Swan",
+          "Mother",
+          "Daughters"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "Greed destroys happiness.",
+        "origin": "Jataka Tales",
+        "summary": "A golden swan gives feathers to a poor family, but greed ruins everything.",
+        "themes": [
+          "Greed",
+          "Generosity"
+        ]
+      },
+      {
+        "title": "The Hungry Mouse",
+        "characters": [
+          "Mouse"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "Self-control is important.",
+        "origin": "Panchatantra",
+        "summary": "A mouse becomes stuck in a hole after overeating.",
+        "themes": [
+          "Discipline"
+        ]
+      },
+      {
+        "title": "The Lion and the Mouse",
+        "characters": [
+          "Lion",
+          "Mouse"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "Even the small can help the mighty.",
+        "origin": "Indian Adaptation",
+        "summary": "A lion spares a mouse and the mouse rescues the lion later.",
+        "themes": [
+          "Kindness",
+          "Friendship"
+        ]
+      },
+      {
+        "title": "The Wise Carpenter",
+        "characters": [
+          "Carpenter",
+          "Villagers"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "Wisdom solves conflict.",
+        "origin": "Indian Village Tale",
+        "summary": "A carpenter peacefully resolves a land dispute using clever planning.",
+        "themes": [
+          "Peace",
+          "Justice"
+        ]
+      },
+      {
+        "title": "The Magic Drum",
+        "characters": [
+          "Boy",
+          "Fairies"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "Honesty is rewarded.",
+        "origin": "Indian Folktale",
+        "summary": "A kind boy receives a magic drum that creates food and toys.",
+        "themes": [
+          "Magic",
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Brave Little Sparrow",
+        "characters": [
+          "Sparrow",
+          "Elephant"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "Courage can defeat the mighty.",
+        "origin": "India",
+        "summary": "A sparrow saves her children from a huge elephant.",
+        "themes": [
+          "Courage"
+        ]
+      },
+      {
+        "title": "Arjuna and the Bird’s Eye",
+        "characters": [
+          "Arjuna",
+          "Drona"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "Focus leads to success.",
+        "origin": "Mahabharata",
+        "summary": "Arjuna impresses his guru by focusing solely on a bird’s eye.",
+        "themes": [
+          "Discipline",
+          "Training"
+        ]
+      },
+      {
+        "title": "The Crooked Tree",
+        "characters": [
+          "Crooked Tree",
+          "Tall Trees"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "Be content with who you are.",
+        "origin": "Indian Forest Tale",
+        "summary": "A crooked tree survives woodcutters because of its shape.",
+        "themes": [
+          "Self-worth"
+        ]
+      },
+      {
+        "title": "The Magic Pot",
+        "characters": [
+          "Farmer"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "Good things come to good people.",
+        "origin": "Indian Folklore",
+        "summary": "A farmer finds a pot that doubles anything he puts inside.",
+        "themes": [
+          "Magic",
+          "Good Fortune"
+        ]
+      },
+      {
+        "title": "The Kind Deer",
+        "characters": [
+          "Deer King",
+          "Doe",
+          "Human King"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "Kindness inspires kindness.",
+        "origin": "Jataka Tales",
+        "summary": "A deer king saves a doe and earns the king’s respect.",
+        "themes": [
+          "Compassion"
+        ]
+      },
+      {
+        "title": "The Flying Elephant",
+        "characters": [
+          "Elephant",
+          "Sage"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "Be humble.",
+        "origin": "Indian Fantasy",
+        "summary": "An elephant with wings loses them after misusing his powers.",
+        "themes": [
+          "Humility"
+        ]
+      },
+      {
+        "title": "The Pot of Wisdom",
+        "characters": [
+          "Boy",
+          "Sage"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "Wisdom grows when shared.",
+        "origin": "South Indian Tale",
+        "summary": "A boy learns that no one can hold all wisdom alone.",
+        "themes": [
+          "Learning"
+        ]
+      },
+      {
+        "title": "The Magic Fish",
+        "characters": [
+          "Fisherman",
+          "Magic Fish"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "Gratitude is important.",
+        "origin": "Indian Ocean Folktale",
+        "summary": "A fisherman catches a magical fish that offers help in return for freedom.",
+        "themes": [
+          "Gratitude",
+          "Magic"
+        ]
+      },
+      {
+        "title": "The Coconut and the Ant",
+        "characters": [
+          "Ants",
+          "Coconut"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "Even the smallest effort matters.",
+        "origin": "Village Story",
+        "summary": "Ants join together to help a coconut reach the sea.",
+        "themes": [
+          "Teamwork"
+        ]
+      },
+      {
+        "title": "The Tiger and the Woodcutter",
+        "characters": [
+          "Tiger",
+          "Woodcutter"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "Help others and you will be helped.",
+        "origin": "Indian Jungle Story",
+        "summary": "A woodcutter frees a trapped tiger who surprisingly spares his life.",
+        "themes": [
+          "Compassion",
+          "Courage"
+        ]
+      },
+      {
+        "title": "The Two Cats and the Monkey",
+        "characters": [
+          "Cats",
+          "Monkey"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "Don’t let others settle your fights.",
+        "origin": "Panchatantra",
+        "summary": "A monkey eats the bread while pretending to divide it fairly for two cats.",
+        "themes": [
+          "Justice",
+          "Foolishness"
+        ]
+      },
+      {
+        "title": "The Sparrow and the Sea",
+        "characters": [
+          "Sparrow",
+          "Sea",
+          "Rama"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "Determination moves mountains.",
+        "origin": "Rama Story",
+        "summary": "A sparrow threatens the sea when it takes her eggs, inspiring Lord Rama.",
+        "themes": [
+          "Determination"
+        ]
+      },
+      {
+        "title": "The Boy Who Cried Tiger",
+        "characters": [
+          "Boy",
+          "Villagers",
+          "Tiger"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "Never lie.",
+        "origin": "Indian Adaptation",
+        "summary": "A boy fools villagers but suffers when a tiger really appears.",
+        "themes": [
+          "Honesty"
+        ]
+      },
+      {
+        "title": "The Magic Banyan Tree",
+        "characters": [
+          "Tree",
+          "Traveler"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "Generosity brings luck.",
+        "origin": "Folktale",
+        "summary": "A tree gives fruit, shade, and gold coins to a kind traveler.",
+        "themes": [
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Curious Peacock",
+        "characters": [
+          "Peacock",
+          "Nightingale"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "Be happy with your strengths.",
+        "origin": "Indian Animal Tale",
+        "summary": "A peacock wants a nightingale’s voice but learns beauty has its own charm.",
+        "themes": [
+          "Self-love"
+        ]
+      },
+      {
+        "title": "The Clever Weaver",
+        "characters": [
+          "Weaver",
+          "Ghost"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "Smart work wins.",
+        "origin": "South India",
+        "summary": "A weaver fools a ghost and becomes rich.",
+        "themes": [
+          "Courage",
+          "Wisdom"
+        ]
+      },
+      {
+        "title": "The Fruits of Hard Work",
+        "characters": [
+          "Brothers"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "Hard work always pays off.",
+        "origin": "Indian Village",
+        "summary": "Two brothers learn that effort matters more than luck.",
+        "themes": [
+          "Hard Work"
+        ]
+      },
+      {
+        "title": "The Little Drum",
+        "characters": [
+          "Boy"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "Good deeds multiply.",
+        "origin": "North India",
+        "summary": "A boy is gifted a drum that brings happiness wherever he goes.",
+        "themes": [
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Donkey and the Tiger Skin",
+        "characters": [
+          "Donkey",
+          "Farmer"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "Pretending to be someone else leads to trouble.",
+        "origin": "Panchatantra",
+        "summary": "A donkey wears a tiger skin but ruins everything by braying.",
+        "themes": [
+          "Identity"
+        ]
+      },
+      {
+        "title": "The Hidden Treasure",
+        "characters": [
+          "Father",
+          "Sons"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "Work itself is treasure.",
+        "origin": "Indian Village Tale",
+        "summary": "A father tricks his sons into farming by telling them treasure lies buried in the field.",
+        "themes": [
+          "Hard Work"
+        ]
+      },
+      {
+        "title": "The Brave Parrot",
+        "characters": [
+          "Parrot",
+          "God"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "Courage helps others.",
+        "origin": "Jataka Tales",
+        "summary": "A parrot tries to save a burning forest and inspires the gods.",
+        "themes": [
+          "Bravery"
+        ]
+      },
+      {
+        "title": "The Boy and the Drum",
+        "characters": [
+          "Boy"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "Small gifts can make a big difference.",
+        "origin": "Indian Folktale",
+        "summary": "A boy uses a drum to spread happiness.",
+        "themes": [
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Mouse Merchant",
+        "characters": [
+          "Merchant"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "Fortune favors courage.",
+        "origin": "Panchatantra",
+        "summary": "A man becomes rich starting with a single mouse.",
+        "themes": [
+          "Courage"
+        ]
+      },
+      {
+        "title": "The Talking Cave",
+        "characters": [
+          "Lion",
+          "Jackal"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "Overthinking leads to trouble.",
+        "origin": "Panchatantra",
+        "summary": "A lion hides in a cave and a clever jackal avoids danger.",
+        "themes": [
+          "Caution"
+        ]
+      },
+      {
+        "title": "The Greedy Barber",
+        "characters": [
+          "Barber"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "Greed destroys wisdom.",
+        "origin": "India",
+        "summary": "A barber loses all his riches because of greed.",
+        "themes": [
+          "Greed"
+        ]
+      },
+      {
+        "title": "The Milkmaid’s Dream",
+        "characters": [
+          "Milkmaid"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "Don’t count your chickens before they hatch.",
+        "origin": "India",
+        "summary": "A milkmaid dreams of riches and spills her milk.",
+        "themes": [
+          "Planning"
+        ]
+      },
+      {
+        "title": "The Magical Sparrow",
+        "characters": [
+          "Sparrow",
+          "Farmer"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "Help brings reward.",
+        "origin": "Indian Village",
+        "summary": "A sparrow helps a farmer and his crops grow magically.",
+        "themes": [
+          "Magic",
+          "Kindness"
+        ]
+      },
+      {
+        "title": "The Wise Old Elephant",
+        "characters": [
+          "Elephant"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "Age brings wisdom.",
+        "origin": "Indian Jungle Tale",
+        "summary": "An elderly elephant guides his herd to safety during drought.",
+        "themes": [
+          "Wisdom"
+        ]
+      },
+      {
+        "title": "The Lotus and the Frog",
+        "characters": [
+          "Frog",
+          "Lotus"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "Patience is powerful.",
+        "origin": "Indian River Tale",
+        "summary": "A lotus teaches a restless frog to slow down.",
+        "themes": [
+          "Patience"
+        ]
+      },
+      {
+        "title": "The King Who Ate Too Many Sweets",
+        "characters": [
+          "King",
+          "Royal Cook"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "Moderation is important.",
+        "origin": "Indian Palace Story",
+        "summary": "A king overeats sweets and learns to control his cravings.",
+        "themes": [
+          "Health",
+          "Discipline"
+        ]
+      }
+    ],
     "schema": {
       "@context": "https://schema.org",
       "mainentity": {
@@ -61,12 +889,12 @@
           "@type": "ContactPoint",
           "areaserved": "Worldwide",
           "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Spanish",
-              "French"
-            ],
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
           "contacttype": "Customer Support",
           "email": "info@sanatanadharmam.in",
           "telephone": "+91-8099181075"
@@ -75,559 +903,6 @@
         "name": "About Sanatanadharmam.in",
         "url": "https://sanatanadharmam.in"
       }
-    },
-    "description": "A curated collection of short illustrated stories and morals from Indian tradition. Click a story to read its summary and moral.",
-    "kids_indian_stories": [
-      {
-        "title": "The Clever Rabbit and the Lion",
-        "characters": ["Rabbit", "Lion"],
-        "id": 1,
-        "imgalt": "The Clever Rabbit and the Lion",
-        "imgsrc": "/images/illustrate/thumbs/1.png",
-        "moral": "Wisdom is stronger than strength.",
-        "origin": "Panchatantra",
-        "summary": "A small rabbit outsmarts a fierce lion by tricking him into jumping into a well after seeing his reflection.",
-        "themes": ["Courage", "Intelligence"]
-      },
-      {
-        "title": "The Monkey and the Crocodile",
-        "characters": ["Monkey", "Crocodile"],
-        "id": 2,
-        "imgalt": "The Monkey and the Crocodile",
-        "imgsrc": "/images/illustrate/thumbs/2.png",
-        "moral": "Presence of mind saves lives.",
-        "origin": "Panchatantra",
-        "summary": "A monkey avoids danger by tricking a crocodile that tries to eat his heart.",
-        "themes": ["Friendship", "Deception"]
-      },
-      {
-        "title": "The Thirsty Crow",
-        "characters": ["Crow"],
-        "id": 3,
-        "imgalt": "The Thirsty Crow",
-        "imgsrc": "/images/illustrate/thumbs/3.png",
-        "moral": "Where there is a will, there is a way.",
-        "origin": "Indian Folktale",
-        "summary": "A thirsty crow drops pebbles into a pot to raise the water level and drinks it.",
-        "themes": ["Perseverance", "Creativity"]
-      },
-      {
-        "title": "The Foolish Lion and the Clever Fox",
-        "characters": ["Lion", "Fox"],
-        "id": 4,
-        "imgalt": "The Foolish Lion and the Clever Fox",
-        "imgsrc": "/images/illustrate/thumbs/4.png",
-        "moral": "Greed leads to downfall.",
-        "origin": "Panchatantra",
-        "summary": "A fox fools a lion into entering a deserted cave and the lion gets trapped forever.",
-        "themes": ["Greed", "Intelligence"]
-      },
-      {
-        "title": "The Talkative Tortoise",
-        "characters": ["Tortoise", "Swans"],
-        "id": 5,
-        "imgalt": "The Talkative Tortoise",
-        "imgsrc": "/images/illustrate/thumbs/5.png",
-        "moral": "Talking too much can lead to trouble.",
-        "origin": "Panchatantra",
-        "summary": "A tortoise falls from the sky because he opens his mouth while being carried by two birds.",
-        "themes": ["Discipline", "Humor"]
-      },
-      {
-        "title": "Tenali Rama and the Thieves",
-        "characters": ["Tenali Rama", "Thieves"],
-        "id": 6,
-        "imgalt": "Tenali Rama and the Thieves",
-        "imgsrc": "/images/illustrate/thumbs/6.png",
-        "moral": "Smart thinking can save your home.",
-        "origin": "Tenali Raman Tales",
-        "summary": "Tenali Rama tricks thieves by pretending to clean his well all night while dropping stones into it.",
-        "themes": ["Wisdom", "Strategy"]
-      },
-      {
-        "title": "Birbal’s Khichdi Story",
-        "characters": ["Birbal", "Akbar"],
-        "id": 7,
-        "imgalt": "Birbal’s Khichdi Story",
-        "imgsrc": "/images/illustrate/thumbs/7.png",
-        "moral": "Patience and presence of mind win.",
-        "origin": "Akbar–Birbal",
-        "summary": "Birbal proves that thinking about heat from far away is the same as warming food from far away.",
-        "themes": ["Justice", "Logic"]
-      },
-      {
-        "title": "The Loyal Mongoose",
-        "characters": ["Mongoose", "Baby", "Mother"],
-        "id": 8,
-        "imgalt": "The Loyal Mongoose",
-        "imgsrc": "/images/illustrate/thumbs/8.png",
-        "moral": "Don't jump to conclusions.",
-        "origin": "Indian Folklore",
-        "summary": "A mongoose saves a baby from a snake, but is punished by mistake.",
-        "themes": ["Loyalty", "Trust"]
-      },
-      {
-        "title": "Krishna and the Butter Pot",
-        "characters": ["Krishna", "Gopis"],
-        "id": 9,
-        "imgalt": "Krishna and the Butter Pot",
-        "imgsrc": "/images/illustrate/thumbs/9.png",
-        "moral": "Curiosity and playfulness are natural, but honesty matters.",
-        "origin": "Krishna Childhood Stories",
-        "summary": "Baby Krishna steals butter with his friends and charms everyone with his innocence.",
-        "themes": ["Mischief", "Love"]
-      },
-      {
-        "title": "Sudama and Krishna",
-        "characters": ["Krishna", "Sudama"],
-        "id": 10,
-        "imgalt": "Sudama and Krishna",
-        "imgsrc": "/images/illustrate/thumbs/10.png",
-        "moral": "True friendship is unconditional.",
-        "origin": "Bhagavata Purana",
-        "summary": "Poor Sudama visits Krishna with a humble gift, and Krishna showers him with love and blessings.",
-        "themes": ["Friendship", "Kindness"]
-      },
-      {
-        "title": "The Elephant and the Tailor",
-        "characters": ["Elephant", "Tailor"],
-        "id": 11,
-        "imgalt": "The Elephant and the Tailor",
-        "imgsrc": "/images/illustrate/thumbs/11.png",
-        "moral": "Kindness returns kindness; cruelty returns cruelty.",
-        "origin": "Indian Folktale",
-        "summary": "A tailor pricks an elephant, and the elephant throws muddy water on him in revenge.",
-        "themes": ["Behavior", "Consequences"]
-      },
-      {
-        "title": "The Wise Parrot",
-        "characters": ["Parrot", "King"],
-        "id": 12,
-        "imgalt": "The Wise Parrot",
-        "imgsrc": "/images/illustrate/thumbs/12.png",
-        "moral": "Good advice can save lives.",
-        "origin": "Panchatantra",
-        "summary": "A parrot warns a king about his kingdom’s dangers and becomes his trusted friend.",
-        "themes": ["Wisdom", "Responsibility"]
-      },
-      {
-        "title": "Shravan Kumar’s Devotion",
-        "characters": ["Shravan", "Parents", "King Dasharatha"],
-        "id": 13,
-        "imgalt": "Shravan Kumar’s Devotion",
-        "imgsrc": "/images/illustrate/thumbs/13.png",
-        "moral": "Serving parents is noble.",
-        "origin": "Ramayana",
-        "summary": "Shravan Kumar cares for his blind parents and becomes a symbol of devotion.",
-        "themes": ["Devotion", "Family"]
-      },
-      {
-        "title": "Ganesha and the Mango",
-        "characters": ["Ganesha", "Kartikeya", "Shiva", "Parvati"],
-        "id": 14,
-        "imgalt": "Ganesha and the Mango",
-        "imgsrc": "/images/illustrate/thumbs/14.png",
-        "moral": "Wisdom is greater than speed.",
-        "origin": "Puranas",
-        "summary": "Ganesha wins a contest by circling his parents instead of the world.",
-        "themes": ["Family", "Wisdom"]
-      },
-      {
-        "title": "The King and the Sparrow",
-        "characters": ["King", "Sparrow"],
-        "id": 15,
-        "imgalt": "The King and the Sparrow",
-        "imgsrc": "/images/illustrate/thumbs/15.png",
-        "moral": "Small acts of kindness matter.",
-        "origin": "Indian Folktale",
-        "summary": "A sparrow helps a king learn humility.",
-        "themes": ["Kindness", "Humility"]
-      },
-      {
-        "title": "The Golden Swan",
-        "characters": ["Golden Swan", "Mother", "Daughters"],
-        "id": 16,
-        "imgalt": "The Golden Swan",
-        "imgsrc": "/images/illustrate/thumbs/16.png",
-        "moral": "Greed destroys happiness.",
-        "origin": "Jataka Tales",
-        "summary": "A golden swan gives feathers to a poor family, but greed ruins everything.",
-        "themes": ["Greed", "Generosity"]
-      },
-      {
-        "title": "The Hungry Mouse",
-        "characters": ["Mouse"],
-        "id": 17,
-        "imgalt": "The Hungry Mouse",
-        "imgsrc": "/images/illustrate/thumbs/17.png",
-        "moral": "Self-control is important.",
-        "origin": "Panchatantra",
-        "summary": "A mouse becomes stuck in a hole after overeating.",
-        "themes": ["Discipline"]
-      },
-      {
-        "title": "The Lion and the Mouse",
-        "characters": ["Lion", "Mouse"],
-        "id": 18,
-        "imgalt": "The Lion and the Mouse",
-        "imgsrc": "/images/illustrate/thumbs/18.png",
-        "moral": "Even the small can help the mighty.",
-        "origin": "Indian Adaptation",
-        "summary": "A lion spares a mouse and the mouse rescues the lion later.",
-        "themes": ["Kindness", "Friendship"]
-      },
-      {
-        "title": "The Wise Carpenter",
-        "characters": ["Carpenter", "Villagers"],
-        "id": 19,
-        "imgalt": "The Wise Carpenter",
-        "imgsrc": "/images/illustrate/thumbs/19.png",
-        "moral": "Wisdom solves conflict.",
-        "origin": "Indian Village Tale",
-        "summary": "A carpenter peacefully resolves a land dispute using clever planning.",
-        "themes": ["Peace", "Justice"]
-      },
-      {
-        "title": "The Magic Drum",
-        "characters": ["Boy", "Fairies"],
-        "id": 20,
-        "imgalt": "The Magic Drum",
-        "imgsrc": "/images/illustrate/thumbs/20.png",
-        "moral": "Honesty is rewarded.",
-        "origin": "Indian Folktale",
-        "summary": "A kind boy receives a magic drum that creates food and toys.",
-        "themes": ["Magic", "Kindness"]
-      },
-      {
-        "title": "The Brave Little Sparrow",
-        "characters": ["Sparrow", "Elephant"],
-        "id": 21,
-        "imgalt": "The Brave Little Sparrow",
-        "imgsrc": "/images/illustrate/thumbs/21.png",
-        "moral": "Courage can defeat the mighty.",
-        "origin": "India",
-        "summary": "A sparrow saves her children from a huge elephant.",
-        "themes": ["Courage"]
-      },
-      {
-        "title": "Arjuna and the Bird’s Eye",
-        "characters": ["Arjuna", "Drona"],
-        "id": 22,
-        "imgalt": "Arjuna and the Bird’s Eye",
-        "imgsrc": "/images/illustrate/thumbs/22.png",
-        "moral": "Focus leads to success.",
-        "origin": "Mahabharata",
-        "summary": "Arjuna impresses his guru by focusing solely on a bird’s eye.",
-        "themes": ["Discipline", "Training"]
-      },
-      {
-        "title": "The Crooked Tree",
-        "characters": ["Crooked Tree", "Tall Trees"],
-        "id": 23,
-        "imgalt": "The Crooked Tree",
-        "imgsrc": "/images/illustrate/thumbs/23.png",
-        "moral": "Be content with who you are.",
-        "origin": "Indian Forest Tale",
-        "summary": "A crooked tree survives woodcutters because of its shape.",
-        "themes": ["Self-worth"]
-      },
-      {
-        "title": "The Magic Pot",
-        "characters": ["Farmer"],
-        "id": 24,
-        "imgalt": "The Magic Pot",
-        "imgsrc": "/images/illustrate/thumbs/24.png",
-        "moral": "Good things come to good people.",
-        "origin": "Indian Folklore",
-        "summary": "A farmer finds a pot that doubles anything he puts inside.",
-        "themes": ["Magic", "Good Fortune"]
-      },
-      {
-        "title": "The Kind Deer",
-        "characters": ["Deer King", "Doe", "Human King"],
-        "id": 25,
-        "imgalt": "The Kind Deer",
-        "imgsrc": "/images/illustrate/thumbs/25.png",
-        "moral": "Kindness inspires kindness.",
-        "origin": "Jataka Tales",
-        "summary": "A deer king saves a doe and earns the king’s respect.",
-        "themes": ["Compassion"]
-      },
-      {
-        "title": "The Flying Elephant",
-        "characters": ["Elephant", "Sage"],
-        "id": 26,
-        "imgalt": "The Flying Elephant",
-        "imgsrc": "/images/illustrate/thumbs/26.png",
-        "moral": "Be humble.",
-        "origin": "Indian Fantasy",
-        "summary": "An elephant with wings loses them after misusing his powers.",
-        "themes": ["Humility"]
-      },
-      {
-        "title": "The Pot of Wisdom",
-        "characters": ["Boy", "Sage"],
-        "id": 27,
-        "imgalt": "The Pot of Wisdom",
-        "imgsrc": "/images/illustrate/thumbs/27.png",
-        "moral": "Wisdom grows when shared.",
-        "origin": "South Indian Tale",
-        "summary": "A boy learns that no one can hold all wisdom alone.",
-        "themes": ["Learning"]
-      },
-      {
-        "title": "The Magic Fish",
-        "characters": ["Fisherman", "Magic Fish"],
-        "id": 28,
-        "imgalt": "The Magic Fish",
-        "imgsrc": "/images/illustrate/thumbs/28.png",
-        "moral": "Gratitude is important.",
-        "origin": "Indian Ocean Folktale",
-        "summary": "A fisherman catches a magical fish that offers help in return for freedom.",
-        "themes": ["Gratitude", "Magic"]
-      },
-      {
-        "title": "The Coconut and the Ant",
-        "characters": ["Ants", "Coconut"],
-        "id": 29,
-        "imgalt": "The Coconut and the Ant",
-        "imgsrc": "/images/illustrate/thumbs/29.png",
-        "moral": "Even the smallest effort matters.",
-        "origin": "Village Story",
-        "summary": "Ants join together to help a coconut reach the sea.",
-        "themes": ["Teamwork"]
-      },
-      {
-        "title": "The Tiger and the Woodcutter",
-        "characters": ["Tiger", "Woodcutter"],
-        "id": 30,
-        "imgalt": "The Tiger and the Woodcutter",
-        "imgsrc": "/images/illustrate/thumbs/30.png",
-        "moral": "Help others and you will be helped.",
-        "origin": "Indian Jungle Story",
-        "summary": "A woodcutter frees a trapped tiger who surprisingly spares his life.",
-        "themes": ["Compassion", "Courage"]
-      },
-      {
-        "title": "The Two Cats and the Monkey",
-        "characters": ["Cats", "Monkey"],
-        "id": 31,
-        "imgalt": "The Two Cats and the Monkey",
-        "imgsrc": "/images/illustrate/thumbs/31.png",
-        "moral": "Don’t let others settle your fights.",
-        "origin": "Panchatantra",
-        "summary": "A monkey eats the bread while pretending to divide it fairly for two cats.",
-        "themes": ["Justice", "Foolishness"]
-      },
-      {
-        "title": "The Sparrow and the Sea",
-        "characters": ["Sparrow", "Sea", "Rama"],
-        "id": 32,
-        "imgalt": "The Sparrow and the Sea",
-        "imgsrc": "/images/illustrate/thumbs/32.png",
-        "moral": "Determination moves mountains.",
-        "origin": "Rama Story",
-        "summary": "A sparrow threatens the sea when it takes her eggs, inspiring Lord Rama.",
-        "themes": ["Determination"]
-      },
-      {
-        "title": "The Boy Who Cried Tiger",
-        "characters": ["Boy", "Villagers", "Tiger"],
-        "id": 33,
-        "imgalt": "The Boy Who Cried Tiger",
-        "imgsrc": "/images/illustrate/thumbs/33.png",
-        "moral": "Never lie.",
-        "origin": "Indian Adaptation",
-        "summary": "A boy fools villagers but suffers when a tiger really appears.",
-        "themes": ["Honesty"]
-      },
-      {
-        "title": "The Magic Banyan Tree",
-        "characters": ["Tree", "Traveler"],
-        "id": 34,
-        "imgalt": "The Magic Banyan Tree",
-        "imgsrc": "/images/illustrate/thumbs/34.png",
-        "moral": "Generosity brings luck.",
-        "origin": "Folktale",
-        "summary": "A tree gives fruit, shade, and gold coins to a kind traveler.",
-        "themes": ["Kindness"]
-      },
-      {
-        "title": "The Curious Peacock",
-        "characters": ["Peacock", "Nightingale"],
-        "id": 35,
-        "imgalt": "The Curious Peacock",
-        "imgsrc": "/images/illustrate/thumbs/35.png",
-        "moral": "Be happy with your strengths.",
-        "origin": "Indian Animal Tale",
-        "summary": "A peacock wants a nightingale’s voice but learns beauty has its own charm.",
-        "themes": ["Self-love"]
-      },
-      {
-        "title": "The Clever Weaver",
-        "characters": ["Weaver", "Ghost"],
-        "id": 36,
-        "imgalt": "The Clever Weaver",
-        "imgsrc": "/images/illustrate/thumbs/36.png",
-        "moral": "Smart work wins.",
-        "origin": "South India",
-        "summary": "A weaver fools a ghost and becomes rich.",
-        "themes": ["Courage", "Wisdom"]
-      },
-      {
-        "title": "The Fruits of Hard Work",
-        "characters": ["Brothers"],
-        "id": 37,
-        "imgalt": "The Fruits of Hard Work",
-        "imgsrc": "/images/illustrate/thumbs/37.png",
-        "moral": "Hard work always pays off.",
-        "origin": "Indian Village",
-        "summary": "Two brothers learn that effort matters more than luck.",
-        "themes": ["Hard Work"]
-      },
-      {
-        "title": "The Little Drum",
-        "characters": ["Boy"],
-        "id": 38,
-        "imgalt": "The Little Drum",
-        "imgsrc": "/images/illustrate/thumbs/38.png",
-        "moral": "Good deeds multiply.",
-        "origin": "North India",
-        "summary": "A boy is gifted a drum that brings happiness wherever he goes.",
-        "themes": ["Kindness"]
-      },
-      {
-        "title": "The Donkey and the Tiger Skin",
-        "characters": ["Donkey", "Farmer"],
-        "id": 39,
-        "imgalt": "The Donkey and the Tiger Skin",
-        "imgsrc": "/images/illustrate/thumbs/39.png",
-        "moral": "Pretending to be someone else leads to trouble.",
-        "origin": "Panchatantra",
-        "summary": "A donkey wears a tiger skin but ruins everything by braying.",
-        "themes": ["Identity"]
-      },
-      {
-        "title": "The Hidden Treasure",
-        "characters": ["Father", "Sons"],
-        "id": 40,
-        "imgalt": "The Hidden Treasure",
-        "imgsrc": "/images/illustrate/thumbs/40.png",
-        "moral": "Work itself is treasure.",
-        "origin": "Indian Village Tale",
-        "summary": "A father tricks his sons into farming by telling them treasure lies buried in the field.",
-        "themes": ["Hard Work"]
-      },
-      {
-        "title": "The Brave Parrot",
-        "characters": ["Parrot", "God"],
-        "id": 41,
-        "imgalt": "The Brave Parrot",
-        "imgsrc": "/images/illustrate/thumbs/41.png",
-        "moral": "Courage helps others.",
-        "origin": "Jataka Tales",
-        "summary": "A parrot tries to save a burning forest and inspires the gods.",
-        "themes": ["Bravery"]
-      },
-      {
-        "title": "The Boy and the Drum",
-        "characters": ["Boy"],
-        "id": 42,
-        "imgalt": "The Boy and the Drum",
-        "imgsrc": "/images/illustrate/thumbs/42.png",
-        "moral": "Small gifts can make a big difference.",
-        "origin": "Indian Folktale",
-        "summary": "A boy uses a drum to spread happiness.",
-        "themes": ["Kindness"]
-      },
-      {
-        "title": "The Mouse Merchant",
-        "characters": ["Merchant"],
-        "id": 43,
-        "imgalt": "The Mouse Merchant",
-        "imgsrc": "/images/illustrate/thumbs/43.png",
-        "moral": "Fortune favors courage.",
-        "origin": "Panchatantra",
-        "summary": "A man becomes rich starting with a single mouse.",
-        "themes": ["Courage"]
-      },
-      {
-        "title": "The Talking Cave",
-        "characters": ["Lion", "Jackal"],
-        "id": 44,
-        "imgalt": "The Talking Cave",
-        "imgsrc": "/images/illustrate/thumbs/44.png",
-        "moral": "Overthinking leads to trouble.",
-        "origin": "Panchatantra",
-        "summary": "A lion hides in a cave and a clever jackal avoids danger.",
-        "themes": ["Caution"]
-      },
-      {
-        "title": "The Greedy Barber",
-        "characters": ["Barber"],
-        "id": 45,
-        "imgalt": "The Greedy Barber",
-        "imgsrc": "/images/illustrate/thumbs/45.png",
-        "moral": "Greed destroys wisdom.",
-        "origin": "India",
-        "summary": "A barber loses all his riches because of greed.",
-        "themes": ["Greed"]
-      },
-      {
-        "title": "The Milkmaid’s Dream",
-        "characters": ["Milkmaid"],
-        "id": 46,
-        "imgalt": "The Milkmaid’s Dream",
-        "imgsrc": "/images/illustrate/thumbs/46.png",
-        "moral": "Don’t count your chickens before they hatch.",
-        "origin": "India",
-        "summary": "A milkmaid dreams of riches and spills her milk.",
-        "themes": ["Planning"]
-      },
-      {
-        "title": "The Magical Sparrow",
-        "characters": ["Sparrow", "Farmer"],
-        "id": 47,
-        "imgalt": "The Magical Sparrow",
-        "imgsrc": "/images/illustrate/thumbs/47.png",
-        "moral": "Help brings reward.",
-        "origin": "Indian Village",
-        "summary": "A sparrow helps a farmer and his crops grow magically.",
-        "themes": ["Magic", "Kindness"]
-      },
-      {
-        "title": "The Wise Old Elephant",
-        "characters": ["Elephant"],
-        "id": 48,
-        "imgalt": "The Wise Old Elephant",
-        "imgsrc": "/images/illustrate/thumbs/48.png",
-        "moral": "Age brings wisdom.",
-        "origin": "Indian Jungle Tale",
-        "summary": "An elderly elephant guides his herd to safety during drought.",
-        "themes": ["Wisdom"]
-      },
-      {
-        "title": "The Lotus and the Frog",
-        "characters": ["Frog", "Lotus"],
-        "id": 49,
-        "imgalt": "The Lotus and the Frog",
-        "imgsrc": "/images/illustrate/thumbs/49.png",
-        "moral": "Patience is powerful.",
-        "origin": "Indian River Tale",
-        "summary": "A lotus teaches a restless frog to slow down.",
-        "themes": ["Patience"]
-      },
-      {
-        "title": "The King Who Ate Too Many Sweets",
-        "characters": ["King", "Royal Cook"],
-        "id": 50,
-        "imgalt": "The King Who Ate Too Many Sweets",
-        "imgsrc": "/images/illustrate/thumbs/50.png",
-        "moral": "Moderation is important.",
-        "origin": "Indian Palace Story",
-        "summary": "A king overeats sweets and learns to control his cravings.",
-        "themes": ["Health", "Discipline"]
-      }
-    ]
+    }
   }
 }

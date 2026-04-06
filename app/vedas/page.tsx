@@ -16,6 +16,6 @@ export default async function Page() {
     ? parsed.scripture_text as Record<string, unknown>[]
     : [];
 
-  return <VedasClient initialVedas={initialVedas} />;
+  return <VedasClient initialData={parsed} initialVedas={initialVedas} />;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

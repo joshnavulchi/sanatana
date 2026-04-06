@@ -58,7 +58,7 @@ function normalizeNav(nav: unknown, basePath: string): NavLink[] {
 
 export default function UpanishadsClient() {
   const { isLoading } = useLocale();
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const pageNs = useLocaleSection('upanishads/index');
   const section = shared?.footer?.upanishads;
   const title = section?.title || 'Upanishads';
@@ -127,3 +127,4 @@ export default function UpanishadsClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

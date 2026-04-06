@@ -4,13 +4,14 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '@app/hooks/useLanguagePersistence';
 import { DEFAULT_LOCALE } from '@lib/i18n';
+import { LANGUAGE_COOKIE_MAX_AGE_SECONDS, LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
 import locales from '@lib/locales.json';
 
 export default function LanguageDropdown() {
-  const locale = useLocaleSection('sharable_strings');
+  const locale = useLocaleSection('sharable-strings');
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
@@ -89,9 +90,7 @@ export default function LanguageDropdown() {
     saveLanguage(langCode);
     // Also set a cookie so server-side rendering can pick up the new language
     try {
-      // 1 year
-      const maxAge = 60 * 60 * 24 * 365;
-      document.cookie = `sanatana_dharma_language=${langCode}; Path=/; Max-Age=${maxAge}; SameSite=Lax`;
+      document.cookie = `${LANGUAGE_STORAGE_KEY}=${langCode}; Path=/; Max-Age=${LANGUAGE_COOKIE_MAX_AGE_SECONDS}; SameSite=Lax`;
     } catch (e) {
       // ignore cookie set errors
     }
@@ -154,7 +153,7 @@ export default function LanguageDropdown() {
     <div ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
       <button aria-haspopup="dialog" aria-controls="language-dialog" onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-1 px-3 py-1 hover:shadow-md transition-all duration-300 cursor-pointer transform"
+        className="group relative inline-flex items-center gap-1 px-2 py-1 hover:shadow-md transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open} >
         <div className="relative">
@@ -162,7 +161,7 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex text-lg sm:text-base md:text-lg sm:text-base group-hover:text-amber-700 transition-colors duration-300">
+          <span className="hidden md:flex text-xs group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
@@ -173,7 +172,7 @@ export default function LanguageDropdown() {
 
       {/* Popup Modal */}
       {open && (
-        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-3 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+        <div id="language-dialog" className="fixed inset-0 z-50 flex min-h-screen items-center justify-center p-3 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           {/* Backdrop with blur */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
@@ -191,7 +190,7 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h4 id="language-dialog-title" className="text-lg sm:text-base font-semibold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h4>
+                  <p id="language-dialog-title" className="text-lg sm:text-base font-semibold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</p>
                   <p className="text-lg sm:text-base text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
@@ -236,7 +235,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full px-8 py-2 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full px-12 py-2 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
@@ -302,7 +301,7 @@ export default function LanguageDropdown() {
                           {lang.nativeName}
                         </div>
                         <div className={`
-                          text-xl md:text-lg truncate transition-colors duration-300
+                          text-sm truncate transition-colors duration-300
                           ${isSelected
                             ? 'text-amber-700'
                             : 'text-gray-600'
@@ -343,7 +342,7 @@ export default function LanguageDropdown() {
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-xl md:text-lg sm:text-base text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-md text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>

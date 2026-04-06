@@ -55,9 +55,9 @@ export default function RamayanaClient() {
   const { isLoading } = useLocale();
   const ns = useLocaleSection('scriptures_ramayana');
   const META_KEY = 'itihasa/ramayana/index';
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
 
-  // Extract kanda links from sharable_strings footer itihasa data
+  // Extract kanda links from sharable-strings footer itihasa data
   const itihasaNav = shared?.footer?.itihasa?.nav;
   const ramayanaEntry = Array.isArray(itihasaNav)
     ? itihasaNav.find((item: Record<string, unknown>) => item?.name === 'Ramayana')
@@ -145,3 +145,4 @@ export default function RamayanaClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

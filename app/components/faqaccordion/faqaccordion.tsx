@@ -106,3 +106,4 @@ export default function FaqAccordion({ items, heading }: Props) {
     </section>
   );
 }
+

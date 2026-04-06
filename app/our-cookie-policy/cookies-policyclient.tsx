@@ -3,72 +3,33 @@
 import { useEffect, useState } from 'react';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from '@lib/parse';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 import PageLayout from '@components/common/PageLayout';
+import { normalizePolicyContent, type PolicyContentState } from '@lib/policyNormalizer';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('cookies-policy');
-  type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
-  // Normalize a source object (either server-injected locale or the loaded namespace)
-  const normalizePrivacy = (src: any): PrivacyState => {
-    const safe = src || {};
+  type PrivacyState = PolicyContentState;
+  const normalizePrivacy = (src: unknown): PrivacyState => {
     try {
-      const title = safe.title || '';
-      const lastupdated = safe.lastupdated || '';
-      const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
-      const data: Record<string, any> = {};
-      keys.forEach((k) => { data[k] = parseMaybeObject(safe[k] || ''); });
-
-      if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
-
-      if (data.informationwecollect && typeof data.informationwecollect === 'object') {
-        const iw = data.informationwecollect;
-        data.informationwecollect = {
-          title: iw.title,
-          lead: iw.lead,
-          usagelabel: iw.usagelabel,
-          usage: iw.usage,
-          devicelabel: iw.devicelabel,
-          device: iw.device,
-          cookieslabel: iw.cookieslabel,
-          cookies: iw.cookies,
-          contactlabel: iw.contactlabel,
-          contact: iw.contact
-        };
-      } else {
-        data.informationwecollect = { title: '', lead: '', usagelabel: '', usage: '', devicelabel: '', device: '', cookieslabel: '', cookies: '', contactlabel: '', contact: '' };
-      }
-
-      if (data.howweuse && typeof data.howweuse === 'object') {
-        data.howweuse.items = parseSections(data.howweuse.items);
-      } else {
-        data.howweuse = { title: data.howweuse?.title, lead: data.howweuse?.lead, items: parseSections(data.howweuse) };
-      }
-
-      ['cookieslocalstorage', 'thirdparty', 'security', 'children', 'changes'].forEach((k) => {
-        if (data[k] && typeof data[k] === 'object') data[k] = { title: data[k].title, text: data[k].text };
-        else data[k] = { title: '', text: '' };
-      });
-
-      if (data.rights && typeof data.rights === 'object') {
-        data.rights.items = parseSections(data.rights.items);
-      } else {
-        data.rights = { title: data.rights?.title, lead: data.rights?.lead, items: parseSections(data.rights), contacttext: data.rights?.contacttext };
-      }
-
-      if (data.contact && typeof data.contact === 'object') {
-        const c = data.contact;
-        data.contact = { title: c.title, lead: c.lead, emaillabel: c.emaillabel, email: c.email, websitelabel: c.websitelabel, website: c.website, closing: c.closing };
-      } else {
-        data.contact = { title: '', lead: '', emaillabel: '', email: '', websitelabel: '', website: '', closing: '' };
-      }
-
-      return { title, lastupdated, ...data };
-    } catch (e) {
-      return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
+      return normalizePolicyContent(src);
+    } catch {
+      return {
+        title: '',
+        lastupdated: '',
+        intro: {} as any,
+        informationwecollect: {} as any,
+        howweuse: {} as any,
+        cookieslocalstorage: {} as any,
+        thirdparty: {} as any,
+        security: {} as any,
+        rights: {} as any,
+        children: {} as any,
+        changes: {} as any,
+        contact: {} as any,
+      };
     }
   };
 
@@ -237,3 +198,4 @@ export default function PrivacyPolicy() {
     </PageLayout>
   );
 }
+

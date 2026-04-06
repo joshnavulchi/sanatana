@@ -12,7 +12,7 @@ type PartialPage = Record<string, any>;
 
 export default function TermsOfService() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('terms_of_service');
+  const ns = useLocaleSection('terms-of-service');
 
   const [page, setPage] = useState<PartialPage>({ title: '', lastupdated: '' });
 
@@ -51,7 +51,7 @@ export default function TermsOfService() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="terms_of_service" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-md">
+      <PageLayout metaKey="terms-of-service" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-md">
         <div className="flex items-center justify-center py-4 text-lg sm:text-base leading-relaxed font-normal"><Loader /></div>
       </PageLayout>
     );
@@ -64,7 +64,7 @@ export default function TermsOfService() {
 
   return (
     <PageLayout
-      metaKey="terms_of_service"
+      metaKey="terms-of-service"
       title={page.title}
       description={page.intro}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
@@ -133,3 +133,4 @@ export default function TermsOfService() {
     </PageLayout>
   );
 }
+

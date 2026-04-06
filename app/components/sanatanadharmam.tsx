@@ -94,15 +94,20 @@ export default function UnderstandingOfSanatana() {
                   </div>
                   <div className="mt-auto flex items-center gap-3">
                     {topic.link ? (
-                      <Link href={topic.link} title={topic.title} className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700">
-                        Learn more
+                      <Link
+                        href={topic.link}
+                        title={topic.title}
+                        aria-label={`Learn more about ${topic.title}`}
+                        className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700"
+                      >
+                        Learn more about {topic.title}
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </Link>
                     ) : (
                       <span aria-disabled className="inline-flex items-center gap-2 text-lg sm:text-base font-medium text-amber-700 opacity-60 cursor-not-allowed">
-                        Learn more
+                        Learn more about {topic.title}
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>

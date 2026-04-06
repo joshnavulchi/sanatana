@@ -75,12 +75,8 @@ export default function MahabharataClient() {
         if (root && Array.isArray(root.parvas) && root.parvas.length > 0) {
           const derived = root.parvas
             .map((p: any) => {
-              const slug = String(p?.slug || (p?.path || '').split('/').pop() || '')
+              return String(p?.slug || (p?.path || '').split('/').pop() || '')
                 .replace(/\/+$/g, '');
-              // Normalize: remove trailing '-parva' or '-kanda' and hyphens
-              let s = slug.replace(/-(parva|kanda)$/i, '');
-              s = s.replace(/-/g, '');
-              return s;
             })
             .filter(Boolean);
           if (!cancelled && Array.isArray(derived) && derived.length > 0) setParvas(derived);
@@ -165,3 +161,4 @@ export default function MahabharataClient() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

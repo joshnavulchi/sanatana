@@ -79,148 +79,22 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
 
   const primaryPath = `/data/locales/${loc}/${base}/${joined}/index.json`;
 
-  // When running on the server (build / node), prefer reading locale JSON
-  // files from the local `public/data/locales` path and cache them in-memory
-    const EXCLUDE_KEYS = new Set(['meta', 'openGraph', 'schema', 'openSpec', 'openspec']);
-    function stripExcluded(obj: any) {
-      if (!obj || typeof obj !== 'object') return obj;
-      if (Array.isArray(obj)) return obj;
-      try {
-        const copy: Record<string, any> = {};
-        for (const k of Object.keys(obj)) {
-          if (EXCLUDE_KEYS.has(k)) continue;
-          copy[k] = obj[k];
-        }
-        return copy;
-      } catch (_) {
-        return obj;
-      }
-    }
   // for the life of the Node process. This speeds up repeated loads during
   // static render/build.
   if (typeof window === 'undefined') {
     try {
-      const fs = require('fs');
-      const path = require('path');
-      const diskPath = path.join(process.cwd(), 'public', 'data', 'locales', loc, base, joined, 'index.json');
-
-      // Return cached value when available
-      const cached = BUILD_CACHE.get(diskPath);
-      if (cached) {
-        if (process.env.NODE_ENV !== 'production') {
-          // eslint-disable-next-line no-console
-          console.debug('[fetchContentByRoute] build-cache hit', diskPath);
+      const server = await import('./siteUtils.server');
+      const diskResult = await server.fetchContentByRouteFromDisk(loc, base, joined);
+      if (diskResult) {
+        const cached = BUILD_CACHE.get(diskResult.path);
+        if (cached) {
+          return { data: cached.data, path: diskResult.path };
         }
-        return { data: cached.data, path: diskPath };
+        BUILD_CACHE.set(diskResult.path, { ts: Date.now(), data: diskResult.data });
+        return { data: diskResult.data, path: diskResult.path };
       }
-
-      // Attempt to read from disk
-      if (fs.existsSync(diskPath)) {
-        const raw = fs.readFileSync(diskPath, 'utf8');
-        let parsed: any = {};
-        try {
-          parsed = JSON.parse(raw);
-          parsed = stripExcluded(parsed);
-        } catch (e) {
-          // parse error - leave parsed as empty
-        }
-        BUILD_CACHE.set(diskPath, { ts: Date.now(), data: parsed });
-        if (process.env.NODE_ENV !== 'production') {
-          // eslint-disable-next-line no-console
-          console.debug('[fetchContentByRoute] read from disk', diskPath);
-        }
-        return { data: parsed, path: diskPath };
-      }
-      // If the exact path wasn't found, attempt a slug->folder fallback.
-      // Some namespaces store the content under a shorter folder name whose
-      // index.json contains a top-level key equal to the slug (e.g. folder
-      // `bala` contains `{ "bala-kanda": { ... } }`). In that case we can
-      // scan sibling directories of the requested parent and return the
-      // matching index.json when found.
-      try {
-        const path = require('path');
-        const parentDir = path.dirname(diskPath); // .../ramayana/bala-kanda
-        const parentParent = path.dirname(parentDir); // .../ramayana
-        const lastSegment = path.basename(parentDir); // e.g. 'bala-kanda'
-        if (fs.existsSync(parentParent)) {
-          const entries = fs.readdirSync(parentParent, { withFileTypes: true });
-          for (const ent of entries) {
-            if (!ent.isDirectory()) continue;
-            const candidateIdx = path.join(parentParent, ent.name, 'index.json');
-              try {
-                if (!fs.existsSync(candidateIdx)) continue;
-                const txt = fs.readFileSync(candidateIdx, 'utf8');
-                let parsed: any = {};
-                try { parsed = JSON.parse(txt); parsed = stripExcluded(parsed); } catch (_) { }
-                if (parsed && Object.prototype.hasOwnProperty.call(parsed, lastSegment)) {
-                  if (process.env.NODE_ENV !== 'production') {
-                    // eslint-disable-next-line no-console
-                    console.debug('[fetchContentByRoute] slug-folder fallback', candidateIdx, 'matched', lastSegment);
-                  }
-                  BUILD_CACHE.set(candidateIdx, { ts: Date.now(), data: parsed });
-                  return { data: parsed, path: candidateIdx };
-                }
-              } catch (_) {
-              // ignore parse/read errors
-            }
-          }
-        }
-      } catch (_) {
-        // ignore fallback errors and continue to network fetch
-      }
-
-      // If no index.json was found, attempt to aggregate any JSON files that
-      // exist directly inside the requested folder. This supports folders
-      // which contain multiple JSON pieces (e.g. mantra1.json, mantra2.json)
-      // but do not have a central `index.json`. We will return an object
-      // mapping filenames (without .json) to parsed content.
-      try {
-        const dirPath = path.join(process.cwd(), 'public', 'data', 'locales', loc, base, joined);
-        if (fs.existsSync(dirPath)) {
-          const entries = fs.readdirSync(dirPath, { withFileTypes: true });
-          const jsonFiles = entries.filter((e: any) => e.isFile() && String(e.name).toLowerCase().endsWith('.json'))
-            .map((e: any) => String(e.name));
-          if (jsonFiles.length > 0) {
-            const aggregated: Record<string, any> = {};
-            for (const fname of jsonFiles) {
-              try {
-                const fp = path.join(dirPath, fname);
-                const txt = fs.readFileSync(fp, 'utf8');
-                const key = fname.replace(/\.json$/i, '');
-                let parsed: any = {};
-                try { const txt = fs.readFileSync(fp, 'utf8'); parsed = JSON.parse(txt); parsed = stripExcluded(parsed); } catch (_) { parsed = {}; }
-                // use that inner object under the filename key to avoid extra
-                // nesting.
-                if (parsed && typeof parsed === 'object' && Object.keys(parsed).length === 1) {
-                  const innerKey = Object.keys(parsed)[0];
-                  aggregated[key] = parsed[innerKey];
-                } else {
-                  aggregated[key] = parsed;
-                }
-              } catch (e) {
-                // ignore parse errors for individual files
-              }
-            }
-            if (Object.keys(aggregated).length > 0) {
-              BUILD_CACHE.set(dirPath, { ts: Date.now(), data: aggregated });
-              if (process.env.NODE_ENV !== 'production') {
-                // eslint-disable-next-line no-console
-                console.debug('[fetchContentByRoute] aggregated folder JSON', dirPath);
-              }
-              return { data: aggregated, path: dirPath };
-            }
-          }
-        }
-      } catch (_) {
-        // ignore aggregation errors and continue to network fetch
-      }
-      // fallthrough to network fetch if file missing
-    } catch (e) {
-      if (process.env.NODE_ENV !== 'production') {
-        // eslint-disable-next-line no-console
-        console.warn('[fetchContentByRoute] build-file read failed', primaryPath, e && (e as any).message);
-      }
-      // continue to network fetch fallback
+    } catch (_) {
+      // ignore server-only import/fetch failures and fall back to network fetch
     }
   }
 
@@ -251,9 +125,12 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
         console.warn('[fetchContentByRoute] fetch failed', fetchUrl, 'status', res.status);
       }
       // Network fallback: attempt to fetch parent index and aggregate child JSON files
+      if (typeof window !== 'undefined') {
+        return { data: null, path: fetchUrl };
+      }
       try {
-        const path = require('path');
-        // parent index URL e.g. /data/locales/en/vedas/yajurveda/index.json
+        const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
+        // parent index URL e.g. /data/locales/${loc}/${base}/index.json
         const parentUrl = ` /data/locales/${loc}/${base}/index.json`.replace(/\s+/g, '');
         const parentResp = await fetch(parentUrl, { cache: 'force-cache' } as any);
         if (!parentResp.ok) return { data: null, path: fetchUrl };
@@ -299,8 +176,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
             try {
               const r = await fetch(fileUrl, { cache: 'force-cache' } as any);
               if (!r.ok) continue;
-              let parsed = await r.json();
-              parsed = stripExcluded(parsed);
+              const parsed = await r.json();
               const key = vname;
               if (parsed && typeof parsed === 'object' && Object.keys(parsed).length === 1) {
                 const innerKey = Object.keys(parsed)[0];
@@ -329,8 +205,7 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
     }
 
     const top = await res.json();
-    const topStripped = stripExcluded(top);
-    return { data: topStripped, path: fetchUrl };
+    return { data: top, path: fetchUrl };
   } catch (err) {
     if (process.env.NODE_ENV !== 'production') {
       // eslint-disable-next-line no-console
@@ -342,47 +217,8 @@ export async function fetchContentByRoute(locale: string, segments: string[]) {
 
 // Itihasa helpers (kept here for convenience)
 // Default fallbacks (used on client or if fs read fails)
-export let MAHABHARATA_PARVAS: string[] = ['adiparva', 'sabhaparva', 'vanaparva'];
+export let MAHABHARATA_PARVAS: string[] = ['adi-parva', 'sabha-parva', 'vana-parva'];
 export let RAMAYANA_KANDAS: string[] = ['balakanda', 'ayodhyakanda', 'aranyakanda'];
-
-// Attempt to populate from public/data/locales/{locale}/itihasa on server start.
-// This runs only in Node (server) and won't pull `fs` into client bundles.
-if (typeof window === 'undefined') {
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const baseLocale = String(DEFAULT_LOCALE || 'en');
-
-    const mahabPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'mahabharata');
-    const ramaPath = path.join(process.cwd(), 'public', 'data', 'locales', baseLocale, 'itihasa', 'ramayana');
-
-    try {
-      const mahabDirs = fs.readdirSync(mahabPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(mahabDirs) && mahabDirs.length > 0) {
-        MAHABHARATA_PARVAS = mahabDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
-
-    try {
-      const ramaDirs = fs.readdirSync(ramaPath, { withFileTypes: true })
-        .filter((d: any) => d.isDirectory())
-        .map((d: any) => String(d.name))
-        .filter(Boolean);
-      if (Array.isArray(ramaDirs) && ramaDirs.length > 0) {
-        RAMAYANA_KANDAS = ramaDirs.sort();
-      }
-    } catch (e) {
-      // ignore and keep defaults
-    }
-  } catch (e) {
-    // fs not available or other error — keep fallbacks
-  }
-}
 
 export function parseNumericSuffix(slug: string): number | null {
   const m = String(slug || '').match(/-(\d+)$/);
