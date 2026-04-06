@@ -1,0 +1,86 @@
+You are an expert in Vedic literature, Sanskrit philology, and structured data modeling.
+
+Generate a COMPLETE and FULL dataset for Atharvaveda Book BOOK <>
+
+⚠️ STRICT REQUIREMENTS (NO EXCEPTIONS):
+
+1. COMPLETENESS
+- Generate ALL 30 hymns
+- Each hymn MUST contain EXACTLY 3 verses
+- Total = 90 verses
+- DO NOT skip or summarize anything
+
+2. AUTHENTICITY CONSTRAINT
+- Use REAL Sanskrit-style Vedic phrasing (not placeholders)
+- Avoid repetition across hymns
+- Each verse must be UNIQUE in wording and meaning
+- Maintain internal thematic consistency per hymn
+
+3. STRUCTURE (MANDATORY JSON)
+Return ONLY valid JSON. No explanations.
+
+{
+  "book": "Atharvaveda Book BOOK_NUMBER",
+  "kanda": BOOK_NUMBER,
+  "total_hymns": 30,
+  "hymns": [
+    {
+      "id": "AV-BOOK_NUMBER-1",
+      "hymn_number": 1,
+      "theme": "...",
+      "verses": [
+        {
+          "id": "AV-BOOK_NUMBER-1-1",
+          "sanskrit": "...",
+          "transliteration": "...",
+          "meaning": {
+            "literal": "...",
+            "interpretive": "...",
+            "applied": "..."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+4. NON-DUPLICATION RULE
+- No verse should repeat across hymns
+- No reuse of identical Sanskrit lines
+- Each hymn must have a distinct theme
+
+5. THEMATIC DISTRIBUTION (IMPORTANT)
+Distribute themes realistically across the 30 hymns:
+- Healing (disease, herbs, recovery)
+- Protection (enemies, evil, fear)
+- Prosperity (wealth, growth)
+- Longevity (life, prana)
+- Harmony (family, society)
+- Spiritual purification
+- Cosmic harmony (earth, water, sky)
+- Intelligence (medha, prajna)
+- Removal of misfortune
+- Strength and courage
+
+6. LANGUAGE QUALITY
+- Sanskrit must look structurally correct (simple but valid grammar)
+- Transliteration must follow IAST style
+- Meanings must be:
+  - literal (word-level)
+  - interpretive (philosophical)
+  - applied (modern use)
+
+7. OUTPUT RULES
+- Output ONLY JSON
+- No markdown
+- No commentary
+- No placeholders like "..." or "same as above"
+- No truncation
+
+8. VALIDATION CHECK BEFORE OUTPUT
+- Ensure 30 hymns exist
+- Ensure each hymn has 3 verses
+- Ensure all IDs are unique
+- Ensure JSON is syntactically valid
+
+Generate now.
