@@ -92,1264 +92,6 @@
       {
         "id": "AV-2-1",
         "hymn_number": 1,
-        "title": "Charm for Healing and Restoration",
-        "sources": {
-          "whitney": "AV II.1"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Restoration"
-        },
-        "verses": [
-          {
-            "id": "AV-2-1-1",
-            "verse_number": 1,
-            "sanskrit": "यत् ते रोगं तद् अपहामि",
-            "transliteration": "yat te rogaṃ tad apahāmi",
-            "meaning": {
-              "literal": "That disease of yours I remove.",
-              "interpretive": "Illness is separable and removable.",
-              "applied": "Therapeutic intervention concept."
-            }
-          },
-          {
-            "id": "AV-2-1-2",
-            "verse_number": 2,
-            "sanskrit": "पुनः त्वा स्वस्थं करोमि",
-            "transliteration": "punaḥ tvā svasthaṃ karomi",
-            "meaning": {
-              "literal": "I make you healthy again.",
-              "interpretive": "Healing restores original balance.",
-              "applied": "Recovery process."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-2",
-        "hymn_number": 2,
-        "title": "Charm Against Disease-Spirits",
-        "sources": {
-          "whitney": "AV II.2"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Disease Spirits"
-        },
-        "verses": [
-          {
-            "id": "AV-2-2-1",
-            "verse_number": 1,
-            "sanskrit": "ये रोगाः भूताः तान् नुदामि",
-            "transliteration": "ye rogāḥ bhūtāḥ tān nudāmi",
-            "meaning": {
-              "literal": "Those disease-spirits I drive away.",
-              "interpretive": "Disease conceptualized as external entity.",
-              "applied": "Early pathogen metaphor."
-            }
-          },
-          {
-            "id": "AV-2-2-2",
-            "verse_number": 2,
-            "sanskrit": "दूरं गच्छन्तु ते",
-            "transliteration": "dūraṃ gacchantu te",
-            "meaning": {
-              "literal": "Let them go far away.",
-              "interpretive": "Removal ensures protection.",
-              "applied": "Preventive health."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-3",
-        "hymn_number": 3,
-        "title": "Charm for Strengthening Life Force",
-        "sources": {
-          "whitney": "AV II.3"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Vital Energy"
-        },
-        "verses": [
-          {
-            "id": "AV-2-3-1",
-            "verse_number": 1,
-            "sanskrit": "प्राणान् मे धेहि",
-            "transliteration": "prāṇān me dhehi",
-            "meaning": {
-              "literal": "Establish life forces in me.",
-              "interpretive": "Prana sustains existence.",
-              "applied": "Breath-energy awareness."
-            }
-          },
-          {
-            "id": "AV-2-3-2",
-            "verse_number": 2,
-            "sanskrit": "ओजः बलं च मे अस्तु",
-            "transliteration": "ojaḥ balaṃ ca me astu",
-            "meaning": {
-              "literal": "May vitality and strength be mine.",
-              "interpretive": "Ojas as core life essence.",
-              "applied": "Immunity and stamina."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-4",
-        "hymn_number": 4,
-        "title": "Charm for Protection from Enemies",
-        "sources": {
-          "whitney": "AV II.4"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Enemy Defense"
-        },
-        "verses": [
-          {
-            "id": "AV-2-4-1",
-            "verse_number": 1,
-            "sanskrit": "इन्द्रः मां पातु शत्रुभ्यः",
-            "transliteration": "indraḥ māṃ pātu śatrubhyaḥ",
-            "meaning": {
-              "literal": "May Indra protect me from enemies.",
-              "interpretive": "Divine strength shields the individual.",
-              "applied": "Confidence and defense."
-            },
-            "cross_references": {
-              "rigveda": [
-                {
-                  "reference": "RV 1.32",
-                  "concept": "Indra as protector"
-                }
-              ]
-            }
-          },
-          {
-            "id": "AV-2-4-2",
-            "verse_number": 2,
-            "sanskrit": "जयामि सर्वान्",
-            "transliteration": "jayāmi sarvān",
-            "meaning": {
-              "literal": "I conquer all.",
-              "interpretive": "Victory affirmation.",
-              "applied": "Mental dominance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-5",
-        "hymn_number": 5,
-        "title": "Charm for Prosperity and Growth",
-        "sources": {
-          "whitney": "AV II.5"
-        },
-        "classification": {
-          "category": "Prosperity",
-          "sub_category": "Growth"
-        },
-        "verses": [
-          {
-            "id": "AV-2-5-1",
-            "verse_number": 1,
-            "sanskrit": "वृद्धिं मे देहि",
-            "transliteration": "vṛddhiṃ me dehi",
-            "meaning": {
-              "literal": "Grant me growth.",
-              "interpretive": "Expansion is natural law.",
-              "applied": "Personal development."
-            }
-          },
-          {
-            "id": "AV-2-5-2",
-            "verse_number": 2,
-            "sanskrit": "समृद्धिर्मे अस्तु",
-            "transliteration": "samṛddhir me astu",
-            "meaning": {
-              "literal": "May prosperity be mine.",
-              "interpretive": "Abundance supports life.",
-              "applied": "Financial well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-6",
-        "hymn_number": 6,
-        "title": "Charm for Expulsion of Disease",
-        "sources": {
-          "whitney": "AV II.6"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Disease Expulsion"
-        },
-        "verses": [
-          {
-            "id": "AV-2-6-1",
-            "verse_number": 1,
-            "sanskrit": "रोगं नुदामि दूरम्",
-            "transliteration": "rogaṃ nudāmi dūram",
-            "meaning": {
-              "literal": "I drive the disease far away.",
-              "interpretive": "Disease is removable force.",
-              "applied": "Therapeutic expulsion model."
-            }
-          },
-          {
-            "id": "AV-2-6-2",
-            "verse_number": 2,
-            "sanskrit": "न पुनरागाः",
-            "transliteration": "na punar āgāḥ",
-            "meaning": {
-              "literal": "Do not return again.",
-              "interpretive": "Desire for permanent cure.",
-              "applied": "Relapse prevention."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-7",
-        "hymn_number": 7,
-        "title": "Charm Against Poison",
-        "sources": {
-          "whitney": "AV II.7"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Poison Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-7-1",
-            "verse_number": 1,
-            "sanskrit": "विषं ते अपहामि",
-            "transliteration": "viṣaṃ te apahāmi",
-            "meaning": {
-              "literal": "I remove your poison.",
-              "interpretive": "Toxins disrupt balance.",
-              "applied": "Detoxification principle."
-            }
-          },
-          {
-            "id": "AV-2-7-2",
-            "verse_number": 2,
-            "sanskrit": "अग्निना दहामि",
-            "transliteration": "agninā dahāmi",
-            "meaning": {
-              "literal": "I burn it with fire.",
-              "interpretive": "Agni transforms impurities.",
-              "applied": "Metabolic detox."
-            },
-            "cross_references": {
-              "rigveda": [
-                {
-                  "reference": "RV 1.1",
-                  "concept": "Agni as purifier"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-8",
-        "hymn_number": 8,
-        "title": "Charm for Longevity",
-        "sources": {
-          "whitney": "AV II.8"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Longevity"
-        },
-        "verses": [
-          {
-            "id": "AV-2-8-1",
-            "verse_number": 1,
-            "sanskrit": "जीवेम शरदः शतम्",
-            "transliteration": "jīvema śaradaḥ śatam",
-            "meaning": {
-              "literal": "May we live a hundred autumns.",
-              "interpretive": "Ideal lifespan aspiration.",
-              "applied": "Longevity focus."
-            },
-            "cross_references": {
-              "yajurveda": [
-                {
-                  "reference": "YV 36.24",
-                  "concept": "Longevity mantra"
-                }
-              ]
-            }
-          },
-          {
-            "id": "AV-2-8-2",
-            "verse_number": 2,
-            "sanskrit": "प्राणाः मे सन्तु स्थिराः",
-            "transliteration": "prāṇāḥ me santu sthirāḥ",
-            "meaning": {
-              "literal": "May my life forces remain stable.",
-              "interpretive": "Stable prana ensures life.",
-              "applied": "Vital health maintenance."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-9",
-        "hymn_number": 9,
-        "title": "Charm for Protection from Fear",
-        "sources": {
-          "whitney": "AV II.9"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Fear Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-9-1",
-            "verse_number": 1,
-            "sanskrit": "अभयं मे अस्तु",
-            "transliteration": "abhayaṃ me astu",
-            "meaning": {
-              "literal": "Let there be fearlessness for me.",
-              "interpretive": "Fearlessness ensures clarity.",
-              "applied": "Confidence building."
-            }
-          },
-          {
-            "id": "AV-2-9-2",
-            "verse_number": 2,
-            "sanskrit": "मा भयम् आगात्",
-            "transliteration": "mā bhayam āgāt",
-            "meaning": {
-              "literal": "Let fear not arise.",
-              "interpretive": "Fear can be controlled.",
-              "applied": "Emotional stability."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-10",
-        "hymn_number": 10,
-        "title": "Charm for Harmony and Unity",
-        "sources": {
-          "whitney": "AV II.10"
-        },
-        "classification": {
-          "category": "Social Harmony",
-          "sub_category": "Unity"
-        },
-        "verses": [
-          {
-            "id": "AV-2-10-1",
-            "verse_number": 1,
-            "sanskrit": "समानो मनः स्यात्",
-            "transliteration": "samāno manaḥ syāt",
-            "meaning": {
-              "literal": "Let the mind be united.",
-              "interpretive": "Shared thought creates harmony.",
-              "applied": "Team and family cohesion."
-            },
-            "cross_references": {
-              "rigveda": [
-                {
-                  "reference": "RV 10.191",
-                  "concept": "Unity of minds"
-                }
-              ]
-            }
-          },
-          {
-            "id": "AV-2-10-2",
-            "verse_number": 2,
-            "sanskrit": "मा विभेदः",
-            "transliteration": "mā vibhedaḥ",
-            "meaning": {
-              "literal": "Let there be no division.",
-              "interpretive": "Division leads to conflict.",
-              "applied": "Conflict prevention."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-11",
-        "hymn_number": 11,
-        "title": "Charm for Recovery from Illness",
-        "sources": {
-          "whitney": "AV II.11"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Recovery"
-        },
-        "verses": [
-          {
-            "id": "AV-2-11-1",
-            "verse_number": 1,
-            "sanskrit": "रोगात् त्वा मोचयामि",
-            "transliteration": "rogāt tvā mocayāmi",
-            "meaning": {
-              "literal": "I release you from disease.",
-              "interpretive": "Disease is binding and can be removed.",
-              "applied": "Therapeutic liberation."
-            }
-          },
-          {
-            "id": "AV-2-11-2",
-            "verse_number": 2,
-            "sanskrit": "स्वस्थो भव",
-            "transliteration": "svastho bhava",
-            "meaning": {
-              "literal": "Become healthy.",
-              "interpretive": "Return to natural balance.",
-              "applied": "Recovery affirmation."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-12",
-        "hymn_number": 12,
-        "title": "Charm Against Evil Influences",
-        "sources": {
-          "whitney": "AV II.12"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Negative Forces"
-        },
-        "verses": [
-          {
-            "id": "AV-2-12-1",
-            "verse_number": 1,
-            "sanskrit": "दुष्टं नुदामि",
-            "transliteration": "duṣṭaṃ nudāmi",
-            "meaning": {
-              "literal": "I drive away the evil.",
-              "interpretive": "Negative forces are externalized.",
-              "applied": "Mental and spiritual protection."
-            }
-          },
-          {
-            "id": "AV-2-12-2",
-            "verse_number": 2,
-            "sanskrit": "शिवं मे अस्तु",
-            "transliteration": "śivaṃ me astu",
-            "meaning": {
-              "literal": "Let there be auspiciousness for me.",
-              "interpretive": "Good replaces evil.",
-              "applied": "Positive mental state."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-13",
-        "hymn_number": 13,
-        "title": "Charm for Strength and Endurance",
-        "sources": {
-          "whitney": "AV II.13"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Strength"
-        },
-        "verses": [
-          {
-            "id": "AV-2-13-1",
-            "verse_number": 1,
-            "sanskrit": "बलं मे देहि",
-            "transliteration": "balaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me strength.",
-              "interpretive": "Strength sustains action.",
-              "applied": "Physical and mental endurance."
-            }
-          },
-          {
-            "id": "AV-2-13-2",
-            "verse_number": 2,
-            "sanskrit": "धैर्यं मे अस्तु",
-            "transliteration": "dhairyaṃ me astu",
-            "meaning": {
-              "literal": "May courage be mine.",
-              "interpretive": "Courage complements strength.",
-              "applied": "Resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-14",
-        "hymn_number": 14,
-        "title": "Charm for Removal of Obstacles",
-        "sources": {
-          "whitney": "AV II.14"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Obstacle Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-14-1",
-            "verse_number": 1,
-            "sanskrit": "विघ्नान् नुदामि",
-            "transliteration": "vighnān nudāmi",
-            "meaning": {
-              "literal": "I drive away obstacles.",
-              "interpretive": "Obstacles are removable.",
-              "applied": "Problem-solving mindset."
-            }
-          },
-          {
-            "id": "AV-2-14-2",
-            "verse_number": 2,
-            "sanskrit": "मार्गः मे सुगमः अस्तु",
-            "transliteration": "mārgaḥ me sugamaḥ astu",
-            "meaning": {
-              "literal": "May my path be easy.",
-              "interpretive": "Smooth progress is desired.",
-              "applied": "Clear direction in life."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-15",
-        "hymn_number": 15,
-        "title": "Charm for Prosperity and Success",
-        "sources": {
-          "whitney": "AV II.15"
-        },
-        "classification": {
-          "category": "Prosperity",
-          "sub_category": "Success"
-        },
-        "verses": [
-          {
-            "id": "AV-2-15-1",
-            "verse_number": 1,
-            "sanskrit": "सिद्धिं मे देहि",
-            "transliteration": "siddhiṃ me dehi",
-            "meaning": {
-              "literal": "Grant me success.",
-              "interpretive": "Achievement is attainable.",
-              "applied": "Goal accomplishment."
-            }
-          },
-          {
-            "id": "AV-2-15-2",
-            "verse_number": 2,
-            "sanskrit": "धनं मे आगच्छतु",
-            "transliteration": "dhanaṃ me āgacchatu",
-            "meaning": {
-              "literal": "Let wealth come to me.",
-              "interpretive": "Prosperity supports stability.",
-              "applied": "Financial success."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-16",
-        "hymn_number": 16,
-        "title": "Charm for Protection of Life Energy",
-        "sources": {
-          "whitney": "AV II.16"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Life Energy Protection"
-        },
-        "verses": [
-          {
-            "id": "AV-2-16-1",
-            "verse_number": 1,
-            "sanskrit": "प्राणान् मे पातु",
-            "transliteration": "prāṇān me pātu",
-            "meaning": {
-              "literal": "Protect my life-breaths.",
-              "interpretive": "Prana is central to survival.",
-              "applied": "Vital energy preservation."
-            }
-          },
-          {
-            "id": "AV-2-16-2",
-            "verse_number": 2,
-            "sanskrit": "ओजः मे अस्तु",
-            "transliteration": "ojaḥ me astu",
-            "meaning": {
-              "literal": "May vitality be mine.",
-              "interpretive": "Ojas sustains immunity.",
-              "applied": "Health resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-17",
-        "hymn_number": 17,
-        "title": "Charm Against Enemies and Hostility",
-        "sources": {
-          "whitney": "AV II.17"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Enemy Neutralization"
-        },
-        "verses": [
-          {
-            "id": "AV-2-17-1",
-            "verse_number": 1,
-            "sanskrit": "शत्रून् नुदामि",
-            "transliteration": "śatrūn nudāmi",
-            "meaning": {
-              "literal": "I drive away enemies.",
-              "interpretive": "Active removal of threats.",
-              "applied": "Defense mechanism."
-            }
-          },
-          {
-            "id": "AV-2-17-2",
-            "verse_number": 2,
-            "sanskrit": "अभिभवामि तान्",
-            "transliteration": "abhibhavāmi tān",
-            "meaning": {
-              "literal": "I overpower them.",
-              "interpretive": "Dominance over adversity.",
-              "applied": "Self-confidence."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-18",
-        "hymn_number": 18,
-        "title": "Charm for Removal of Fear and Anxiety",
-        "sources": {
-          "whitney": "AV II.18"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Fear Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-18-1",
-            "verse_number": 1,
-            "sanskrit": "अभयं मे अस्तु सर्वतः",
-            "transliteration": "abhayaṃ me astu sarvataḥ",
-            "meaning": {
-              "literal": "Let there be fearlessness for me from all sides.",
-              "interpretive": "Security creates mental stability.",
-              "applied": "Anxiety reduction."
-            }
-          },
-          {
-            "id": "AV-2-18-2",
-            "verse_number": 2,
-            "sanskrit": "मा भयम् आगात्",
-            "transliteration": "mā bhayam āgāt",
-            "meaning": {
-              "literal": "Let fear not arise.",
-              "interpretive": "Fear is preventable.",
-              "applied": "Emotional regulation."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-19",
-        "hymn_number": 19,
-        "title": "Charm for Health and Recovery",
-        "sources": {
-          "whitney": "AV II.19"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Recovery"
-        },
-        "verses": [
-          {
-            "id": "AV-2-19-1",
-            "verse_number": 1,
-            "sanskrit": "रोगं मे नाशय",
-            "transliteration": "rogaṃ me nāśaya",
-            "meaning": {
-              "literal": "Destroy my disease.",
-              "interpretive": "Healing as elimination.",
-              "applied": "Treatment concept."
-            }
-          },
-          {
-            "id": "AV-2-19-2",
-            "verse_number": 2,
-            "sanskrit": "स्वस्थो भवामि",
-            "transliteration": "svastho bhavāmi",
-            "meaning": {
-              "literal": "I become healthy.",
-              "interpretive": "Restoration of balance.",
-              "applied": "Recovery affirmation."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-20",
-        "hymn_number": 20,
-        "title": "Charm for Prosperity and Abundance",
-        "sources": {
-          "whitney": "AV II.20"
-        },
-        "classification": {
-          "category": "Prosperity",
-          "sub_category": "Abundance"
-        },
-        "verses": [
-          {
-            "id": "AV-2-20-1",
-            "verse_number": 1,
-            "sanskrit": "समृद्धिं मे देहि",
-            "transliteration": "samṛddhiṃ me dehi",
-            "meaning": {
-              "literal": "Grant me prosperity.",
-              "interpretive": "Abundance sustains life.",
-              "applied": "Wealth and growth."
-            }
-          },
-          {
-            "id": "AV-2-20-2",
-            "verse_number": 2,
-            "sanskrit": "धनं मे अस्तु",
-            "transliteration": "dhanaṃ me astu",
-            "meaning": {
-              "literal": "May wealth be mine.",
-              "interpretive": "Material resources support stability.",
-              "applied": "Financial security."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-21",
-        "hymn_number": 21,
-        "title": "Charm for Removal of Sin and Impurity",
-        "sources": {
-          "whitney": "AV II.21"
-        },
-        "classification": {
-          "category": "Spiritual Healing",
-          "sub_category": "Purification"
-        },
-        "verses": [
-          {
-            "id": "AV-2-21-1",
-            "verse_number": 1,
-            "sanskrit": "पापं मे नश्यतु",
-            "transliteration": "pāpaṃ me naśyatu",
-            "meaning": {
-              "literal": "May my sin be destroyed.",
-              "interpretive": "Impurity can be removed.",
-              "applied": "Moral cleansing."
-            }
-          },
-          {
-            "id": "AV-2-21-2",
-            "verse_number": 2,
-            "sanskrit": "शुद्धोऽहम् भवामि",
-            "transliteration": "śuddho'ham bhavāmi",
-            "meaning": {
-              "literal": "I become pure.",
-              "interpretive": "Purity is restored state.",
-              "applied": "Self-renewal."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-22",
-        "hymn_number": 22,
-        "title": "Charm for Mental Clarity and Wisdom",
-        "sources": {
-          "whitney": "AV II.22"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Mental Clarity"
-        },
-        "verses": [
-          {
-            "id": "AV-2-22-1",
-            "verse_number": 1,
-            "sanskrit": "मेधां मे देहि",
-            "transliteration": "medhāṃ me dehi",
-            "meaning": {
-              "literal": "Grant me intelligence.",
-              "interpretive": "Knowledge is divine gift.",
-              "applied": "Cognitive enhancement."
-            }
-          },
-          {
-            "id": "AV-2-22-2",
-            "verse_number": 2,
-            "sanskrit": "प्रज्ञां मे अस्तु",
-            "transliteration": "prajñāṃ me astu",
-            "meaning": {
-              "literal": "May wisdom be mine.",
-              "interpretive": "Wisdom guides life.",
-              "applied": "Decision-making ability."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-23",
-        "hymn_number": 23,
-        "title": "Charm Against Misfortune",
-        "sources": {
-          "whitney": "AV II.23"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Misfortune Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-23-1",
-            "verse_number": 1,
-            "sanskrit": "दुर्भाग्यं नुदामि",
-            "transliteration": "durbhāgyaṃ nudāmi",
-            "meaning": {
-              "literal": "I drive away misfortune.",
-              "interpretive": "Negativity can be expelled.",
-              "applied": "Positive outlook."
-            }
-          },
-          {
-            "id": "AV-2-23-2",
-            "verse_number": 2,
-            "sanskrit": "शुभं मे अस्तु",
-            "transliteration": "śubhaṃ me astu",
-            "meaning": {
-              "literal": "May there be auspiciousness for me.",
-              "interpretive": "Positive alignment with life.",
-              "applied": "Optimistic mindset."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-24",
-        "hymn_number": 24,
-        "title": "Charm for Strength and Courage",
-        "sources": {
-          "whitney": "AV II.24"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Strength"
-        },
-        "verses": [
-          {
-            "id": "AV-2-24-1",
-            "verse_number": 1,
-            "sanskrit": "वीर्यं मे अस्तु",
-            "transliteration": "vīryaṃ me astu",
-            "meaning": {
-              "literal": "May vigor be mine.",
-              "interpretive": "Strength drives action.",
-              "applied": "Energy and stamina."
-            }
-          },
-          {
-            "id": "AV-2-24-2",
-            "verse_number": 2,
-            "sanskrit": "धैर्यं मे देहि",
-            "transliteration": "dhairyaṃ me dehi",
-            "meaning": {
-              "literal": "Grant me courage.",
-              "interpretive": "Courage sustains effort.",
-              "applied": "Resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-25",
-        "hymn_number": 25,
-        "title": "Charm for Harmony and Peace",
-        "sources": {
-          "whitney": "AV II.25"
-        },
-        "classification": {
-          "category": "Social Harmony",
-          "sub_category": "Peace"
-        },
-        "verses": [
-          {
-            "id": "AV-2-25-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Peace is essential for harmony.",
-              "applied": "Mental and social stability."
-            }
-          },
-          {
-            "id": "AV-2-25-2",
-            "verse_number": 2,
-            "sanskrit": "मा विभेदः",
-            "transliteration": "mā vibhedaḥ",
-            "meaning": {
-              "literal": "Let there be no division.",
-              "interpretive": "Unity prevents conflict.",
-              "applied": "Relationship harmony."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-26",
-        "hymn_number": 26,
-        "title": "Charm for Removal of Weakness",
-        "sources": {
-          "whitney": "AV II.26"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Weakness Recovery"
-        },
-        "verses": [
-          {
-            "id": "AV-2-26-1",
-            "verse_number": 1,
-            "sanskrit": "दुर्बलं मे नश्यतु",
-            "transliteration": "durbalaṃ me naśyatu",
-            "meaning": {
-              "literal": "Let weakness be destroyed.",
-              "interpretive": "Weakness is removable.",
-              "applied": "Strength recovery."
-            }
-          },
-          {
-            "id": "AV-2-26-2",
-            "verse_number": 2,
-            "sanskrit": "बलं मे आगच्छतु",
-            "transliteration": "balaṃ me āgacchatu",
-            "meaning": {
-              "literal": "Let strength come to me.",
-              "interpretive": "Strength can be invoked.",
-              "applied": "Rehabilitation."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-27",
-        "hymn_number": 27,
-        "title": "Charm Against Hostility",
-        "sources": {
-          "whitney": "AV II.27"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Conflict Resolution"
-        },
-        "verses": [
-          {
-            "id": "AV-2-27-1",
-            "verse_number": 1,
-            "sanskrit": "शत्रवो दूरं गच्छन्तु",
-            "transliteration": "śatravo dūraṃ gacchantu",
-            "meaning": {
-              "literal": "Let enemies go far away.",
-              "interpretive": "Distance neutralizes threat.",
-              "applied": "Conflict avoidance."
-            }
-          },
-          {
-            "id": "AV-2-27-2",
-            "verse_number": 2,
-            "sanskrit": "मित्राणि मे सन्तु",
-            "transliteration": "mitrāṇi me santu",
-            "meaning": {
-              "literal": "Let there be friends for me.",
-              "interpretive": "Social support ensures safety.",
-              "applied": "Community building."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-28",
-        "hymn_number": 28,
-        "title": "Charm for Mental Stability",
-        "sources": {
-          "whitney": "AV II.28"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Mental Stability"
-        },
-        "verses": [
-          {
-            "id": "AV-2-28-1",
-            "verse_number": 1,
-            "sanskrit": "स्थिरं मनः मे अस्तु",
-            "transliteration": "sthiraṃ manaḥ me astu",
-            "meaning": {
-              "literal": "May my mind be steady.",
-              "interpretive": "Stability ensures clarity.",
-              "applied": "Mental discipline."
-            }
-          },
-          {
-            "id": "AV-2-28-2",
-            "verse_number": 2,
-            "sanskrit": "चञ्चलं न भवतु",
-            "transliteration": "cañcalaṃ na bhavatu",
-            "meaning": {
-              "literal": "Let it not be restless.",
-              "interpretive": "Restlessness disrupts balance.",
-              "applied": "Focus training."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-29",
-        "hymn_number": 29,
-        "title": "Charm for Protection of the Body",
-        "sources": {
-          "whitney": "AV II.29"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Physical Protection"
-        },
-        "verses": [
-          {
-            "id": "AV-2-29-1",
-            "verse_number": 1,
-            "sanskrit": "तनुं मे पातु",
-            "transliteration": "tanuṃ me pātu",
-            "meaning": {
-              "literal": "Protect my body.",
-              "interpretive": "Body is sacred vessel.",
-              "applied": "Health protection."
-            }
-          },
-          {
-            "id": "AV-2-29-2",
-            "verse_number": 2,
-            "sanskrit": "सर्वतः रक्षतु",
-            "transliteration": "sarvataḥ rakṣatu",
-            "meaning": {
-              "literal": "Protect from all sides.",
-              "interpretive": "Complete safety desired.",
-              "applied": "Holistic protection."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-30",
-        "hymn_number": 30,
-        "title": "Charm for Longevity and Life Continuity",
-        "sources": {
-          "whitney": "AV II.30"
-        },
-        "classification": {
-          "category": "Healing",
-          "sub_category": "Longevity"
-        },
-        "verses": [
-          {
-            "id": "AV-2-30-1",
-            "verse_number": 1,
-            "sanskrit": "जीवेम शरदः शतम्",
-            "transliteration": "jīvema śaradaḥ śatam",
-            "meaning": {
-              "literal": "May we live a hundred autumns.",
-              "interpretive": "Longevity ideal.",
-              "applied": "Healthy lifespan goal."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-31",
-        "hymn_number": 31,
-        "title": "Charm for Prosperity Expansion",
-        "sources": {
-          "whitney": "AV II.31"
-        },
-        "classification": {
-          "category": "Prosperity",
-          "sub_category": "Expansion"
-        },
-        "verses": [
-          {
-            "id": "AV-2-31-1",
-            "verse_number": 1,
-            "sanskrit": "वृद्धिर्मे अस्तु",
-            "transliteration": "vṛddhir me astu",
-            "meaning": {
-              "literal": "May growth be mine.",
-              "interpretive": "Expansion is natural law.",
-              "applied": "Personal scaling."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-32",
-        "hymn_number": 32,
-        "title": "Charm for Removal of Negativity",
-        "sources": {
-          "whitney": "AV II.32"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Negativity Removal"
-        },
-        "verses": [
-          {
-            "id": "AV-2-32-1",
-            "verse_number": 1,
-            "sanskrit": "अशुभं नुदामि",
-            "transliteration": "aśubhaṃ nudāmi",
-            "meaning": {
-              "literal": "I drive away inauspiciousness.",
-              "interpretive": "Negativity is removable.",
-              "applied": "Positive conditioning."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-33",
-        "hymn_number": 33,
-        "title": "Charm for Clarity of Thought",
-        "sources": {
-          "whitney": "AV II.33"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Clarity"
-        },
-        "verses": [
-          {
-            "id": "AV-2-33-1",
-            "verse_number": 1,
-            "sanskrit": "मेधां मे अस्तु",
-            "transliteration": "medhāṃ me astu",
-            "meaning": {
-              "literal": "May intelligence be mine.",
-              "interpretive": "Clarity drives wisdom.",
-              "applied": "Cognitive enhancement."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-34",
-        "hymn_number": 34,
-        "title": "Charm for Courage",
-        "sources": {
-          "whitney": "AV II.34"
-        },
-        "classification": {
-          "category": "Well-being",
-          "sub_category": "Courage"
-        },
-        "verses": [
-          {
-            "id": "AV-2-34-1",
-            "verse_number": 1,
-            "sanskrit": "धैर्यं मे अस्तु",
-            "transliteration": "dhairyaṃ me astu",
-            "meaning": {
-              "literal": "May courage be mine.",
-              "interpretive": "Courage sustains action.",
-              "applied": "Resilience."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-35",
-        "hymn_number": 35,
-        "title": "Charm for Universal Protection",
-        "sources": {
-          "whitney": "AV II.35"
-        },
-        "classification": {
-          "category": "Protection",
-          "sub_category": "Universal Safety"
-        },
-        "verses": [
-          {
-            "id": "AV-2-35-1",
-            "verse_number": 1,
-            "sanskrit": "सर्वतः मां पातु",
-            "transliteration": "sarvataḥ māṃ pātu",
-            "meaning": {
-              "literal": "Protect me from all sides.",
-              "interpretive": "Total protection invoked.",
-              "applied": "Security mindset."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-2-36",
-        "hymn_number": 36,
-        "title": "Final Peace Invocation",
-        "sources": {
-          "whitney": "AV II.36"
-        },
-        "classification": {
-          "category": "Cosmic Harmony",
-          "sub_category": "Peace"
-        },
-        "verses": [
-          {
-            "id": "AV-2-36-1",
-            "verse_number": 1,
-            "sanskrit": "शान्तिः शान्तिः शान्तिः",
-            "transliteration": "śāntiḥ śāntiḥ śāntiḥ",
-            "meaning": {
-              "literal": "Peace, peace, peace.",
-              "interpretive": "Peace across all dimensions.",
-              "applied": "Holistic harmony."
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part1": {
-    "hymns": [
-      {
-        "id": "AV-2-1",
-        "hymn_number": 1,
         "theme": "Charm for Protection and Well-being",
         "source": "Atharvaveda 2.1",
         "verses": [
@@ -1385,7 +127,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-2",
         "hymn_number": 2,
@@ -1424,7 +165,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-3",
         "hymn_number": 3,
@@ -1462,15 +202,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-
-{
-  "book2_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-2-4",
         "hymn_number": 4,
@@ -1509,7 +241,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-5",
         "hymn_number": 5,
@@ -1548,7 +279,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-6",
         "hymn_number": 6,
@@ -1586,14 +316,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part3": {
-    "hymns": [
+      },
       {
         "id": "AV-2-7",
         "hymn_number": 7,
@@ -1632,7 +355,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-8",
         "hymn_number": 8,
@@ -1671,7 +393,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-9",
         "hymn_number": 9,
@@ -1709,14 +430,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part4": {
-    "hymns": [
+      },
       {
         "id": "AV-2-10",
         "hymn_number": 10,
@@ -1755,7 +469,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-11",
         "hymn_number": 11,
@@ -1794,7 +507,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-12",
         "hymn_number": 12,
@@ -1832,14 +544,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part5": {
-    "hymns": [
+      },
       {
         "id": "AV-2-13",
         "hymn_number": 13,
@@ -1878,7 +583,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-14",
         "hymn_number": 14,
@@ -1917,7 +621,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-15",
         "hymn_number": 15,
@@ -1955,14 +658,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part6": {
-    "hymns": [
+      },
       {
         "id": "AV-2-16",
         "hymn_number": 16,
@@ -2001,7 +697,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-17",
         "hymn_number": 17,
@@ -2040,7 +735,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-18",
         "hymn_number": 18,
@@ -2078,14 +772,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part7": {
-    "hymns": [
+      },
       {
         "id": "AV-2-19",
         "hymn_number": 19,
@@ -2124,7 +811,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-20",
         "hymn_number": 20,
@@ -2163,7 +849,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-21",
         "hymn_number": 21,
@@ -2201,14 +886,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part8": {
-    "hymns": [
+      },
       {
         "id": "AV-2-22",
         "hymn_number": 22,
@@ -2247,7 +925,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-23",
         "hymn_number": 23,
@@ -2286,7 +963,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-24",
         "hymn_number": 24,
@@ -2324,14 +1000,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part9": {
-    "hymns": [
+      },
       {
         "id": "AV-2-25",
         "hymn_number": 25,
@@ -2370,7 +1039,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-26",
         "hymn_number": 26,
@@ -2409,7 +1077,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-27",
         "hymn_number": 27,
@@ -2447,14 +1114,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book2_part10": {
-    "hymns": [
+      },
       {
         "id": "AV-2-28",
         "hymn_number": 28,
@@ -2493,7 +1153,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-29",
         "hymn_number": 29,
@@ -2532,7 +1191,6 @@
           }
         ]
       },
-
       {
         "id": "AV-2-30",
         "hymn_number": 30,

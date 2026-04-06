@@ -108,12 +108,7 @@
           "logo": "https://sanatanadharmam.in/images/logo.png"
         }
       ]
-    }
-  }
-}
-
-{
-  "book10_part1": {
+    },
     "hymns": [
       {
         "id": "AV-10-1",
@@ -152,7 +147,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-2",
         "hymn_number": 2,
@@ -190,7 +184,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-3",
         "hymn_number": 3,
@@ -228,7 +221,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-4",
         "hymn_number": 4,
@@ -266,7 +258,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-5",
         "hymn_number": 5,
@@ -303,14 +294,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-10-6",
         "hymn_number": 6,
@@ -348,7 +332,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-7",
         "hymn_number": 7,
@@ -386,7 +369,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-8",
         "hymn_number": 8,
@@ -424,7 +406,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-9",
         "hymn_number": 9,
@@ -462,7 +443,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-10",
         "hymn_number": 10,
@@ -499,14 +479,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part3": {
-    "hymns": [
+      },
       {
         "id": "AV-10-11",
         "hymn_number": 11,
@@ -544,7 +517,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-12",
         "hymn_number": 12,
@@ -582,7 +554,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-13",
         "hymn_number": 13,
@@ -620,7 +591,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-14",
         "hymn_number": 14,
@@ -658,7 +628,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-15",
         "hymn_number": 15,
@@ -695,14 +664,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part4": {
-    "hymns": [
+      },
       {
         "id": "AV-10-16",
         "hymn_number": 16,
@@ -740,7 +702,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-17",
         "hymn_number": 17,
@@ -778,7 +739,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-18",
         "hymn_number": 18,
@@ -816,7 +776,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-19",
         "hymn_number": 19,
@@ -854,7 +813,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-20",
         "hymn_number": 20,
@@ -891,210 +849,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part4": {
-    "hymns": [
-      {
-        "id": "AV-10-16",
-        "hymn_number": 16,
-        "theme": "Charm for Harmony and Unity",
-        "verses": [
-          {
-            "id": "AV-10-16-1",
-            "sanskrit": "समानो मनः सह चित्तम् अस्तु",
-            "transliteration": "samāno manaḥ saha cittam astu",
-            "meaning": {
-              "literal": "Let minds be united.",
-              "interpretive": "Unity creates harmony.",
-              "applied": "Relationships."
-            }
-          },
-          {
-            "id": "AV-10-16-2",
-            "sanskrit": "समानं वः हृदयं अस्तु",
-            "transliteration": "samānaṃ vaḥ hṛdayaṃ astu",
-            "meaning": {
-              "literal": "Let hearts be one.",
-              "interpretive": "Emotional unity.",
-              "applied": "Family harmony."
-            }
-          },
-          {
-            "id": "AV-10-16-3",
-            "sanskrit": "मा विभेदः भवतु",
-            "transliteration": "mā vibhedaḥ bhavatu",
-            "meaning": {
-              "literal": "Let there be no division.",
-              "interpretive": "Avoid conflict.",
-              "applied": "Peaceful coexistence."
-            }
-          }
-        ]
       },
-
-      {
-        "id": "AV-10-17",
-        "hymn_number": 17,
-        "theme": "Charm for Prosperity and Growth",
-        "verses": [
-          {
-            "id": "AV-10-17-1",
-            "sanskrit": "वृद्धिं मे देहि धनं मे आगच्छतु",
-            "transliteration": "vṛddhiṃ me dehi dhanaṃ me āgacchatu",
-            "meaning": {
-              "literal": "Grant growth and wealth.",
-              "interpretive": "Expansion sustains life.",
-              "applied": "Financial stability."
-            }
-          },
-          {
-            "id": "AV-10-17-2",
-            "sanskrit": "समृद्धिर्मे वर्धताम्",
-            "transliteration": "samṛddhir me vardhatām",
-            "meaning": {
-              "literal": "May prosperity increase.",
-              "interpretive": "Abundance reflects balance.",
-              "applied": "Success."
-            }
-          },
-          {
-            "id": "AV-10-17-3",
-            "sanskrit": "रयिं मे देहि बहुधा",
-            "transliteration": "rayiṃ me dehi bahudhā",
-            "meaning": {
-              "literal": "Grant wealth in many forms.",
-              "interpretive": "Resources are multidimensional.",
-              "applied": "Holistic prosperity."
-            }
-          }
-        ]
-      },
-
-      {
-        "id": "AV-10-18",
-        "hymn_number": 18,
-        "theme": "Charm for Removal of Fear",
-        "verses": [
-          {
-            "id": "AV-10-18-1",
-            "sanskrit": "अभयं मे अस्तु सर्वतः",
-            "transliteration": "abhayaṃ me astu sarvataḥ",
-            "meaning": {
-              "literal": "Let there be fearlessness everywhere.",
-              "interpretive": "Protection removes fear.",
-              "applied": "Confidence."
-            }
-          },
-          {
-            "id": "AV-10-18-2",
-            "sanskrit": "मा भयम् आगात् कुतश्चन",
-            "transliteration": "mā bhayam āgāt kutaścana",
-            "meaning": {
-              "literal": "Let fear not arise anywhere.",
-              "interpretive": "Fear can be controlled.",
-              "applied": "Calmness."
-            }
-          },
-          {
-            "id": "AV-10-18-3",
-            "sanskrit": "धैर्यं मे अस्तु दृढम्",
-            "transliteration": "dhairyaṃ me astu dṛḍham",
-            "meaning": {
-              "literal": "Let courage be firm.",
-              "interpretive": "Courage stabilizes mind.",
-              "applied": "Resilience."
-            }
-          }
-        ]
-      },
-
-      {
-        "id": "AV-10-19",
-        "hymn_number": 19,
-        "theme": "Charm for Restoration of Vital Energy",
-        "verses": [
-          {
-            "id": "AV-10-19-1",
-            "sanskrit": "प्राणाः मे पुनरागच्छन्तु",
-            "transliteration": "prāṇāḥ me punar āgacchantu",
-            "meaning": {
-              "literal": "Let life-breath return.",
-              "interpretive": "Vital energy is restorable.",
-              "applied": "Recovery."
-            }
-          },
-          {
-            "id": "AV-10-19-2",
-            "sanskrit": "ओजः मे अस्तु पुनः",
-            "transliteration": "ojaḥ me astu punaḥ",
-            "meaning": {
-              "literal": "May vitality return.",
-              "interpretive": "Ojas sustains life.",
-              "applied": "Immunity."
-            }
-          },
-          {
-            "id": "AV-10-19-3",
-            "sanskrit": "बलं मे पुनर्वर्धताम्",
-            "transliteration": "balaṃ me punar vardhatām",
-            "meaning": {
-              "literal": "Let strength grow again.",
-              "interpretive": "Energy rebuilds body.",
-              "applied": "Rehabilitation."
-            }
-          }
-        ]
-      },
-
-      {
-        "id": "AV-10-20",
-        "hymn_number": 20,
-        "theme": "Charm for Purification and Renewal",
-        "verses": [
-          {
-            "id": "AV-10-20-1",
-            "sanskrit": "पापं मे नश्यतु सर्वम्",
-            "transliteration": "pāpaṃ me naśyatu sarvam",
-            "meaning": {
-              "literal": "May all sin be destroyed.",
-              "interpretive": "Impurity is removable.",
-              "applied": "Cleansing."
-            }
-          },
-          {
-            "id": "AV-10-20-2",
-            "sanskrit": "शुद्धोऽहम् पुनर्भवामि",
-            "transliteration": "śuddho'ham punar bhavāmi",
-            "meaning": {
-              "literal": "I become pure again.",
-              "interpretive": "Renewal is possible.",
-              "applied": "Transformation."
-            }
-          },
-          {
-            "id": "AV-10-20-3",
-            "sanskrit": "अग्निः पावकः शुद्धये",
-            "transliteration": "agniḥ pāvakaḥ śuddhaye",
-            "meaning": {
-              "literal": "Agni purifies.",
-              "interpretive": "Fire removes impurity.",
-              "applied": "Spiritual cleansing."
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part5": {
-    "hymns": [
       {
         "id": "AV-10-21",
         "hymn_number": 21,
@@ -1132,7 +887,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-22",
         "hymn_number": 22,
@@ -1170,7 +924,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-23",
         "hymn_number": 23,
@@ -1208,7 +961,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-24",
         "hymn_number": 24,
@@ -1246,7 +998,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-25",
         "hymn_number": 25,
@@ -1283,14 +1034,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book10_part6": {
-    "hymns": [
+      },
       {
         "id": "AV-10-26",
         "hymn_number": 26,
@@ -1328,7 +1072,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-27",
         "hymn_number": 27,
@@ -1366,7 +1109,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-28",
         "hymn_number": 28,
@@ -1404,7 +1146,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-29",
         "hymn_number": 29,
@@ -1442,7 +1183,6 @@
           }
         ]
       },
-
       {
         "id": "AV-10-30",
         "hymn_number": 30,
@@ -1483,4 +1223,3 @@
     ]
   }
 }
-

@@ -113,593 +113,6 @@
       {
         "id": "AV-4-1",
         "hymn_number": 1,
-        "title": "Hymn 1 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-1-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-1-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-2",
-        "hymn_number": 2,
-        "title": "Hymn 2 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-2-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-2-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-3",
-        "hymn_number": 3,
-        "title": "Hymn 3 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-3-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-3-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-4",
-        "hymn_number": 4,
-        "title": "Hymn 4 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-4-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-4-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-5",
-        "hymn_number": 5,
-        "title": "Hymn 5 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-5-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-5-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-6",
-        "hymn_number": 6,
-        "title": "Hymn 6 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-6-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-6-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-7",
-        "hymn_number": 7,
-        "title": "Hymn 7 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-7-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-7-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-8",
-        "hymn_number": 8,
-        "title": "Hymn 8 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-8-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-8-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-9",
-        "hymn_number": 9,
-        "title": "Hymn 9 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-9-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-9-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-10",
-        "hymn_number": 10,
-        "title": "Hymn 10 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-10-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-10-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-11",
-        "hymn_number": 11,
-        "title": "Hymn 11 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-11-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-11-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-12",
-        "hymn_number": 12,
-        "title": "Hymn 12 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-12-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-12-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-13",
-        "hymn_number": 13,
-        "title": "Hymn 13 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-13-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-13-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-14",
-        "hymn_number": 14,
-        "title": "Hymn 14 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-14-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-14-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-15",
-        "hymn_number": 15,
-        "title": "Hymn 15 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-15-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-15-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-16",
-        "hymn_number": 16,
-        "title": "Hymn 16 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-16-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-16-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-17",
-        "hymn_number": 17,
-        "title": "Hymn 17 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-17-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-17-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-18",
-        "hymn_number": 18,
-        "title": "Hymn 18 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-18-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-18-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-19",
-        "hymn_number": 19,
-        "title": "Hymn 19 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-19-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-19-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      },
-      {
-        "id": "AV-4-20",
-        "hymn_number": 20,
-        "title": "Hymn 20 – Integrated Theme",
-        "verses": [
-          {
-            "id": "AV-4-20-1",
-            "verse_number": 1,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          },
-          {
-            "id": "AV-4-20-2",
-            "verse_number": 2,
-            "sanskrit": "शं नो अस्तु",
-            "transliteration": "śaṃ no astu",
-            "meaning": {
-              "literal": "May there be peace for us.",
-              "interpretive": "Invocation of harmony.",
-              "applied": "Holistic well-being."
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part1": {
-    "hymns": [
-      {
-        "id": "AV-4-1",
-        "hymn_number": 1,
         "theme": "Charm for Protection and Victory",
         "source": "Atharvaveda 4.1",
         "verses": [
@@ -735,7 +148,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-2",
         "hymn_number": 2,
@@ -774,7 +186,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-3",
         "hymn_number": 3,
@@ -812,14 +223,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part2": {
-    "hymns": [
+      },
       {
         "id": "AV-4-4",
         "hymn_number": 4,
@@ -858,7 +262,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-5",
         "hymn_number": 5,
@@ -897,7 +300,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-6",
         "hymn_number": 6,
@@ -935,14 +337,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book3_part3": {
-    "hymns": [
+      },
       {
         "id": "AV-3-7",
         "hymn_number": 7,
@@ -981,7 +376,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-8",
         "hymn_number": 8,
@@ -1020,7 +414,6 @@
           }
         ]
       },
-
       {
         "id": "AV-3-9",
         "hymn_number": 9,
@@ -1058,14 +451,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part4": {
-    "hymns": [
+      },
       {
         "id": "AV-4-10",
         "hymn_number": 10,
@@ -1104,7 +490,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-11",
         "hymn_number": 11,
@@ -1143,7 +528,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-12",
         "hymn_number": 12,
@@ -1181,137 +565,130 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part4": {
-    "hymns": [
-      {
-        "id": "AV-4-10",
-        "hymn_number": 10,
-        "theme": "Charm for Purification and Release from Sin",
-        "source": "Atharvaveda 4.10",
-        "verses": [
-          {
-            "id": "AV-4-10-1",
-            "sanskrit": "पापं मे अपगच्छतु दूरं गच्छ",
-            "transliteration": "pāpaṃ me apagacchatu dūraṃ gaccha",
-            "meaning": {
-              "literal": "Let sin depart from me, go far away.",
-              "interpretive": "Impurity is removable.",
-              "applied": "Moral cleansing."
-            }
-          },
-          {
-            "id": "AV-4-10-2",
-            "sanskrit": "शुद्धोऽहमस्मि पवित्रेण",
-            "transliteration": "śuddho'ham asmi pavitreṇa",
-            "meaning": {
-              "literal": "I am purified by the purifier.",
-              "interpretive": "Purification restores balance.",
-              "applied": "Inner renewal."
-            }
-          },
-          {
-            "id": "AV-4-10-3",
-            "sanskrit": "अग्निः पावकः पातु माम्",
-            "transliteration": "agniḥ pāvakaḥ pātu mām",
-            "meaning": {
-              "literal": "Agni the purifier protects me.",
-              "interpretive": "Fire cleanses and safeguards.",
-              "applied": "Spiritual purification."
-            }
-          }
-        ]
       },
-
       {
-        "id": "AV-4-11",
-        "hymn_number": 11,
-        "theme": "Harmony with Natural Elements",
-        "source": "Atharvaveda 4.11",
+        "id": "AV-4-13",
+        "hymn_number": 13,
+        "deity": "Agni",
+        "theme": "Protection and purification",
+        "source": "Atharvaveda 4.13",
         "verses": [
           {
-            "id": "AV-4-11-1",
-            "sanskrit": "पृथिवी मे शं करोतु",
-            "transliteration": "pṛthivī me śaṃ karotu",
+            "id": "AV-4-13-1",
+            "sanskrit": "अग्ने पावक दीदिहि रक्ष नः सर्वतो भयात्",
+            "transliteration": "agne pāvaka dīdihi rakṣa naḥ sarvato bhayāt",
             "meaning": {
-              "literal": "May Earth bring me peace.",
-              "interpretive": "Earth sustains life.",
-              "applied": "Grounding."
+              "literal": "O radiant Agni, shine and protect us from all fear.",
+              "interpretive": "Fire acts as a purifier and guardian.",
+              "applied": "Protection from negative influences."
             }
           },
           {
-            "id": "AV-4-11-2",
-            "sanskrit": "आपः शं नो भवन्तु",
-            "transliteration": "āpaḥ śaṃ no bhavantu",
+            "id": "AV-4-13-2",
+            "sanskrit": "त्वं नः पापं दहसि विश्वतो नः परित्राहि",
+            "transliteration": "tvaṁ naḥ pāpaṁ dahasi viśvato naḥ paritrāhi",
             "meaning": {
-              "literal": "May waters bring us peace.",
-              "interpretive": "Water purifies and nourishes.",
-              "applied": "Cleansing."
+              "literal": "You burn away sin and protect us from all sides.",
+              "interpretive": "Agni removes impurities and safeguards life.",
+              "applied": "Spiritual cleansing."
             }
           },
           {
-            "id": "AV-4-11-3",
-            "sanskrit": "वायुः प्राणो जीवने",
-            "transliteration": "vāyuḥ prāṇo jīvane",
+            "id": "AV-4-13-3",
+            "sanskrit": "अग्निर्नः पातु गृहपतिः शुभं करोतु",
+            "transliteration": "agnir naḥ pātu gṛhapatiḥ śubhaṁ karotu",
             "meaning": {
-              "literal": "Air is the life-breath.",
-              "interpretive": "Air sustains life force.",
-              "applied": "Vitality."
+              "literal": "May Agni, lord of the home, protect us and bring auspiciousness.",
+              "interpretive": "Agni sustains domestic harmony.",
+              "applied": "Household well-being."
             }
           }
-        ]
+        ],
+        "application": "Used in fire rituals for purification, protection, and domestic peace",
+        "philosophy": "Agni symbolizes transformation—turning impurity into purity and fear into strength"
       },
-
       {
-        "id": "AV-4-12",
-        "hymn_number": 12,
-        "theme": "Charm for Strength and Stability",
-        "source": "Atharvaveda 4.12",
+        "id": "AV-4-14",
+        "hymn_number": 14,
+        "deity": "Vayu (Air / Prana)",
+        "theme": "Vital energy and life-force",
+        "source": "Atharvaveda 4.14",
         "verses": [
           {
-            "id": "AV-4-12-1",
-            "sanskrit": "स्थिरो भवामि धृत्या",
-            "transliteration": "sthiro bhavāmi dhṛtyā",
+            "id": "AV-4-14-1",
+            "sanskrit": "वायुः प्राणो जीवने सर्वं धारयति",
+            "transliteration": "vāyuḥ prāṇo jīvane sarvaṁ dhārayati",
             "meaning": {
-              "literal": "I become stable through firmness.",
-              "interpretive": "Stability arises from strength.",
-              "applied": "Mental resilience."
+              "literal": "Air, the life-breath, sustains all existence.",
+              "interpretive": "Prana is the fundamental life force.",
+              "applied": "Breath awareness and vitality."
             }
           },
           {
-            "id": "AV-4-12-2",
-            "sanskrit": "बलं मे अस्तु तनुवे",
-            "transliteration": "balaṃ me astu tanuve",
+            "id": "AV-4-14-2",
+            "sanskrit": "प्राणाः मे बलं दधतु आयुः वर्धयन्तु",
+            "transliteration": "prāṇāḥ me balaṁ dadhatu āyuḥ vardhayantu",
             "meaning": {
-              "literal": "Let strength be in my body.",
-              "interpretive": "Strength supports existence.",
-              "applied": "Physical health."
+              "literal": "May the life-breaths give me strength and increase lifespan.",
+              "interpretive": "Balanced prana leads to health and longevity.",
+              "applied": "Energy and endurance."
             }
           },
           {
-            "id": "AV-4-12-3",
-            "sanskrit": "धैर्यं मे देहि",
-            "transliteration": "dhairyaṃ me dehi",
+            "id": "AV-4-14-3",
+            "sanskrit": "वायोः शक्त्या जीवामि दीर्घमायुः",
+            "transliteration": "vāyoḥ śaktyā jīvāmi dīrgham āyuḥ",
             "meaning": {
-              "literal": "Grant me courage.",
-              "interpretive": "Courage sustains effort.",
-              "applied": "Confidence."
+              "literal": "By the power of air, I live a long life.",
+              "interpretive": "Life is sustained through breath and energy flow.",
+              "applied": "Longevity practices."
             }
           }
-        ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part6": {
-    "hymns": [
+        ],
+        "application": "Used in breathing rituals, vitality enhancement, and health practices",
+        "philosophy": "Prana (life-force) connects body, mind, and cosmos"
+      },
+      {
+        "id": "AV-4-15",
+        "hymn_number": 15,
+        "deity": "Brahman (Cosmic Principle)",
+        "theme": "Unity and universal consciousness",
+        "source": "Atharvaveda 4.15",
+        "verses": [
+          {
+            "id": "AV-4-15-1",
+            "sanskrit": "ब्रह्म सर्वं प्रतिष्ठितं यत्र विश्वं निहितं महत्",
+            "transliteration": "brahma sarvaṁ pratiṣṭhitaṁ yatra viśvaṁ nihitaṁ mahat",
+            "meaning": {
+              "literal": "In Brahman all is established; the universe rests within it.",
+              "interpretive": "Ultimate reality is the foundation of existence.",
+              "applied": "Meditation on unity."
+            }
+          },
+          {
+            "id": "AV-4-15-2",
+            "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सनातनः",
+            "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sanātanaḥ",
+            "meaning": {
+              "literal": "One divine reality dwells hidden in all beings.",
+              "interpretive": "Divinity is present everywhere.",
+              "applied": "Universal awareness."
+            }
+          },
+          {
+            "id": "AV-4-15-3",
+            "sanskrit": "तत् सत्यं ज्ञानमेकं सर्वभूताधारम्",
+            "transliteration": "tat satyaṁ jñānam ekaṁ sarvabhūtādhāram",
+            "meaning": {
+              "literal": "That is truth, knowledge, and the support of all beings.",
+              "interpretive": "Brahman is ultimate truth and consciousness.",
+              "applied": "Spiritual realization."
+            }
+          }
+        ],
+        "application": "Used in meditation, philosophical contemplation, and spiritual study",
+        "philosophy": "All existence is unified in one cosmic consciousness (Brahman)"
+      },
       {
         "id": "AV-4-16",
         "hymn_number": 16,
@@ -1350,7 +727,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-17",
         "hymn_number": 17,
@@ -1389,7 +765,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-18",
         "hymn_number": 18,
@@ -1427,14 +802,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part7": {
-    "hymns": [
+      },
       {
         "id": "AV-4-19",
         "hymn_number": 19,
@@ -1473,7 +841,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-20",
         "hymn_number": 20,
@@ -1512,7 +879,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-21",
         "hymn_number": 21,
@@ -1550,14 +916,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part8": {
-    "hymns": [
+      },
       {
         "id": "AV-4-22",
         "hymn_number": 22,
@@ -1596,7 +955,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-23",
         "hymn_number": 23,
@@ -1635,7 +993,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-24",
         "hymn_number": 24,
@@ -1673,14 +1030,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part9": {
-    "hymns": [
+      },
       {
         "id": "AV-4-25",
         "hymn_number": 25,
@@ -1719,7 +1069,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-26",
         "hymn_number": 26,
@@ -1758,7 +1107,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-27",
         "hymn_number": 27,
@@ -1796,14 +1144,7 @@
             }
           }
         ]
-      }
-    ]
-  }
-}
-
-{
-  "book4_part10": {
-    "hymns": [
+      },
       {
         "id": "AV-4-28",
         "hymn_number": 28,
@@ -1842,7 +1183,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-29",
         "hymn_number": 29,
@@ -1881,7 +1221,6 @@
           }
         ]
       },
-
       {
         "id": "AV-4-30",
         "hymn_number": 30,
