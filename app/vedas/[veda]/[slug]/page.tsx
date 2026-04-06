@@ -4,7 +4,7 @@ import { fetchContentByRoute } from '@lib/siteUtils';
 import { createGenerateMetadata, resolveParams } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 
-import SlugClient from './SlugClient';
+import SlugRenderer from './SlugRenderer';
 
 // For static export we must provide all params at build time.
 export async function generateStaticParams() {
@@ -106,6 +106,6 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
   const parent = await fetchContentByRoute(locale, ['vedas', veda]);
   const siblings = parent && parent.data && parent.data.children ? (parent.data.children as string[]) : null;
 
-  return <SlugClient initialData={data} initialLocale={locale} veda={veda} slug={slug} siblings={siblings} />;
+  return <SlugRenderer initialData={data} initialLocale={locale} veda={veda} slug={slug} />;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
