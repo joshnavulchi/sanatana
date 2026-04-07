@@ -78,6 +78,21 @@
       "ogimage": "/og/religion_conversion.png",
       "url": "https://sanatanadharmam.in/religion-conversion"
     },
+    "openGraph": {
+      "title": "Why Do People Convert to Christianity and Islam? | Sanātana Dharma",
+      "description": "Explore the reasons, motivations, and social factors behind religious conversions to Christianity and Islam. Understand the personal, social, and historical contexts that influence such decisions.",
+      "images": [
+        {
+          "alt": "Religion Conversion Analysis",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/religion_conversion.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/religion-conversion"
+    },
     "schema": {
       "@context": "https://schema.org",
       "mainentity": {

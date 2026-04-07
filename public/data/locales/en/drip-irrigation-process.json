@@ -38,6 +38,21 @@
       "ogimage": "/og/drip-irrigation-process.png",
       "url": "https://sanatanadharmam.in/drip-irrigation-process"
     },
+    "openGraph": {
+      "title": "Drip Irrigation — End-to-End Design & Operation",
+      "description": "Comprehensive guide covering principles, components, hydraulic design, scheduling, fertigation, maintenance, troubleshooting, and a bill of materials template for drip irrigation.",
+      "images": [
+        {
+          "alt": "Drip Irrigation Process",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/drip-irrigation-process.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/drip-irrigation-process"
+    },
     "cta": {
       "title": "Need a customized design?",
       "body": "Provide crop, spacing, area, water source, and slope details to generate a block‑wise hydraulic plan.",

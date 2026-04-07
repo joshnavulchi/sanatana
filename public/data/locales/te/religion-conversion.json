@@ -78,6 +78,21 @@
       "ogimage": "/og/religion_conversion.png",
       "url": "https://sanatanadharmam.in/religion-conversion"
     },
+    "openGraph": {
+      "title": "క్రైస్తవ మతం మరియు ఇస్లామ్‌కు ఎందుకు మారతారు? | సనాతన ధర్మం",
+      "description": "క్రైస్తవ మతం మరియు ఇస్లామ్‌కు మత మార్పుల వెనుక ఉన్న కారణాలు, ప్రేరణలు మరియు సామాజిక కారకాలను అన్వేషించండి. అటువంటి నిర్ణయాలను ప్రభావితం చేసే వ్యక్తిగత, సామాజిక మరియు చారిత్రక సందర్భాలను అర్థం చేసుకోండి.",
+      "images": [
+        {
+          "alt": "మత మార్పు విశ్లేషణ",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/religion_conversion.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/religion-conversion"
+    },
     "conclusion": {
       "clarification": "The question of 'who came first' depends on whether one refers to theology or documented historical emergence.",
       "historical_personhood": "Jesus (1st century CE) precedes Muhammad (7th century CE)",

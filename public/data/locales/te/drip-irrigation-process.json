@@ -38,6 +38,21 @@
       "ogimage": "/og/drip-irrigation-process.png",
       "url": "https://sanatanadharmam.in/drip-irrigation-process"
     },
+    "openGraph": {
+      "title": "డ్రిప్ ఇరిగేషన్ — ఎండ్-టు-ఎండ్ డిజైన్ & ఆపరేషన్",
+      "description": "డ్రిప్ ఇరిగేషన్ కోసం సూత్రాలు, భాగాలు, హైడ్రాలిక్ డిజైన్, షెడ్యూలింగ్, ఫెర్టిగేషన్, మెయింటెనెన్స్, ట్రబుల్షూటింగ్ మరియు బిల్ ఆఫ్ మెటీరియల్స్ టెంప్లేట్‌ను కవర్ చేసే సమగ్ర గైడ్.",
+      "images": [
+        {
+          "alt": "డ్రిప్ ఇరిగేషన్ ప్రాసెస్",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/drip-irrigation-process.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/drip-irrigation-process"
+    },
     "cta": {
       "title": "Need a customized design?",
       "body": "Provide crop, spacing, area, water source, and slope details to generate a block‑wise hydraulic plan.",
