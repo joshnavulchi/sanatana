@@ -78,6 +78,29 @@
       "ogimage": "/og/religion_conversion.png",
       "url": "https://sanatanadharmam.in/religion-conversion"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
     "conclusion": {
       "clarification": "The question of 'who came first' depends on whether one refers to theology or documented historical emergence.",
       "historical_personhood": "Jesus (1st century CE) precedes Muhammad (7th century CE)",
@@ -170,7 +193,7 @@
         "tradition": "Islam"
       }
     ],
-    "intro": "Religious conversion is a complex phenomenon influenced by personal, social, economic, and historical factors. Understanding why people choose to convert to Christianity or Islam can foster empathy and interfaith dialogue.",
+    "descriptions": "Religious conversion is a complex phenomenon influenced by personal, social, economic, and historical factors. Understanding why people choose to convert to Christianity or Islam can foster empathy and interfaith dialogue.",
     "linguistic_evolution": {
       "allah": {
         "language": "Arabic",
@@ -904,29 +927,6 @@
     },
     "title2": "religion_expansion_history",
     "title3": "global_religion_history",
-    "topic": "Comparative Origins: Hindu Divine Concepts vs Allah vs Christ",
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-            "English",
-            "Hindi",
-            "Telugu",
-            "Spanish",
-            "French"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    }
+    "topic": "Comparative Origins: Hindu Divine Concepts vs Allah vs Christ"
   }
 }
