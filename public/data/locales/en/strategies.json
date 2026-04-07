@@ -34,7 +34,22 @@
         "military bases",
         "sanctions"
       ],
-      "ogimage": "images/og/usa-strategies.png",
+      "ogimage": "/og/usa-strategies.png",
+      "url": "https://sanatanadharmam.in/usa-strategies"
+    },
+    "openGraph": {
+      "title": "USA Strategies, Effectiveness, Motives, Timelines with Map & Force countries with Money, Technologies, Machines",
+      "description": "A structured view of how the United States has influenced the international system via finance (dollar/IMF/World Bank/sanctions), technologies (standards and export controls), and machines (bases/alliances), organized by presidency.",
+      "images": [
+        {
+          "alt": "USA Strategies Analysis",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/usa-strategies.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
       "url": "https://sanatanadharmam.in/usa-strategies"
     },
     "additional_forced_surrenders_not_directly_to_us": [

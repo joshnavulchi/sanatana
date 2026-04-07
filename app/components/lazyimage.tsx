@@ -32,7 +32,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
   return (
     <div
       ref={containerRef}
-      className={`relative overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 animate-fadeInUp ${className}`}
+      className={`relative overflow-hidden animate-fadeInUp ${className}`}
       style={{ minWidth: width ? `${width}px` : undefined }}
     >
       {!loadNow ? (
@@ -45,7 +45,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
           alt={typeof alt === 'string' ? alt : 'placeholder'}
           width={width}
           height={height}
-          className="rounded-2xl shadow-lg animate-fadeIn"
+          className="animate-fadeIn"
         />
       ) : (
         <Image
@@ -55,7 +55,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
           height={height}
           onLoad={onLoad}
           onError={() => setImgError(true)}
-          className="rounded-2xl shadow-lg animate-fadeIn"
+          className="animate-fadeIn"
           loading="eager"
           unoptimized={unoptimized}
           {...safeRest}
