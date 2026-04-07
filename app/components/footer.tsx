@@ -70,7 +70,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-lg sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-lg sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
@@ -143,7 +143,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-lg sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-lg sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
@@ -278,7 +278,7 @@ export default function Footer() {
 
           {/* ─── Navigation Columns ─── */}
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
-            <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
+            <nav className="grid gap-3 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath: configBase }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;

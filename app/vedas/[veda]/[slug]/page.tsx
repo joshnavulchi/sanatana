@@ -141,12 +141,14 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
                       )}
                       {verse.title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
                     </div>
-                    {verse.sanskrit && (
-                      <p className="text-xl leading-relaxed text-gray-900 mb-3">{verse.sanskrit}</p>
-                    )}
-                    {verse.transliteration && (
-                      <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>
-                    )}
+                    <div className="text-center mb-3">
+                      {verse.sanskrit && (
+                        <p className="text-2xl/8 md:text-3xl/12 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{verse.sanskrit}</p>
+                      )}
+                      {verse.transliteration && (
+                        <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>
+                      )}
+                    </div>
                     {verse.meaning && (
                       <div className="space-y-3 mb-4">
                         <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
