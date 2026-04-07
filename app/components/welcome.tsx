@@ -149,7 +149,7 @@ export default function WelcomePage() {
                     onChange={(e) => setDoNotShowAgain(e.target.checked)}
                     className="w-5 h-5 rounded text-amber-700 focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 cursor-pointer transition-all"
                   />
-                  <span className="text-lg sm:text-base md:text-lg sm:text-base text-gray-700 group-hover:text-amber-700 transition-colors">
+                  <span className="text-lg sm:text-base text-gray-700 group-hover:text-amber-700 transition-colors">
                     Do not show this welcome message again
                   </span>
                 </label>

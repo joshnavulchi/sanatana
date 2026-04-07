@@ -244,30 +244,30 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
 
  {data.structure && (
  <section className="mt-6">
- <div className="rounded-[2rem] bg-gradient-to-br from-amber-50 via-white to-rose-50 from-slate-950 via-slate-900 to-slate-950 border border-gray-200 border-gray-800 shadow-[0_24px_60px_-32px_rgba(245,158,11,0.8)] shadow-[0_24px_60px_-32px_rgba(15,23,42,0.8)] overflow-hidden">
- <div className="px-6 py-5 border-b border-gray-200 border-gray-800 bg-white/80 bg-slate-950/90">
- <h4 className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900 text-white">Structure summary</h4>
- <p className="mt-2 text-sm sm:text-base text-gray-600 text-gray-400 max-w-2xl">A concise breakdown of the Vedas content structure for fast scanning and reference.</p>
+ <div className="rounded-[2rem] bg-gradient-to-br from-amber-50 via-white to-rose-50 border border-gray-200 shadow-[0_24px_60px_-32px_rgba(245,158,11,0.8)] overflow-hidden">
+ <div className="px-6 py-5 border-b border-gray-200 bg-white/80">
+ <h4 className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900 ">Structure summary</h4>
+ <p className="mt-2 text-sm sm:text-base text-gray-600 max-w-2xl">A concise breakdown of the Vedas content structure for fast scanning and reference.</p>
  </div>
- <div className="overflow-x-auto bg-white bg-slate-950">
+ <div className="overflow-x-auto bg-white">
  <table className="min-w-full border-separate border-spacing-0 text-left text-sm sm:text-base">
- <thead className="bg-gradient-to-r from-amber-100 to-rose-100 from-slate-900 to-slate-800">
+ <thead className="bg-gradient-to-r from-amber-100 to-rose-100">
  <tr>
- <th className="px-5 py-4 font-semibold text-amber-900 text-amber-300 uppercase tracking-[0.18em]">Section</th>
- <th className="px-5 py-4 font-semibold text-amber-900 text-amber-300 uppercase tracking-[0.18em]">Details</th>
+ <th className="px-5 py-4 font-semibold text-amber-900 uppercase tracking-[0.18em]">Section</th>
+ <th className="px-5 py-4 font-semibold text-amber-900 uppercase tracking-[0.18em]">Details</th>
  </tr>
  </thead>
- <tbody className="divide-y divide-gray-200 divide-gray-800">
+ <tbody className="divide-y divide-gray-200">
  {Object.entries(data.structure).map(([k, v]) => (
- <tr key={k} className="transition-colors duration-200 hover:bg-amber-50 hover:bg-slate-900">
- <td className="whitespace-nowrap px-5 py-5 font-semibold text-gray-900 text-gray-100">{k.replace(/_/g, ' ')}</td>
- <td className="px-5 py-5 text-gray-700 text-gray-300 leading-relaxed">
+ <tr key={k} className="transition-colors duration-200 hover:bg-amber-50">
+ <td className="whitespace-nowrap px-5 py-5 font-semibold text-gray-100">{k.replace(/_/g, ' ')}</td>
+ <td className="px-5 py-5 text-gray-700 leading-relaxed">
  {typeof v === 'string' || typeof v === 'number' ? (
  String(v)
  ) : Array.isArray(v) ? (
  <div className="grid gap-2">
  {v.map((item: any, idx: number) => (
- <div key={idx} className="rounded-2xl bg-amber-50/80 bg-slate-900 p-3 text-sm text-gray-700 text-gray-300">{renderValue(item, `${k}-${idx}`)}</div>
+ <div key={idx} className="rounded-2xl bg-amber-50/80 p-3 text-sm text-gray-700">{renderValue(item, `${k}-${idx}`)}</div>
  ))}
  </div>
  ) : (

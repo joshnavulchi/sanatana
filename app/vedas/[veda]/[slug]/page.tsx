@@ -102,56 +102,103 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
   const pageData = unwrapPageData(data);
   if (!pageData) return notFound();
 
-  // attempt to fetch parent index to collect siblings (if parent exposes children)
-  const parent = await fetchContentByRoute(locale, ['vedas', veda]);
-  const siblings = parent && parent.data && parent.data.children ? (parent.data.children as string[]) : null;
+  const pageDataArray = (pageData as any).hymns || (pageData as any).suktas || (pageData as any).chants || (pageData as any).mantras || [];
 
-  const hymns = (pageData as any).hymns || [];
+  const metaKey = pageData?.meta?.key ? String(pageData.meta.key) : `vedas/${veda}/${slug}/index`;
+  const titleText = pageData?.title ? String(pageData.title) : `${veda} ${slug.replace(/book/i, 'Book ')}`;
+  const descriptionText = pageData?.description
+    ? String(pageData.description)
+    : pageData?.meta?.description
+      ? String(pageData.meta.description)
+      : '';
+  const capitalize = (s: string) => (s && typeof s === 'string' ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+  const breadcrumbs = [
+    { label: 'Home', href: '/' },
+    { label: 'Vedas', href: '/vedas' },
+    { label: capitalize(veda), href: `/vedas/${veda}` },
+    { label: titleText, href: `/vedas/${veda}/${slug}` },
+  ];
 
   return (
-    <PageLayout>
-      <div className="max-w-4xl mx-auto py-8 px-4">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6 capitalize">{veda} {slug.replace(/book/i, 'Book ')}</h1>
-        <div className="prose prose-lg max-w-none">
-          {hymns.map((hymn: any, i: number) => (
-            <div key={i} className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Hymn {hymn.hymn_number}: {hymn.theme}</h2>
-              {hymn.verses && hymn.verses.map((verse: any, j: number) => (
-                <div key={j} className="bg-white/95 p-4 mb-4 rounded-lg shadow-sm">
-                  <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-                    {verse.verse_number !== undefined && (
-                      <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
-                        Verse {String(verse.verse_number)}
-                      </span>
-                    )}
-                    {verse.title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
-                  </div>
-                  {verse.sanskrit && (
-                    <p className="text-xl leading-relaxed text-gray-900 mb-3">{verse.sanskrit}</p>
-                  )}
-                  {verse.transliteration && (
-                    <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>
-                  )}
-                  {verse.meaning && (
-                    <div className="space-y-3 mb-4">
-                      <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
-                      {typeof verse.meaning === 'string' ? (
-                        <p className="text-lg leading-relaxed text-red-600">{verse.meaning}</p>
-                      ) : (
-                        Object.entries(verse.meaning).map(([k, v]) => (
-                          <div key={k} className="rounded-xl bg-gray-50 p-3">
-                            <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
-                            <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
-                          </div>
-                        ))
+    <PageLayout metaKey={metaKey} title={titleText} description={descriptionText} breadcrumbs={breadcrumbs} className="layout-md">
+      <div className="prose prose-lg max-w-none">
+        {pageDataArray.map((item: any, i: number) => {
+          const hasVerses = item && Array.isArray(item.verses) && item.verses.length > 0;
+          const numberLabel = item.hymn_number ?? item.chant_number ?? item.mantra_number ?? item.suktas_number ?? item.verse_number ?? null;
+          const title = item.title || item.theme || null;
+
+          if (hasVerses) {
+            return (
+              <div key={i} className="mb-8">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4">{item.title}</h2>
+                {item.verses.map((verse: any, j: number) => (
+                  <div key={j} className="bg-white/95 p-4 mb-4 rounded-lg shadow-sm">
+                    <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                      {verse.verse_number !== undefined && (
+                        <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
+                          Verse {String(verse.verse_number)}
+                        </span>
                       )}
+                      {verse.title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
                     </div>
+                    {verse.sanskrit && (
+                      <p className="text-xl leading-relaxed text-gray-900 mb-3">{verse.sanskrit}</p>
+                    )}
+                    {verse.transliteration && (
+                      <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>
+                    )}
+                    {verse.meaning && (
+                      <div className="space-y-3 mb-4">
+                        <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
+                        {typeof verse.meaning === 'string' ? (
+                          <p className="text-lg leading-relaxed text-red-600">{verse.meaning}</p>
+                        ) : (
+                          Object.entries(verse.meaning).map(([k, v]) => (
+                            <div key={k} className="rounded-xl bg-gray-50 p-3">
+                              <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
+                              <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            );
+          }
+
+          // standalone chants/mantras
+          return (
+            <div key={i} className="mb-6 bg-white/95 p-4 rounded-lg shadow-sm">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                {numberLabel !== null && (
+                  <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
+                    {item.hymn_number ? `Hymn ${numberLabel}` : item.chant_number ? `Chant ${numberLabel}` : item.mantra_number ? `Mantra ${numberLabel}` : `Item ${numberLabel}`}
+                  </span>
+                )}
+                {title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{title}</span>}
+              </div>
+              {item.sanskrit && <p className="text-xl leading-relaxed text-gray-900 mb-2">{item.sanskrit}</p>}
+              {item.transliteration && <p className="text-base text-gray-700 italic mb-2">{item.transliteration}</p>}
+              {item.meaning && (
+                <div className="space-y-3 mt-3">
+                  <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
+                  {typeof item.meaning === 'string' ? (
+                    <p className="text-lg leading-relaxed text-red-600">{item.meaning}</p>
+                  ) : (
+                    Object.entries(item.meaning).map(([k, v]) => (
+                      <div key={k} className="rounded-xl bg-gray-50 p-3">
+                        <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
+                        <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
+                      </div>
+                    ))
                   )}
                 </div>
-              ))}
+              )}
             </div>
-          ))}
-        </div>
+          );
+        })}
       </div>
     </PageLayout>
   );
