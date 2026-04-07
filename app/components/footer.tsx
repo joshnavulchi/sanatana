@@ -238,7 +238,7 @@ export default function Footer() {
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-lg sm:text-base mt-6 px-4 leading-relaxed text-gray-900">
+            <p className="mx-auto max-w-5xl text-lg sm:text-base mt-6 px-4 leading-relaxed text-gray-200">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -246,7 +246,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-lg sm:text-base md:text-lg sm:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-lg sm:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -258,7 +258,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-lg sm:text-base md:text-lg sm:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-lg sm:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -319,7 +319,7 @@ export default function Footer() {
                 {footer.shareMessage && (
                   <small className="text-xs text-gray-100">{footer.shareMessage}</small>
                 )}
-                <nav role="list" className="flex justify-end sm:justify-center gap-2" aria-label="Social links">
+                <nav role="list" className="flex justify-center md:justify-end gap-1" aria-label="Social links">
                   <Link
                     role="listitem"
                     aria-label="Share this page on Facebook"

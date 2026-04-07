@@ -195,7 +195,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <h1 className="text-4xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
                 {hero?.heading || 'Sanātana Dharma'}
               </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
+              <h2 className="text-2xl/8 md:text-3xl/12 font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h2>
               {/* Description */}
