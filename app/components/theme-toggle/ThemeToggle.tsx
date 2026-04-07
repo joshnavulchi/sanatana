@@ -6,9 +6,9 @@ export default function ThemeToggle() {
   const { theme, toggle } = useTheme();
 
   return (
-    <div className="relative text-lg sm:text-base leading-relaxed font-normal">
+    <div className="relative">
       <button
-        className="w-10 h-10 group relative inline-flex items-center p-2 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 transition-all duration-300 transform hover:scale-105 text-amber-800 cursor-pointer"
+        className="w-10 h-10 group relative inline-flex items-center p-1 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 transition-all duration-300 transform hover:scale-105 text-amber-800 cursor-pointer"
         aria-label="Toggle theme"
         title={`Current theme: ${theme}`}
         onClick={toggle}
