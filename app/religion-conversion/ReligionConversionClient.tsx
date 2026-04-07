@@ -17,6 +17,21 @@ export default function ReligionConversionClient() {
   const religionConversion = {
     title: String(ns?.title || ''),
     description: String(ns?.description || ''),
+    descriptions: String(ns?.descriptions || ''),
+    conclusion: ns?.conclusion || {},
+    country_conversion_details: Array.isArray(ns?.country_conversion_details) ? ns.country_conversion_details : [],
+    critical_academic_consensus: ns?.critical_academic_consensus || {},
+    historical_sequence_by_textual_evidence: Array.isArray(ns?.historical_sequence_by_textual_evidence) ? ns.historical_sequence_by_textual_evidence : [],
+    linguistic_evolution: ns?.linguistic_evolution || {},
+    methodology: ns?.methodology || {},
+    philosophical_differences: ns?.philosophical_differences || {},
+    religion_expansion: Array.isArray(ns?.religion_expansion) ? ns.religion_expansion : [],
+    religion_population_by_century: Array.isArray(ns?.religion_population_by_century) ? ns.religion_population_by_century : [],
+    religion_spread_by_country: ns?.religion_spread_by_country || {},
+    supported_religions_total: ns?.supported_religions_total || 0,
+    textual_historical_development: ns?.textual_historical_development || {},
+    theological_analysis: ns?.theological_analysis || {},
+    topic: String(ns?.topic || ''),
     sections: Array.isArray(ns?.sections) ? ns.sections : [],
     disclaimer: String(ns?.disclaimer || ''),
     faq: parseMaybeObject(ns?.faq || '')
@@ -52,6 +67,15 @@ export default function ReligionConversionClient() {
 
         <div id="religionConversion-content" className='space-y-8'>
 
+          {/* Descriptions */}
+          {religionConversion.descriptions && (
+            <div className="text-lg sm:text-base leading-relaxed font-normal">
+              <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+                {religionConversion.descriptions}
+              </p>
+            </div>
+          )}
+
           {/* Sections as cards */}
           {religionConversion.sections.map((section: any, index: number) => {
             const level = Math.min(index + 2, 6);
@@ -81,10 +105,39 @@ export default function ReligionConversionClient() {
                   </div>
 
                   {/* Section content */}
-                  {section?.content && (
+                  {typeof section.content === 'string' && section.content && (
                     <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                      {section.content}
+                      {section.content.split('\n\n').map((paragraph: string, idx: number) => (
+                        <span key={idx}>
+                          {paragraph}
+                          {idx < section.content.split('\n\n').length - 1 && <br />}
+                        </span>
+                      ))}
                     </p>
+                  )}
+
+                  {/* Section content as array */}
+                  {Array.isArray(section.content) && section.content.length > 0 && (
+                    <div className="space-y-4">
+                      {section.content.map((item: any, idx: number) => {
+                        if (typeof item === 'string') {
+                          return (
+                            <li key={idx} className="relative flex items-start gap-3 mb-2">
+                              <span className="flex-shrink-0 w-2 h-2 rounded-full text-lg sm:text-base leading-relaxed font-normal" />
+                              <span className="flex-1 text-lg sm:text-base leading-relaxed font-normal">{item}</span>
+                            </li>
+                          );
+                        } else if (item.country && item.details) {
+                          return (
+                            <div key={idx} className="border-l-4 border-amber-200 pl-4 mb-4">
+                              <h5 className="font-semibold text-amber-800 mb-2">{item.country}</h5>
+                              <p className="text-lg sm:text-base leading-relaxed font-normal">{item.details}</p>
+                            </div>
+                          );
+                        }
+                        return null;
+                      })}
+                    </div>
                   )}
 
                   {/* Points list */}
@@ -103,6 +156,130 @@ export default function ReligionConversionClient() {
             );
           })}
 
+          {/* Country Conversion Details */}
+          {religionConversion.country_conversion_details.length > 0 && (
+            <div className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Country-wise Conversion Trends and Facts</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {religionConversion.country_conversion_details.map((country: any, index: number) => (
+                  <div key={index} className="border-l-4 border-amber-200 pl-4">
+                    <h4 className="font-semibold text-amber-800 mb-2">{country.country}</h4>
+                    <p className="text-lg sm:text-base leading-relaxed font-normal">{country.details}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Historical Sequence */}
+          {religionConversion.historical_sequence_by_textual_evidence.length > 0 && (
+            <div className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Historical Sequence by Textual Evidence</h3>
+              <div className="space-y-4">
+                {religionConversion.historical_sequence_by_textual_evidence.map((item: any, index: number) => (
+                  <div key={index} className="flex items-center gap-4">
+                    <div className="flex-shrink-0 w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center font-semibold text-amber-800">
+                      {item.date}
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">{item.tradition}</h4>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Religion Expansion */}
+          {religionConversion.religion_expansion.length > 0 && (
+            <div className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Religion Expansion History</h3>
+              <div className="space-y-6">
+                {religionConversion.religion_expansion.map((religion: any, index: number) => (
+                  <div key={index} className="border rounded-lg p-4">
+                    <h4 className="text-xl font-semibold text-amber-800 mb-4">{religion.religion}</h4>
+                    <p className="mb-4"><strong>Founder:</strong> {religion.founder}</p>
+                    <p className="mb-4"><strong>Origin:</strong> {religion.origin_region}, {religion.origin_year}</p>
+                    <div className="space-y-2">
+                      <h5 className="font-semibold">Expansion Map:</h5>
+                      {religion.expansion_map.map((period: any, idx: number) => (
+                        <div key={idx} className="ml-4">
+                          <strong>{period.period}:</strong> {period.regions.join(', ')}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Religion Population by Century */}
+          {religionConversion.religion_population_by_century.length > 0 && (
+            <div className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Global Religion History</h3>
+              <div className="space-y-4">
+                {religionConversion.religion_population_by_century.map((century: any, index: number) => (
+                  <div key={index} className="border rounded-lg p-4">
+                    <h4 className="text-xl font-semibold text-amber-800 mb-4">{century.century}</h4>
+                    <p className="mb-2"><strong>World Population:</strong> {century.world_population_millions} million</p>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                      {Object.entries(century.religions).map(([religion, count]: [string, any]) => (
+                        <div key={religion} className="text-center">
+                          <div className="font-semibold">{religion}</div>
+                          <div className="text-amber-600">{count} million</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Conclusion */}
+          {religionConversion.conclusion && Object.keys(religionConversion.conclusion).length > 0 && (
+            <div className="relative bg-amber-50 rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Conclusion</h3>
+              <div className="space-y-4">
+                {religionConversion.conclusion.clarification && (
+                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                    <strong>Clarification:</strong> {religionConversion.conclusion.clarification}
+                  </p>
+                )}
+                {religionConversion.conclusion.historical_personhood && (
+                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                    <strong>Historical Personhood:</strong> {religionConversion.conclusion.historical_personhood}
+                  </p>
+                )}
+                {religionConversion.conclusion.textual_level && (
+                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                    <strong>Textual Level:</strong> {religionConversion.conclusion.textual_level}
+                  </p>
+                )}
+                {religionConversion.conclusion.theological_level && (
+                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                    <strong>Theological Level:</strong> {religionConversion.conclusion.theological_level}
+                  </p>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Critical Academic Consensus */}
+          {religionConversion.critical_academic_consensus && Object.keys(religionConversion.critical_academic_consensus).length > 0 && (
+            <div className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md">
+              <h3 className="text-2xl text-gray-900 mb-6">Critical Academic Consensus</h3>
+              <div className="space-y-4">
+                {Object.entries(religionConversion.critical_academic_consensus).map(([key, value]: [string, any]) => (
+                  <p key={key} className="text-lg sm:text-base leading-relaxed font-normal">
+                    <strong>{key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}:</strong> {value}
+                  </p>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Disclaimer section */}
           {religionConversion.disclaimer && (
             <div className="relative rounded-lg p-4 md:p-8 shadow-lg text-lg sm:text-base leading-relaxed font-normal">
@@ -118,147 +295,11 @@ export default function ReligionConversionClient() {
             </div>
           )}
         </div>
-        <div className="mx-auto max-w-7xl py-4 px-3 text-lg sm:text-base leading-relaxed font-normal">
-          <div
-            className={`transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            {/* Header */}
-            <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
-              <div className="flex items-center justify-center gap-3 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="h-px w-16 text-lg sm:text-base leading-relaxed font-normal" />
-                <span className="text-amber-800 text-lg sm:text-base leading-relaxed font-normal">🕉️</span>
-                <div className="h-px w-16 text-lg sm:text-base leading-relaxed font-normal" />
-              </div>
-              <h3 className="bg-clip-text text-2xl font-semibold leading-snug mb-3">
-                The Essence of Life
-              </h3>
-              <p className="text-amber-700/80 italic text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                जीवनस्य परमं तत्त्वम्
-              </p>
-            </div>
 
-            {/* Main content grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 text-lg sm:text-base leading-relaxed font-normal">
-              {/* Card 1: Purpose */}
-              <div className="relative rounded-xl p-4 border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
-                  🎯
-                </div>
-                <h4 className="text-amber-800 text-xl font-semibold leading-snug mb-2">पुरुषार्थ - Life&apos;s Purpose</h4>
-                <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                  Life is a sacred journey toward the four Purusharthas:
-                  <span className="text-amber-700 text-lg sm:text-base leading-relaxed font-normal"> Dharma</span> (righteousness),
-                  <span className="text-orange-600 text-lg sm:text-base leading-relaxed font-normal"> Artha</span> (prosperity),
-                  <span className="text-amber-700 text-lg sm:text-base leading-relaxed font-normal"> Kama</span> (desires), and
-                  <span className="text-orange-600 text-lg sm:text-base leading-relaxed font-normal"> Moksha</span> (liberation).
-                </p>
-              </div>
-
-              {/* Card 2: Atman */}
-              <div className="relative rounded-xl p-6 border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
-                  ✨
-                </div>
-                <h5 className="text-orange-800 text-xl font-semibold leading-snug mb-2">आत्मा - The Eternal Soul</h5>
-                <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                  The Atman, your true self, is eternal and divine.
-                  <span className="italic text-lg sm:text-base leading-relaxed font-normal"> `&quot;`न जायते म्रियते वा`&quot;` </span>
-                  — It is never born, nor does it die. Life is the soul&apos;s journey to realize its oneness with Brahman.
-                </p>
-              </div>
-
-              {/* Card 3: Karma */}
-              <div className="relative rounded-xl p-6 border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
-                  ⚖️
-                </div>
-                <h6 className="text-yellow-800 text-xl font-semibold leading-snug mb-2">कर्म - Law of Action</h6>
-                <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                  Every action creates karma, shaping our destiny.
-                  <span className="text-amber-700 text-lg sm:text-base leading-relaxed font-normal"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
-                  — You have the right to perform your duty, but the fruits belong to the divine.
-                </p>
-              </div>
-
-              {/* Card 4: Maya & Reality */}
-              <div className="relative rounded-xl p-6 border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity text-lg sm:text-base leading-relaxed font-normal">
-                  🌌
-                </div>
-                <h6 className="text-amber-800 text-xl font-semibold leading-snug mb-2">माया - Illusion & Truth</h6>
-                <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                  Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
-                  <span className="text-orange-600 text-lg sm:text-base leading-relaxed font-normal"> eternal truth</span> that pervades all existence.
-                </p>
-              </div>
-            </div>
-
-            {/* Central wisdom quote */}
-            <div className="relative text-lg sm:text-base leading-relaxed font-normal">
-              <div className="absolute inset-0 blur-2xl text-lg sm:text-base leading-relaxed font-normal" />
-              <div className="relative rounded-2xl p-6 border-amber-300/30 backdrop-blur-sm text-lg sm:text-base leading-relaxed font-normal">
-                <div className="text-center space-y-4 text-lg sm:text-base leading-relaxed font-normal">
-                  <p className="text-amber-900 text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                    `&quot;`आत्मानं विद्धि`&quot;`
-                  </p>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                    Know Thyself
-                  </p>
-                  <div className="pt-4 border-amber-300/30 text-lg sm:text-base leading-relaxed font-normal">
-                    <p className="max-w-3xl mx-auto text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                      Life is the divine opportunity to realize your true nature—not this temporary body,
-                      but the immortal consciousness that witnesses all, untouched by birth or death,
-                      pleasure or pain. This realization is the highest goal of human existence.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Four stages of life */}
-            <div className="text-lg sm:text-base leading-relaxed font-normal">
-              <h6 className="text-center text-amber-800 text-xl font-semibold leading-snug mb-2">
-                आश्रम - The Four Stages of Life
-              </h6>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 my-6 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-amber-200/40 flex-1 text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="text-lg sm:text-base leading-relaxed font-normal">📚</div>
-                  <h4 className="font-semibold text-amber-800 mb-1">Brahmacharya</h4>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">Student Life - Learning & Discipline</p>
-                </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-orange-200/40 text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="text-lg sm:text-base leading-relaxed font-normal">🏡</div>
-                  <h4 className="font-semibold text-orange-800 mb-1">Grihastha</h4>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">Householder - Family & Duty</p>
-                </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-yellow-200/40 text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="text-lg sm:text-base leading-relaxed font-normal">🌳</div>
-                  <h4 className="font-semibold text-yellow-800 mb-1">Vanaprastha</h4>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">Retirement - Detachment & Reflection</p>
-                </div>
-                <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg border-amber-200/40 text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="text-lg sm:text-base leading-relaxed font-normal">🧘</div>
-                  <h4 className="font-semibold text-amber-800 mb-1">Sannyasa</h4>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">Renunciation - Complete Liberation</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Closing */}
-            <div className="text-center pt-6 border-amber-200/30 text-lg sm:text-base leading-relaxed font-normal">
-              <p className="text-amber-700 text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                यत् पिण्डे तत् ब्रह्माण्डे
-              </p>
-              <p className="italic text-lg sm:text-base leading-relaxed mb-4 font-normal">
-                As is the individual, so is the universe
-              </p>
-            </div>
-
-            {/* FAQ widget */}
-            {religionConversion?.faq && (
-              <FaqAccordion items={religionConversion.faq?.items ? religionConversion.faq.items : []} heading={religionConversion.faq?.heading} />
-            )}
-          </div>
-        </div>
+        {/* FAQ widget */}
+        {religionConversion?.faq && (
+          <FaqAccordion items={religionConversion.faq?.items ? religionConversion.faq.items : []} heading={religionConversion.faq?.heading} />
+        )}
       </PageLayout>
     </>
   );

@@ -47,6 +47,7 @@
     },
     "diagram": {
       "title": "System flow (text schematic)",
+      "alt": "Diagram showing flow from water source to root zone with filtration, pressure regulation, and fertigation bypass",
       "lines": [
         "Water Source → Pump → Sand Filter → Screen/Disc Filter → Pressure Regulator → Main Line",
         "Main Line → Sub‑Mains → Valves → Laterals → Emitters → Root Zone",
