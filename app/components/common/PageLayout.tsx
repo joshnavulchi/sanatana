@@ -108,16 +108,16 @@ export default function PageLayout(
             type="button"
             onClick={togglePanel}
             aria-label={panelOpen ? 'Close explore panel' : 'Open explore panel'}
-            className="fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="fixed right-0 top-1/2 z-40 -translate-y-1/2 rounded-l-2xl border-[#d8a25a]/60 px-2 py-5 bg-red-500 shadow-[−4px_4px_20px_rgba(166,61,23,0.14)] transition-all duration-300 hover:shadow-[−6px_6px_24px_rgba(166,61,23,0.20)] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50 cursor-pointer"
           >
             <span className="flex flex-col items-center gap-1 text-lg sm:text-base leading-relaxed font-normal">
               <svg
-                className={`h-5 w-5 text-[#7a2e1f] transition-transform duration-300 ${panelOpen ? 'rotate-180' : ''}`}
+                className={`h-5 w-5 text-[#ffffff] transition-transform duration-300 ${panelOpen ? 'rotate-180' : ''}`}
                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
-              <span className="uppercase text-[#9a3412] [writing-mode:vertical-lr] text-lg sm:text-base leading-relaxed font-normal">
+              <span className="uppercase text-[#ffffff] [writing-mode:vertical-lr] text-lg sm:text-base leading-relaxed font-normal">
                 Explore
               </span>
             </span>
