@@ -342,10 +342,10 @@
       "vedas": {
         "title": "Vedas",
         "nav": {
-          "atharvaveda": "Atharvaveda",
           "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
           "samaveda": "Samaveda",
-          "yajurveda": "Yajurveda"
+          "atharvaveda": "Atharvaveda"
         }
       }
     },
@@ -474,10 +474,10 @@
       "vedas": {
         "title": "Vedas",
         "nav": {
-          "atharvaveda": "Atharvaveda",
           "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
           "samaveda": "Samaveda",
-          "yajurveda": "Yajurveda"
+          "atharvaveda": "Atharvaveda"
         }
       }
     },
