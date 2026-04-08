@@ -70,7 +70,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-lg sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-lg sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
@@ -143,7 +143,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-2xl shadow-lg p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-lg sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-lg sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
@@ -238,7 +238,7 @@ export default function Footer() {
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-lg sm:text-base mt-6 px-4 leading-relaxed text-gray-900">
+            <p className="mx-auto max-w-5xl text-lg sm:text-base mt-6 px-4 leading-relaxed text-gray-200">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -246,7 +246,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-lg sm:text-base md:text-lg sm:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-lg sm:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -258,7 +258,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-lg sm:text-base md:text-lg sm:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-lg sm:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -278,7 +278,7 @@ export default function Footer() {
 
           {/* ─── Navigation Columns ─── */}
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
-            <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
+            <nav className="grid gap-3 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath: configBase }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
@@ -319,7 +319,7 @@ export default function Footer() {
                 {footer.shareMessage && (
                   <small className="text-xs text-gray-100">{footer.shareMessage}</small>
                 )}
-                <nav role="list" className="flex justify-end sm:justify-center gap-2" aria-label="Social links">
+                <nav role="list" className="flex justify-center md:justify-end gap-1" aria-label="Social links">
                   <Link
                     role="listitem"
                     aria-label="Share this page on Facebook"

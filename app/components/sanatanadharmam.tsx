@@ -67,7 +67,7 @@ export default function UnderstandingOfSanatana() {
             className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'} delay-[${sectionIndex * 120}ms]`}
           >
             <div className="text-center">
-              <h4 className="text-2xl md:text-3xl font-semibold text-amber-700 mb-4">{section.title}</h4>
+              <h4 className="text-2xl/8 md:text-3xl/12 font-semibold text-amber-700 mb-4">{section.title}</h4>
               <p className="text-lg sm:text-base text-gray-600 mb-4">{section.content}</p>
             </div>
 
@@ -81,7 +81,7 @@ export default function UnderstandingOfSanatana() {
               {section.items?.map((topic, topicIndex) => (
                 <article
                   key={`${section.id}-${topic.id || topicIndex}`}
-                  className="flex flex-col gap-1 p-4 rounded-xl bg-white/60 backdrop-blur-sm shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
+                  className="flex flex-col gap-1 p-4 rounded-md bg-white/60 backdrop-blur-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-0.5"
                 >
                   <div className="flex items-center gap-3">
                     {topic.src && (
@@ -119,7 +119,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-xl p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-lg font-semibold text-gray-800 mb-3 border border-amber-300/40">
+                <div key={`${section.id}-point-${index}`} className="rounded-md p-5 bg-gradient-to-br from-amber-100 via-pink-50 to-indigo-50 shadow-md text-lg font-semibold text-gray-800 mb-3 border border-amber-300/40">
                   {point}
                 </div>
               ))}

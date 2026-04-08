@@ -238,7 +238,7 @@ export default function SimilarCategories({
               key={category.key}
               className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)] text-lg sm:text-base leading-relaxed font-normal"
             >
-              <h6 className="mb-3 border-b border-amber-200 pb-2 text-lg sm:text-base md:text-lg sm:text-base font-semibold text-amber-900">
+              <h6 className="mb-3 border-b border-amber-200 pb-2 text-lg sm:text-base font-semibold text-amber-900">
                 <Link
                   href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
                   className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline"

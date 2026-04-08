@@ -395,7 +395,7 @@ Apply across ALL pages and components:
 Standardize everywhere:
 
 * Page Title:
-  `text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900`
+  `text-2xl sm:text-3xl/12 md:text-4xl/16 font-bold tracking-tight text-gray-900`
 
 * Section Title:
   `text-lg sm:text-xl md:text-2xl font-semibold text-gray-900`
@@ -1460,7 +1460,7 @@ Apply to ALL files:
 Use ONLY the following standardized scale:
 
 H1 (Page Title):
-- text-3xl md:text-4xl
+- text-3xl/12 md:text-4xl/16
 - font-semibold
 - leading-tight
 - tracking-tight

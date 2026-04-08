@@ -78,7 +78,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </div>
 
         {/* Title */}
-        <h6 className="text-2xl md:text-3xl font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
+        <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
           {name}
         </h6>
 
@@ -101,7 +101,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-6">
-          <span className={`inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-lg sm:text-base font-bold tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
+          <span className={`inline-flex items-center gap-2 rounded-md border-2 border-indigo-200 bg-gradient-to-r from-amber-50 via-pink-50 to-indigo-50 px-3 py-2 text-sm tracking-widest text-indigo-700 shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105`}>
             <svg className="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -143,7 +143,7 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <h6 className="text-3xl/12 md:text-4xl/16 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
             {title}
           </h6>
 
