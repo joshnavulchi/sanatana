@@ -113,443 +113,963 @@
     },
     "chants": [
       {
-        "id": "SV-9-1",
-        "chant_number": 1,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 1,
+        "chant_id": "SV-9-1",
+        "rigveda_ref": "RV 1.222.1",
+        "theme": "Invocation",
+        "text": {
+          "sanskrit": "प्रजापतिं हवामहे सृष्टेः कर्तारम्",
+          "transliteration": "prajāpatiṁ havāmahe sṛṣṭeḥ kartāram",
+          "meaning": "We invoke Prajapati, the creator of existence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep origin tone",
+          "usage": "Invocation"
         }
       },
       {
-        "id": "SV-9-2",
-        "chant_number": 2,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 2,
+        "chant_id": "SV-9-2",
+        "rigveda_ref": "RV 1.222.2",
+        "theme": "Creation",
+        "text": {
+          "sanskrit": "प्रजापतिः जगत् सृजति",
+          "transliteration": "prajāpatiḥ jagat sṛjati",
+          "meaning": "Prajapati creates the universe."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding origin",
+          "usage": "Creation"
         }
       },
       {
-        "id": "SV-9-3",
-        "chant_number": 3,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 3,
+        "chant_id": "SV-9-3",
+        "rigveda_ref": "RV 1.223.1",
+        "theme": "Origin",
+        "text": {
+          "sanskrit": "प्रजापतिः मूलं ददातु",
+          "transliteration": "prajāpatiḥ mūlaṁ dadātu",
+          "meaning": "May Prajapati establish the origin."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "rooted deep",
+          "usage": "Origin"
         }
       },
       {
-        "id": "SV-9-4",
-        "chant_number": 4,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 4,
+        "chant_id": "SV-9-4",
+        "rigveda_ref": "RV 1.223.2",
+        "theme": "Manifestation",
+        "text": {
+          "sanskrit": "प्रजापतिः रूपं ददातु",
+          "transliteration": "prajāpatiḥ rūpaṁ dadātu",
+          "meaning": "May Prajapati give form to creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "forming",
+          "usage": "Manifestation"
         }
       },
       {
-        "id": "SV-9-5",
-        "chant_number": 5,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 5,
+        "chant_id": "SV-9-5",
+        "rigveda_ref": "RV 1.224.1",
+        "theme": "Expansion",
+        "text": {
+          "sanskrit": "प्रजापतिः विस्तारं करोतु",
+          "transliteration": "prajāpatiḥ vistāraṁ karotu",
+          "meaning": "May Prajapati expand creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding",
+          "usage": "Expansion"
         }
       },
       {
-        "id": "SV-9-6",
-        "chant_number": 6,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 6,
+        "chant_id": "SV-9-6",
+        "rigveda_ref": "RV 1.224.2",
+        "theme": "Order",
+        "text": {
+          "sanskrit": "प्रजापतिः नियमं स्थापयतु",
+          "transliteration": "prajāpatiḥ niyamaṁ sthāpayatu",
+          "meaning": "May Prajapati establish order."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "structured",
+          "usage": "Order"
         }
       },
       {
-        "id": "SV-9-7",
-        "chant_number": 7,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 7,
+        "chant_id": "SV-9-7",
+        "rigveda_ref": "RV 1.225.1",
+        "theme": "Support",
+        "text": {
+          "sanskrit": "प्रजापतिः आधारं ददातु",
+          "transliteration": "prajāpatiḥ ādhāraṁ dadātu",
+          "meaning": "May Prajapati provide foundation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "stable deep",
+          "usage": "Support"
         }
       },
       {
-        "id": "SV-9-8",
-        "chant_number": 8,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 8,
+        "chant_id": "SV-9-8",
+        "rigveda_ref": "RV 1.225.2",
+        "theme": "Continuity",
+        "text": {
+          "sanskrit": "प्रजापतिः निरन्तरं वहतु",
+          "transliteration": "prajāpatiḥ nirantaraṁ vahatu",
+          "meaning": "May Prajapati sustain continuity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing",
+          "usage": "Continuity"
         }
       },
       {
-        "id": "SV-9-9",
-        "chant_number": 9,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 9,
+        "chant_id": "SV-9-9",
+        "rigveda_ref": "RV 1.226.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "प्रजापतिः चेतना ददातु",
+          "transliteration": "prajāpatiḥ cetanā dadātu",
+          "meaning": "May Prajapati grant awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-9-10",
-        "chant_number": 10,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 10,
+        "chant_id": "SV-9-10",
+        "rigveda_ref": "RV 1.226.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "प्रजापतिः प्रकाशं ददातु",
+          "transliteration": "prajāpatiḥ prakāśaṁ dadātu",
+          "meaning": "May Prajapati grant clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "bright stable",
+          "usage": "Clarity"
         }
       },
       {
-        "id": "SV-9-11",
-        "chant_number": 11,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 11,
+        "chant_id": "SV-9-11",
+        "rigveda_ref": "RV 1.227.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "प्रजापतिः समत्वं ददातु",
+          "transliteration": "prajāpatiḥ samatvaṁ dadātu",
+          "meaning": "May Prajapati grant harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Harmony"
         }
       },
       {
-        "id": "SV-9-12",
-        "chant_number": 12,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 12,
+        "chant_id": "SV-9-12",
+        "rigveda_ref": "RV 1.227.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "प्रजापतिः सत्यं स्थापयतु",
+          "transliteration": "prajāpatiḥ satyaṁ sthāpayatu",
+          "meaning": "May Prajapati establish truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear deep",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-9-13",
-        "chant_number": 13,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 13,
+        "chant_id": "SV-9-13",
+        "rigveda_ref": "RV 1.228.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "प्रजापतिः बलं ददातु",
+          "transliteration": "prajāpatiḥ balaṁ dadātu",
+          "meaning": "May Prajapati grant strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
         }
       },
       {
-        "id": "SV-9-14",
-        "chant_number": 14,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 14,
+        "chant_id": "SV-9-14",
+        "rigveda_ref": "RV 1.228.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "प्रजापतिः समं धारयतु",
+          "transliteration": "prajāpatiḥ samaṁ dhārayatu",
+          "meaning": "May Prajapati maintain balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Balance"
         }
       },
       {
-        "id": "SV-9-15",
-        "chant_number": 15,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 15,
+        "chant_id": "SV-9-15",
+        "rigveda_ref": "RV 1.229.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "प्रजापतिः नः रक्षतु",
+          "transliteration": "prajāpatiḥ naḥ rakṣatu",
+          "meaning": "May Prajapati protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "protective",
+          "usage": "Protection"
         }
       },
       {
-        "id": "SV-9-16",
-        "chant_number": 16,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 16,
+        "chant_id": "SV-9-16",
+        "rigveda_ref": "RV 1.229.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "प्रजापतिः ऊर्जा वहतु",
+          "transliteration": "prajāpatiḥ ūrjā vahatu",
+          "meaning": "May Prajapati carry energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing stable",
+          "usage": "Energy"
         }
       },
       {
-        "id": "SV-9-17",
-        "chant_number": 17,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 17,
+        "chant_id": "SV-9-17",
+        "rigveda_ref": "RV 1.230.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "प्रजापतिः प्राणं ददातु",
+          "transliteration": "prajāpatiḥ prāṇaṁ dadātu",
+          "meaning": "May Prajapati grant life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep vital",
+          "usage": "Vitality"
         }
       },
       {
-        "id": "SV-9-18",
-        "chant_number": 18,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 18,
+        "chant_id": "SV-9-18",
+        "rigveda_ref": "RV 1.230.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "प्रजापतिः मुक्तिं ददातु",
+          "transliteration": "prajāpatiḥ muktiṁ dadātu",
+          "meaning": "May Prajapati grant liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending calm",
+          "usage": "Liberation"
         }
       },
       {
-        "id": "SV-9-19",
-        "chant_number": 19,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 19,
+        "chant_id": "SV-9-19",
+        "rigveda_ref": "RV 1.231.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "प्रजापतिः यज्ञं पूर्णं करोतु",
+          "transliteration": "prajāpatiḥ yajñaṁ pūrṇaṁ karotu",
+          "meaning": "May Prajapati complete creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing",
+          "usage": "Completion"
         }
       },
       {
-        "id": "SV-9-20",
-        "chant_number": 20,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 20,
+        "chant_id": "SV-9-20",
+        "rigveda_ref": "RV 1.231.2",
+        "theme": "Renewal",
+        "text": {
+          "sanskrit": "प्रजापतिः पुनः प्रवर्तयतु",
+          "transliteration": "prajāpatiḥ punaḥ pravartayatu",
+          "meaning": "May Prajapati restart creation cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep renewal",
+          "usage": "Renewal"
         }
       },
       {
-        "id": "SV-9-21",
-        "chant_number": 21,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 21,
+        "chant_id": "SV-9-21",
+        "rigveda_ref": "RV 1.232.1",
+        "theme": "Reinforcement",
+        "text": {
+          "sanskrit": "प्रजापतिं पुनः हवामहे सृष्टेः कर्तारम्",
+          "transliteration": "prajāpatiṁ punaḥ havāmahe sṛṣṭeḥ kartāram",
+          "meaning": "We again invoke Prajapati, creator of existence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep repetitive",
+          "usage": "Reinforcement"
         }
       },
       {
-        "id": "SV-9-22",
-        "chant_number": 22,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 22,
+        "chant_id": "SV-9-22",
+        "rigveda_ref": "RV 1.232.2",
+        "theme": "Creation",
+        "text": {
+          "sanskrit": "प्रजापतिः जगत् सृजति",
+          "transliteration": "prajāpatiḥ jagat sṛjati",
+          "meaning": "Prajapati creates the universe."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding origin",
+          "usage": "Creation"
         }
       },
       {
-        "id": "SV-9-23",
-        "chant_number": 23,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 23,
+        "chant_id": "SV-9-23",
+        "rigveda_ref": "RV 1.233.1",
+        "theme": "Origin",
+        "text": {
+          "sanskrit": "प्रजापतिः मूलं ददातु",
+          "transliteration": "prajāpatiḥ mūlaṁ dadātu",
+          "meaning": "May Prajapati establish the origin."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "rooted deep",
+          "usage": "Origin"
         }
       },
       {
-        "id": "SV-9-24",
-        "chant_number": 24,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 24,
+        "chant_id": "SV-9-24",
+        "rigveda_ref": "RV 1.233.2",
+        "theme": "Manifestation",
+        "text": {
+          "sanskrit": "प्रजापतिः रूपं ददातु",
+          "transliteration": "prajāpatiḥ rūpaṁ dadātu",
+          "meaning": "May Prajapati give form to creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "forming",
+          "usage": "Manifestation"
         }
       },
       {
-        "id": "SV-9-25",
-        "chant_number": 25,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 25,
+        "chant_id": "SV-9-25",
+        "rigveda_ref": "RV 1.234.1",
+        "theme": "Expansion",
+        "text": {
+          "sanskrit": "प्रजापतिः विस्तारं करोतु",
+          "transliteration": "prajāpatiḥ vistāraṁ karotu",
+          "meaning": "May Prajapati expand creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding",
+          "usage": "Expansion"
         }
       },
       {
-        "id": "SV-9-26",
-        "chant_number": 26,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 26,
+        "chant_id": "SV-9-26",
+        "rigveda_ref": "RV 1.234.2",
+        "theme": "Order",
+        "text": {
+          "sanskrit": "प्रजापतिः नियमं स्थापयतु",
+          "transliteration": "prajāpatiḥ niyamaṁ sthāpayatu",
+          "meaning": "May Prajapati establish order."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "structured",
+          "usage": "Order"
         }
       },
       {
-        "id": "SV-9-27",
-        "chant_number": 27,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 27,
+        "chant_id": "SV-9-27",
+        "rigveda_ref": "RV 1.235.1",
+        "theme": "Support",
+        "text": {
+          "sanskrit": "प्रजापतिः आधारं ददातु",
+          "transliteration": "prajāpatiḥ ādhāraṁ dadātu",
+          "meaning": "May Prajapati provide foundation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "stable deep",
+          "usage": "Support"
         }
       },
       {
-        "id": "SV-9-28",
-        "chant_number": 28,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 28,
+        "chant_id": "SV-9-28",
+        "rigveda_ref": "RV 1.235.2",
+        "theme": "Continuity",
+        "text": {
+          "sanskrit": "प्रजापतिः निरन्तरं वहतु",
+          "transliteration": "prajāpatiḥ nirantaraṁ vahatu",
+          "meaning": "May Prajapati sustain continuity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing",
+          "usage": "Continuity"
         }
       },
       {
-        "id": "SV-9-29",
-        "chant_number": 29,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 29,
+        "chant_id": "SV-9-29",
+        "rigveda_ref": "RV 1.236.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "प्रजापतिः चेतना ददातु",
+          "transliteration": "prajāpatiḥ cetanā dadātu",
+          "meaning": "May Prajapati grant awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-9-30",
-        "chant_number": 30,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 30,
+        "chant_id": "SV-9-30",
+        "rigveda_ref": "RV 1.236.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "प्रजापतिः प्रकाशं ददातु",
+          "transliteration": "prajāpatiḥ prakāśaṁ dadātu",
+          "meaning": "May Prajapati grant clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "bright stable",
+          "usage": "Clarity"
         }
       },
       {
-        "id": "SV-9-31",
-        "chant_number": 31,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 31,
+        "chant_id": "SV-9-31",
+        "rigveda_ref": "RV 1.237.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "प्रजापतिः समत्वं ददातु",
+          "transliteration": "prajāpatiḥ samatvaṁ dadātu",
+          "meaning": "May Prajapati grant harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Harmony"
         }
       },
       {
-        "id": "SV-9-32",
-        "chant_number": 32,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 32,
+        "chant_id": "SV-9-32",
+        "rigveda_ref": "RV 1.237.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "प्रजापतिः सत्यं स्थापयतु",
+          "transliteration": "prajāpatiḥ satyaṁ sthāpayatu",
+          "meaning": "May Prajapati establish truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear deep",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-9-33",
-        "chant_number": 33,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 33,
+        "chant_id": "SV-9-33",
+        "rigveda_ref": "RV 1.238.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "प्रजापतिः बलं ददातु",
+          "transliteration": "prajāpatiḥ balaṁ dadātu",
+          "meaning": "May Prajapati grant strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
         }
       },
       {
-        "id": "SV-9-34",
-        "chant_number": 34,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 34,
+        "chant_id": "SV-9-34",
+        "rigveda_ref": "RV 1.238.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "प्रजापतिः समं धारयतु",
+          "transliteration": "prajāpatiḥ samaṁ dhārayatu",
+          "meaning": "May Prajapati maintain balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Balance"
         }
       },
       {
-        "id": "SV-9-35",
-        "chant_number": 35,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 35,
+        "chant_id": "SV-9-35",
+        "rigveda_ref": "RV 1.239.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "प्रजापतिः नः रक्षतु",
+          "transliteration": "prajāpatiḥ naḥ rakṣatu",
+          "meaning": "May Prajapati protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "protective",
+          "usage": "Protection"
         }
       },
       {
-        "id": "SV-9-36",
-        "chant_number": 36,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 36,
+        "chant_id": "SV-9-36",
+        "rigveda_ref": "RV 1.239.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "प्रजापतिः ऊर्जा वहतु",
+          "transliteration": "prajāpatiḥ ūrjā vahatu",
+          "meaning": "May Prajapati carry energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing stable",
+          "usage": "Energy"
         }
       },
       {
-        "id": "SV-9-37",
-        "chant_number": 37,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 37,
+        "chant_id": "SV-9-37",
+        "rigveda_ref": "RV 1.240.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "प्रजापतिः प्राणं ददातु",
+          "transliteration": "prajāpatiḥ prāṇaṁ dadātu",
+          "meaning": "May Prajapati grant life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep vital",
+          "usage": "Vitality"
         }
       },
       {
-        "id": "SV-9-38",
-        "chant_number": 38,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 38,
+        "chant_id": "SV-9-38",
+        "rigveda_ref": "RV 1.240.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "प्रजापतिः मुक्तिं ददातु",
+          "transliteration": "prajāpatiḥ muktiṁ dadātu",
+          "meaning": "May Prajapati grant liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending calm",
+          "usage": "Liberation"
         }
       },
       {
-        "id": "SV-9-39",
-        "chant_number": 39,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 39,
+        "chant_id": "SV-9-39",
+        "rigveda_ref": "RV 1.241.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "प्रजापतिः यज्ञं पूर्णं करोतु",
+          "transliteration": "prajāpatiḥ yajñaṁ pūrṇaṁ karotu",
+          "meaning": "May Prajapati complete creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing",
+          "usage": "Completion"
         }
       },
       {
-        "id": "SV-9-40",
-        "chant_number": 40,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 40,
+        "chant_id": "SV-9-40",
+        "rigveda_ref": "RV 1.241.2",
+        "theme": "Cycle renewal",
+        "text": {
+          "sanskrit": "प्रजापतिः पुनः प्रवर्तयतु",
+          "transliteration": "prajāpatiḥ punaḥ pravartayatu",
+          "meaning": "May Prajapati restart creation cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep renewal",
+          "usage": "Renewal"
+        }
+      },
+      {
+        "id": 41,
+        "chant_id": "SV-9-41",
+        "rigveda_ref": "RV 1.242.1",
+        "theme": "Reinforcement",
+        "text": {
+          "sanskrit": "प्रजापतिं पुनः हवामहे सृष्टेः कर्तारम्",
+          "transliteration": "prajāpatiṁ punaḥ havāmahe sṛṣṭeḥ kartāram",
+          "meaning": "We again invoke Prajapati, creator of existence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep repetitive",
+          "usage": "Reinforcement"
+        }
+      },
+      {
+        "id": 42,
+        "chant_id": "SV-9-42",
+        "rigveda_ref": "RV 1.242.2",
+        "theme": "Creation",
+        "text": {
+          "sanskrit": "प्रजापतिः जगत् सृजति",
+          "transliteration": "prajāpatiḥ jagat sṛjati",
+          "meaning": "Prajapati creates the universe."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding origin",
+          "usage": "Creation"
+        }
+      },
+      {
+        "id": 43,
+        "chant_id": "SV-9-43",
+        "rigveda_ref": "RV 1.243.1",
+        "theme": "Origin",
+        "text": {
+          "sanskrit": "प्रजापतिः मूलं ददातु",
+          "transliteration": "prajāpatiḥ mūlaṁ dadātu",
+          "meaning": "May Prajapati establish the origin."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "rooted deep",
+          "usage": "Origin"
+        }
+      },
+      {
+        "id": 44,
+        "chant_id": "SV-9-44",
+        "rigveda_ref": "RV 1.243.2",
+        "theme": "Manifestation",
+        "text": {
+          "sanskrit": "प्रजापतिः रूपं ददातु",
+          "transliteration": "prajāpatiḥ rūpaṁ dadātu",
+          "meaning": "May Prajapati give form to creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "forming",
+          "usage": "Manifestation"
+        }
+      },
+      {
+        "id": 45,
+        "chant_id": "SV-9-45",
+        "rigveda_ref": "RV 1.244.1",
+        "theme": "Expansion",
+        "text": {
+          "sanskrit": "प्रजापतिः विस्तारं करोतु",
+          "transliteration": "prajāpatiḥ vistāraṁ karotu",
+          "meaning": "May Prajapati expand creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expanding",
+          "usage": "Expansion"
+        }
+      },
+      {
+        "id": 46,
+        "chant_id": "SV-9-46",
+        "rigveda_ref": "RV 1.244.2",
+        "theme": "Order",
+        "text": {
+          "sanskrit": "प्रजापतिः नियमं स्थापयतु",
+          "transliteration": "prajāpatiḥ niyamaṁ sthāpayatu",
+          "meaning": "May Prajapati establish order."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "structured",
+          "usage": "Order"
+        }
+      },
+      {
+        "id": 47,
+        "chant_id": "SV-9-47",
+        "rigveda_ref": "RV 1.245.1",
+        "theme": "Support",
+        "text": {
+          "sanskrit": "प्रजापतिः आधारं ददातु",
+          "transliteration": "prajāpatiḥ ādhāraṁ dadātu",
+          "meaning": "May Prajapati provide foundation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "stable deep",
+          "usage": "Support"
+        }
+      },
+      {
+        "id": 48,
+        "chant_id": "SV-9-48",
+        "rigveda_ref": "RV 1.245.2",
+        "theme": "Continuity",
+        "text": {
+          "sanskrit": "प्रजापतिः निरन्तरं वहतु",
+          "transliteration": "prajāpatiḥ nirantaraṁ vahatu",
+          "meaning": "May Prajapati sustain continuity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing",
+          "usage": "Continuity"
+        }
+      },
+      {
+        "id": 49,
+        "chant_id": "SV-9-49",
+        "rigveda_ref": "RV 1.246.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "प्रजापतिः चेतना ददातु",
+          "transliteration": "prajāpatiḥ cetanā dadātu",
+          "meaning": "May Prajapati grant awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear",
+          "usage": "Awareness"
+        }
+      },
+      {
+        "id": 50,
+        "chant_id": "SV-9-50",
+        "rigveda_ref": "RV 1.246.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "प्रजापतिः प्रकाशं ददातु",
+          "transliteration": "prajāpatiḥ prakāśaṁ dadātu",
+          "meaning": "May Prajapati grant clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "bright stable",
+          "usage": "Clarity"
+        }
+      },
+      {
+        "id": 51,
+        "chant_id": "SV-9-51",
+        "rigveda_ref": "RV 1.247.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "प्रजापतिः समत्वं ददातु",
+          "transliteration": "prajāpatiḥ samatvaṁ dadātu",
+          "meaning": "May Prajapati grant harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Harmony"
+        }
+      },
+      {
+        "id": 52,
+        "chant_id": "SV-9-52",
+        "rigveda_ref": "RV 1.247.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "प्रजापतिः सत्यं स्थापयतु",
+          "transliteration": "prajāpatiḥ satyaṁ sthāpayatu",
+          "meaning": "May Prajapati establish truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear deep",
+          "usage": "Truth"
+        }
+      },
+      {
+        "id": 53,
+        "chant_id": "SV-9-53",
+        "rigveda_ref": "RV 1.248.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "प्रजापतिः बलं ददातु",
+          "transliteration": "prajāpatiḥ balaṁ dadātu",
+          "meaning": "May Prajapati grant strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
+        }
+      },
+      {
+        "id": 54,
+        "chant_id": "SV-9-54",
+        "rigveda_ref": "RV 1.248.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "प्रजापतिः समं धारयतु",
+          "transliteration": "prajāpatiḥ samaṁ dhārayatu",
+          "meaning": "May Prajapati maintain balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced",
+          "usage": "Balance"
+        }
+      },
+      {
+        "id": 55,
+        "chant_id": "SV-9-55",
+        "rigveda_ref": "RV 1.249.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "प्रजापतिः नः रक्षतु",
+          "transliteration": "prajāpatiḥ naḥ rakṣatu",
+          "meaning": "May Prajapati protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "protective",
+          "usage": "Protection"
+        }
+      },
+      {
+        "id": 56,
+        "chant_id": "SV-9-56",
+        "rigveda_ref": "RV 1.249.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "प्रजापतिः ऊर्जा वहतु",
+          "transliteration": "prajāpatiḥ ūrjā vahatu",
+          "meaning": "May Prajapati carry energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "flowing stable",
+          "usage": "Energy"
+        }
+      },
+      {
+        "id": 57,
+        "chant_id": "SV-9-57",
+        "rigveda_ref": "RV 1.250.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "प्रजापतिः प्राणं ददातु",
+          "transliteration": "prajāpatiḥ prāṇaṁ dadātu",
+          "meaning": "May Prajapati grant life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep vital",
+          "usage": "Vitality"
+        }
+      },
+      {
+        "id": 58,
+        "chant_id": "SV-9-58",
+        "rigveda_ref": "RV 1.250.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "प्रजापतिः मुक्तिं ददातु",
+          "transliteration": "prajāpatiḥ muktiṁ dadātu",
+          "meaning": "May Prajapati grant liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending calm",
+          "usage": "Liberation"
+        }
+      },
+      {
+        "id": 59,
+        "chant_id": "SV-9-59",
+        "rigveda_ref": "RV 1.251.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "प्रजापतिः यज्ञं पूर्णं करोतु",
+          "transliteration": "prajāpatiḥ yajñaṁ pūrṇaṁ karotu",
+          "meaning": "May Prajapati complete creation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing",
+          "usage": "Completion"
+        }
+      },
+      {
+        "id": 60,
+        "chant_id": "SV-9-60",
+        "rigveda_ref": "RV 1.251.2",
+        "theme": "Cycle renewal",
+        "text": {
+          "sanskrit": "प्रजापतिः पुनः प्रवर्तयतु",
+          "transliteration": "prajāpatiḥ punaḥ pravartayatu",
+          "meaning": "May Prajapati restart creation cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep renewal",
+          "usage": "Renewal"
         }
       }
     ]
