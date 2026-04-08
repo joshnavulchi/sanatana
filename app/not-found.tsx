@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center p-4 md:p-6 bg-gradient-to-br from-rose-100 via-amber-50 to-pink-200 animate-gradient-x">
-      <div className="w-full max-w-4xl rounded-3xl bg-white/90 shadow-2xl p-4 sm:p-12 text-lg sm:text-base leading-relaxed font-normal border-4 border-amber-100 backdrop-blur-xl animate-fadeInUp">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-lg sm:text-base leading-relaxed font-normal">
+    <main className="min-h-screen flex items-center justify-center px-4 md:px-6 bg-gradient-to-br from-rose-100 via-amber-50 to-pink-200 animate-gradient-x">
+      <div className="w-full max-w-5xl rounded-xl bg-white/90 shadow-xl p-4 sm:p-8 text-lg sm:text-base leading-relaxed font-normal border-4 border-amber-100 backdrop-blur-xl animate-fadeInUp">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center text-lg sm:text-base leading-relaxed font-normal">
           <div>
             <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-amber-200 via-pink-200 to-rose-200 shadow-lg text-3xl font-bold text-amber-700 animate-bounce">?</div>
 

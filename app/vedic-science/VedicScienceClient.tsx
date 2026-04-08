@@ -34,6 +34,8 @@ export default function VedicScienceClient() {
         description={page.description}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedic Science' }]}
       >
+        {page.title && <h1 className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl mb-6">{page.title}</h1>}
+
         <TextToSpeech sectionId="vedic-science-content" className="floating" />
 
         <div
@@ -49,7 +51,7 @@ export default function VedicScienceClient() {
                 <h3 className="section-title text-2xl font-semibold leading-snug mb-3 text-blue-900 drop-shadow">{section.title}</h3>
               )}
               {section.text && (
-                <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-blue-800/90">{section.text}</p>
+                <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-gray-900">{section.text}</p>
               )}
             </section>
           ))}

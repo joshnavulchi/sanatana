@@ -180,8 +180,16 @@ export default function VedaClient({ initialData, initialLocale, slug }: Props) 
   return (
     <PageLayout metaKey={metaKey} title={title} description={description} breadcrumbs={breadcrumbs} className="layout-md">
 
+      {/* Title */}
+      {data.title && <h1 className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl mb-6">{data.title}</h1>}
+
       {/* Introduction */}
       {data.introduction && <Paragraph>{data.introduction}</Paragraph>}
+
+      {/* Story */}
+      {data.story && (
+        <Block title="Story" content={data.story} />
+      )}
 
       {/* Scripture Text */}
       {data.scripture_text && (
