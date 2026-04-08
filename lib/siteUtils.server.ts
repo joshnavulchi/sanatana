@@ -7,7 +7,7 @@ function buildDiskPath(...segments: string[]) {
 async function readJsonFile(filePath: string) {
   try {
     const fs = await Promise.resolve().then(() => require('fs')) as typeof import('fs');
-    const raw = fs.readFileSync(filePath, 'utf8');
+    const raw = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
     return JSON.parse(raw);
   } catch (_) {
     return null;
