@@ -80,11 +80,11 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  function renderValue(value: any, key?: string | number) {
  if (value === null || value === undefined) return null;
  if (typeof value === 'string' || typeof value === 'number') {
- return <p key={key} className="text-lg sm:text-base text-gray-700 leading-relaxed">{String(value)}</p>;
+ return <p key={key} className="text-md sm:text-base text-gray-700 leading-relaxed">{String(value)}</p>;
  }
  if (Array.isArray(value)) {
  return (
- <ul key={key} className="list-disc ml-5 space-y-2 text-lg sm:text-base">
+ <ul key={key} className="list-disc ml-5 space-y-2 text-md sm:text-base">
  {value.map((item, index) => (
  <li key={index}>{renderValue(item, index)}</li>
  ))}
@@ -95,7 +95,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  const entries = Object.entries(value);
  if (entries.length === 0) return null;
  return (
- <div key={key} className="space-y-3 text-lg sm:text-base">
+ <div key={key} className="space-y-3 text-md sm:text-base">
  {entries.map(([childKey, childValue]) => (
  <div key={childKey}>
  <strong className="block text-gray-900">{childKey.replace(/_/g, ' ')}:</strong>
@@ -118,7 +118,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  return (
  <PageLayout metaKey="vedas/index" title={title} description={description} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
  <div className="space-y-6">
- {data.definition && <p className="text-lg sm:text-base">{data.definition}</p>}
+ {data.definition && <p className="text-md sm:text-base">{data.definition}</p>}
  {data.introduction && <div className="prose max-w-none"><p>{data.introduction}</p></div>}
 
  {Array.isArray(data.scripture_text) && (
@@ -128,15 +128,15 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  {data.scripture_text.map((s: any, idx: number) => (
  <div key={idx} className="p-4 rounded-lg bg-white/60 shadow-sm">
  <h5 className="font-semibold text-lg">{s.veda}</h5>
- {s.description && <p className="text-lg sm:text-base text-gray-700 mt-2">{s.description}</p>}
- {s.primary_focus && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Focus:</strong> {s.primary_focus}</p>}
- {s.importance && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Importance:</strong> {s.importance}</p>}
+ {s.description && <p className="text-md sm:text-base text-gray-700 mt-2">{s.description}</p>}
+ {s.primary_focus && <p className="text-md sm:text-base text-gray-700 mt-2"><strong>Focus:</strong> {s.primary_focus}</p>}
+ {s.importance && <p className="text-md sm:text-base text-gray-700 mt-2"><strong>Importance:</strong> {s.importance}</p>}
  {s.applications && renderValue(s.applications)}
  {s.topics && renderValue(s.topics)}
  {s.structure && renderValue(s.structure)}
  {s.divisions && renderValue(s.divisions)}
  {s.primary_topics && renderValue(s.primary_topics)}
- {s.hymn_count && <p className="text-lg sm:text-base text-gray-700 mt-2"><strong>Hymn count:</strong> {String(s.hymn_count)}</p>}
+ {s.hymn_count && <p className="text-md sm:text-base text-gray-700 mt-2"><strong>Hymn count:</strong> {String(s.hymn_count)}</p>}
  </div>
  ))}
  </div>
@@ -146,7 +146,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  {data.meaning_of_word_veda && (
  <section className="mt-6">
  <h4 className="text-xl font-semibold mb-2">Meaning of the word Veda</h4>
- <p className="text-lg sm:text-base">{data.meaning_of_word_veda}</p>
+ <p className="text-md sm:text-base">{data.meaning_of_word_veda}</p>
  </section>
  )}
 
@@ -169,7 +169,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  <h4 className="text-xl font-semibold mb-2">Estimated composition period</h4>
  <dl className="grid grid-cols-1 gap-2">
  {Object.entries(data.estimated_composition_period).map(([k, v]) => (
- <div key={k} className="text-lg sm:text-base">
+ <div key={k} className="text-md sm:text-base">
  <strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{' '}{String(v)}
  </div>
  ))}
@@ -183,7 +183,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  {data.vedic_society.social_structure && (
  <div>
  <h5 className="font-medium">Social structure</h5>
- <ul className="list-disc ml-5 text-lg sm:text-base">
+ <ul className="list-disc ml-5 text-md sm:text-base">
  {Array.isArray(data.vedic_society.social_structure) && data.vedic_society.social_structure.map((s: any, i: number) => (
  <li key={i}>{s}</li>
  ))}
@@ -200,7 +200,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  Array.isArray(arr) ? (
  <div key={k} className="mb-3">
  <h5 className="font-medium">{k.replace(/_/g, ' ')}</h5>
- <ul className="list-disc ml-5 text-lg sm:text-base">
+ <ul className="list-disc ml-5 text-md sm:text-base">
  {(arr as any[]).map((it: any, idx: number) => <li key={idx}>{String(it)}</li>)}
  </ul>
  </div>
@@ -212,7 +212,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  {data.vedic_timeline && (
  <section className="mt-6">
  <h4 className="text-xl font-semibold mb-2">Vedic timeline</h4>
- <ul className="list-disc ml-5 text-lg sm:text-base">
+ <ul className="list-disc ml-5 text-md sm:text-base">
  {Object.entries(data.vedic_timeline).map(([k, v]) => (
  <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>
  ))}
@@ -223,7 +223,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  {data.vedic_philosophical_concepts && (
  <section className="mt-6">
  <h4 className="text-xl font-semibold mb-2">Vedic philosophical concepts</h4>
- <dl className="grid grid-cols-1 gap-2 text-lg sm:text-base">
+ <dl className="grid grid-cols-1 gap-2 text-md sm:text-base">
  {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => (
  <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>
  ))}
@@ -236,7 +236,7 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  <h4 className="text-xl font-semibold mb-2">Related concepts</h4>
  <div className="flex flex-wrap gap-2">
  {data.related_concepts.map((r: any, i: number) => (
- <span key={i} className="text-lg sm:text-base px-2 py-1 bg-gray-100 rounded">{r}</span>
+ <span key={i} className="text-md sm:text-base px-2 py-1 bg-gray-100 rounded">{r}</span>
  ))}
  </div>
  </section>
@@ -247,10 +247,10 @@ export default function VedasClient({ initialData, initialVedas }: { initialData
  <div className="rounded-[2rem] bg-gradient-to-br from-amber-50 via-white to-rose-50 border border-gray-200 shadow-[0_24px_60px_-32px_rgba(245,158,11,0.8)] overflow-hidden">
  <div className="px-6 py-5 border-b border-gray-200 bg-white/80">
  <h4 className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900 ">Structure summary</h4>
- <p className="mt-2 text-sm sm:text-base text-gray-600 max-w-2xl">A concise breakdown of the Vedas content structure for fast scanning and reference.</p>
+ <p className="mt-2 text-md sm:text-base text-gray-600 max-w-2xl">A concise breakdown of the Vedas content structure for fast scanning and reference.</p>
  </div>
  <div className="overflow-x-auto bg-white">
- <table className="min-w-full border-separate border-spacing-0 text-left text-sm sm:text-base">
+ <table className="min-w-full border-separate border-spacing-0 text-left text-md sm:text-base">
  <thead className="bg-gradient-to-r from-amber-100 to-rose-100">
  <tr>
  <th className="px-5 py-4 font-semibold text-amber-900 uppercase tracking-[0.18em]">Section</th>

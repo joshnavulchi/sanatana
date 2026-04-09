@@ -11,32 +11,32 @@ export const metadata = {
 export default function NotFoundPage() {
   return (
     <main className="min-h-screen flex items-center justify-center px-4 md:px-6 bg-gradient-to-br from-rose-100 via-amber-50 to-pink-200 animate-gradient-x">
-      <div className="w-full max-w-5xl rounded-xl bg-white/90 shadow-xl p-4 sm:p-8 text-lg sm:text-base leading-relaxed font-normal border-4 border-amber-100 backdrop-blur-xl animate-fadeInUp">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center text-lg sm:text-base leading-relaxed font-normal">
+      <div className="w-full max-w-5xl rounded-xl bg-white/90 shadow-xl p-4 sm:p-8 text-md sm:text-base leading-relaxed font-normal border-4 border-amber-100 backdrop-blur-xl animate-fadeInUp">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center text-md sm:text-base leading-relaxed font-normal">
           <div>
             <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-amber-200 via-pink-200 to-rose-200 shadow-lg text-3xl font-bold text-amber-700 animate-bounce">?</div>
 
             <h2 className="text-rose-900 text-3xl font-extrabold leading-snug mb-3 drop-shadow-lg animate-fadeIn">We couldn't find that</h2>
-            <p className="text-rose-600 text-lg sm:text-base leading-relaxed mb-4 font-normal animate-fadeIn delay-100">This link may be broken or the page may have been removed. Try these options instead.</p>
+            <p className="text-rose-600 text-md sm:text-base leading-relaxed mb-4 font-normal animate-fadeIn delay-100">This link may be broken or the page may have been removed. Try these options instead.</p>
 
-            <div className="flex flex-col sm:flex-row gap-3 text-lg sm:text-base leading-relaxed font-normal">
+            <div className="flex flex-col sm:flex-row gap-3 text-md sm:text-base leading-relaxed font-normal">
               <Link
                 href="/"
-                className="rounded-full bg-gradient-to-r from-amber-500 via-pink-400 to-rose-400 px-6 py-3 text-lg sm:text-base font-semibold text-white shadow-lg hover:from-amber-600 hover:to-rose-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-pink-200 animate-pulse text-center"
+                className="rounded-full bg-gradient-to-r from-amber-500 via-pink-400 to-rose-400 px-6 py-3 text-md sm:text-base font-semibold text-white shadow-lg hover:from-amber-600 hover:to-rose-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-pink-200 animate-pulse text-center"
               >
                 Back to homepage
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-full px-6 py-3 text-lg sm:text-base font-semibold text-rose-700 bg-white/80 shadow hover:bg-rose-50 transition-all duration-300 text-center border border-rose-200 animate-fadeIn delay-200"
+                className="rounded-full px-6 py-3 text-md sm:text-base font-semibold text-rose-700 bg-white/80 shadow hover:bg-rose-50 transition-all duration-300 text-center border border-rose-200 animate-fadeIn delay-200"
               >
                 Contact support
               </Link>
             </div>
           </div>
 
-          <div className="flex items-center justify-center text-lg sm:text-base leading-relaxed font-normal animate-fadeInUp delay-200">
+          <div className="flex items-center justify-center text-md sm:text-base leading-relaxed font-normal animate-fadeInUp delay-200">
             <svg viewBox="0 0 200 200" className="w-56 h-56 drop-shadow-2xl animate-spin-slow" xmlns="http://www.w3.org/2000/svg" aria-hidden>
               <defs>
                 <linearGradient id="g1" x1="0" x2="1">

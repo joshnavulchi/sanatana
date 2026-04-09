@@ -50,7 +50,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-purple-900 drop-shadow">{section}</h3>
       </div>
-      <div className="text-lg sm:text-base text-purple-800 leading-relaxed pl-2">
+      <div className="text-md sm:text-base text-purple-800 leading-relaxed pl-2">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -185,7 +185,7 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
               <Link key={link.href} href={link.href} className="group block">
                 <article className="relative overflow-hidden rounded-2xl border-amber-200/40 bg-amber-50 p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">{link.label}</h4>
-                  {link.description && <p className="text-lg sm:text-base text-gray-700">{link.description}</p>}
+                  {link.description && <p className="text-md sm:text-base text-gray-700">{link.description}</p>}
                 </article>
               </Link>
             ))}
@@ -199,8 +199,8 @@ export default function VedicClient({ initialStructure, initialFolderLinks }: Pr
             <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-4 md:p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-lg sm:text-base">🔬</span>
-                <h5 className="text-lg sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h5>
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md sm:text-base">🔬</span>
+                <h5 className="text-md sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h5>
               </div>
               {link.description && <p className="meta-text mt-3">{link.description}</p>}
               {typeof link.totalSubtopics === 'number' && link.totalSubtopics > 0 && (

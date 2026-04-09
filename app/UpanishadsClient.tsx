@@ -37,7 +37,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
         </span>
         <h3 className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg animate-gradient-x">{section}</h3>
       </div>
-      <div className="text-lg sm:text-base text-[#3b3270] leading-relaxed pl-2 animate-fadeInUp">
+      <div className="text-md sm:text-base text-[#3b3270] leading-relaxed pl-2 animate-fadeInUp">
         <Paragraphs text={content} />
       </div>
     </div>
@@ -115,8 +115,8 @@ export default function UpanishadsClient() {
             <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1" />
               <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-lg sm:text-base">📜</span>
-                <h6 className="text-lg sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h6>
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md sm:text-base">📜</span>
+                <h6 className="text-md sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h6>
               </div>
             </div>
           </Link>

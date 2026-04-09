@@ -19,7 +19,7 @@ export default function VedicScienceClient() {
   if (isLoading && !page.title) {
     return (
       <PageLayout metaKey="vedic_science" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedic Science' }]}>
-        <div className="flex items-center justify-center py-4 text-lg sm:text-base leading-relaxed font-normal">
+        <div className="flex items-center justify-center py-4 text-md sm:text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>
@@ -38,7 +38,7 @@ export default function VedicScienceClient() {
 
         <div
           id="vedic-science-content"
-          className="space-y-8 text-lg sm:text-base leading-relaxed font-normal bg-gradient-to-br from-blue-50 via-blue-100 to-cyan-50 rounded-3xl border border-blue-200/30 shadow-xl p-6 md:p-10 animate-fadeIn"
+          className="space-y-8 text-md sm:text-base leading-relaxed font-normal bg-gradient-to-br from-blue-50 via-blue-100 to-cyan-50 rounded-3xl border border-blue-200/30 shadow-xl p-6 md:p-10 animate-fadeIn"
         >
           {page.sections.map((section: any, idx: number) => (
             <section
@@ -49,7 +49,7 @@ export default function VedicScienceClient() {
                 <h3 className="section-title text-2xl font-semibold leading-snug mb-3 text-blue-900 drop-shadow">{section.title}</h3>
               )}
               {section.text && (
-                <p className="body-text text-lg sm:text-base leading-relaxed mb-4 font-normal text-blue-800/90">{section.text}</p>
+                <p className="body-text text-md sm:text-base leading-relaxed mb-4 font-normal text-blue-800/90">{section.text}</p>
               )}
             </section>
           ))}

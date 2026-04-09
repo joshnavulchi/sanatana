@@ -12,7 +12,7 @@ function RenderValue({ value }: { value: any }) {
  if (value === null || value === undefined) return <em className="text-gray-500 text-gray-400 italic">—</em>;
 
  if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
- return <p className="text-lg sm:text-base leading-relaxed text-gray-700 text-gray-200">{String(value)}</p>;
+ return <p className="text-md sm:text-base leading-relaxed text-gray-700 text-gray-200">{String(value)}</p>;
  }
 
  if (Array.isArray(value)) {
@@ -118,7 +118,7 @@ export default function CosmicTimeClient() {
  <h3 className="text-xl font-extrabold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">
  {key.replace(/_/g, ' ')}
  </h3>
- <div className="prose max-w-none text-lg sm:text-base leading-relaxed text-gray-700 text-gray-200">
+ <div className="prose max-w-none text-md sm:text-base leading-relaxed text-gray-700 text-gray-200">
  <RenderValue value={value} />
  </div>
  </section>
