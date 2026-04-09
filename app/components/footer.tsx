@@ -233,7 +233,7 @@ export default function Footer() {
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper text-center py-6 md:py-12">
             <div className="mx-auto max-w-xl rounded-md bg-white backdrop-blur-sm shadow-sm my-6 p-4">
-              <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              <h6 className="text-2xl/10 md:text-3xl/14 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
             </div>

@@ -8,12 +8,16 @@ import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader';
 import LazyImage from '@components/lazyimage';
 
-export default function DonateClient() {
+type Props = {
+  initialTitle?: string;
+};
+
+export default function DonateClient({ initialTitle = '' }: Props) {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('donate');
 
   // Initialize with empty state to avoid hydration mismatch
-  const [donate, setDonate] = useState({ title: '', subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any });
+  const [donate, setDonate] = useState({ title: initialTitle, subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any });
 
   useEffect(() => {
     let mounted = true;
@@ -23,7 +27,7 @@ export default function DonateClient() {
       } catch (e) { }
 
       if (!mounted) return;
-      const title = ns?.title || '';
+      const title = ns?.title || initialTitle;
       const subtitle = ns?.subtitle || '';
 
       const rawPurpose = parseMaybeObject(ns ? ns.purpose : '');

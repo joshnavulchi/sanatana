@@ -143,7 +143,7 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
                     </div>
                     <div className="text-center mb-3">
                       {verse.sanskrit && (
-                        <p className="text-2xl/8 md:text-3xl/12 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{verse.sanskrit}</p>
+                        <p className="text-2xl/10 md:text-3xl/14 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{verse.sanskrit}</p>
                       )}
                       {verse.transliteration && (
                         <p className="text-base text-gray-700 italic mb-4">{verse.transliteration}</p>

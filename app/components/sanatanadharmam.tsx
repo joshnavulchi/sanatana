@@ -67,7 +67,7 @@ export default function UnderstandingOfSanatana() {
             className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'} delay-[${sectionIndex * 120}ms]`}
           >
             <div className="text-center">
-              <h4 className="text-2xl/8 md:text-3xl/12 font-semibold text-amber-700 mb-4">{section.title}</h4>
+              <h4 className="text-2xl/10 md:text-3xl/14 font-semibold text-amber-700 mb-4">{section.title}</h4>
               <p className="text-lg sm:text-base text-gray-600 mb-4">{section.content}</p>
             </div>
 

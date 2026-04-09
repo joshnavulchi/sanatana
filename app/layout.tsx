@@ -16,6 +16,11 @@ import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import "./globals.css"; // tailwind base styles
 
+export const metadata = {
+  title: 'Sanātana Dharma – Eternal Principles of Hinduism',
+  description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.',
+};
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400"],

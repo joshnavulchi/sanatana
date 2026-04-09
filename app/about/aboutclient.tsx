@@ -8,14 +8,18 @@ import PageLayout from '@components/common/PageLayout';
 import { parseMaybeObject } from '@/lib/parse';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
 
-export default function AboutClient() {
+type Props = {
+  initialTitle?: string;
+};
+
+export default function AboutClient({ initialTitle = '' }: Props) {
   const isVisible = true;
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('about');
 
   // Compute about object directly from ns
   const about = {
-    title: String(ns?.title || ''),
+    title: String(ns?.title || initialTitle),
     description: String(ns?.description || ''),
     sections: Array.isArray(ns?.sections) ? ns.sections : [],
     disclaimer: String(ns?.disclaimer || ''),

@@ -10,17 +10,17 @@ import PageLayout from '@components/common/PageLayout';
 
 type PartialPage = Record<string, any>;
 
-export default function TermsOfService() {
+export default function TermsOfService({ initialTitle = '' }: { initialTitle?: string }) {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('terms-of-service');
 
-  const [page, setPage] = useState<PartialPage>({ title: '', lastupdated: '' });
+  const [page, setPage] = useState<PartialPage>({ title: initialTitle, lastupdated: '' });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       if (!mounted) return;
-      const title = ns?.title || '';
+      const title = ns?.title || initialTitle;
       const lastupdated = ns?.lastupdated || '';
       const keys = [
         'intro', 'acceptancetitle', 'uselicensetitle', 'uselicensetext', 'uselicenselist',
