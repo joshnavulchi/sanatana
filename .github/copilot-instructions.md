@@ -23,6 +23,33 @@ AI must always:
 
 ---
 
+# SEO and Indexing Preservation
+
+AI must **NEVER** modify, remove, or disrupt Google indexing and IndexNow integration:
+
+### Google Indexing Protection
+- Never alter `public/sitemap.xml` generation or content
+- Never modify `public/robots.txt`
+- Never remove or change SEO meta tags (title, description, canonical)
+- Never disrupt structured data (JSON-LD) output
+- Never change Open Graph or Twitter meta tags
+
+### IndexNow Protection
+- Never modify `lib/constants.ts` INDEXNOW_KEY
+- Never remove `public/{key}.txt` verification files
+- Never alter `scripts/notify-indexnow.js`
+- Never change IndexNow notification in build scripts
+- Never disrupt IndexNow API integration
+
+### Build SEO Protection
+- Never modify sitemap generation scripts
+- Never alter SEO audit scripts
+- Never change build-time SEO file handling
+
+**If any task conflicts with SEO preservation, halt immediately and seek clarification.**
+
+---
+
 # Folder Structure
 
 ```

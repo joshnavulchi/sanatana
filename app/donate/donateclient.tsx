@@ -8,12 +8,16 @@ import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader';
 import LazyImage from '@components/lazyimage';
 
-export default function DonateClient() {
+type Props = {
+  initialTitle?: string;
+};
+
+export default function DonateClient({ initialTitle = '' }: Props) {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('donate');
 
   // Initialize with empty state to avoid hydration mismatch
-  const [donate, setDonate] = useState({ title: '', subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any });
+  const [donate, setDonate] = useState({ title: initialTitle, subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any });
 
   useEffect(() => {
     let mounted = true;
@@ -23,7 +27,7 @@ export default function DonateClient() {
       } catch (e) { }
 
       if (!mounted) return;
-      const title = ns?.title || '';
+      const title = ns?.title || initialTitle;
       const subtitle = ns?.subtitle || '';
 
       const rawPurpose = parseMaybeObject(ns ? ns.purpose : '');
@@ -51,7 +55,7 @@ export default function DonateClient() {
   if (isLoading && !donate.title) {
     return (
       <PageLayout metaKey="donate" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Donate' }]} className="layout-sm">
-        <div className="flex items-center justify-center py-6 text-lg sm:text-base leading-relaxed font-normal">
+        <div className="flex items-center justify-center py-6 text-md sm:text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>
@@ -65,18 +69,18 @@ export default function DonateClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Donate' }]}
       className={`layout-sm`}
     >
-      <div id="donate-content" className="space-y-12 text-lg sm:text-base leading-relaxed font-normal">
-        <div className="text-center max-w-3xl mx-auto text-lg sm:text-base leading-relaxed font-normal">
-          <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">{donate.subtitle}</p>
+      <div id="donate-content" className="space-y-12 text-md sm:text-base leading-relaxed font-normal">
+        <div className="text-center max-w-3xl mx-auto text-md sm:text-base leading-relaxed font-normal">
+          <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">{donate.subtitle}</p>
         </div>
 
         {/* Purpose */}
         <section className="relative">
-          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl shadow-sm border border-amber-200 p-5 overflow-hidden text-lg sm:text-base leading-relaxed font-normal">
-            <div className="absolute top-0 right-0 w-48 h-48 bg-amber-100 rounded-full blur-3xl text-lg sm:text-base leading-relaxed font-normal" />
-            <div className="relative z-10 text-lg sm:text-base leading-relaxed font-normal">
-              <div className="flex items-center gap-3 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-sm text-lg sm:text-base leading-relaxed font-normal">
+          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl shadow-sm border border-amber-200 p-5 overflow-hidden text-md sm:text-base leading-relaxed font-normal">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-amber-100 rounded-full blur-3xl text-md sm:text-base leading-relaxed font-normal" />
+            <div className="relative z-10 text-md sm:text-base leading-relaxed font-normal">
+              <div className="flex items-center gap-3 text-md sm:text-base leading-relaxed font-normal">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-sm text-md sm:text-base leading-relaxed font-normal">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                     <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
@@ -84,13 +88,13 @@ export default function DonateClient() {
                 </div>
                 <h3 className="text-xl font-semibold leading-snug mb-2">{donate.purpose?.heading}</h3>
               </div>
-              <ul className="space-y-4 list-disc pl-5 text-lg sm:text-base leading-relaxed mt-6">
+              <ul className="space-y-4 list-disc pl-5 text-md sm:text-base leading-relaxed mt-6">
                 {(donate.purpose?.points || []).map((p: string, i: number) => (
                   <li key={i} className="flex items-start gap-2 group mb-2">
-                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform duration-200 text-lg sm:text-base leading-relaxed font-normal">
+                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform duration-200 text-md sm:text-base leading-relaxed font-normal">
                       {i + 1}
                     </span>
-                    <span className="flex-1 pt-1 text-lg sm:text-base leading-relaxed font-normal">{p}</span>
+                    <span className="flex-1 pt-1 text-md sm:text-base leading-relaxed font-normal">{p}</span>
                   </li>
                 ))}
               </ul>
@@ -100,11 +104,11 @@ export default function DonateClient() {
 
         {/* Expenses */}
         <section className="relative">
-          <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
-            <h4 className="text-lg sm:text-base sm:text-xl md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
-            <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full text-lg sm:text-base leading-relaxed font-normal"></div>
+          <div className="text-center text-md sm:text-base leading-relaxed font-normal">
+            <h4 className="text-md sm:text-base sm:text-xl md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full text-md sm:text-base leading-relaxed font-normal"></div>
           </div>
-          <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200 text-lg sm:text-base leading-relaxed font-normal">
+          <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200 text-md sm:text-base leading-relaxed font-normal">
             <table className="w-full">
               <thead className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white">
                 <tr>
@@ -130,23 +134,23 @@ export default function DonateClient() {
 
         {/* Donate */}
         <section className="relative">
-          <div className="bg-gradient-to-br from-white via-amber-50 to-orange-50 rounded-2xl shadow-sm border border-amber-200 p-5 overflow-hidden text-lg sm:text-base leading-relaxed font-normal">
-            <div className="absolute inset-0 opacity-40 text-lg sm:text-base leading-relaxed font-normal" aria-hidden="true" />
-            <div className="relative z-10 text-lg sm:text-base leading-relaxed font-normal">
-              <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl shadow-sm text-lg sm:text-base leading-relaxed font-normal">
+          <div className="bg-gradient-to-br from-white via-amber-50 to-orange-50 rounded-2xl shadow-sm border border-amber-200 p-5 overflow-hidden text-md sm:text-base leading-relaxed font-normal">
+            <div className="absolute inset-0 opacity-40 text-md sm:text-base leading-relaxed font-normal" aria-hidden="true" />
+            <div className="relative z-10 text-md sm:text-base leading-relaxed font-normal">
+              <div className="text-center text-md sm:text-base leading-relaxed font-normal">
+                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl shadow-sm text-md sm:text-base leading-relaxed font-normal">
                   <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <h5 className="text-3xl font-semibold text-amber-900 mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
-                <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">{donate.donateOptions?.oneTime?.note}</p>
+                <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">{donate.donateOptions?.oneTime?.note}</p>
               </div>
-              <div className="flex flex-col md:flex-row items-center justify-center gap-8 my-10 text-lg sm:text-base leading-relaxed font-normal">
-                <div className="group text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm text-lg sm:text-base leading-relaxed font-normal">
-                    <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-lg sm:text-base leading-relaxed font-normal">PayPal</span>
+              <div className="flex flex-col md:flex-row items-center justify-center gap-8 my-10 text-md sm:text-base leading-relaxed font-normal">
+                <div className="group text-md sm:text-base leading-relaxed font-normal">
+                  <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm text-md sm:text-base leading-relaxed font-normal">
+                    <div className="text-center text-md sm:text-base leading-relaxed font-normal">
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md sm:text-base leading-relaxed font-normal">PayPal</span>
                     </div>
                     <LazyImage
                       src="/images/SANATANADHARM-qrcode.png"
@@ -155,7 +159,7 @@ export default function DonateClient() {
                       height={205}
                       className="rounded-2xl shadow-sm"
                     />
-                    <div className="text-lg sm:text-base leading-relaxed font-normal">
+                    <div className="text-md sm:text-base leading-relaxed font-normal">
                       <LazyImage
                         src="/images/Debit_Credit_APM.svg"
                         alt="PayPal QR Code Logo"
@@ -167,10 +171,10 @@ export default function DonateClient() {
                   </div>
                 </div>
 
-                <div className="group text-lg sm:text-base leading-relaxed font-normal">
-                  <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm text-lg sm:text-base leading-relaxed font-normal">
-                    <div className="text-center text-lg sm:text-base leading-relaxed font-normal">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-full text-lg sm:text-base leading-relaxed font-normal">UPI</span>
+                <div className="group text-md sm:text-base leading-relaxed font-normal">
+                  <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm text-md sm:text-base leading-relaxed font-normal">
+                    <div className="text-center text-md sm:text-base leading-relaxed font-normal">
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-full text-md sm:text-base leading-relaxed font-normal">UPI</span>
                     </div>
                     <LazyImage
                       src="/images/UPI-qrcode.png"

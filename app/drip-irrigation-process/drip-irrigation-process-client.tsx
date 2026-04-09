@@ -35,7 +35,7 @@ export default function DripIrrigationProcessClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: dripIrrigationProcess.title }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-4 text-lg sm:text-base leading-relaxed font-normal">
+        <div className="flex items-center justify-center py-4 text-md sm:text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>
@@ -73,8 +73,8 @@ export default function DripIrrigationProcessClient() {
 
           {/* Description */}
           {dripIrrigationProcess.discription && (
-            <div className="text-lg sm:text-base leading-relaxed font-normal">
-              <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+            <div className="text-md sm:text-base leading-relaxed font-normal">
+              <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">
                 {dripIrrigationProcess.discription}
               </p>
             </div>
@@ -106,14 +106,14 @@ export default function DripIrrigationProcessClient() {
               <div key={section.id || index}
                 className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
-                <div className="absolute top-0 right-0 w-32 h-32 rounded-tr-2xl text-lg sm:text-base leading-relaxed font-normal" />
-                <div className="absolute bottom-0 left-0 w-24 h-24 rounded-bl-2xl text-lg sm:text-base leading-relaxed font-normal" />
+                <div className="absolute top-0 right-0 w-32 h-32 rounded-tr-2xl text-md sm:text-base leading-relaxed font-normal" />
+                <div className="absolute bottom-0 left-0 w-24 h-24 rounded-bl-2xl text-md sm:text-base leading-relaxed font-normal" />
 
                 {/* Content */}
-                <div className="relative z-10 space-y-4 text-lg sm:text-base leading-relaxed font-normal">
+                <div className="relative z-10 space-y-4 text-md sm:text-base leading-relaxed font-normal">
                   {/* Section header with icon */}
-                  <div className="flex items-start gap-4 text-lg sm:text-base leading-relaxed font-normal">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-lg sm:text-base leading-relaxed font-normal">
+                  <div className="flex items-start gap-4 text-md sm:text-base leading-relaxed font-normal">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-md sm:text-base leading-relaxed font-normal">
                       {icon}
                     </div>
                     <Tag className="flex-1 text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
@@ -123,18 +123,18 @@ export default function DripIrrigationProcessClient() {
 
                   {/* Section paragraphs */}
                   {section.paragraphs && section.paragraphs.map((paragraph: string, idx: number) => (
-                    <p key={idx} className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+                    <p key={idx} className="text-md sm:text-base leading-relaxed mb-4 font-normal">
                       {paragraph}
                     </p>
                   ))}
 
                   {/* Section bullets */}
                   {section.bullets && section.bullets.length > 0 && (
-                    <ul className="space-y-3 list-disc pl-5 text-lg sm:text-base leading-relaxed">
+                    <ul className="space-y-3 list-disc pl-5 text-md sm:text-base leading-relaxed">
                       {section.bullets.map((bullet: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 mb-2">
-                          <span className="flex-shrink-0 w-2 h-2 rounded-full text-lg sm:text-base leading-relaxed font-normal" />
-                          <span className="flex-1 text-lg sm:text-base leading-relaxed font-normal">{bullet}</span>
+                          <span className="flex-shrink-0 w-2 h-2 rounded-full text-md sm:text-base leading-relaxed font-normal" />
+                          <span className="flex-1 text-md sm:text-base leading-relaxed font-normal">{bullet}</span>
                         </li>
                       ))}
                     </ul>
@@ -149,11 +149,11 @@ export default function DripIrrigationProcessClient() {
                             {step.icon && <span>{step.icon}</span>}
                             {step.title || step.step}
                           </h5>
-                          <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">{step.details}</p>
+                          <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">{step.details}</p>
                           {step.details && Array.isArray(step.details) && (
                             <ul className="space-y-2 ml-4">
                               {step.details.map((detail: string, dIdx: number) => (
-                                <li key={dIdx} className="text-lg sm:text-base leading-relaxed font-normal">• {detail}</li>
+                                <li key={dIdx} className="text-md sm:text-base leading-relaxed font-normal">• {detail}</li>
                               ))}
                             </ul>
                           )}
@@ -168,8 +168,8 @@ export default function DripIrrigationProcessClient() {
                       {section.items.map((item: any, idx: number) => (
                         <div key={idx} className="border rounded-lg p-4 bg-gray-50">
                           <h5 className="font-semibold text-gray-900 mb-2">{item.name}</h5>
-                          <p className="text-lg sm:text-base leading-relaxed mb-2 font-normal"><strong>Function:</strong> {item.function}</p>
-                          <p className="text-lg sm:text-base leading-relaxed font-normal"><strong>Sizing Notes:</strong> {item.sizingNotes}</p>
+                          <p className="text-md sm:text-base leading-relaxed mb-2 font-normal"><strong>Function:</strong> {item.function}</p>
+                          <p className="text-md sm:text-base leading-relaxed font-normal"><strong>Sizing Notes:</strong> {item.sizingNotes}</p>
                         </div>
                       ))}
                     </div>
@@ -233,7 +233,7 @@ export default function DripIrrigationProcessClient() {
                   {section.notes && (
                     <div className="bg-yellow-50 p-4 rounded-lg">
                       <h4 className="text-lg font-semibold text-yellow-800 mb-2">Notes</h4>
-                      <p className="text-lg sm:text-base leading-relaxed font-normal">{section.notes}</p>
+                      <p className="text-md sm:text-base leading-relaxed font-normal">{section.notes}</p>
                     </div>
                   )}
 
@@ -243,7 +243,7 @@ export default function DripIrrigationProcessClient() {
                       {section.items.map((item: any, idx: number) => (
                         <div key={idx} className="border rounded-lg p-4">
                           <h5 className="font-semibold text-gray-900 mb-2">{item.q}</h5>
-                          <p className="text-lg sm:text-base leading-relaxed font-normal">{item.a}</p>
+                          <p className="text-md sm:text-base leading-relaxed font-normal">{item.a}</p>
                         </div>
                       ))}
                     </div>

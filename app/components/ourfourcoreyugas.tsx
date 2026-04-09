@@ -83,7 +83,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </h6>
 
         {/* Subtitle */}
-        <p className="mt-2 text-lg sm:text-base font-semibold uppercase tracking-widest text-indigo-700">
+        <p className="mt-2 text-md sm:text-base font-semibold uppercase tracking-widest text-indigo-700">
           {subtitle}
         </p>
 
@@ -91,7 +91,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-lg sm:text-base leading-relaxed text-gray-700">
+              <li key={i} className="flex items-start gap-3 text-md sm:text-base leading-relaxed text-gray-700">
                 <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-br from-amber-400 to-pink-400" />
                 {point}
               </li>
@@ -147,7 +147,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-4 text-lg sm:text-base leading-relaxed text-gray-700">
+          <p className="mt-4 text-md sm:text-base leading-relaxed text-gray-700">
             {subtitle}{' '}
             <Link
               href="/cosmictime"
@@ -191,7 +191,7 @@ export default function OurFourCoreYugas() {
           {/* Divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
-            <span className="text-lg sm:text-base font-black uppercase tracking-[0.35em] text-[#92400e]">
+            <span className="text-md sm:text-base font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦
             </span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
@@ -200,14 +200,14 @@ export default function OurFourCoreYugas() {
           {/* Highlight note */}
           {earthAgeComparisonNote && (
             <div className="mx-auto max-w-5xl bg-black/5 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-lg sm:text-base leading-relaxed">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md sm:text-base leading-relaxed">
                 {earthAgeComparisonNote}
               </p>
             </div>
           )}
 
           {scalingComment && (
-            <p className="mx-auto mt-5 max-w-4xl text-center text-lg sm:text-base leading-relaxed text-[#5b2d12]">
+            <p className="mx-auto mt-5 max-w-4xl text-center text-md sm:text-base leading-relaxed text-[#5b2d12]">
               {scalingComment}
             </p>
           )}

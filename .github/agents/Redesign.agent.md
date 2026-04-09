@@ -82,11 +82,11 @@ Replace inconsistent text styles with a refined hierarchy:
 
 #### Body Text
 
-* `text-lg sm:text-base leading-relaxed text-gray-600 dark:text-gray-300`
+* `text-md sm:text-base leading-relaxed text-gray-600 dark:text-gray-300`
 
 #### Labels / Meta
 
-* `text-lg sm:text-base text-gray-500 dark:text-gray-400`
+* `text-md sm:text-base text-gray-500 dark:text-gray-400`
 
 ---
 
@@ -123,7 +123,7 @@ Use consistently across UI:
 
 * Primary:
 
-  * `inline-flex items-center justify-center rounded-xl bg-indigo-600 px-5 py-2.5 text-lg sm:text-base font-medium text-white shadow-sm hover:bg-indigo-700 transition-all duration-200`
+  * `inline-flex items-center justify-center rounded-xl bg-indigo-600 px-5 py-2.5 text-md sm:text-base font-medium text-white shadow-sm hover:bg-indigo-700 transition-all duration-200`
 * Secondary:
 
   * `rounded-xl border border-gray-300 dark:border-gray-700 px-5 py-2.5 hover:bg-gray-100 dark:hover:bg-gray-800`
