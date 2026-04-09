@@ -166,8 +166,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 <div className="text-center space-y-4">
                   <div className="text-6xl text-amber-300/80 animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 text-lg sm:text-base italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-lg sm:text-base">Truth Alone Triumphs</p>
+                  <p className="text-white/90 text-md sm:text-base italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-md sm:text-base">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -195,17 +195,17 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <h1 className="text-4xl font-semibold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
                 {hero?.heading || 'Sanātana Dharma'}
               </h1>
-              <h2 className="text-2xl/10 md:text-3xl/14 font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
+              <h2 className="text-2xl/8 md:text-3xl/12 font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h2>
               {/* Description */}
-              <p className="text-lg sm:text-base text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-4">
+              <p className="text-md sm:text-base text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-4">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-4">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/itihasa'}
-                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-lg sm:text-base rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
+                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-md sm:text-base rounded-full shadow-xl font-light hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
                     {hero?.primarycta?.label || 'Explore Itihasa'}
@@ -217,9 +217,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
                 <Link
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
-                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-lg sm:text-base font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md hover:bg-white/20 border-2 border-white/50 hover:border-white text-white text-md sm:text-base font-light rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
-                    {hero?.secondarycta?.label || 'Start Learning'}
+                    {hero?.secondarycta?.label || 'Learn Sanatana Dharma'}
                     <svg className="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
@@ -230,7 +230,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-lg sm:text-base drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-md sm:text-base drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>

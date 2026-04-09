@@ -46,7 +46,7 @@ export default function ReligionConversionClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: religionConversion.title }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-4 text-lg sm:text-base leading-relaxed font-normal">
+        <div className="flex items-center justify-center py-4 text-md sm:text-base leading-relaxed font-normal">
           <Loader />
         </div>
       </PageLayout>
@@ -69,8 +69,8 @@ export default function ReligionConversionClient() {
 
           {/* Descriptions */}
           {religionConversion.descriptions && (
-            <div className="text-lg sm:text-base leading-relaxed font-normal">
-              <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+            <div className="text-md sm:text-base leading-relaxed font-normal">
+              <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">
                 {religionConversion.descriptions}
               </p>
             </div>
@@ -89,14 +89,14 @@ export default function ReligionConversionClient() {
               <div key={section.id || index}
                 className="relative bg-white rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
-                <div className="absolute top-0 right-0 w-32 h-32 rounded-tr-2xl text-lg sm:text-base leading-relaxed font-normal" />
-                <div className="absolute bottom-0 left-0 w-24 h-24 rounded-bl-2xl text-lg sm:text-base leading-relaxed font-normal" />
+                <div className="absolute top-0 right-0 w-32 h-32 rounded-tr-2xl text-md sm:text-base leading-relaxed font-normal" />
+                <div className="absolute bottom-0 left-0 w-24 h-24 rounded-bl-2xl text-md sm:text-base leading-relaxed font-normal" />
 
                 {/* Content */}
-                <div className="relative z-10 space-y-4 text-lg sm:text-base leading-relaxed font-normal">
+                <div className="relative z-10 space-y-4 text-md sm:text-base leading-relaxed font-normal">
                   {/* Section header with icon */}
-                  <div className="flex items-start gap-4 text-lg sm:text-base leading-relaxed font-normal">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-lg sm:text-base leading-relaxed font-normal">
+                  <div className="flex items-start gap-4 text-md sm:text-base leading-relaxed font-normal">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 text-md sm:text-base leading-relaxed font-normal">
                       {icon}
                     </div>
                     <Tag className="flex-1 text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
@@ -106,7 +106,7 @@ export default function ReligionConversionClient() {
 
                   {/* Section content */}
                   {typeof section.content === 'string' && section.content && (
-                    <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+                    <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">
                       {section.content.split('\n\n').map((paragraph: string, idx: number) => (
                         <span key={idx}>
                           {paragraph}
@@ -123,15 +123,15 @@ export default function ReligionConversionClient() {
                         if (typeof item === 'string') {
                           return (
                             <li key={idx} className="relative flex items-start gap-3 mb-2">
-                              <span className="flex-shrink-0 w-2 h-2 rounded-full text-lg sm:text-base leading-relaxed font-normal" />
-                              <span className="flex-1 text-lg sm:text-base leading-relaxed font-normal">{item}</span>
+                              <span className="flex-shrink-0 w-2 h-2 rounded-full text-md sm:text-base leading-relaxed font-normal" />
+                              <span className="flex-1 text-md sm:text-base leading-relaxed font-normal">{item}</span>
                             </li>
                           );
                         } else if (item.country && item.details) {
                           return (
                             <div key={idx} className="border-l-4 border-amber-200 pl-4 mb-4">
                               <h5 className="font-semibold text-amber-800 mb-2">{item.country}</h5>
-                              <p className="text-lg sm:text-base leading-relaxed font-normal">{item.details}</p>
+                              <p className="text-md sm:text-base leading-relaxed font-normal">{item.details}</p>
                             </div>
                           );
                         }
@@ -142,11 +142,11 @@ export default function ReligionConversionClient() {
 
                   {/* Points list */}
                   {section?.points && section?.points.length > 0 && (
-                    <ul className="space-y-3 list-disc pl-5 text-lg sm:text-base leading-relaxed">
+                    <ul className="space-y-3 list-disc pl-5 text-md sm:text-base leading-relaxed">
                       {section.points.map((text: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 mb-2">
-                          <span className="flex-shrink-0 w-2 h-2 rounded-full text-lg sm:text-base leading-relaxed font-normal" />
-                          <span className="flex-1 text-lg sm:text-base leading-relaxed font-normal">{text}</span>
+                          <span className="flex-shrink-0 w-2 h-2 rounded-full text-md sm:text-base leading-relaxed font-normal" />
+                          <span className="flex-1 text-md sm:text-base leading-relaxed font-normal">{text}</span>
                         </li>
                       ))}
                     </ul>
@@ -164,7 +164,7 @@ export default function ReligionConversionClient() {
                 {religionConversion.country_conversion_details.map((country: any, index: number) => (
                   <div key={index} className="border-l-4 border-amber-200 pl-4">
                     <h4 className="font-semibold text-amber-800 mb-2">{country.country}</h4>
-                    <p className="text-lg sm:text-base leading-relaxed font-normal">{country.details}</p>
+                    <p className="text-md sm:text-base leading-relaxed font-normal">{country.details}</p>
                   </div>
                 ))}
               </div>
@@ -243,22 +243,22 @@ export default function ReligionConversionClient() {
               <h3 className="text-2xl text-gray-900 mb-6">Conclusion</h3>
               <div className="space-y-4">
                 {religionConversion.conclusion.clarification && (
-                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                  <p className="text-md sm:text-base leading-relaxed font-normal">
                     <strong>Clarification:</strong> {religionConversion.conclusion.clarification}
                   </p>
                 )}
                 {religionConversion.conclusion.historical_personhood && (
-                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                  <p className="text-md sm:text-base leading-relaxed font-normal">
                     <strong>Historical Personhood:</strong> {religionConversion.conclusion.historical_personhood}
                   </p>
                 )}
                 {religionConversion.conclusion.textual_level && (
-                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                  <p className="text-md sm:text-base leading-relaxed font-normal">
                     <strong>Textual Level:</strong> {religionConversion.conclusion.textual_level}
                   </p>
                 )}
                 {religionConversion.conclusion.theological_level && (
-                  <p className="text-lg sm:text-base leading-relaxed font-normal">
+                  <p className="text-md sm:text-base leading-relaxed font-normal">
                     <strong>Theological Level:</strong> {religionConversion.conclusion.theological_level}
                   </p>
                 )}
@@ -272,7 +272,7 @@ export default function ReligionConversionClient() {
               <h3 className="text-2xl text-gray-900 mb-6">Critical Academic Consensus</h3>
               <div className="space-y-4">
                 {Object.entries(religionConversion.critical_academic_consensus).map(([key, value]: [string, any]) => (
-                  <p key={key} className="text-lg sm:text-base leading-relaxed font-normal">
+                  <p key={key} className="text-md sm:text-base leading-relaxed font-normal">
                     <strong>{key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}:</strong> {value}
                   </p>
                 ))}
@@ -282,12 +282,12 @@ export default function ReligionConversionClient() {
 
           {/* Disclaimer section */}
           {religionConversion.disclaimer && (
-            <div className="relative rounded-lg p-4 md:p-8 shadow-lg text-lg sm:text-base leading-relaxed font-normal">
-              <div className="flex items-start gap-4 text-lg sm:text-base leading-relaxed font-normal">
-                <span className="text-lg sm:text-base leading-relaxed font-normal">⚠️</span>
-                <div className="flex-1 text-lg sm:text-base leading-relaxed font-normal">
-                  <h4 className="text-xl md:text-lg sm:text-base font-semibold text-gray-900 mb-2">Disclaimer</h4>
-                  <p className="text-lg sm:text-base leading-relaxed mb-4 font-normal">
+            <div className="relative rounded-lg p-4 md:p-8 shadow-lg text-md sm:text-base leading-relaxed font-normal">
+              <div className="flex items-start gap-4 text-md sm:text-base leading-relaxed font-normal">
+                <span className="text-md sm:text-base leading-relaxed font-normal">⚠️</span>
+                <div className="flex-1 text-md sm:text-base leading-relaxed font-normal">
+                  <h4 className="text-xl md:text-md sm:text-base font-semibold text-gray-900 mb-2">Disclaimer</h4>
+                  <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">
                     {religionConversion.disclaimer}
                   </p>
                 </div>

@@ -135,11 +135,11 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
                   <div key={j} className="bg-white/95 p-4 mb-4 rounded-lg shadow-sm">
                     <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
                       {verse.verse_number !== undefined && (
-                        <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
+                        <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-md sm:text-base font-medium">
                           Verse {String(verse.verse_number)}
                         </span>
                       )}
-                      {verse.title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
+                      {verse.title && <span className="text-md sm:text-base uppercase tracking-[0.18em] text-gray-500">{verse.title}</span>}
                     </div>
                     <div className="text-center mb-3">
                       {verse.sanskrit && (
@@ -151,14 +151,14 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
                     </div>
                     {verse.meaning && (
                       <div className="space-y-3 mb-4">
-                        <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
+                        <div className="text-md sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
                         {typeof verse.meaning === 'string' ? (
-                          <p className="text-lg leading-relaxed text-red-600">{verse.meaning}</p>
+                          <p className="text-lg leading-relaxed text-gray-600">{verse.meaning}</p>
                         ) : (
                           Object.entries(verse.meaning).map(([k, v]) => (
                             <div key={k} className="rounded-xl bg-gray-50 p-3">
-                              <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
-                              <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
+                              <div className="text-md sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
+                              <p className="text-md sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
                             </div>
                           ))
                         )}
@@ -172,27 +172,29 @@ export default async function Page({ params }: { params: { veda?: string; slug?:
 
           // standalone chants/mantras
           return (
-            <div key={i} className="mb-6 bg-white/95 p-4 rounded-lg shadow-sm">
+            <div key={i} className="mb-6 bg-white/95 p-4 rounded-lg shadow-lg">
               <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
                 {numberLabel !== null && (
-                  <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-lg sm:text-base font-medium">
+                  <span className="inline-flex items-center rounded-full bg-indigo-100 text-indigo-800 px-3 py-1 text-md sm:text-base font-medium">
                     {item.hymn_number ? `Hymn ${numberLabel}` : item.chant_number ? `Chant ${numberLabel}` : item.mantra_number ? `Mantra ${numberLabel}` : `Item ${numberLabel}`}
                   </span>
                 )}
-                {title && <span className="text-lg sm:text-base uppercase tracking-[0.18em] text-gray-500">{title}</span>}
+                {title && <span className="text-md sm:text-base uppercase tracking-[0.18em] text-gray-500">{title}</span>}
               </div>
-              {item.sanskrit && <p className="text-xl leading-relaxed text-gray-900 mb-2">{item.sanskrit}</p>}
-              {item.transliteration && <p className="text-base text-gray-700 italic mb-2">{item.transliteration}</p>}
+              <div className="text-center mb-3">
+                {item.sanskrit && <p className="text-2xl/10 md:text-3xl/14 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{item.sanskrit}</p>}
+                {item.transliteration && <p className="text-base text-gray-700 italic mb-2">{item.transliteration}</p>}
+              </div>
               {item.meaning && (
                 <div className="space-y-3 mt-3">
-                  <div className="text-lg sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
+                  <div className="text-md sm:text-base font-semibold uppercase tracking-[0.18em] text-gray-500">Meaning</div>
                   {typeof item.meaning === 'string' ? (
                     <p className="text-lg leading-relaxed text-red-600">{item.meaning}</p>
                   ) : (
                     Object.entries(item.meaning).map(([k, v]) => (
                       <div key={k} className="rounded-xl bg-gray-50 p-3">
-                        <div className="text-lg sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
-                        <p className="text-lg sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
+                        <div className="text-md sm:text-base font-semibold text-gray-700 mb-1">{k.replace(/[-_]/g, ' ')}</div>
+                        <p className="text-md sm:text-base leading-relaxed text-gray-600">{String(v)}</p>
                       </div>
                     ))
                   )}

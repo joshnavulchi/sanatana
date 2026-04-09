@@ -153,7 +153,7 @@ export default function LanguageDropdown() {
     <div ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
       <button aria-haspopup="dialog" aria-controls="language-dialog" onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-1 px-2 py-1 hover:shadow-md transition-all duration-300 cursor-pointer transform"
+        className="group relative inline-flex items-center gap-1 hover:shadow-md transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open} >
         <div className="relative">
@@ -190,8 +190,8 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <p id="language-dialog-title" className="text-lg sm:text-base font-semibold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</p>
-                  <p className="text-lg sm:text-base text-gray-600">{filteredLanguages.length} languages available</p>
+                  <p id="language-dialog-title" className="text-md sm:text-base font-semibold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</p>
+                  <p className="text-md sm:text-base text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button

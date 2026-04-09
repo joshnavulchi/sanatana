@@ -56,7 +56,7 @@ export default function ExploreClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Explore' }]}
       className={`layout-md`}>
       <h3 className="text-3xl font-extrabold mb-4 text-amber-800">{t("explore.title")}</h3>
-      <p className="text-lg sm:text-base text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
+      <p className="text-md sm:text-base text-stone-600 mb-6">{t("explore.subtitle") || "Discover topics, timelines and stories."}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {pages.map((p) => (
@@ -73,7 +73,7 @@ export default function ExploreClient() {
                 <div className="flex-none text-3xl drop-shadow-sm">{p.emoji}</div>
                 <div>
                   <h4 className={`text-xl font-semibold ${p.accent}`}>{t(p.key)}</h4>
-                  <p className="mt-2 text-lg sm:text-base text-stone-700">{t(p.descKey) || t(p.key)}</p>
+                  <p className="mt-2 text-md sm:text-base text-stone-700">{t(p.descKey) || t(p.key)}</p>
                 </div>
               </div>
               <span className="absolute -right-6 -top-6 block h-36 w-36 rounded-full opacity-10 bg-white blur-3xl"></span>

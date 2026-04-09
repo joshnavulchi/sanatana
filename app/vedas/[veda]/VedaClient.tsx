@@ -36,7 +36,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text drop-shadow-lg mt-6 mb-3">{children}</h2>;
   }
   function Paragraph({ children }: any) {
-    return <p className="text-lg sm:text-base text-[#5b2d12] leading-relaxed mb-4 px-3 py-2">{children}</p>;
+    return <p className="text-md sm:text-base text-[#5b2d12] leading-relaxed mb-4 px-3 py-2">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
@@ -101,7 +101,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
     return (
       <section className="mb-8">
         {title && <SectionTitle>{title}</SectionTitle>}
-        <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-3">
           {items.map((item: any, idx: number) => {
             // Determine numeric index and logical type for this item (chapter/book/mandala/number)
             const num = item.chapter ?? item.book ?? item.mandala ?? item.number ?? (idx + 1);
@@ -155,7 +155,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
             const href = slug ? `/vedas/${vedaKey}/${slug}` : (item.path || '#');
 
             return (
-              <div key={idx} className="shadow-sm">
+              <div key={idx} className="shadow-lg p-3">
                 <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
@@ -318,7 +318,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.estimated_composition_period && (
         <section>
           <SectionTitle>Estimated composition period</SectionTitle>
-          <div className="text-lg sm:text-base">
+          <div className="text-md sm:text-base">
             {Object.entries(data.estimated_composition_period).map(([k, v]) => (
               <div key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</div>
             ))}
@@ -359,7 +359,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_timeline && (
         <section>
           <SectionTitle>Vedic timeline</SectionTitle>
-          <ul className="list-disc pl-5 text-lg sm:text-base">
+          <ul className="list-disc pl-5 text-md sm:text-base">
             {Object.entries(data.vedic_timeline).map(([k, v]) => <li key={k}><strong className="mr-2">{k.replace(/_/g, ' ')}:</strong>{String(v)}</li>)}
           </ul>
         </section>
@@ -368,7 +368,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
       {data.vedic_philosophical_concepts && (
         <section>
           <SectionTitle>Philosophical concepts</SectionTitle>
-          <div className="text-lg sm:text-base">
+          <div className="text-md sm:text-base">
             {Object.entries(data.vedic_philosophical_concepts).map(([k, v]) => <div key={k}><strong className="mr-2">{k}:</strong>{String(v)}</div>)}
           </div>
         </section>

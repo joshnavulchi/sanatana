@@ -36,7 +36,7 @@ export default function ChapterClient({ initialData, initialLocale, chapter }: P
   }
 
   function Paragraph({ children }: any) {
-    return <p className="text-lg sm:text-base leading-relaxed mb-4">{children}</p>;
+    return <p className="text-md sm:text-base leading-relaxed mb-4">{children}</p>;
   }
 
   function renderContent(content: any, key?: number | string) {
