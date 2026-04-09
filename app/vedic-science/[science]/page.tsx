@@ -58,10 +58,51 @@ export async function generateMetadata({ params, searchParams }: { params?: Prom
   }
 
   if (data?.meta) {
-    return data.meta;
+    const title = data.title || data.meta.title || `${slug} in Vedic Science`;
+    const description = data.description || data.meta.description || `Explore ${slug} in Vedic Science`;
+    const canonical = data.meta.canonical || `https://sanatanadharmam.in/vedic-science/${slug}`;
+    return {
+      title,
+      description,
+      alternates: {
+        canonical,
+      },
+      openGraph: {
+        title,
+        description,
+        url: canonical,
+        type: 'website',
+      },
+      twitter: {
+        title,
+        description,
+        card: 'summary_large_image',
+      },
+    };
   }
 
-  return {};
+  // Fallback
+  const title = data?.title || `${slug} in Vedic Science`;
+  const description = data?.description || `Explore ${slug} in Vedic Science`;
+  const canonical = `https://sanatanadharmam.in/vedic-science/${slug}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: 'website',
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+    },
+  };
 }
 
 export default async function Page({ params }: { params: { science?: string } | Promise<{ science?: string }> }) {

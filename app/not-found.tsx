@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: 'Page Not Found | Sanātana Dharma',
+  description: 'The page you are looking for does not exist. Return to the home page of Sanātana Dharma.',
+  alternates: {
+    canonical: 'https://sanatanadharmam.in/404',
+  },
+};
+
 export default function NotFoundPage() {
   return (
     <main className="min-h-screen flex items-center justify-center px-4 md:px-6 bg-gradient-to-br from-rose-100 via-amber-50 to-pink-200 animate-gradient-x">

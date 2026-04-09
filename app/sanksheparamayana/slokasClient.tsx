@@ -108,7 +108,7 @@ export default function SlokasClient() {
       <div className="sankshepa-slokas">
         {Array.isArray(page.slokas) && page.slokas.slice(0, visible).map((s: any, idx: number) => (
           <div key={s.sloka || s.sanskrit || idx} className="text-center mt-10">
-            {s.sanskrit ? <p className="text-2xl/8 md:text-3xl/12 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{s.sanskrit}</p> : null}
+            {s.sanskrit ? <p className="text-2xl/10 md:text-3xl/14 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{s.sanskrit}</p> : null}
             {s.transliteration ? <p className="mb-3">{s.transliteration}</p> : null}
             {s.storycontext ? <p className="text-left my-1"><span className="text-amber-900 underline">Context:</span> {s.storycontext}</p> : null}
             {s.simplemeaning ? <p className="text-left my-1"><span className="text-amber-900 underline">Meaning:</span> {s.simplemeaning}</p> : null}

@@ -1,4 +1,13 @@
 import Link from "next/link";
+import { createGenerateMetadata } from '@lib/pageUtils';
+
+export const metadata = {
+  title: 'Page Not Found | Sanātana Dharma',
+  description: 'The page you are looking for does not exist. Return to the home page of Sanātana Dharma.',
+  alternates: {
+    canonical: 'https://sanatanadharmam.in/404',
+  },
+};
 
 export default function Custom404() {
   return (

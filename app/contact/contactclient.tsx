@@ -60,12 +60,12 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
   return <div>{String(node)}</div>;
 }
 
-export default function ContactPage() {
+export default function ContactPage({ initialTitle = '' }: { initialTitle?: string }) {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('contact');
 
   // Initialize with empty state to avoid hydration mismatch
-  const [page, setPage] = useState<any>({});
+  const [page, setPage] = useState<any>({ title: initialTitle });
 
   useEffect(() => {
     let mounted = true;
@@ -85,9 +85,9 @@ export default function ContactPage() {
           }
           return out;
         };
-        setPage(transform(obj) || {});
+        setPage({ title: initialTitle, ...transform(obj) });
       } catch (e) {
-        setPage(obj || {});
+        setPage({ title: initialTitle, ...obj });
       }
     })();
     return () => { mounted = false; };

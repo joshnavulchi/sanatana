@@ -1,4 +1,7 @@
 import AuditViewer from './AuditViewer.client';
+import { createGenerateMetadata } from '@lib/pageUtils';
+
+export const generateMetadata = createGenerateMetadata('post-deploy-audit');
 
 export type PageAudit = {
   route: string;
@@ -49,9 +52,4 @@ export default async function Page() {
     <AuditViewer />
   );
 }
-
-export const generateMetadata = {
-  title: 'Post-deploy audit',
-  description: 'Build and audit report for the site',
-};
 

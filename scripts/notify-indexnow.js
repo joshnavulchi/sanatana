@@ -45,7 +45,7 @@ if (urls.length === 0) {
 // Send to IndexNow
 const data = JSON.stringify({
   host: 'sanatanadharmam.in',
-  keyLocation: `https://sanatanadharmam.in/${INDEXNOW_KEY}.txt`,
+  key: INDEXNOW_KEY,
   urlList: urls
 });
 
@@ -60,7 +60,7 @@ fetch('https://www.bing.com/indexnow', {
 })
 .then(response => {
   console.log(`IndexNow response: ${response.status}`);
-  if (response.status === 200) {
+  if (response.status === 200 || response.status === 202) {
     console.log('Successfully notified IndexNow.');
   } else {
     console.error('Failed to notify IndexNow.');

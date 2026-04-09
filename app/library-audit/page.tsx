@@ -1,4 +1,7 @@
 import React from 'react';
+import { createGenerateMetadata } from '@lib/pageUtils';
+
+export const generateMetadata = createGenerateMetadata('library-audit');
 
 type LibEntry = {
   version: string;
