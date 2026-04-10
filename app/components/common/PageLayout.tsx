@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import StructuredData from '../structured-data/StructuredData';
 import WordCount from '@components/wordcount';
-import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import SimilarCategories from '@/app/components/SimilarCategories';
 
 import Breadcrumbs from '../breadcrumbs';
 type BreadcrumbItem = { label?: string; labelKey?: string; href?: string };

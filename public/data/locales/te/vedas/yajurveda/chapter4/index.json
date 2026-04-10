@@ -113,443 +113,603 @@
     },
     "mantras": [
       {
-        "id": "YV-4-1",
-        "mantra_number": 1,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-1",
+        "source_yajurveda": "Vajasaneyi Samhita 4.1",
+        "deity": "Agni",
+        "theme": "Opening offering",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्नये जुष्टं निरूपयामि",
+            "transliteration": "agnaye juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Agni."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "opening",
+          "usage": "Somayāga initiation"
         }
       },
       {
-        "id": "YV-4-2",
-        "mantra_number": 2,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-2",
+        "source_yajurveda": "Vajasaneyi Samhita 4.2",
+        "deity": "Agni–Soma",
+        "theme": "Dual rite",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्नीषोमाभ्यां जुष्टं निरूपयामि",
+            "transliteration": "agnīṣomābhyāṃ juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Agni and Soma."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "balanced",
+          "usage": "Twin‑deity offering"
         }
       },
       {
-        "id": "YV-4-3",
-        "mantra_number": 3,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-3",
+        "source_yajurveda": "Vajasaneyi Samhita 4.3",
+        "deity": "Soma",
+        "theme": "Vital essence",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सोमाय जुष्टं निरूपयामि",
+            "transliteration": "somāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Soma."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "gentle",
+          "usage": "Soma consecration"
         }
       },
       {
-        "id": "YV-4-4",
-        "mantra_number": 4,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-4",
+        "source_yajurveda": "Vajasaneyi Samhita 4.4",
+        "deity": "Indra",
+        "theme": "Strength",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "इन्द्राय जुष्टं निरूपयामि",
+            "transliteration": "indrāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Indra."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "firm",
+          "usage": "Power invocation"
         }
       },
       {
-        "id": "YV-4-5",
-        "mantra_number": 5,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-5",
+        "source_yajurveda": "Vajasaneyi Samhita 4.5",
+        "deity": "Viṣṇu",
+        "theme": "Pervasion",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "विष्णवे जुष्टं निरूपयामि",
+            "transliteration": "viṣṇave juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Viṣṇu."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "expansive",
+          "usage": "Cosmic sustenance"
         }
       },
       {
-        "id": "YV-4-6",
-        "mantra_number": 6,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-6",
+        "source_yajurveda": "Vajasaneyi Samhita 4.6",
+        "deity": "Savitar",
+        "theme": "Impulse",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सवित्रे जुष्टं निरूपयामि",
+            "transliteration": "savitre juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Savitar."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "directive",
+          "usage": "Ritual activation"
         }
       },
       {
-        "id": "YV-4-7",
-        "mantra_number": 7,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-7",
+        "source_yajurveda": "Vajasaneyi Samhita 4.7",
+        "deity": "Mitra",
+        "theme": "Harmony",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "मित्राय जुष्टं निरूपयामि",
+            "transliteration": "mitrāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Mitra."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "gentle",
+          "usage": "Concord"
         }
       },
       {
-        "id": "YV-4-8",
-        "mantra_number": 8,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-8",
+        "source_yajurveda": "Vajasaneyi Samhita 4.8",
+        "deity": "Varuṇa",
+        "theme": "Ṛta",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "वरुणाय जुष्टं निरूपयामि",
+            "transliteration": "varuṇāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Varuṇa."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Cosmic order"
         }
       },
       {
-        "id": "YV-4-9",
-        "mantra_number": 9,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-9",
+        "source_yajurveda": "Vajasaneyi Samhita 4.9",
+        "deity": "Vāyu",
+        "theme": "Motion",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "वायवे जुष्टं निरूपयामि",
+            "transliteration": "vāyave juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Vāyu."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "flowing",
+          "usage": "Vital breath"
         }
       },
       {
-        "id": "YV-4-10",
-        "mantra_number": 10,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-10",
+        "source_yajurveda": "Vajasaneyi Samhita 4.10",
+        "deity": "Sūrya",
+        "theme": "Illumination",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सूर्याय जुष्टं निरूपयामि",
+            "transliteration": "sūryāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Sūrya."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "clear",
+          "usage": "Light and vision"
         }
       },
       {
-        "id": "YV-4-11",
-        "mantra_number": 11,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-11",
+        "source_yajurveda": "Vajasaneyi Samhita 4.11",
+        "deity": "Dyāvā‑Pṛthivī",
+        "theme": "Foundation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "द्यावापृथिवीभ्यां जुष्टं निरूपयामि",
+            "transliteration": "dyāvāpṛthivībhyāṃ juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Heaven and Earth."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "balanced",
+          "usage": "Cosmic balance"
         }
       },
       {
-        "id": "YV-4-12",
-        "mantra_number": 12,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-12",
+        "source_yajurveda": "Vajasaneyi Samhita 4.12",
+        "deity": "Antarikṣa",
+        "theme": "Space",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अन्तरिक्षाय जुष्टं निरूपयामि",
+            "transliteration": "antarikṣāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to the atmosphere."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "open",
+          "usage": "Continuity"
         }
       },
       {
-        "id": "YV-4-13",
-        "mantra_number": 13,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-13",
+        "source_yajurveda": "Vajasaneyi Samhita 4.13",
+        "deity": "Āpas",
+        "theme": "Purification",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अद्भ्यो जुष्टं निरूपयामि",
+            "transliteration": "adbhyō juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to the Waters."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "calming",
+          "usage": "Cleansing"
         }
       },
       {
-        "id": "YV-4-14",
-        "mantra_number": 14,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-14",
+        "source_yajurveda": "Vajasaneyi Samhita 4.14",
+        "deity": "Prajāpati",
+        "theme": "Creation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "प्रजापतये जुष्टं निरूपयामि",
+            "transliteration": "prajāpataye juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Prajāpati."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "formal",
+          "usage": "Generative rite"
         }
       },
       {
-        "id": "YV-4-15",
-        "mantra_number": 15,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-15",
+        "source_yajurveda": "Vajasaneyi Samhita 4.15",
+        "deity": "Bṛhaspati",
+        "theme": "Sacred speech",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "बृहस्पतये जुष्टं निरूपयामि",
+            "transliteration": "bṛhaspataye juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Bṛhaspati."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "authoritative",
+          "usage": "Priestly force"
         }
       },
       {
-        "id": "YV-4-16",
-        "mantra_number": 16,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-16",
+        "source_yajurveda": "Vajasaneyi Samhita 4.16",
+        "deity": "Pūṣan",
+        "theme": "Guidance",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "पूष्णे जुष्टं निरूपयामि",
+            "transliteration": "pūṣṇe juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Pūṣan."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "protective",
+          "usage": "Safe paths"
         }
       },
       {
-        "id": "YV-4-17",
-        "mantra_number": 17,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-17",
+        "source_yajurveda": "Vajasaneyi Samhita 4.17",
+        "deity": "Rudra",
+        "theme": "Appeasement",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "रुद्राय जुष्टं निरूपयामि",
+            "transliteration": "rudrāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Rudra."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Protection"
         }
       },
       {
-        "id": "YV-4-18",
-        "mantra_number": 18,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-18",
+        "source_yajurveda": "Vajasaneyi Samhita 4.18",
+        "deity": "Aditi",
+        "theme": "Wholeness",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अदित्यै जुष्टं निरूपयामि",
+            "transliteration": "adityai juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Aditi."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "nurturing",
+          "usage": "Boundlessness"
         }
       },
       {
-        "id": "YV-4-19",
-        "mantra_number": 19,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-19",
+        "source_yajurveda": "Vajasaneyi Samhita 4.19",
+        "deity": "Sarasvatī",
+        "theme": "Inspiration",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सरस्वत्यै जुष्टं निरूपयामि",
+            "transliteration": "sarasvatyai juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Sarasvatī."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "refined",
+          "usage": "Wisdom"
         }
       },
       {
-        "id": "YV-4-20",
-        "mantra_number": 20,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-20",
+        "source_yajurveda": "Vajasaneyi Samhita 4.20",
+        "deity": "Śrī",
+        "theme": "Prosperity",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "श्रिये जुष्टं निरूपयामि",
+            "transliteration": "śriye juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Śrī."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "auspicious",
+          "usage": "Abundance"
         }
       },
       {
-        "id": "YV-4-21",
-        "mantra_number": 21,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-21",
+        "source_yajurveda": "Vajasaneyi Samhita 4.21",
+        "deity": "Kṣetra‑devatāḥ",
+        "theme": "Sacred space",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "क्षेत्रदेवताभ्यो जुष्टं निरूपयामि",
+            "transliteration": "kṣetradevatābhyo juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to the deities of the field."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "reverent",
+          "usage": "Sanctification"
         }
       },
       {
-        "id": "YV-4-22",
-        "mantra_number": 22,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-22",
+        "source_yajurveda": "Vajasaneyi Samhita 4.22",
+        "deity": "Pitṛs",
+        "theme": "Lineage",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "पितृभ्यो जुष्टं निरूपयामि",
+            "transliteration": "pitṛbhyo juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to the ancestors."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Ancestral rite"
         }
       },
       {
-        "id": "YV-4-23",
-        "mantra_number": 23,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-23",
+        "source_yajurveda": "Vajasaneyi Samhita 4.23",
+        "deity": "Bhūtas",
+        "theme": "Universality",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "भूतेभ्यो जुष्टं निरूपयामि",
+            "transliteration": "bhūtebhyo juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to all beings."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "inclusive",
+          "usage": "Universal harmony"
         }
       },
       {
-        "id": "YV-4-24",
-        "mantra_number": 24,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-24",
+        "source_yajurveda": "Vajasaneyi Samhita 4.24",
+        "deity": "Kāla",
+        "theme": "Time",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "कालाय जुष्टं निरूपयामि",
+            "transliteration": "kālāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Time."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "measured",
+          "usage": "Temporal order"
         }
       },
       {
-        "id": "YV-4-25",
-        "mantra_number": 25,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-25",
+        "source_yajurveda": "Vajasaneyi Samhita 4.25",
+        "deity": "Dharma",
+        "theme": "Righteousness",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "धर्माय जुष्टं निरूपयामि",
+            "transliteration": "dharmāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Dharma."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "resolute",
+          "usage": "Moral order"
         }
       },
       {
-        "id": "YV-4-26",
-        "mantra_number": 26,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-26",
+        "source_yajurveda": "Vajasaneyi Samhita 4.26",
+        "deity": "Satya",
+        "theme": "Truth",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सत्याय जुष्टं निरूपयामि",
+            "transliteration": "satyāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Truth."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "pure",
+          "usage": "Veracity"
         }
       },
       {
-        "id": "YV-4-27",
-        "mantra_number": 27,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-27",
+        "source_yajurveda": "Vajasaneyi Samhita 4.27",
+        "deity": "Ṛta",
+        "theme": "Cosmic law",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "ऋताय जुष्टं निरूपयामि",
+            "transliteration": "ṛtāya juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Ṛta."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Order"
         }
       },
       {
-        "id": "YV-4-28",
-        "mantra_number": 28,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-28",
+        "source_yajurveda": "Vajasaneyi Samhita 4.28",
+        "deity": "Śānti",
+        "theme": "Peace",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "शान्तये जुष्टं निरूपयामि",
+            "transliteration": "śāntaye juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to Peace."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "calm",
+          "usage": "Pacification"
         }
       },
       {
-        "id": "YV-4-29",
-        "mantra_number": 29,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-29",
+        "source_yajurveda": "Vajasaneyi Samhita 4.29",
+        "deity": "Sarva‑devatāḥ",
+        "theme": "Completion",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सर्वदेवताभ्यो जुष्टं निरूपयामि",
+            "transliteration": "sarvadevatābhyo juṣṭaṃ nirūpayāmi",
+            "meaning": "I assign the offering, pleasing to all deities."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "inclusive",
+          "usage": "Rite completion"
         }
       },
       {
-        "id": "YV-4-30",
-        "mantra_number": 30,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-31",
-        "mantra_number": 31,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-32",
-        "mantra_number": 32,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-33",
-        "mantra_number": 33,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-34",
-        "mantra_number": 34,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-35",
-        "mantra_number": 35,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-36",
-        "mantra_number": 36,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-37",
-        "mantra_number": 37,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-38",
-        "mantra_number": 38,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-39",
-        "mantra_number": 39,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-4-40",
-        "mantra_number": 40,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-4-30",
+        "source_yajurveda": "Vajasaneyi Samhita 4.30",
+        "deity": "Completion",
+        "theme": "Close",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "स्वाहा",
+            "transliteration": "svāhā",
+            "meaning": "Oblation."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "final",
+          "usage": "End of Adhyāya 4"
         }
       }
     ]

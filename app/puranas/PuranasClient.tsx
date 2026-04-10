@@ -1,130 +1,377 @@
 "use client";
 
-import { useLocale } from '@app/context/locale-context';
-import useLocaleSection from '@app/hooks/useLocaleSection';
-import Loader from '@components/loader';
-import Link from 'next/link';
-import PageLayout from '@components/common/PageLayout';
+import { useLocale } from "@app/context/locale-context";
+import useLocaleSection from "@app/hooks/useLocaleSection";
+import Loader from "@components/loader";
+import PageLayout from "@components/common/PageLayout";
 
-interface NavLink { href: string; label: string }
+type GenericRecord = Record<string, unknown>;
 
-function normalizePuranaPathPart(part: string): string {
-  return part.replace(/-purana$/, '');
+function formatLabel(str: string): string {
+  return str
+    .replace(/_/g, " ")
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
-function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
-  return (
-    <>
-      {text.split('\n\n').map((p, i) => (
-        <p key={i} className={`mb-4 last:mb-0 ${className}`}>{p}</p>
-      ))}
-    </>
-  );
-}
-
-function SectionCard({ item, index }: { item: Record<string, unknown>; index: number }) {
-  const section = typeof item.section === 'string' ? item.section : '';
-  const content = typeof item.content === 'string' ? item.content : '';
-  const shells = [
-    'bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8]',
-    'bg-linear-to-br from-[#fffbf5] via-[#fdf1dc] to-[#f8e4c0]',
-    'bg-linear-to-br from-[#fff9f0] via-[#fce9ce] to-[#f5d9ae]',
+function FeatureCard({
+  feature,
+  explanation,
+  deepUnderstanding,
+  index,
+}: {
+  feature: string;
+  explanation: string;
+  deepUnderstanding?: string[];
+  index: number;
+}) {
+  const bgColors = [
+    "bg-[#fffbf7]",
+    "bg-[#fff9f2]",
+    "bg-[#fffaf4]",
+    "bg-[#fff8f1]",
   ];
 
   return (
-    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
-      <div className="absolute top-0 left-0 right-0 h-1" />
-      <div className="absolute left-0 top-1 bottom-0 w-1" />
-      <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]">
-          {index + 1}
-        </span>
-        <h3 className="text-xl md:text-2xl font-extrabold text-[#3d2e22]">{section}</h3>
-      </div>
-      <div className="text-md sm:text-base text-[#5b2d12] leading-relaxed pl-2">
-        <Paragraphs text={content} />
-      </div>
+    <div
+      className={`relative rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.06)]`}
+    >
+      <h4 className="text-lg font-bold text-[#5a2d0c] mb-2">{feature}</h4>
+      <p className="text-md sm:text-base text-[#6d3d1a] mb-4">{explanation}</p>
+      {deepUnderstanding && deepUnderstanding.length > 0 && (
+        <ul className="space-y-2 border-t border-[#d4ae7a]/15 pt-4">
+          {deepUnderstanding.map((point, i) => (
+            <li key={i} className="flex items-start gap-2 text-xs text-[#7a4a2e]">
+              <span className="text-[#b8860b] font-bold mt-1">•</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
 
-function normalizeNav(nav: unknown, basePath: string): NavLink[] {
-  if (nav && typeof nav === 'object' && !Array.isArray(nav)) {
-    return Object.entries(nav as Record<string, unknown>)
-      .filter(([, val]) => typeof val === 'string')
-      .map(([key, val]) => ({
-        href: `${basePath}/${normalizePuranaPathPart(key)}`,
-        label: val as string,
-      }));
-  }
-  return [];
+function ConceptCard({
+  concept,
+  explanation,
+  deepUnderstanding,
+  index,
+}: {
+  concept: string;
+  explanation: string;
+  deepUnderstanding?: string[];
+  index: number;
+}) {
+  const bgColors = [
+    "bg-[#fffef9]",
+    "bg-[#fffcf5]",
+    "bg-[#fffbf7]",
+    "bg-[#fffaf4]",
+  ];
+
+  return (
+    <div
+      className={`relative rounded-2xl border border-[#ddb892]/25 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.05)]`}
+    >
+      <h4 className="text-lg font-bold text-[#703d1b] mb-2">{concept}</h4>
+      <p className="text-md sm:text-base text-[#7a4a2d] mb-4">{explanation}</p>
+      {deepUnderstanding && deepUnderstanding.length > 0 && (
+        <ul className="space-y-2 border-t border-[#ddb892]/15 pt-4">
+          {deepUnderstanding.map((point, i) => (
+            <li key={i} className="flex items-start gap-2 text-xs text-[#8b5a3c]">
+              <span className="text-[#c09850] font-bold mt-1">✦</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function PuranaCard({
+  name,
+  focus,
+  simpleUnderstanding,
+  index,
+}: {
+  name: string;
+  focus: string;
+  simpleUnderstanding: string;
+  index: number;
+}) {
+  const bgColors = [
+    "bg-gradient-to-br from-[#fff9f0] to-[#fff5e6]",
+    "bg-gradient-to-br from-[#fffaf4] to-[#fff8f0]",
+    "bg-gradient-to-br from-[#fffbf7] to-[#fffef9]",
+  ];
+
+  return (
+    <div
+      className={`relative rounded-2xl border border-[#d4a574]/25 p-6 md:p-7 ${bgColors[index % 3]} shadow-[0_4px_15px_rgba(139,69,19,0.07)]`}
+    >
+      <div className="flex items-start justify-between mb-3">
+        <h4 className="text-lg font-bold text-[#6d3414]">{name}</h4>
+        <span className="px-3 py-1 rounded-full bg-[#d4a574]/10 text-[#8b5a2d] text-xs font-semibold">
+          Focus
+        </span>
+      </div>
+      <p className="text-md sm:text-base font-semibold text-[#7a4a2d] mb-3 border-l-2 border-[#b8860b] pl-3">
+        {focus}
+      </p>
+      <p className="text-md sm:text-base text-[#5a3d2a]">{simpleUnderstanding}</p>
+    </div>
+  );
 }
 
 export default function PuranasClient() {
   const { isLoading } = useLocale();
-  const shared = useLocaleSection('sharable-strings');
-  const pageNs = useLocaleSection('puranas');
-  const section = shared?.footer?.puranas;
-  const title = section?.title || 'Puranas';
-  const links = normalizeNav(section?.nav, '/puranas');
-  const introduction = typeof pageNs?.introduction === 'string' ? pageNs.introduction : '';
-  const philosophical = typeof pageNs?.philosophical_explanation === 'string' ? pageNs.philosophical_explanation : '';
-  const scriptureSections = Array.isArray(pageNs?.scripture_text)
-    ? (pageNs.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
-    : [];
+  const pageNs = useLocaleSection("puranas");
+  const root = pageNs && typeof pageNs === "object" ? pageNs : {};
 
-  if (isLoading && !section) {
+  if (isLoading && !root) {
     return (
-      <PageLayout metaKey="puranas" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Puranas' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+      <PageLayout
+        metaKey="puranas"
+        title=""
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "Puranas" }]}
+        className="layout-md"
+      >
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
       </PageLayout>
     );
   }
 
+  const content = (root as GenericRecord) || {};
+  const meaning = typeof content.meaning === "string" ? content.meaning : "";
+  const introduction =
+    typeof content.introduction === "string" ? content.introduction : "";
+  const corePurpose = Array.isArray(content.core_purpose)
+    ? content.core_purpose.filter((v) => typeof v === "string")
+    : [];
+  const keyFeatures = Array.isArray(content.key_features)
+    ? content.key_features.filter((v) => v && typeof v === "object")
+    : [];
+  const structureOfPuranas = Array.isArray(content.structure_of_puranas)
+    ? content.structure_of_puranas.filter((v) => typeof v === "string")
+    : [];
+  const majorPuranas = Array.isArray(content.major_puranas)
+    ? content.major_puranas.filter((v) => v && typeof v === "object")
+    : [];
+  const importantConcepts = Array.isArray(content.important_concepts)
+    ? content.important_concepts.filter((v) => v && typeof v === "object")
+    : [];
+  const learningApproach = Array.isArray(content.learning_approach)
+    ? content.learning_approach.filter((v) => typeof v === "string")
+    : [];
+  const modernRelevance = Array.isArray(content.modern_relevance)
+    ? content.modern_relevance.filter((v) => typeof v === "string")
+    : [];
+
   return (
-    <PageLayout metaKey="puranas" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
-      {introduction && (
-        <div className="relative px-4 md:px-6 py-8 md:py-10 bg-amber-50 rounded-2xl border-amber-200/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <h4 className="section-title mb-4">Introduction</h4>
-          <div className="body-text">
-            <Paragraphs text={introduction} />
-          </div>
-        </div>
+    <PageLayout
+      metaKey="puranas"
+      title="Puranas"
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Puranas" }]}
+      className="layout-md"
+    >
+      {/* Meaning Section */}
+      {meaning && (
+        <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fffaf4] rounded-2xl border border-[#ddb892]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-4">
+            What is Purana?
+          </h2>
+          <p className="text-base text-[#6d3d1a] leading-relaxed">{meaning}</p>
+        </section>
       )}
 
-      {scriptureSections.length > 0 && (
-        <div className="mt-8">
-          <h5 className="section-title mb-6">Overview</h5>
-          <div className="grid grid-cols-1 gap-6">
-            {scriptureSections.map((item, idx) => (
-              <SectionCard key={idx} item={item} index={idx} />
+      {/* Introduction Section */}
+      {introduction && (
+        <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fff9f0] rounded-2xl border border-[#d4ae7a]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#6d3414] mb-4">
+            Introduction
+          </h2>
+          <p className="text-base text-[#7a4a2d] leading-relaxed">{introduction}</p>
+        </section>
+      )}
+
+      {/* Core Purpose Section */}
+      {corePurpose.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Core Purpose
+          </h2>
+          <ul className="space-y-3">
+            {corePurpose.map((item, idx) => (
+              <li
+                key={idx}
+                className="flex items-start gap-4 p-4 bg-[#fffaf4] rounded-xl border border-[#d4ae7a]/15 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
+              >
+                <span className="text-[#b8860b] font-bold text-2xl leading-tight flex-shrink-0">
+                  ◆
+                </span>
+                <span className="text-base text-[#6d3d1a]">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Key Features Section */}
+      {keyFeatures.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Key Features of Puranas
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(keyFeatures as GenericRecord[]).map((feature, idx) => (
+              <FeatureCard
+                key={idx}
+                feature={
+                  typeof feature.feature === "string"
+                    ? feature.feature
+                    : ""
+                }
+                explanation={
+                  typeof feature.explanation === "string"
+                    ? feature.explanation
+                    : ""
+                }
+                deepUnderstanding={
+                  Array.isArray(feature.deep_understanding)
+                    ? (feature.deep_understanding as string[])
+                    : undefined
+                }
+                index={idx}
+              />
             ))}
           </div>
-        </div>
+        </section>
       )}
 
-      {philosophical && (
-        <div className="mt-10 relative overflow-hidden rounded-3xl border-amber-200/30 p-6 md:p-8 bg-amber-50 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <div className="absolute top-0 left-0 right-0 h-1" />
-          <h6 className="section-title mb-4">Philosophical Explanation</h6>
-          <div className="body-text">
-            <Paragraphs text={philosophical} />
-          </div>
-        </div>
-      )}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-        {links.map((link) => (
-          <Link key={link.href} href={link.href} className="group block">
-            <div className="relative overflow-hidden rounded-2xl border-amber-200/50 bg-amber-50 p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
-              <div className="absolute top-0 left-0 right-0 h-1" />
-              <div className="flex items-center gap-3 mt-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-700/10 text-md sm:text-base">📖</span>
-                <h6 className="text-md sm:text-base font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{link.label}</h6>
+      {/* Structure of Puranas Section */}
+      {structureOfPuranas.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Structure of Puranas
+          </h2>
+          <div className="space-y-3">
+            {structureOfPuranas.map((item, idx) => (
+              <div
+                key={idx}
+                className="relative pl-8 py-3 text-base text-[#6d3d1a] bg-[#fffaf4] rounded-xl border-l-4 border-[#b8860b] px-4 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
+              >
+                <span className="absolute left-3 top-3 w-2 h-2 rounded-full bg-[#b8860b]" />
+                {item}
               </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Major Puranas Section */}
+      {majorPuranas.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Major Puranas
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(majorPuranas as GenericRecord[]).map((purana, idx) => (
+              <PuranaCard
+                key={idx}
+                name={typeof purana.name === "string" ? purana.name : ""}
+                focus={typeof purana.focus === "string" ? purana.focus : ""}
+                simpleUnderstanding={
+                  typeof purana.simple_understanding === "string"
+                    ? purana.simple_understanding
+                    : ""
+                }
+                index={idx}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Important Concepts Section */}
+      {importantConcepts.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Important Concepts
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(importantConcepts as GenericRecord[]).map((concept, idx) => (
+              <ConceptCard
+                key={idx}
+                concept={
+                  typeof concept.concept === "string" ? concept.concept : ""
+                }
+                explanation={
+                  typeof concept.explanation === "string"
+                    ? concept.explanation
+                    : ""
+                }
+                deepUnderstanding={
+                  Array.isArray(concept.deep_understanding)
+                    ? (concept.deep_understanding as string[])
+                    : undefined
+                }
+                index={idx}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Learning Approach Section */}
+      {learningApproach.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            How to Learn Puranas
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {learningApproach.map((item, idx) => (
+              <div
+                key={idx}
+                className="p-5 bg-gradient-to-br from-[#fff9f0] to-[#fffaf4] rounded-xl border border-[#d4ae7a]/20 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="text-[#b8860b] font-extrabold text-lg leading-tight flex-shrink-0 pt-1">
+                    {idx + 1}
+                  </span>
+                  <p className="text-base text-[#6d3d1a]">{item}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Modern Relevance Section */}
+      {modernRelevance.length > 0 && (
+        <section className="mb-10 bg-[#fffbf7] rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-8 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Modern Relevance
+          </h2>
+          <ul className="space-y-3">
+            {modernRelevance.map((item, idx) => (
+              <li
+                key={idx}
+                className="flex items-start gap-4 text-base text-[#6d3d1a]"
+              >
+                <span className="text-[#b8860b] font-bold text-xl leading-tight flex-shrink-0">
+                  ★
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </PageLayout>
   );
 }

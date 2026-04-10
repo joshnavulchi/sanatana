@@ -1,29 +1,29 @@
 {
   "vedas": {
-    "title": "వేదాలు అంటే ఏమిటి? ఋగ్వేదం, యజుర్వేదం, సామవేదం & అథర్వవేదం వివరించబడ్డాయి",
-    "definition": "నాలుగు వేదాల గురించి తెలుసుకోండి - ఋగ్వేదం, యజుర్వేదం, సామవేదం మరియు అథర్వవేదం. సనాతన ధర్మంలో వాటి మూలాలు, నిర్మాణం, బోధనలు మరియు ప్రాముఖ్యతను కనుగొనండి.",
+    "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
+    "definition": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
     "meta": {
-      "title": "వేదాలు అంటే ఏమిటి? ఋగ్వేదం, యజుర్వేదం, సామవేదం & అథర్వవేదం వివరించబడ్డాయి",
-      "description": "నాలుగు వేదాల గురించి తెలుసుకోండి - ఋగ్వేదం, యజుర్వేదం, సామవేదం మరియు అథర్వవేదం. సనాతన ధర్మంలో వాటి మూలాలు, నిర్మాణం, బోధనలు మరియు ప్రాముఖ్యతను కనుగొనండి.",
+      "title": "What are the Vedas? Rigveda, Yajurveda, Samaveda & Atharvaveda Explained",
+      "description": "Learn about the four Vedas – Rigveda, Yajurveda, Samaveda and Atharvaveda. Discover their origins, structure, teachings, and significance in Sanatana Dharma.",
       "canonical": "https://sanatanadharmam.in/vedas",
       "keywords": [
-        "వేదాలు ఏమిటి",
-        "ఋగ్వేదం యజుర్వేదం సామవేదం అథర్వవేదం",
-        "వేదాల అర్థం మరియు ప్రాముఖ్యత",
-        "వేదాలు వివరించారు",
-        "వేద సంహిత బ్రాహ్మణ ఆరణ్యక ఉపనిషత్తు నిర్మాణం",
-        "వేద గ్రంథాల అవలోకనం",
-        "హిందూ పవిత్ర గ్రంథాలు వేదాలు",
-        "సనాతన ధర్మంలో వేదాల ప్రాముఖ్యత",
-        "నాలుగు వేదాల పేర్లు మరియు వివరాలు",
-        "వేద జ్ఞానం యొక్క ప్రాథమిక అంశాలు"
+        "what are the vedas",
+        "rigveda yajurveda samaveda atharvaveda",
+        "vedas meaning and significance",
+        "vedas explained",
+        "structure of vedas samhita brahmana aranyaka upanishad",
+        "vedic scriptures overview",
+        "hindu sacred texts vedas",
+        "importance of vedas in sanatana dharma",
+        "four vedas names and details",
+        "vedic knowledge basics"
       ],
-      "robots": "సూచిక, అనుసరించండి, max-image-preview:large",
+      "robots": "index, follow, max-image-preview:large",
       "url": "https://sanatanadharmam.in/vedas"
     },
     "openGraph": {
-      "title": "వేదాలు అంటే ఏమిటి? ప్రాచీన జ్ఞానం వివరించబడింది",
-      "description": "సనాతన ధర్మంలో నాలుగు వేదాలు మరియు వాటి బోధనలు, మూలాలు మరియు ఆధ్యాత్మిక ప్రాముఖ్యతను అన్వేషించండి.",
+      "title": "What are the Vedas? Ancient Knowledge Explained",
+      "description": "Explore the four Vedas and their teachings, origins, and spiritual significance in Sanatana Dharma.",
       "images": [
         {
           "alt": "Four Vedas - Rigveda Yajurveda Samaveda Atharvaveda",
@@ -32,69 +32,69 @@
           "width": 1200
         }
       ],
-      "siteName": "సనాతనధర్మం",
-      "type": "వ్యాసం",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
       "url": "https://sanatanadharmam.in/vedas"
     },
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "description": "నాలుగు వేదాలు మరియు సనాతన ధర్మంలో వాటి పాత్ర గురించి లోతైన వివరణ.",
-          "@type": "వ్యాసం",
+          "description": "An in-depth explanation of the four Vedas and their role in Sanatana Dharma.",
+          "@type": "Article",
           "about": [
             {
-              "@type": "సృజనాత్మక పని",
-              "name": "ఋగ్వేదం"
+              "@type": "CreativeWork",
+              "name": "Rigveda"
             },
             {
-              "@type": "సృజనాత్మక పని",
-              "name": "యజుర్వేదం"
+              "@type": "CreativeWork",
+              "name": "Yajurveda"
             },
             {
-              "@type": "సృజనాత్మక పని",
-              "name": "సామవేదం"
+              "@type": "CreativeWork",
+              "name": "Samaveda"
             },
             {
-              "@type": "సృజనాత్మక పని",
-              "name": "అథర్వవేదం"
+              "@type": "CreativeWork",
+              "name": "Atharvaveda"
             }
           ],
           "author": {
-            "@type": "సంస్థ",
-            "name": "సనాతనధర్మం"
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
           },
           "dateModified": "2026-01-01",
           "datePublished": "2024-01-01",
-          "headline": "వేదాలు అంటే ఏమిటి? నాలుగు వేదాల వివరణ",
+          "headline": "What are the Vedas? Explanation of the Four Vedas",
           "inLanguage": "en",
           "mainEntityOfPage": {
             "@id": "https://sanatanadharmam.in/vedas",
-            "@type": "వెబ్‌పేజీ"
+            "@type": "WebPage"
           },
           "publisher": {
-            "@type": "సంస్థ",
+            "@type": "Organization",
             "logo": {
               "@type": "ImageObject",
               "url": "https://sanatanadharmam.in/images/logo.png"
             },
-            "name": "సనాతనధర్మం"
+            "name": "Sanatanadharmam"
           }
         },
         {
-          "@type": "వెబ్‌పేజీ",
+          "@type": "WebPage",
           "about": {
-            "description": "ప్రాచీన సంస్కృత గ్రంథాలు హిందూ తత్వశాస్త్రం మరియు సనాతన ధర్మానికి పునాది.",
-            "@type": "విషయం",
-            "name": "వేదాలు"
+            "description": "Ancient Sanskrit scriptures forming the foundation of Hindu philosophy and Sanatana Dharma.",
+            "@type": "Thing",
+            "name": "Vedas"
           },
-          "name": "వేదాలు",
+          "name": "Vedas",
           "url": "https://sanatanadharmam.in/vedas"
         },
         {
-          "@type": "సంస్థ",
+          "@type": "Organization",
           "logo": "https://sanatanadharmam.in/images/logo.png",
-          "name": "సనాతనధర్మం",
+          "name": "Sanatanadharmam",
           "sameAs": [
             "https://facebook.com/sanatanadharmam",
             "https://twitter.com/sanatanadharmam",
@@ -103,18 +103,18 @@
           "url": "https://sanatanadharmam.in"
         },
         {
-          "@type": "బ్రెడ్‌క్రంబ్‌లిస్ట్",
+          "@type": "BreadcrumbList",
           "itemListElement": [
             {
-              "@type": "జాబితా అంశం",
+              "@type": "ListItem",
               "item": "https://sanatanadharmam.in",
-              "name": "హోమ్",
+              "name": "Home",
               "position": 1
             },
             {
-              "@type": "జాబితా అంశం",
+              "@type": "ListItem",
               "item": "https://sanatanadharmam.in/vedas",
-              "name": "వేదాలు",
+              "name": "Vedas",
               "position": 2
             }
           ]
@@ -122,200 +122,161 @@
       ]
     },
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "later_additions": "1200 BCE - 1000 BCE"
+      "early_vedic_period": "Around 1500–1200 BCE (earliest hymns and knowledge began)",
+      "later_additions": "Around 1200–1000 BCE (more ideas, rituals, and teachings were added)"
     },
     "influence_of_vedas": {
       "cultural_influence": [
-        "భారతీయ సంగీతం సామవేదంలో పుట్టింది",
-        "పవిత్రమైన పఠించే సంప్రదాయాలు",
-        "పండుగలు మరియు ఆచారాలు"
+        "Gave rise to Indian classical music through Sama chanting",
+        "Established traditions of sacred sound and mantra chanting",
+        "Inspired festivals, rituals, and cultural practices still followed today"
       ],
       "philosophical_influence": [
-        "వేదాంత తత్వశాస్త్రం",
-        "ఉపనిషదిక్ మెటాఫిజిక్స్",
-        "సార్వత్రిక చైతన్యం యొక్క భావన"
+        "Led to deep thinking systems like Vedanta",
+        "Inspired the Upanishads which explain life and consciousness",
+        "Introduced the idea that everything is connected through one universal reality"
       ],
       "religious_influence": [
-        "హిందూ తత్వశాస్త్రం పునాది",
-        "ఆలయ ఆచారాల ఆధారం",
-        "యోగా మరియు ధ్యానంపై ప్రభావం"
+        "Formed the base of Hindu spiritual practices",
+        "Shaped temple rituals and worship methods",
+        "Influenced yoga, meditation, and spiritual disciplines"
       ],
       "scientific_influence": [
-        "ప్రారంభ ఖగోళ శాస్త్ర సూచనలు",
-        "గణిత భావనలు",
-        "అథర్వవేదంలో వైద్య పరిజ్ఞానం"
+        "Early observations of stars and planetary movements",
+        "Basic mathematical thinking and patterns",
+        "Healing knowledge and natural medicine in Atharvaveda"
       ]
     },
-    "introduction": "వేదాలు సనాతన ధర్మం యొక్క అత్యంత పురాతన మరియు గౌరవనీయమైన గ్రంథాలు, ఈ రోజు హిందూమతం అని పిలువబడే శాశ్వతమైన ఆధ్యాత్మిక సంప్రదాయం. 'వేదం' అనే పదం సంస్కృత మూలం 'విద్' నుండి ఉద్భవించింది, అంటే జ్ఞానం లేదా జ్ఞానం. అందువలన, వేదాలు ఆధ్యాత్మిక జ్ఞానం మరియు విశ్వ సత్యం యొక్క అంతిమ వనరుగా పరిగణించబడతాయి. ఈ గ్రంథాలు వ్రాత రూపంలో సంకలనం చేయబడటానికి ముందు వేల సంవత్సరాల పాటు మౌఖికంగా ప్రసారం చేయబడ్డాయి. వాటిని 'శ్రుతి'గా పరిగణిస్తారు, అనగా అవి ధ్యానం మరియు ఆధ్యాత్మిక సాక్షాత్కారం యొక్క లోతైన స్థితులలో పురాతన ఋషులకు వినబడ్డాయి లేదా బహిర్గతం చేయబడ్డాయి. వేదాలు కేవలం మతపరమైన గ్రంథాలు కాదు, తత్వశాస్త్రం, విశ్వోద్భవం, ఆచారాలు, నీతి మరియు ఉనికి యొక్క స్వభావాన్ని సూచించే సమగ్ర విజ్ఞాన భాండాగారాలు. అవి విశ్వం, స్పృహ మరియు మానవులకు మరియు దైవానికి మధ్య ఉన్న సంబంధాన్ని అర్థం చేసుకోవడానికి మానవత్వం యొక్క తొలి రికార్డ్ ప్రయత్నాన్ని సూచిస్తాయి. సంప్రదాయం ప్రకారం, వేదాలను సంకలనం చేసి, వాటిని మరింత ప్రభావవంతంగా ప్రసారం చేయడానికి వేద జ్ఞానం యొక్క అసలు శరీరాన్ని నాలుగు విభిన్న సేకరణలుగా విభజించిన ఋషి వ్యాసుడు సంగ్రహించారు. ఈ నాలుగు సంకలనాలు ఋగ్వేదం, యజుర్వేదం, సామవేదం మరియు అథర్వవేదం. ప్రతి వేదం ఒక ప్రత్యేక దృష్టి మరియు నిర్మాణాన్ని కలిగి ఉంది, ఇది సహస్రాబ్దాలుగా భారతీయ నాగరికతను ప్రభావితం చేసిన విస్తారమైన జ్ఞానానికి దోహదం చేస్తుంది. వేదాల బోధనలు ప్రాథమిక ప్రశ్నలను అన్వేషిస్తాయి: వాస్తవికత యొక్క స్వభావం ఏమిటి? విశ్వం యొక్క మూలం ఏమిటి? మానవ జీవితం యొక్క ఉద్దేశ్యం ఏమిటి? వ్యక్తులు బాధల నుండి విముక్తిని ఎలా పొందగలరు మరియు ఆధ్యాత్మిక సాక్షాత్కారాన్ని ఎలా సాధించగలరు? శ్లోకాలు, తాత్విక సంభాషణలు మరియు ఆచార సూచనల ద్వారా, వేదాలు ఈ లోతైన ప్రశ్నలకు సమాధానం ఇవ్వడానికి ప్రయత్నిస్తాయి. సహజ శక్తులు, దైవిక జీవులు మరియు మానవ చర్యల మధ్య సామరస్యాన్ని కొనసాగించే సూత్రమైన 'Rta' అని పిలువబడే విశ్వ క్రమం ద్వారా విశ్వం నిర్వహించబడుతుందని వారు వర్ణించారు. ఈ విశ్వ క్రమానికి అనుగుణంగా జీవించడం ధర్మ మార్గంగా పరిగణించబడుతుంది. వేదాంత, యోగ మరియు హిందూ తత్వశాస్త్రంలోని ఇతర పాఠశాలలతో సహా అనేక తరువాతి తాత్విక వ్యవస్థలకు వేదాలు పునాదిగా ఉన్నాయి. వారి బోధనలు నేడు ప్రపంచవ్యాప్తంగా ఉన్న ఆధ్యాత్మిక అన్వేషకులు, పండితులు మరియు అభ్యాసకులను ప్రభావితం చేస్తూనే ఉన్నాయి.",
-    "meaning_of_word_veda": "'వేదం' అనే పదం సంస్కృత మూలం 'విద్' నుండి వచ్చింది, అంటే 'జ్ఞానం', 'జ్ఞానం' లేదా 'తెలుసుకోవడం'. కాబట్టి వేదం అంటే 'పవిత్రమైన జ్ఞానం'.",
-    "philosophical_explanation": "వారి ఆచార మరియు కవితా కోణాలకు మించి, వేదాలు వేలాది సంవత్సరాలుగా భారతదేశ ఆధ్యాత్మిక సంప్రదాయాలను రూపొందించిన లోతైన తాత్విక అంతర్దృష్టులను కలిగి ఉన్నాయి. వేద తత్వశాస్త్రం యొక్క గుండె వద్ద విశ్వం అస్తవ్యస్తంగా లేదు కానీ Rta అని పిలువబడే ఒక దైవిక క్రమం ద్వారా నిర్వహించబడుతుందనే ఆలోచన ఉంది. ఈ విశ్వ చట్టం ఉనికి యొక్క అన్ని అంశాల మధ్య సామరస్యాన్ని నిర్ధారిస్తుంది. ధర్మ సాధన ద్వారా మానవులు ఈ విశ్వ క్రమానికి అనుగుణంగా జీవించడానికి ప్రోత్సహించబడ్డారు. ధర్మం అనేది ధర్మబద్ధమైన ప్రవర్తన, నైతిక బాధ్యత మరియు వ్యక్తిగత శ్రేయస్సు మరియు సామాజిక సామరస్యాన్ని కొనసాగించే విధులను సూచిస్తుంది. వైదిక ఆలోచనలో ప్రవేశపెట్టబడిన మరొక ప్రాథమిక భావన వ్యక్తిగత స్వీయ (ఆత్మన్) మరియు అంతిమ వాస్తవికత (బ్రహ్మం) మధ్య సంబంధం. ఉపనిషత్తుల వంటి తరువాతి తాత్విక గ్రంథాలు ఈ సంబంధాన్ని వివరిస్తాయి మరియు ఆత్మ మరియు బ్రహ్మం మధ్య ఐక్యతను గ్రహించడం ఆధ్యాత్మిక విముక్తి లేదా మోక్షానికి దారితీస్తుందని సూచిస్తున్నాయి. వేదాలు ఆధ్యాత్మిక సాక్షాత్కారానికి మార్గంగా జ్ఞానం (జ్ఞానం), చర్య (కర్మ), మరియు భక్తి (భక్తి) పాత్రను కూడా అన్వేషిస్తాయి. ప్రారంభ వేద సంప్రదాయాలు ఆచార పద్ధతులను నొక్కిచెప్పగా, తరువాతి వివరణలు అంతర్గత పరివర్తన మరియు స్వీయ-జ్ఞానంపై ఎక్కువగా దృష్టి సారిస్తాయి. ధ్యానం, క్రమశిక్షణతో కూడిన జీవనం మరియు జ్ఞానం యొక్క అన్వేషణ ద్వారా, వ్యక్తులు అజ్ఞానాన్ని అధిగమించవచ్చు మరియు విశ్వవ్యాప్త స్పృహలో భాగంగా వారి నిజమైన స్వభావాన్ని గ్రహించగలరు. అందువల్ల వేదాలు ఆధ్యాత్మిక అంతర్దృష్టి, నైతిక బాధ్యత మరియు విశ్వ సామరస్యాన్ని సమగ్రపరిచే సంపూర్ణ జీవిత దృష్టిని అందజేస్తాయి.",
+    "introduction": "The Vedas are the oldest sources of knowledge in Sanatana Dharma. They are not just religious books but a complete guide to life, nature, and the universe. These teachings were passed down by memory for many generations before being written. Ancient sages experienced this knowledge through deep meditation, which is why it is called 'Shruti' (that which is heard). The Vedas explore big questions like where the universe came from, what life means, and how humans should live. They explain that life works according to a natural order and that living in harmony with this order leads to peace and balance. Over time, this knowledge was organized into four main parts: Rigveda, Yajurveda, Samaveda, and Atharvaveda, each focusing on a different aspect of life and spirituality.",
+    "meaning_of_word_veda": "Veda means 'knowledge' or 'wisdom'. It represents deep understanding about life, truth, and the universe.",
+    "philosophical_explanation": "The Vedas teach that the universe is not random but follows a natural order called Rta. When people live according to this order, life becomes balanced and peaceful. This right way of living is called Dharma. The Vedas also explain that each person has a true self (Atman), which is connected to the ultimate reality (Brahman). Understanding this connection leads to freedom from suffering (Moksha). They show different paths like knowledge, action, and devotion to help people grow spiritually. Over time, the focus moved from outer rituals to inner understanding and self-realization.",
     "related_concepts": [
-      "ఉపనిషత్తులు",
-      "బ్రాహ్మణుడు",
-      "ఆత్మ",
-      "ధర్మము",
-      "కర్మ",
-      "మోక్షము",
-      "వేదాంత",
-      "యజ్ఞము",
-      "Rta",
-      "సనాతన ధర్మం"
+      "Upanishads (deep philosophical teachings)",
+      "Brahman (ultimate reality)",
+      "Atman (inner self)",
+      "Dharma (right way of living)",
+      "Karma (actions and results)",
+      "Moksha (freedom from suffering)",
+      "Vedanta (philosophical system)",
+      "Yajna (sacred offering or ritual)",
+      "Rta (cosmic order)",
+      "Sanatana Dharma (eternal way of life)"
     ],
     "scripture_text": [
       {
-        "description": "ఋగ్వేదం నాలుగు వేదాలలో పురాతనమైనది మరియు ఇది ప్రధానంగా విశ్వ శక్తులను సూచించే వివిధ దేవతలకు అంకితం చేయబడిన శ్లోకాల సమాహారం. ఇందులో పది మండలాలుగా 1028 శ్లోకాలు ఉన్నాయి. ఈ శ్లోకాలు అగ్ని (అగ్ని), ఇంద్రుడు (ఉరుములు మరియు తుఫానులు), వరుణ (విశ్వ క్రమం), మరియు సూర్యుడు (సూర్యుడు) వంటి దేవతలను స్తుతిస్తాయి. శ్లోకాలు తరచుగా ప్రకృతి మరియు విశ్వం యొక్క రహస్యాలపై ఆశ్చర్యాన్ని వ్యక్తం చేస్తాయి. వారు ఆశీర్వాదాలు, శ్రేయస్సు, రక్షణ మరియు ఆధ్యాత్మిక అంతర్దృష్టిని కోరుకుంటారు. ఋగ్వేదంలో మానవ సాహిత్యంలో కనిపించే కొన్ని తొలి తాత్విక ప్రతిబింబాలు కూడా ఉన్నాయి. ఒక ప్రసిద్ధ శ్లోకం, నాసాదియ సూక్త, విశ్వం యొక్క మూలాన్ని పరిశీలిస్తుంది మరియు సృష్టి ఎలా ప్రారంభమైందో దేవతలకు కూడా తెలుసా అని ప్రశ్నిస్తుంది.",
+        "veda": "Rigveda",
+        "primary_focus": "Understanding nature and praising cosmic forces",
+        "description": "The Rigveda is the oldest Veda and contains hymns that express curiosity about nature and existence. It praises natural forces like fire, sun, and rain, seeing them as divine powers. It also includes early philosophical ideas about creation and reality.",
         "major_deities": [
-          "అగ్ని",
-          "ఇంద్రుడు",
-          "వరుణుడు",
-          "మిత్ర",
-          "సోమ",
-          "ఉషస్"
+          "Agni (fire and transformation)",
+          "Indra (power and storms)",
+          "Varuna (cosmic order)",
+          "Mitra (friendship and harmony)",
+          "Soma (divine energy)",
+          "Ushas (dawn and new beginnings)"
         ],
         "major_themes": [
-          "విశ్వం యొక్క సృష్టి",
-          "కాస్మిక్ ఆర్డర్ (Rta)",
-          "ప్రకృతి ఆరాధన",
-          "పవిత్ర అగ్ని ఆచారాలు",
-          "తాత్విక ఊహ"
+          "Origin of the universe",
+          "Balance in nature",
+          "Human connection with cosmic forces",
+          "Spiritual curiosity",
+          "Search for truth"
         ],
-        "primary_focus": "దేవతలు మరియు విశ్వ శక్తుల స్తుతి",
         "structure": {
           "mandalas": 10,
           "total_hymns": 1028,
           "verses": 10552
-        },
-        "veda": "ఋగ్వేదం"
+        }
       },
       {
-        "description": "యజుర్వేదం ప్రధానంగా యజ్ఞాలు అని పిలువబడే కర్మ త్యాగాల సమయంలో ఉపయోగించే విధానాలు మరియు సూత్రాలపై దృష్టి పెడుతుంది. ఇది విశ్వ సామరస్యాన్ని మరియు సామాజిక క్రమాన్ని నిర్వహించడానికి ఉద్దేశించిన వేడుకలను నిర్వహించే పూజారులకు వివరణాత్మక సూచనలను అందిస్తుంది. యజుర్వేదం రెండు ప్రధాన రూపాల్లో ఉంది: కృష్ణ (నలుపు) యజుర్వేదం మరియు శుక్ల (తెలుపు) యజుర్వేదం. కృష్ణ యజుర్వేదం ఆచార సూత్రాలను వివరణాత్మక వ్యాఖ్యానంతో మిళితం చేస్తుంది, అయితే శుక్ల యజుర్వేదం వాటిని స్పష్టమైన మరియు మరింత వ్యవస్థీకృత నిర్మాణంలో అందిస్తుంది. ఈ గ్రంథాలు మానవులకు, ప్రకృతికి మరియు దైవానికి మధ్య సమతుల్యతను కాపాడుకోవడంలో క్రమశిక్షణతో కూడిన చర్య మరియు ఆచార ఖచ్చితత్వం యొక్క ప్రాముఖ్యతను నొక్కిచెబుతున్నాయి.",
+        "veda": "Yajurveda",
+        "primary_focus": "Right way of performing actions and rituals",
+        "description": "The Yajurveda explains how to perform rituals properly. It focuses on discipline, correct actions, and maintaining balance between humans and nature. It shows that actions done with awareness help maintain harmony.",
+        "primary_topics": [
+          "Ritual methods",
+          "Role of priests",
+          "Symbolic meaning of actions",
+          "Discipline and responsibility"
+        ],
         "divisions": [
           {
-            "characteristics": "మిశ్రమ గద్యం మరియు పద్యాలు",
-            "meaning": "నలుపు యజుర్వేదం",
-            "type": "కృష్ణ యజుర్వేదం"
+            "type": "Krishna Yajurveda",
+            "meaning": "Mixed explanations and verses",
+            "characteristics": "Less structured, more detailed explanation"
           },
           {
-            "characteristics": "మంత్రాలు మరియు వివరణల యొక్క స్పష్టమైన విభజన",
-            "meaning": "తెలుపు యజుర్వేదం",
-            "type": "శుక్ల యజుర్వేదం"
+            "type": "Shukla Yajurveda",
+            "meaning": "Clear and organized form",
+            "characteristics": "Better structured and easier to understand"
           }
-        ],
-        "primary_focus": "కర్మ విధానాలు మరియు యజ్ఞ ప్రదర్శన",
-        "primary_topics": [
-          "బలి కర్మలు",
-          "అర్చక విధులు",
-          "యజ్ఞ విధానాలు",
-          "త్యాగం యొక్క కాస్మిక్ సింబాలిజం"
-        ],
-        "veda": "యజుర్వేదం"
+        ]
       },
       {
-        "description": "సామవేదం ప్రధానంగా ఋగ్వేదం నుండి ఉద్భవించిన రాగాలు మరియు కీర్తనలకు సంబంధించినది. ఇది భారతీయ శాస్త్రీయ సంగీత సంప్రదాయాలకు మూలంగా పరిగణించబడుతుంది. సామవేదంలోని శ్లోకాలు ఆచార వ్యవహారాలలో పాడగలిగే విధంగా ఏర్పాటు చేయబడ్డాయి. ఆధ్యాత్మిక పరివర్తనలో ధ్వని మరియు ప్రకంపనలు శక్తివంతమైన పాత్ర పోషిస్తాయనే నమ్మకాన్ని సామవేదంలోని సంగీత అంశం ప్రతిబింబిస్తుంది. పవిత్రమైన పఠించడం ద్వారా, అభ్యాసకులు తమ స్పృహను విశ్వం యొక్క విశ్వ లయతో సమన్వయం చేసుకోవాలని లక్ష్యంగా పెట్టుకున్నారు.",
+        "veda": "Samaveda",
+        "primary_focus": "Use of sound and music for spiritual growth",
+        "description": "The Samaveda focuses on chanting and melodies. It teaches that sound vibrations can affect the mind and help in spiritual growth. It is the foundation of Indian classical music and chanting traditions.",
+        "importance": "Origin of musical traditions in India",
         "applications": [
-          "ఆలయ మంత్రోచ్ఛారణ",
-          "సోమ కర్మలు",
-          "ప్రార్ధనా గానం"
+          "Temple chanting",
+          "Ritual singing",
+          "Meditative sound practices"
         ],
-        "importance": "భారతీయ శాస్త్రీయ సంగీతానికి పునాది",
-        "primary_focus": "ఆచారాలలో సంగీత గానం",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
-        },
-        "veda": "సామవేదం"
+        }
       },
       {
-        "description": "అథర్వవేదం ఇతర మూడు వేదాల నుండి భిన్నంగా ఉంటుంది, దీనిలో వైద్యం చేసే పద్ధతులు, తాత్విక ప్రతిబింబాలు, దేశీయ ఆచారాలు మరియు సామాజిక ఆందోళనలతో సహా విస్తృతమైన అంశాలు ఉన్నాయి. ఇది రోజువారీ జీవితాన్ని అలాగే ఆధ్యాత్మిక విషయాలను ప్రస్తావించే శ్లోకాలు, ప్రార్థనలు, ఆకర్షణలు మరియు తాత్విక బోధనలను కలిగి ఉంటుంది. అథర్వవేదంలోని అనేక శ్లోకాలు వ్యాధి, దురదృష్టం మరియు ప్రతికూల ప్రభావాల నుండి రక్షణను కోరుకుంటాయి, అదే సమయంలో జీవితం, మరణం మరియు ఆత్మ యొక్క స్వభావం గురించి లోతైన మెటాఫిజికల్ ప్రశ్నలను అన్వేషిస్తాయి.",
-        "primary_focus": "ఆచరణాత్మక జీవితం, వైద్యం, రక్షణ",
+        "veda": "Atharvaveda",
+        "primary_focus": "Daily life, healing, and practical knowledge",
+        "description": "The Atharvaveda deals with real-life concerns like health, protection, and daily living. It includes prayers, healing practices, and deeper thoughts about life and death. It connects spiritual ideas with everyday life.",
+        "topics": [
+          "Health and medicine",
+          "Protection from problems",
+          "Family and social life",
+          "Philosophical questions",
+          "Leadership and society"
+        ],
         "structure": {
           "books": 20,
           "hymns": 730
-        },
-        "topics": [
-          "మందు",
-          "రక్షణ మంత్రాలు",
-          "గృహ ఆచారాలు",
-          "తాత్విక ప్రతిబింబాలు",
-          "రాజ ఆచారాలు"
-        ],
-        "veda": "అథర్వవేదం"
+        }
       }
     ],
-    "structure": {
-      "atharvaveda": {
-        "base_path": "/vedas/atharvaveda",
-        "chapter_prefix": "పుస్తకం",
-        "item_prefix": "శ్లోకం",
-        "items_per_chapter": 10,
-        "total_chapters": 10
-      },
-      "rigveda": {
-        "base_path": "/vedas/rigveda",
-        "chapter_item_counts": {
-          "mandala-1": 191,
-          "mandala-10": 191,
-          "mandala-2": 43,
-          "mandala-3": 62,
-          "mandala-4": 58,
-          "mandala-5": 87,
-          "mandala-6": 75,
-          "mandala-7": 191,
-          "mandala-8": 103,
-          "mandala-9": 114
-        },
-        "chapter_prefix": "మండల",
-        "item_prefix": "శ్లోకం",
-        "total_chapters": 10
-      },
-      "samaveda": {
-        "base_path": "/vedas/samaveda",
-        "direct_item_prefix": "శ్లోకం",
-        "total_items": 10
-      },
-      "yajurveda": {
-        "base_path": "/vedas/yajurveda",
-        "chapter_prefix": "అధ్యాయం",
-        "item_prefix": "మంత్రం",
-        "items_per_chapter": 12,
-        "total_chapters": 10
-      }
-    },
     "vedic_philosophical_concepts": {
-      "atman": "వ్యక్తిగత స్వీయ లేదా ఆత్మ",
-      "brahman": "అల్టిమేట్ కాస్మిక్ రియాలిటీ",
-      "dharma": "సార్వత్రిక చట్టం మరియు విధి",
-      "karma": "చర్య మరియు పర్యవసాన చట్టం",
-      "moksha": "పునర్జన్మ చక్రం నుండి విముక్తి",
-      "rta": "విశ్వాన్ని పాలించే కాస్మిక్ ఆర్డర్",
-      "samsara": "జననం, మరణం మరియు పునర్జన్మ చక్రం"
+      "atman": "Your true self, beyond body and mind",
+      "brahman": "The ultimate reality behind everything",
+      "dharma": "Right way of living and fulfilling duties",
+      "karma": "Your actions create future results",
+      "moksha": "Freedom from suffering and rebirth",
+      "rta": "Natural order that keeps the universe balanced",
+      "samsara": "Cycle of birth, death, and rebirth"
     },
     "vedic_society": {
       "cultural_practices": [
-        "అగ్ని కర్మలు",
-        "పవిత్రమైన కీర్తనలు",
-        "గురుకుల ద్వారా విద్య"
+        "Fire rituals for spiritual connection",
+        "Chanting mantras for focus and harmony",
+        "Learning through teacher-student tradition (gurukula)"
       ],
       "economic_activities": [
-        "వ్యవసాయం",
-        "పశువుల పెంపకం",
-        "వర్తకం",
-        "హస్తకళ"
+        "Farming and agriculture",
+        "Cattle care and dairy",
+        "Trade and exchange",
+        "Handicrafts and skills"
       ],
       "social_structure": [
-        "బ్రాహ్మణులు (పూజారులు)",
-        "క్షత్రియులు (యోధులు)",
-        "వైశ్యులు (వ్యాపారులు)",
-        "శూద్రులు (సేవా ప్రదాతలు)"
+        "Brahmins (teachers and priests)",
+        "Kshatriyas (protectors and rulers)",
+        "Vaishyas (business and trade)",
+        "Shudras (service and support roles)"
       ]
     },
     "vedic_timeline": {
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "proto_vedic_period": "2000 BCEకి ముందు",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "Before 2000 BCE (early cultural roots)",
+      "early_vedic_period": "1500–1200 BCE (hymns and nature focus)",
+      "middle_vedic_period": "1200–900 BCE (ritual development)",
+      "late_vedic_period": "900–500 BCE (philosophical growth)",
+      "upanishadic_period": "800–300 BCE (deep spiritual understanding)"
     }
   }
 }

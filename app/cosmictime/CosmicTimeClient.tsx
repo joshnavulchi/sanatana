@@ -3,10 +3,10 @@
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
-import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import TextToSpeech from '@/app/components/TextToSpeech';
 import { parseMaybeObject } from '@/lib/parse';
 import PageLayout from '@components/common/PageLayout';
-import FaqAccordion from '../components/faqaccordion/faqaccordion';
+import FaqAccordion from '../components/faqaccordion';
 
 function RenderValue({ value }: { value: any }) {
  if (value === null || value === undefined) return <em className="text-gray-500 text-gray-400 italic">—</em>;

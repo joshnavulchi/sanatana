@@ -8,9 +8,9 @@ import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-import ThemeToggle from './theme-toggle/ThemeToggle';
+import ThemeToggle from './ThemeToggle';
 
-const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
+const LanguageDropdown = dynamic(() => import("./language-dropdown"), { ssr: false });
 
 /* ── Types ── */
 interface NavItem {
