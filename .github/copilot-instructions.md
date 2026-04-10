@@ -19,6 +19,35 @@ AI must always:
 * Maintain accessibility and localization
 * During build time, if any locale file is not found, highlight in build screen or put them in logs folder, skip the page and throw 404 page. Build should not stop or hang to find missed locale files. Same applied across all pages.
 
+* When the assistant triggers a full build (for example running `npm run build`) from the chat or CI runner, the assistant must wait for the build process to complete before making further repository edits or starting another build. Do not run concurrent builds or edit files while a build is in progress — wait for the build result and act on errors/failures only after the build finishes.
+
+---
+
+# SEO and Indexing Preservation
+
+AI must **NEVER** modify, remove, or disrupt Google indexing and IndexNow integration:
+
+### Google Indexing Protection
+- Never alter `public/sitemap.xml` generation or content
+- Never modify `public/robots.txt`
+- Never remove or change SEO meta tags (title, description, canonical)
+- Never disrupt structured data (JSON-LD) output
+- Never change Open Graph or Twitter meta tags
+
+### IndexNow Protection
+- Never modify `lib/constants.ts` INDEXNOW_KEY
+- Never remove `public/{key}.txt` verification files
+- Never alter `scripts/notify-indexnow.js`
+- Never change IndexNow notification in build scripts
+- Never disrupt IndexNow API integration
+
+### Build SEO Protection
+- Never modify sitemap generation scripts
+- Never alter SEO audit scripts
+- Never change build-time SEO file handling
+
+**If any task conflicts with SEO preservation, halt immediately and seek clarification.**
+
 ---
 
 # Folder Structure
@@ -145,7 +174,7 @@ Example
 
 ```tsx
 const { t } = useLocale();
-<h1>{t("about.title")}</h1>
+<h3>{t("about.title")}</h3>
 ```
 
 ---
@@ -218,6 +247,12 @@ Runs:
 
 Also ensure formatting and tests pass if the project provides scripts for them
 
+
+## Build Script Policy
+
+* Do NOT modify `.render-build.sh` or the `scripts` section of `package.json` without explicit approval from repository maintainers.
+* Changes to deployment or CI scripts require clear justification and maintainer approval.
+
 ---
 
 # Build and Locale Handling
@@ -246,6 +281,28 @@ export async function generateStaticParams() {
 
 ---
 
+# SEO and Static Export Requirements
+
+* Generate `sitemap.xml` automatically and include all static and dynamic routes.
+* Generate `robots.txt` and allow all indexable pages while blocking only unnecessary paths.
+* Add canonical URLs for every page using absolute URLs in metadata.
+* Use `generateMetadata()` on every page with title, description, keywords, Open Graph, and Twitter metadata.
+* Add structured data (JSON-LD) where appropriate using `Article`, `WebPage`, or `Breadcrumb` schemas.
+* Implement `generateStaticParams()` for all dynamic routes so every page exists at build time.
+* Use clean static URLs and avoid query-based navigation for core content.
+* Ensure critical content is server-rendered and indexable without client-only hydration.
+* Avoid server-only features or runtime-only pages that break static export.
+
+---
+
+# Repository Build Script Policy
+
+* Do NOT modify `.render-build.sh` or the `scripts` section of `package.json` without explicit approval from repository maintainers.
+* These scripts are critical for deployment and CI/CD stability.
+* Any change to build/deploy scripts must include a clear justification and maintainer approval.
+
+---
+
 # Repository-specific Conventions
 
 These repository conventions must be applied when generating code or OpenSpec artifacts for this project:
@@ -260,3 +317,18 @@ These repository conventions must be applied when generating code or OpenSpec ar
 * **Task sizing:** Break implementation tasks into small, testable chunks (max ~2 hours per task).
 
 Follow these conventions in addition to the generic rules above.
+
+---
+
+# Page JSON Rendering
+
+When generating or updating page components, render the page's JSON locale/context object into the UI for discovery and content completeness. However, exclude the following keys from direct rendering: `meta`, `openGraph`, and `schema` — these are for metadata only and should be used to populate page metadata or structured-data blocks, not displayed as page content.
+
+Guidelines:
+
+* Use the locale namespace or the page's `index.json` as the source of truth for content.
+* Render any string, paragraphs, arrays, or structured content from the JSON except the excluded keys above.
+* Use existing helpers (`useLocaleSection`, `getLocaleNamespaceObject`, `loadLocaleData`) to load data.
+* Sanitize or format long text (e.g., split on `\n\n` into paragraphs) before rendering.
+* Use `meta`, `openGraph`, and `schema` only to populate `generateMetadata`, Open Graph tags, and JSON-LD respectively.
+

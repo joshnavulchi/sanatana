@@ -8,7 +8,7 @@ import useLocaleSection from '@app/hooks/useLocaleSection';
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
   const pathname = usePathname();
-  const locale = useLocaleSection('sharable_strings');
+  const locale = useLocaleSection('sharable-strings');
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {
@@ -42,13 +42,13 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed z-40 bottom-8 right-8 p-1 rounded-4xl shadow-md no-underline transition-all duration-300 ease-in-out bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white  focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer"
+          className="fixed z-50 bottom-8 right-8 p-1 rounded-full shadow-2xl bg-gradient-to-br from-pink-500 via-amber-400 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white tracking-widest border-4 border-white focus:outline-none focus:ring-4 focus:ring-pink-300 flex items-center justify-center animate-bounce animate-fadeInUp transition-all duration-300 cursor-pointer"
           aria-label={locale?.scrolltotop?.arialabel || 'Scroll to top'}
           title={locale?.scrolltotop?.title || 'Scroll to top'}
         >
           {/* Up Arrow SVG */}
           <svg
-            className="w-6 h-6"
+            className="w-5 h-5 animate-pulse"
             fill="none"
             stroke="#ffffff"
             viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ export default function ScrollToTop() {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth={1}
+              strokeWidth={2}
               d="M5 10l7-7m0 0l7 7m-7-7v18"
             />
           </svg>
@@ -67,3 +67,4 @@ export default function ScrollToTop() {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

@@ -3,8 +3,8 @@
     "title": "Stories | Karna — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Karna — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/karna",
       "description": "Learn about Karna on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/karna",
       "keywords": [
         "Karna Biography",
         "Karna Biography in English",
@@ -35,42 +35,20 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/karna"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
-      "iconography": ["Golden armor and earrings", "Charioteer background"],
-      "virtues": ["Generosity", "Valor", "Loyalty"],
-      "weapons": ["Vijaya Bow", "Nagastram"]
+      "iconography": [
+        "Golden armor and earrings",
+        "Charioteer background"
+      ],
+      "virtues": [
+        "Generosity",
+        "Valor",
+        "Loyalty"
+      ],
+      "weapons": [
+        "Vijaya Bow",
+        "Nagastram"
+      ]
     },
     "biography": {
       "full_name": "Karna (Karnā)",
@@ -188,6 +166,29 @@
         "event": "Remembered as the greatest giver (Daanveer) and tragic hero of Mahabharata.",
         "phase": "Legacy"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

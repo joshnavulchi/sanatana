@@ -15,6 +15,7 @@
 # next.js
 .next/
 out/
+logs/
 docs
 
 # ignore backup pages and backup components
@@ -53,6 +54,7 @@ public/images/slider/without_reduce/
 lighthouse-report.html
 tmp
 public/critical-home.css
+/.merge-json-errors
 
 # Additional build / cache artifacts
 .cache/

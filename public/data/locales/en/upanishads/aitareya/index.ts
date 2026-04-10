@@ -1,25 +1,12 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\upanishads\aitareya'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
-import _d0 from './chapter1/index';
-import _d1 from './chapter2/index';
-import _d2 from './upanishads/index';
+// Auto-generated index (JSON-only)
+// Folder: 'en\upanishads\aitareya'
+// DO NOT EDIT MANUALLY
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
+import _j0 from './index.json';
 
-const base: any = {};
-const merged = ([_d0, _d1, _d2] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+
+const merged = Object.assign({}, _j0);
+
 export default merged;

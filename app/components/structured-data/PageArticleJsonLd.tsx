@@ -15,7 +15,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in
 
 export default async function PageArticleJsonLd({ metaKey, params, locale, author, datePublished, image, articleType = 'Article' }: Props) {
   const loc = locale ?? DEFAULT_LOCALE;
-  await getLocaleNamespaceObject(String(loc || 'en'), metaKey);
+  await getLocaleNamespaceObject(String(loc), metaKey);
   const meta = t(metaKey, loc) || {};
 
   const headline = meta.title || undefined;

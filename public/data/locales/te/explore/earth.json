@@ -1,366 +1,366 @@
 {
   "earth": {
     "title": "Complete World History Timeline",
-    "timeline_start": "4.6 billion years ago",
-    "timeline_end": "2026 CE",
+    "description": "Timeline of Earth formation, evolution of life, human emergence, religions, and expansion of civilizations",
     "epochs": [
       {
         "epoch": "Cosmic Formation",
-        "time_range": "4.6B – 4.0B years ago",
         "events": [
           {
-            "time": "4.6 billion years ago",
+            "category": "cosmic",
             "event": "Solar system forms from collapsing nebula",
-            "category": "cosmic"
+            "time": "4.6 billion years ago"
           },
           {
-            "time": "4.54 billion years ago",
+            "category": "planetary",
             "event": "Earth forms through accretion of planetesimals",
-            "category": "planetary"
+            "time": "4.54 billion years ago"
           },
           {
-            "time": "4.4 billion years ago",
+            "category": "planetary",
             "event": "Earth cools and first oceans form",
-            "category": "planetary"
+            "time": "4.4 billion years ago"
           }
-        ]
+        ],
+        "time_range": "4.6B – 4.0B years ago"
       },
       {
         "epoch": "Origin of Life",
-        "time_range": "4B – 1B years ago",
         "events": [
           {
-            "time": "3.8 billion years ago",
+            "category": "biology",
             "event": "Earliest microbial life appears",
-            "category": "biology"
+            "time": "3.8 billion years ago"
           },
           {
-            "time": "2.4 billion years ago",
+            "category": "biology",
             "event": "Great Oxygenation Event transforms atmosphere",
-            "category": "biology"
+            "time": "2.4 billion years ago"
           },
           {
-            "time": "1.8 billion years ago",
+            "category": "biology",
             "event": "Eukaryotic cells evolve",
-            "category": "biology"
+            "time": "1.8 billion years ago"
           }
-        ]
+        ],
+        "time_range": "4B – 1B years ago"
       },
       {
         "epoch": "Multicellular Life",
-        "time_range": "1B – 65M years ago",
         "events": [
           {
-            "time": "800 million years ago",
+            "category": "biology",
             "event": "Complex multicellular organisms appear",
-            "category": "biology"
+            "time": "800 million years ago"
           },
           {
-            "time": "541 million years ago",
+            "category": "biology",
             "event": "Cambrian explosion produces diverse animals",
-            "category": "biology"
+            "time": "541 million years ago"
           },
           {
-            "time": "470 million years ago",
+            "category": "biology",
             "event": "Plants colonize land",
-            "category": "biology"
+            "time": "470 million years ago"
           },
           {
-            "time": "230 million years ago",
+            "category": "biology",
             "event": "Dinosaurs dominate ecosystems",
-            "category": "biology"
+            "time": "230 million years ago"
           },
           {
-            "time": "66 million years ago",
+            "category": "biology",
             "event": "Asteroid impact leads to dinosaur extinction",
-            "category": "biology"
+            "time": "66 million years ago"
           }
-        ]
+        ],
+        "time_range": "1B – 65M years ago"
       },
       {
         "epoch": "Human Evolution",
-        "time_range": "7M years ago – 10,000 BCE",
         "events": [
           {
-            "time": "7 million years ago",
+            "category": "human_evolution",
             "event": "First hominin ancestors evolve",
-            "category": "human_evolution"
+            "time": "7 million years ago"
           },
           {
-            "time": "2.5 million years ago",
+            "category": "technology",
             "event": "Stone tools used by early humans",
-            "category": "technology"
+            "time": "2.5 million years ago"
           },
           {
-            "time": "300,000 years ago",
+            "category": "human_evolution",
             "event": "Homo sapiens appear in Africa",
-            "category": "human_evolution"
+            "time": "300,000 years ago"
           },
           {
-            "time": "70,000 years ago",
+            "category": "migration",
             "event": "Human migration spreads across the world",
-            "category": "migration"
+            "time": "70,000 years ago"
           }
-        ]
+        ],
+        "time_range": "7M years ago – 10,000 BCE"
       },
       {
         "epoch": "Agriculture & Early Civilizations",
-        "time_range": "10,000 BCE – 1000 BCE",
         "events": [
           {
-            "time": "10,000 BCE",
+            "category": "civilization",
             "event": "Agricultural revolution begins",
-            "category": "civilization"
+            "time": "10,000 BCE"
           },
           {
-            "time": "4000 BCE",
+            "category": "civilization",
             "event": "First cities emerge in Mesopotamia",
-            "category": "civilization"
+            "time": "4000 BCE"
           },
           {
-            "time": "2500 BCE",
+            "category": "civilization",
             "event": "Indus Valley civilization flourishes",
-            "category": "civilization"
+            "time": "2500 BCE"
           },
           {
-            "time": "2000 BCE",
+            "category": "religion",
             "event": "Early Vedic cultural traditions develop in India",
-            "category": "religion"
+            "time": "2000 BCE"
           }
-        ]
+        ],
+        "time_range": "10,000 BCE – 1000 BCE"
       },
       {
         "epoch": "Classical Religious Formation",
-        "time_range": "1000 BCE – 700 CE",
         "events": [
           {
-            "time": "1500 BCE",
+            "category": "religion",
             "event": "Vedic hymns composed",
-            "category": "religion"
+            "time": "1500 BCE"
           },
           {
-            "time": "800 BCE",
+            "category": "religion",
             "event": "Upanishadic philosophical traditions arise",
-            "category": "religion"
+            "time": "800 BCE"
           },
           {
-            "time": "563 BCE",
+            "category": "religion",
             "event": "Birth of Buddha and spread of Buddhism",
-            "category": "religion"
+            "time": "563 BCE"
           },
           {
-            "time": "500 BCE",
+            "category": "religion",
             "event": "Development of Jain philosophical tradition",
-            "category": "religion"
+            "time": "500 BCE"
           },
           {
-            "time": "4 BCE",
+            "category": "religion",
             "event": "Birth of Jesus leading to Christianity",
-            "category": "religion"
+            "time": "4 BCE"
           },
           {
-            "time": "610 CE",
+            "category": "religion",
             "event": "Islam begins with revelations to Muhammad",
-            "category": "religion"
+            "time": "610 CE"
           }
-        ]
+        ],
+        "time_range": "1000 BCE – 700 CE"
       },
       {
         "epoch": "Global Civilizations",
-        "time_range": "700 CE – 1800 CE",
         "events": [
           {
-            "time": "1200 CE",
+            "category": "economy",
             "event": "Expansion of global trade networks",
-            "category": "economy"
+            "time": "1200 CE"
           },
           {
-            "time": "1500 CE",
+            "category": "civilization",
             "event": "Age of exploration connects continents",
-            "category": "civilization"
+            "time": "1500 CE"
           }
-        ]
+        ],
+        "time_range": "700 CE – 1800 CE"
       },
       {
         "epoch": "Modern Era",
-        "time_range": "1800 CE – 2026 CE",
         "events": [
           {
-            "time": "1800 CE",
+            "category": "technology",
             "event": "Industrial revolution accelerates technology",
-            "category": "technology"
+            "time": "1800 CE"
           },
           {
-            "time": "1900 CE",
+            "category": "politics",
             "event": "Modern nation states and global wars",
-            "category": "politics"
+            "time": "1900 CE"
           },
           {
-            "time": "2000 CE",
+            "category": "technology",
             "event": "Digital and information age",
-            "category": "technology"
+            "time": "2000 CE"
           },
           {
-            "time": "2026 CE",
+            "category": "modern",
             "event": "Highly interconnected global civilization",
-            "category": "modern"
+            "time": "2026 CE"
           }
-        ]
+        ],
+        "time_range": "1800 CE – 2026 CE"
       }
     ],
-    "title2": "Earth Life Religion Civilization Timeline",
-    "description": "Timeline of Earth formation, evolution of life, human emergence, religions, and expansion of civilizations",
     "events": [
       {
-        "time": "4.6 billion years ago",
+        "category": "cosmic",
         "event": "Formation of Solar System",
-        "category": "cosmic"
+        "time": "4.6 billion years ago"
       },
       {
-        "time": "4.54 billion years ago",
+        "category": "earth",
         "event": "Earth forms from accretion of dust and rock",
-        "category": "earth"
+        "time": "4.54 billion years ago"
       },
       {
-        "time": "4.4 billion years ago",
+        "category": "earth",
         "event": "Oceans form as Earth cools",
-        "category": "earth"
+        "time": "4.4 billion years ago"
       },
       {
-        "time": "3.8 billion years ago",
+        "category": "life",
         "event": "Earliest microbial life appears",
-        "category": "life"
+        "time": "3.8 billion years ago"
       },
       {
-        "time": "2.4 billion years ago",
+        "category": "life",
         "event": "Great Oxygenation Event",
-        "category": "life"
+        "time": "2.4 billion years ago"
       },
       {
-        "time": "1.8 billion years ago",
+        "category": "life",
         "event": "First complex eukaryotic cells",
-        "category": "life"
+        "time": "1.8 billion years ago"
       },
       {
-        "time": "800 million years ago",
+        "category": "life",
         "event": "Multicellular organisms diversify",
-        "category": "life"
+        "time": "800 million years ago"
       },
       {
-        "time": "541 million years ago",
+        "category": "life",
         "event": "Cambrian Explosion of animal life",
-        "category": "life"
+        "time": "541 million years ago"
       },
       {
-        "time": "470 million years ago",
+        "category": "life",
         "event": "First plants colonize land",
-        "category": "life"
+        "time": "470 million years ago"
       },
       {
-        "time": "230 million years ago",
+        "category": "life",
         "event": "Dinosaurs dominate Earth",
-        "category": "life"
+        "time": "230 million years ago"
       },
       {
-        "time": "66 million years ago",
+        "category": "life",
         "event": "Dinosaur extinction; mammals expand",
-        "category": "life"
+        "time": "66 million years ago"
       },
       {
-        "time": "7 million years ago",
+        "category": "human_evolution",
         "event": "Earliest hominin ancestors appear",
-        "category": "human_evolution"
+        "time": "7 million years ago"
       },
       {
-        "time": "300,000 years ago",
+        "category": "human_evolution",
         "event": "Homo sapiens emerge in Africa",
-        "category": "human_evolution"
+        "time": "300,000 years ago"
       },
       {
-        "time": "70,000 years ago",
+        "category": "human_migration",
         "event": "Human migration out of Africa",
-        "category": "human_migration"
+        "time": "70,000 years ago"
       },
       {
-        "time": "12,000 BCE",
+        "category": "civilization",
         "event": "Agricultural revolution begins",
-        "category": "civilization"
+        "time": "12,000 BCE"
       },
       {
-        "time": "4000 BCE",
+        "category": "civilization",
         "event": "First cities in Mesopotamia",
-        "category": "civilization"
+        "time": "4000 BCE"
       },
       {
-        "time": "2500 BCE",
+        "category": "civilization",
         "event": "Indus Valley Civilization flourishes",
-        "category": "civilization"
+        "time": "2500 BCE"
       },
       {
-        "time": "2000 BCE",
+        "category": "religion",
         "event": "Early Vedic culture in Indian subcontinent",
-        "category": "religion"
+        "time": "2000 BCE"
       },
       {
-        "time": "1500 BCE",
+        "category": "religion",
         "event": "Composition of early Vedic hymns",
-        "category": "religion"
+        "time": "1500 BCE"
       },
       {
-        "time": "800 BCE",
+        "category": "religion",
         "event": "Upanishadic philosophical traditions develop",
-        "category": "religion"
+        "time": "800 BCE"
       },
       {
-        "time": "600 BCE",
+        "category": "religion",
         "event": "Rise of major philosophical and religious traditions",
-        "category": "religion"
+        "time": "600 BCE"
       },
       {
-        "time": "563 BCE",
+        "category": "religion",
         "event": "Birth of Buddha; spread of Buddhism",
-        "category": "religion"
+        "time": "563 BCE"
       },
       {
-        "time": "500 BCE",
+        "category": "religion",
         "event": "Development of Jain philosophy",
-        "category": "religion"
+        "time": "500 BCE"
       },
       {
-        "time": "4 BCE",
+        "category": "religion",
         "event": "Birth of Jesus; Christianity later forms",
-        "category": "religion"
+        "time": "4 BCE"
       },
       {
-        "time": "610 CE",
+        "category": "religion",
         "event": "Islam begins with revelations to Muhammad",
-        "category": "religion"
+        "time": "610 CE"
       },
       {
-        "time": "1200 CE",
+        "category": "communities",
         "event": "Major global trade networks expand",
-        "category": "communities"
+        "time": "1200 CE"
       },
       {
-        "time": "1500 CE",
+        "category": "communities",
         "event": "Global exploration and colonization",
-        "category": "communities"
+        "time": "1500 CE"
       },
       {
-        "time": "1800 CE",
+        "category": "communities",
         "event": "Industrial Revolution accelerates global population growth",
-        "category": "communities"
+        "time": "1800 CE"
       },
       {
-        "time": "1900 CE",
+        "category": "communities",
         "event": "Modern nation states and global migration",
-        "category": "communities"
+        "time": "1900 CE"
       },
       {
-        "time": "2000 CE",
+        "category": "modern",
         "event": "Digital global civilization",
-        "category": "modern"
+        "time": "2000 CE"
       }
-    ]
+    ],
+    "timeline_end": "2026 CE",
+    "timeline_start": "4.6 billion years ago",
+    "title2": "Earth Life Religion Civilization Timeline"
   }
 }

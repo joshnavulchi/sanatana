@@ -9,3 +9,4 @@ export function useWebVitals(page: string) {
     // Example usage: sendToAnalytics({ name: 'CLS', value: 0.1 });
   }, [page]);
 }
+

@@ -3,8 +3,8 @@
     "title": "Shiva Stotras Collection",
     "meta": {
       "title": "Stotras & Mantras | Shiva — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stotrasmantras/shiva",
       "description": "Scriptures — Puranas — Shiva — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Scriptures. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/shiva",
       "keywords": [
         "Ancient Wisdom Stotrasmantras Shiva",
         "Ayurveda Stotrasmantras Shiva",
@@ -36,38 +36,6 @@
       ],
       "ogimage": "/og/scriptures-puranas-shiva.png",
       "url": "https://sanatanadharmam.in/stotrasmantras/shiva"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "stotras": [
       {
@@ -208,6 +176,29 @@
         "type": "Ashtakam",
         "verses": 8
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

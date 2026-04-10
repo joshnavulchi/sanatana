@@ -1,53 +1,39 @@
-export const revalidate = 60;
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import { fetchContentByRoute, MAHABHARATA_PARVAS } from '@lib/siteUtils';
+import { createGenerateMetadata, resolveParams } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
-import { createGenerateMetadata } from '@lib/pageUtils';
-import StructuredData from '@/app/components/structured-data/StructuredData';
-import ItihasaPartClient from '../../itihasapartclient';
-import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
-import {
-  MAHABHARATA_PARVAS,
-  isMahabharataParvaSlug,
-  toTitleFromSlug,
-  toUnderscoreSlug,
-} from '../../itihasa-utils';
 
-type Params = { parva: string };
-
-export const dynamicParams = false;
+import ParvaClient from './ParvaClient';
 
 export async function generateStaticParams() {
-  // Use the build-time generated params for full static export support.
-  return generatedParams;
+  return MAHABHARATA_PARVAS.map((p) => ({ parva: p }));
 }
 
-
-
-export async function generateMetadata(props: { params: Promise<Params> }) {
-  const { parva } = await props.params;
-  const namespace = `itihasa_mahabharata_${toUnderscoreSlug(parva)}`;
-  const generate = createGenerateMetadata(namespace);
-  return generate({});
+export async function generateMetadata({ params, searchParams }: { params?: { parva?: string }; searchParams?: any }) {
+  const v = params?.parva;
+  const key = v ? `itihasa/mahabharata/${v}/index` : 'itihasa/mahabharata';
+  return await createGenerateMetadata(key)({ searchParams });
 }
 
-export default async function Page(props: { params: Promise<Params> }) {
-  const { parva } = await props.params;
-  if (!isMahabharataParvaSlug(parva)) notFound();
+export default async function Page({ params }: { params: { parva?: string } | Promise<{ parva?: string }> }) {
+  const resolvedParams = await resolveParams(params);
+  const parvaParam = typeof resolvedParams?.parva === 'string' ? resolvedParams.parva : undefined;
+  if (!parvaParam) return notFound();
 
-  return (
-    <>
-      <StructuredData metaKey={`itihasa_mahabharata_${toUnderscoreSlug(parva)}`} />
-      <ItihasaPartClient
-        namespace={`itihasa_mahabharata_${toUnderscoreSlug(parva)}`}
-        titleFallback={toTitleFromSlug(parva)}
-        breadcrumbs={[
-          { label: 'Home', href: '/' },
-          { label: 'Itihasa', href: '/itihasa' },
-          { label: 'Mahabharata', href: '/itihasa/mahabharata' },
-          { label: toTitleFromSlug(parva) },
-        ]}
-        nextHref={`/itihasa/mahabharata/${parva}/chapter-1`}
-        nextLabel="Open Chapter 1"
-      />
-    </>
-  );
+  const parva = [parvaParam];
+  const locale = DEFAULT_LOCALE;
+  const fetched = await fetchContentByRoute(locale, ['itihasa', 'mahabharata', ...parva]);
+  let data: any = fetched && fetched.data ? (fetched.data as any) : null;
+  if (data && typeof data === 'object' && parva.length > 0) {
+    const rootKey = parva[0];
+    if ((data as any)[rootKey]) {
+      data = (data as any)[rootKey];
+    }
+  }
+  if (!data) return notFound();
+
+  return <ParvaClient initialData={data} initialLocale={locale} parva={parva} />;
 }
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

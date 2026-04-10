@@ -31,38 +31,6 @@
       ],
       "url": "https://sanatanadharmam.in/stories/saraswathi"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "biography": {
       "attributes": "Saraswati is depicted in white attire, seated on a lotus, holding a veena, Vedas, and a rosary. Her vehicle is the swan (Hamsa), symbolizing wisdom and discernment.",
       "festivals": "Vasant Panchami is dedicated to Saraswati, celebrating learning and creativity. She is also worshipped during Navaratri and in educational institutions.",
@@ -80,8 +48,12 @@
             "yajurveda": "Associated with sacred speech and rituals"
           },
           "rigveda": {
-            "attributes": ["Purity", "Flow of wisdom", "Creative energy"],
-            "description": "Praised as a river goddess and source of inspiration for hymns"
+            "description": "Praised as a river goddess and source of inspiration for hymns",
+            "attributes": [
+              "Purity",
+              "Flow of wisdom",
+              "Creative energy"
+            ]
           }
         },
         "philosophicalsignificance": [
@@ -115,8 +87,8 @@
     "saraswati_story": {
       "meta": {
         "title": "Stories | Saraswati — Sanātana Dharma - Explore Sanatan Dharma",
-        "canonical": "https://sanatanadharmam.in/stories/saraswati",
         "description": "Learn about Saraswati on SanatanaDharma.in — articles, translations and commentary.",
+        "canonical": "https://sanatanadharmam.in/stories/saraswati",
         "keywords": [
           "What is learn about saraswati?",
           "Why learn about saraswati?",
@@ -195,13 +167,40 @@
       "origin": {
         "meaning": "Saraswati means 'the flowing one', symbolizing the flow of wisdom and speech.",
         "roots": "Vedic tradition evolving into Puranic texts",
-        "texts": ["Rig Veda", "Devi Bhagavata Purana", "Brahma Purana"]
+        "texts": [
+          "Rig Veda",
+          "Devi Bhagavata Purana",
+          "Brahma Purana"
+        ]
       },
       "symbolism": [
         "White color – Purity and truth.",
         "Lotus – Spiritual enlightenment.",
         "Veena – Balance of knowledge and art."
       ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

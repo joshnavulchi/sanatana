@@ -3,8 +3,8 @@
     "title": "Stories | Puranic — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Puranic — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/puranic",
       "description": "Stories — Puranic — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Stories. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/stories/puranic",
       "keywords": [
         "Ancient Wisdom Stories Puranic",
         "Ayurveda Stories Puranic",
@@ -44,21 +44,12 @@
         "contactpoint": {
           "@type": "ContactPoint",
           "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
+          "availableLanguage": [
             "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
           ],
           "contacttype": "Customer Support",
           "email": "info@sanatanadharmam.in",

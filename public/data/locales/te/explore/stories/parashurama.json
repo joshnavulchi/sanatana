@@ -3,8 +3,8 @@
     "title": "Stories | Parashurama — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Parashurama — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/parashurama",
       "description": "Learn about Parasuram on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/parashurama",
       "keywords": [
         "Parashurama Biography",
         "Parashurama Biography in English",
@@ -31,46 +31,21 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/parashurama"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "iconography": [
         "Holding an axe",
         "Dressed as a sage",
         "Fiery temperament"
       ],
-      "virtues": ["Justice", "Discipline", "Wrath against Adharma"],
-      "weapons": ["Parashu (Battle Axe)", "Bow and arrows"]
+      "virtues": [
+        "Justice",
+        "Discipline",
+        "Wrath against Adharma"
+      ],
+      "weapons": [
+        "Parashu (Battle Axe)",
+        "Bow and arrows"
+      ]
     },
     "biography": {
       "attributes": "Parashurama is depicted as a fierce sage wielding an axe, with a fiery temperament and deep devotion to Shiva. He is known for his justice, discipline, and wrath against adharma (unrighteousness).",
@@ -151,6 +126,29 @@
         "event": "Continues as a sage; immortal and present in many legends.",
         "phase": "Later Life"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

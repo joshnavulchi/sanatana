@@ -8,9 +8,9 @@ import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-import ThemeToggle from './theme-toggle/ThemeToggle';
+import ThemeToggle from './ThemeToggle';
 
-const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
+const LanguageDropdown = dynamic(() => import("./language-dropdown"), { ssr: false });
 
 /* ── Types ── */
 interface NavItem {
@@ -28,10 +28,9 @@ interface NavSection {
 
 /* ── Route mapping (JSON key → actual route prefix) ── */
 const ROUTE_MAP: Record<string, string> = {
-  // typo in JSON
+  // map logical keys to routes
   philosophy: '/vedic-philosophy',
-  // export uses `vedic-philosophy` for both philosophy and science namespaces
-  science: '/vedic-philosophy',
+  science: '/vedic-science',
 };
 
 /* ── Section ordering & icons ── */
@@ -55,7 +54,7 @@ function buildNavSections(header: Record<string, unknown>): NavSection[] {
 
     const sec = section as Record<string, unknown>;
     const title = (sec.title as string) || key;
-    const basePath = ROUTE_MAP[key] || `/${key}`;
+    const basePath = (sec.basePath as string) || ROUTE_MAP[key] || `/${key}`;
     const nav = sec.nav;
 
     const items: NavItem[] = [];
@@ -98,7 +97,6 @@ function buildNavSections(header: Record<string, unknown>): NavSection[] {
       sections.push({ key, title, basePath, items });
     }
   }
-
   return sections;
 }
 
@@ -109,43 +107,43 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
   onToggleSub: (href: string) => void;
   isSubOpen: boolean;
 }) {
+  const submenuPos = 'right-full mr-2';
+  const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
   if (!item.children || item.children.length === 0) {
     return (
       <Link
         href={item.href}
-        className="group/item flex items-center gap-3 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent"
+        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-bold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
       >
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
+        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-sm text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
           ◈
         </span>
-        <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-[#9a3412]' : 'text-[#5b2d12] group-hover/item:text-[#7a2e1f]'}`}>
-          {item.label}
-        </span>
+        <span className="text-sm transition-all duration-300 tracking-wide">{item.label}</span>
       </Link>
     );
   }
 
   // Has children → click chevron to expand inline sub-list
   return (
-    <div>
-      <div className="flex items-center justify-between gap-2 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent">
-        <Link href={item.href} className="flex items-center gap-3 flex-1">
-          <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-[#9a3412] text-[#fff4df]' : 'bg-[#9a3412]/10 text-[#9a3412]'}`}>
+    <div className="group" onMouseEnter={() => onToggleSub(item.href)} onMouseLeave={() => onToggleSub(item.href)}>
+      <div className={`flex items-center justify-between gap-3 px-4 py-2 transition-all duration-200 rounded-xl ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow-lg'}`}>
+        <Link href={item.href} className="flex items-center gap-3 flex-1 px-2 whitespace-nowrap">
+          <span className={`flex h-6 w-6 items-center justify-center rounded-full text-sm transition-colors duration-200 ${isSubOpen ? 'bg-linear-to-br from-indigo-600 to-pink-600 text-white shadow-lg' : 'bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-indigo-700'}`}>
             ◈
           </span>
-          <span className={`text-md font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-[#9a3412]' : 'text-[#5b2d12]'}`}>
+          <span className={`text-sm font-semibold transition-colors duration-200 ${itemActive ? 'text-indigo-700' : 'text-gray-700'}`}>
             {item.label}
           </span>
         </Link>
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onToggleSub(item.href); }}
-          className="p-1 rounded-md hover:bg-[#fde7c7] transition-colors cursor-pointer"
+          className="p-2 rounded-xl hover:bg-indigo-100 hover:shadow transition-colors cursor-pointer"
           aria-expanded={isSubOpen}
           aria-label={`Toggle ${item.label} sub-items`}
         >
           <svg
-            className={`h-3 w-3 text-[#b45309] transition-transform duration-200 ${isSubOpen ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 text-indigo-600 transition-transform duration-300 ${isSubOpen ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -153,24 +151,23 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
         </button>
       </div>
 
-      {/* Inline sub-list — expands below the parent item */}
+      {/* Flyout submenu — opens RTL when dropdown anchored to right */}
       {isSubOpen && (
-        <div className="ml-8 mr-3 mb-1 border-l-2 border-[#d8a25a]/40 pl-3">
+        <div className={`${submenuPos} absolute top-0 w-max min-w-48 bg-linear-to-br from-white/90 to-indigo-50 rounded-2xl shadow-xl p-3 space-y-2 z-30 transform transition-all duration-300 ${isSubOpen ? 'opacity-100 pointer-events-auto translate-x-0' : 'opacity-0 pointer-events-none -translate-x-1'}`}>
           {item.children.map((child) => (
             <Link
               key={child.href}
               href={child.href}
-              className="group/child flex items-center gap-2 px-2 py-1.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent rounded-lg"
+              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold' : 'text-gray-700'}`}
             >
-              <span className="h-1.5 w-1.5 rounded-full bg-[#d97706] shrink-0" />
-              <span className={`text-md font-semibold transition-colors duration-150 ${isActive(child.href) ? 'text-[#9a3412]' : 'text-[#6b5d4f] group-hover/child:text-[#7a2e1f]'}`}>
-                {child.label}
-              </span>
+              <span className="h-2.5 w-2.5 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 shrink-0" />
+              <span className="text-sm whitespace-nowrap font-medium">{child.label}</span>
             </Link>
           ))}
         </div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 }
 
@@ -180,17 +177,10 @@ function DesktopDropdown({ section, isActive }: {
   isActive: (h: string) => boolean;
 }) {
   const triggerRef = useRef<HTMLDivElement>(null);
-  const [dropDir, setDropDir] = useState<'left' | 'right'>('right');
   const [openSubItem, setOpenSubItem] = useState<string | null>(null);
   const icon = SECTION_ICONS[section.key] || '✨';
 
-  // Determine dropdown direction
-  useEffect(() => {
-    if (!triggerRef.current) return;
-    const rect = triggerRef.current.getBoundingClientRect();
-    const spaceRight = window.innerWidth - rect.left;
-    setDropDir(spaceRight < 320 ? 'left' : 'right');
-  }, []);
+  const sectionActive = section.items.some(item => isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href))));
 
   // Reset open sub-item when dropdown closes (mouse leaves)
   const handleMouseLeave = () => { setOpenSubItem(null); };
@@ -201,30 +191,74 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center justify-center rounded-sm font-semibold p-1 tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f] gap-1">
-        <span className="text-base">{icon}</span>
+      <Link href={section.basePath} className={`flex items-center gap-1 px-1 py-1 rounded-md text-sm cursor-pointer transition-all duration-200 hover:bg-white/50 ${sectionActive ? 'text-primary-700 font-semibold' : 'text-gray-900 hover:text-primary-600'}`}>
+        <span className="text-sm">{icon}</span>
         {section.title}
-        <svg className="ml-0.5 h-3.5 w-3.5 text-[#b45309] transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
         </svg>
-      </span>
+      </Link>
 
-      {/* Dropdown panel */}
-      <div className={`absolute pt-3 min-w-60 max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20
-        ${dropDir === 'left' ? 'right-0' : 'left-0'}`}
-      >
-        <div className="overflow-y-auto max-h-[75vh] rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] shadow-[0_20px_50px_rgba(166,61,23,0.14)]">
-          <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+      {/* Dropdown panel - always anchor to right so submenus fly left */}
+      <div className={`absolute pt-3 w-max min-w-48 max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right`}>
+
+        <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
+          <div className="h-1 w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
           <div className="py-2">
-            {section.items.map((item) => (
-              <DesktopNavItem
-                key={item.href}
-                item={item}
-                isActive={isActive}
-                onToggleSub={toggleSub}
-                isSubOpen={openSubItem === item.href}
-              />
-            ))}
+            {section.items.map((item) => {
+              // Special-case: show `itihasa` sublists inline as a toggle inside the panel
+              if (section.key === 'itihasa') {
+                const childOpen = openSubItem === item.href;
+                const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
+                return (
+                  <div key={item.href} className="px-3">
+                    <div className={`flex items-center justify-between gap-3 py-2 px-3 rounded-xl transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 shadow-lg' : 'hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:shadow'} `}>
+                      <Link href={item.href} className={`flex-1 text-sm ${itemActive ? 'text-indigo-800' : 'text-gray-700 hover:text-indigo-900'}`}>
+                        {item.label}
+                      </Link>
+                      {item.children && item.children.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={() => toggleSub(item.href)}
+                          className="p-2 rounded-xl hover:bg-indigo-100 hover:shadow transition-colors"
+                          aria-expanded={childOpen}
+                          aria-label={`Toggle ${item.label} sub-items`}
+                        >
+                          <svg className={`h-4 w-4 text-indigo-600 transition-transform duration-300 ${childOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </button>
+                      )}
+                    </div>
+
+                    {item.children && childOpen && (
+                      <div className="mt-2 ml-4 pl-3 pr-2 pb-2 border-l-2 border-indigo-200/40 space-y-1 bg-white/70 rounded-xl shadow-inner">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className={`block px-3 py-1.5 rounded-lg text-sm transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                          >
+                            <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
+                            {child.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+
+              return (
+                <DesktopNavItem
+                  key={item.href}
+                  item={item}
+                  isActive={isActive}
+                  onToggleSub={toggleSub}
+                  isSubOpen={openSubItem === item.href}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
@@ -243,76 +277,75 @@ function MobileNavSection({ section, isActive, onNavigate }: {
   const [expandedChild, setExpandedChild] = useState<string | null>(null);
 
   return (
-    <div className="mt-1">
-      {/* Section header — tap to toggle */}
-      <button
-        type="button"
-        onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
-        className="w-full flex items-center gap-2 rounded-xl bg-linear-to-r from-[#fde7c7]/80 to-transparent px-4 py-2 mb-1 cursor-pointer"
-        aria-expanded={expanded}
-      >
-        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-        <span className="text-xl font-black tracking-wide text-[#7a2e1f]">{section.title}</span>
-        <div className="ml-auto flex items-center">
+    <div className="mt-2">
+      {/* Section header — tap to toggle (desktop-like styling) */}
+      <div className="w-full flex items-center gap-2 rounded-xl bg-white px-3 py-2 mb-2 border border-gray-100 shadow-sm">
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-indigo-200 to-pink-200 text-sm text-indigo-800">{icon}</span>
+        <Link href={section.basePath} onClick={onNavigate} className="flex-1 text-sm text-gray-900">
+          {section.title}
+        </Link>
+        <button
+          type="button"
+          onClick={() => { setExpanded(prev => !prev); setExpandedChild(null); }}
+          className="p-2 rounded-xl text-indigo-600 hover:bg-indigo-50 transition-colors"
+          aria-expanded={expanded}
+          aria-label={`Toggle ${section.title} items`}
+        >
           <svg
-            className={`h-4 w-4 text-[#b45309] transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
           </svg>
-        </div>
-      </button>
+        </button>
+      </div>
 
-      {/* Items */}
+      {/* Items (styled similar to desktop dropdown panel) */}
       {expanded && (
-        <div className="ml-4 border-l-2 border-[#d8a25a]/30 pl-3 flex flex-col gap-0.5">
-          {section.items.map((item) => (
-            <div key={item.href}>
-              <div className="flex items-center">
-                <Link
-                  href={item.href}
-                  className="flex-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-xl font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
-                  onClick={onNavigate}
-                >
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
-                  {item.label}
-                </Link>
-                {item.children && item.children.length > 0 && (
-                  <button
-                    type="button"
-                    onClick={() => setExpandedChild(prev => prev === item.href ? null : item.href)}
-                    className="p-2 rounded-lg text-[#92400e] hover:bg-[#fde7c7] transition-colors cursor-pointer"
-                    aria-expanded={expandedChild === item.href}
-                    aria-label={`Toggle ${item.label} sub-items`}
-                  >
-                    <svg
-                      className={`h-3.5 w-3.5 transition-transform duration-200 ${expandedChild === item.href ? 'rotate-180' : ''}`}
-                      fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"
+        <div className="ml-0 pl-1 pr-1 flex flex-col gap-2">
+          {section.items.map((item) => {
+            const itemActive = isActive(item.href) || (item.children && item.children.some(ch => isActive(ch.href)));
+            return (
+              <div key={item.href} className="">
+                <div className={`flex items-center justify-between gap-3 py-2 px-3 rounded-xl transition-all duration-200 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 shadow-lg' : 'hover:bg-linear-to-r hover:from-indigo-50 hover:via-pink-50 hover:to-rose-50'}`}>
+                  <Link href={item.href} className={`flex-1 text-sm font-medium ${itemActive ? 'text-indigo-800' : 'text-gray-700'}`} onClick={onNavigate}>
+                    {item.label}
+                  </Link>
+
+                  {item.children && item.children.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setExpandedChild(prev => prev === item.href ? null : item.href)}
+                      className="p-2 rounded-xl text-indigo-600 hover:bg-indigo-50 transition-colors"
+                      aria-expanded={expandedChild === item.href}
+                      aria-label={`Toggle ${item.label} sub-items`}
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
+                      <svg className={`h-4 w-4 transition-transform duration-200 ${expandedChild === item.href ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+
+                {/* Sub-items (desktop-like rounded list) */}
+                {item.children && expandedChild === item.href && (
+                  <div className="mt-2 ml-4 pr-2 pb-2 border-l-2 border-indigo-100/40 space-y-2">
+                    {item.children.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className={`block px-3 py-2 rounded-lg transition-all duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                        onClick={onNavigate}
+                      >
+                        <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
                 )}
               </div>
-
-              {/* Sub-items */}
-              {item.children && expandedChild === item.href && (
-                <div className="ml-6 border-l-2 border-[#d8a25a]/20 pl-3 flex flex-col gap-0.5 mt-0.5">
-                  {item.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-base font-medium text-[#6b5d4f] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
-                      onClick={onNavigate}
-                    >
-                      <span className="h-1 w-1 rounded-full bg-[#c49a6c]" />
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
@@ -339,7 +372,7 @@ export default function Header() {
   const pathname = usePathname();
   const headerRef = useRef<HTMLElement | null>(null);
 
-  const sharable = useLocaleSection('sharable_strings');
+  const sharable = useLocaleSection('sharable-strings');
   const siteTitle = sharable?.sitetitle || defaultSiteTitle;
   const headerData = (sharable?.header || {}) as Record<string, unknown>;
   const navSections = buildNavSections(headerData);
@@ -349,7 +382,11 @@ export default function Header() {
     if (p.length > 1 && p.endsWith("/")) return p.slice(0, -1);
     return p;
   };
-  const isActive = useCallback((href: string) => normalize(pathname) === normalize(href), [pathname]);
+  const isActive = useCallback((href: string) => {
+    const np = normalize(pathname);
+    const nh = normalize(href);
+    return np === nh || np.startsWith(nh + "/");
+  }, [pathname]);
 
   // Escape to close
   useEffect(() => {
@@ -374,78 +411,76 @@ export default function Header() {
   }, []);
 
   return (
-    <header ref={headerRef} className="w-full sticky top-0 z-30">
-      {/* Ornamental top accent */}
-      <div className="h-[2] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-      <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] md:px-0">
-        <div className="flex items-center justify-between px-3 md:px-6 py-1">
-          {/* ─── Logo & Title ─── */}
-          <h1 className="m-0 p-0">
-            <Link href="/" className="flex items-center gap-2 group">
-              <span className="relative flex items-center justify-center">
-                <LazyImage
-                  src="/images/logo.png"
-                  alt="Sanatanadharmam Logo"
-                  width={logoWidth}
-                  height={40}
-                  className="md:flex"
-                />
-              </span>
-              <span className="max-w-50 md:max-w-100 text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
-                {siteTitle}
-              </span>
-            </Link>
-          </h1>
-
-          {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-2" aria-label="Main navigation">
-            {navSections.map((section) => (
-              <DesktopDropdown key={section.key} section={section} isActive={isActive} />
-            ))}
-            <div className="ml-1 pl-2 border-l border-[#d8a25a]/40 flex items-center gap-1">
-              <LanguageDropdown />
-              <ThemeToggle />
-            </div>
-          </nav>
-
-          {/* ─── Mobile Toggle ─── */}
-          <div className="flex items-center md:hidden gap-2">
-            <LanguageDropdown />
-            <ThemeToggle />
-            <button
-              aria-label={open ? "Close menu" : "Open menu"}
-              onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
-            >
-              <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
-                {open ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
-                )}
-              </svg>
-            </button>
-          </div>
+    <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. Bharatha matha ki jai. I Love Bharat. </div>
+      <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
+      <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
+        {/* ─── Logo & Title ─── */}
+        <div>
+          <Link href="/" className="flex items-center gap-2 group">
+            <span className="relative flex items-center justify-center">
+              <LazyImage
+                src="/images/logo.png"
+                alt="Sanatanadharmam Logo"
+                width={logoWidth}
+                height={40}
+                className="md:flex"
+              />
+            </span>
+            <span className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              {siteTitle}
+            </span>
+          </Link>
         </div>
 
-        {/* ─── Mobile Drawer ─── */}
-        {open && (
-          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf0] to-[#fdf0d7] shadow-[0_16px_40px_rgba(166,61,23,0.12)] animate-fade-in-down">
-            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-            <div className="flex flex-col gap-1 py-4 px-4 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
-              {navSections.map((section) => (
-                <MobileNavSection
-                  key={section.key}
-                  section={section}
-                  isActive={isActive}
-                  onNavigate={() => setOpen(false)}
-                />
-              ))}
-            </div>
-            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+        {/* ─── Desktop Nav ─── */}
+        <nav className="hidden md:flex items-center gap-3" aria-label="Main navigation">
+          {navSections.map((section) => (
+            <DesktopDropdown key={section.key} section={section} isActive={isActive} />
+          ))}
+          <div className="border-l border-transparent flex items-center gap-3">
+            <LanguageDropdown />
           </div>
-        )}
+          <ThemeToggle />
+        </nav>
+
+        {/* ─── Mobile Toggle ─── */}
+        <div className="flex items-center md:hidden gap-3">
+          <LanguageDropdown />
+          <ThemeToggle />
+          <button
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((s) => !s)}
+            className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+          >
+            <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
+              {open ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
+
+      {/* ─── Mobile Drawer ─── */}
+      {open && (
+        <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
+          <div className="h-px w-full bg-linear-to-r from-primary-700 via-primary-500 to-primary-400" />
+          <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto">
+            {navSections.map((section) => (
+              <MobileNavSection
+                key={section.key}
+                section={section}
+                isActive={isActive}
+                onNavigate={() => setOpen(false)}
+              />
+            ))}
+          </div>
+          <div className="h-px w-full bg-linear-to-r from-primary-400 via-primary-500 to-primary-700" />
+        </div>
+      )}
     </header>
   );
 }

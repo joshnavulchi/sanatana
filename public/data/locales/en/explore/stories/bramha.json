@@ -2,8 +2,8 @@
   "stories_bramha": {
     "meta": {
       "title": "Stories | Brahma — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/bramha",
       "description": "Learn about Bramha on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/bramha",
       "keywords": [
         "Brahma Biography",
         "Brahma Biography in English",
@@ -35,38 +35,6 @@
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/bramha"
     },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
     "attributes": {
       "abode": "Satyaloka – the highest realm of truth.",
       "appearance": [
@@ -75,6 +43,14 @@
         "Carries a Kamandalu (water pot), Akshamala (rosary), and Vedas."
       ],
       "vehicle": "Hamsa (swan) – symbol of wisdom and discernment."
+    },
+    "biography": {
+      "attributes": "Brahma is depicted with four heads (representing the four Vedas and directions), seated on a lotus, holding the Vedas, a water pot, and a rosary. His vehicle is the swan (Hamsa), symbolizing wisdom and discernment.",
+      "consort": "Saraswati, goddess of wisdom and learning.",
+      "full_name": "Brahma (Prajapati)",
+      "legacy": "Though rarely worshipped today, Brahma’s role as the cosmic creator is foundational in Hindu cosmology. His stories and symbolism inspire reflection on the mysteries of creation, knowledge, and the cyclical nature of time.",
+      "mythic_origin": "Brahma is said to have emerged from a lotus growing from the navel of Lord Vishnu, symbolizing the birth of the cosmos from the infinite. He is regarded as the creator of the universe and all living beings.",
+      "roles": "He is the creator in the Hindu trinity (Trimurti), responsible for manifesting the worlds, beings, and knowledge. Brahma is also the granter of the Vedas and the originator of Dharma."
     },
     "definition": "Lord Brahma is the creator deity in Sanātana Dharma, responsible for the manifestation of the universe and all living beings.",
     "festivals": [
@@ -109,7 +85,11 @@
     "origin": {
       "meaning": "Brahma means 'growth' or 'expansion', signifying creation.",
       "roots": "Vedic tradition evolving into Puranic texts",
-      "texts": ["Rig Veda", "Brahma Purana", "Bhagavata Purana"]
+      "texts": [
+        "Rig Veda",
+        "Brahma Purana",
+        "Bhagavata Purana"
+      ]
     },
     "philosophical_significance": {
       "cosmic_cycle": "Creation is cyclical; Brahma’s day equals billions of human years.",
@@ -139,13 +119,28 @@
       "Lotus – Purity and cosmic origin.",
       "Swan – Ability to distinguish truth from illusion."
     ],
-    "biography": {
-      "full_name": "Brahma (Prajapati)",
-      "mythic_origin": "Brahma is said to have emerged from a lotus growing from the navel of Lord Vishnu, symbolizing the birth of the cosmos from the infinite. He is regarded as the creator of the universe and all living beings.",
-      "attributes": "Brahma is depicted with four heads (representing the four Vedas and directions), seated on a lotus, holding the Vedas, a water pot, and a rosary. His vehicle is the swan (Hamsa), symbolizing wisdom and discernment.",
-      "roles": "He is the creator in the Hindu trinity (Trimurti), responsible for manifesting the worlds, beings, and knowledge. Brahma is also the granter of the Vedas and the originator of Dharma.",
-      "consort": "Saraswati, goddess of wisdom and learning.",
-      "legacy": "Though rarely worshipped today, Brahma’s role as the cosmic creator is foundational in Hindu cosmology. His stories and symbolism inspire reflection on the mysteries of creation, knowledge, and the cyclical nature of time."
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

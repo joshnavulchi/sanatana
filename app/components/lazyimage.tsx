@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Loader from './loader';
-import useDeferAssets from '@lib/useDeferAssets';
+import useDeferAssets from '../hooks/useDeferAssets';
 
 export default function LazyImage({ src, alt, width, height, className, placeholder, onLoad, unoptimized, ...rest }: any) {
   // Only pass rest props that are not src, alt, width, height
@@ -22,23 +22,30 @@ export default function LazyImage({ src, alt, width, height, className, placehol
         if (e.isIntersecting) {
           setVisible(true);
           io.disconnect();
-          break;
         }
       }
-    }, { rootMargin: '300px', threshold: 0.01 });
-
+    });
     io.observe(node);
     return () => io.disconnect();
   }, []);
 
   return (
-    <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
-      {!loadNow ? (<Loader />) : imgError ? (
+    <div
+      ref={containerRef}
+      className={`relative overflow-hidden animate-fadeInUp ${className}`}
+      style={{ minWidth: width ? `${width}px` : undefined }}
+    >
+      {!loadNow ? (
+        <div className="flex items-center justify-center w-full h-full animate-fadeInUp">
+          <Loader />
+        </div>
+      ) : imgError ? (
         <img
           src={`https://via.placeholder.com/${Number(width) || 400}x${Number(height) || 200}?text=${encodeURIComponent(typeof alt === 'string' ? alt : 'Image')}&bg=${encodeURIComponent('#fbbf24')}&fg=${encodeURIComponent('#fff')}`}
           alt={typeof alt === 'string' ? alt : 'placeholder'}
           width={width}
           height={height}
+          className="animate-fadeIn"
         />
       ) : (
         <Image
@@ -48,11 +55,11 @@ export default function LazyImage({ src, alt, width, height, className, placehol
           height={height}
           onLoad={onLoad}
           onError={() => setImgError(true)}
+          className="animate-fadeIn"
           loading="eager"
           unoptimized={unoptimized}
           {...safeRest}
         />
-        
       )}
     </div>
   );

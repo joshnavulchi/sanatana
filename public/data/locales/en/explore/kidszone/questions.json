@@ -1,0 +1,5544 @@
+{
+  "questions": {
+    "0": {
+      "answer": "A",
+      "id": 1,
+      "options": {
+        "a": "Valmiki",
+        "b": "Vyasa",
+        "c": "Tulsidas",
+        "d": "Kalki"
+      },
+      "question": "Who is traditionally credited as the author of the Ramayana?"
+    },
+    "1": {
+      "answer": "B",
+      "id": 2,
+      "options": {
+        "a": "Valmiki",
+        "b": "Vyasa",
+        "c": "Kalki",
+        "d": "Valmiki"
+      },
+      "question": "Who is traditionally credited as the author of the Mahabharata?"
+    },
+    "2": {
+      "answer": "A",
+      "id": 3,
+      "options": {
+        "a": "Rama",
+        "b": "Lakshmana",
+        "c": "Bharata",
+        "d": "Shatrughna"
+      },
+      "question": "Which prince is the hero of the Ramayana?"
+    },
+    "3": {
+      "answer": "A",
+      "id": 4,
+      "options": {
+        "a": "Ravana",
+        "b": "Vibhishana",
+        "c": "Indrajit",
+        "d": "Kumbhakarna"
+      },
+      "question": "Who abducted Sita in the Ramayana?"
+    },
+    "4": {
+      "answer": "A",
+      "id": 5,
+      "options": {
+        "a": "Sita",
+        "b": "Draupadi",
+        "c": "Kunti",
+        "d": "Mandodari"
+      },
+      "question": "Who is the wife of Rama?"
+    },
+    "5": {
+      "answer": "B",
+      "id": 6,
+      "options": {
+        "a": "Rama",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Yudhishthira"
+      },
+      "question": "Who is the central warrior-hero of the Mahabharata?"
+    },
+    "6": {
+      "answer": "B",
+      "id": 7,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "Bhagavata"
+      },
+      "question": "Which epic features the Kurukshetra war?"
+    },
+    "7": {
+      "answer": "A",
+      "id": 8,
+      "options": {
+        "a": "Krishna",
+        "b": "Shiva",
+        "c": "Hanuman",
+        "d": "Vishnu"
+      },
+      "question": "Who is the supreme charioteer and guide to Arjuna in the Mahabharata?"
+    },
+    "8": {
+      "answer": "A",
+      "id": 9,
+      "options": {
+        "a": "Pataliputra",
+        "b": "Mathura",
+        "c": "Kanchipuram",
+        "d": "Ujjain"
+      },
+      "question": "Which city is the capital of the Maurya Empire under Ashoka?"
+    },
+    "9": {
+      "answer": "B",
+      "id": 10,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Ashoka",
+        "c": "Harsha",
+        "d": "Samudragupta"
+      },
+      "question": "Who was the emperor famous for the Kalinga War and later conversion to Buddhism?"
+    },
+    "10": {
+      "answer": "B",
+      "id": 11,
+      "options": {
+        "a": "Ayodhya",
+        "b": "Lanka",
+        "c": "Kishkindha",
+        "d": "Mithila"
+      },
+      "question": "Which kingdom did Ravana rule?"
+    },
+    "11": {
+      "answer": "B",
+      "id": 12,
+      "options": {
+        "a": "Sugriva",
+        "b": "Hanuman",
+        "c": "Angada",
+        "d": "Vibhishana"
+      },
+      "question": "Who was Rama's loyal monkey-general in the Ramayana?"
+    },
+    "12": {
+      "answer": "A",
+      "id": 13,
+      "options": {
+        "a": "Kunti and Madri",
+        "b": "Kunti only",
+        "c": "Gandhari",
+        "d": "Draupadi"
+      },
+      "question": "Who is the mother of the Pandavas?"
+    },
+    "13": {
+      "answer": "B",
+      "id": 14,
+      "options": {
+        "a": "Swayamvara",
+        "b": "Dice game",
+        "c": "Bridge building",
+        "d": "Coronation"
+      },
+      "question": "Which event begins the Mahabharata war?"
+    },
+    "14": {
+      "answer": "A",
+      "id": 15,
+      "options": {
+        "a": "Dhritarashtra",
+        "b": "Pandu",
+        "c": "Kuru",
+        "d": "Shantanu"
+      },
+      "question": "Who was the blind king married to Gandhari?"
+    },
+    "15": {
+      "answer": "A",
+      "id": 16,
+      "options": {
+        "a": "Ganges",
+        "b": "Thames",
+        "c": "Nile",
+        "d": "Amazon"
+      },
+      "question": "Which river is sacred and often mentioned in Indian epics?"
+    },
+    "16": {
+      "answer": "B",
+      "id": 17,
+      "options": {
+        "a": "Lakshmana",
+        "b": "Rama",
+        "c": "Hanuman",
+        "d": "Vibhishana"
+      },
+      "question": "Who killed Ravana in the Ramayana?"
+    },
+    "17": {
+      "answer": "B",
+      "id": 18,
+      "options": {
+        "a": "Sita",
+        "b": "Draupadi",
+        "c": "Mandodari",
+        "d": "Urvashi"
+      },
+      "question": "Which queen is abducted in the Mahabharata and becomes central to the conflict?"
+    },
+    "18": {
+      "answer": "B",
+      "id": 19,
+      "options": {
+        "a": "Arjuna",
+        "b": "Yudhishthira",
+        "c": "Bhima",
+        "d": "Nakula"
+      },
+      "question": "Who is the eldest Pandava?"
+    },
+    "19": {
+      "answer": "B",
+      "id": 20,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Aurangzeb",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor built the Taj Mahal?"
+    },
+    "20": {
+      "answer": "B",
+      "id": 21,
+      "options": {
+        "a": "Valmiki",
+        "b": "Vyasa",
+        "c": "Bharavi",
+        "d": "Kalidasa"
+      },
+      "question": "Who is considered the author of many Puranas and is a sage in Indian tradition?"
+    },
+    "21": {
+      "answer": "B",
+      "id": 22,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Bindusara",
+        "d": "Harshavardhana"
+      },
+      "question": "Which great Indian emperor founded the Maurya dynasty?"
+    },
+    "22": {
+      "answer": "B",
+      "id": 23,
+      "options": {
+        "a": "Ramayana",
+        "b": "Bhagavathgita",
+        "c": "Upanishads",
+        "d": "Arthashastra"
+      },
+      "question": "Which ancient Indian text is a dialogue between Arjuna and Krishna?"
+    },
+    "23": {
+      "answer": "A",
+      "id": 24,
+      "options": {
+        "a": "Kausalya",
+        "b": "Kaikeyi",
+        "c": "Sumitra",
+        "d": "Mandavi"
+      },
+      "question": "Who was the mother of Rama?"
+    },
+    "24": {
+      "answer": "A",
+      "id": 25,
+      "options": {
+        "a": "Ravana",
+        "b": "Kumbhakarna",
+        "c": "Vibhishana",
+        "d": "Maricha"
+      },
+      "question": "Which demon king had ten heads in the Ramayana?"
+    },
+    "25": {
+      "answer": "B",
+      "id": 26,
+      "options": {
+        "a": "Drona",
+        "b": "Krishna",
+        "c": "Duryodhana",
+        "d": "Shakuni"
+      },
+      "question": "Who guided the Pandavas during their exile and gave them counsel?"
+    },
+    "26": {
+      "answer": "B",
+      "id": 27,
+      "options": {
+        "a": "Lanka",
+        "b": "Mithila",
+        "c": "Kosala",
+        "d": "Kuru"
+      },
+      "question": "Which kingdom was ruled by King Janaka, Sita’s father?"
+    },
+    "27": {
+      "answer": "A",
+      "id": 28,
+      "options": {
+        "a": "Tulsidas",
+        "b": "Valmiki",
+        "c": "Kabir",
+        "d": "Surdas"
+      },
+      "question": "Who composed the Ramcharitmanas (a later retelling of the Ramayana in Awadhi)?"
+    },
+    "28": {
+      "answer": "A",
+      "id": 29,
+      "options": {
+        "a": "Gupta",
+        "b": "Chola",
+        "c": "Maurya",
+        "d": "Pala"
+      },
+      "question": "Which dynasty did Samudragupta belong to?"
+    },
+    "29": {
+      "answer": "D",
+      "id": 30,
+      "options": {
+        "a": "Suka",
+        "b": "Nala",
+        "c": "Jatayu",
+        "d": "None of these"
+      },
+      "question": "Who was the legendary charioteer and driver of Rama?"
+    },
+    "30": {
+      "answer": "B",
+      "id": 31,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "Vedas"
+      },
+      "question": "Which epic contains the story of the Bhagavathgita?"
+    },
+    "31": {
+      "answer": "A",
+      "id": 32,
+      "options": {
+        "a": "Kunti",
+        "b": "Ganga",
+        "c": "Kunti and Radha",
+        "d": "Urvashi"
+      },
+      "question": "Who was the mother of Karna?"
+    },
+    "32": {
+      "answer": "A",
+      "id": 33,
+      "options": {
+        "a": "Asoka",
+        "b": "Chandragupta II",
+        "c": "Harsha",
+        "d": "Ashoka"
+      },
+      "question": "Which great emperor promoted Buddhism and left edicts across his empire?"
+    },
+    "33": {
+      "answer": "A",
+      "id": 34,
+      "options": {
+        "a": "Hanuman",
+        "b": "Angada",
+        "c": "Jambavan",
+        "d": "Sugriva"
+      },
+      "question": "Who is the devoted vanara who burns Lanka in the Ramayana?"
+    },
+    "34": {
+      "answer": "B",
+      "id": 35,
+      "options": {
+        "a": "Rama-Ravana war",
+        "b": "Kurukshetra war",
+        "c": "Battle of Lanka",
+        "d": "Siege of Ayodhya"
+      },
+      "question": "Which battle is the climax of the Mahabharata?"
+    },
+    "35": {
+      "answer": "B",
+      "id": 36,
+      "options": {
+        "a": "Draupadi",
+        "b": "Bhanumati",
+        "c": "Subhadra",
+        "d": "Urmila"
+      },
+      "question": "Who was the wife of Duryodhana?"
+    },
+    "36": {
+      "answer": "B",
+      "id": 37,
+      "options": {
+        "a": "Maurya",
+        "b": "Gupta",
+        "c": "Chalukya",
+        "d": "Pallava"
+      },
+      "question": "Which empire was known for its rock-cut architecture like Ajanta and Ellora?"
+    },
+    "37": {
+      "answer": "A",
+      "id": 38,
+      "options": {
+        "a": "Drona",
+        "b": "Kripa",
+        "c": "Vyasa",
+        "d": "Brahma"
+      },
+      "question": "Who was the guru of both the Pandavas and Kauravas?"
+    },
+    "38": {
+      "answer": "B",
+      "id": 39,
+      "options": {
+        "a": "Vibhishana",
+        "b": "Jatayu",
+        "c": "Ravana",
+        "d": "Indrajit"
+      },
+      "question": "Which figure in the Ramayana is renowned for his loyalty and service to Rama and Sita?"
+    },
+    "39": {
+      "answer": "A",
+      "id": 40,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Satyaki",
+        "d": "Kritavarma"
+      },
+      "question": "Who killed the warrior Karna in the Mahabharata?"
+    },
+    "40": {
+      "answer": "B",
+      "id": 41,
+      "options": {
+        "a": "Yamuna",
+        "b": "Ganges",
+        "c": "Godavari",
+        "d": "Narmada"
+      },
+      "question": "Which river flows through the city of Varanasi, a sacred Hindu city?"
+    },
+    "41": {
+      "answer": "B",
+      "id": 42,
+      "options": {
+        "a": "Kausalya",
+        "b": "Sumitra",
+        "c": "Kaikeyi",
+        "d": "Sita"
+      },
+      "question": "Who is the mother of Lakshmana?"
+    },
+    "42": {
+      "answer": "B",
+      "id": 43,
+      "options": {
+        "a": "Manusmriti",
+        "b": "Arthashastra",
+        "c": "Ramayana",
+        "d": "Mahabharata"
+      },
+      "question": "Which ancient text is a treatise on statecraft by Kautilya?"
+    },
+    "43": {
+      "answer": "A",
+      "id": 44,
+      "options": {
+        "a": "Ayodhya",
+        "b": "Lanka",
+        "c": "Mithila",
+        "d": "Kosala"
+      },
+      "question": "Which kingdom did Bharat (brother of Rama) rule temporarily?"
+    },
+    "44": {
+      "answer": "A",
+      "id": 45,
+      "options": {
+        "a": "Kunti",
+        "b": "Gandhari",
+        "c": "Satyavati",
+        "d": "Madri"
+      },
+      "question": "Who was the mother of Draupadi?"
+    },
+    "45": {
+      "answer": "B",
+      "id": 46,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta II (Vikramaditya)",
+        "c": "Akbar",
+        "d": "Shivaji"
+      },
+      "question": "Which Indian emperor’s reign is often called the Golden Age of India?"
+    },
+    "46": {
+      "answer": "A",
+      "id": 47,
+      "options": {
+        "a": "Agra",
+        "b": "Delhi",
+        "c": "Jaipur",
+        "d": "Lucknow"
+      },
+      "question": "Which city served as the capital of the Mughal Empire under Shah Jahan?"
+    },
+    "47": {
+      "answer": "A",
+      "id": 48,
+      "options": {
+        "a": "Sugriva",
+        "b": "Vibhishana",
+        "c": "Jatayu",
+        "d": "Hanuman"
+      },
+      "question": "Who is the monkey king who becomes ally of Rama?"
+    },
+    "48": {
+      "answer": "D",
+      "id": 49,
+      "options": {
+        "a": "Sudarshana Chakra",
+        "b": "Brahmastra",
+        "c": "Pashupatastra",
+        "d": "Gandiva"
+      },
+      "question": "Which weapon did Arjuna famously use when guided by Krishna?"
+    },
+    "49": {
+      "answer": "A",
+      "id": 50,
+      "options": {
+        "a": "Nalanda",
+        "b": "Takshashila",
+        "c": "Vikramashila",
+        "d": "Kanchi"
+      },
+      "question": "Which ancient Indian university was a major center of learning in the first millennium CE?"
+    },
+    "50": {
+      "answer": "D",
+      "id": 51,
+      "options": {
+        "a": "Vasuki",
+        "b": "Shesha",
+        "c": "Naga",
+        "d": "None of these"
+      },
+      "question": "Who is the serpent-king in the Ramayana who helps Rama?"
+    },
+    "51": {
+      "answer": "B",
+      "id": 52,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Yudhishthira",
+        "d": "Nakula"
+      },
+      "question": "Which hero was famous for his strength among the Pandavas?"
+    },
+    "52": {
+      "answer": "B",
+      "id": 53,
+      "options": {
+        "a": "Bindusara",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Bimbisara"
+      },
+      "question": "Which ruler is known for establishing a centralized administration in ancient India before Ashoka?"
+    },
+    "53": {
+      "answer": "B",
+      "id": 54,
+      "options": {
+        "a": "Lakshmana",
+        "b": "Bharata",
+        "c": "Shatrughna",
+        "d": "Vibhishana"
+      },
+      "question": "Who is the brother of Rama who later rules the kingdom?"
+    },
+    "54": {
+      "answer": "A",
+      "id": 55,
+      "options": {
+        "a": "Ayodhya",
+        "b": "Mithila",
+        "c": "Lanka",
+        "d": "Dwaraka"
+      },
+      "question": "Which city is celebrated as the setting of Rama’s kingdom?"
+    },
+    "55": {
+      "answer": "A",
+      "id": 56,
+      "options": {
+        "a": "Drona",
+        "b": "Kripa",
+        "c": "Vyasa",
+        "d": "Brihaspati"
+      },
+      "question": "Who was the teacher who taught the Pandavas martial arts?"
+    },
+    "56": {
+      "answer": "C",
+      "id": 57,
+      "options": {
+        "a": "Dhritarashtra",
+        "b": "Shantanu",
+        "c": "Vichitravirya",
+        "d": "Bhishma"
+      },
+      "question": "Which king in the Mahabharata was cursed to be childless and adopted Pandu?"
+    },
+    "57": {
+      "answer": "A",
+      "id": 58,
+      "options": {
+        "a": "Indian Ocean",
+        "b": "Pacific Ocean",
+        "c": "Atlantic Ocean",
+        "d": "Arctic Ocean"
+      },
+      "question": "Which great sea do we find mentioned in ancient Indian epics as surrounding Lanka?"
+    },
+    "58": {
+      "answer": "A",
+      "id": 59,
+      "options": {
+        "a": "Karna",
+        "b": "Arjuna",
+        "c": "Rama",
+        "d": "Bhima"
+      },
+      "question": "Which legendary archer was born with the protective armor and earrings (kavacha-kundala)?"
+    },
+    "59": {
+      "answer": "B",
+      "id": 60,
+      "options": {
+        "a": "Chandragupta I",
+        "b": "Samudragupta",
+        "c": "Chandragupta II",
+        "d": "Skandagupta"
+      },
+      "question": "Which leader united much of northern India in the 4th–5th centuries CE under the Gupta dynasty?"
+    },
+    "60": {
+      "answer": "A",
+      "id": 61,
+      "options": {
+        "a": "Kumbhakarna",
+        "b": "Indrajit",
+        "c": "Vibhishana",
+        "d": "Hanuman"
+      },
+      "question": "Which character in the Ramayana is known for his giant appetite and sleeping long hours?"
+    },
+    "61": {
+      "answer": "C",
+      "id": 62,
+      "options": {
+        "a": "Bhima",
+        "b": "Arjuna",
+        "c": "Yudhishthira",
+        "d": "Sahadeva"
+      },
+      "question": "Which Pandava is known for his truthfulness and righteousness?"
+    },
+    "62": {
+      "answer": "A",
+      "id": 63,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Harsha",
+        "d": "Samudragupta"
+      },
+      "question": "Which famous Indian emperor held the Dhamma Mahamatras to spread his edicts?"
+    },
+    "63": {
+      "answer": "D",
+      "id": 64,
+      "options": {
+        "a": "Rama Setu",
+        "b": "Adam's Bridge",
+        "c": "Setu Bandha",
+        "d": "Both A and B"
+      },
+      "question": "What is the name of the bridge built by Rama’s army to reach Lanka?"
+    },
+    "64": {
+      "answer": "B",
+      "id": 65,
+      "options": {
+        "a": "Kausalya",
+        "b": "Kaikeyi",
+        "c": "Sumitra",
+        "d": "Sita"
+      },
+      "question": "Who is the mother of Bharata (Rama's brother)?"
+    },
+    "65": {
+      "answer": "C",
+      "id": 66,
+      "options": {
+        "a": "Drona",
+        "b": "Karna",
+        "c": "Bhishma",
+        "d": "Duryodhana"
+      },
+      "question": "Who was the commander-in-chief of the Kaurava army at Kurukshetra?"
+    },
+    "66": {
+      "answer": "B",
+      "id": 67,
+      "options": {
+        "a": "Gupta",
+        "b": "Chola",
+        "c": "Maurya",
+        "d": "Kushan"
+      },
+      "question": "Which dynasty is famous for temple-building in South India during medieval times?"
+    },
+    "67": {
+      "answer": "B",
+      "id": 68,
+      "options": {
+        "a": "Dhritarashtra",
+        "b": "Pandu",
+        "c": "Vichitravirya",
+        "d": "Shantanu"
+      },
+      "question": "Who was the father of the Pandavas?"
+    },
+    "68": {
+      "answer": "A",
+      "id": 69,
+      "options": {
+        "a": "Gandhari",
+        "b": "Kunti",
+        "c": "Satyavati",
+        "d": "Kausalya"
+      },
+      "question": "Who was the mother of the Kauravas?"
+    },
+    "69": {
+      "answer": "B",
+      "id": 70,
+      "options": {
+        "a": "Ramayana",
+        "b": "Manusmriti",
+        "c": "Bhagavata",
+        "d": "Mahabharata"
+      },
+      "question": "Which ancient Indian text contains rules of social conduct and law?"
+    },
+    "70": {
+      "answer": "A",
+      "id": 71,
+      "options": {
+        "a": "Bhishma",
+        "b": "Drona",
+        "c": "Dhritarashtra",
+        "d": "Pandu"
+      },
+      "question": "Which famous king in the Mahabharata took a vow of celibacy and prevented succession?"
+    },
+    "71": {
+      "answer": "B",
+      "id": 72,
+      "options": {
+        "a": "Konark Sun Temple",
+        "b": "Brihadeeswarar Temple (Thanjavur)",
+        "c": "Meenakshi Temple",
+        "d": "Khajuraho"
+      },
+      "question": "Which great temple complex is associated with the Chola dynasty?"
+    },
+    "72": {
+      "answer": "B",
+      "id": 73,
+      "options": {
+        "a": "Subhas Chandra Bose",
+        "b": "Mahatma Gandhi",
+        "c": "Bhagat Singh",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "question": "Which leader led the Indian independence movement with non-violent civil disobedience?"
+    },
+    "73": {
+      "answer": "A",
+      "id": 74,
+      "options": {
+        "a": "Sugriva",
+        "b": "Hanuman",
+        "c": "Angada",
+        "d": "Jambavan"
+      },
+      "question": "Who was the commander of Rama’s vanara forces who later becomes king of Kishkindha?"
+    },
+    "74": {
+      "answer": "C",
+      "id": 75,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Bindusara",
+        "c": "Ashoka",
+        "d": "Samprati"
+      },
+      "question": "Which Mauryan emperor’s grandson is famed for converting to Buddhism?"
+    },
+    "75": {
+      "answer": "A",
+      "id": 76,
+      "options": {
+        "a": "Agra",
+        "b": "Varanasi",
+        "c": "Pune",
+        "d": "Goa"
+      },
+      "question": "Which important Indian city was a major center of medieval trade and was ruled by the Mughals?"
+    },
+    "76": {
+      "answer": "D",
+      "id": 77,
+      "options": {
+        "a": "Kripa",
+        "b": "Shikhandi",
+        "c": "Santanu",
+        "d": "None of these"
+      },
+      "question": "In the Mahabharata, who is the charioteer of Bhishma early in the war?"
+    },
+    "77": {
+      "answer": "D",
+      "id": 78,
+      "options": {
+        "a": "Valmiki",
+        "b": "Kautilya",
+        "c": "Vishwamitra",
+        "d": "Vyasa"
+      },
+      "question": "Which sage is often depicted advising rulers in ancient Indian texts?"
+    },
+    "78": {
+      "answer": "A",
+      "id": 79,
+      "options": {
+        "a": "Ganges",
+        "b": "Godavari",
+        "c": "Cauvery",
+        "d": "Tapti"
+      },
+      "question": "Which river formed the heartland of the Mauryan and Gupta empires?"
+    },
+    "79": {
+      "answer": "A",
+      "id": 80,
+      "options": {
+        "a": "Vibhishana",
+        "b": "Kumbhakarna",
+        "c": "Indrajit",
+        "d": "Maricha"
+      },
+      "question": "Who is the brother of Ravana who remains loyal to him but later deserts?"
+    },
+    "80": {
+      "answer": "C",
+      "id": 81,
+      "options": {
+        "a": "Chandragupta I",
+        "b": "Samudragupta",
+        "c": "Chandragupta II (Vikramaditya)",
+        "d": "Skandagupta"
+      },
+      "question": "Which Gupta emperor is often associated with flourishing arts and literature?"
+    },
+    "81": {
+      "answer": "A",
+      "id": 82,
+      "options": {
+        "a": "Dhrishtadyumna",
+        "b": "Arjuna",
+        "c": "Yudhishthira",
+        "d": "Bhima"
+      },
+      "question": "Who killed Drona in the Mahabharata?"
+    },
+    "82": {
+      "answer": "A",
+      "id": 83,
+      "options": {
+        "a": "Pratishthana (Paithan)",
+        "b": "Pataliputra",
+        "c": "Ujjain",
+        "d": "Kanchipuram"
+      },
+      "question": "Which ancient city was the capital of the Satavahana dynasty?"
+    },
+    "83": {
+      "answer": "B",
+      "id": 84,
+      "options": {
+        "a": "Arjuna",
+        "b": "Rama",
+        "c": "Bhima",
+        "d": "Karna"
+      },
+      "question": "Which epic hero is known for his exile of 14 years?"
+    },
+    "84": {
+      "answer": "B",
+      "id": 85,
+      "options": {
+        "a": "Kunti",
+        "b": "Madri",
+        "c": "Satyavati",
+        "d": "Gandhari"
+      },
+      "question": "Who was the mother of the twins Nakula and Sahadeva?"
+    },
+    "85": {
+      "answer": "B",
+      "id": 86,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Jahangir",
+        "d": "Shah Jahan"
+      },
+      "question": "Which Mughal emperor expanded the empire to its greatest territorial extent?"
+    },
+    "86": {
+      "answer": "A",
+      "id": 87,
+      "options": {
+        "a": "Draupadi",
+        "b": "Urvashi",
+        "c": "Kunti",
+        "d": "Satyavati"
+      },
+      "question": "Which sister of the Pandavas married the five brothers?"
+    },
+    "87": {
+      "answer": "A",
+      "id": 88,
+      "options": {
+        "a": "Durvasa",
+        "b": "Bhrigu",
+        "c": "Agastya",
+        "d": "Vishwamitra"
+      },
+      "question": "Which sage cursed Indra leading to the churning of the ocean as per myth?"
+    },
+    "88": {
+      "answer": "A",
+      "id": 89,
+      "options": {
+        "a": "Battle of Panipat (1761)",
+        "b": "Battle of Plassey",
+        "c": "Battle of Buxar",
+        "d": "None of these"
+      },
+      "question": "Which battle fought by the Marathas established their rise in the 18th century?"
+    },
+    "89": {
+      "answer": "A",
+      "id": 90,
+      "options": {
+        "a": "Mathura and Dwarka",
+        "b": "Ayodhya",
+        "c": "Varanasi",
+        "d": "Kanchipuram"
+      },
+      "question": "Which city is associated with the life of Krishna and the Pandavas?"
+    },
+    "90": {
+      "answer": "A",
+      "id": 91,
+      "options": {
+        "a": "Hidimbi",
+        "b": "Kunti",
+        "c": "Gandhari",
+        "d": "Madri"
+      },
+      "question": "Who was the mother of Ghatotkacha?"
+    },
+    "91": {
+      "answer": "A",
+      "id": 92,
+      "options": {
+        "a": "Sher Shah Suri",
+        "b": "Akbar",
+        "c": "Ashoka",
+        "d": "Raja Raja Chola"
+      },
+      "question": "Which emperor completed the construction of the Grand Trunk Road extension in his time?"
+    },
+    "92": {
+      "answer": "A",
+      "id": 93,
+      "options": {
+        "a": "Kautilya (Chanakya)",
+        "b": "Ashoka",
+        "c": "Bimbisara",
+        "d": "Megasthenes"
+      },
+      "question": "Who was the architect of the Mauryan administrative system often credited in Arthashastra?"
+    },
+    "93": {
+      "answer": "A",
+      "id": 94,
+      "options": {
+        "a": "Yudhishthira",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Duryodhana"
+      },
+      "question": "Which Pandava was known for his expertise with dice and gambling?"
+    },
+    "94": {
+      "answer": "A",
+      "id": 95,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Bhaskara II",
+        "d": "Pingala"
+      },
+      "question": "Which ancient Indian mathematician is famous for contributions to zero and decimal system?"
+    },
+    "95": {
+      "answer": "A",
+      "id": 96,
+      "options": {
+        "a": "Bharata",
+        "b": "Lakshmana",
+        "c": "Shatrughna",
+        "d": "None"
+      },
+      "question": "Who is the loyal brother of Rama who stayed behind in Ayodhya?"
+    },
+    "96": {
+      "answer": "A",
+      "id": 97,
+      "options": {
+        "a": "Bharatanatyam",
+        "b": "Kathak",
+        "c": "Kathakali",
+        "d": "Odissi"
+      },
+      "question": "Which classical Indian dance form developed in the temples of Tamil Nadu under Chola patrons?"
+    },
+    "97": {
+      "answer": "B",
+      "id": 98,
+      "options": {
+        "a": "Kunti",
+        "b": "Gandhari",
+        "c": "Satyavati",
+        "d": "Kausalya"
+      },
+      "question": "Who is the mother of the Kuru princes born to Gandhari?"
+    },
+    "98": {
+      "answer": "D",
+      "id": 99,
+      "options": {
+        "a": "Rock edicts",
+        "b": "Rathod Inscription",
+        "c": "Pillars of Ashoka",
+        "d": "Both A and C"
+      },
+      "question": "Which ancient inscription records Ashoka’s policy of dhamma?"
+    },
+    "99": {
+      "answer": "B",
+      "id": 100,
+      "options": {
+        "a": "Duryodhana",
+        "b": "Yudhishthira",
+        "c": "Draupadi",
+        "d": "Arjuna"
+      },
+      "question": "Who becomes the king of Hastinapura after the Kurukshetra war?"
+    },
+    "100": {
+      "answer": "B",
+      "id": 101,
+      "options": {
+        "a": "Second",
+        "b": "Seventh",
+        "c": "Sixth",
+        "d": "Fourth"
+      },
+      "question": "Which avatar of Vishnu is Rama?"
+    },
+    "101": {
+      "answer": "A",
+      "id": 102,
+      "options": {
+        "a": "Dandaka Forest",
+        "b": "Nandanvan",
+        "c": "Kamchatka",
+        "d": "Bharatvan"
+      },
+      "question": "Which forest did Rama spend much of his exile in?"
+    },
+    "102": {
+      "answer": "A",
+      "id": 103,
+      "options": {
+        "a": "Abhimanyu",
+        "b": "Babruvahana",
+        "c": "Srutakarma",
+        "d": "None of these"
+      },
+      "question": "Which son of Arjuna married Krishna’s sister?"
+    },
+    "103": {
+      "answer": "B",
+      "id": 104,
+      "options": {
+        "a": "Hastinapur",
+        "b": "Indraprastha",
+        "c": "Ayodhya",
+        "d": "Dwaraka"
+      },
+      "question": "Which kingdom did the Pandavas rule after the war?"
+    },
+    "104": {
+      "answer": "A",
+      "id": 105,
+      "options": {
+        "a": "Maurya",
+        "b": "Gupta",
+        "c": "Kushan",
+        "d": "Chola"
+      },
+      "question": "Which ancient Indian empire had prominent rock-cut pillars and a famous edict at Girnar?"
+    },
+    "105": {
+      "answer": "A",
+      "id": 106,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Valmiki",
+        "c": "Vyasa",
+        "d": "Bhasa"
+      },
+      "question": "Which poet wrote the Meghaduta and Raghuvamsa in classical Sanskrit?"
+    },
+    "106": {
+      "answer": "C",
+      "id": 107,
+      "options": {
+        "a": "Bharata",
+        "b": "Shatrughna",
+        "c": "Lakshmana",
+        "d": "Vibhishana"
+      },
+      "question": "Who is the brother of Sita who accompanies Rama?"
+    },
+    "107": {
+      "answer": "B",
+      "id": 108,
+      "options": {
+        "a": "Alauddin Khalji",
+        "b": "Qutb-ud-din Aibak",
+        "c": "Iltutmish",
+        "d": "Jehangir"
+      },
+      "question": "Which famous Indian ruler built the Qutub Minar complex?"
+    },
+    "108": {
+      "answer": "A",
+      "id": 109,
+      "options": {
+        "a": "Sahadeva",
+        "b": "Nakula",
+        "c": "Yudhishthira",
+        "d": "Arjuna"
+      },
+      "question": "Which Pandava was known for his intelligence and knowledge of scriptures?"
+    },
+    "109": {
+      "answer": "A",
+      "id": 110,
+      "options": {
+        "a": "Kuru",
+        "b": "Panchala",
+        "c": "Kosala",
+        "d": "Magadha"
+      },
+      "question": "Which kingdom did Duryodhana belong to?"
+    },
+    "110": {
+      "answer": "D",
+      "id": 111,
+      "options": {
+        "a": "Lava and Kusha",
+        "b": "Kusha",
+        "c": "Lava",
+        "d": "Bharata"
+      },
+      "question": "Who is the son of Rama and Sita?"
+    },
+    "111": {
+      "answer": "A",
+      "id": 112,
+      "options": {
+        "a": "Harsha",
+        "b": "Ashoka",
+        "c": "Samudragupta",
+        "d": "Chandragupta II"
+      },
+      "question": "Which king is known for patronizing Nalanda and Buddhist learning?"
+    },
+    "112": {
+      "answer": "A",
+      "id": 113,
+      "options": {
+        "a": "Raigad",
+        "b": "Pratapgarh",
+        "c": "Gingee",
+        "d": "Sinhagad"
+      },
+      "question": "Which hill fortress is associated with Shivaji?"
+    },
+    "113": {
+      "answer": "B",
+      "id": 114,
+      "options": {
+        "a": "Hanuman",
+        "b": "Jambavan",
+        "c": "Angada",
+        "d": "Maricha"
+      },
+      "question": "Who is the famous vanara who convinces Sugriva to ally with Rama?"
+    },
+    "114": {
+      "answer": "B",
+      "id": 115,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal emperor moved the capital from Agra to Delhi and built the Red Fort?"
+    },
+    "115": {
+      "answer": "B",
+      "id": 116,
+      "options": {
+        "a": "Manusmriti",
+        "b": "Arthashastra",
+        "c": "Bhagavata",
+        "d": "Ramayana"
+      },
+      "question": "Which ancient text describes the duties of a king and public administration?"
+    },
+    "116": {
+      "answer": "B",
+      "id": 117,
+      "options": {
+        "a": "Draupadi",
+        "b": "Subhadra",
+        "c": "Kunti",
+        "d": "Gandhari"
+      },
+      "question": "Who was the mother of the warrior Abhimanyu?"
+    },
+    "117": {
+      "answer": "B",
+      "id": 118,
+      "options": {
+        "a": "Rama",
+        "b": "Yudhishthira",
+        "c": "Ashoka",
+        "d": "Samudragupta"
+      },
+      "question": "Which king performed the Ashvamedha sacrifice according to ancient texts?"
+    },
+    "118": {
+      "answer": "B",
+      "id": 119,
+      "options": {
+        "a": "Tiruvalluvar",
+        "b": "Appar and Sambandar",
+        "c": "Alvars",
+        "d": "Nayanars"
+      },
+      "question": "Which famous poet-saint composed devotional poetry in Tamil called Thevaram?"
+    },
+    "119": {
+      "answer": "B",
+      "id": 120,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Akbar",
+        "c": "Jahangir",
+        "d": "Shah Jahan"
+      },
+      "question": "Which Mughal emperor is known for religious tolerance and Akbar’s policy of Sulh-i Kul?"
+    },
+    "120": {
+      "answer": "B",
+      "id": 121,
+      "options": {
+        "a": "Vibhishana",
+        "b": "Ravana",
+        "c": "Indrajit",
+        "d": "Kumbhakarna"
+      },
+      "question": "Who was the king of Lanka that opposed Rama?"
+    },
+    "121": {
+      "answer": "B",
+      "id": 122,
+      "options": {
+        "a": "Yudhishthira",
+        "b": "Sahadeva",
+        "c": "Nakula",
+        "d": "Bhima"
+      },
+      "question": "Which Pandava was famous for his diplomatic skills and knowledge of statecraft?"
+    },
+    "122": {
+      "answer": "C",
+      "id": 123,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Bindusara",
+        "c": "Porus (Paurava)",
+        "d": "Ashoka"
+      },
+      "question": "Which Indian king fought Alexander the Great’s successors and is recorded by Greek historians?"
+    },
+    "123": {
+      "answer": "B",
+      "id": 124,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "Vedas"
+      },
+      "question": "Which great epic contains the story of Draupadi’s humiliation in the Kaurava court?"
+    },
+    "124": {
+      "answer": "A",
+      "id": 125,
+      "options": {
+        "a": "Bimbisara",
+        "b": "Ajatashatru",
+        "c": "Chandragupta Maurya",
+        "d": "Bindusara"
+      },
+      "question": "Which king ruled Magadha and started the foundation for the Mauryan Empire?"
+    },
+    "125": {
+      "answer": "A",
+      "id": 126,
+      "options": {
+        "a": "Vanara army",
+        "b": "Rama alone",
+        "c": "Vibhishana",
+        "d": "Indra"
+      },
+      "question": "Who helped Rama build the bridge to Lanka by collecting stones?"
+    },
+    "126": {
+      "answer": "B",
+      "id": 127,
+      "options": {
+        "a": "Agra",
+        "b": "Fatehpur Sikri",
+        "c": "Delhi",
+        "d": "Jaipur"
+      },
+      "question": "Which city is famously associated with the life of Akbar?"
+    },
+    "127": {
+      "answer": "B",
+      "id": 128,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhishma",
+        "c": "Drona",
+        "d": "Karna"
+      },
+      "question": "Which king in the Mahabharata was known for his vow to protect the weak and was a great archer?"
+    },
+    "128": {
+      "answer": "A",
+      "id": 129,
+      "options": {
+        "a": "Shakuntala",
+        "b": "Meghaduta",
+        "c": "Raghuvamsa",
+        "d": "Kumarasambhava"
+      },
+      "question": "Which ancient Indian play is attributed to Kalidasa?"
+    },
+    "129": {
+      "answer": "A",
+      "id": 130,
+      "options": {
+        "a": "Dasharatha",
+        "b": "Janaka",
+        "c": "Dasaradha",
+        "d": "Ravana"
+      },
+      "question": "Who is the father of Rama in the Ramayana?"
+    },
+    "130": {
+      "answer": "B",
+      "id": 131,
+      "options": {
+        "a": "Bajirao I",
+        "b": "Shivaji Maharaj",
+        "c": "Sambhaji",
+        "d": "Balaji Vishwanath"
+      },
+      "question": "Which Maratha leader established an independent Maratha kingdom in the 17th century?"
+    },
+    "131": {
+      "answer": "B",
+      "id": 132,
+      "options": {
+        "a": "Valmiki",
+        "b": "Kalidasa",
+        "c": "Vyasa",
+        "d": "Bhasa"
+      },
+      "question": "Which great poet wrote works in Sanskrit such as Kumarasambhava?"
+    },
+    "132": {
+      "answer": "B",
+      "id": 133,
+      "options": {
+        "a": "Narmada",
+        "b": "Ganges",
+        "c": "Godavari",
+        "d": "Cauvery"
+      },
+      "question": "Which river is associated with the city of Kashi (Varanasi)?"
+    },
+    "133": {
+      "answer": "B",
+      "id": 134,
+      "options": {
+        "a": "Abhimanyu",
+        "b": "Dhrishtadyumna",
+        "c": "Shikhandi",
+        "d": "Kritavarma"
+      },
+      "question": "Which king in the Mahabharata was a general of the Pandavas and killed by Duryodhana?"
+    },
+    "134": {
+      "answer": "C",
+      "id": 135,
+      "options": {
+        "a": "Gupta",
+        "b": "Maurya",
+        "c": "Kushan",
+        "d": "Chola"
+      },
+      "question": "Which ancient empire issued gold coins called dinaras and had trade links with Rome?"
+    },
+    "135": {
+      "answer": "A",
+      "id": 136,
+      "options": {
+        "a": "Mandodari",
+        "b": "Sita",
+        "c": "Draupadi",
+        "d": "Shurpanakha"
+      },
+      "question": "Who was the queen of Lanka and wife of Ravana?"
+    },
+    "136": {
+      "answer": "A",
+      "id": 137,
+      "options": {
+        "a": "Rama",
+        "b": "Raja Ram Mohan Roy",
+        "c": "Ramachandra",
+        "d": "None of these"
+      },
+      "question": "Which king in Indian history is associated with the hymn 'Ram' in folk traditions rather than the epic poet?"
+    },
+    "137": {
+      "answer": "A",
+      "id": 138,
+      "options": {
+        "a": "Thanjavur",
+        "b": "Kanchipuram",
+        "c": "Madurai",
+        "d": "Pattadakal"
+      },
+      "question": "Which city was the capital of the Chola dynasty at its peak?"
+    },
+    "138": {
+      "answer": "A",
+      "id": 139,
+      "options": {
+        "a": "Ganga",
+        "b": "Satyavati",
+        "c": "Kunti",
+        "d": "Ambika"
+      },
+      "question": "Who was the mother of the Kuru elder Bhishma?"
+    },
+    "139": {
+      "answer": "B",
+      "id": 140,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Shah Jahan",
+        "c": "Akbar",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor reigned during the construction of the Taj Mahal?"
+    },
+    "140": {
+      "answer": "A",
+      "id": 141,
+      "options": {
+        "a": "Jatayu",
+        "b": "Garuda",
+        "c": "Vayu",
+        "d": "Sampati"
+      },
+      "question": "Which legendary bird tried to rescue Sita from Ravana but failed and later died?"
+    },
+    "141": {
+      "answer": "C",
+      "id": 142,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Madhava",
+        "d": "Brahmagupta and Bhaskara"
+      },
+      "question": "Which ancient Indian mathematician approximated pi and worked on trigonometry?"
+    },
+    "142": {
+      "answer": "A",
+      "id": 143,
+      "options": {
+        "a": "Bhagavathgita",
+        "b": "Rigveda",
+        "c": "Upanishads",
+        "d": "Ramayana"
+      },
+      "question": "Which scripture is a key text of Hindu philosophy and is part of the Mahabharata?"
+    },
+    "143": {
+      "answer": "B",
+      "id": 144,
+      "options": {
+        "a": "Anjana",
+        "b": "Tara",
+        "c": "Sita",
+        "d": "Mandodari"
+      },
+      "question": "Who is the mother of the vanara prince Angada?"
+    },
+    "144": {
+      "answer": "A",
+      "id": 145,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta",
+        "c": "Bindusara",
+        "d": "Harsha"
+      },
+      "question": "Which ruler is associated with the inscription of Ashoka found at Dhauli and Dhauli hill?"
+    },
+    "145": {
+      "answer": "A",
+      "id": 146,
+      "options": {
+        "a": "Abhimanyu",
+        "b": "Arjuna",
+        "c": "Satyaki",
+        "d": "None"
+      },
+      "question": "Which Pandava was killed by Jayadratha’s arrow leading to Abhimanyu’s death?"
+    },
+    "146": {
+      "answer": "A",
+      "id": 147,
+      "options": {
+        "a": "Satavahana/Gupta era patrons",
+        "b": "Maurya",
+        "c": "Kushan",
+        "d": "Chola"
+      },
+      "question": "Which empire is known for the rock-cut caves at Ajanta?"
+    },
+    "147": {
+      "answer": "A",
+      "id": 148,
+      "options": {
+        "a": "Dushyanta",
+        "b": "Rama",
+        "c": "Yudhisthira",
+        "d": "Krishna"
+      },
+      "question": "Which king’s court is famous for the story of Shakuntala?"
+    },
+    "148": {
+      "answer": "A",
+      "id": 149,
+      "options": {
+        "a": "Vishvamitra",
+        "b": "Valmiki",
+        "c": "Bhrigu",
+        "d": "Vashistha"
+      },
+      "question": "Which sage guided Rama and is credited with the birth of Shravana?"
+    },
+    "149": {
+      "answer": "C",
+      "id": 150,
+      "options": {
+        "a": "Bay of Bengal",
+        "b": "Arabian Sea",
+        "c": "Palk Strait/Indian Ocean",
+        "d": "Pacific Ocean"
+      },
+      "question": "Which sea separates the Indian subcontinent from Sri Lanka?"
+    },
+    "150": {
+      "answer": "B",
+      "id": 151,
+      "options": {
+        "a": "Akbar",
+        "b": "Jahangir",
+        "c": "Humayun",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal emperor reigned before Shah Jahan and was known for his administrative reforms?"
+    },
+    "151": {
+      "answer": "D",
+      "id": 152,
+      "options": {
+        "a": "Bhisma had no teacher",
+        "b": "Shantanu",
+        "c": "None",
+        "d": "Gurus like Shukracharya"
+      },
+      "question": "Who was the teacher of Bhishma and also served the Kuru court?"
+    },
+    "152": {
+      "answer": "B",
+      "id": 153,
+      "options": {
+        "a": "Battle of Plassey",
+        "b": "Battle of Panipat (1526)",
+        "c": "Battle of Talikota",
+        "d": "Siege of Golconda"
+      },
+      "question": "Which battle in 1526 established Mughal rule in India?"
+    },
+    "153": {
+      "answer": "A",
+      "id": 154,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Varahamihira",
+        "d": "Bhaskara II"
+      },
+      "question": "Which ancient astronomer from India proposed that the earth rotates on its axis?"
+    },
+    "154": {
+      "answer": "A",
+      "id": 155,
+      "options": {
+        "a": "Sugriva",
+        "b": "Vibhishana",
+        "c": "Jambavan",
+        "d": "Indrajit"
+      },
+      "question": "Which king in the Ramayana helps Rama cross the ocean by providing a monkey army?"
+    },
+    "155": {
+      "answer": "C",
+      "id": 156,
+      "options": {
+        "a": "Jawaharlal Nehru",
+        "b": "Subhas Chandra Bose",
+        "c": "Mahatma Gandhi",
+        "d": "Sardar Patel"
+      },
+      "question": "Which modern Indian leader is known as the 'Father of the Nation'?"
+    },
+    "156": {
+      "answer": "C",
+      "id": 157,
+      "options": {
+        "a": "Arthashastra",
+        "b": "Manusmriti",
+        "c": "Panchatantra",
+        "d": "Mahabharata"
+      },
+      "question": "Which ancient Indian text contains dialogues of morals, statecraft and duties of humans (Nītiśāstra)?"
+    },
+    "157": {
+      "answer": "A",
+      "id": 158,
+      "options": {
+        "a": "Dasharatha",
+        "b": "Janaka",
+        "c": "Dasaratha",
+        "d": "Raghava"
+      },
+      "question": "Who is the father of Bharata and Rama’s father?"
+    },
+    "158": {
+      "answer": "B",
+      "id": 159,
+      "options": {
+        "a": "Siraj ud-Daulah",
+        "b": "Mir Jafar",
+        "c": "Mir Qasim",
+        "d": "Alivardi Khan"
+      },
+      "question": "Which Mughal governor later became an independent ruler in Bengal after the Battle of Plassey?"
+    },
+    "159": {
+      "answer": "B",
+      "id": 160,
+      "options": {
+        "a": "Bharatanatyam",
+        "b": "Kathakali",
+        "c": "Kuchipudi",
+        "d": "Odissi"
+      },
+      "question": "Which famous Indian classical dance form originated in Kerala?"
+    },
+    "160": {
+      "answer": "A",
+      "id": 161,
+      "options": {
+        "a": "Bharata",
+        "b": "Lakshmana",
+        "c": "Shatrughna",
+        "d": "Vibhishana"
+      },
+      "question": "Who is the brother of Rama who is known for his devotion and for later ruling Ayodhya?"
+    },
+    "161": {
+      "answer": "B",
+      "id": 162,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Bhasa",
+        "c": "Valmiki",
+        "d": "Vyasa"
+      },
+      "question": "Which famed Sanskrit dramatist wrote plays like Malavikaagnimitram?"
+    },
+    "162": {
+      "answer": "C",
+      "id": 163,
+      "options": {
+        "a": "Yudhishthira",
+        "b": "Karna",
+        "c": "The Pandavas survived by escape",
+        "d": "Arjuna"
+      },
+      "question": "Which Pandava had the boon of surviving the burning of the lac house as a child?"
+    },
+    "163": {
+      "answer": "A",
+      "id": 164,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Akbar",
+        "c": "Jahangir",
+        "d": "Humayun"
+      },
+      "question": "Which emperor in Indian history is associated with the concept of 'Salat' and built many mosques?"
+    },
+    "164": {
+      "answer": "A",
+      "id": 165,
+      "options": {
+        "a": "Arikamedu (near Pondicherry)",
+        "b": "Mumbai",
+        "c": "Chennai",
+        "d": "Kolkata"
+      },
+      "question": "Which major Indian port city was visited by ancient Roman traders for trade in spices and gems?"
+    },
+    "165": {
+      "answer": "A",
+      "id": 166,
+      "options": {
+        "a": "Karna",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Yudhishthira"
+      },
+      "question": "Which character in the Mahabharata is born with divine armor and later gives it away?"
+    },
+    "166": {
+      "answer": "A",
+      "id": 167,
+      "options": {
+        "a": "Nalanda",
+        "b": "Pataliputra",
+        "c": "Ujjain",
+        "d": "Taxila"
+      },
+      "question": "Which historic Indian city was associated with the Gupta empire and is known for its ancient university?"
+    },
+    "167": {
+      "answer": "A",
+      "id": 168,
+      "options": {
+        "a": "Kautilya (Chanakya)",
+        "b": "Ashoka",
+        "c": "Bindusara",
+        "d": "Megasthenes"
+      },
+      "question": "Who is the devoted minister and strategist who helped Chandragupta Maurya?"
+    },
+    "168": {
+      "answer": "A",
+      "id": 169,
+      "options": {
+        "a": "Rama",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Karna"
+      },
+      "question": "Which epic hero’s sons Lava and Kusha recite the Ramayana to Rama later?"
+    },
+    "169": {
+      "answer": "B",
+      "id": 170,
+      "options": {
+        "a": "Agra Fort",
+        "b": "Red Fort",
+        "c": "Gwalior Fort",
+        "d": "Amer Fort"
+      },
+      "question": "Which famous fort was built by the Mughals and is a UNESCO World Heritage site in Delhi?"
+    },
+    "170": {
+      "answer": "A",
+      "id": 171,
+      "options": {
+        "a": "Ganga, Yamuna and Saraswati",
+        "b": "Ganges only",
+        "c": "Godavari",
+        "d": "Narmada"
+      },
+      "question": "Which river is associated with the city of Prayagraj (Allahabad) where rivers meet?"
+    },
+    "171": {
+      "answer": "A",
+      "id": 172,
+      "options": {
+        "a": "Shakuni",
+        "b": "Duryodhana",
+        "c": "Dhritarashtra",
+        "d": "Karana"
+      },
+      "question": "Who is the ruler who betrayed the Pandavas by arranging the dice game?"
+    },
+    "172": {
+      "answer": "A",
+      "id": 173,
+      "options": {
+        "a": "Chola dynasty",
+        "b": "Pandya dynasty",
+        "c": "Cheras",
+        "d": "Hoysala"
+      },
+      "question": "Which king’s rule is credited with reviving Hindu culture during the 9th–12th centuries in South India?"
+    },
+    "173": {
+      "answer": "A",
+      "id": 174,
+      "options": {
+        "a": "Patanjali",
+        "b": "Vyasa",
+        "c": "Vasistha",
+        "d": "Bharadvaja"
+      },
+      "question": "Which famous sage is attributed to writing the Yoga Sutras?"
+    },
+    "174": {
+      "answer": "A",
+      "id": 175,
+      "options": {
+        "a": "Vichitravirya",
+        "b": "Puru",
+        "c": "Chitrangada",
+        "d": "None"
+      },
+      "question": "Who was the other major grandson of Shantanu besides Bhishma?"
+    },
+    "175": {
+      "answer": "B",
+      "id": 176,
+      "options": {
+        "a": "Pandu’s family",
+        "b": "Yadava (Dwaraka)",
+        "c": "Kuru",
+        "d": "Magadha"
+      },
+      "question": "Which kingdom did Arjuna marry into by wedding Subhadra?"
+    },
+    "176": {
+      "answer": "A",
+      "id": 177,
+      "options": {
+        "a": "Madhava of Sangamagrama",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which ancient Indian mathematician calculated the value of pi to surprising accuracy?"
+    },
+    "177": {
+      "answer": "B",
+      "id": 178,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Shah Jahan",
+        "c": "Akbar",
+        "d": "Jahangir"
+      },
+      "question": "Which emperor of the Mughal era built the Jama Masjid in Delhi?"
+    },
+    "178": {
+      "answer": "D",
+      "id": 179,
+      "options": {
+        "a": "Brahmastra",
+        "b": "Sudarshana Chakra",
+        "c": "Vajra",
+        "d": "None specific"
+      },
+      "question": "Which weapon did Karna famously use given by his teacher Parashurama?"
+    },
+    "179": {
+      "answer": "A",
+      "id": 180,
+      "options": {
+        "a": "Bharata",
+        "b": "Lakshmana",
+        "c": "Shatrughna",
+        "d": "Vibhishana"
+      },
+      "question": "Which legendary character in the Ramayana is a devoted brother who refuses the throne but rules in Rama’s stead?"
+    },
+    "180": {
+      "answer": "A",
+      "id": 181,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Harsha"
+      },
+      "question": "Which king famously performed campaigns of conquest and is mentioned by the title 'Devanampriya'?"
+    },
+    "181": {
+      "answer": "A",
+      "id": 182,
+      "options": {
+        "a": "Vasco da Gama",
+        "b": "Bartolomeu Dias",
+        "c": "Christopher Columbus",
+        "d": "Ferdinand Magellan"
+      },
+      "question": "Which 16th-century Portuguese explorer established trade links to India by sea with Vasco da Gama?"
+    },
+    "182": {
+      "answer": "B",
+      "id": 183,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Bhasa",
+        "c": "Shudraka",
+        "d": "Bhavabhuti"
+      },
+      "question": "Which ancient Sanskrit playwright is known for the play Malavikaagnimitram?"
+    },
+    "183": {
+      "answer": "A",
+      "id": 184,
+      "options": {
+        "a": "Hooghly",
+        "b": "Narmada",
+        "c": "Tapti",
+        "d": "Kaveri"
+      },
+      "question": "Which river is sacred and forms part of the Ganges delta?"
+    },
+    "184": {
+      "answer": "A",
+      "id": 185,
+      "options": {
+        "a": "Duryodhana",
+        "b": "Dushasana",
+        "c": "Yuyutsu",
+        "d": "Drona"
+      },
+      "question": "Which Kaurava brother was the principal antagonist in the Mahabharata?"
+    },
+    "185": {
+      "answer": "C",
+      "id": 186,
+      "options": {
+        "a": "Balarama",
+        "b": "Sanjaya",
+        "c": "Vidura",
+        "d": "None of these"
+      },
+      "question": "Who is the wise counselor who helps Krishna and Arjuna with strategies?"
+    },
+    "186": {
+      "answer": "A",
+      "id": 187,
+      "options": {
+        "a": "Diwali",
+        "b": "Holi",
+        "c": "Dussehra",
+        "d": "Rama Navami"
+      },
+      "question": "Which Indian festival celebrates Rama’s return to Ayodhya after exile?"
+    },
+    "187": {
+      "answer": "A",
+      "id": 188,
+      "options": {
+        "a": "Rashtrakuta king Krishna I",
+        "b": "Chalukya king Pulakeshin",
+        "c": "Pallava king Narasimhavarman",
+        "d": "None"
+      },
+      "question": "Which king constructed the famous Kailasa temple at Ellora (attributed)?"
+    },
+    "188": {
+      "answer": "A",
+      "id": 189,
+      "options": {
+        "a": "Godavari",
+        "b": "Narmada",
+        "c": "Ganges",
+        "d": "Brahmaputra"
+      },
+      "question": "Which river is important in southern India and flows east to the Bay of Bengal?"
+    },
+    "189": {
+      "answer": "A",
+      "id": 190,
+      "options": {
+        "a": "Bhima",
+        "b": "Arjuna",
+        "c": "Rama",
+        "d": "Karna"
+      },
+      "question": "Which epic hero killed the demon Bakasura?"
+    },
+    "190": {
+      "answer": "A",
+      "id": 191,
+      "options": {
+        "a": "Chandragupta I",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Chandragupta II"
+      },
+      "question": "Which ancient ruler is known for establishing the Gupta dynasty?"
+    },
+    "191": {
+      "answer": "A",
+      "id": 192,
+      "options": {
+        "a": "Kannauj",
+        "b": "Pataliputra",
+        "c": "Ujjain",
+        "d": "Taxila"
+      },
+      "question": "Which city did Harsha rule in the 7th century CE?"
+    },
+    "192": {
+      "answer": "A",
+      "id": 193,
+      "options": {
+        "a": "Vishvamitra",
+        "b": "Valmiki",
+        "c": "Vasistha",
+        "d": "Bharadwaja"
+      },
+      "question": "Which famous sage accompanied Rama and taught him warfare?"
+    },
+    "193": {
+      "answer": "A",
+      "id": 194,
+      "options": {
+        "a": "Indrajit (Meghnad)",
+        "b": "Kumbhakarna",
+        "c": "Vibhishana",
+        "d": "Maricha"
+      },
+      "question": "Who was the powerful son of Ravana who fought in the Ramayana?"
+    },
+    "194": {
+      "answer": "A",
+      "id": 195,
+      "options": {
+        "a": "Akbar",
+        "b": "Jahangir",
+        "c": "Shah Jahan",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal ruler was famous for the painting school and patronized arts?"
+    },
+    "195": {
+      "answer": "A",
+      "id": 196,
+      "options": {
+        "a": "Lothal",
+        "b": "Diu",
+        "c": "Dadra",
+        "d": "None"
+      },
+      "question": "Which historic port city in western India was famous under the Chalukyas and later the Mughals?"
+    },
+    "196": {
+      "answer": "B",
+      "id": 197,
+      "options": {
+        "a": "Duryodhana",
+        "b": "Dushasana",
+        "c": "Shakuni",
+        "d": "Karna"
+      },
+      "question": "Which king in the Mahabharata was killed by Bhima in revenge for Draupadi’s insult?"
+    },
+    "197": {
+      "answer": "B",
+      "id": 198,
+      "options": {
+        "a": "Sushruta",
+        "b": "Charaka",
+        "c": "Ayurveda",
+        "d": "Dhanvantari"
+      },
+      "question": "Which ancient Indian medical scholar wrote the Charaka Samhita?"
+    },
+    "198": {
+      "answer": "B",
+      "id": 199,
+      "options": {
+        "a": "Jawaharlal Nehru",
+        "b": "Mahatma Gandhi",
+        "c": "Vallabhbhai Patel",
+        "d": "Subhas Chandra Bose"
+      },
+      "question": "Which famous Indian leader led the Salt March in 1930?"
+    },
+    "199": {
+      "answer": "A",
+      "id": 200,
+      "options": {
+        "a": "Ganges (Ganga)",
+        "b": "Yamuna",
+        "c": "Narmada",
+        "d": "Godavari"
+      },
+      "question": "Which river is associated with the ancient capital Pataliputra?"
+    },
+    "200": {
+      "answer": "D",
+      "id": 201,
+      "options": {
+        "a": "Rama",
+        "b": "Sita",
+        "c": "Lakshmana",
+        "d": "None"
+      },
+      "question": "Which legendary figure is the devotee who leapt into fire to test Sita’s chastity?"
+    },
+    "201": {
+      "answer": "A",
+      "id": 202,
+      "options": {
+        "a": "Madhava",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which famous Indian mathematician from Kerala developed an early form of calculus?"
+    },
+    "202": {
+      "answer": "A",
+      "id": 203,
+      "options": {
+        "a": "Duryodhana",
+        "b": "Yuyutsu",
+        "c": "Dushasana",
+        "d": "Shakuni"
+      },
+      "question": "Which Kaurava prince is the main antagonist who leads the Kaurava side?"
+    },
+    "203": {
+      "answer": "A",
+      "id": 204,
+      "options": {
+        "a": "Dussehra",
+        "b": "Diwali",
+        "c": "Holi",
+        "d": "Navratri"
+      },
+      "question": "Which festival celebrates the victory of Rama over Ravana with effigies and fireworks?"
+    },
+    "204": {
+      "answer": "B",
+      "id": 205,
+      "options": {
+        "a": "Maurya",
+        "b": "Gupta",
+        "c": "Kushan",
+        "d": "Pala"
+      },
+      "question": "Which ancient Indian dynasty is noted for patronizing Sanskrit literature and art, giving rise to the Gupta era?"
+    },
+    "205": {
+      "answer": "A",
+      "id": 206,
+      "options": {
+        "a": "Indian Ocean",
+        "b": "Atlantic Ocean",
+        "c": "Baltic Sea",
+        "d": "Black Sea"
+      },
+      "question": "Which sea trade linked ancient India to Rome and the Mediterranean?"
+    },
+    "206": {
+      "answer": "A",
+      "id": 207,
+      "options": {
+        "a": "Lakshmana",
+        "b": "Bharata",
+        "c": "Shatrughna",
+        "d": "None"
+      },
+      "question": "Who is the brother of Rama who accompanies him to the forest?"
+    },
+    "207": {
+      "answer": "C",
+      "id": 208,
+      "options": {
+        "a": "Dasharatha",
+        "b": "Janaka",
+        "c": "Shantanu",
+        "d": "None"
+      },
+      "question": "Which king punished his son and later became a monk in some retellings of the epics?"
+    },
+    "208": {
+      "answer": "A",
+      "id": 209,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Varahamihira",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which ancient Indian astronomer wrote the Aryabhatiya?"
+    },
+    "209": {
+      "answer": "D",
+      "id": 210,
+      "options": {
+        "a": "Bhagat Singh",
+        "b": "Lala Lajpat Rai",
+        "c": "Bhimrao Ambedkar",
+        "d": "None"
+      },
+      "question": "Which leader led the Ghadar movement for Indian independence from abroad?"
+    },
+    "210": {
+      "answer": "B",
+      "id": 211,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "None"
+      },
+      "question": "Which great epic features the character of Bhishma who took a vow of celibacy?"
+    },
+    "211": {
+      "answer": "A",
+      "id": 212,
+      "options": {
+        "a": "Deccan",
+        "b": "Gangetic Plain",
+        "c": "Indus Valley",
+        "d": "Kalinga"
+      },
+      "question": "Which region was ruled by the Satavahanas in ancient India?"
+    },
+    "212": {
+      "answer": "B",
+      "id": 213,
+      "options": {
+        "a": "Lakshmi",
+        "b": "Durga/Devi",
+        "c": "Saraswati",
+        "d": "Parvati"
+      },
+      "question": "Which goddess is worshipped widely and appears in several epics?"
+    },
+    "213": {
+      "answer": "B",
+      "id": 214,
+      "options": {
+        "a": "Western classical",
+        "b": "Hindustani and Carnatic",
+        "c": "Jazz",
+        "d": "Blues"
+      },
+      "question": "Which form of classical Indian music is centered on raga and tala systems?"
+    },
+    "214": {
+      "answer": "B",
+      "id": 215,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Ashoka",
+        "c": "Bindusara",
+        "d": "Bimbisara"
+      },
+      "question": "Which Mauryan emperor wrote edicts on pillars throughout his empire?"
+    },
+    "215": {
+      "answer": "A",
+      "id": 216,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Sahadeva",
+        "d": "Nakula"
+      },
+      "question": "Which Pandava brother killed Jayadratha to avenge Abhimanyu?"
+    },
+    "216": {
+      "answer": "A",
+      "id": 217,
+      "options": {
+        "a": "Tirukkural",
+        "b": "Silappatikaram",
+        "c": "Manimekalai",
+        "d": "Tevaram"
+      },
+      "question": "Which famous Tamil work composed in classical Tamil offers ethical advice in short verses?"
+    },
+    "217": {
+      "answer": "A",
+      "id": 218,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Humayun"
+      },
+      "question": "Which king founded the city of Fatehpur Sikri as his capital?"
+    },
+    "218": {
+      "answer": "A",
+      "id": 219,
+      "options": {
+        "a": "Spices",
+        "b": "Coal",
+        "c": "Tea",
+        "d": "Rubber"
+      },
+      "question": "Which ancient trade item was India famous for exporting to the Roman world?"
+    },
+    "219": {
+      "answer": "B",
+      "id": 220,
+      "options": {
+        "a": "Sugriva",
+        "b": "Hanuman",
+        "c": "Angada",
+        "d": "Jambavan"
+      },
+      "question": "Which epic character is known for his loyalty to his friend Rama and was a royal vanara?"
+    },
+    "220": {
+      "answer": "A",
+      "id": 221,
+      "options": {
+        "a": "Indus",
+        "b": "Ganges",
+        "c": "Godavari",
+        "d": "Kaveri"
+      },
+      "question": "Which river is connected with the Harappan civilization sites?"
+    },
+    "221": {
+      "answer": "B",
+      "id": 222,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Bindusara",
+        "c": "Samprati",
+        "d": "Bimbisara"
+      },
+      "question": "Which leader immediately preceded Ashoka on the Mauryan throne?"
+    },
+    "222": {
+      "answer": "A",
+      "id": 223,
+      "options": {
+        "a": "Bow and arrow",
+        "b": "Sword",
+        "c": "Spear",
+        "d": "Mace"
+      },
+      "question": "Which weapon did Rama use to kill Ravana?"
+    },
+    "223": {
+      "answer": "A",
+      "id": 224,
+      "options": {
+        "a": "Brahadaranyaka Upanishad",
+        "b": "Bhagavata Purana",
+        "c": "Ramayana",
+        "d": "Arthashastra"
+      },
+      "question": "Which philosophical text is part of the Upanishads and later influenced Vedanta?"
+    },
+    "224": {
+      "answer": "B",
+      "id": 225,
+      "options": {
+        "a": "Shalimar Bagh",
+        "b": "Mehtab Bagh",
+        "c": "Rashtrapati Bhavan",
+        "d": "Sunder Nursery"
+      },
+      "question": "Which Mughal period garden in Agra is associated with Shah Jahan and the Taj complex?"
+    },
+    "225": {
+      "answer": "B",
+      "id": 226,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Yudhishthira",
+        "d": "Nakula"
+      },
+      "question": "Which Pandava was famous for his mace and physical strength?"
+    },
+    "226": {
+      "answer": "A",
+      "id": 227,
+      "options": {
+        "a": "Dasharatha",
+        "b": "Janaka",
+        "c": "Ravana",
+        "d": "Dasaratha"
+      },
+      "question": "Which king in Ramayana performed a yajna that led to Rama’s coronation?"
+    },
+    "227": {
+      "answer": "A",
+      "id": 228,
+      "options": {
+        "a": "Aihole",
+        "b": "Kanchipuram",
+        "c": "Thanjavur",
+        "d": "Ujjain"
+      },
+      "question": "Which ancient city was the capital of the Chalukyas and later famous for temples?"
+    },
+    "228": {
+      "answer": "B",
+      "id": 229,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Bhagat Singh",
+        "d": "Jawaharlal Nehru"
+      },
+      "question": "Which Indian freedom fighter founded the Indian National Army (INA)?"
+    },
+    "229": {
+      "answer": "A",
+      "id": 230,
+      "options": {
+        "a": "Vyasa",
+        "b": "Valmiki",
+        "c": "Brahma",
+        "d": "Agastya"
+      },
+      "question": "Which sage is the central character in many Puranic stories and is credited with compiling genealogies?"
+    },
+    "230": {
+      "answer": "A",
+      "id": 231,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Ashoka",
+        "c": "Bindusara",
+        "d": "Bimbisara"
+      },
+      "question": "Which ancient Indian emperor adjacent to the Indus valley is known from Greek accounts as Sandrocottus?"
+    },
+    "231": {
+      "answer": "A",
+      "id": 232,
+      "options": {
+        "a": "Janmashtami",
+        "b": "Rama Navami",
+        "c": "Navratri",
+        "d": "Diwali"
+      },
+      "question": "Which Hindu festival marks the birth of Lord Krishna?"
+    },
+    "232": {
+      "answer": "B",
+      "id": 233,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "None"
+      },
+      "question": "Which famous epic includes the story of the gambler Shakuni manipulating events?"
+    },
+    "233": {
+      "answer": "A",
+      "id": 234,
+      "options": {
+        "a": "Thanjavur",
+        "b": "Kanchipuram",
+        "c": "Madurai",
+        "d": "Ujjain"
+      },
+      "question": "Which city served as the main cultural and political center for the Chola empire?"
+    },
+    "234": {
+      "answer": "A",
+      "id": 235,
+      "options": {
+        "a": "Chola",
+        "b": "Pallava",
+        "c": "Cheras",
+        "d": "Pandya"
+      },
+      "question": "Which dynasty built many great temples along the Coromandel coast and promoted Tamil culture?"
+    },
+    "235": {
+      "answer": "C",
+      "id": 236,
+      "options": {
+        "a": "Bhishma",
+        "b": "Drona",
+        "c": "Dhritarashtra",
+        "d": "Yudhishthira"
+      },
+      "question": "Which character in the Mahabharata was bound by a vow to protect the throne leading him to tragic choices?"
+    },
+    "236": {
+      "answer": "B",
+      "id": 237,
+      "options": {
+        "a": "Battle of Buxar",
+        "b": "Battle of Plassey",
+        "c": "Battle of Panipat",
+        "d": "Siege of Arcot"
+      },
+      "question": "Which British battle led to the rise of British political power in Bengal in 1757?"
+    },
+    "237": {
+      "answer": "A",
+      "id": 238,
+      "options": {
+        "a": "Khajuraho",
+        "b": "Konark",
+        "c": "Brihadeeswarar Temple",
+        "d": "Meenakshi Temple"
+      },
+      "question": "Which temple complex is famed for erotic sculptures and date to the Chandela dynasty?"
+    },
+    "238": {
+      "answer": "A",
+      "id": 239,
+      "options": {
+        "a": "Ganges-Brahmaputra delta",
+        "b": "Narmada delta",
+        "c": "Godavari delta",
+        "d": "Cauvery delta"
+      },
+      "question": "Which river’s delta forms the Sundarbans region in eastern India and Bangladesh?"
+    },
+    "239": {
+      "answer": "A",
+      "id": 240,
+      "options": {
+        "a": "Drona",
+        "b": "Bhima",
+        "c": "Arjuna",
+        "d": "Karna"
+      },
+      "question": "Which warrior in the Mahabharata was noted for his learning and devotion to duty as commander?"
+    },
+    "240": {
+      "answer": "A",
+      "id": 241,
+      "options": {
+        "a": "Chandragupta II",
+        "b": "Ashoka",
+        "c": "Harsha",
+        "d": "Samudragupta"
+      },
+      "question": "Which Indian king is celebrated in folklore as the just and powerful Vikramaditya?"
+    },
+    "241": {
+      "answer": "A",
+      "id": 242,
+      "options": {
+        "a": "Rigveda",
+        "b": "Yajurveda",
+        "c": "Samaveda",
+        "d": "Atharvaveda"
+      },
+      "question": "Which sacred text contains hymns to many Vedic deities and is the oldest of the Vedas?"
+    },
+    "242": {
+      "answer": "D",
+      "id": 243,
+      "options": {
+        "a": "Vishvakarma",
+        "b": "Hanuman",
+        "c": "Indra",
+        "d": "None"
+      },
+      "question": "Which figure assists Rama by providing a chariot to cross over to Lanka in some retellings?"
+    },
+    "243": {
+      "answer": "A",
+      "id": 244,
+      "options": {
+        "a": "Charaka and Sushruta",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Varahamihira"
+      },
+      "question": "Which ancient Indian scientist wrote important works on medicine and surgery?"
+    },
+    "244": {
+      "answer": "A",
+      "id": 245,
+      "options": {
+        "a": "Coromandel Coast",
+        "b": "Malabar Coast",
+        "c": "Konkan Coast",
+        "d": "Saurashtra"
+      },
+      "question": "Which region was the heartland of the Chola naval power in medieval South India?"
+    },
+    "245": {
+      "answer": "A",
+      "id": 246,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Jawaharlal Nehru",
+        "d": "None"
+      },
+      "question": "Which leader led the non-cooperation movement in the 1920s in India?"
+    },
+    "246": {
+      "answer": "A",
+      "id": 247,
+      "options": {
+        "a": "Himalayas",
+        "b": "Vindhyas",
+        "c": "Aravali",
+        "d": "Satpura"
+      },
+      "question": "Which mountain range forms the northern boundary of the Indian subcontinent?"
+    },
+    "247": {
+      "answer": "A",
+      "id": 248,
+      "options": {
+        "a": "Khwaja Moinuddin Chishti",
+        "b": "Nizamuddin Auliya",
+        "c": "Hazratbal",
+        "d": "None"
+      },
+      "question": "Which famous Sufi saint’s dargah is located in Ajmer?"
+    },
+    "248": {
+      "answer": "A",
+      "id": 249,
+      "options": {
+        "a": "Shakuntala by Kalidasa",
+        "b": "Ramayana",
+        "c": "Mahabharata",
+        "d": "Panchatantra"
+      },
+      "question": "Which story features the character of Shakuntala who marries King Dushyanta?"
+    },
+    "249": {
+      "answer": "B",
+      "id": 250,
+      "options": {
+        "a": "Bay of Bengal",
+        "b": "Arabian Sea",
+        "c": "Indian Ocean",
+        "d": "Laccadive Sea"
+      },
+      "question": "Which sea lies to the west of India?"
+    },
+    "250": {
+      "answer": "A",
+      "id": 251,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Samprati"
+      },
+      "question": "Which emperor is associated with the rock edicts at Girnar and Oroh?"
+    },
+    "251": {
+      "answer": "D",
+      "id": 252,
+      "options": {
+        "a": "Maricha",
+        "b": "Shurpanakha",
+        "c": "Ravana",
+        "d": "None"
+      },
+      "question": "Which character steals Sita from the forest in some versions of the story before Ravana abducts her?"
+    },
+    "252": {
+      "answer": "A",
+      "id": 253,
+      "options": {
+        "a": "Ganga dynasty",
+        "b": "Chola dynasty",
+        "c": "Gupta dynasty",
+        "d": "Pallava dynasty"
+      },
+      "question": "Which Indian dynasty patronized the building of the Konark Sun Temple?"
+    },
+    "253": {
+      "answer": "B",
+      "id": 254,
+      "options": {
+        "a": "Patanjali",
+        "b": "Panini",
+        "c": "Kalidasa",
+        "d": "Vyasa"
+      },
+      "question": "Which famous Indian scholar compiled a grammar of Sanskrit known as Ashtadhyayi?"
+    },
+    "254": {
+      "answer": "A",
+      "id": 255,
+      "options": {
+        "a": "Goa",
+        "b": "Calicut",
+        "c": "Surat",
+        "d": "Masulipatnam"
+      },
+      "question": "Which city served as a major center of Portuguese trade on India’s west coast?"
+    },
+    "255": {
+      "answer": "B",
+      "id": 256,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Bhagavata Purana",
+        "d": "Puranas"
+      },
+      "question": "Which epic’s narrative includes the story of the dice game and exile of the Pandavas?"
+    },
+    "256": {
+      "answer": "B",
+      "id": 257,
+      "options": {
+        "a": "Red Fort",
+        "b": "Taj Mahal",
+        "c": "Qutub Minar",
+        "d": "Fatehpur Sikri"
+      },
+      "question": "Which Mughal monument is known as the 'Jewel of Muslim art in India'?"
+    },
+    "257": {
+      "answer": "A",
+      "id": 258,
+      "options": {
+        "a": "Dussehra",
+        "b": "Diwali",
+        "c": "Holi",
+        "d": "Eid"
+      },
+      "question": "Which famous Indian festival marks the end of Navratri and victory of good over evil?"
+    },
+    "258": {
+      "answer": "A",
+      "id": 259,
+      "options": {
+        "a": "Cheras",
+        "b": "Cholas",
+        "c": "Pandyas",
+        "d": "Guptas"
+      },
+      "question": "Which ancient kingdom was famous for its maritime trade and the port of Muziris?"
+    },
+    "259": {
+      "answer": "A",
+      "id": 260,
+      "options": {
+        "a": "Nakula",
+        "b": "Sahadeva",
+        "c": "Arjuna",
+        "d": "Bhima"
+      },
+      "question": "Which Pandava brother was a skilled horseman and astute commander?"
+    },
+    "260": {
+      "answer": "D",
+      "id": 261,
+      "options": {
+        "a": "Ravi",
+        "b": "Beas",
+        "c": "Sutlej",
+        "d": "D"
+      },
+      "question": "Which river is sacred to Sikhs and has the Golden Temple located on its banks?"
+    },
+    "261": {
+      "answer": "A",
+      "id": 262,
+      "options": {
+        "a": "Varahamihira",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which ancient Indian astronomer wrote the Surya Siddhanta?"
+    },
+    "262": {
+      "answer": "A",
+      "id": 263,
+      "options": {
+        "a": "Jaipur",
+        "b": "Jodhpur",
+        "c": "Udaipur",
+        "d": "Bikaner"
+      },
+      "question": "Which fortress city resisted several invasions and is known as the Pink City?"
+    },
+    "263": {
+      "answer": "A",
+      "id": 264,
+      "options": {
+        "a": "Rama",
+        "b": "Bharata",
+        "c": "Lakshmana",
+        "d": "Shatrughna"
+      },
+      "question": "Who was the eldest son of Dasaratha who was exiled to the forest?"
+    },
+    "264": {
+      "answer": "A",
+      "id": 265,
+      "options": {
+        "a": "Maurya",
+        "b": "Gupta",
+        "c": "Kushan",
+        "d": "Chola"
+      },
+      "question": "Which empire is noted for sending envoys to the Roman Empire and Greeks like Megasthenes?"
+    },
+    "265": {
+      "answer": "A",
+      "id": 266,
+      "options": {
+        "a": "Dussehra",
+        "b": "Holi",
+        "c": "Diwali",
+        "d": "Rama Navami"
+      },
+      "question": "Which festival commemorates the battle between Rama and Ravana and the triumph of dharma?"
+    },
+    "266": {
+      "answer": "B",
+      "id": 267,
+      "options": {
+        "a": "Lakshmi",
+        "b": "Saraswati",
+        "c": "Parvati",
+        "d": "Durga"
+      },
+      "question": "Who is the goddess associated with learning and arts?"
+    },
+    "267": {
+      "answer": "B",
+      "id": 268,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Aurangzeb",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor’s reign is famed for architectural achievements like the Taj Mahal?"
+    },
+    "268": {
+      "answer": "B",
+      "id": 269,
+      "options": {
+        "a": "Nakula",
+        "b": "Sahadeva",
+        "c": "Arjuna",
+        "d": "Yudhishthira"
+      },
+      "question": "Which Pandava was the youngest and an expert in astrology and omens?"
+    },
+    "269": {
+      "answer": "A",
+      "id": 270,
+      "options": {
+        "a": "Lanka",
+        "b": "Ayodhya",
+        "c": "Kishkindha",
+        "d": "Mithila"
+      },
+      "question": "Which kingdom did Ravana rule, often identified with Sri Lanka?"
+    },
+    "270": {
+      "answer": "A",
+      "id": 271,
+      "options": {
+        "a": "Aurangabad",
+        "b": "Ellora",
+        "c": "Ajanta",
+        "d": "None"
+      },
+      "question": "Which historic city is famous for its rock-cut monuments at Ellora and Ajanta?"
+    },
+    "271": {
+      "answer": "A",
+      "id": 272,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Harsha"
+      },
+      "question": "Which Indian king was known as a great patron of Buddhism and sent missionaries abroad?"
+    },
+    "272": {
+      "answer": "B",
+      "id": 273,
+      "options": {
+        "a": "Valmiki",
+        "b": "Vyasa",
+        "c": "Kalidasa",
+        "d": "Bhasa"
+      },
+      "question": "Which important Sanskrit epic poet is credited with the Mahabharata?"
+    },
+    "273": {
+      "answer": "A",
+      "id": 274,
+      "options": {
+        "a": "Gandiva",
+        "b": "His father’s bow",
+        "c": "An ordinary bow",
+        "d": "Vishnu’s bow"
+      },
+      "question": "Which weapon did Arjuna use to break the bow at Draupadi’s swayamvara?"
+    },
+    "274": {
+      "answer": "B",
+      "id": 275,
+      "options": {
+        "a": "Subhas Chandra Bose",
+        "b": "Mahatma Gandhi",
+        "c": "Jawaharlal Nehru",
+        "d": "Sardar Patel"
+      },
+      "question": "Which leader initiated the Quit India Movement in 1942 calling for British withdrawal?"
+    },
+    "275": {
+      "answer": "A",
+      "id": 276,
+      "options": {
+        "a": "Rashtrakuta",
+        "b": "Gupta",
+        "c": "Pallava",
+        "d": "Chola"
+      },
+      "question": "Which dynasty is associated with the development of rock-cut cave temples like Ellora?"
+    },
+    "276": {
+      "answer": "B",
+      "id": 277,
+      "options": {
+        "a": "Charaka",
+        "b": "Sushruta",
+        "c": "Dhanvantari",
+        "d": "Garg"
+      },
+      "question": "Which ancient Indian physician is credited with surgical texts and instruments?"
+    },
+    "277": {
+      "answer": "A",
+      "id": 278,
+      "options": {
+        "a": "Maritime Silk Route",
+        "b": "Suez Canal",
+        "c": "Transatlantic Route",
+        "d": "None"
+      },
+      "question": "Which great sea route connected India to Southeast Asia and the Spice Islands in medieval times?"
+    },
+    "278": {
+      "answer": "A",
+      "id": 279,
+      "options": {
+        "a": "Shakuni",
+        "b": "Duryodhana",
+        "c": "Sahadeva",
+        "d": "None"
+      },
+      "question": "Who was the principal antagonist responsible for plotting the burning of the lac house?"
+    },
+    "279": {
+      "answer": "C",
+      "id": 280,
+      "options": {
+        "a": "Ellora",
+        "b": "Ajanta",
+        "c": "Ellora (Kailasa)",
+        "d": "None"
+      },
+      "question": "Which ancient city is famed for the rock-cut Kailasa temple at Ellora?"
+    },
+    "280": {
+      "answer": "A",
+      "id": 281,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Akbar",
+        "c": "Shah Jahan",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor fought and captured the Deccan sultanates in the 17th century?"
+    },
+    "281": {
+      "answer": "B",
+      "id": 282,
+      "options": {
+        "a": "Maricha",
+        "b": "Shurpanakha",
+        "c": "Ravana",
+        "d": "None"
+      },
+      "question": "Which character in the Ramayana was known for his intelligence and trickery, often trying to seduce Sita?"
+    },
+    "282": {
+      "answer": "A",
+      "id": 283,
+      "options": {
+        "a": "Sanskrit",
+        "b": "Tamil",
+        "c": "Prakrit",
+        "d": "Pali"
+      },
+      "question": "Which language was classical literature like Kalidasa’s plays written in?"
+    },
+    "283": {
+      "answer": "A",
+      "id": 284,
+      "options": {
+        "a": "Chola",
+        "b": "Pallava",
+        "c": "Pandya",
+        "d": "Cheras"
+      },
+      "question": "Which dynasty ruled much of South India and built the Brihadeeswarar Temple?"
+    },
+    "284": {
+      "answer": "A",
+      "id": 285,
+      "options": {
+        "a": "Raja Ram Mohan Roy",
+        "b": "Bal Gangadhar Tilak",
+        "c": "Lala Lajpat Rai",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "question": "Which Indian freedom struggle leader was instrumental in social reform and modern education?"
+    },
+    "285": {
+      "answer": "A",
+      "id": 286,
+      "options": {
+        "a": "Hanuman",
+        "b": "Jatayu",
+        "c": "Angada",
+        "d": "None"
+      },
+      "question": "Which disciple of Rama is known for finding Sita in Lanka and delivering Rama’s message?"
+    },
+    "286": {
+      "answer": "A",
+      "id": 287,
+      "options": {
+        "a": "Harappan (Indus Valley)",
+        "b": "Ganges Valley",
+        "c": "Kaveri Valley",
+        "d": "Godavari Valley"
+      },
+      "question": "Which ancient river valley civilization preceded Vedic culture in the subcontinent?"
+    },
+    "287": {
+      "answer": "C",
+      "id": 288,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal emperor’s reign saw a flowering of miniature painting in India?"
+    },
+    "288": {
+      "answer": "B",
+      "id": 289,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Bhagavata Purana",
+        "d": "Upanishads"
+      },
+      "question": "Which epic contains the story of the gambler Yudhisthira and his moral dilemmas?"
+    },
+    "289": {
+      "answer": "C",
+      "id": 290,
+      "options": {
+        "a": "Panchatantra",
+        "b": "Hitopadesha",
+        "c": "Both A and B",
+        "d": "None"
+      },
+      "question": "Which ancient Indian text is a collection of animal fables that teach morals?"
+    },
+    "290": {
+      "answer": "A",
+      "id": 291,
+      "options": {
+        "a": "Barugaza (Bharuch)",
+        "b": "Calicut",
+        "c": "Masulipatnam",
+        "d": "None"
+      },
+      "question": "Which port on the west coast was central to spice trade with the Romans?"
+    },
+    "291": {
+      "answer": "A",
+      "id": 292,
+      "options": {
+        "a": "Bhishma",
+        "b": "Drona",
+        "c": "Karna",
+        "d": "Duryodhana"
+      },
+      "question": "Which Kshatriya hero in the epics was known for his vow of celibacy to gain power?"
+    },
+    "292": {
+      "answer": "A",
+      "id": 293,
+      "options": {
+        "a": "Ajatashatru",
+        "b": "Bimbisara",
+        "c": "Chandragupta Maurya",
+        "d": "Ashoka"
+      },
+      "question": "Which Indian king founded the city of Pataliputra (modern Patna) as a capital?"
+    },
+    "293": {
+      "answer": "A",
+      "id": 294,
+      "options": {
+        "a": "Valmiki",
+        "b": "Tulsidas",
+        "c": "Vyasa",
+        "d": "Kamban"
+      },
+      "question": "Which poet wrote the Ramayana in Sanskrit?"
+    },
+    "294": {
+      "answer": "B",
+      "id": 295,
+      "options": {
+        "a": "Drona",
+        "b": "Karna",
+        "c": "Bhishma",
+        "d": "Duryodhana"
+      },
+      "question": "Which Mahabharata warrior was known for his moral dilemma and tragic fate at Kurukshetra?"
+    },
+    "295": {
+      "answer": "A",
+      "id": 296,
+      "options": {
+        "a": "Holi",
+        "b": "Diwali",
+        "c": "Navratri",
+        "d": "Pongal"
+      },
+      "question": "Which festival involves throwing colors and celebrates the arrival of spring?"
+    },
+    "296": {
+      "answer": "A",
+      "id": 297,
+      "options": {
+        "a": "Nalanda",
+        "b": "Takshashila",
+        "c": "Vikramashila",
+        "d": "Ujjain"
+      },
+      "question": "Which ancient university in India was destroyed in the 12th century by invaders?"
+    },
+    "297": {
+      "answer": "B",
+      "id": 298,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Shah Jahan",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor’s reign saw the expansion of the empire to almost its greatest extent?"
+    },
+    "298": {
+      "answer": "A",
+      "id": 299,
+      "options": {
+        "a": "Janaka",
+        "b": "Dasaratha",
+        "c": "Ravana",
+        "d": "Dashratha"
+      },
+      "question": "Which king in the Ramayana is the father of Sita?"
+    },
+    "299": {
+      "answer": "A",
+      "id": 300,
+      "options": {
+        "a": "Raja Ram Mohan Roy",
+        "b": "Dadabhai Naoroji",
+        "c": "Gopal Krishna Gokhale",
+        "d": "Jyotirao Phule"
+      },
+      "question": "Which Indian leader was known for championing education and social reform in the 19th century?"
+    },
+    "300": {
+      "answer": "A",
+      "id": 301,
+      "options": {
+        "a": "Konark Sun Temple",
+        "b": "Jagannath Temple",
+        "c": "Lingaraja Temple",
+        "d": "Mukteswara Temple"
+      },
+      "question": "Which temple in Odisha is famed for its chariot-shaped structure and Sun deity?"
+    },
+    "301": {
+      "answer": "B",
+      "id": 302,
+      "options": {
+        "a": "Brahmagupta",
+        "b": "Bhaskara II",
+        "c": "Aryabhata",
+        "d": "Madhava"
+      },
+      "question": "Which famous Indian mathematician wrote the Lilavati?"
+    },
+    "302": {
+      "answer": "A",
+      "id": 303,
+      "options": {
+        "a": "Jawaharlal Nehru",
+        "b": "Mahatma Gandhi",
+        "c": "Sardar Patel",
+        "d": "Rajendra Prasad"
+      },
+      "question": "Which leader served as India’s first Prime Minister after independence?"
+    },
+    "303": {
+      "answer": "D",
+      "id": 304,
+      "options": {
+        "a": "Ganges",
+        "b": "Yamuna",
+        "c": "Kshipra",
+        "d": "All of these"
+      },
+      "question": "Which river is associated with the Kumbh Mela pilgrimage?"
+    },
+    "304": {
+      "answer": "B",
+      "id": 305,
+      "options": {
+        "a": "Abhimanyu",
+        "b": "Karna",
+        "c": "Duryodhana",
+        "d": "None"
+      },
+      "question": "Which warrior in the Mahabharata was killed by his own charioteer in some accounts?"
+    },
+    "305": {
+      "answer": "A",
+      "id": 306,
+      "options": {
+        "a": "Khajuraho Temples",
+        "b": "Brihadeeswarar Temple",
+        "c": "Konark",
+        "d": "Meenakshi Temple"
+      },
+      "question": "Which temple complex is famous in Khajuraho for its sculptures?"
+    },
+    "306": {
+      "answer": "A",
+      "id": 307,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Shah Jahan",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal ruler was known for his patronage of the arts and religion blending?"
+    },
+    "307": {
+      "answer": "A",
+      "id": 308,
+      "options": {
+        "a": "Ravana",
+        "b": "Maricha",
+        "c": "Vibhishana",
+        "d": "None"
+      },
+      "question": "Which epic hero is famous for stealing the bride Sita in some retellings?"
+    },
+    "308": {
+      "answer": "A",
+      "id": 309,
+      "options": {
+        "a": "Varahamihira",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Madhava"
+      },
+      "question": "Which Indian mathematician and astronomer wrote the Surya Siddhanta?"
+    },
+    "309": {
+      "answer": "A",
+      "id": 310,
+      "options": {
+        "a": "Paurava kingdom",
+        "b": "Magadha",
+        "c": "Kosala",
+        "d": "Kosha"
+      },
+      "question": "Which ancient kingdom was ruled by King Porus who resisted Alexander?"
+    },
+    "310": {
+      "answer": "A",
+      "id": 311,
+      "options": {
+        "a": "Diwali",
+        "b": "Holi",
+        "c": "Dussehra",
+        "d": "Ram Navami"
+      },
+      "question": "Which festival marks the victory of Lord Rama and is celebrated with lights?"
+    },
+    "311": {
+      "answer": "A",
+      "id": 312,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Bhagat Singh",
+        "d": "Lala Lajpat Rai"
+      },
+      "question": "Which leader led the non-cooperation movement in the 1920s?"
+    },
+    "312": {
+      "answer": "C",
+      "id": 313,
+      "options": {
+        "a": "Valmiki",
+        "b": "Vyasa",
+        "c": "Rishis of the Vedic period",
+        "d": "Kalidasa"
+      },
+      "question": "Which famous Indian poet-sage wrote many hymns in the Vedas?"
+    },
+    "313": {
+      "answer": "A",
+      "id": 314,
+      "options": {
+        "a": "Brahmagupta",
+        "b": "Aryabhata",
+        "c": "Bhaskara II",
+        "d": "Madhava"
+      },
+      "question": "Which ancient mathematician gave a formula for the area of a triangle (Brahmagupta)?"
+    },
+    "314": {
+      "answer": "A",
+      "id": 315,
+      "options": {
+        "a": "Anga",
+        "b": "Kalinga",
+        "c": "Vanga",
+        "d": "Pandu"
+      },
+      "question": "Which kingdom is associated with the Kshatriya hero Karna’s birth?"
+    },
+    "315": {
+      "answer": "B",
+      "id": 316,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal leader built the Red Fort in Delhi?"
+    },
+    "316": {
+      "answer": "A",
+      "id": 317,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Bhagavata Purana",
+        "d": "None"
+      },
+      "question": "Which ancient epic features the character of Hanuman who crosses the ocean to Lanka?"
+    },
+    "317": {
+      "answer": "A",
+      "id": 318,
+      "options": {
+        "a": "Chola",
+        "b": "Pallava",
+        "c": "Pandya",
+        "d": "Hoysala"
+      },
+      "question": "Which Indian dynasty in the south is renowned for bronze sculpture (Chola bronzes)?"
+    },
+    "318": {
+      "answer": "B",
+      "id": 319,
+      "options": {
+        "a": "Godavari",
+        "b": "Narmada",
+        "c": "Ganges",
+        "d": "Brahmaputra"
+      },
+      "question": "Which major Indian river flows into the Arabian Sea?"
+    },
+    "319": {
+      "answer": "A",
+      "id": 320,
+      "options": {
+        "a": "Delhi",
+        "b": "Lucknow",
+        "c": "Jaipur",
+        "d": "None"
+      },
+      "question": "Which medieval city rose as a center of learning and book production under the Sultanate?"
+    },
+    "320": {
+      "answer": "A",
+      "id": 321,
+      "options": {
+        "a": "Chandragupta II",
+        "b": "Ashoka",
+        "c": "Harsha",
+        "d": "Samudragupta"
+      },
+      "question": "Which famous king in Indian history was famed for his patronage of art and literature and bore the title Vikramaditya?"
+    },
+    "321": {
+      "answer": "A",
+      "id": 322,
+      "options": {
+        "a": "Vibhishana",
+        "b": "Kumbhakarna",
+        "c": "Indrajit",
+        "d": "Maricha"
+      },
+      "question": "Which figure in the Ramayana is the brother of Ravana who later joins Rama’s side?"
+    },
+    "322": {
+      "answer": "A",
+      "id": 323,
+      "options": {
+        "a": "Nalanda",
+        "b": "Harappa",
+        "c": "Takshashila",
+        "d": "Banaras"
+      },
+      "question": "Which Buddhist university was a major center of learning before its destruction?"
+    },
+    "323": {
+      "answer": "B",
+      "id": 324,
+      "options": {
+        "a": "Raja Ram Mohan Roy",
+        "b": "Ishwar Chandra Vidyasagar",
+        "c": "Jyotirao Phule",
+        "d": "B.R. Ambedkar"
+      },
+      "question": "Which collector and reformer in the 19th century promoted the Widow Remarriage Act?"
+    },
+    "324": {
+      "answer": "A",
+      "id": 325,
+      "options": {
+        "a": "Bhishma",
+        "b": "Drona",
+        "c": "Karna",
+        "d": "None"
+      },
+      "question": "Which epic character is known for keeping his vow of celibacy and for his terrible prowess—Bhishma?"
+    },
+    "325": {
+      "answer": "A",
+      "id": 326,
+      "options": {
+        "a": "Spices",
+        "b": "Coal",
+        "c": "Timber",
+        "d": "Wheat"
+      },
+      "question": "Which ancient trade commodity made India famous across ancient Mediterranean and Roman worlds?"
+    },
+    "326": {
+      "answer": "A",
+      "id": 327,
+      "options": {
+        "a": "Silappatikaram",
+        "b": "Manimekalai",
+        "c": "Tirukkural",
+        "d": "None"
+      },
+      "question": "Which famous Tamil epic narrates the love story of Kannagi?"
+    },
+    "327": {
+      "answer": "B",
+      "id": 328,
+      "options": {
+        "a": "Chandragupta II",
+        "b": "Rulers of western India like the Solankis",
+        "c": "Ashoka",
+        "d": "None"
+      },
+      "question": "Which Indian king is known for constructing rock-cut step wells and large reservoirs in ancient times?"
+    },
+    "328": {
+      "answer": "A",
+      "id": 329,
+      "options": {
+        "a": "Mace (Gada)",
+        "b": "Sword",
+        "c": "Bow",
+        "d": "Spear"
+      },
+      "question": "Which weapon did Bhima famously use to break Duryodhana’s thigh?"
+    },
+    "329": {
+      "answer": "A",
+      "id": 330,
+      "options": {
+        "a": "Gupta Empire",
+        "b": "Maurya Empire",
+        "c": "Kushan Empire",
+        "d": "Chola Empire"
+      },
+      "question": "Which empire is credited with the silver and gold coinage and cultural revival known as the Gupta era?"
+    },
+    "330": {
+      "answer": "B",
+      "id": 331,
+      "options": {
+        "a": "Chandragupta Maurya",
+        "b": "Ashoka",
+        "c": "Bindusara",
+        "d": "Samudragupta"
+      },
+      "question": "Which great Indian king famously embraced Buddhism after the Kalinga war?"
+    },
+    "331": {
+      "answer": "B",
+      "id": 332,
+      "options": {
+        "a": "Jatayu",
+        "b": "Hanuman",
+        "c": "Vibhishana",
+        "d": "Sugriva"
+      },
+      "question": "Which character in the Ramayana helps Rama by bringing news of Sita’s whereabouts?"
+    },
+    "332": {
+      "answer": "B",
+      "id": 333,
+      "options": {
+        "a": "Hastinapura",
+        "b": "Indraprastha",
+        "c": "Ayodhya",
+        "d": "Dwaraka"
+      },
+      "question": "Which kingdom did the Pandavas rule from the palace built by Maya the architect?"
+    },
+    "333": {
+      "answer": "B",
+      "id": 334,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Jahangir",
+        "d": "Shah Jahan"
+      },
+      "question": "Which Mughal emperor attempted to impose a stricter interpretation of Islamic law and is often seen as less tolerant?"
+    },
+    "334": {
+      "answer": "B",
+      "id": 335,
+      "options": {
+        "a": "Patanjali",
+        "b": "Panini",
+        "c": "Kalidasa",
+        "d": "Vyasa"
+      },
+      "question": "Which Sanskrit grammarian codified classical Sanskrit grammar in the Ashtadhyayi?"
+    },
+    "335": {
+      "answer": "D",
+      "id": 336,
+      "options": {
+        "a": "Jawaharlal Nehru",
+        "b": "Lord Mountbatten",
+        "c": "Rajendra Prasad",
+        "d": "None"
+      },
+      "question": "Which Indian leader is known for the slogan 'Deliver us from British rule' and later became the first Governor-General?"
+    },
+    "336": {
+      "answer": "A",
+      "id": 337,
+      "options": {
+        "a": "Prayagraj (Allahabad)",
+        "b": "Varanasi",
+        "c": "Haridwar",
+        "d": "Ujjain"
+      },
+      "question": "Which sacred city is associated with the Kumbh Mela and is located at the confluence of rivers?"
+    },
+    "337": {
+      "answer": "B",
+      "id": 338,
+      "options": {
+        "a": "Arjuna",
+        "b": "Karna",
+        "c": "Bhima",
+        "d": "None"
+      },
+      "question": "Which Mahabharata warrior was famed for his piercing archery skills and noble character but met tragedy due to fate?"
+    },
+    "338": {
+      "answer": "A",
+      "id": 339,
+      "options": {
+        "a": "Romila Thapar",
+        "b": "Raja Ram Mohan Roy",
+        "c": "Banabhatta",
+        "d": "Kalhana"
+      },
+      "question": "Which historian wrote detailed accounts of India’s cultural and political life and is often referenced in modern studies?"
+    },
+    "339": {
+      "answer": "A",
+      "id": 340,
+      "options": {
+        "a": "Rajaraja Chola I",
+        "b": "Raja Raja Chola II",
+        "c": "Rajendra Chola",
+        "d": "None"
+      },
+      "question": "Which famous medieval Indian ruler is associated with the construction of the Brihadeeswarar Temple?"
+    },
+    "340": {
+      "answer": "A",
+      "id": 341,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Yudhishthira",
+        "d": "None"
+      },
+      "question": "Which epic hero’s charioteer was Krishna in the Mahabharata?"
+    },
+    "341": {
+      "answer": "A",
+      "id": 342,
+      "options": {
+        "a": "Janmashtami",
+        "b": "Holi",
+        "c": "Diwali",
+        "d": "Govardhan Puja"
+      },
+      "question": "Which festival in India commemorates Krishna’s victory over Kamsa and is widely celebrated in Mathura and Vrindavan?"
+    },
+    "342": {
+      "answer": "A",
+      "id": 343,
+      "options": {
+        "a": "Meenakshi Amman Temple (Madurai)",
+        "b": "Brihadeeswarar Temple",
+        "c": "Ramanathaswamy Temple",
+        "d": "Kedarnath"
+      },
+      "question": "Which temple in Tamil Nadu is famed for its towering gopurams and is a major pilgrimage center?"
+    },
+    "343": {
+      "answer": "A",
+      "id": 344,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Varahamihira",
+        "c": "Brahmagupta",
+        "d": "None"
+      },
+      "question": "Which ancient Indian astronomer gave the approximation that Earth revolves around the Sun?"
+    },
+    "344": {
+      "answer": "A",
+      "id": 345,
+      "options": {
+        "a": "Lanka",
+        "b": "Ayodhya",
+        "c": "Kishkindha",
+        "d": "None"
+      },
+      "question": "Which kingdom did Ravana’s ally Vibhishana rule after defecting to Rama?"
+    },
+    "345": {
+      "answer": "A",
+      "id": 346,
+      "options": {
+        "a": "Calicut (Kozhikode)",
+        "b": "Chennai",
+        "c": "Mumbai",
+        "d": "Kolkata"
+      },
+      "question": "Which major Indian port city on the Malabar coast was active in the medieval spice trade?"
+    },
+    "346": {
+      "answer": "D",
+      "id": 347,
+      "options": {
+        "a": "Harappa",
+        "b": "Mohenjo-daro",
+        "c": "Lothal",
+        "d": "All of these"
+      },
+      "question": "Which ancient site is associated with the Harappan civilization and was a major urban center?"
+    },
+    "347": {
+      "answer": "A",
+      "id": 348,
+      "options": {
+        "a": "Chanakya (Kautilya)",
+        "b": "Vyasa",
+        "c": "Valmiki",
+        "d": "None"
+      },
+      "question": "Which ancient Indian teacher is often associated with giving counsel to kings and compiling knowledge?"
+    },
+    "348": {
+      "answer": "A",
+      "id": 349,
+      "options": {
+        "a": "Kalaripayattu",
+        "b": "Silambam",
+        "c": "Gatka",
+        "d": "Thang-Ta"
+      },
+      "question": "Which martial art form originated in Kerala and includes weapons training?"
+    },
+    "349": {
+      "answer": "A",
+      "id": 350,
+      "options": {
+        "a": "Humayun’s Tomb",
+        "b": "Taj Mahal",
+        "c": "Red Fort",
+        "d": "Jama Masjid"
+      },
+      "question": "Which Mughal-era complex includes the tomb of Humayun and is a precursor to later Mughal gardens?"
+    },
+    "350": {
+      "answer": "A",
+      "id": 351,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Karna",
+        "d": "None"
+      },
+      "question": "Which epic hero is known for his skill with the bow called Gandiva?"
+    },
+    "351": {
+      "answer": "A",
+      "id": 352,
+      "options": {
+        "a": "Puranas",
+        "b": "Vedas",
+        "c": "Upanishads",
+        "d": "Ramayana"
+      },
+      "question": "Which ancient Indian text is a compendium of mythology, cosmology, and genealogies?"
+    },
+    "352": {
+      "answer": "A",
+      "id": 353,
+      "options": {
+        "a": "Raja Ram Mohan Roy",
+        "b": "Mahatma Gandhi",
+        "c": "B.R. Ambedkar",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "question": "Which leader of the independence movement advocated adopting Western education and social reform?"
+    },
+    "353": {
+      "answer": "A",
+      "id": 354,
+      "options": {
+        "a": "Chola Empire",
+        "b": "Gupta Empire",
+        "c": "Maurya Empire",
+        "d": "Kushan Empire"
+      },
+      "question": "Which ancient Indian empire had a standing navy according to some sources and engaged in maritime trade?"
+    },
+    "354": {
+      "answer": "A",
+      "id": 355,
+      "options": {
+        "a": "Adhiratha (charioteer)",
+        "b": "Suta",
+        "c": "None",
+        "d": "Gandhari"
+      },
+      "question": "Which royal sage in the Mahabharata raised the child Karna?"
+    },
+    "355": {
+      "answer": "A",
+      "id": 356,
+      "options": {
+        "a": "Godavari",
+        "b": "Narmada",
+        "c": "Ganges",
+        "d": "Yamuna"
+      },
+      "question": "Which river forms the eastern boundary of the Deccan plateau flowing into Bay of Bengal?"
+    },
+    "356": {
+      "answer": "A",
+      "id": 357,
+      "options": {
+        "a": "Tiruvalluvar",
+        "b": "Kalidasa",
+        "c": "Thirumangai",
+        "d": "None"
+      },
+      "question": "Which famous Indian poet wrote the classical Tamil Kural text?"
+    },
+    "357": {
+      "answer": "A",
+      "id": 358,
+      "options": {
+        "a": "Sepoy Mutiny/Indian Rebellion of 1857",
+        "b": "Battle of Plassey",
+        "c": "Salt Satyagraha",
+        "d": "None"
+      },
+      "question": "Which historical event in 1857 is a major turning point often called the First War of Independence?"
+    },
+    "358": {
+      "answer": "C",
+      "id": 359,
+      "options": {
+        "a": "Panini",
+        "b": "Kalidasa",
+        "c": "Bharata Muni",
+        "d": "None"
+      },
+      "question": "Which ancient Indian scholar wrote on grammar, rhetoric and poetics and is revered as a classical author?"
+    },
+    "359": {
+      "answer": "B",
+      "id": 360,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "None",
+        "d": "Puranas"
+      },
+      "question": "Which epic features a mighty bow contest at Draupadi’s swayamvara?"
+    },
+    "360": {
+      "answer": "A",
+      "id": 361,
+      "options": {
+        "a": "Srivijaya",
+        "b": "Pala",
+        "c": "Cheras",
+        "d": "Pandya"
+      },
+      "question": "Which famous Indian naval power challenged Chola influence in Southeast Asia?"
+    },
+    "361": {
+      "answer": "A",
+      "id": 362,
+      "options": {
+        "a": "Dinaras/Debas",
+        "b": "Rupee",
+        "c": "Drachma",
+        "d": "Gold sovereign"
+      },
+      "question": "Which currency was widely used in ancient India and traded with the Greeks and Romans?"
+    },
+    "362": {
+      "answer": "A",
+      "id": 363,
+      "options": {
+        "a": "Bronze idols (Chola bronzes)",
+        "b": "Stone carvings only",
+        "c": "Wooden carvings",
+        "d": "None"
+      },
+      "question": "Which form of temple sculpture is a hallmark of the Chola period?"
+    },
+    "363": {
+      "answer": "C",
+      "id": 364,
+      "options": {
+        "a": "Ikshvaku",
+        "b": "Harishchandra",
+        "c": "Raghu",
+        "d": "None"
+      },
+      "question": "Which great Indian king is featured in folklore as Rama’s ancestor and belongs to the solar dynasty?"
+    },
+    "364": {
+      "answer": "A",
+      "id": 365,
+      "options": {
+        "a": "Natyashastra",
+        "b": "Arthashastra",
+        "c": "Manusmriti",
+        "d": "Panchatantra"
+      },
+      "question": "Which ancient text is a manual for dramatists and theatre creators in India?"
+    },
+    "365": {
+      "answer": "A",
+      "id": 366,
+      "options": {
+        "a": "Maurya",
+        "b": "Gupta",
+        "c": "Kushan",
+        "d": "Chola"
+      },
+      "question": "Which ancient Indian empire had an extensive road network including the Grand Trunk Road improvements?"
+    },
+    "366": {
+      "answer": "A",
+      "id": 367,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Bhagat Singh",
+        "d": "All of the above"
+      },
+      "question": "Which leader is celebrated for his role in the Indian independence movement and non-violent resistance?"
+    },
+    "367": {
+      "answer": "A",
+      "id": 368,
+      "options": {
+        "a": "Karna",
+        "b": "Rama",
+        "c": "Shani",
+        "d": "None"
+      },
+      "question": "Which epic character was born to Kunti by invoking the sun god?"
+    },
+    "368": {
+      "answer": "A",
+      "id": 369,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Varahamihira",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which ancient Indian astronomer proposed a value for pi and wrote on planetary motions?"
+    },
+    "369": {
+      "answer": "A",
+      "id": 370,
+      "options": {
+        "a": "Hampi",
+        "b": "Mysore",
+        "c": "Madurai",
+        "d": "Vijayawada"
+      },
+      "question": "Which historic city was the capital of the Vijayanagara Empire?"
+    },
+    "370": {
+      "answer": "A",
+      "id": 371,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta",
+        "c": "Bindusara",
+        "d": "Samprati"
+      },
+      "question": "Which famous Indian emperor is known for his rock-cut pillars and propagation of dhamma?"
+    },
+    "371": {
+      "answer": "A",
+      "id": 372,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Valmiki",
+        "c": "Vyasa",
+        "d": "None"
+      },
+      "question": "Which Sanskrit poet composed the Meghaduta and is known as Kalidasa?"
+    },
+    "372": {
+      "answer": "A",
+      "id": 373,
+      "options": {
+        "a": "Rama Navami",
+        "b": "Janmashtami",
+        "c": "Diwali",
+        "d": "Holi"
+      },
+      "question": "Which festival celebrates the birth of Rama according to some traditions?"
+    },
+    "373": {
+      "answer": "A",
+      "id": 374,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Shah Jahan",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal ruler is known for his policy of Sulh-i Kul (universal tolerance)?"
+    },
+    "374": {
+      "answer": "A",
+      "id": 375,
+      "options": {
+        "a": "Nalanda",
+        "b": "Pataliputra",
+        "c": "Taxila",
+        "d": "Ujjain"
+      },
+      "question": "Which ancient Indian city was a major center of Buddhist learning and was destroyed in the 12th century?"
+    },
+    "375": {
+      "answer": "A",
+      "id": 376,
+      "options": {
+        "a": "Sugriva’s army",
+        "b": "Hanuman alone",
+        "c": "Rama alone",
+        "d": "Vibhishana"
+      },
+      "question": "Which legendary vanara leader helped build the bridge to Lanka with floating stones?"
+    },
+    "376": {
+      "answer": "A",
+      "id": 377,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Jawaharlal Nehru",
+        "c": "Sardar Patel",
+        "d": "Subhas Bose"
+      },
+      "question": "Which famous Indian leader launched the Salt Satyagraha (Dandi March) in 1930?"
+    },
+    "377": {
+      "answer": "A",
+      "id": 378,
+      "options": {
+        "a": "Vedas",
+        "b": "Ramayana",
+        "c": "Mahabharata",
+        "d": "Puranas"
+      },
+      "question": "Which ancient Indian scripture contains the instruction to perform yajnas and rituals?"
+    },
+    "378": {
+      "answer": "A",
+      "id": 379,
+      "options": {
+        "a": "Third Battle of Panipat",
+        "b": "Battle of Plassey",
+        "c": "Battle of Buxar",
+        "d": "Battle of Haldighati"
+      },
+      "question": "Which famous battle in 1761 marked the end of the Maratha expansion at that time?"
+    },
+    "379": {
+      "answer": "A",
+      "id": 380,
+      "options": {
+        "a": "Pallava",
+        "b": "Chola",
+        "c": "Pandya",
+        "d": "Cheras"
+      },
+      "question": "Which South Indian dynasty is famed for the rock-cut temples at Mahabalipuram?"
+    },
+    "380": {
+      "answer": "A",
+      "id": 381,
+      "options": {
+        "a": "Peshawar (Taxila)",
+        "b": "Mathura",
+        "c": "Pataliputra",
+        "d": "Ujjain"
+      },
+      "question": "Which ancient city was the capital of the Kushan Empire and a hub of trade on the Silk Road?"
+    },
+    "381": {
+      "answer": "A",
+      "id": 382,
+      "options": {
+        "a": "Rama",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Karna"
+      },
+      "question": "Which epic hero’s sons Lava and Kusha recited their father’s story in his presence?"
+    },
+    "382": {
+      "answer": "B",
+      "id": 383,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Shah Jahan",
+        "c": "Akbar",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor commissioned the building of the Taj Mahal in memory of his wife?"
+    },
+    "383": {
+      "answer": "A",
+      "id": 384,
+      "options": {
+        "a": "Maharashtra",
+        "b": "Karnataka",
+        "c": "Tamil Nadu",
+        "d": "Odisha"
+      },
+      "question": "Which Indian state is home to the Ellora and Ajanta cave complexes?"
+    },
+    "384": {
+      "answer": "A",
+      "id": 385,
+      "options": {
+        "a": "Drona",
+        "b": "Bhima",
+        "c": "Arjuna",
+        "d": "Karna"
+      },
+      "question": "Which warrior in the Mahabharata was known for his knowledge of military science and died in the war?"
+    },
+    "385": {
+      "answer": "A",
+      "id": 386,
+      "options": {
+        "a": "Abhijnanasakuntalam",
+        "b": "Meghaduta",
+        "c": "Raghuvamsa",
+        "d": "Kumarasambhava"
+      },
+      "question": "Which classical Sanskrit drama is attributed to Kalidasa and centers on King Dushyanta and Shakuntala?"
+    },
+    "386": {
+      "answer": "A",
+      "id": 387,
+      "options": {
+        "a": "Hampi",
+        "b": "Mysore",
+        "c": "Madurai",
+        "d": "None"
+      },
+      "question": "Which hill fortress served as a capital under the Vijayanagara Empire?"
+    },
+    "387": {
+      "answer": "D",
+      "id": 388,
+      "options": {
+        "a": "Jawaharlal Nehru",
+        "b": "Mahatma Gandhi",
+        "c": "Sardar Patel",
+        "d": "Lord Mountbatten"
+      },
+      "question": "Which leader founded the modern Indian state by leading negotiations for independence in 1947?"
+    },
+    "388": {
+      "answer": "A",
+      "id": 389,
+      "options": {
+        "a": "Patanjali",
+        "b": "Vyasa",
+        "c": "Brahma",
+        "d": "None"
+      },
+      "question": "Which famous Indian sage is associated with the composition of the Yoga Sutras?"
+    },
+    "389": {
+      "answer": "A",
+      "id": 390,
+      "options": {
+        "a": "Indus",
+        "b": "Ganges",
+        "c": "Godavari",
+        "d": "Cauvery"
+      },
+      "question": "Which river's basin supported the early Harappan agricultural settlements?"
+    },
+    "390": {
+      "answer": "A",
+      "id": 391,
+      "options": {
+        "a": "Humayun’s Tomb",
+        "b": "Taj Mahal",
+        "c": "Red Fort",
+        "d": "Fatehpur Sikri"
+      },
+      "question": "Which Mughal-era monument commemorates Emperor Humayun and influenced later Mughal tomb architecture?"
+    },
+    "391": {
+      "answer": "B",
+      "id": 392,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Bhaskara II",
+        "d": "Pingala"
+      },
+      "question": "Which ancient Indian mathematician introduced the concept of zero as a number?"
+    },
+    "392": {
+      "answer": "A",
+      "id": 393,
+      "options": {
+        "a": "Vaigai",
+        "b": "Kaveri",
+        "c": "Noyyal",
+        "d": "None"
+      },
+      "question": "Which river flows through the city of Madurai and is associated with the Meenakshi Temple?"
+    },
+    "393": {
+      "answer": "A",
+      "id": 394,
+      "options": {
+        "a": "Uttarakhand",
+        "b": "Uttar Pradesh",
+        "c": "Madhya Pradesh",
+        "d": "Rajasthan"
+      },
+      "question": "Which Indian state is known for the historic Kumbh Mela at Haridwar?"
+    },
+    "394": {
+      "answer": "A",
+      "id": 395,
+      "options": {
+        "a": "Ashoka",
+        "b": "Bindusara",
+        "c": "Chandragupta Maurya",
+        "d": "Samudragupta"
+      },
+      "question": "Which famous Buddhist emperor sent missionaries to Sri Lanka?"
+    },
+    "395": {
+      "answer": "A",
+      "id": 396,
+      "options": {
+        "a": "Panchatantra",
+        "b": "Ramayana",
+        "c": "Mahabharata",
+        "d": "Upanishads"
+      },
+      "question": "Which ancient Indian text contains fables and wise sayings often used to teach morals to children?"
+    },
+    "396": {
+      "answer": "A",
+      "id": 397,
+      "options": {
+        "a": "Shah Jahan",
+        "b": "Akbar",
+        "c": "Jahangir",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal emperor is known for architectural patronage including the Jama Masjid and Red Fort?"
+    },
+    "397": {
+      "answer": "A",
+      "id": 398,
+      "options": {
+        "a": "Chola",
+        "b": "Gupta",
+        "c": "Pallava",
+        "d": "Kushan"
+      },
+      "question": "Which kingdom in the south was famed for maritime trade and cultural exchange with Southeast Asia?"
+    },
+    "398": {
+      "answer": "A",
+      "id": 399,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Varahamihira",
+        "c": "Brahmagupta",
+        "d": "None"
+      },
+      "question": "Which ancient Indian astronomer proposed that the Earth spins on its axis and calculated the length of the year?"
+    },
+    "399": {
+      "answer": "A",
+      "id": 400,
+      "options": {
+        "a": "Maurya Empire",
+        "b": "Gupta Empire",
+        "c": "Kushan Empire",
+        "d": "Chola Empire"
+      },
+      "question": "Which historic empire in India is famous for its administrative sophistication and for the expansion under Chandragupta Maurya?"
+    },
+    "400": {
+      "answer": "A",
+      "id": 401,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Valmiki",
+        "c": "Vyasa",
+        "d": "Bhasa"
+      },
+      "question": "Which famous Indian poet wrote works celebrating the king Raghu?"
+    },
+    "401": {
+      "answer": "B",
+      "id": 402,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "None",
+        "d": "Puranas"
+      },
+      "question": "Which epic’s central battle is fought on the field of Kurukshetra?"
+    },
+    "402": {
+      "answer": "A",
+      "id": 403,
+      "options": {
+        "a": "Chalukya",
+        "b": "Chola",
+        "c": "Pallava",
+        "d": "Cheras"
+      },
+      "question": "Which dynasty was responsible for erecting many temples at Pattadakal and Aihole?"
+    },
+    "403": {
+      "answer": "A",
+      "id": 404,
+      "options": {
+        "a": "A.O. Hume",
+        "b": "Mahatma Gandhi",
+        "c": "Dadabhai Naoroji",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "question": "Which famous freedom fighter founded the Indian National Congress and worked for social causes?"
+    },
+    "404": {
+      "answer": "A",
+      "id": 405,
+      "options": {
+        "a": "Akbar",
+        "b": "Aurangzeb",
+        "c": "Jahangir",
+        "d": "Shah Jahan"
+      },
+      "question": "Which Mughal emperor's reign saw the introduction of Persianized court culture and syncretic arts?"
+    },
+    "405": {
+      "answer": "A",
+      "id": 406,
+      "options": {
+        "a": "Panchatantra",
+        "b": "Ramayana",
+        "c": "Mahabharata",
+        "d": "Upanishads"
+      },
+      "question": "Which ancient Indian text discusses ethics through animal fables and is used as didactic literature?"
+    },
+    "406": {
+      "answer": "A",
+      "id": 407,
+      "options": {
+        "a": "Raigad",
+        "b": "Pratapgarh",
+        "c": "Sinhagad",
+        "d": "None"
+      },
+      "question": "Which hill fortress served as the capital of the Maratha empire under Shivaji?"
+    },
+    "407": {
+      "answer": "A",
+      "id": 408,
+      "options": {
+        "a": "Ganga dynasty",
+        "b": "Chola dynasty",
+        "c": "Gupta dynasty",
+        "d": "Pallava"
+      },
+      "question": "Which medieval Indian dynasty built the Sun Temple at Konark?"
+    },
+    "408": {
+      "answer": "A",
+      "id": 409,
+      "options": {
+        "a": "Narmada",
+        "b": "Godavari",
+        "c": "Kaveri",
+        "d": "Ganges"
+      },
+      "question": "Which major river divides peninsular India from the Indo-Gangetic plain?"
+    },
+    "409": {
+      "answer": "B",
+      "id": 410,
+      "options": {
+        "a": "Arjuna",
+        "b": "Abhimanyu",
+        "c": "Bhima",
+        "d": "Arjuna’s son"
+      },
+      "question": "Which legendary archer’s son Abhimanyu was trapped and killed in the Chakravyuha?"
+    },
+    "410": {
+      "answer": "A",
+      "id": 411,
+      "options": {
+        "a": "Varanasi",
+        "b": "Ayodhya",
+        "c": "Mathura",
+        "d": "Kashi"
+      },
+      "question": "Which historic city served as the capital for many dynasties and is sacred in Hinduism—Varanasi?"
+    },
+    "411": {
+      "answer": "B",
+      "id": 412,
+      "options": {
+        "a": "Agra",
+        "b": "Delhi",
+        "c": "Fatehpur Sikri",
+        "d": "None"
+      },
+      "question": "Which Mughal-era city did Humayun’s Tomb influence in garden-tomb architecture?"
+    },
+    "412": {
+      "answer": "A",
+      "id": 413,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Valmiki",
+        "c": "Vyasa",
+        "d": "None"
+      },
+      "question": "Which ancient Indian poet wrote the Raghuvamsa celebrating the Raghu lineage?"
+    },
+    "413": {
+      "answer": "A",
+      "id": 414,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Harsha",
+        "d": "None"
+      },
+      "question": "Which famous Indian emperor used inscriptions in multiple languages to communicate his policies?"
+    },
+    "414": {
+      "answer": "C",
+      "id": 415,
+      "options": {
+        "a": "Portuguese",
+        "b": "French",
+        "c": "British East India Company",
+        "d": "Dutch"
+      },
+      "question": "Which colonial power established trading posts and eventually control over Bengal in the 18th century?"
+    },
+    "415": {
+      "answer": "A",
+      "id": 416,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Madhava",
+        "d": "None"
+      },
+      "question": "Which ancient mathematician’s works were later expanded by Bhaskara II?"
+    },
+    "416": {
+      "answer": "A",
+      "id": 417,
+      "options": {
+        "a": "Nakula",
+        "b": "Sahadeva",
+        "c": "Arjuna",
+        "d": "Bhima"
+      },
+      "question": "Which Pandava brother was known for his knowledge of horses and was handsome and skilled?"
+    },
+    "417": {
+      "answer": "A",
+      "id": 418,
+      "options": {
+        "a": "Chola",
+        "b": "Pallava",
+        "c": "Pandya",
+        "d": "Cheras"
+      },
+      "question": "Which medieval Indian kingdom had close trade links with Southeast Asia and built temples at Thanjavur?"
+    },
+    "418": {
+      "answer": "A",
+      "id": 419,
+      "options": {
+        "a": "Shipra",
+        "b": "Narmada",
+        "c": "Ganges",
+        "d": "Yamuna"
+      },
+      "question": "Which river is associated with the ancient city of Ujjain, known for astronomy?"
+    },
+    "419": {
+      "answer": "A",
+      "id": 420,
+      "options": {
+        "a": "Drupada",
+        "b": "Drona",
+        "c": "Shikhandi",
+        "d": "None"
+      },
+      "question": "Which Mahabharata character was father-in-law to the five Pandavas (father of Draupadi)?"
+    },
+    "420": {
+      "answer": "A",
+      "id": 421,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta",
+        "c": "Samudragupta",
+        "d": "Harsha"
+      },
+      "question": "Which ancient Indian emperor’s reign is famous for his rock edicts promoting moral governance?"
+    },
+    "421": {
+      "answer": "A",
+      "id": 422,
+      "options": {
+        "a": "Puri",
+        "b": "Konark",
+        "c": "Bhubaneswar",
+        "d": "Madurai"
+      },
+      "question": "Which famous temple city is associated with Lord Jagannath?"
+    },
+    "422": {
+      "answer": "B",
+      "id": 423,
+      "options": {
+        "a": "Raja Raja Chola",
+        "b": "Rajendra Chola",
+        "c": "None",
+        "d": "None"
+      },
+      "question": "Which famous southern Indian king fought against the Cholas and was known as a patron of arts?"
+    },
+    "423": {
+      "answer": "A",
+      "id": 424,
+      "options": {
+        "a": "Govardhan Puja",
+        "b": "Janmashtami",
+        "c": "Diwali",
+        "d": "Holi"
+      },
+      "question": "Which festival marks Krishna’s lifting of Govardhan Hill in some traditions?"
+    },
+    "424": {
+      "answer": "A",
+      "id": 425,
+      "options": {
+        "a": "Arthashastra",
+        "b": "Manusmriti",
+        "c": "Dharmashastra",
+        "d": "Nitisara"
+      },
+      "question": "Which famous Indian treatise on statecraft is attributed to Kautilya?"
+    },
+    "425": {
+      "answer": "A",
+      "id": 426,
+      "options": {
+        "a": "Taxila",
+        "b": "Nalanda",
+        "c": "Ujjain",
+        "d": "Pataliputra"
+      },
+      "question": "Which ancient site in northwestern India served as a center of learning at Taxila?"
+    },
+    "426": {
+      "answer": "B",
+      "id": 427,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Bhagat Singh",
+        "d": "None"
+      },
+      "question": "Which Indian freedom fighter founded the Forward Bloc to continue the struggle abroad?"
+    },
+    "427": {
+      "answer": "A",
+      "id": 428,
+      "options": {
+        "a": "Kalidasa",
+        "b": "Valmiki",
+        "c": "Tulsidas",
+        "d": "Kamban"
+      },
+      "question": "Which ancient poet wrote about Rama and the Raghu dynasty in Sanskrit?"
+    },
+    "428": {
+      "answer": "A",
+      "id": 429,
+      "options": {
+        "a": "Indus script",
+        "b": "Brahmi",
+        "c": "Kharosthi",
+        "d": "Devanagari"
+      },
+      "question": "Which ancient script was used in the Indus Valley seals and remains undeciphered?"
+    },
+    "429": {
+      "answer": "A",
+      "id": 430,
+      "options": {
+        "a": "Rani Lakshmibai of Jhansi",
+        "b": "Rani Durgavati",
+        "c": "Rani Padmini",
+        "d": "None"
+      },
+      "question": "Which famous Indian queen fought valiantly in the 19th century against British rule in Jhansi?"
+    },
+    "430": {
+      "answer": "B",
+      "id": 431,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Aurangzeb"
+      },
+      "question": "Which Mughal emperor’s period saw the building of the Taj Mahal and the Agra Fort embellishments?"
+    },
+    "431": {
+      "answer": "A",
+      "id": 432,
+      "options": {
+        "a": "Madhava",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which Indian astronomer authored works that influenced later Indian mathematical thought, such as the Kerala school?"
+    },
+    "432": {
+      "answer": "A",
+      "id": 433,
+      "options": {
+        "a": "Bhagavata Purana",
+        "b": "Bhagavathgita",
+        "c": "Ramayana",
+        "d": "None"
+      },
+      "question": "Which religious text forms the essence of Hindu devotionalism and includes many stories of Krishna?"
+    },
+    "433": {
+      "answer": "B",
+      "id": 434,
+      "options": {
+        "a": "Agra",
+        "b": "Fatehpur Sikri",
+        "c": "Delhi",
+        "d": "None"
+      },
+      "question": "Which city was capital of the Mughal Empire during Akbar’s later years and close to Fatehpur Sikri?"
+    },
+    "434": {
+      "answer": "A",
+      "id": 435,
+      "options": {
+        "a": "Madhava",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which famous Indian mathematician provided infinite series expansions for trigonometric functions?"
+    },
+    "435": {
+      "answer": "A",
+      "id": 436,
+      "options": {
+        "a": "Yamuna",
+        "b": "Ganga",
+        "c": "Godavari",
+        "d": "Kaveri"
+      },
+      "question": "Which river is associated with the ancient city of Mathura?"
+    },
+    "436": {
+      "answer": "A",
+      "id": 437,
+      "options": {
+        "a": "Yudhishthira",
+        "b": "Bhima",
+        "c": "Arjuna",
+        "d": "Karna"
+      },
+      "question": "Which epic hero is known for his strict adherence to dharma and sacrificial rituals—Yudhishthira?"
+    },
+    "437": {
+      "answer": "A",
+      "id": 438,
+      "options": {
+        "a": "Pala",
+        "b": "Gupta",
+        "c": "Maurya",
+        "d": "Chola"
+      },
+      "question": "Which dynasty is famous for establishing powerful medieval kingdoms in Bengal and Bihar?"
+    },
+    "438": {
+      "answer": "A",
+      "id": 439,
+      "options": {
+        "a": "B.R. Ambedkar",
+        "b": "Mahatma Gandhi",
+        "c": "Raja Ram Mohan Roy",
+        "d": "None"
+      },
+      "question": "Which famous Indian reformer worked to abolish untouchability and championed Dalit rights?"
+    },
+    "439": {
+      "answer": "A",
+      "id": 440,
+      "options": {
+        "a": "Raghu",
+        "b": "Ikshvaku",
+        "c": "Rama",
+        "d": "Dasaratha"
+      },
+      "question": "Which king is famed for his exploits in the Raghu lineage and is celebrated in Raghuvamsa?"
+    },
+    "440": {
+      "answer": "A",
+      "id": 441,
+      "options": {
+        "a": "Classical Indian music",
+        "b": "Western orchestral",
+        "c": "Jazz",
+        "d": "None"
+      },
+      "question": "Which ancient Indian musical system divides compositions into raga and tala structures?"
+    },
+    "441": {
+      "answer": "A",
+      "id": 442,
+      "options": {
+        "a": "Arjuna",
+        "b": "Bhima",
+        "c": "Yudhishthira",
+        "d": "None"
+      },
+      "question": "Which Pandava brother is famed for his skill with weapons and is the greatest warrior among them?"
+    },
+    "442": {
+      "answer": "A",
+      "id": 443,
+      "options": {
+        "a": "Battle of Plassey",
+        "b": "Battle of Buxar",
+        "c": "Siege of Arcot",
+        "d": "Third Battle of Panipat"
+      },
+      "question": "Which historic battle in 1757 led to British dominance in Bengal?"
+    },
+    "443": {
+      "answer": "A",
+      "id": 444,
+      "options": {
+        "a": "Chola Empire",
+        "b": "Gupta Empire",
+        "c": "Kushan Empire",
+        "d": "Pallava Empire"
+      },
+      "question": "Which empire in medieval South India built an extensive network of temples and promoted Tamil literature?"
+    },
+    "444": {
+      "answer": "A",
+      "id": 445,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Jawaharlal Nehru",
+        "d": "None"
+      },
+      "question": "Which famous Indian leader spearheaded the Champaran Satyagraha to fight injustice to peasants?"
+    },
+    "445": {
+      "answer": "A",
+      "id": 446,
+      "options": {
+        "a": "Surya Siddhanta",
+        "b": "Aryabhatiya",
+        "c": "Sushruta Samhita",
+        "d": "Charaka Samhita"
+      },
+      "question": "Which ancient scientific text in India includes astronomical and astrological calculations useful for calendars?"
+    },
+    "446": {
+      "answer": "D",
+      "id": 447,
+      "options": {
+        "a": "Rama",
+        "b": "Dasharatha",
+        "c": "Ikshvaku",
+        "d": "All of these"
+      },
+      "question": "Which king is associated with the epic of the Ramayana and is part of the solar dynasty?"
+    },
+    "447": {
+      "answer": "A",
+      "id": 448,
+      "options": {
+        "a": "Indus Valley",
+        "b": "Ganges Valley",
+        "c": "Godavari Valley",
+        "d": "Kaveri Valley"
+      },
+      "question": "Which river valley hosted the Indus-Sarasvati civilization known for urban planning?"
+    },
+    "448": {
+      "answer": "A",
+      "id": 449,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Samudragupta",
+        "d": "Harsha"
+      },
+      "question": "Which famous Indian emperor constructed a widespread administrative network including provincial governors called Mahamatras?"
+    },
+    "449": {
+      "answer": "A",
+      "id": 450,
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Puranas",
+        "d": "None"
+      },
+      "question": "Which ancient Indian epic features the story of Rama’s exile and victory over Ravana?"
+    },
+    "450": {
+      "answer": "A",
+      "id": 451,
+      "options": {
+        "a": "Madhava",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Bhaskara II"
+      },
+      "question": "Which famous Indian mathematician was part of the Kerala school and developed series expansions?"
+    },
+    "451": {
+      "answer": "A",
+      "id": 452,
+      "options": {
+        "a": "Jahanara (daughter of Shah Jahan)",
+        "b": "None",
+        "c": "Roshanara",
+        "d": "Mumtaz Mahal"
+      },
+      "question": "Which Mughal emperor’s daughter was the inspiration for many courtly poems?"
+    },
+    "452": {
+      "answer": "B",
+      "id": 453,
+      "options": {
+        "a": "Hastinapura",
+        "b": "Indraprastha",
+        "c": "Ayodhya",
+        "d": "None"
+      },
+      "question": "Which kingdom in the Mahabharata was the seat of the Pandavas at Indraprastha?"
+    },
+    "453": {
+      "answer": "A",
+      "id": 454,
+      "options": {
+        "a": "Hampi",
+        "b": "Warangal",
+        "c": "Madurai",
+        "d": "None"
+      },
+      "question": "Which major Indian city was the capital of the Vijayanagara Empire near its ruins?"
+    },
+    "454": {
+      "answer": "A",
+      "id": 455,
+      "options": {
+        "a": "Appar and Sambandar",
+        "b": "Tiruvalluvar",
+        "c": "None",
+        "d": "Alvars"
+      },
+      "question": "Which famous Indian saint composed devotional hymns in Tamil called Thevaram and was part of the Nayanars?"
+    },
+    "455": {
+      "answer": "A",
+      "id": 456,
+      "options": {
+        "a": "Aurangzeb",
+        "b": "Akbar",
+        "c": "Shah Jahan",
+        "d": "Jahangir"
+      },
+      "question": "Which Mughal emperor faced revolts in the Deccan and focused on military campaigns late in his reign?"
+    },
+    "456": {
+      "answer": "A",
+      "id": 457,
+      "options": {
+        "a": "Brahmagupta",
+        "b": "Aryabhata",
+        "c": "Bhaskara II",
+        "d": "Pingala"
+      },
+      "question": "Which ancient Indian mathematician wrote the works 'Brahmasphutasiddhanta' including zero operations?"
+    },
+    "457": {
+      "answer": "A",
+      "id": 458,
+      "options": {
+        "a": "Ganga and Yamuna",
+        "b": "Narmada",
+        "c": "Godavari",
+        "d": "Kaveri"
+      },
+      "question": "Which river is central to the city of Allahabad, also called Prayagraj?"
+    },
+    "458": {
+      "answer": "A",
+      "id": 459,
+      "options": {
+        "a": "Ramcharitmanas",
+        "b": "Valmiki Ramayana",
+        "c": "Kamba Ramayanam",
+        "d": "None"
+      },
+      "question": "Which literary work by Tulsidas retells the Ramayana in Awadhi and is widely read?"
+    },
+    "459": {
+      "answer": "B",
+      "id": 460,
+      "options": {
+        "a": "Yuyutsu",
+        "b": "Dushasana",
+        "c": "Duryodhana",
+        "d": "None"
+      },
+      "question": "Which Kaurava brother was famous for his strength and was the second of the brothers?"
+    },
+    "460": {
+      "answer": "A",
+      "id": 461,
+      "options": {
+        "a": "Chennai (ancient Madras)",
+        "b": "Kolkata",
+        "c": "Visakhapatnam",
+        "d": "None"
+      },
+      "question": "Which major Indian city on the east coast was known as a trading center in ancient times?"
+    },
+    "461": {
+      "answer": "A",
+      "id": 462,
+      "options": {
+        "a": "Silambam",
+        "b": "Kalaripayattu",
+        "c": "Gatka",
+        "d": "Thang-Ta"
+      },
+      "question": "Which martial tradition in India emphasizes weapon training with long sticks (silambam)?"
+    },
+    "462": {
+      "answer": "A",
+      "id": 463,
+      "options": {
+        "a": "Bhagat Singh",
+        "b": "Mahatma Gandhi",
+        "c": "Jawaharlal Nehru",
+        "d": "Sardar Patel"
+      },
+      "question": "Which famous Indian independence leader was known for his radical youth activism and martyrdom?"
+    },
+    "463": {
+      "answer": "C",
+      "id": 464,
+      "options": {
+        "a": "Cooum",
+        "b": "Adyar",
+        "c": "Both A and B",
+        "d": "None"
+      },
+      "question": "Which river is associated with the city of Madras (Chennai) and empties into the Bay of Bengal?"
+    },
+    "464": {
+      "answer": "A",
+      "id": 465,
+      "options": {
+        "a": "Brahmo Samaj",
+        "b": "Arya Samaj",
+        "c": "Theosophical Society",
+        "d": "None"
+      },
+      "question": "Which historical movement aimed at social and educational reform is associated with Raja Ram Mohan Roy?"
+    },
+    "465": {
+      "answer": "A",
+      "id": 466,
+      "options": {
+        "a": "Yudhishthira",
+        "b": "Arjuna",
+        "c": "Bhima",
+        "d": "Karna"
+      },
+      "question": "Which epic character is known for his constant adherence to dharma and moral rectitude—Yudhishthira?"
+    },
+    "466": {
+      "answer": "A",
+      "id": 467,
+      "options": {
+        "a": "Natyashastra",
+        "b": "Arthashastra",
+        "c": "Manusmriti",
+        "d": "Panchatantra"
+      },
+      "question": "Which ancient Indian treatise discusses dramaturgy and the theory of rasa?"
+    },
+    "467": {
+      "answer": "A",
+      "id": 468,
+      "options": {
+        "a": "Sri Lanka",
+        "b": "Maldives",
+        "c": "Madagascar",
+        "d": "None"
+      },
+      "question": "Which island nation to the south of India is identified with Lanka in the epics?"
+    },
+    "468": {
+      "answer": "A",
+      "id": 469,
+      "options": {
+        "a": "Lanka",
+        "b": "Ayodhya",
+        "c": "Kishkindha",
+        "d": "None"
+      },
+      "question": "Which kingdom did Ravana’s brother Vibhishana rule after switching sides?"
+    },
+    "469": {
+      "answer": "A",
+      "id": 470,
+      "options": {
+        "a": "Cheras and Pandyas",
+        "b": "Guptas",
+        "c": "Kushans",
+        "d": "None"
+      },
+      "question": "Which ancient Indian community contributed to maritime trade in the Indian Ocean and had ports like Muziris?"
+    },
+    "470": {
+      "answer": "A",
+      "id": 471,
+      "options": {
+        "a": "Ganga",
+        "b": "Yamuna",
+        "c": "Godavari",
+        "d": "Narmada"
+      },
+      "question": "Which major Indian river is known as the 'Ganges' and supports millions along its basin?"
+    },
+    "471": {
+      "answer": "A",
+      "id": 472,
+      "options": {
+        "a": "Ashoka",
+        "b": "Chandragupta Maurya",
+        "c": "Bindusara",
+        "d": "Bimbisara"
+      },
+      "question": "Which ancient Indian king’s inscription survives on pillars and rocks and often mentions 'Dhamma'?"
+    },
+    "472": {
+      "answer": "D",
+      "id": 473,
+      "options": {
+        "a": "Rama",
+        "b": "Sita",
+        "c": "Lakshmana",
+        "d": "None"
+      },
+      "question": "Which epic character was mistakenly believed to be the cause of exile when Sita was abducted?"
+    },
+    "473": {
+      "answer": "A",
+      "id": 474,
+      "options": {
+        "a": "Mahatma Gandhi",
+        "b": "Subhas Chandra Bose",
+        "c": "Jawaharlal Nehru",
+        "d": "Netaji"
+      },
+      "question": "Which Indian leader famously said 'Quit India' to demand immediate independence from British rule?"
+    },
+    "474": {
+      "answer": "A",
+      "id": 475,
+      "options": {
+        "a": "Pala",
+        "b": "Gupta",
+        "c": "Chola",
+        "d": "Maurya"
+      },
+      "question": "Which dynasty flourished in eastern India and promoted Buddhist learning from the 8th–12th centuries?"
+    },
+    "475": {
+      "answer": "A",
+      "id": 476,
+      "options": {
+        "a": "Aryabhata",
+        "b": "Brahmagupta",
+        "c": "Bhaskara II",
+        "d": "None"
+      },
+      "question": "Which famous Indian mathematician and astronomer wrote the Aryabhatiya?"
+    },
+    "476": {
+      "answer": "A",
+      "id": 477,
+      "options": {
+        "a": "Odisha",
+        "b": "Tamil Nadu",
+        "c": "Karnataka",
+        "d": "Andhra Pradesh"
+      },
+      "question": "Which city is famous for the Sun Temple and the Jagannath Temple—Konark and Puri are in which state?"
+    },
+    "477": {
+      "answer": "A",
+      "id": 478,
+      "options": {
+        "a": "Hoysala Empire",
+        "b": "Chola Empire",
+        "c": "Gupta Empire",
+        "d": "Pandya"
+      },
+      "question": "Which medieval Indian polity is known for its elaborate temples and pilgrimage centers in Karnataka?"
+    },
+    "478": {
+      "answer": "A",
+      "id": 479,
+      "options": {
+        "a": "Government of India Act 1858",
+        "b": "Regulating Act",
+        "c": "Indian Councils Act",
+        "d": "None"
+      },
+      "question": "Which British act institutionalized direct rule in India after 1858?"
+    },
+    "479": {
+      "answer": "D",
+      "id": 480,
+      "options": {
+        "a": "Mohenjo-daro",
+        "b": "Harappa",
+        "c": "Lothal",
+        "d": "All of these"
+      },
+      "question": "Which ancient Indian site is famous for well-planned streets and advanced drainage systems?"
+    },
+    "480": {
+      "answer": "A",
+      "id": 481,
+      "options": {
+        "a": "Janaka’s court",
+        "b": "Ayodhya",
+        "c": "Lanka",
+        "d": "Kishkindha"
+      },
+      "question": "Which kingdom in the epics provided the bow that Rama broke at Sita’s swayamvara?"
+    },
+    "481": {
+      "answer": "A",
+      "id": 482,
+      "options": {
+        "a": "Lala Lajpat Rai",
+        "b": "Bhagat Singh",
+        "c": "Mahatma Gandhi",
+        "d": "None"
+      },
+      "question": "Which Indian leader organized the Simon Commission protests and was a major figure in freedom struggle?"
+    },
+    "482": {
+      "answer": "A",
+      "id": 483,
+      "options": {
+        "a": "Narmada",
+        "b": "Godavari",
+        "c": "Ganga",
+        "d": "Kaveri"
+      },
+      "question": "Which river forms the western boundary of peninsular India and flows into the Arabian Sea?"
+    },
+    "483": {
+      "answer": "A",
+      "id": 484,
+      "options": {
+        "a": "Pingala",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "None"
+      },
+      "question": "Which ancient Indian mathematician is famed for work on algorithmic combinatorics and prosody?"
+    },
+    "484": {
+      "answer": "B",
+      "id": 485,
+      "options": {
+        "a": "Shantanu",
+        "b": "Vichitravirya",
+        "c": "None",
+        "d": "Gandhari"
+      },
+      "question": "Which epic character’s broken vow leads to the birth of the Kauravas and Pandavas?"
+    },
+    "485": {
+      "answer": "A",
+      "id": 486,
+      "options": {
+        "a": "Qutub Minar",
+        "b": "Red Fort",
+        "c": "Jama Masjid",
+        "d": "Humayun’s Tomb"
+      },
+      "question": "Which Mughal-era structure in Delhi is known for its impressive minaret and is the tallest brick minaret in the world?"
+    },
+    "486": {
+      "answer": "A",
+      "id": 487,
+      "options": {
+        "a": "Samudragupta",
+        "b": "Chandragupta II",
+        "c": "Chandragupta I",
+        "d": "Harsha"
+      },
+      "question": "Which Indian king expanded the Gupta empire and promoted classical Sanskrit art?"
+    },
+    "487": {
+      "answer": "A",
+      "id": 488,
+      "options": {
+        "a": "Holi",
+        "b": "Diwali",
+        "c": "Dussehra",
+        "d": "Navratri"
+      },
+      "question": "Which festival is associated with colors and the triumph of love and spring in India?"
+    },
+    "488": {
+      "answer": "A",
+      "id": 489,
+      "options": {
+        "a": "Gupta era",
+        "b": "Maurya era",
+        "c": "Kushan era",
+        "d": "Chola era"
+      },
+      "question": "Which ancient Indian era saw the construction of elaborate stone temples and flourishing classical arts?"
+    },
+    "489": {
+      "answer": "A",
+      "id": 490,
+      "options": {
+        "a": "B.R. Ambedkar",
+        "b": "Jawaharlal Nehru",
+        "c": "Mahatma Gandhi",
+        "d": "None"
+      },
+      "question": "Which famous leader is known for drafting India’s constitution and championing social justice?"
+    },
+    "490": {
+      "answer": "A",
+      "id": 491,
+      "options": {
+        "a": "Chola bronzes",
+        "b": "Terracotta",
+        "c": "Stone carving",
+        "d": "Wood carving"
+      },
+      "question": "Which ancient Indian craft is the making of bronze sculptures, especially seen in the Chola period?"
+    },
+    "491": {
+      "answer": "A",
+      "id": 492,
+      "options": {
+        "a": "Varahamihira",
+        "b": "Aryabhata",
+        "c": "Brahmagupta",
+        "d": "Madhava"
+      },
+      "question": "Which famous Indian astronomer compiled astronomical tables used in later centuries in India?"
+    },
+    "492": {
+      "answer": "A",
+      "id": 493,
+      "options": {
+        "a": "It established political control over Bengal",
+        "b": "It left Bengal",
+        "c": "It became part of British Crown immediately",
+        "d": "None"
+      },
+      "question": "Which role did the East India Company play after its victory at Plassey in 1757?"
+    },
+    "493": {
+      "answer": "A",
+      "id": 494,
+      "options": {
+        "a": "Classical Indian dance-drama",
+        "b": "Western opera",
+        "c": "Kabuki",
+        "d": "Noh"
+      },
+      "question": "Which ancient form of Indian theater includes dance, music, and acting as prescribed by the Natyashastra?"
+    },
+    "494": {
+      "answer": "A",
+      "id": 495,
+      "options": {
+        "a": "Shimla",
+        "b": "Darjeeling",
+        "c": "Ooty",
+        "d": "Munnar"
+      },
+      "question": "Which hill station was a favorite of British colonial administrators and is known as the 'Queen of Hills'?"
+    },
+    "495": {
+      "answer": "A",
+      "id": 496,
+      "options": {
+        "a": "Harsha",
+        "b": "Ashoka",
+        "c": "Chandragupta II",
+        "d": "None"
+      },
+      "question": "Which Indian king is famed for the patronage of Nalanda and extensive scholarships?"
+    },
+    "496": {
+      "answer": "A",
+      "id": 497,
+      "options": {
+        "a": "Indus Valley Civilization",
+        "b": "Mesopotamia",
+        "c": "Egypt",
+        "d": "China"
+      },
+      "question": "Which ancient civilization produced seals, beads, and standardized weights around 2500 BCE?"
+    },
+    "497": {
+      "answer": "A",
+      "id": 498,
+      "options": {
+        "a": "Ganges",
+        "b": "Yamuna",
+        "c": "Godavari",
+        "d": "Narmada"
+      },
+      "question": "Which famous Indian river is revered and is considered holy by Hindus?"
+    },
+    "498": {
+      "answer": "A",
+      "id": 499,
+      "options": {
+        "a": "Akbar",
+        "b": "Shah Jahan",
+        "c": "Jahangir",
+        "d": "Humayun"
+      },
+      "question": "Which medieval Indian ruler shifted the capital to Fatehpur Sikri and later abandoned it due to water scarcity?"
+    },
+    "499": {
+      "answer": "A",
+      "id": 500,
+      "options": {
+        "a": "Holi",
+        "b": "Diwali",
+        "c": "Navratri",
+        "d": "Pongal"
+      },
+      "question": "Which ancient Indian festival celebrates the return of spring and is famous for colors and bonfires?"
+    },
+    "meta": {
+      "canonical": "https://sanatanadharmam.in/questions",
+      "keywords": [
+        "bhagavata",
+        "hindu puranas",
+        "katha",
+        "kena",
+        "mahabharata",
+        "mandukya",
+        "mundaka",
+        "ramayana",
+        "upanishad",
+        "veda",
+        "vishnu purana"
+      ],
+      "url": "https://sanatanadharmam.in/questions"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

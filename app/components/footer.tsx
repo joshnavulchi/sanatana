@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import React, { useState, Fragment } from 'react';
+
+import { useState, useEffect, Fragment } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -14,13 +15,13 @@ interface NavLink {
 
 /* ── Section config — ordered as they should appear in the footer ── */
 const SECTION_CONFIG: { key: string; icon: string; iconBg: string; basePath: string }[] = [
-  { key: 'vedas', icon: '📕', iconBg: 'bg-[#7a2e1f]', basePath: '/vedas' },
-  { key: 'upanishads', icon: '📜', iconBg: 'bg-[#92400e]', basePath: '/upanishads' },
-  { key: 'puranas', icon: '📖', iconBg: 'bg-[#9a3412]', basePath: '/puranas' },
+  { key: 'vedas', icon: '📕', iconBg: 'bg-gray-700', basePath: '/vedas' },
+  { key: 'upanishads', icon: '📜', iconBg: 'bg-gray-600', basePath: '/upanishads' },
+  { key: 'puranas', icon: '📖', iconBg: 'bg-gray-700', basePath: '/puranas' },
   // itihasa rendered separately via ItihasaColumn
-  { key: 'philosophy', icon: '🧘', iconBg: 'bg-[#c2410c]', basePath: '/philosophy' },
-  { key: 'science', icon: '🔬', iconBg: 'bg-[#8b3a2a]', basePath: '/vedic-philosophy' },
-  { key: 'others', icon: '✨', iconBg: 'bg-[#5b2d12]', basePath: '' },
+  { key: 'philosophy', icon: '🧘', iconBg: 'bg-gray-600', basePath: '/philosophy' },
+  { key: 'science', icon: '🔬', iconBg: 'bg-gray-700', basePath: '/vedic-philosophy' },
+  { key: 'others', icon: '✨', iconBg: 'bg-gray-700', basePath: '' },
 ];
 
 const INITIAL_VISIBLE = 5;
@@ -68,19 +69,20 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
-        <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-[#fff4df]`}>
+    // 
+    <div className="flex flex-col gap-1 bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
         </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {visible.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
-          className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+          className={`text-md sm:text-base transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -90,15 +92,16 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-1 flex items-center gap-1 text-sm font-semibold text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
+          className="mt-1 flex items-center gap-1 px-2 text-md sm:text-base text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
           aria-expanded={expanded}
         >
-          {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
+          {/* ${links.length - INITIAL_VISIBLE} */}
+          {expanded ? 'Show less' : `Show more`}
           <svg
-            className={`bg-white h-4 w-4 p-1 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 rounded transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
           </svg>
         </button>
       )}
@@ -109,6 +112,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 /* ── Itihasa column — epics with collapsible sub-lists ── */
 function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   const pathname = usePathname();
+  const iconBg = SECTION_CONFIG[4].iconBg;
   const [expandedEpic, setExpandedEpic] = useState<string | null>(null);
 
   const normalize = (p?: string) => {
@@ -138,20 +142,21 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   });
 
   return (
-    <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
-        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#b45309] text-xs text-[#fff4df]">⚔️</span>
+    // 
+    <div className="flex flex-col gap-1 bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
+      <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
+        <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
+          ⚔️
+        </span>
         {title}
       </p>
-      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
-
+      <div className="mb-1 h-1 w-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full animate-gradient-x" />
       {epicEntries.map(({ name, slug, href, subNav, hasSubItems }) => (
         <div key={slug} className="flex flex-col">
-          {/* Epic parent link + toggle */}
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+              className={`text-md sm:text-base transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -160,30 +165,28 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="bg-white ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-[#92400e] hover:text-[#7a2e1f] hover:bg-[#fde7c7] transition-all duration-200 cursor-pointer"
+                className="mt-1 inline-flex items-center justify-center rounded-xl h-6 w-6 text-indigo-700 hover:text-pink-600 hover:bg-indigo-100 transition-all duration-300 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
                 <svg
-                  className={`h-3 w-3 transition-transform duration-200 ${expandedEpic === slug ? 'rotate-180' : ''}`}
+                  className={`h-4 w-4 transition-transform duration-300 ${expandedEpic === slug ? 'rotate-180' : ''}`}
                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
             )}
           </div>
-
-          {/* Sub-items (kandas / chapters) */}
           {hasSubItems && expandedEpic === slug && (
-            <div className="ml-1 mt-1 flex flex-col gap-1 border-l-2 border-[#d8a25a]/30 pl-3">
+            <div className="ml-2 mt-1 flex flex-col gap-1 border-l-2 border-indigo-200/40 pl-3">
               {Object.entries(subNav).map(([subKey, subLabel]) => {
                 const subHref = `${href}/${subKey}`;
                 return (
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-sm font-semibold transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#6b5d4f] hover:text-[#7a2e1f]'}`}
+                    className={`text-md sm:text-base transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -199,9 +202,14 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 }
 
 export default function Footer() {
-  const shared = useLocaleSection('sharable_strings');
+  const shared = useLocaleSection('sharable-strings');
   const footer = shared?.footer || {};
   const pathname = usePathname();
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
 
   const normalize = (p?: string) => {
     if (!p) return '/';
@@ -211,37 +219,35 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="relative w-full overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef]">
-        {/* Top ornamental bar */}
-        <div className="h-[3] w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
-
+      <footer className="w-full relative bg-amber-600 overflow-hidden">
+        <div className="hidden h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-[#d97706] blur-3xl animate-ping" />
-          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-[#7c2d12] blur-3xl animate-ping" />
+          <div className="hidden absolute -left-32 -top-10 h-72 w-72 rounded-full bg-gradient-to-br from-indigo-400/30 via-pink-200/30 to-amber-200/30 blur-3xl animate-pulse" />
+          <div className="hidden absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-gradient-to-br from-pink-300/30 via-amber-200/30 to-indigo-300/30 blur-3xl animate-pulse" />
+          <div className="hidden absolute left-1/2 top-0 h-40 w-[70%] -translate-x-1/2 rounded-b-full bg-gradient-to-r from-indigo-200/40 via-pink-100/40 to-amber-100/40 blur-2xl animate-pulse" />
+          <div className="hidden absolute inset-0 bg-white/30 backdrop-blur-[2px] pointer-events-none" />
         </div>
 
-        <div className="relative z-10">
+        <div className="relative mx-auto max-w-7xl z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper text-center py-16 md:py-20">
-            <div className="bg-white mx-auto max-w-3xl rounded-xl shadow-xs my-16 p-4">
-              <h2 className="text-3xl/10 md:text-4xl/12 my-12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <section className="content-wrapper text-center py-6 md:py-12">
+            <div className="mx-auto max-w-xl rounded-md bg-white backdrop-blur-sm shadow-sm my-6 p-4">
+              <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
-              </h2>
+              </h6>
             </div>
 
-            <p className="mx-auto max-w-4xl text-xl md:text-lg mt-6 px-4 leading-8 text-[#5b2d12]">
+            <p className="mx-auto max-w-5xl text-md sm:text-base mt-6 px-4 leading-relaxed text-gray-200">
               {footer.quote} {footer.quotesource}
             </p>
 
             {/* CTA Buttons */}
-            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
+            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 my-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-8 py-3 bg-linear-to-r from-amber-500 to-orange-600
-                hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl font-light hover:shadow-2xl
-                transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
-                <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+                className="group relative md:inline-flex px-6 py-3 bg-amber-700 hover:bg-amber-800 text-white text-md sm:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
                   <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -252,10 +258,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
-                hover:bg-white/20 border-2 border-white/50 hover:border-white
-                text-white text-xl md:text-lg font-light rounded-full shadow-lg hover:shadow-xl
-                transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                className="group md:inline-flex px-6 py-3 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-md sm:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -267,20 +270,23 @@ export default function Footer() {
           </section>
 
           {/* ─── Ornamental Divider ─── */}
-          <div className="flex items-center justify-center gap-3 px-8">
-            <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
-            <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
-            <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
+          <div className="flex items-center justify-center gap-3 px-4">
+            <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
+            <span className="text-md sm:text-base text-gray-700" aria-hidden="true">✦</span>
+            <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 
           {/* ─── Navigation Columns ─── */}
-          <div className="mx-auto max-w-7xl px-3 md:px-0 py-7 md:py-14">
-            <nav className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
-              {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
+            <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
+              {SECTION_CONFIG.map(({ key, icon, iconBg, basePath: configBase }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
                 const title = section.title || key;
-                const links = normalizeNavLinks(section.nav, basePath);
+                const bp = (typeof section.basePath === 'string')
+                  ? (section.basePath as string)
+                  : (configBase && String(configBase).length > 0 ? configBase : '');
+                const links = normalizeNavLinks(section.nav, bp);
 
                 // Insert ItihasaColumn after puranas
                 return (
@@ -301,46 +307,68 @@ export default function Footer() {
           </div>
 
           {/* ─── Bottom Bar ─── */}
-          <div className="border-t border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] via-[#fde7c7] to-[#fff7ed]">
+          <div className="border-t border-gray-100">
             {/* Disclaimer + Socials */}
-            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 md:flex-row">
-              <div>
-                <small className="text-xs leading-5 text-[#6b3a17]">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
+              <div className="space-y-2">
+                <small className="text-xs leading-relaxed text-gray-100">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
-              <nav role="list" className="flex items-center gap-4" aria-label="Social links">
-                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
-                </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
-                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
-                </Link>
-              </nav>
+              <div className="text-center">
+                {footer.shareMessage && (
+                  <small className="text-xs text-gray-100">{footer.shareMessage}</small>
+                )}
+                <nav role="list" className="flex justify-center md:justify-end gap-1" aria-label="Social links">
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on Facebook"
+                    href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Visit us on Instagram"
+                    href="https://www.instagram.com/vulchivijay"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={25} height={25} className="inline-block" />
+                  </Link>
+                  <Link
+                    role="listitem"
+                    aria-label="Share this page on X"
+                    href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                  >
+                    <LazyImage src="/images/svg/x.svg" alt="x" width={25} height={25} className="inline-block" />
+                  </Link>
+                </nav>
+              </div>
             </div>
 
             {/* Copyright bar */}
-            <div className="border-t border-[#d8a25a]/20">
-              <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-4 md:flex-row">
+            <div className="border-t border-gray-100">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3 py-4">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer.privacy}</Link>
-                  <span className="text-[#d8a25a]">·</span>
-                  <Link href="/terms-of-service" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer.terms}</Link>
+                  <Link href="/privacy-policy" className={`text-xs transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-100 underline' : 'text-gray-200 hover:text-gray-300'} `}>{footer.privacy}</Link>
+                  <span className="text-gray-200">·</span>
+                  <Link href="/terms-of-service" className={`text-xs transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-100 underline' : 'text-gray-200 hover:text-gray-300'} `}>{footer.terms}</Link>
                 </div>
-                <small className="text-xs text-[#92400e]">{footer.copyright}</small>
+                <small className="text-xs text-gray-100">{footer.copyright}</small>
               </div>
             </div>
           </div>
-
-          {/* Bottom ornamental bar */}
-          <div className="h-[4] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
         </div>
+        {/* Bottom ornamental bar */}
+        <div className="h-1 w-full bg-linear-to-r from-gray-700 via-gray-500 to-gray-400" />
       </footer>
     </>
   );

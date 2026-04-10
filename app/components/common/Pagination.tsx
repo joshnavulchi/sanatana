@@ -20,18 +20,18 @@ const Pagination: React.FC<PaginationProps> = ({ page, totalPages, onPageChange 
   return (
     <nav className="flex items-center gap-2">
       <button
-        className="rounded-xl border border-[#d8a25a] bg-[#fffaf0] px-3 py-1 text-sm font-semibold text-[#7a2e1f] disabled:opacity-50"
+        className="rounded-xl border border-[#d8a25a] bg-[#fffaf0] px-3 py-1 text-md sm:text-base font-semibold text-[#7a2e1f] disabled:opacity-50 cursor-pointer"
         onClick={handlePrev}
         disabled={page === 1}
         aria-label="Previous page"
       >
         &larr;
       </button>
-      <span className="px-2 text-sm text-[#5b2d12]">
+      <span className="px-2 text-[#5b2d12] text-md sm:text-base leading-relaxed font-normal">
         {page} / {totalPages}
       </span>
       <button
-        className="rounded-xl border border-[#d8a25a] bg-[#fffaf0] px-3 py-1 text-sm font-semibold text-[#7a2e1f] disabled:opacity-50"
+        className="rounded-xl border border-[#d8a25a] bg-[#fffaf0] px-3 py-1 text-md sm:text-base font-semibold text-[#7a2e1f] disabled:opacity-50 cursor-pointer"
         onClick={handleNext}
         disabled={page === totalPages}
         aria-label="Next page"
@@ -43,3 +43,4 @@ const Pagination: React.FC<PaginationProps> = ({ page, totalPages, onPageChange 
 };
 
 export default Pagination;
+

@@ -1,15 +1,16 @@
 
 import type { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
 
 interface ExtendedConfig extends Config {
   safelist?: string[];
 }
 
 const config: ExtendedConfig = {
-  darkMode: 'class',
+  // Light-theme only — disable dark mode
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    '@components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/components/**/*.{js,ts,jsx,tsx,mdx}',
     './lib/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   // Add any dynamic or conditional class names here to prevent purging
@@ -27,7 +28,7 @@ const config: ExtendedConfig = {
     'animate-fade-out',
     'animate-slide-up',
     'animate-slide-down',
-],
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -35,6 +36,7 @@ const config: ExtendedConfig = {
         serif: ['Playfair Display', 'serif'],
       },
       colors: {
+        primary: colors.amber,
         'custom-yellow': '#fdae50',
         'custom-red': '#fa5952',
         'custom-orange': '#fa5952',

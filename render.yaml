@@ -4,6 +4,10 @@ services:
     env: node
     plan: free
 
+    cache:
+      - node_modules
+      - .next/cache
+
     envVars:
       - key: NEXT_BUILD_MAX_WORKERS
         value: "4"
@@ -23,6 +27,6 @@ services:
       node scripts/generate-sitemap.js
       node scripts/minify-html.js
       node scripts/add-hash-to-assets.js
-      node scripts/generate-post-deploy-audit.js
+      node scripts/audit-seo.js --out out --json public/data/audit-report.json
 
     publishPath: out

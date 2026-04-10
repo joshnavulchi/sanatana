@@ -6,8 +6,6 @@ import storage from '@lib/storage';
 import Link from 'next/link';
 import Marquee from './marquee';
 
-import styles from '@app/styles.module.scss';
-
 type BannerProps = {
   id: string,
   message: {
@@ -86,20 +84,25 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
   const { and } = links || "";
 
   return (
-    <div className={`${styles.notifictionbar} text-gray-900 `}>
-      {showClose ? (
-        <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white  text-red-600  shadow-md">×</button>
-      ) : null}
-      {marquee === "true" ? <Marquee id={id}>
-        <span className="text-gray-900 ">{title}</span>
-        {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color text-blue-700 ">alive</Link> : null}
-        {lbeforetext && iam && lbetweentext && laftertext ? <> {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline underline-text-color text-blue-700 ">Iam</Link>
-          {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline underline-text-color text-blue-700 ">Github Copilot</Link>
-          {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline underline-text-color text-blue-700 "> ChatGPT</Link>
-          {laftertext} </> : null}
-        <span className="text-gray-900 ">{subtitle}</span>
-      </Marquee> : <div className="flex items-center justify-center text-gray-900 ">{title} {subtitle}</div>}
-    </div >
+    <div className="relative w-full z-50 animate-fadeInUp">
+      <div className="rounded-2xl shadow-xl border-2 border-amber-200/60 bg-gradient-to-r from-amber-50 via-pink-50 to-rose-100 px-4 py-3 flex items-center justify-center gap-2 animate-gradient-x">
+        {showClose ? (
+          <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white text-red-600 shadow-md w-8 h-8 flex items-center justify-center hover:bg-rose-100 transition-all duration-200">×</button>
+        ) : null}
+        {marquee === "true" ? <Marquee id={id}>
+          <span className="font-semibold text-amber-700 animate-pulse">{title}</span>
+          {alive ? <Link href={alive} title="Make a small donation!" className="underline text-pink-700 hover:text-rose-700 transition-colors">alive</Link> : null}
+          {lbeforetext && iam && lbetweentext && laftertext ? <>
+            {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline text-pink-700 hover:text-rose-700 transition-colors">Iam</Link>
+            {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline text-pink-700 hover:text-rose-700 transition-colors">Github Copilot</Link>
+            {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline text-pink-700 hover:text-rose-700 transition-colors"> ChatGPT</Link>
+            {laftertext}
+          </> : null}
+          <span className="ml-2 text-rose-700 animate-fadeIn delay-100">{subtitle}</span>
+        </Marquee> : <div className="flex items-center justify-center font-semibold text-amber-700 animate-fadeIn">{title} {subtitle}</div>}
+      </div>
+    </div>
   )
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

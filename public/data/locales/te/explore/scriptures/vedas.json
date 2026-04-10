@@ -3,8 +3,8 @@
     "title": "Ancient Hindu scriptures considered divine revelations, forming the foundation of Sanatan Dharma.",
     "meta": {
       "title": "Scriptures | Vedas — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
       "description": "Vedas — Rigveda, Yajurveda, Samaveda, Atharvaveda — Articles, translations and concise commentary on Vedas. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
       "keywords": [
         "Ancient Indian texts",
         "Atharvaveda",
@@ -42,38 +42,6 @@
       ],
       "ogimage": "/og/vedas.png",
       "url": "https://sanatanadharmam.in/scriptures/vedas"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "all_108_upanishads": {
       "description": "Complete list of 108 Upanishads as per Muktika tradition.",
@@ -861,53 +829,63 @@
           "name": "Atharvaveda"
         }
       ],
-      "subdivisions": ["Samhitas", "Brahmanas", "Aranyakas", "Upanishads"]
+      "subdivisions": [
+        "Samhitas",
+        "Brahmanas",
+        "Aranyakas",
+        "Upanishads"
+      ]
     },
-    "themes": ["Cosmology", "Ethics", "Rituals", "Philosophy"],
+    "themes": [
+      "Cosmology",
+      "Ethics",
+      "Rituals",
+      "Philosophy"
+    ],
     "timeline": [
       {
-        "date": "1500 BCE – 1200 BCE",
         "description": "Composition of Rigveda hymns; oral tradition begins.",
+        "date": "1500 BCE – 1200 BCE",
         "phase": "Early Vedic Period"
       },
       {
-        "date": "1200 BCE – 900 BCE",
         "description": "Development of Samaveda and Yajurveda; ritualistic focus.",
+        "date": "1200 BCE – 900 BCE",
         "phase": "Middle Vedic Period"
       },
       {
-        "date": "900 BCE – 500 BCE",
         "description": "Atharvaveda composed; Brahmanas and Aranyakas written.",
+        "date": "900 BCE – 500 BCE",
         "phase": "Late Vedic Period"
       },
       {
-        "date": "800 BCE – 200 BCE",
         "description": "Philosophical shift; Upanishads compiled emphasizing spiritual knowledge.",
+        "date": "800 BCE – 200 BCE",
         "phase": "Upanishadic Age"
       },
       {
-        "date": "Around 500 BCE onwards",
         "description": "Vedas and Upanishads documented in written form.",
+        "date": "Around 500 BCE onwards",
         "phase": "Written Compilation"
       },
       {
-        "date": "Traditional: Treta Yuga | Astronomical Estimate: ~5114 BCE",
         "description": "Seventh avatar of Vishnu born in Ayodhya; celebrated as Rama Navami.",
+        "date": "Traditional: Treta Yuga | Astronomical Estimate: ~5114 BCE",
         "phase": "Birth of Lord Rama"
       },
       {
-        "date": "Traditional: Dvapara Yuga | Astronomical Estimate: ~3228 BCE",
         "description": "Eighth avatar of Vishnu born in Mathura; celebrated as Janmashtami.",
+        "date": "Traditional: Dvapara Yuga | Astronomical Estimate: ~3228 BCE",
         "phase": "Birth of Lord Krishna"
       },
       {
-        "date": "Approx. 6 BCE – 4 BCE",
         "description": "Traditional Christian belief places Jesus' birth before the death of King Herod.",
+        "date": "Approx. 6 BCE – 4 BCE",
         "phase": "Birth of Jesus Christ"
       },
       {
-        "date": "Timeless (Anadi-Ananta)",
         "description": "Shiva is eternal, beyond birth and death; manifests as cosmic consciousness.",
+        "date": "Timeless (Anadi-Ananta)",
         "phase": "Lord Shiva"
       }
     ],
@@ -916,17 +894,23 @@
       "definition": "Philosophical texts forming the concluding part of the Vedas, focusing on spiritual knowledge.",
       "major_upanishads": [
         {
-          "links": ["https://www.gutenberg.org/ebooks/3283"],
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
           "name": "Isha",
           "summary": "Teaches renunciation and unity of Brahman in all beings."
         },
         {
-          "links": ["https://scriptures.ru/upanishad/"],
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
           "name": "Kena",
           "summary": "Explores the source of perception and ultimate reality."
         },
         {
-          "links": ["https://kaalchakra.in/108-upanishads-all-in-one/"],
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
           "name": "Katha",
           "summary": "Dialogue between Nachiketa and Yama on immortality."
         },
@@ -945,12 +929,16 @@
           "summary": "Analysis of Om and states of consciousness."
         },
         {
-          "links": ["https://scriptures.ru/upanishad/"],
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
           "name": "Taittiriya",
           "summary": "Layers of human existence; bliss of Brahman."
         },
         {
-          "links": ["https://kaalchakra.in/108-upanishads-all-in-one/"],
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
           "name": "Chandogya",
           "summary": "Meditation, ethics, and the concept of 'Tat Tvam Asi'."
         },
@@ -962,6 +950,29 @@
           "summary": "Self-knowledge; philosophical dialogues on Atman."
         }
       ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     }
   }
 }

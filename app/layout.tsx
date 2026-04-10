@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
@@ -14,6 +15,11 @@ import ScrollToTop from '@components/scroll-to-top';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import "./globals.css"; // tailwind base styles
+
+export const metadata = {
+  title: 'Sanātana Dharma – Eternal Principles of Hinduism',
+  description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.',
+};
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -41,7 +47,7 @@ export default async function RootLayout({
   try {
     const hdrs = await headers();
     const cookie = hdrs.get('cookie') || '';
-    const match = cookie.match(/sanatana_dharma_language=([^;]+)/);
+    const match = cookie.match(new RegExp(`${LANGUAGE_STORAGE_KEY}=([^;]+)`));
     if (match && SUPPORTED_LOCALES.includes(match[1])) {
       lang = match[1];
     } else {
@@ -74,10 +80,10 @@ export default async function RootLayout({
           imageSizes="(min-width: 1024px) 50vw, 100vw"
           fetchPriority="high"
         />
-        {/* Page-specific override: cache for 30 days */}
-        <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
+        {/* Page-specific override: cache for 2 days */}
+        <meta httpEquiv="Cache-Control" content="max-age=172800, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
-        <meta httpEquiv="Expires" content="2592000" />
+        <meta httpEquiv="Expires" content="172800" />
         {/* Defer non-critical global styles (preload → convert to stylesheet onload) */}
         <Script
           id="load-deferred-css"
@@ -91,6 +97,35 @@ export default async function RootLayout({
                 l.href='/globals.from-scss.css';
                 l.onload=function(){this.onload=null;this.rel='stylesheet'};
                 document.head.appendChild(l);
+              })();
+            `
+          }}
+        />
+        {/* Patch performance.measure early to avoid browser TypeError for negative timestamps in dev tooling */}
+        <Script
+          id="patch-performance-measure"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                try {
+                  if (typeof performance !== 'undefined' && performance && typeof performance.measure === 'function') {
+                    var orig = performance.measure.bind(performance);
+                    performance.measure = function(nameOrOptions, opts) {
+                      try {
+                        return orig.apply(performance, arguments);
+                      } catch (err) {
+                        // Some browsers throw when start/end timestamps are negative.
+                        // Silently ignore that specific error to avoid breaking dev overlay.
+                        try {
+                          var msg = err && err.message ? String(err.message).toLowerCase() : '';
+                          if (msg.indexOf('negative') !== -1 || msg.indexOf('cannot have a negative') !== -1) return;
+                        } catch (e) {}
+                        throw err;
+                      }
+                    };
+                  }
+                } catch (e) { /* ignore */ }
               })();
             `
           }}
@@ -159,7 +194,7 @@ export default async function RootLayout({
           </>
         )}
       </head>
-      <body style={{ fontFamily: bodyFontFamily }} translate="no">
+      <body className={poppins.className} translate="no">
         <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
@@ -168,7 +203,8 @@ export default async function RootLayout({
               src={`https://www.googletagmanager.com/ns.html?id=${secrets.NEXT_PUBLIC_GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              className="hidden"
+              aria-hidden="true"
             />
           </noscript>
         )}
@@ -178,9 +214,9 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Header />
               </Suspense>
-              <Suspense fallback={null}>
-                {children}
-              </Suspense>
+              <main className="min-h-[60vh] bg-white">
+                <Suspense fallback={null}>{children}</Suspense>
+              </main>
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>

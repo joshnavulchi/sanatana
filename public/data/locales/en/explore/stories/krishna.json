@@ -3,8 +3,8 @@
     "title": "Stories | Krishna — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Krishna — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/krishna",
       "description": "Learn about Krishna on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/krishna",
       "keywords": [
         "Krishna Bhagavad Gita Teachings",
         "Krishna Bhagavad Gita Teachings in English",
@@ -38,38 +38,6 @@
       ],
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/krishna"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "ashtabhava": {
       "description": "Eight principal forms or moods of Krishna representing different divine aspects",
@@ -131,12 +99,12 @@
     },
     "connectiontoscriptures": {
       "bhagavadgita": {
+        "description": "Sacred dialogue between Krishna and Arjuna",
         "coreteachings": [
           "Karma Yoga (Path of Action)",
           "Bhakti Yoga (Path of Devotion)",
           "Jnana Yoga (Path of Knowledge)"
-        ],
-        "description": "Sacred dialogue between Krishna and Arjuna"
+        ]
       },
       "mahabharata": {
         "description": "Central figure, charioteer to Arjuna, delivers Bhagavathgita",
@@ -147,7 +115,11 @@
       },
       "srimadbhagavatam": {
         "description": "Narrates Krishna's life, miracles, and divine play (Leela)",
-        "themes": ["Devotion", "Compassion", "Supreme Reality"]
+        "themes": [
+          "Devotion",
+          "Compassion",
+          "Supreme Reality"
+        ]
       }
     },
     "mantras": [
@@ -175,6 +147,29 @@
       "Symbol of divine love and cosmic order",
       "Teacher of selfless action and devotion"
     ],
-    "role": "Supreme Being, Preserver, Teacher of Dharma"
+    "role": "Supreme Being, Preserver, Teacher of Dharma",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

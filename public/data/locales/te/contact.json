@@ -1,79 +1,24 @@
 {
   "contact": {
-    "title": "Contact Us – Sanatanadharmam | Sanatana Dharma Website",
-    "description": "Contact Sanatanadharmam for questions about Sanatana Dharma, collaborations, feedback, or website inquiries. Reach us by email or phone.",
+    "title": "Contact Sanatanadharmam – Support, Feedback & Collaboration",
+    "description": "Contact Sanatanadharmam for questions, feedback, collaborations, or support related to Sanatana Dharma. Reach us via email or contact form.",
     "meta": {
-      "title": "Contact Us – Sanatanadharmam | Sanatana Dharma Website",
+      "title": "Contact Sanatanadharmam (Support & Inquiries) – Sanatana Dharma Website",
+      "description": "Get in touch with Sanatanadharmam for support, feedback, or collaboration. We respond to all Sanatana Dharma related inquiries.",
       "canonical": "https://sanatanadharmam.in/contact",
-      "description": "Contact Sanatanadharmam for questions about Sanatana Dharma, collaborations, feedback, or website inquiries. Reach us by email or phone.",
       "keywords": [
         "contact sanatanadharmam",
-        "sanatana dharma contact",
-        "sanatanadharmam email",
-        "sanatana dharma inquiries",
-        "sanatana dharma collaboration",
+        "sanatana dharma contact email",
         "sanatanadharmam support",
-        "sanatana dharma feedback",
-        "sanatanadharmam contact form",
-        "sanatana dharma website contact"
+        "sanatana dharma website contact",
+        "spiritual website contact form",
+        "vedic knowledge contact",
+        "sanatana dharma inquiries",
+        "sanatanadharmam feedback",
+        "contact hindu philosophy website"
       ],
       "robots": "index, follow",
       "url": "https://sanatanadharmam.in/contact"
-    },
-    "openGraph": {
-      "title": "Contact Sanatanadharmam – Sanatana Dharma Website",
-      "description": "Reach Sanatanadharmam for inquiries, collaborations, and spiritual discussions about Sanatana Dharma.",
-      "url": "https://sanatanadharmam.in/contact",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/contact.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Contact Sanatanadharmam"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "ContactPage",
-          "name": "Contact Sanatanadharmam",
-          "url": "https://sanatanadharmam.in/contact",
-          "description": "Contact page for Sanatanadharmam where visitors can reach the organization for inquiries and collaborations."
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
-            ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
-        }
-      ]
     },
     "faq": {
       "heading": "Frequently asked questions",
@@ -92,31 +37,53 @@
         }
       ]
     },
+    "openGraph": {
+      "title": "Contact Sanatanadharmam – Support & Collaboration",
+      "description": "Reach out for questions, feedback, or collaborations related to Sanatana Dharma and spiritual knowledge.",
+      "images": [
+        {
+          "alt": "Contact Sanatanadharmam",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/contact.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/contact"
+    },
     "sections": [
       {
-        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message.",
-        "id": "intro",
-        "type": "text"
+        "title": "Contact Us",
+        "content": "Have questions about Sanatana Dharma? Need help understanding Vedic teachings? Want to collaborate or provide feedback? We welcome your message and aim to respond as soon as possible.",
+        "id": "intro"
       },
       {
+        "title": "How to Contact Sanatanadharmam",
+        "content": "You can contact us through email, phone, or by submitting the contact form below. We support global users and respond to inquiries related to Sanatana Dharma, philosophy, and website support.",
+        "id": "how-to-contact"
+      },
+      {
+        "title": "Contact Details",
         "columns": [
           {
-            "title": "📧 Email",
+            "title": "Email",
             "content": "vulchi.vijay@gmail.com"
           },
           {
-            "title": "📞 Phone",
+            "title": "Phone",
             "content": "+91-8099181075"
           },
           {
-            "title": "📍 Address",
-            "content": "Tirupati, Andhra Pradesh, India"
+            "title": "Location",
+            "content": "Tirupati, Andhra Pradesh, India (Serving Worldwide)"
           }
         ],
-        "id": "intro",
-        "type": "text"
+        "id": "contact-details"
       },
       {
+        "title": "Send Us a Message",
+        "description": "Fill out the form below and we will get back to you as soon as possible.",
         "fields": [
           {
             "name": "name",
@@ -126,34 +93,66 @@
           },
           {
             "name": "email",
-            "placeholder": "Your Email",
+            "placeholder": "Your Email Address",
             "required": true,
             "type": "email"
           },
           {
             "name": "subject",
-            "placeholder": "Subject",
+            "placeholder": "Subject (Optional)",
             "required": false,
             "type": "text"
           },
           {
             "name": "message",
-            "placeholder": "Your Message",
+            "placeholder": "Write your message here...",
             "required": true,
             "type": "textarea"
           }
         ],
-        "id": "intro",
+        "id": "contact-form",
         "submitbutton": {
           "action": "/api/contact/submit",
           "label": "Send Message"
-        },
-        "type": "text"
+        }
       },
       {
-        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message.",
-        "id": "intro",
-        "type": "text"
+        "title": "Response Time",
+        "content": "We typically respond within 24–48 hours. For detailed inquiries related to scriptures or collaborations, response time may vary.",
+        "id": "response-time"
+      },
+      {
+        "title": "Why Contact Us?",
+        "id": "why-contact-us",
+        "points": [
+          "Get answers to Sanatana Dharma questions",
+          "Request explanations of Vedic concepts",
+          "Provide feedback or report issues",
+          "Collaborate on spiritual or educational content",
+          "Contribute translations or knowledge"
+        ]
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "answer": "You can contact us via email, phone, or by using the contact form on this page.",
+            "question": "How can I contact Sanatanadharmam?"
+          },
+          {
+            "answer": "Yes, we aim to respond to all genuine inquiries related to Sanatana Dharma and website support.",
+            "question": "Do you respond to all inquiries?"
+          },
+          {
+            "answer": "Yes, we welcome collaborations, translations, and contributions related to Sanatana Dharma.",
+            "question": "Can I collaborate or contribute content?"
+          },
+          {
+            "answer": "Most responses are provided within 24–48 hours.",
+            "question": "How long does it take to get a response?"
+          }
+        ],
+        "id": "faq"
       }
     ],
     "volunteer": {
@@ -163,6 +162,48 @@
     "whattoinclude": {
       "guidance": "To help us respond efficiently, please include: a clear subject line, the page or URL you are referring to (if applicable), a concise description of the issue or request, and your preferred contact method. For corrections to texts, indicate the exact line or verse and, if possible, provide a reliable source or edition reference. For translation suggestions, include both the suggested wording and brief reasoning for the change.",
       "heading": "What to include in your message"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "name": "Contact Sanatanadharmam",
+          "url": "https://sanatanadharmam.in/contact"
+        },
+        {
+          "@type": "Organization",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "contactType": "customer support",
+            "email": "info@sanatanadharmam.in"
+          },
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can contact via email, phone, or contact form."
+              },
+              "name": "How can I contact Sanatanadharmam?"
+            }
+          ]
+        }
+      ]
     }
   }
 }

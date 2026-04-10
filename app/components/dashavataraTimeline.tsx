@@ -15,29 +15,27 @@ const AVATARS: ReadonlyArray<{ readonly order: number; readonly name: string }> 
 
 export default function DashavataraTimeline() {
   return (
-    <aside className="bg-white rounded-2xl border border-amber-100 shadow-sm p-6">
-      <div className="flex items-center justify-between gap-4 mb-4">
-        <h2 className="text-lg md:text-xl font-semibold text-orange-800">
-          Dashavatara Timeline
-        </h2>
+    <aside className="bg-gradient-to-br from-amber-50 via-pink-50 to-rose-100 rounded-2xl border-2 border-amber-100 shadow-xl p-8 animate-fadeInUp">
+      <div className="flex items-center justify-between gap-4 text-md sm:text-base leading-relaxed font-normal">
+        <h3 className="text-pink-700 text-3xl font-extrabold leading-snug mb-3 drop-shadow-lg animate-gradient-x">Dashavatara Timeline</h3>
         <div
-          className="h-1 w-24 rounded-full bg-gradient-to-r from-amber-200 via-orange-200 to-yellow-200"
+          className="h-2 w-32 rounded-full bg-gradient-to-r from-pink-400 via-amber-400 to-rose-400 animate-gradient-x"
           aria-hidden
         />
       </div>
 
-      <ol className="space-y-3">
-        {AVATARS.map((a) => (
-          <li key={a.order} className="flex items-start gap-3">
+      <ol className="space-y-4">
+        {AVATARS.map((a, idx) => (
+          <li key={a.order} className="flex items-start gap-4 mb-2 animate-fadeInUp delay-[${idx * 80}ms]">
             <span
-              className="flex-shrink-0 w-9 h-9 rounded-xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center text-sm font-semibold"
+              className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-pink-400 via-amber-400 to-rose-400 border-4 border-white text-white flex items-center justify-center text-xl font-black shadow-xl animate-pulse"
               aria-label={`Avatar ${a.order}`}
             >
               {a.order}
             </span>
-            <div className="flex-1">
-              <div className="text-amber-900 font-semibold">{a.name}</div>
-              <div className="text-sm text-amber-800/80">Vishnu avatar</div>
+            <div className="flex-1 text-md sm:text-base leading-relaxed font-normal">
+              <div className="text-pink-900 text-lg font-semibold leading-relaxed animate-gradient-x">{a.name}</div>
+              <div className="text-pink-800/80 text-md sm:text-base leading-relaxed font-normal">Vishnu avatar</div>
             </div>
           </li>
         ))}
@@ -45,3 +43,4 @@ export default function DashavataraTimeline() {
     </aside>
   );
 }
+

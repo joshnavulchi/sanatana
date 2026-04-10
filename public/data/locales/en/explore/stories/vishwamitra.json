@@ -3,8 +3,8 @@
     "title": "Stories | Vishvamitra — Sanātana Dharma - Explore Sanatan Dharma",
     "meta": {
       "title": "Stories | Vishvamitra — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/stories/vishwamitra",
       "description": "Learn about Visvamitra on SanatanaDharma.in — articles, translations and commentary.",
+      "canonical": "https://sanatanadharmam.in/stories/vishwamitra",
       "keywords": [
         "Vishvamitra Biography",
         "Vishvamitra Biography in English",
@@ -36,38 +36,6 @@
       ],
       "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/vishwamitra"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
     },
     "biography": {
       "full_name": "Vishvamitra (Viśvāmitra)",
@@ -115,7 +83,10 @@
         "Embodiment of determination and spiritual ascension",
         "Author of Gayatri Mantra in Rigveda"
       ],
-      "titles": ["Rajarshi", "Brahmarshi"]
+      "titles": [
+        "Rajarshi",
+        "Brahmarshi"
+      ]
     },
     "textsandteachings": [
       {
@@ -162,6 +133,29 @@
         "event": "Revered as Brahmarshi; author of Gayatri Mantra; symbol of spiritual equality",
         "phase": "Later Life"
       }
-    ]
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
   }
 }

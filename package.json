@@ -6,13 +6,8 @@
   "scripts": {
     "predev": "node scripts/compile-scss.js --dev",
     "dev": "next dev",
-    "prebuild": "npm run lint",
     "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
-    "prebuild": "node scripts/sync-locales-from-branch.js && npm run lint",
-    "build": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
-     "build:ci": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js && node scripts/audit-seo.js --out out --json public/data/audit-report.json && node scripts/notify-indexnow.js",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",
     "lint": "eslint --quiet app lib scripts",
@@ -22,7 +17,6 @@
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "readline-sync": "^1.4.10",
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
@@ -35,7 +29,10 @@
     "@typescript-eslint/eslint-plugin": "^8.57.0",
     "@typescript-eslint/parser": "^8.57.0",
     "autoprefixer": "^10.4.27",
+    "cheerio": "^1.0.0-rc.12",
+    "cross-env": "^7.0.3",
     "d3": "^7.9.0",
+    "depcheck": "^1.4.7",
     "eslint": "^9.0.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
@@ -43,11 +40,13 @@
     "glob": "^13.0.6",
     "html-minifier-terser": "^7.2.0",
     "husky": "^8.0.3",
+    "minimist": "^1.2.8",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
+    "readline-sync": "^1.4.10",
     "sass": "^1.98.0",
     "topojson-client": "^3.1.0",
-    "typescript": "^5.9.3",
-    "cross-env": "^7.0.3"
+    "ts-prune": "^0.10.3",
+    "typescript": "^5.9.3"
   }
 }

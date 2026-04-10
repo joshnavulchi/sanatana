@@ -2,7 +2,73 @@
 import { t, getLocaleNamespaceObjectAsync, DEFAULT_LOCALE, detectLocale } from './i18n';
 import { secrets } from './secrets';
 
+// Inlined generateSEO from lib/seo.ts to avoid cross-module dependency
+type SEOOptions = {
+  title?: string;
+  description?: string;
+  path?: string;
+  image?: string;
+  keywords?: string[];
+};
+
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in").replace(/\/$/, "");
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Sanatana";
+const SITE_DESCRIPTION =
+  process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
+  'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.';
+
+function absoluteUrl(path = "/") {
+  if (!path) return SITE_URL + "/";
+  return SITE_URL + (path.startsWith("/") ? path : `/${path}`);
+}
+
+function generateSEO(opts: SEOOptions) {
+  const title = opts.title ? `${opts.title} | ${SITE_NAME}` : SITE_NAME;
+  const description = opts.description || SITE_DESCRIPTION;
+  const url = absoluteUrl(opts.path || "/");
+
+  const images = opts.image ? [{ url: opts.image }] : undefined;
+
+  const metadata: any = {
+    title,
+    description,
+    metadataBase: new URL(SITE_URL),
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: SITE_NAME,
+      images,
+      type: "website",
+    },
+    twitter: {
+      title,
+      description,
+      images: images ? images.map((i) => String(i.url)) : undefined,
+      card: "summary_large_image",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    alternates: {
+      canonical: url,
+    },
+  };
+
+  if (opts.keywords && opts.keywords.length) {
+    // attach as `other.keywords`
+    metadata.other = { keywords: opts.keywords.join(', ') };
+  }
+
+  return metadata;
+}
+
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
+  // Simple in-process memoization to avoid repeated concurrent loads of the
+  // same locale namespace during static generation/build. This reduces IO
+  // pressure when Next.js invokes metadata generation for many pages.
+  const metadataCache = new Map<string, Promise<any>>();
 
   function isPlainObject(v: unknown): v is Record<string, unknown> {
     return !!v && typeof v === 'object' && !Array.isArray(v);
@@ -45,17 +111,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       }
       return canonical;
     }
-  }
-
-  function parseRobots(robots: unknown): { index: boolean; follow: boolean } {
-    // Locale files currently store robots as a string like "index, follow".
-    // Default to index+follow unless explicitly disabled.
-    if (typeof robots !== 'string') return { index: true, follow: true };
-    const v = robots.toLowerCase();
-    if (v.includes('none')) return { index: false, follow: false };
-    const index = v.includes('noindex') ? false : true;
-    const follow = v.includes('nofollow') ? false : true;
-    return { index, follow };
   }
 
   function unwrapPageObject(rawNs: unknown): Record<string, unknown> {
@@ -130,7 +185,13 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     let locale = detectLocale(searchParamsObj);
     if (!locale) locale = DEFAULT_LOCALE;
 
-    const rawNs = await getLocaleNamespaceObjectAsync(locale, metaKey);
+    const cacheKey = `${locale}::${metaKey}`;
+    let rawNsPromise = metadataCache.get(cacheKey);
+    if (!rawNsPromise) {
+      rawNsPromise = getLocaleNamespaceObjectAsync(locale, metaKey);
+      metadataCache.set(cacheKey, rawNsPromise);
+    }
+    const rawNs = await rawNsPromise;
     const pageObj = unwrapPageObject(rawNs);
     const meta = isPlainObject(pageObj.meta) ? (pageObj.meta as Record<string, unknown>) : {};
     const openGraph = isPlainObject(pageObj.openGraph) ? (pageObj.openGraph as Record<string, unknown>) : {};
@@ -194,39 +255,50 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       if (img) ogImages = [{ url: img }];
     }
 
-    const ogTitle = firstString((openGraph as any).title, title, meta.title, (pageObj as any).title, schemaFallback.title);
-    const ogDescription = firstString((openGraph as any).description, description, meta.description, (pageObj as any).description, schemaFallback.description);
+    // const ogTitle = firstString((openGraph as any).title, title, meta.title, (pageObj as any).title, schemaFallback.title);
+    // const ogDescription = firstString((openGraph as any).description, description, meta.description, (pageObj as any).description, schemaFallback.description);
     const ogUrl = normalizeCanonical((openGraph as any).url || (meta as any).url || canonical);
-    const ogSiteName = firstString((openGraph as any).siteName, 'Sanatanadharmam');
-    const ogType = firstString((openGraph as any).type, 'website');
+    // const ogSiteName = firstString((openGraph as any).siteName, 'Sanatanadharmam');
+    // const ogType = firstString((openGraph as any).type, 'website');
 
-    const robots = parseRobots((meta as any).robots);
+    // const robots = parseRobots((meta as any).robots);
 
-    return {
-      // Debug: log computed metadata during dev to help diagnose missing head tags
-      // ...(process.env.NODE_ENV !== 'production' ? (console.log && console.log(`[meta:${metaKey}]`, { title, description, canonical })) : {}),
-      title,
-      description,
+    // Build a path relative to the site base for use with generateSEO
+    // reuse `baseUrl` defined earlier in this function
+    let pathForSeo: string | undefined = undefined;
+    try {
+      const u = new URL(ogUrl || canonical || baseUrl);
+      if (u.origin === baseUrl) pathForSeo = u.pathname + (u.search || '');
+      else pathForSeo = u.toString();
+    } catch (e) {
+      pathForSeo = String(canonical || '/');
+    }
+
+    // prefer plain string image if available
+    let imageForSeo: string | undefined;
+    if (Array.isArray(ogImages) && ogImages.length > 0) {
+      const first = ogImages[0] as any;
+      imageForSeo = typeof first === 'string' ? first : first?.url;
+    }
+
+    return generateSEO({
+      title: title || undefined,
+      description: description || undefined,
+      path: pathForSeo,
+      image: imageForSeo,
       keywords: (meta as any).keywords || undefined,
-      alternates: canonical ? { canonical } : undefined,
-      openGraph: {
-        title: ogTitle,
-        description: ogDescription,
-        url: ogUrl,
-        siteName: ogSiteName,
-        type: ogType,
-        images: ogImages,
-      },
-      robots: {
-        index: robots.index,
-        follow: robots.follow,
-        nocache: false,
-        googleBot: {
-          index: robots.index,
-          follow: robots.follow,
-        },
-      },
-    };
+    });
   };
 }
+
+export async function resolveParams<T>(params: T | Promise<T> | null | undefined): Promise<T | undefined> {
+  if (params == null) return undefined;
+
+  try {
+    return await params;
+  } catch {
+    return undefined;
+  }
+}
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */ 
