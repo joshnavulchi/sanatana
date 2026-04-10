@@ -131,7 +131,7 @@ export default function PuranasClient() {
   const pageNs = useLocaleSection("puranas");
   const root = pageNs && typeof pageNs === "object" ? pageNs : {};
 
-  if (isLoading && !root) {
+  if (isLoading || Object.keys(root).length === 0) {
     return (
       <PageLayout
         metaKey="puranas"

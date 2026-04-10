@@ -184,7 +184,7 @@ export default function ItihasaClient() {
   const pageNs = useLocaleSection("itihasa");
   const root = pageNs && typeof pageNs === "object" ? pageNs : {};
 
-  if (isLoading && !root) {
+  if (isLoading || Object.keys(root).length === 0) {
     return (
       <PageLayout
         metaKey="itihasa"
