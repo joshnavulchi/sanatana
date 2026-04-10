@@ -38,8 +38,117 @@
         "sanatana dharma for beginners",
         "difference between hinduism and sanatana dharma",
         "life purpose in hinduism",
-        "vedic knowledge explained"
+        "vedic knowledge explained",
+        "Bharat",
+        "Bharat mata ki jai"
       ]
+    },
+    "openGraph": {
+      "title": "Sanatana Dharma Explained: Beginner to Advanced Guide",
+      "description": "Explore Vedas, Upanishads, Bhagavad Gita, karma, and dharma with clear explanations. A complete guide to Sanatana Dharma.",
+      "images": [
+        {
+          "alt": "Sanatana Dharma Guide",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/images/og/home.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Sanatanadharmam",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "query-input": "required name=search_term_string",
+            "target": "https://sanatanadharmam.in/search?q={search_term_string}"
+          },
+          "url": "https://sanatanadharmam.in"
+        },
+        {
+          "@type": "Organization",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in"
+        },
+        {
+          "description": "A detailed guide explaining Sanatana Dharma, its philosophy, scriptures, and relevance today.",
+          "@type": "Article",
+          "author": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam"
+          },
+          "headline": "What is Sanatana Dharma? Complete Guide",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            },
+            "name": "Sanatanadharmam"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sanatana Dharma is the eternal way of life rooted in Vedic wisdom, focusing on dharma, karma, and moksha."
+              },
+              "name": "What is Sanatana Dharma?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sanatana Dharma is the original philosophical foundation, while Hinduism is a broader term used in modern context."
+              },
+              "name": "Is Sanatana Dharma the same as Hinduism?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Core teachings include dharma (duty), karma (action), moksha (liberation), and realization of the self."
+              },
+              "name": "What are the main teachings of Sanatana Dharma?"
+            }
+          ]
+        }
+      ]
+    },
+    "welcome": {
+      "clarity_devotion": "clarity, devotion, and divine grace",
+      "close": "Close",
+      "deeply_honored": "We are deeply honored and blessed by your presence here.",
+      "do_not": "Do not show this welcome message again",
+      "eternal_truths": "eternal truths of Sanātana Dharma",
+      "may_journey": "May your journey through these ancient teachings bring you",
+      "namaste_welcome": "Namaste & Welcome",
+      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
+      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
+      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
+    },
+    "hero": {
+      "description": "Sanatana Dharma is the ancient spiritual philosophy of India that explains life, purpose, karma, and liberation. Discover its teachings through the Vedas, Upanishads, and Bhagavad Gita in a simple and practical way.",
+      "heading": "Sanatana Dharma Explained",
+      "primarycta": {
+        "label": "Start Learning Sanatana Dharma",
+        "link": "sanatanadharma"
+      },
+      "secondarycta": {
+        "label": "Explore Scriptures",
+        "link": "itihasa"
+      },
+      "subheading": "The Eternal Way of Life"
     },
     "clarity_devotion": "clarity, devotion, and divine grace",
     "close": "Close",
@@ -71,36 +180,8 @@
         }
       ]
     },
-    "hero": {
-      "description": "Sanatana Dharma is the ancient spiritual philosophy of India that explains life, purpose, karma, and liberation. Discover its teachings through the Vedas, Upanishads, and Bhagavad Gita in a simple and practical way.",
-      "heading": "Sanatana Dharma Explained",
-      "primarycta": {
-        "label": "Learn Sanatana Dharma",
-        "link": "sanatanadharma"
-      },
-      "secondarycta": {
-        "label": "Explore Scriptures",
-        "link": "itihasa"
-      },
-      "subheading": "The Eternal Way of Life"
-    },
     "may_journey": "May your journey through these ancient teachings bring you",
     "namaste_welcome": "Namaste & Welcome",
-    "openGraph": {
-      "title": "Sanatana Dharma Explained: Beginner to Advanced Guide",
-      "description": "Explore Vedas, Upanishads, Bhagavad Gita, karma, and dharma with clear explanations. A complete guide to Sanatana Dharma.",
-      "images": [
-        {
-          "alt": "Sanatana Dharma Guide",
-          "height": 630,
-          "url": "https://sanatanadharmam.in/images/og/home.png",
-          "width": 1200
-        }
-      ],
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "url": "https://sanatanadharmam.in"
-    },
     "ourfourcoreyugas": [
       {
         "description": [
@@ -271,85 +352,6 @@
     ],
     "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
     "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
-    "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It",
-    "welcome": {
-      "clarity_devotion": "clarity, devotion, and divine grace",
-      "close": "Close",
-      "deeply_honored": "We are deeply honored and blessed by your presence here.",
-      "do_not": "Do not show this welcome message again",
-      "eternal_truths": "eternal truths of Sanātana Dharma",
-      "may_journey": "May your journey through these ancient teachings bring you",
-      "namaste_welcome": "Namaste & Welcome",
-      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
-      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
-      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "name": "Sanatanadharmam",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "query-input": "required name=search_term_string",
-            "target": "https://sanatanadharmam.in/search?q={search_term_string}"
-          },
-          "url": "https://sanatanadharmam.in"
-        },
-        {
-          "@type": "Organization",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in"
-        },
-        {
-          "description": "A detailed guide explaining Sanatana Dharma, its philosophy, scriptures, and relevance today.",
-          "@type": "Article",
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "headline": "What is Sanatana Dharma? Complete Guide",
-          "publisher": {
-            "@type": "Organization",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://sanatanadharmam.in/images/logo.png"
-            },
-            "name": "Sanatanadharmam"
-          }
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sanatana Dharma is the eternal way of life rooted in Vedic wisdom, focusing on dharma, karma, and moksha."
-              },
-              "name": "What is Sanatana Dharma?"
-            },
-            {
-              "@type": "Question",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sanatana Dharma is the original philosophical foundation, while Hinduism is a broader term used in modern context."
-              },
-              "name": "Is Sanatana Dharma the same as Hinduism?"
-            },
-            {
-              "@type": "Question",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Core teachings include dharma (duty), karma (action), moksha (liberation), and realization of the self."
-              },
-              "name": "What are the main teachings of Sanatana Dharma?"
-            }
-          ]
-        }
-      ]
-    }
+    "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
   }
 }
