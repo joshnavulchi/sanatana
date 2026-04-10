@@ -59,16 +59,16 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
+      className={`group relative overflow-hidden ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} delay-[${index * 160}ms]`}
     >
       {/* Top accent gradient border */}
-      <div className={`h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
+      <div className={`hidden h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
 
       {/* Ornamental blurs */}
-      <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-gradient-to-br from-yellow-200/40 to-pink-200/30 blur-2xl" />
-      <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-gradient-to-br from-orange-200/30 to-pink-100/20 blur-2xl" />
+      <div className="hidden absolute -right-6 -top-6 h-20 w-20 rounded-full bg-gradient-to-br from-yellow-200/40 to-pink-200/30 blur-2xl" />
+      <div className="hidden absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-gradient-to-br from-orange-200/30 to-pink-100/20 blur-2xl" />
 
-      <div className="relative flex flex-1 flex-col p-6 sm:p-8">
+      <div className="relative p-6 sm:p-8">
         {/* Roman numeral badge */}
         <div className="mb-5 flex items-center gap-4">
           <span className={`inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 via-pink-400 to-indigo-400 shadow-lg text-lg font-black text-white tracking-widest border-4 border-white`}>
@@ -170,7 +170,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* ─── Yuga Cards Grid ─── */}
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2">
           {yugas.map((y: any, idx: number) => (
             <YugaCard
               key={y.name}
