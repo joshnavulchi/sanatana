@@ -113,443 +113,603 @@
     },
     "mantras": [
       {
-        "id": "YV-1-1",
-        "mantra_number": 1,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-1",
+        "source_yajurveda": "Vajasaneyi Samhita 1.1",
+        "deity": "Savitar",
+        "theme": "Consecration",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "ईषे त्वोर्जे त्वा वायवस्थ देवो वः सविता प्रेषयतु श्रेष्ठतमाय कर्मणे",
+            "transliteration": "īṣe tvorje tvā vāyavastha devo vaḥ savitā preṣayatu śreṣṭhatamāya karmaṇe",
+            "meaning": "For nourishment and strength I take you; may Savitar urge you to the highest ritual act."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "ritual accentuation",
+          "usage": "Opening consecration"
         }
       },
       {
-        "id": "YV-1-2",
-        "mantra_number": 2,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-2",
+        "source_yajurveda": "Vajasaneyi Samhita 1.2",
+        "deity": "Pavitra",
+        "theme": "Purification",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "वसौ पवित्रमसि द्यौरसि पृथिव्यसि मातरिश्वानो घर्मोऽसि विश्वधाया",
+            "transliteration": "vasau pavitram asi dyaur asi pṛthivī asi mātariśvāno gharmo'si viśvadhāyā",
+            "meaning": "You are the purifier, heaven and earth, Matarishvan, supporter of all."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "steady ritual tone",
+          "usage": "Purifying ritual items"
         }
       },
       {
-        "id": "YV-1-3",
-        "mantra_number": 3,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-3",
+        "source_yajurveda": "Vajasaneyi Samhita 1.3",
+        "deity": "Savitar",
+        "theme": "Purification",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "वसो पवित्रमसि शतधारं सहस्रधारं देवस्त्वां सविता पुनातु",
+            "transliteration": "vaso pavitram asi śatadhāraṁ sahasradhāraṁ devas tvāṁ savitā punātu",
+            "meaning": "O purifier of a hundred and a thousand streams, may Savitar cleanse you."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "measured cadence",
+          "usage": "Sanctification"
         }
       },
       {
-        "id": "YV-1-4",
-        "mantra_number": 4,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-4",
+        "source_yajurveda": "Vajasaneyi Samhita 1.4",
+        "deity": "Indra",
+        "theme": "Offering allocation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सा विश्वायुः सा विश्वकर्मा सा विश्वधाया इन्द्रस्य त्वा भाग सोमेनातनचि",
+            "transliteration": "sā viśvāyuḥ sā viśvakarmā sā viśvadhāyā indrasya tvā bhāga somenātanaci",
+            "meaning": "Sustaining all life and works, I unite you with Indra’s share by Soma."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "authoritative",
+          "usage": "Portioning the offering"
         }
       },
       {
-        "id": "YV-1-5",
-        "mantra_number": 5,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-5",
+        "source_yajurveda": "Vajasaneyi Samhita 1.5",
+        "deity": "Vishnu",
+        "theme": "Protection",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "विष्णोर्हव्यं रक्षितम्",
+            "transliteration": "viṣṇor havyaṁ rakṣitam",
+            "meaning": "The oblation for Vishnu is protected."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "brief invocation",
+          "usage": "Safeguarding offerings"
         }
       },
       {
-        "id": "YV-1-6",
-        "mantra_number": 6,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-6",
+        "source_yajurveda": "Vajasaneyi Samhita 1.6",
+        "deity": "Agni",
+        "theme": "Fire establishment",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्नये त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "agnaye tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Agni, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "precise",
+          "usage": "Kindling the sacred fire"
         }
       },
       {
-        "id": "YV-1-7",
-        "mantra_number": 7,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-7",
+        "source_yajurveda": "Vajasaneyi Samhita 1.7",
+        "deity": "Indra",
+        "theme": "Fire dedication",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "इन्द्राय त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "indrāya tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Indra, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "firm",
+          "usage": "Fire offering"
         }
       },
       {
-        "id": "YV-1-8",
-        "mantra_number": 8,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-8",
+        "source_yajurveda": "Vajasaneyi Samhita 1.8",
+        "deity": "Varuna",
+        "theme": "Cosmic order",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "वरुणाय त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "varuṇāya tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Varuna, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Maintaining order"
         }
       },
       {
-        "id": "YV-1-9",
-        "mantra_number": 9,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-9",
+        "source_yajurveda": "Vajasaneyi Samhita 1.9",
+        "deity": "Soma",
+        "theme": "Vitality",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सोमाय त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "somāya tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Soma, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "gentle",
+          "usage": "Life-force offering"
         }
       },
       {
-        "id": "YV-1-10",
-        "mantra_number": 10,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-10",
+        "source_yajurveda": "Vajasaneyi Samhita 1.10",
+        "deity": "Surya",
+        "theme": "Illumination",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सूर्याय त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "sūryāya tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Surya, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "clear",
+          "usage": "Solar invocation"
         }
       },
       {
-        "id": "YV-1-11",
-        "mantra_number": 11,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-11",
+        "source_yajurveda": "Vajasaneyi Samhita 1.11",
+        "deity": "Prajapati",
+        "theme": "Creation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "प्रजापतये त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "prajāpataye tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For Prajapati, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "formal",
+          "usage": "Creator invocation"
         }
       },
       {
-        "id": "YV-1-12",
-        "mantra_number": 12,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-12",
+        "source_yajurveda": "Vajasaneyi Samhita 1.12",
+        "deity": "All Devas",
+        "theme": "Collective invocation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "विश्वेभ्यो देवताभ्यस्त्वा सुष्ठिताय समिधं गृह्णामि",
+            "transliteration": "viśvebhyo devatābhyas tvā suṣṭhitāya samidhaṁ gṛhṇāmi",
+            "meaning": "For all the gods, well established, I take the kindling."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "inclusive",
+          "usage": "Universal offering"
         }
       },
       {
-        "id": "YV-1-13",
-        "mantra_number": 13,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-13",
+        "source_yajurveda": "Vajasaneyi Samhita 1.13",
+        "deity": "Agni",
+        "theme": "Cosmic structure",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्निर्मूर्धा दिवः ककुत्पतिः पृथिव्याऽयम्",
+            "transliteration": "agnir mūrdhā divaḥ kakutpatiḥ pṛthivyā ayam",
+            "meaning": "Agni is the head of heaven and the lord of the earth."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "declarative",
+          "usage": "Cosmic affirmation"
         }
       },
       {
-        "id": "YV-1-14",
-        "mantra_number": 14,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-14",
+        "source_yajurveda": "Vajasaneyi Samhita 1.14",
+        "deity": "Rta",
+        "theme": "Cosmic order",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अयं ते योनिरृताय ऊर्ध्वः",
+            "transliteration": "ayaṁ te yonir ṛtāya ūrdhvaḥ",
+            "meaning": "This is your womb, uplifted for cosmic order."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn",
+          "usage": "Order alignment"
         }
       },
       {
-        "id": "YV-1-15",
-        "mantra_number": 15,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-15",
+        "source_yajurveda": "Vajasaneyi Samhita 1.15",
+        "deity": "Indra-Agni",
+        "theme": "Divine presence",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "इन्द्राग्नी आगच्छतं नः सुष्टुत्या",
+            "transliteration": "indrāgnī āgacchataṁ naḥ suṣṭutyā",
+            "meaning": "Indra and Agni, come to us through praise."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "invocatory",
+          "usage": "Calling the deities"
         }
       },
       {
-        "id": "YV-1-16",
-        "mantra_number": 16,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-16",
+        "source_yajurveda": "Vajasaneyi Samhita 1.16",
+        "deity": "Indra-Agni",
+        "theme": "Participation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अस्मिन्न्यज्ञे बर्हिषि सीदतं नः",
+            "transliteration": "asmin yajñe barhiṣi sīdataṁ naḥ",
+            "meaning": "Sit with us on the sacred grass in this sacrifice."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "welcoming",
+          "usage": "Inviting presence"
         }
       },
       {
-        "id": "YV-1-17",
-        "mantra_number": 17,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-17",
+        "source_yajurveda": "Vajasaneyi Samhita 1.17",
+        "deity": "Savitar",
+        "theme": "Activation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "सविता प्रेषयतु देवो वः कर्मणि",
+            "transliteration": "savitā preṣayatu devo vaḥ karmaṇi",
+            "meaning": "May Savitar set you into proper action."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "directed",
+          "usage": "Ritual commencement"
         }
       },
       {
-        "id": "YV-1-18",
-        "mantra_number": 18,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-18",
+        "source_yajurveda": "Vajasaneyi Samhita 1.18",
+        "deity": "Rta",
+        "theme": "Path of truth",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "ऋतस्य पन्थामन्वेहि",
+            "transliteration": "ṛtasya panthām anvehi",
+            "meaning": "Follow the path of cosmic truth."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "instructional",
+          "usage": "Guidance"
         }
       },
       {
-        "id": "YV-1-19",
-        "mantra_number": 19,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-19",
+        "source_yajurveda": "Vajasaneyi Samhita 1.19",
+        "deity": "Auspiciousness",
+        "theme": "Blessing",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "शिवो नः सुमना भव",
+            "transliteration": "śivo naḥ sumanā bhava",
+            "meaning": "Be gracious and favorable to us."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "benedictory",
+          "usage": "Seeking grace"
         }
       },
       {
-        "id": "YV-1-20",
-        "mantra_number": 20,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-20",
+        "source_yajurveda": "Vajasaneyi Samhita 1.20",
+        "deity": "Indra",
+        "theme": "Well-being",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "स्वस्ति न इन्द्रो वृद्धश्रवाः",
+            "transliteration": "svasti na indro vṛddhaśravāḥ",
+            "meaning": "May Indra of great renown grant us well-being."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "auspicious close",
+          "usage": "Concluding blessing"
         }
       },
       {
-        "id": "YV-1-21",
-        "mantra_number": 21,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-21",
+        "source_yajurveda": "Vajasaneyi Samhita 1.21",
+        "deity": "Agni",
+        "theme": "Vow and truth",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अग्ने व्रतपते व्रतं चरिष्यामि तच्छकेयं तन्मे राध्यताम् । इदमहमनृतात्सत्यमुपैमि",
+            "transliteration": "agne vratapate vrataṃ cariṣyāmi tac chakeyaṃ tan me rādhyatām | idam aham anṛtāt satyam upaimi",
+            "meaning": "O Agni, Lord of vows, I shall observe the vow. May I be capable; may it succeed. From falsehood I pass to truth."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "solemn ritual cadence",
+          "usage": "Declaration of vow in Darśa–Pūrṇamāsa rite"
         }
       },
       {
-        "id": "YV-1-22",
-        "mantra_number": 22,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-22",
+        "source_yajurveda": "Vajasaneyi Samhita 1.22",
+        "deity": "Ritual forces",
+        "theme": "Yoking for action",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "कस्त्वा युनक्ति स त्वा युनक्ति कस्मै त्वा युनक्ति तस्मै त्वा युनक्ति । कर्मणे वां वेशाय वाम्",
+            "transliteration": "kas tvā yunakti sa tvā yunakti kasmai tvā yunakti tasmai tvā yunakti | karmaṇe vāṃ veśāya vām",
+            "meaning": "Who yokes you? He yokes you. For whom does he yoke you? For him he yokes you. You two are yoked for action and for its completion."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "instructional",
+          "usage": "Preparation of sacrificial implements"
         }
       },
       {
-        "id": "YV-1-23",
-        "mantra_number": 23,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-23",
+        "source_yajurveda": "Vajasaneyi Samhita 1.23",
+        "deity": "Agni",
+        "theme": "Removal of obstacles",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "प्रत्युष्टं रक्षः प्रत्युष्टा अरातयः । निष्टप्तं रक्षो निष्टप्ता अरातयः । उर्वन्तरिक्षमन्वेमि",
+            "transliteration": "pratyuṣṭaṃ rakṣaḥ pratyuṣṭā arātayaḥ | niṣṭaptaṃ rakṣo niṣṭaptā arātayaḥ | urv antarikṣam anvemi",
+            "meaning": "Scorched are the demons, scorched the hostile powers. Burnt are the demons, burnt the hostile powers. I move through the wide atmosphere."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "forceful",
+          "usage": "Expulsion of negative forces"
         }
       },
       {
-        "id": "YV-1-24",
-        "mantra_number": 24,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-24",
+        "source_yajurveda": "Vajasaneyi Samhita 1.24",
+        "deity": "Sacrificial yoke",
+        "theme": "Protection",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "धूरसि धूर्वन्तं धूर्व तं योऽस्मान् धूर्वति तं धूर्व यं वयं धूर्वामः । देवानामसि वह्नितमं सम्नितमं पप्रितमं जुष्टतमं देवहूततमम्",
+            "transliteration": "dhūr asi dhūrvantaṃ dhūrva taṃ yo'smān dhūrvati taṃ dhūrva yaṃ vayaṃ dhūrvāmaḥ | devānām asi vahnitamaṃ samnitamaṃ papritamaṃ juṣṭatamam devahūtatamam",
+            "meaning": "You are the yoke. Strike down him who would strike us. You are the best bearer of the gods, most united, most filled, most welcomed, best invoker of the gods."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "protective",
+          "usage": "Yoking and safeguarding the rite"
         }
       },
       {
-        "id": "YV-1-25",
-        "mantra_number": 25,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-25",
+        "source_yajurveda": "Vajasaneyi Samhita 1.25",
+        "deity": "Havirdhāna",
+        "theme": "Stability",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "अहृतमसि हविर्धानं दृंहस्व मा ह्वार्मा ते यज्ञपतिर्ह्वार्षीत्",
+            "transliteration": "ahṛtam asi havirdhānaṃ dṛṃhasva mā hvār mā te yajñapatir hvārṣīt",
+            "meaning": "You are the uninjured receptacle of offerings. Stand firm; do not waver. May the Lord of the sacrifice not falter."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "steady",
+          "usage": "Securing the offering vessel"
         }
       },
       {
-        "id": "YV-1-26",
-        "mantra_number": 26,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-26",
+        "source_yajurveda": "Vajasaneyi Samhita 1.26",
+        "deity": "Vishnu",
+        "theme": "Cosmic expansion",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "विष्णुस्त्वा क्रमताम् उरु वाताय अपहतं रक्षः",
+            "transliteration": "viṣṇus tvā kramatām uru vātāya apahataṃ rakṣaḥ",
+            "meaning": "May Vishnu stride upon you; make room for the wide wind. The harmful forces are driven away."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "expansive",
+          "usage": "Consecration of space"
         }
       },
       {
-        "id": "YV-1-27",
-        "mantra_number": 27,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-27",
+        "source_yajurveda": "Vajasaneyi Samhita 1.27",
+        "deity": "Savitar",
+        "theme": "Divine impulse",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "देवस्य त्वा सवितुः प्रसवे अश्विनोर्बाहुभ्यां पूष्णो हस्ताभ्यामग्नये जुष्टं गृह्णामि",
+            "transliteration": "devasya tvā savituḥ prasave aśvinor bāhubhyāṃ pūṣṇo hastābhyām agnaye juṣṭaṃ gṛhṇāmi",
+            "meaning": "By the impulse of Savitar, with the arms of the Ashvins and the hands of Pūṣan, I take you, pleasing to Agni."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "ritual precision",
+          "usage": "Lifting sacred materials"
         }
       },
       {
-        "id": "YV-1-28",
-        "mantra_number": 28,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-28",
+        "source_yajurveda": "Vajasaneyi Samhita 1.28",
+        "deity": "Earth",
+        "theme": "Foundation",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "पृथिव्यास्त्वा नाभौ सादयामि अदित्या उपस्थे",
+            "transliteration": "pṛthivyās tvā nābhau sādayāmi adityā upasthe",
+            "meaning": "I place you on the navel of the Earth, in the lap of Aditi."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "grounded",
+          "usage": "Placing the altar element"
         }
       },
       {
-        "id": "YV-1-29",
-        "mantra_number": 29,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-29",
+        "source_yajurveda": "Vajasaneyi Samhita 1.29",
+        "deity": "Waters",
+        "theme": "Purification",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "देवीरापो अग्रेसुवोऽग्रेपुवो ग्र इमं अद्य यज्ञं नयताग्रे यज्ञपतिम्",
+            "transliteration": "devīr āpo agresuvo'grepuvo gra imaṃ adya yajñaṃ nayatāgre yajñapatim",
+            "meaning": "O divine Waters, leading forward, guide this sacrifice today and lead forward the Lord of the sacrifice."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "flowing",
+          "usage": "Purificatory invocation"
         }
       },
       {
-        "id": "YV-1-30",
-        "mantra_number": 30,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-31",
-        "mantra_number": 31,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-32",
-        "mantra_number": 32,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-33",
-        "mantra_number": 33,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-34",
-        "mantra_number": 34,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-35",
-        "mantra_number": 35,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-36",
-        "mantra_number": 36,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-37",
-        "mantra_number": 37,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-38",
-        "mantra_number": 38,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-39",
-        "mantra_number": 39,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
-        }
-      },
-      {
-        "id": "YV-1-40",
-        "mantra_number": 40,
-        "sanskrit": "ॐ अग्नये स्वाहा",
-        "transliteration": "om agnaye svāhā",
-        "meaning": {
-          "literal": "Oblation to Agni.",
-          "interpretive": "Offering to divine fire.",
-          "applied": "Ritual invocation."
+        "chant_id": "YV-1-30",
+        "source_yajurveda": "Vajasaneyi Samhita 1.30",
+        "deity": "Indra",
+        "theme": "Victory",
+        "verses": [
+          {
+            "verse_id": 1,
+            "sanskrit": "युष्मानिन्द्रो वृणीते वृत्रतूर्ये यूयं इन्द्रम्",
+            "transliteration": "yuṣmān indro vṛṇīte vṛtratūrye yūyaṃ indram",
+            "meaning": "Indra chooses you for the slaying of Vṛtra; you choose Indra."
+          }
+        ],
+        "chant": {
+          "type": "Yajus",
+          "delivery": "spoken",
+          "intonation": "triumphant close",
+          "usage": "Closing invocation of Chapter 1"
         }
       }
     ]

@@ -1,26 +1,10 @@
 {
-  "generatedAt": "2026-04-09T04:28:09.974Z",
+  "generatedAt": "2026-04-10T14:14:14.140Z",
   "totalPages": 144,
-  "passed": 137,
-  "failed": 7,
-  "averageScore": 97,
+  "passed": 140,
+  "failed": 4,
+  "averageScore": 98,
   "pages": [
-    {
-      "page": "/404",
-      "status": "FAIL",
-      "issues": [
-        "Missing <link rel=\"canonical\">",
-        "Contains <meta name=\"robots\" content=\"noindex\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 11
-    },
     {
       "page": "/googlec257c31c246db1c1",
       "status": "FAIL",
@@ -41,16 +25,9 @@
       "score": 0
     },
     {
-      "page": "/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/404/",
+      "page": "/404",
       "status": "FAIL",
       "issues": [
-        "Missing <link rel=\"canonical\">",
         "Contains <meta name=\"robots\" content=\"noindex\">",
         "Missing meta property=\"og:title\"",
         "Missing meta property=\"og:description\"",
@@ -60,13 +37,28 @@
         "Missing meta name=\"twitter:title\"",
         "Missing meta name=\"twitter:description\""
       ],
-      "score": 11
+      "score": 21
     },
     {
-      "page": "/about/",
+      "page": "/",
       "status": "PASS",
       "issues": [],
       "score": 100
+    },
+    {
+      "page": "/404/",
+      "status": "FAIL",
+      "issues": [
+        "Contains <meta name=\"robots\" content=\"noindex\">",
+        "Missing meta property=\"og:title\"",
+        "Missing meta property=\"og:description\"",
+        "Missing meta property=\"og:url\"",
+        "Missing meta property=\"og:type\"",
+        "Missing meta name=\"twitter:card\"",
+        "Missing meta name=\"twitter:title\"",
+        "Missing meta name=\"twitter:description\""
+      ],
+      "score": 21
     },
     {
       "page": "/contact/",
@@ -75,13 +67,19 @@
       "score": 100
     },
     {
-      "page": "/cosmictime/",
+      "page": "/about/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/donate/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/cosmictime/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -99,19 +97,25 @@
       "score": 100
     },
     {
-      "page": "/itihasa/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/library-audit/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
+      "page": "/itihasa/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/our-cookie-policy/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/our-privacy-policy/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -129,19 +133,13 @@
       "score": 100
     },
     {
-      "page": "/our-privacy-policy/",
+      "page": "/religion-conversion/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/puranas/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/religion-conversion/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -183,16 +181,9 @@
       "score": 100
     },
     {
-      "page": "/vedic-science/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/_not-found/",
       "status": "FAIL",
       "issues": [
-        "Missing <link rel=\"canonical\">",
         "Contains <meta name=\"robots\" content=\"noindex\">",
         "Missing meta property=\"og:title\"",
         "Missing meta property=\"og:description\"",
@@ -202,10 +193,16 @@
         "Missing meta name=\"twitter:title\"",
         "Missing meta name=\"twitter:description\""
       ],
-      "score": 11
+      "score": 21
     },
     {
       "page": "/itihasa/bhagavadgita/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/itihasa/mahabharata/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -223,13 +220,7 @@
       "score": 100
     },
     {
-      "page": "/itihasa/mahabharata/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/puranas/bhavishya/",
+      "page": "/vedic-science/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -241,13 +232,13 @@
       "score": 100
     },
     {
-      "page": "/puranas/brahma/",
+      "page": "/puranas/bhavishya/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/puranas/brahmavaivarta/",
+      "page": "/puranas/brahma/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -260,6 +251,12 @@
     },
     {
       "page": "/puranas/garuda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/puranas/brahmavaivarta/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -289,13 +286,13 @@
       "score": 100
     },
     {
-      "page": "/puranas/padma/",
+      "page": "/puranas/narada/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/puranas/narada/",
+      "page": "/puranas/padma/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -313,13 +310,13 @@
       "score": 100
     },
     {
-      "page": "/puranas/varaha/",
+      "page": "/puranas/vamana/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/puranas/vamana/",
+      "page": "/puranas/varaha/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -373,19 +370,13 @@
       "score": 100
     },
     {
-      "page": "/upanishads/mandukya/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/upanishads/maitri/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/upanishads/mundaka/",
+      "page": "/upanishads/mandukya/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -403,6 +394,12 @@
       "score": 100
     },
     {
+      "page": "/upanishads/mundaka/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/upanishads/taittiriya/",
       "status": "PASS",
       "issues": [],
@@ -415,13 +412,13 @@
       "score": 100
     },
     {
-      "page": "/vedas/samaveda/",
+      "page": "/vedas/rigveda/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/vedas/rigveda/",
+      "page": "/vedas/samaveda/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -445,6 +442,12 @@
       "score": 100
     },
     {
+      "page": "/vedic-philosophy/index/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/vedic-philosophy/dharma/",
       "status": "PASS",
       "issues": [],
@@ -452,12 +455,6 @@
     },
     {
       "page": "/vedic-philosophy/karma/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedic-philosophy/index/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -488,48 +485,21 @@
     },
     {
       "page": "/vedic-science/astronomy/",
-      "status": "FAIL",
-      "issues": [
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 61
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/vedic-science/mathematics/",
-      "status": "FAIL",
-      "issues": [
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 61
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/vedic-science/medicine/",
-      "status": "FAIL",
-      "issues": [
-        "Missing <link rel=\"canonical\">",
-        "Missing meta property=\"og:title\"",
-        "Missing meta property=\"og:description\"",
-        "Missing meta property=\"og:url\"",
-        "Missing meta property=\"og:type\"",
-        "Missing meta name=\"twitter:card\"",
-        "Missing meta name=\"twitter:title\"",
-        "Missing meta name=\"twitter:description\""
-      ],
-      "score": 61
+      "status": "PASS",
+      "issues": [],
+      "score": 100
     },
     {
       "page": "/itihasa/bhagavadgita/chapter1/",
@@ -556,13 +526,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter15/",
+      "page": "/itihasa/bhagavadgita/chapter13/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter13/",
+      "page": "/itihasa/bhagavadgita/chapter15/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -574,19 +544,25 @@
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter17/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/itihasa/bhagavadgita/chapter16/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
+      "page": "/itihasa/bhagavadgita/chapter17/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/itihasa/bhagavadgita/chapter18/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/itihasa/bhagavadgita/chapter2/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -604,13 +580,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter6/",
+      "page": "/itihasa/bhagavadgita/chapter5/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter5/",
+      "page": "/itihasa/bhagavadgita/chapter6/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -640,13 +616,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/mahabharata/sabha-parva/",
+      "page": "/itihasa/mahabharata/vana-parva/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/mahabharata/vana-parva/",
+      "page": "/itihasa/mahabharata/sabha-parva/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -748,13 +724,13 @@
       "score": 100
     },
     {
-      "page": "/vedas/rigveda/madala1/",
+      "page": "/vedas/atharvaveda/book9/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/vedas/atharvaveda/book9/",
+      "page": "/vedas/rigveda/madala1/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -929,12 +905,6 @@
     },
     {
       "page": "/vedas/yajurveda/chapter9/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/itihasa/bhagavadgita/chapter2/",
       "status": "PASS",
       "issues": [],
       "score": 100

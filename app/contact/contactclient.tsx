@@ -4,7 +4,7 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { parseMaybeObject, parseList } from '@lib/parse';
-import FaqAccordion from '@components/faqaccordion/faqaccordion';
+import FaqAccordion from '@/app/components/faqaccordion';
 import ContactForm from '@components/contactform';
 import Loader from '@components/loader';
 

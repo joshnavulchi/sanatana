@@ -122,200 +122,161 @@
       ]
     },
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE – 1200 BCE",
-      "later_additions": "1200 BCE – 1000 BCE"
+      "early_vedic_period": "Around 1500–1200 BCE (earliest hymns and knowledge began)",
+      "later_additions": "Around 1200–1000 BCE (more ideas, rituals, and teachings were added)"
     },
     "influence_of_vedas": {
       "cultural_influence": [
-        "Indian music origins in Samaveda",
-        "Sacred chanting traditions",
-        "Festivals and rituals"
+        "Gave rise to Indian classical music through Sama chanting",
+        "Established traditions of sacred sound and mantra chanting",
+        "Inspired festivals, rituals, and cultural practices still followed today"
       ],
       "philosophical_influence": [
-        "Vedanta philosophy",
-        "Upanishadic metaphysics",
-        "Concept of universal consciousness"
+        "Led to deep thinking systems like Vedanta",
+        "Inspired the Upanishads which explain life and consciousness",
+        "Introduced the idea that everything is connected through one universal reality"
       ],
       "religious_influence": [
-        "Foundation of Hindu philosophy",
-        "Basis of temple rituals",
-        "Influence on yoga and meditation"
+        "Formed the base of Hindu spiritual practices",
+        "Shaped temple rituals and worship methods",
+        "Influenced yoga, meditation, and spiritual disciplines"
       ],
       "scientific_influence": [
-        "Early astronomy references",
-        "Mathematical concepts",
-        "Medical knowledge in Atharvaveda"
+        "Early observations of stars and planetary movements",
+        "Basic mathematical thinking and patterns",
+        "Healing knowledge and natural medicine in Atharvaveda"
       ]
     },
-    "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization. The Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine. According to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia. The teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization? Through hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma. The Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
-    "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence. Human beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony. Another fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha. The Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge. Through meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness. The Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
+    "introduction": "The Vedas are the oldest sources of knowledge in Sanatana Dharma. They are not just religious books but a complete guide to life, nature, and the universe. These teachings were passed down by memory for many generations before being written. Ancient sages experienced this knowledge through deep meditation, which is why it is called 'Shruti' (that which is heard). The Vedas explore big questions like where the universe came from, what life means, and how humans should live. They explain that life works according to a natural order and that living in harmony with this order leads to peace and balance. Over time, this knowledge was organized into four main parts: Rigveda, Yajurveda, Samaveda, and Atharvaveda, each focusing on a different aspect of life and spirituality.",
+    "meaning_of_word_veda": "Veda means 'knowledge' or 'wisdom'. It represents deep understanding about life, truth, and the universe.",
+    "philosophical_explanation": "The Vedas teach that the universe is not random but follows a natural order called Rta. When people live according to this order, life becomes balanced and peaceful. This right way of living is called Dharma. The Vedas also explain that each person has a true self (Atman), which is connected to the ultimate reality (Brahman). Understanding this connection leads to freedom from suffering (Moksha). They show different paths like knowledge, action, and devotion to help people grow spiritually. Over time, the focus moved from outer rituals to inner understanding and self-realization.",
     "related_concepts": [
-      "Upanishads",
-      "Brahman",
-      "Atman",
-      "Dharma",
-      "Karma",
-      "Moksha",
-      "Vedanta",
-      "Yajna",
-      "Rta",
-      "Sanatana Dharma"
+      "Upanishads (deep philosophical teachings)",
+      "Brahman (ultimate reality)",
+      "Atman (inner self)",
+      "Dharma (right way of living)",
+      "Karma (actions and results)",
+      "Moksha (freedom from suffering)",
+      "Vedanta (philosophical system)",
+      "Yajna (sacred offering or ritual)",
+      "Rta (cosmic order)",
+      "Sanatana Dharma (eternal way of life)"
     ],
     "scripture_text": [
       {
-        "description": "The Rigveda is the oldest of the four Vedas and is primarily a collection of hymns dedicated to various deities representing cosmic forces. It contains 1028 hymns organized into ten mandalas. These hymns praise deities such as Agni (fire), Indra (thunder and storms), Varuna (cosmic order), and Surya (the sun). The hymns often express wonder at the mysteries of nature and the universe. They seek blessings, prosperity, protection, and spiritual insight. The Rigveda also contains some of the earliest philosophical reflections found in human literature. One famous hymn, the Nasadiya Sukta, contemplates the origin of the universe and questions whether even the gods know how creation began.",
+        "veda": "Rigveda",
+        "primary_focus": "Understanding nature and praising cosmic forces",
+        "description": "The Rigveda is the oldest Veda and contains hymns that express curiosity about nature and existence. It praises natural forces like fire, sun, and rain, seeing them as divine powers. It also includes early philosophical ideas about creation and reality.",
         "major_deities": [
-          "Agni",
-          "Indra",
-          "Varuna",
-          "Mitra",
-          "Soma",
-          "Ushas"
+          "Agni (fire and transformation)",
+          "Indra (power and storms)",
+          "Varuna (cosmic order)",
+          "Mitra (friendship and harmony)",
+          "Soma (divine energy)",
+          "Ushas (dawn and new beginnings)"
         ],
         "major_themes": [
-          "Creation of universe",
-          "Cosmic order (Rta)",
-          "Nature worship",
-          "Sacred fire rituals",
-          "Philosophical speculation"
+          "Origin of the universe",
+          "Balance in nature",
+          "Human connection with cosmic forces",
+          "Spiritual curiosity",
+          "Search for truth"
         ],
-        "primary_focus": "Praise of deities and cosmic forces",
         "structure": {
           "mandalas": 10,
           "total_hymns": 1028,
           "verses": 10552
-        },
-        "veda": "Rigveda"
+        }
       },
       {
-        "description": "The Yajurveda focuses primarily on the procedures and formulas used during ritual sacrifices known as yajnas. It provides detailed instructions for priests performing ceremonies intended to maintain cosmic harmony and social order. The Yajurveda exists in two major forms: the Krishna (Black) Yajurveda and the Shukla (White) Yajurveda. The Krishna Yajurveda combines ritual formulas with explanatory commentary, while the Shukla Yajurveda presents them in a clearer and more organized structure. These texts emphasize the importance of disciplined action and ritual precision in maintaining the balance between humans, nature, and the divine.",
+        "veda": "Yajurveda",
+        "primary_focus": "Right way of performing actions and rituals",
+        "description": "The Yajurveda explains how to perform rituals properly. It focuses on discipline, correct actions, and maintaining balance between humans and nature. It shows that actions done with awareness help maintain harmony.",
+        "primary_topics": [
+          "Ritual methods",
+          "Role of priests",
+          "Symbolic meaning of actions",
+          "Discipline and responsibility"
+        ],
         "divisions": [
           {
-            "characteristics": "Mixed prose and verses",
-            "meaning": "Black Yajurveda",
-            "type": "Krishna Yajurveda"
+            "type": "Krishna Yajurveda",
+            "meaning": "Mixed explanations and verses",
+            "characteristics": "Less structured, more detailed explanation"
           },
           {
-            "characteristics": "Clear separation of mantras and explanations",
-            "meaning": "White Yajurveda",
-            "type": "Shukla Yajurveda"
+            "type": "Shukla Yajurveda",
+            "meaning": "Clear and organized form",
+            "characteristics": "Better structured and easier to understand"
           }
-        ],
-        "primary_focus": "Ritual procedures and yajna performance",
-        "primary_topics": [
-          "Sacrificial rituals",
-          "Priestly duties",
-          "Yajna procedures",
-          "Cosmic symbolism of sacrifice"
-        ],
-        "veda": "Yajurveda"
+        ]
       },
       {
-        "description": "The Samaveda is primarily concerned with melodies and chants derived largely from the Rigveda. It is considered the origin of classical Indian musical traditions. The hymns of the Samaveda are arranged in such a way that they can be sung during ritual ceremonies. The musical aspect of the Samaveda reflects the belief that sound and vibration play a powerful role in spiritual transformation. Through sacred chanting, practitioners aim to harmonize their consciousness with the cosmic rhythm of the universe.",
+        "veda": "Samaveda",
+        "primary_focus": "Use of sound and music for spiritual growth",
+        "description": "The Samaveda focuses on chanting and melodies. It teaches that sound vibrations can affect the mind and help in spiritual growth. It is the foundation of Indian classical music and chanting traditions.",
+        "importance": "Origin of musical traditions in India",
         "applications": [
           "Temple chanting",
-          "Soma rituals",
-          "Liturgical singing"
+          "Ritual singing",
+          "Meditative sound practices"
         ],
-        "importance": "Foundation of Indian classical music",
-        "primary_focus": "Musical chanting in rituals",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
-        },
-        "veda": "Samaveda"
+        }
       },
       {
-        "description": "The Atharvaveda differs from the other three Vedas in that it contains a broader range of topics, including healing practices, philosophical reflections, domestic rituals, and social concerns. It includes hymns, prayers, charms, and philosophical teachings that address everyday life as well as spiritual matters. Many hymns in the Atharvaveda seek protection from disease, misfortune, and negative influences while also exploring deeper metaphysical questions about life, death, and the nature of the soul.",
-        "primary_focus": "Practical life, healing, protection",
+        "veda": "Atharvaveda",
+        "primary_focus": "Daily life, healing, and practical knowledge",
+        "description": "The Atharvaveda deals with real-life concerns like health, protection, and daily living. It includes prayers, healing practices, and deeper thoughts about life and death. It connects spiritual ideas with everyday life.",
+        "topics": [
+          "Health and medicine",
+          "Protection from problems",
+          "Family and social life",
+          "Philosophical questions",
+          "Leadership and society"
+        ],
         "structure": {
           "books": 20,
           "hymns": 730
-        },
-        "topics": [
-          "Medicine",
-          "Protection spells",
-          "Household rituals",
-          "Philosophical reflections",
-          "Royal rituals"
-        ],
-        "veda": "Atharvaveda"
+        }
       }
     ],
-    "structure": {
-      "atharvaveda": {
-        "base_path": "/vedas/atharvaveda",
-        "chapter_prefix": "book",
-        "item_prefix": "hymn",
-        "items_per_chapter": 10,
-        "total_chapters": 10
-      },
-      "rigveda": {
-        "base_path": "/vedas/rigveda",
-        "chapter_item_counts": {
-          "mandala-1": 191,
-          "mandala-10": 191,
-          "mandala-2": 43,
-          "mandala-3": 62,
-          "mandala-4": 58,
-          "mandala-5": 87,
-          "mandala-6": 75,
-          "mandala-7": 191,
-          "mandala-8": 103,
-          "mandala-9": 114
-        },
-        "chapter_prefix": "mandala",
-        "item_prefix": "hymn",
-        "total_chapters": 10
-      },
-      "samaveda": {
-        "base_path": "/vedas/samaveda",
-        "direct_item_prefix": "hymn",
-        "total_items": 10
-      },
-      "yajurveda": {
-        "base_path": "/vedas/yajurveda",
-        "chapter_prefix": "chapter",
-        "item_prefix": "mantra",
-        "items_per_chapter": 12,
-        "total_chapters": 10
-      }
-    },
     "vedic_philosophical_concepts": {
-      "atman": "Individual self or soul",
-      "brahman": "Ultimate cosmic reality",
-      "dharma": "Universal law and duty",
-      "karma": "Law of action and consequence",
-      "moksha": "Liberation from cycle of rebirth",
-      "rta": "Cosmic order governing universe",
+      "atman": "Your true self, beyond body and mind",
+      "brahman": "The ultimate reality behind everything",
+      "dharma": "Right way of living and fulfilling duties",
+      "karma": "Your actions create future results",
+      "moksha": "Freedom from suffering and rebirth",
+      "rta": "Natural order that keeps the universe balanced",
       "samsara": "Cycle of birth, death, and rebirth"
     },
     "vedic_society": {
       "cultural_practices": [
-        "Fire rituals",
-        "Sacred chants",
-        "Education through gurukula"
+        "Fire rituals for spiritual connection",
+        "Chanting mantras for focus and harmony",
+        "Learning through teacher-student tradition (gurukula)"
       ],
       "economic_activities": [
-        "Agriculture",
-        "Cattle rearing",
-        "Trade",
-        "Craftsmanship"
+        "Farming and agriculture",
+        "Cattle care and dairy",
+        "Trade and exchange",
+        "Handicrafts and skills"
       ],
       "social_structure": [
-        "Brahmins (priests)",
-        "Kshatriyas (warriors)",
-        "Vaishyas (traders)",
-        "Shudras (service providers)"
+        "Brahmins (teachers and priests)",
+        "Kshatriyas (protectors and rulers)",
+        "Vaishyas (business and trade)",
+        "Shudras (service and support roles)"
       ]
     },
     "vedic_timeline": {
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "proto_vedic_period": "Before 2000 BCE",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "Before 2000 BCE (early cultural roots)",
+      "early_vedic_period": "1500–1200 BCE (hymns and nature focus)",
+      "middle_vedic_period": "1200–900 BCE (ritual development)",
+      "late_vedic_period": "900–500 BCE (philosophical growth)",
+      "upanishadic_period": "800–300 BCE (deep spiritual understanding)"
     }
   }
 }

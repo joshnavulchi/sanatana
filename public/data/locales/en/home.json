@@ -148,7 +148,35 @@
         "label": "Explore Scriptures",
         "link": "itihasa"
       },
-      "subheading": "The Eternal Way of Life"
+      "subheading": "The Eternal Way of Life",
+      "supporting_points": [
+        "Combines spiritual wisdom with practical daily living",
+        "Helps understand both inner life (mind, soul) and outer life (actions, society)",
+        "Applies to all people regardless of background or belief",
+        "Encourages self-discovery rather than blind following"
+      ],
+      "user_benefits": [
+        "Gain clarity about life purpose and direction",
+        "Learn how actions influence future outcomes",
+        "Develop calmness and emotional balance",
+        "Build a meaningful and value-based life"
+      ],
+      "key_concepts_preview": [
+        "Dharma: Right way of living",
+        "Karma: Law of action and result",
+        "Moksha: Freedom from suffering",
+        "Atman: True self beyond body and mind"
+      ],
+      "engagement_hooks": [
+        "Start with simple ideas and grow deeper step by step",
+        "Learn concepts you can apply immediately in daily life",
+        "Understand ancient wisdom in modern context",
+        "Explore both philosophy and practical guidance"
+      ],
+      "cta_context": {
+        "primarycta_reason": "Best for beginners to start structured learning",
+        "secondarycta_reason": "Explore original teachings and deeper knowledge"
+      }
     },
     "clarity_devotion": "clarity, devotion, and divine grace",
     "close": "Close",

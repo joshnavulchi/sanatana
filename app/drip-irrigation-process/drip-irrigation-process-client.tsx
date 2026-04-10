@@ -4,7 +4,7 @@ import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 import PageLayout from '@components/common/PageLayout';
-import FaqAccordion from '../components/faqaccordion/faqaccordion';
+import FaqAccordion from '../components/faqaccordion';
 import LazyImage from '../components/lazyimage';
 
 export default function DripIrrigationProcessClient() {

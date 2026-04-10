@@ -1,63 +1,196 @@
 {
-    "purana": {
-        "garuda": {
-            "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
-            "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
-            "meta": {
-                "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
-                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
-                "canonical": "https://sanatanadharmam.in/puranas/garuda",
-                "keywords": [
-                    "గరుడ పురాణం",
-                    "పురాణం",
-                    "పురాణాలు",
-                    "సనాతన ధర్మం",
-                    "భక్తి",
-                    "ధర్మము"
-                ],
-                "ogImage": "https://sanatanadharmam.in/og/garuda.png",
-                "robots": "సూచిక, అనుసరించండి",
-                "url": "https://sanatanadharmam.in/puranas/garuda"
-            },
-            "introduction": "గరుడ పురాణం సనాతన ధర్మం యొక్క విస్తృత పురాణ సాహిత్యంలో మహాపురాణాలలో ఒకటి. పురాణాలు కథలు, సంభాషణలు, శ్లోకాలు మరియు నైతిక జీవనానికి మార్గదర్శకత్వం ద్వారా తత్వశాస్త్రం, భక్తి మరియు సాంస్కృతిక జ్ఞాపకశక్తిని ప్రసారం చేస్తాయి. సాంప్రదాయకంగా, గరుడ పురాణం నీతి, ఆచారాలు మరియు ప్రతిబింబ బోధనలతో ముడిపడి ఉంది. పాఠకులు తరచుగా దీనిని ఒకే-జానర్ పుస్తకంగా కాకుండా భక్తి-తాత్విక గ్రంథంగా సంప్రదిస్తారు: ఇందులో విశ్వశాస్త్రం, పవిత్ర భూగోళశాస్త్రం, నీతిశాస్త్రం, ప్రమాణాలు మరియు క్రియలో ధర్మాన్ని వివరించే కథనాలు ఉండవచ్చు.",
-            "openGraph": {
-                "title": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
-                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
-                "images": [
-                    {
-                        "alt": "Garuda Purana – Purana Overview and Key Themes",
-                        "height": 630,
-                        "url": "https://sanatanadharmam.in/og/garuda.png",
-                        "width": 1200
-                    }
-                ],
-                "siteName": "సనాతనధర్మం",
-                "type": "వ్యాసం",
-                "url": "https://sanatanadharmam.in/puranas/garuda"
-            },
-            "philosophical_explanation": "తాత్వికంగా, పురాణాలు ప్రత్యక్ష దృశ్యాల ద్వారా బోధిస్తాయి: కోరిక, భయం, గర్వం మరియు కరుణ విధిని ఎలా రూపొందిస్తాయో. వారు చక్రీయ సమయం మరియు అశాశ్వతతను కూడా నొక్కి చెబుతారు, వినయం మరియు స్థిరత్వాన్ని ప్రోత్సహిస్తారు. భక్తి (భక్తి) తరచుగా హృదయాన్ని శుద్ధి చేసే మరియు జ్ఞానానికి మద్దతు ఇచ్చే ప్రత్యక్ష, ప్రాప్యత క్రమశిక్షణగా ప్రదర్శించబడుతుంది.",
-            "scripture_text": [
-                {
-                    "content": "నిర్మాణాత్మక అవలోకనం: (1) సందర్భం మరియు ఇతివృత్తాలు, (2) కీలకమైన కథన ఆలోచనలు, (3) భక్తి ప్రాధాన్యత మరియు (4) అంతర్గత అభ్యాసానికి కథను అనుసంధానించే తాత్విక ప్రతిబింబాలు.",
-                    "section": "ఈ పేజీలో మీరు ఏమి కనుగొంటారు"
-                },
-                {
-                    "content": "పురాణ కథనాలను బహుళ స్థాయిలలో చదవవచ్చు-భక్తి, నైతిక మరియు ప్రతీక. పునశ్చరణలలో వివరాలు మారినప్పుడు, శాశ్వతమైన విలువ తరచుగా ధార్మిక పాఠం: పాత్ర, భక్తి మరియు వివేచన పెంపకం.",
-                    "section": "పురాణ విషయాలను ఎలా చదవాలి"
-                }
-            ],
-            "schema": {
-                "description": "గరుడ పురాణం యొక్క నిర్మాణాత్మక అవలోకనం: ఇతివృత్తాలు, ప్రయోజనం మరియు సనాతన ధర్మంలో భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకశక్తికి ఇది ఎలా దోహదపడుతుంది.",
-                "@context": "https://schema.org",
-                "@type": "వ్యాసం",
-                "isPartOf": {
-                    "@type": "వెబ్‌సైట్",
-                    "name": "సనాతనధర్మం",
-                    "url": "https://sanatanadharmam.in"
-                },
-                "name": "గరుడ పురాణం – పురాణ అవలోకనం మరియు ముఖ్య అంశాలు",
-                "url": "https://sanatanadharmam.in/puranas/garuda"
-            }
+  "puranas": {
+    "title": "Puranas Explained Simply – Stories, Meaning, and Spiritual Wisdom",
+    "description": "Learn about the Puranas in simple English. Discover ancient stories, deep spiritual meaning, cosmology, devotion, and life lessons from Sanatana Dharma.",
+    "meta": {
+      "title": "Puranas Explained Simply – Stories, Meaning, and Spiritual Wisdom",
+      "description": "Learn about the Puranas in simple English. Discover ancient stories, deep spiritual meaning, cosmology, devotion, and life lessons from Sanatana Dharma.",
+      "keywords": [
+        "Puranas meaning",
+        "What are Puranas",
+        "Hindu Puranas explained",
+        "Sanatana Dharma stories",
+        "Bhagavata Purana",
+        "Vishnu Purana",
+        "Shiva Purana",
+        "Hindu mythology and philosophy"
+      ],
+      "canonical": "https://sanatanadharmam.in/puranas"
+    },
+    "opengraph": {
+      "title": "Puranas Explained – Ancient Stories with Deep Spiritual Meaning",
+      "description": "Explore the Puranas in simple English. Understand creation, devotion, and life lessons through powerful stories from Sanatana Dharma.",
+      "url": "https://sanatanadharmam.in/puranas",
+      "type": "article",
+      "image": "https://sanatanadharmam.in/images/puranas-cover.jpg",
+      "site_name": "Sanatana Dharma",
+      "locale": "en_US"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Puranas Explained Simply – Stories, Meaning, and Spiritual Wisdom",
+      "description": "A beginner-friendly explanation of the Puranas covering stories, cosmology, devotion, and life lessons in simple English.",
+      "image": "https://sanatanadharmam.in/images/puranas-cover.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "Sanatana Dharma"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sanatana Dharma",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanatanadharmam.in/logo.png"
         }
-    }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanatanadharmam.in/puranas"
+      },
+      "datePublished": "2026-01-01",
+      "dateModified": "2026-04-10",
+      "articleSection": "Hindu Scriptures",
+      "keywords": [
+        "Puranas",
+        "Sanatana Dharma",
+        "Hindu philosophy",
+        "Bhakti",
+        "Cosmology"
+      ]
+    },
+    "meaning": "The word 'Purana' means 'ancient stories'. These are traditional texts that explain spiritual knowledge through stories, history, and symbolism.",
+    "introduction": "The Puranas are important texts that explain complex spiritual ideas in a simple and engaging way through stories. They describe the creation of the universe, the role of gods and goddesses, and the journey of human life. Instead of abstract philosophy, they use stories to teach values, devotion, and understanding of life.",    
+    "core_purpose": [
+      "To make spiritual knowledge easy to understand through stories",
+      "To teach moral values and right living (dharma)",
+      "To explain the creation and structure of the universe",
+      "To inspire devotion (bhakti) toward the divine",
+      "To preserve cultural and spiritual traditions"
+    ],
+    "key_features": [
+      {
+        "feature": "Story-based teaching",
+        "explanation": "Spiritual truths are explained through stories instead of direct theory.",
+        "deep_understanding": [
+          "Stories make complex ideas easier to remember",
+          "Characters represent human qualities and challenges",
+          "Events often have symbolic meaning beyond literal interpretation"
+        ]
+      },
+      {
+        "feature": "Cosmology (Universe explanation)",
+        "explanation": "They describe how the universe is created, maintained, and dissolved.",
+        "deep_understanding": [
+          "Time is cyclical, not linear",
+          "Creation happens again and again in cycles",
+          "The universe is seen as a living, dynamic system"
+        ]
+      },
+      {
+        "feature": "Genealogy and history",
+        "explanation": "They describe ancient kings, sages, and dynasties.",
+        "deep_understanding": [
+          "Shows how dharma was practiced in different times",
+          "Connects human life with divine purpose",
+          "Provides cultural continuity"
+        ]
+      },
+      {
+        "feature": "Devotion (Bhakti)",
+        "explanation": "Encourages love and devotion toward God.",
+        "deep_understanding": [
+          "Emotional connection is a powerful spiritual path",
+          "Devotion makes spiritual practice simple and accessible",
+          "Focuses on surrender and trust"
+        ]
+      },
+      {
+        "feature": "Moral lessons",
+        "explanation": "Stories teach right and wrong through examples.",
+        "deep_understanding": [
+          "Actions always have consequences",
+          "Good values lead to harmony",
+          "Ego and ignorance lead to suffering"
+        ]
+      }
+    ],
+    "structure_of_puranas": [
+      "Creation of the universe (Sarga)",
+      "Re-creation or cycles of creation (Pratisarga)",
+      "Lineage of gods and sages (Vamsha)",
+      "Stories of different time periods (Manvantara)",
+      "Histories of kings and dynasties (Vamshanucharita)"
+    ],
+    "major_puranas": [
+      {
+        "name": "Vishnu Purana",
+        "focus": "Preservation and balance in the universe",
+        "simple_understanding": "Explains how the universe is maintained and protected"
+      },
+      {
+        "name": "Shiva Purana",
+        "focus": "Transformation and inner power",
+        "simple_understanding": "Teaches destruction of ego and spiritual growth"
+      },
+      {
+        "name": "Bhagavata Purana",
+        "focus": "Devotion and love for God",
+        "simple_understanding": "Highlights the path of devotion, especially through Krishna's life"
+      },
+      {
+        "name": "Markandeya Purana",
+        "focus": "Divine feminine power",
+        "simple_understanding": "Includes stories of Goddess Durga and victory of good over evil"
+      },
+      {
+        "name": "Brahma Purana",
+        "focus": "Creation and cosmic knowledge",
+        "simple_understanding": "Explains origin of the universe and divine creation"
+      }
+    ],
+    "important_concepts": [
+      {
+        "concept": "Cycle of Time",
+        "explanation": "Time moves in repeating cycles (Yugas), not a straight line.",
+        "deep_understanding": [
+          "Everything repeats in patterns",
+          "Rise and fall are natural processes",
+          "Nothing is permanent in the material world"
+        ]
+      },
+      {
+        "concept": "Avatar (Divine Incarnation)",
+        "explanation": "God takes form to restore balance when needed.",
+        "deep_understanding": [
+          "Appears during times of crisis",
+          "Restores dharma (order and righteousness)",
+          "Guides humanity through actions and teachings"
+        ]
+      },
+      {
+        "concept": "Dharma vs Adharma",
+        "explanation": "The constant struggle between right and wrong.",
+        "deep_understanding": [
+          "Every action influences this balance",
+          "Stories show consequences of both sides",
+          "Encourages choosing the right path"
+        ]
+      }
+    ],
+    "learning_approach": [
+      "Start with stories instead of deep philosophy",
+      "Understand the message behind each story",
+      "Relate characters to real-life situations",
+      "Apply lessons in daily life",
+      "Gradually explore deeper symbolic meanings"
+    ],
+    "modern_relevance": [
+      "Helps understand human behavior through stories",
+      "Provides moral guidance in complex situations",
+      "Encourages devotion and emotional strength",
+      "Explains life patterns and challenges",
+      "Makes spirituality easy and relatable"
+    ]
+  }
 }
