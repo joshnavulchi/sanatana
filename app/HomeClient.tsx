@@ -730,7 +730,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative overflow-hidden ${tone.ring} ${tone.glow} bg-gradient-to-br from-white/80 via-${gradientfrom} to-${gradientto} backdrop-blur-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}
+      className={`group relative overflow-hidden ${tone.ring} ${tone.glow} bg-gradient-to-br from-slate-100  via-${gradientfrom} to-${gradientto} backdrop-blur-xl rounded-xl shadow-xl transition-all duration-700 ease-out hover:-translate-y-2 hover:shadow-2xl ${isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}
       style={{ transitionDelay: `${index * 160}ms` }}
     >
       <div className={`hidden h-[3px] w-full rounded-t-3xl bg-gradient-to-r ${tone.accent} shadow-md`} />
@@ -829,7 +829,7 @@ function OurFourCoreYugas() {
           </div>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2">
           {yugas.map((y: any, idx: number) => (
             <YugaCard
               key={y.name}
@@ -855,7 +855,7 @@ function OurFourCoreYugas() {
           </div>
 
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-5xl bg-black/5 rounded-md border border-[#d8a25a]/15 p-4 text-center shadow-[0_2px_5px_rgba(166,61,23,0.10)]">
+            <div className="mx-auto max-w-5xl bg-slate-100 rounded-xl shadow-xl border border-[#d8a25a]/15 p-4 text-center">
               <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-md sm:text-base leading-relaxed">
                 {earthAgeComparisonNote}
               </p>
@@ -863,7 +863,7 @@ function OurFourCoreYugas() {
           )}
 
           {scalingComment && (
-            <p className="mx-auto mt-5 max-w-4xl text-center text-md sm:text-base leading-relaxed text-[#5b2d12]">
+            <p className="mx-auto mt-5 max-w-4xl text-center text-sm leading-relaxed text-[#5b2d12]">
               {scalingComment}
             </p>
           )}

@@ -70,7 +70,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     // 
-    <div className="flex flex-col bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
@@ -143,7 +143,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     // 
-    <div className="flex flex-col bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
+    <div className="flex flex-col gap-1 bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
