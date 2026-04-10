@@ -103,52 +103,72 @@
     },
     "ourfourcoreyugas": [
       {
-        "description": [
-          "Truth and righteousness prevail",
-          "Long lifespan and perfect health",
-          "Direct divine awareness"
-        ],
-        "gradientfrom": "from-amber-700",
-        "gradientto": "to-orange-600",
         "name": "Satya Yuga",
         "subtitle": "Dharma age",
-        "years": "1,728,000 years"
+        "years": "1,728,000 years",
+        "gradientfrom": "from-amber-700",
+        "gradientto": "to-orange-600",
+        "description": [
+          "This is the first and most pure age where truth (satya) and righteousness (dharma) are at 100%",
+          "People are naturally good, honest, and follow moral values without being taught",
+          "There is no crime, no greed, and no suffering in society",
+          "Humans live very long lives (thousands of years) and have strong physical and mental health",
+          "People are deeply spiritual and have direct connection with the divine (God)",
+          "Meditation and inner realization are the main practices, not rituals",
+          "Nature is balanced and peaceful; no natural disasters or imbalance",
+          "Society does not need strict rules or laws because everyone follows dharma naturally"
+        ]
       },
       {
-        "description": [
-          "Slight decline of dharma",
-          "Age of the Ramayana",
-          "Spiritual discipline remains strong"
-        ],
+        "name": "Treta Yuga",
+        "subtitle": "Divine age",
+        "years": "1,296,000 years",
         "gradientfrom": "from-orange-500",
         "gradientto": "to-amber-400",
-        "name": "Treta Yuga",
-        "subtitle": "Divor age",
-        "years": "1,296,000 years"
+        "description": [
+          "Dharma reduces slightly to about 75%, meaning some decline in truth and purity",
+          "People begin to develop ego, desires, and social hierarchy",
+          "This is the age of the great epic ",
+          "Divine incarnations like Lord Rama appear to restore dharma",
+          "People still follow spiritual practices, but more structured rituals and sacrifices (yajnas) begin",
+          "Lifespans are still long but shorter than Satya Yuga",
+          "Society starts forming kingdoms, rules, and systems of governance",
+          "Good and evil both exist, but good is still dominant"
+        ]
       },
       {
-        "description": [
-          "Dharma reduced to half",
-          "Era of Mahabharata",
-          "Increase in conflict and complexity"
-        ],
-        "gradientfrom": "from-rose-500",
-        "gradientto": "to-orange-500",
         "name": "Dvapara Yuga",
         "subtitle": "Dharma age",
-        "years": "864,000 years"
+        "years": "864,000 years",
+        "gradientfrom": "from-rose-500",
+        "gradientto": "to-orange-500",
+        "description": [
+          "Dharma is reduced to 50%, meaning balance between good and bad",
+          "This is the age of the epic  and the teachings of Bhagavad Gita",
+          "Conflicts, wars, and complexity in life increase significantly",
+          "People become more materialistic and less spiritually aware",
+          "Temples, idol worship, and external rituals become more common",
+          "Human lifespan and strength decrease further",
+          "Knowledge is still present, but people struggle to follow it completely",
+          "Divine incarnations like Lord Krishna appear to guide humanity"
+        ]
       },
       {
-        "description": [
-          "Materialism and ignorance dominate",
-          "Spiritual practice is difficult",
-          "Liberation possible through devotion"
-        ],
-        "gradientfrom": "from-red-700",
-        "gradientto": "to-rose-700",
         "name": "Kali Yuga",
         "subtitle": "Folk age",
-        "years": "432,000 years"
+        "years": "432,000 years",
+        "gradientfrom": "from-red-700",
+        "gradientto": "to-rose-700",
+        "description": [
+          "This is the current age, where dharma is only 25% remaining",
+          "Materialism, ignorance, greed, and conflict dominate society",
+          "Truth is often ignored, and falsehood becomes common",
+          "People have shorter lifespans, weaker health, and more stress",
+          "Spiritual understanding is low, and distractions are very high",
+          "Following dharma becomes difficult, but still possible with effort",
+          "Simple practices like devotion (bhakti), chanting, and remembering God are most effective",
+          "Even though it is a dark age, liberation (moksha) is still possible for sincere seekers"
+        ]
       }
     ],
     "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order. These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1). One Full Day of Brahma: Lifetime of Brahma - 100 Brahma years - Each year = 360 days - Each day = 4 yugas (ages) - Total = 311,040,000,000 human years.",
