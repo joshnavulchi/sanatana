@@ -43,7 +43,7 @@ function FieldCard({
             {deepUnderstanding.map((point, i) => (
               <li
                 key={i}
-                className="flex items-start gap-2 text-xs text-[#7a4a2e]"
+                className="flex items-start gap-2 text-md sm:text-base text-[#7a4a2e]"
               >
                 <span className="text-[#b8860b] font-bold mt-1">•</span>
                 <span>{point}</span>
@@ -62,7 +62,7 @@ function FieldCard({
             {keyConcepts.map((concept, i) => (
               <li
                 key={i}
-                className="flex items-start gap-2 text-xs text-[#7a4a2e]"
+                className="flex items-start gap-2 text-md sm:text-base text-[#7a4a2e]"
               >
                 <span className="text-[#c09850] font-bold mt-1">✓</span>
                 <span>{concept}</span>
@@ -102,7 +102,7 @@ function PrincipleCard({
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#ddb892]/15 pt-4">
           {deepUnderstanding.map((point, i) => (
-            <li key={i} className="flex items-start gap-2 text-xs text-[#8b5a3c]">
+            <li key={i} className="flex items-start gap-2 text-md sm:text-base text-[#8b5a3c]">
               <span className="text-[#c09850] font-bold mt-1">✦</span>
               <span>{point}</span>
             </li>

@@ -434,11 +434,11 @@ export default function Header() {
         </div>
 
         {/* ─── Desktop Nav ─── */}
-        <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+        <nav className="hidden md:flex items-center gap-3" aria-label="Main navigation">
           {navSections.map((section) => (
             <DesktopDropdown key={section.key} section={section} isActive={isActive} />
           ))}
-          <div className="border-l border-transparent flex items-center gap-1">
+          <div className="border-l border-transparent flex items-center gap-3">
             <LanguageDropdown />
           </div>
           <ThemeToggle />
