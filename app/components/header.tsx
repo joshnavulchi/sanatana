@@ -412,7 +412,7 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
-      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. I love Bharat alias India.</div>
+      <div className="p-2 md:p-1 text-sm text-center font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-600 via-orange-600 to-blue-700 drop-shadow-xl">I Love Shiva. I love Rama. I Love Krishna. Bharatha matha ki jai. I Love Bharat. </div>
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
       <div className="flex items-center justify-between px-4 sm:px-2 lg:px-6 py-1 shadow-sm">
         {/* ─── Logo & Title ─── */}
