@@ -79,11 +79,11 @@
       "url": "https://sanatanadharmam.in/religion-conversion"
     },
     "openGraph": {
-      "title": "క్రైస్తవ మతం మరియు ఇస్లామ్‌కు ఎందుకు మారతారు? | సనాతన ధర్మం",
-      "description": "క్రైస్తవ మతం మరియు ఇస్లామ్‌కు మత మార్పుల వెనుక ఉన్న కారణాలు, ప్రేరణలు మరియు సామాజిక కారకాలను అన్వేషించండి. అటువంటి నిర్ణయాలను ప్రభావితం చేసే వ్యక్తిగత, సామాజిక మరియు చారిత్రక సందర్భాలను అర్థం చేసుకోండి.",
+      "title": "Why Do People Convert to Christianity and Islam? | Sanātana Dharma",
+      "description": "Explore the reasons, motivations, and social factors behind religious conversions to Christianity and Islam. Understand the personal, social, and historical contexts that influence such decisions.",
       "images": [
         {
-          "alt": "మత మార్పు విశ్లేషణ",
+          "alt": "Religion Conversion Analysis",
           "height": 630,
           "url": "https://sanatanadharmam.in/og/religion_conversion.png",
           "width": 1200
@@ -92,6 +92,29 @@
       "siteName": "Sanatanadharmam",
       "type": "website",
       "url": "https://sanatanadharmam.in/religion-conversion"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
     },
     "conclusion": {
       "clarification": "The question of 'who came first' depends on whether one refers to theology or documented historical emergence.",
@@ -185,7 +208,7 @@
         "tradition": "Islam"
       }
     ],
-    "intro": "Religious conversion is a complex phenomenon influenced by personal, social, economic, and historical factors. Understanding why people choose to convert to Christianity or Islam can foster empathy and interfaith dialogue.",
+    "descriptions": "Religious conversion is a complex phenomenon influenced by personal, social, economic, and historical factors. Understanding why people choose to convert to Christianity or Islam can foster empathy and interfaith dialogue.",
     "linguistic_evolution": {
       "allah": {
         "language": "Arabic",
@@ -919,29 +942,6 @@
     },
     "title2": "religion_expansion_history",
     "title3": "global_religion_history",
-    "topic": "Comparative Origins: Hindu Divine Concepts vs Allah vs Christ",
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availableLanguage": [
-            "English",
-            "Hindi",
-            "Telugu",
-            "Spanish",
-            "French"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    }
+    "topic": "Comparative Origins: Hindu Divine Concepts vs Allah vs Christ"
   }
 }

@@ -7,17 +7,15 @@ import PageLayout from "@components/common/PageLayout";
 
 type GenericRecord = Record<string, unknown>;
 
-function FieldCard({
-  field,
+function PrincipleCard({
+  principle,
   explanation,
   deepUnderstanding,
-  keyConcepts,
   index,
 }: {
-  field: string;
+  principle: string;
   explanation: string;
   deepUnderstanding?: string[];
-  keyConcepts?: string[];
   index: number;
 }) {
   const bgColors = [
@@ -31,57 +29,67 @@ function FieldCard({
     <div
       className={`relative rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.06)]`}
     >
-      <h4 className="text-lg font-bold text-[#5a2d0c] mb-2">{field}</h4>
+      <h4 className="text-lg font-bold text-[#5a2d0c] mb-2">{principle}</h4>
       <p className="text-md sm:text-base text-[#6d3d1a] mb-4">{explanation}</p>
-
       {deepUnderstanding && deepUnderstanding.length > 0 && (
-        <div className="mb-4 border-t border-[#d4ae7a]/15 pt-4">
-          <h5 className="text-xs font-bold text-[#7a4a2d] mb-2 uppercase tracking-wide">
-            Deep Understanding
-          </h5>
-          <ul className="space-y-1">
-            {deepUnderstanding.map((point, i) => (
-              <li
-                key={i}
-                className="flex items-start gap-2 text-xs text-[#7a4a2e]"
-              >
-                <span className="text-[#b8860b] font-bold mt-1">•</span>
-                <span>{point}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {keyConcepts && keyConcepts.length > 0 && (
-        <div className="border-t border-[#d4ae7a]/15 pt-4">
-          <h5 className="text-xs font-bold text-[#7a4a2d] mb-2 uppercase tracking-wide">
-            Key Concepts
-          </h5>
-          <ul className="space-y-1">
-            {keyConcepts.map((concept, i) => (
-              <li
-                key={i}
-                className="flex items-start gap-2 text-xs text-[#7a4a2e]"
-              >
-                <span className="text-[#c09850] font-bold mt-1">✓</span>
-                <span>{concept}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className="space-y-2 border-t border-[#d4ae7a]/15 pt-4">
+          {deepUnderstanding.map((point, i) => (
+            <li key={i} className="flex items-start gap-2 text-xs text-[#7a4a2e]">
+              <span className="text-[#b8860b] font-bold mt-1">•</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
 }
 
-function PrincipleCard({
-  principle,
+function PathCard({
+  path,
   explanation,
   deepUnderstanding,
   index,
 }: {
-  principle: string;
+  path: string;
+  explanation: string;
+  deepUnderstanding?: string[];
+  index: number;
+}) {
+  const bgColors = [
+    "bg-gradient-to-br from-[#fff9f0] to-[#fff5e6]",
+    "bg-gradient-to-br from-[#fffaf4] to-[#fff8f0]",
+    "bg-gradient-to-br from-[#fffbf7] to-[#fffef9]",
+    "bg-gradient-to-br from-[#fff8f1] to-[#fffaf4]",
+  ];
+
+  return (
+    <div
+      className={`relative rounded-2xl border border-[#d4a574]/25 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.07)]`}
+    >
+      <h4 className="text-lg font-bold text-[#6d3414] mb-2">{path}</h4>
+      <p className="text-md sm:text-base text-[#7a4a2d] mb-4">{explanation}</p>
+      {deepUnderstanding && deepUnderstanding.length > 0 && (
+        <ul className="space-y-2 border-t border-[#d4a574]/15 pt-4">
+          {deepUnderstanding.map((point, i) => (
+            <li key={i} className="flex items-start gap-2 text-xs text-[#8b5a3c]">
+              <span className="text-[#c09850] font-bold mt-1">✦</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function ConceptCard({
+  concept,
+  explanation,
+  deepUnderstanding,
+  index,
+}: {
+  concept: string;
   explanation: string;
   deepUnderstanding?: string[];
   index: number;
@@ -97,7 +105,7 @@ function PrincipleCard({
     <div
       className={`relative rounded-2xl border border-[#ddb892]/25 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.05)]`}
     >
-      <h4 className="text-lg font-bold text-[#703d1b] mb-2">{principle}</h4>
+      <h4 className="text-lg font-bold text-[#703d1b] mb-2">{concept}</h4>
       <p className="text-md sm:text-base text-[#7a4a2d] mb-4">{explanation}</p>
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#ddb892]/15 pt-4">
@@ -113,17 +121,17 @@ function PrincipleCard({
   );
 }
 
-export default function VedicScienceClient() {
+export default function VedicClient() {
   const { isLoading } = useLocale();
-  const pageNs = useLocaleSection("vedic-science");
+  const pageNs = useLocaleSection("vedic-philosophy");
   const root = pageNs && typeof pageNs === "object" ? pageNs : {};
 
   if (isLoading && !root) {
     return (
       <PageLayout
-        metaKey="vedic-science"
+        metaKey="vedic-philosophy"
         title=""
-        breadcrumbs={[{ label: "Home", href: "/" }, { label: "Vedic Science" }]}
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "Vedic Philosophy" }]}
         className="layout-md"
       >
         <div className="flex items-center justify-center py-12">
@@ -140,19 +148,17 @@ export default function VedicScienceClient() {
   const corePurpose = Array.isArray(content.core_purpose)
     ? content.core_purpose.filter((v) => typeof v === "string")
     : [];
-  const majorFields = Array.isArray(content.major_fields)
-    ? content.major_fields.filter((v) => v && typeof v === "object")
+  const fundamentalPrinciples = Array.isArray(content.fundamental_principles)
+    ? content.fundamental_principles.filter((v) => v && typeof v === "object")
     : [];
-  const scientificPrinciples = Array.isArray(content.scientific_principles)
-    ? content.scientific_principles.filter((v) => v && typeof v === "object")
+  const pathsOfSpiritualGrowth = Array.isArray(content.paths_of_spiritual_growth)
+    ? content.paths_of_spiritual_growth.filter((v) => v && typeof v === "object")
     : [];
-  const approachToKnowledge = Array.isArray(content.approach_to_knowledge)
-    ? content.approach_to_knowledge.filter((v) => typeof v === "string")
+  const keyConcepts = Array.isArray(content.key_concepts)
+    ? content.key_concepts.filter((v) => v && typeof v === "object")
     : [];
-  const differencesFromModernScience = Array.isArray(
-    content.differences_from_modern_science
-  )
-    ? content.differences_from_modern_science.filter((v) => typeof v === "string")
+  const learningApproach = Array.isArray(content.learning_approach)
+    ? content.learning_approach.filter((v) => typeof v === "string")
     : [];
   const modernRelevance = Array.isArray(content.modern_relevance)
     ? content.modern_relevance.filter((v) => typeof v === "string")
@@ -160,16 +166,16 @@ export default function VedicScienceClient() {
 
   return (
     <PageLayout
-      metaKey="vedic-science"
-      title="Vedic Science"
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Vedic Science" }]}
+      metaKey="vedic-philosophy"
+      title="Vedic Philosophy"
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Vedic Philosophy" }]}
       className="layout-md"
     >
       {/* Meaning Section */}
       {meaning && (
         <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fffaf4] rounded-2xl border border-[#ddb892]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
           <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-4">
-            What is Vedic Science?
+            What is Vedic Philosophy?
           </h2>
           <p className="text-base text-[#6d3d1a] leading-relaxed">{meaning}</p>
         </section>
@@ -181,9 +187,7 @@ export default function VedicScienceClient() {
           <h2 className="text-2xl md:text-3xl font-bold text-[#6d3414] mb-4">
             Introduction
           </h2>
-          <p className="text-base text-[#7a4a2d] leading-relaxed">
-            {introduction}
-          </p>
+          <p className="text-base text-[#7a4a2d] leading-relaxed">{introduction}</p>
         </section>
       )}
 
@@ -209,47 +213,14 @@ export default function VedicScienceClient() {
         </section>
       )}
 
-      {/* Major Fields Section */}
-      {majorFields.length > 0 && (
+      {/* Fundamental Principles Section */}
+      {fundamentalPrinciples.length > 0 && (
         <section className="mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
-            Major Fields of Vedic Science
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {(majorFields as GenericRecord[]).map((field, idx) => (
-              <FieldCard
-                key={idx}
-                field={typeof field.field === "string" ? field.field : ""}
-                explanation={
-                  typeof field.explanation === "string"
-                    ? field.explanation
-                    : ""
-                }
-                deepUnderstanding={
-                  Array.isArray(field.deep_understanding)
-                    ? (field.deep_understanding as string[])
-                    : undefined
-                }
-                keyConcepts={
-                  Array.isArray(field.key_concepts)
-                    ? (field.key_concepts as string[])
-                    : undefined
-                }
-                index={idx}
-              />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Scientific Principles Section */}
-      {scientificPrinciples.length > 0 && (
-        <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
-            Scientific Principles
+            Fundamental Principles
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {(scientificPrinciples as GenericRecord[]).map((principle, idx) => (
+            {(fundamentalPrinciples as GenericRecord[]).map((principle, idx) => (
               <PrincipleCard
                 key={idx}
                 principle={
@@ -274,14 +245,72 @@ export default function VedicScienceClient() {
         </section>
       )}
 
-      {/* Approach to Knowledge Section */}
-      {approachToKnowledge.length > 0 && (
+      {/* Paths of Spiritual Growth Section */}
+      {pathsOfSpiritualGrowth.length > 0 && (
         <section className="mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
-            Approach to Knowledge
+            Paths of Spiritual Growth
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(pathsOfSpiritualGrowth as GenericRecord[]).map((pathItem, idx) => (
+              <PathCard
+                key={idx}
+                path={typeof pathItem.path === "string" ? pathItem.path : ""}
+                explanation={
+                  typeof pathItem.explanation === "string"
+                    ? pathItem.explanation
+                    : ""
+                }
+                deepUnderstanding={
+                  Array.isArray(pathItem.deep_understanding)
+                    ? (pathItem.deep_understanding as string[])
+                    : undefined
+                }
+                index={idx}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Key Concepts Section */}
+      {keyConcepts.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            Key Concepts
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(keyConcepts as GenericRecord[]).map((concept, idx) => (
+              <ConceptCard
+                key={idx}
+                concept={
+                  typeof concept.concept === "string" ? concept.concept : ""
+                }
+                explanation={
+                  typeof concept.explanation === "string"
+                    ? concept.explanation
+                    : ""
+                }
+                deepUnderstanding={
+                  Array.isArray(concept.deep_understanding)
+                    ? (concept.deep_understanding as string[])
+                    : undefined
+                }
+                index={idx}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Learning Approach Section */}
+      {learningApproach.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+            How to Learn Vedic Philosophy
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {approachToKnowledge.map((item, idx) => (
+            {learningApproach.map((item, idx) => (
               <div
                 key={idx}
                 className="p-5 bg-linear-to-br from-[#fff9f0] to-[#fffaf4] rounded-xl border border-[#d4ae7a]/20 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
@@ -295,28 +324,6 @@ export default function VedicScienceClient() {
               </div>
             ))}
           </div>
-        </section>
-      )}
-
-      {/* Differences from Modern Science Section */}
-      {differencesFromModernScience.length > 0 && (
-        <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
-            Differences from Modern Science
-          </h2>
-          <ul className="space-y-3">
-            {differencesFromModernScience.map((item, idx) => (
-              <li
-                key={idx}
-                className="flex items-start gap-4 p-4 bg-[#fff9f0] rounded-xl border border-[#d4ae7a]/15 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
-              >
-                <span className="text-[#b8860b] font-bold text-lg leading-tight shrink-0">
-                  →
-                </span>
-                <span className="text-base text-[#6d3d1a]">{item}</span>
-              </li>
-            ))}
-          </ul>
         </section>
       )}
 

@@ -113,443 +113,963 @@
     },
     "chants": [
       {
-        "id": "SV-10-1",
-        "chant_number": 1,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 1,
+        "chant_id": "SV-10-1",
+        "rigveda_ref": "RV 1.252.1",
+        "theme": "Invocation",
+        "text": {
+          "sanskrit": "ब्रह्मणं हवामहे सर्वस्य मूलम्",
+          "transliteration": "brahmaṇaṁ havāmahe sarvasya mūlam",
+          "meaning": "We invoke Brahman, the source of all."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep transcendental",
+          "usage": "Invocation"
         }
       },
       {
-        "id": "SV-10-2",
-        "chant_number": 2,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 2,
+        "chant_id": "SV-10-2",
+        "rigveda_ref": "RV 1.252.2",
+        "theme": "Absolute Reality",
+        "text": {
+          "sanskrit": "ब्रह्म सर्वं व्याप्नोति",
+          "transliteration": "brahma sarvaṁ vyāpnoti",
+          "meaning": "Brahman pervades everything."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expansive",
+          "usage": "Contemplation"
         }
       },
       {
-        "id": "SV-10-3",
-        "chant_number": 3,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 3,
+        "chant_id": "SV-10-3",
+        "rigveda_ref": "RV 1.253.1",
+        "theme": "Unity",
+        "text": {
+          "sanskrit": "ब्रह्म एकं अद्वितीयम्",
+          "transliteration": "brahma ekaṁ advitīyam",
+          "meaning": "Brahman is one, without second."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure still",
+          "usage": "Meditation"
         }
       },
       {
-        "id": "SV-10-4",
-        "chant_number": 4,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 4,
+        "chant_id": "SV-10-4",
+        "rigveda_ref": "RV 1.253.2",
+        "theme": "Infinity",
+        "text": {
+          "sanskrit": "ब्रह्म अनन्तं",
+          "transliteration": "brahma anantaṁ",
+          "meaning": "Brahman is infinite."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "endless tone",
+          "usage": "Contemplation"
         }
       },
       {
-        "id": "SV-10-5",
-        "chant_number": 5,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 5,
+        "chant_id": "SV-10-5",
+        "rigveda_ref": "RV 1.254.1",
+        "theme": "Existence",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यम् अस्ति",
+          "transliteration": "brahma satyam asti",
+          "meaning": "Brahman is the ultimate reality."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep stable",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-10-6",
-        "chant_number": 6,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 6,
+        "chant_id": "SV-10-6",
+        "rigveda_ref": "RV 1.254.2",
+        "theme": "Consciousness",
+        "text": {
+          "sanskrit": "ब्रह्म चैतन्यम् ददातु",
+          "transliteration": "brahma caitanyam dadātu",
+          "meaning": "Brahman grants consciousness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-10-7",
-        "chant_number": 7,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 7,
+        "chant_id": "SV-10-7",
+        "rigveda_ref": "RV 1.255.1",
+        "theme": "Bliss",
+        "text": {
+          "sanskrit": "ब्रह्म आनन्दं ददातु",
+          "transliteration": "brahma ānandaṁ dadātu",
+          "meaning": "Brahman grants bliss."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "soft expansive",
+          "usage": "Bliss"
         }
       },
       {
-        "id": "SV-10-8",
-        "chant_number": 8,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 8,
+        "chant_id": "SV-10-8",
+        "rigveda_ref": "RV 1.255.2",
+        "theme": "Silence",
+        "text": {
+          "sanskrit": "ब्रह्म मौनं दर्शयतु",
+          "transliteration": "brahma maunaṁ darśayatu",
+          "meaning": "Brahman reveals silence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "silent deep",
+          "usage": "Meditation"
         }
       },
       {
-        "id": "SV-10-9",
-        "chant_number": 9,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 9,
+        "chant_id": "SV-10-9",
+        "rigveda_ref": "RV 1.256.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "ब्रह्म चेतना ददातु",
+          "transliteration": "brahma cetanā dadātu",
+          "meaning": "Brahman grants awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear subtle",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-10-10",
-        "chant_number": 10,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 10,
+        "chant_id": "SV-10-10",
+        "rigveda_ref": "RV 1.256.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "ब्रह्म प्रकाशं ददातु",
+          "transliteration": "brahma prakāśaṁ dadātu",
+          "meaning": "Brahman grants clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure bright",
+          "usage": "Clarity"
         }
       },
       {
-        "id": "SV-10-11",
-        "chant_number": 11,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 11,
+        "chant_id": "SV-10-11",
+        "rigveda_ref": "RV 1.257.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "ब्रह्म समत्वं ददातु",
+          "transliteration": "brahma samatvaṁ dadātu",
+          "meaning": "Brahman grants harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced still",
+          "usage": "Harmony"
         }
       },
       {
-        "id": "SV-10-12",
-        "chant_number": 12,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 12,
+        "chant_id": "SV-10-12",
+        "rigveda_ref": "RV 1.257.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यं स्थापयतु",
+          "transliteration": "brahma satyaṁ sthāpayatu",
+          "meaning": "Brahman establishes truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep clarity",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-10-13",
-        "chant_number": 13,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 13,
+        "chant_id": "SV-10-13",
+        "rigveda_ref": "RV 1.258.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "ब्रह्म बलं ददातु",
+          "transliteration": "brahma balaṁ dadātu",
+          "meaning": "Brahman grants inner strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
         }
       },
       {
-        "id": "SV-10-14",
-        "chant_number": 14,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 14,
+        "chant_id": "SV-10-14",
+        "rigveda_ref": "RV 1.258.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "ब्रह्म समं धारयतु",
+          "transliteration": "brahma samaṁ dhārayatu",
+          "meaning": "Brahman maintains balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "still balance",
+          "usage": "Balance"
         }
       },
       {
-        "id": "SV-10-15",
-        "chant_number": 15,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 15,
+        "chant_id": "SV-10-15",
+        "rigveda_ref": "RV 1.259.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "ब्रह्म नः रक्षतु",
+          "transliteration": "brahma naḥ rakṣatu",
+          "meaning": "May Brahman protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle protective",
+          "usage": "Protection"
         }
       },
       {
-        "id": "SV-10-16",
-        "chant_number": 16,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 16,
+        "chant_id": "SV-10-16",
+        "rigveda_ref": "RV 1.259.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "ब्रह्म ऊर्जा वहतु",
+          "transliteration": "brahma ūrjā vahatu",
+          "meaning": "Brahman carries energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle flow",
+          "usage": "Energy"
         }
       },
       {
-        "id": "SV-10-17",
-        "chant_number": 17,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 17,
+        "chant_id": "SV-10-17",
+        "rigveda_ref": "RV 1.260.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "ब्रह्म प्राणं ददातु",
+          "transliteration": "brahma prāṇaṁ dadātu",
+          "meaning": "Brahman grants life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep subtle",
+          "usage": "Vitality"
         }
       },
       {
-        "id": "SV-10-18",
-        "chant_number": 18,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 18,
+        "chant_id": "SV-10-18",
+        "rigveda_ref": "RV 1.260.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "ब्रह्म मुक्तिं ददातु",
+          "transliteration": "brahma muktiṁ dadātu",
+          "meaning": "Brahman grants liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending stillness",
+          "usage": "Liberation"
         }
       },
       {
-        "id": "SV-10-19",
-        "chant_number": 19,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 19,
+        "chant_id": "SV-10-19",
+        "rigveda_ref": "RV 1.261.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "ब्रह्म यज्ञं पूर्णं करोतु",
+          "transliteration": "brahma yajñaṁ pūrṇaṁ karotu",
+          "meaning": "Brahman completes the cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing still",
+          "usage": "Completion"
         }
       },
       {
-        "id": "SV-10-20",
-        "chant_number": 20,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 20,
+        "chant_id": "SV-10-20",
+        "rigveda_ref": "RV 1.261.2",
+        "theme": "Transcendence",
+        "text": {
+          "sanskrit": "ब्रह्म परमं गमयतु",
+          "transliteration": "brahma paramaṁ gamayatu",
+          "meaning": "Brahman leads to the highest state."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "transcendent",
+          "usage": "Transcendence"
         }
       },
       {
-        "id": "SV-10-21",
-        "chant_number": 21,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 21,
+        "chant_id": "SV-10-21",
+        "rigveda_ref": "RV 1.262.1",
+        "theme": "Reinforcement",
+        "text": {
+          "sanskrit": "ब्रह्मणं पुनः हवामहे सर्वस्य मूलम्",
+          "transliteration": "brahmaṇaṁ punaḥ havāmahe sarvasya mūlam",
+          "meaning": "We again invoke Brahman, source of all."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep repetitive",
+          "usage": "Reinforcement"
         }
       },
       {
-        "id": "SV-10-22",
-        "chant_number": 22,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 22,
+        "chant_id": "SV-10-22",
+        "rigveda_ref": "RV 1.262.2",
+        "theme": "Absolute Reality",
+        "text": {
+          "sanskrit": "ब्रह्म सर्वं व्याप्नोति",
+          "transliteration": "brahma sarvaṁ vyāpnoti",
+          "meaning": "Brahman pervades everything."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expansive",
+          "usage": "Contemplation"
         }
       },
       {
-        "id": "SV-10-23",
-        "chant_number": 23,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 23,
+        "chant_id": "SV-10-23",
+        "rigveda_ref": "RV 1.263.1",
+        "theme": "Unity",
+        "text": {
+          "sanskrit": "ब्रह्म एकं अद्वितीयम्",
+          "transliteration": "brahma ekaṁ advitīyam",
+          "meaning": "Brahman is one without second."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure still",
+          "usage": "Meditation"
         }
       },
       {
-        "id": "SV-10-24",
-        "chant_number": 24,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 24,
+        "chant_id": "SV-10-24",
+        "rigveda_ref": "RV 1.263.2",
+        "theme": "Infinity",
+        "text": {
+          "sanskrit": "ब्रह्म अनन्तं",
+          "transliteration": "brahma anantaṁ",
+          "meaning": "Brahman is infinite."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "endless tone",
+          "usage": "Contemplation"
         }
       },
       {
-        "id": "SV-10-25",
-        "chant_number": 25,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 25,
+        "chant_id": "SV-10-25",
+        "rigveda_ref": "RV 1.264.1",
+        "theme": "Existence",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यम् अस्ति",
+          "transliteration": "brahma satyam asti",
+          "meaning": "Brahman is ultimate reality."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep stable",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-10-26",
-        "chant_number": 26,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 26,
+        "chant_id": "SV-10-26",
+        "rigveda_ref": "RV 1.264.2",
+        "theme": "Consciousness",
+        "text": {
+          "sanskrit": "ब्रह्म चैतन्यम् ददातु",
+          "transliteration": "brahma caitanyam dadātu",
+          "meaning": "Brahman grants consciousness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-10-27",
-        "chant_number": 27,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 27,
+        "chant_id": "SV-10-27",
+        "rigveda_ref": "RV 1.265.1",
+        "theme": "Bliss",
+        "text": {
+          "sanskrit": "ब्रह्म आनन्दं ददातु",
+          "transliteration": "brahma ānandaṁ dadātu",
+          "meaning": "Brahman grants bliss."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "soft expansive",
+          "usage": "Bliss"
         }
       },
       {
-        "id": "SV-10-28",
-        "chant_number": 28,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 28,
+        "chant_id": "SV-10-28",
+        "rigveda_ref": "RV 1.265.2",
+        "theme": "Silence",
+        "text": {
+          "sanskrit": "ब्रह्म मौनं दर्शयतु",
+          "transliteration": "brahma maunaṁ darśayatu",
+          "meaning": "Brahman reveals silence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "silent deep",
+          "usage": "Meditation"
         }
       },
       {
-        "id": "SV-10-29",
-        "chant_number": 29,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 29,
+        "chant_id": "SV-10-29",
+        "rigveda_ref": "RV 1.266.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "ब्रह्म चेतना ददातु",
+          "transliteration": "brahma cetanā dadātu",
+          "meaning": "Brahman grants awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear subtle",
+          "usage": "Awareness"
         }
       },
       {
-        "id": "SV-10-30",
-        "chant_number": 30,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 30,
+        "chant_id": "SV-10-30",
+        "rigveda_ref": "RV 1.266.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "ब्रह्म प्रकाशं ददातु",
+          "transliteration": "brahma prakāśaṁ dadātu",
+          "meaning": "Brahman grants clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure bright",
+          "usage": "Clarity"
         }
       },
       {
-        "id": "SV-10-31",
-        "chant_number": 31,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 31,
+        "chant_id": "SV-10-31",
+        "rigveda_ref": "RV 1.267.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "ब्रह्म समत्वं ददातु",
+          "transliteration": "brahma samatvaṁ dadātu",
+          "meaning": "Brahman grants harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced still",
+          "usage": "Harmony"
         }
       },
       {
-        "id": "SV-10-32",
-        "chant_number": 32,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 32,
+        "chant_id": "SV-10-32",
+        "rigveda_ref": "RV 1.267.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यं स्थापयतु",
+          "transliteration": "brahma satyaṁ sthāpayatu",
+          "meaning": "Brahman establishes truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep clarity",
+          "usage": "Truth"
         }
       },
       {
-        "id": "SV-10-33",
-        "chant_number": 33,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 33,
+        "chant_id": "SV-10-33",
+        "rigveda_ref": "RV 1.268.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "ब्रह्म बलं ददातु",
+          "transliteration": "brahma balaṁ dadātu",
+          "meaning": "Brahman grants inner strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
         }
       },
       {
-        "id": "SV-10-34",
-        "chant_number": 34,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 34,
+        "chant_id": "SV-10-34",
+        "rigveda_ref": "RV 1.268.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "ब्रह्म समं धारयतु",
+          "transliteration": "brahma samaṁ dhārayatu",
+          "meaning": "Brahman maintains balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "still balance",
+          "usage": "Balance"
         }
       },
       {
-        "id": "SV-10-35",
-        "chant_number": 35,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 35,
+        "chant_id": "SV-10-35",
+        "rigveda_ref": "RV 1.269.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "ब्रह्म नः रक्षतु",
+          "transliteration": "brahma naḥ rakṣatu",
+          "meaning": "May Brahman protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle protective",
+          "usage": "Protection"
         }
       },
       {
-        "id": "SV-10-36",
-        "chant_number": 36,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 36,
+        "chant_id": "SV-10-36",
+        "rigveda_ref": "RV 1.269.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "ब्रह्म ऊर्जा वहतु",
+          "transliteration": "brahma ūrjā vahatu",
+          "meaning": "Brahman carries energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle flow",
+          "usage": "Energy"
         }
       },
       {
-        "id": "SV-10-37",
-        "chant_number": 37,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 37,
+        "chant_id": "SV-10-37",
+        "rigveda_ref": "RV 1.270.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "ब्रह्म प्राणं ददातु",
+          "transliteration": "brahma prāṇaṁ dadātu",
+          "meaning": "Brahman grants life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep subtle",
+          "usage": "Vitality"
         }
       },
       {
-        "id": "SV-10-38",
-        "chant_number": 38,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 38,
+        "chant_id": "SV-10-38",
+        "rigveda_ref": "RV 1.270.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "ब्रह्म मुक्तिं ददातु",
+          "transliteration": "brahma muktiṁ dadātu",
+          "meaning": "Brahman grants liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending stillness",
+          "usage": "Liberation"
         }
       },
       {
-        "id": "SV-10-39",
-        "chant_number": 39,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 39,
+        "chant_id": "SV-10-39",
+        "rigveda_ref": "RV 1.271.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "ब्रह्म यज्ञं पूर्णं करोतु",
+          "transliteration": "brahma yajñaṁ pūrṇaṁ karotu",
+          "meaning": "Brahman completes the cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing still",
+          "usage": "Completion"
         }
       },
       {
-        "id": "SV-10-40",
-        "chant_number": 40,
-        "sanskrit": "अग्न आ याहि वीटये",
-        "transliteration": "agna ā yāhi vītaye",
-        "meaning": {
-          "literal": "O Agni, come for the feast.",
-          "interpretive": "Invocation of divine presence.",
-          "applied": "Ritual chanting."
+        "id": 40,
+        "chant_id": "SV-10-40",
+        "rigveda_ref": "RV 1.271.2",
+        "theme": "Transcendence",
+        "text": {
+          "sanskrit": "ब्रह्म परमं गमयतु",
+          "transliteration": "brahma paramaṁ gamayatu",
+          "meaning": "Brahman leads to the highest state."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "transcendent",
+          "usage": "Transcendence"
+        }
+      },
+      {
+        "id": 41,
+        "chant_id": "SV-10-41",
+        "rigveda_ref": "RV 1.272.1",
+        "theme": "Reinforcement",
+        "text": {
+          "sanskrit": "ब्रह्मणं पुनः हवामहे सर्वस्य मूलम्",
+          "transliteration": "brahmaṇaṁ punaḥ havāmahe sarvasya mūlam",
+          "meaning": "We again invoke Brahman, source of all."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep repetitive",
+          "usage": "Reinforcement"
+        }
+      },
+      {
+        "id": 42,
+        "chant_id": "SV-10-42",
+        "rigveda_ref": "RV 1.272.2",
+        "theme": "Absolute Reality",
+        "text": {
+          "sanskrit": "ब्रह्म सर्वं व्याप्नोति",
+          "transliteration": "brahma sarvaṁ vyāpnoti",
+          "meaning": "Brahman pervades everything."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "expansive",
+          "usage": "Contemplation"
+        }
+      },
+      {
+        "id": 43,
+        "chant_id": "SV-10-43",
+        "rigveda_ref": "RV 1.273.1",
+        "theme": "Unity",
+        "text": {
+          "sanskrit": "ब्रह्म एकं अद्वितीयम्",
+          "transliteration": "brahma ekaṁ advitīyam",
+          "meaning": "Brahman is one without second."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure still",
+          "usage": "Meditation"
+        }
+      },
+      {
+        "id": 44,
+        "chant_id": "SV-10-44",
+        "rigveda_ref": "RV 1.273.2",
+        "theme": "Infinity",
+        "text": {
+          "sanskrit": "ब्रह्म अनन्तं",
+          "transliteration": "brahma anantaṁ",
+          "meaning": "Brahman is infinite."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "endless tone",
+          "usage": "Contemplation"
+        }
+      },
+      {
+        "id": 45,
+        "chant_id": "SV-10-45",
+        "rigveda_ref": "RV 1.274.1",
+        "theme": "Existence",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यम् अस्ति",
+          "transliteration": "brahma satyam asti",
+          "meaning": "Brahman is ultimate reality."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep stable",
+          "usage": "Truth"
+        }
+      },
+      {
+        "id": 46,
+        "chant_id": "SV-10-46",
+        "rigveda_ref": "RV 1.274.2",
+        "theme": "Consciousness",
+        "text": {
+          "sanskrit": "ब्रह्म चैतन्यम् ददातु",
+          "transliteration": "brahma caitanyam dadātu",
+          "meaning": "Brahman grants consciousness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle",
+          "usage": "Awareness"
+        }
+      },
+      {
+        "id": 47,
+        "chant_id": "SV-10-47",
+        "rigveda_ref": "RV 1.275.1",
+        "theme": "Bliss",
+        "text": {
+          "sanskrit": "ब्रह्म आनन्दं ददातु",
+          "transliteration": "brahma ānandaṁ dadātu",
+          "meaning": "Brahman grants bliss."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "soft expansive",
+          "usage": "Bliss"
+        }
+      },
+      {
+        "id": 48,
+        "chant_id": "SV-10-48",
+        "rigveda_ref": "RV 1.275.2",
+        "theme": "Silence",
+        "text": {
+          "sanskrit": "ब्रह्म मौनं दर्शयतु",
+          "transliteration": "brahma maunaṁ darśayatu",
+          "meaning": "Brahman reveals silence."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "silent deep",
+          "usage": "Meditation"
+        }
+      },
+      {
+        "id": 49,
+        "chant_id": "SV-10-49",
+        "rigveda_ref": "RV 1.276.1",
+        "theme": "Awareness",
+        "text": {
+          "sanskrit": "ब्रह्म चेतना ददातु",
+          "transliteration": "brahma cetanā dadātu",
+          "meaning": "Brahman grants awareness."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "clear subtle",
+          "usage": "Awareness"
+        }
+      },
+      {
+        "id": 50,
+        "chant_id": "SV-10-50",
+        "rigveda_ref": "RV 1.276.2",
+        "theme": "Clarity",
+        "text": {
+          "sanskrit": "ब्रह्म प्रकाशं ददातु",
+          "transliteration": "brahma prakāśaṁ dadātu",
+          "meaning": "Brahman grants clarity."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "pure bright",
+          "usage": "Clarity"
+        }
+      },
+      {
+        "id": 51,
+        "chant_id": "SV-10-51",
+        "rigveda_ref": "RV 1.277.1",
+        "theme": "Harmony",
+        "text": {
+          "sanskrit": "ब्रह्म समत्वं ददातु",
+          "transliteration": "brahma samatvaṁ dadātu",
+          "meaning": "Brahman grants harmony."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "balanced still",
+          "usage": "Harmony"
+        }
+      },
+      {
+        "id": 52,
+        "chant_id": "SV-10-52",
+        "rigveda_ref": "RV 1.277.2",
+        "theme": "Truth",
+        "text": {
+          "sanskrit": "ब्रह्म सत्यं स्थापयतु",
+          "transliteration": "brahma satyaṁ sthāpayatu",
+          "meaning": "Brahman establishes truth."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep clarity",
+          "usage": "Truth"
+        }
+      },
+      {
+        "id": 53,
+        "chant_id": "SV-10-53",
+        "rigveda_ref": "RV 1.278.1",
+        "theme": "Strength",
+        "text": {
+          "sanskrit": "ब्रह्म बलं ददातु",
+          "transliteration": "brahma balaṁ dadātu",
+          "meaning": "Brahman grants inner strength."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "steady",
+          "usage": "Strength"
+        }
+      },
+      {
+        "id": 54,
+        "chant_id": "SV-10-54",
+        "rigveda_ref": "RV 1.278.2",
+        "theme": "Balance",
+        "text": {
+          "sanskrit": "ब्रह्म समं धारयतु",
+          "transliteration": "brahma samaṁ dhārayatu",
+          "meaning": "Brahman maintains balance."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "still balance",
+          "usage": "Balance"
+        }
+      },
+      {
+        "id": 55,
+        "chant_id": "SV-10-55",
+        "rigveda_ref": "RV 1.279.1",
+        "theme": "Protection",
+        "text": {
+          "sanskrit": "ब्रह्म नः रक्षतु",
+          "transliteration": "brahma naḥ rakṣatu",
+          "meaning": "May Brahman protect us."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle protective",
+          "usage": "Protection"
+        }
+      },
+      {
+        "id": 56,
+        "chant_id": "SV-10-56",
+        "rigveda_ref": "RV 1.279.2",
+        "theme": "Energy flow",
+        "text": {
+          "sanskrit": "ब्रह्म ऊर्जा वहतु",
+          "transliteration": "brahma ūrjā vahatu",
+          "meaning": "Brahman carries energy."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "subtle flow",
+          "usage": "Energy"
+        }
+      },
+      {
+        "id": 57,
+        "chant_id": "SV-10-57",
+        "rigveda_ref": "RV 1.280.1",
+        "theme": "Life",
+        "text": {
+          "sanskrit": "ब्रह्म प्राणं ददातु",
+          "transliteration": "brahma prāṇaṁ dadātu",
+          "meaning": "Brahman grants life force."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "deep subtle",
+          "usage": "Vitality"
+        }
+      },
+      {
+        "id": 58,
+        "chant_id": "SV-10-58",
+        "rigveda_ref": "RV 1.280.2",
+        "theme": "Liberation",
+        "text": {
+          "sanskrit": "ब्रह्म मुक्तिं ददातु",
+          "transliteration": "brahma muktiṁ dadātu",
+          "meaning": "Brahman grants liberation."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "ascending stillness",
+          "usage": "Liberation"
+        }
+      },
+      {
+        "id": 59,
+        "chant_id": "SV-10-59",
+        "rigveda_ref": "RV 1.281.1",
+        "theme": "Completion",
+        "text": {
+          "sanskrit": "ब्रह्म यज्ञं पूर्णं करोतु",
+          "transliteration": "brahma yajñaṁ pūrṇaṁ karotu",
+          "meaning": "Brahman completes the cycle."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "closing still",
+          "usage": "Completion"
+        }
+      },
+      {
+        "id": 60,
+        "chant_id": "SV-10-60",
+        "rigveda_ref": "RV 1.281.2",
+        "theme": "Transcendence",
+        "text": {
+          "sanskrit": "ब्रह्म परमं गमयतु",
+          "transliteration": "brahma paramaṁ gamayatu",
+          "meaning": "Brahman leads to the highest state."
+        },
+        "chant_meta": {
+          "type": "Saman",
+          "melody": "transcendent",
+          "usage": "Transcendence"
         }
       }
     ]
