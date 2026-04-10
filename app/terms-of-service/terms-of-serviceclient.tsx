@@ -5,7 +5,7 @@ import { useLocale } from '@app/context/locale-context';
 import { parseSections, parseMaybeObject } from '@lib/parse';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
-import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import TextToSpeech from '@/app/components/TextToSpeech';
 import PageLayout from '@components/common/PageLayout';
 
 type PartialPage = Record<string, any>;

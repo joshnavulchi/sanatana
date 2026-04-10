@@ -70,7 +70,7 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
+    <div className="flex flex-col bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           {icon}
@@ -143,7 +143,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     // 
-    <div className="flex flex-col gap-1 bg-gradient-to-br from-indigo-50 via-pink-50 to-rose-50 rounded-md shadow-md p-3 animate-fadeInUp">
+    <div className="flex flex-col bg-white rounded-xl shadow-xl p-3 animate-fadeInUp">
       <p className="mb-2 flex items-center text-md sm:text-base font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-xl">
         <span className={`inline-flex h-9 w-9 p-1.5 rounded-full shadow-lg mr-3 ${iconBg} text-md sm:text-base text-white bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-pulse`}>
           ⚔️
@@ -219,14 +219,14 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="gradient-background w-full relative overflow-hidden">
-        <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
+      <footer className="w-full relative bg-amber-600 overflow-hidden">
+        <div className="hidden h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-32 -top-10 h-72 w-72 rounded-full bg-gradient-to-br from-indigo-400/30 via-pink-200/30 to-amber-200/30 blur-3xl animate-pulse" />
-          <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-gradient-to-br from-pink-300/30 via-amber-200/30 to-indigo-300/30 blur-3xl animate-pulse" />
-          <div className="absolute left-1/2 top-0 h-40 w-[70%] -translate-x-1/2 rounded-b-full bg-gradient-to-r from-indigo-200/40 via-pink-100/40 to-amber-100/40 blur-2xl animate-pulse" />
-          <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px] pointer-events-none" />
+          <div className="hidden absolute -left-32 -top-10 h-72 w-72 rounded-full bg-gradient-to-br from-indigo-400/30 via-pink-200/30 to-amber-200/30 blur-3xl animate-pulse" />
+          <div className="hidden absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-gradient-to-br from-pink-300/30 via-amber-200/30 to-indigo-300/30 blur-3xl animate-pulse" />
+          <div className="hidden absolute left-1/2 top-0 h-40 w-[70%] -translate-x-1/2 rounded-b-full bg-gradient-to-r from-indigo-200/40 via-pink-100/40 to-amber-100/40 blur-2xl animate-pulse" />
+          <div className="hidden absolute inset-0 bg-white/30 backdrop-blur-[2px] pointer-events-none" />
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10">
@@ -278,7 +278,7 @@ export default function Footer() {
 
           {/* ─── Navigation Columns ─── */}
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 md:py-12">
-            <nav className="grid gap-3 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
+            <nav className="grid gap-6 sm:grid-cols-2 md:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath: configBase }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;

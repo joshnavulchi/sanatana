@@ -3,10 +3,10 @@
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
-import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import TextToSpeech from '@/app/components/TextToSpeech';
 import PageLayout from '@components/common/PageLayout';
 import { parseMaybeObject } from '@/lib/parse';
-import FaqAccordion from '../components/faqaccordion/faqaccordion';
+import FaqAccordion from '../components/faqaccordion';
 
 type Props = {
   initialTitle?: string;
