@@ -18,10 +18,10 @@ export function buildOrganizationJsonLd(opts?: {
   sameAs?: string[];
   description?: string;
 }) {
-  const { name = 'Sanātana Dharmam', logo, sameAs = [], description } = opts || {};
+  const { name = 'Sanātana Dharma', logo, sameAs = [], description } = opts || {};
   return {
     '@context': 'https://schema.org',
-    '@type': 'Sanātana Dharmam',
+    '@type': 'Organization',
     name,
     url: SITE_URL + '/',
     description,
@@ -39,7 +39,7 @@ export function buildOrganizationJsonLd(opts?: {
 
 /** WebSite JSON-LD (add once in root layout) */
 export function buildWebSiteJsonLd(opts?: { name?: string; inLanguage?: Locale[] }) {
-  const { name = 'Sanātana Dharmam', inLanguage = ['hi', 'en', 'te'] } = opts || {};
+  const { name = 'Sanātana Dharma', inLanguage = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'] } = opts || {};
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -112,9 +112,9 @@ export function buildArticleJsonLd(opts: {
     inLanguage = DEFAULT_LOCALE
   } = opts;
 
-  return {
+  const article: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    '@type': 'Article',
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     headline,
     description,
@@ -122,13 +122,16 @@ export function buildArticleJsonLd(opts: {
     author: { '@type': 'Person', name: authorName },
     publisher: {
       '@type': 'Organization',
-      name: 'Sanātana Dharmam',
+      name: 'Sanātana Dharma',
       logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/logo.png`, width: 512, height: 512 }
     },
     datePublished,
     dateModified,
     inLanguage
   };
+
+  Object.keys(article).forEach((key) => article[key] === undefined && delete article[key]);
+  return article;
 }
 
 /** BreadcrumbList JSON-LD (derive from the segments of the current path) */
@@ -148,8 +151,26 @@ export function buildBreadcrumbJsonLd(segments: Array<{ name: string; item: stri
 /** Helper to render <script type="application/ld+json"> safely */
 export function renderJsonLdScript(json: unknown) {
   return {
-    type: 'application/ld+json',
     __html: safeJsonLd(json)
   };
+}
+
+// Backwards-compatible exports (previously in lib/schema.ts)
+export function generateWebPageSchema({ url, name, description }: { url: string; name: string; description?: string }) {
+  return buildWebPageJsonLd({ url, name, description });
+}
+
+export function generateArticleSchema({ url, headline, authorName, datePublished, image }: {
+  url: string;
+  headline: string;
+  authorName?: string;
+  datePublished?: string;
+  image?: string;
+}) {
+  return buildArticleJsonLd({ url, headline, authorName, datePublished, image });
+}
+
+export function generateBreadcrumbList(items: { name: string; url: string }[]) {
+  return buildBreadcrumbJsonLd(items.map(it => ({ name: it.name, item: it.url })));
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

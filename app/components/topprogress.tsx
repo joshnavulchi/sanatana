@@ -1,4 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+"use client";
 
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
@@ -78,16 +79,16 @@ export default function TopProgress() {
 
   return (
     <>
-      <div aria-hidden style={{ position: 'fixed', left: 0, top: 0, right: 0, height: 4, zIndex: 9999 }}>
-        <div style={{ width: `${progress}%`, height: '100%', background: 'linear-gradient(90deg, rgb(86 86 86), rgb(75 46 46))', transition: 'width 180ms linear' }} />
+      <div aria-hidden className="fixed left-0 top-0 right-0 h-1 z-[9999] text-md sm:text-base leading-relaxed font-normal">
+        <div className="h-full bg-gradient-to-r from-gray-600 to-amber-700 text-md sm:text-base leading-relaxed font-normal" style={{ width: `${progress}%`, transition: 'width 180ms linear' }} />
       </div>
       {showSpinner && (
-        <div aria-hidden style={{ position: 'fixed', right: 6, top: 6, zIndex: 10000 }}>
-          <div style={{ width: 24, height: 24, borderRadius: 9999, border: '4px solid rgba(255,255,255,1)', borderTopColor: '#ff9933', animation: 'tp-spin 800ms linear infinite' }} />
+        <div aria-hidden className="fixed right-1.5 top-1.5 z-[10000] text-md sm:text-base leading-relaxed font-normal">
+          <div className="w-6 h-6 rounded-full border-4 border-white border-t-amber-400 animate-spin text-md sm:text-base leading-relaxed font-normal" />
         </div>
       )}
-      <style>{`@keyframes tp-spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }`}</style>
     </>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+

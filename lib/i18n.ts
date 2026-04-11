@@ -1,15 +1,34 @@
+/**
+ * Detects locale from searchParams or returns DEFAULT_LOCALE.
+ */
+import { secrets } from './secrets';
+
+export function detectLocale(searchParams?: Record<string, any>): string {
+  if (!searchParams) return DEFAULT_LOCALE;
+  const locale = searchParams.locale || searchParams.lang || searchParams.language;
+  return normalizeSupportedLocale(locale);
+}
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
-import storage from "./storage";
-
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
+  'en', 'te'
 ];
 
-const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
+// Public path where locale JSONs are served (update if you move them)
+export const LOCALES_PUBLIC_PATH = '/data/locales';
+
+export function localeFilePath(locale: string, namespace: string) {
+  const loc = String(locale || DEFAULT_LOCALE);
+  const ns = String(namespace || '').replace(/\.json$/, '');
+  return `${LOCALES_PUBLIC_PATH}/${loc}/${ns}.json`;
+}
 
 const localesCache: Record<string, unknown> = {};
-const warnedMissingKeys = new Set<string>();
+// Simple time-based cache metadata keyed by `${locale}::${namespace}`
+const localesCacheTimestamps: Record<string, number> = {};
+const LOCALE_CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
+
+export type LocaleNamespace = Record<string, unknown>;
 
 function normalizeSupportedLocale(input: string | undefined): string {
   const raw = String(input || '').trim();
@@ -25,6 +44,25 @@ function normalizeSupportedLocale(input: string | undefined): string {
   return DEFAULT_LOCALE;
 }
 
+export function normalizeLocale(input: string | undefined): string {
+  return normalizeSupportedLocale(input);
+}
+
+export function setCachedLocaleNamespace(locale: string, namespace: string, value: unknown) {
+  const normalized = normalizeSupportedLocale(locale);
+  if (!normalized || !namespace) return;
+
+  if (!localesCache[normalized] || typeof localesCache[normalized] !== 'object') {
+    localesCache[normalized] = {} as Record<string, unknown>;
+  }
+
+  try {
+    (localesCache[normalized] as Record<string, unknown>)[namespace] = value;
+  } catch (_) {
+    // ignore
+  }
+}
+
 // Hydrate cache from server-injected global if present
 if (typeof window !== 'undefined') {
   try {
@@ -37,9 +75,7 @@ if (typeof window !== 'undefined') {
   } catch (_) { }
 }
 
-
-
-export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = '') {
+export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''): any {
   // Support callers that pass the namespace as the first (and only) argument
   // e.g. `getLocaleNamespaceObject('scriptures_vedas')` — treat that as
   // `getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_vedas')`.
@@ -49,103 +85,74 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
   }
   locale = normalizeSupportedLocale(locale);
   if (!namespace) return {};
+  const candidates = [
+    namespace,
+    namespace.replace(/-/g, '_'),
+    namespace.replace(/_/g, '-'),
+  ];
+
   const localeEntry = localesCache[locale];
-  if (!localeEntry || typeof localeEntry !== 'object') return {};
 
-  const localeMap = localeEntry as Record<string, unknown>;
-  const candidates = [
-    namespace,
-    namespace.replace(/-/g, '_'),
-    namespace.replace(/_/g, '-'),
-  ];
-
-  for (const candidate of candidates) {
-    const parsed = localeMap[candidate];
-    if (parsed) {
-      return parsed;
-    }
-  }
-
-  return {};
-}
-
-async function loadLocaleBundle(locale: string): Promise<Record<string, unknown> | null> {
-  try {
-    switch (locale) {
-      case 'ar': return (await import('../public/locales/ar/index')).default as Record<string, unknown>;
-      case 'de': return (await import('../public/locales/de/index')).default as Record<string, unknown>;
-      case 'en': return (await import('../public/locales/en/index')).default as Record<string, unknown>;
-      case 'es': return (await import('../public/locales/es/index')).default as Record<string, unknown>;
-      case 'fr': return (await import('../public/locales/fr/index')).default as Record<string, unknown>;
-      case 'hi': return (await import('../public/locales/hi/index')).default as Record<string, unknown>;
-      case 'ja': return (await import('../public/locales/ja/index')).default as Record<string, unknown>;
-      case 'ru': return (await import('../public/locales/ru/index')).default as Record<string, unknown>;
-      case 'te': return (await import('../public/locales/te/index')).default as Record<string, unknown>;
-      case 'zh-CN': return (await import('../public/locales/zh-CN/index')).default as Record<string, unknown>;
-      default: return null;
-    }
-  } catch (_) {
-    return null;
-  }
-}
-
-// Deprecated: No longer used. Only per-namespace files are loaded now.
-// function fetchLocaleData(locale: string) { return {}; }
-
-
-
-export async function loadLocaleNamespace(locale: string, namespace: string) {
-  if (!locale || !namespace) return {};
-  locale = normalizeSupportedLocale(locale);
-  if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as any;
-  const existing = (localesCache[locale] as any)[namespace];
-  if (existing) return existing;
-
-  // Try various naming patterns for the namespace file
-  const candidates = [
-    namespace,
-    namespace.replace(/-/g, '_'),
-    namespace.replace(/_/g, '-'),
-  ];
-
-  // Server-side: use static locale module imports to keep file access deterministic
+  // If we have a cached entry on the server, return synchronously.
   if (typeof window === 'undefined') {
-    const merged = await loadLocaleBundle(locale);
-    if (merged && typeof merged === 'object') {
-      for (const candidate of candidates) {
-        const parsed = (merged as Record<string, unknown>)[candidate];
-        if (parsed) {
-          try {
-            (localesCache[locale] as any)[namespace] = parsed;
-            (localesCache[locale] as any)[candidate] = parsed;
-          } catch (_) { }
-          return parsed;
-        }
-      }
+    if (!localeEntry || typeof localeEntry !== 'object') return {};
+    const localeMap = localeEntry as Record<string, unknown>;
+    for (const candidate of candidates) {
+      const parsed = localeMap[candidate];
+      if (parsed) return parsed;
     }
     return {};
   }
 
-  // Client-side: fetch from public/locales
-  for (const candidate of candidates) {
+  // Client-side: if cached, return immediately; otherwise fetch from public/locales.
+  // Return a Promise so callers can `await` or use `Promise.resolve(...)` uniformly.
+  return (async () => {
     try {
-      const response = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
-      if (!response.ok) continue;
-      const parsed = await response.json();
-      try {
-        (localesCache[locale] as any)[namespace] = parsed;
-        (localesCache[locale] as any)[candidate] = parsed;
-      } catch (_) { }
-      return parsed;
-    } catch (e) {
-      // Continue to next candidate
-    }
-  }
+      if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as Record<string, unknown>;
+      const localeMap = localesCache[locale] as Record<string, unknown>;
+      for (const candidate of candidates) {
+        if (localeMap[candidate]) return localeMap[candidate];
+      }
 
-  console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
+      for (const candidate of candidates) {
+        // Try `{namespace}.json` first, then `{namespace}/index.json` for folder namespaces
+        try {
+          const resp = await fetch(localeFilePath(locale, candidate), { cache: 'force-cache' } as any);
+          if (resp.ok) {
+            const parsed = await resp.json();
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+            return parsed;
+          }
+        } catch (e) {
+          // ignore and try index.json fallback
+        }
 
-  // No fallback to full locale object; only per-namespace files are supported now.
-  return {};
+        try {
+          const indexUrl = `${LOCALES_PUBLIC_PATH}/${locale}/${candidate}/index.json`;
+          const resp2 = await fetch(indexUrl, { cache: 'force-cache' } as any);
+          if (resp2.ok) {
+            const parsed2 = await resp2.json();
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
+            return parsed2;
+          }
+        } catch (e) {
+          // ignore and try candidate/candidate.json fallback
+        }
+
+        try {
+          const nestedUrl = `${LOCALES_PUBLIC_PATH}/${locale}/${candidate}/${candidate}.json`;
+          const resp3 = await fetch(nestedUrl, { cache: 'force-cache' } as any);
+          if (!resp3.ok) continue;
+          const parsed3 = await resp3.json();
+          try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
+          return parsed3;
+        } catch (e) {
+          // ignore and try next candidate
+        }
+      }
+    } catch (_) { }
+    return {};
+  })();
 }
 
 export function t(key: string, locale = DEFAULT_LOCALE): any {
@@ -169,49 +176,6 @@ export function interpolate(template: string, params?: Record<string, string>) {
   return template.replace(/{{\s*([^}]+)\s*}}/g, (_, p) => params[p.trim()] ?? '');
 }
 
-function interpolateObject(obj: unknown, params?: Record<string, string>): unknown {
-  if (!params) return obj;
-  if (typeof obj === 'string') return interpolate(obj, params);
-  if (Array.isArray(obj)) return obj.map((v) => interpolateObject(v, params));
-  if (obj && typeof obj === 'object') {
-    const out: Record<string, unknown> = {};
-    for (const k of Object.keys(obj as Record<string, unknown>)) out[k] = interpolateObject((obj as any)[k], params);
-    return out;
-  }
-  return obj;
-}
-
-export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
-  // Only per-namespace meta is supported now
-  const nsObj = getLocaleNamespaceObject(locale, metaKey);
-  if (nsObj && typeof nsObj === 'object') {
-    const meta = (nsObj as Record<string, unknown>).meta;
-    if (meta && typeof meta === 'object') {
-      return interpolateObject(meta, params) as Record<string, unknown>;
-    }
-  }
-  return {};
-}
-
-export function detectLocale(searchParams?: unknown) {
-  if (searchParams && typeof searchParams === 'object') {
-    try {
-      if (searchParams instanceof Promise) return DEFAULT_LOCALE;
-      const maybeGet = (searchParams as any).get;
-      if (typeof maybeGet === 'function') {
-        const v = maybeGet.call(searchParams, 'lang');
-        if (v) return String(v);
-      }
-      const candidate = (searchParams as Record<string, unknown>)['lang'];
-      if (candidate) return Array.isArray(candidate) ? String(candidate[0]) : String(candidate);
-    } catch (_) { }
-  }
-  if (typeof window === 'undefined') return undefined;
-  try { const s = storage.getItem('sanatana_dharma_language'); if (s) return s; } catch (_) { }
-  if (typeof navigator !== 'undefined' && navigator?.language) return navigator.language.split('-')[0];
-  return DEFAULT_LOCALE;
-}
-
 export function detectServerLocaleFromHeaders(hdrs: any) {
   try {
     if (!hdrs || typeof hdrs.get !== 'function') return DEFAULT_LOCALE;
@@ -225,4 +189,158 @@ export function detectServerLocaleFromHeaders(hdrs: any) {
     }
   } catch (_) { }
   return DEFAULT_LOCALE;
+}
+
+export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, namespace = ''): Promise<any> {
+  // Delegate to existing function which may return a Promise on client.
+  try {
+    const maybe = getLocaleNamespaceObject(locale, namespace);
+    if (maybe && typeof (maybe as any).then === 'function') {
+      const awaited = await maybe;
+      return awaited ?? {};
+    }
+    // If server-side and the synchronous result is empty, attempt server fetch from public/locales
+    if (typeof window === 'undefined') {
+      // Normalize args similar to original helper
+      if (!namespace && typeof locale === 'string' && !SUPPORTED_LOCALES.includes(locale)) {
+        namespace = locale;
+        locale = DEFAULT_LOCALE;
+      }
+      locale = normalizeSupportedLocale(locale);
+      if (!namespace) return {};
+      const candidates = [namespace, namespace.replace(/-/g, '_'), namespace.replace(/_/g, '-')];
+      if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as Record<string, unknown>;
+      const localeMap = localesCache[locale] as Record<string, unknown>;
+      for (const candidate of candidates) {
+        if (localeMap[candidate]) return localeMap[candidate];
+      }
+
+      const base = String(secrets.NEXT_PUBLIC_SITE_URL || '').replace(/\/$/, '');
+      // First try HTTPS fetch from the configured site URL (works in dev when NEXT_PUBLIC_SITE_URL is set)
+      if (base) {
+        for (const candidate of candidates) {
+          try {
+            const url = `${base}${localeFilePath(locale, candidate)}`;
+            const resp = await fetch(url, { cache: 'force-cache' } as any);
+            if (!resp.ok) continue;
+            const parsed = await resp.json();
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+            return parsed;
+          } catch (_) {
+            // ignore and try next
+          }
+        }
+      }
+
+      // If HTTP fetch failed or no base URL provided, attempt server-side filesystem read
+      // This ensures metadata is available during SSR/build by reading from public/data/locales.
+      try {
+        // Only attempt FS read on Node (server)
+        if (typeof window === 'undefined') {
+          const fs = await Promise.resolve().then(() => require('fs').promises) as typeof import('fs').promises;
+          const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
+          for (const candidate of candidates) {
+            try {
+              // Try namespace.json first
+              const filePath = path.join(process.cwd(), 'public', 'data', 'locales', locale, `${candidate}.json`);
+              try {
+                const txt = await fs.readFile(filePath, 'utf8');
+                const parsed = JSON.parse(txt);
+                try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
+                return parsed;
+              } catch (_) {
+                // Try folder/index.json fallback
+                const idxPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, 'index.json');
+                try {
+                  const txt2 = await fs.readFile(idxPath, 'utf8');
+                  const parsed2 = JSON.parse(txt2);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed2; } catch (_) { }
+                  return parsed2;
+                } catch (_) {
+                  // Try nested file {candidate}/{candidate}.json
+                  const nestedPath = path.join(process.cwd(), 'public', 'data', 'locales', locale, candidate, `${candidate}.json`);
+                  const txt3 = await fs.readFile(nestedPath, 'utf8');
+                  const parsed3 = JSON.parse(txt3);
+                  try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed3; } catch (_) { }
+                  return parsed3;
+                }
+              }
+            } catch (e) {
+              // ignore file read/parse errors and try next candidate
+            }
+          }
+        }
+      } catch (_) {
+        // ignore any errors from optional fs/path requires
+      }
+    }
+    return maybe ?? {};
+  } catch (_) {
+    return {};
+  }
+}
+
+// Robust loader wrapper to use across pages/components.
+export async function loadLocaleData(locale = DEFAULT_LOCALE, namespace = ''): Promise<Record<string, unknown>> {
+  const composite = `${locale}::${namespace}`;
+  try {
+    // Fast-path: respect in-memory cache + TTL
+    const localeEntry = localesCache[locale] as Record<string, unknown> | undefined;
+    if (localeEntry && typeof localeEntry === 'object' && namespace && (localeEntry as any)[namespace]) {
+      const ts = localesCacheTimestamps[composite] || 0;
+      if (Date.now() - ts < LOCALE_CACHE_TTL_MS) {
+        return (localeEntry as Record<string, unknown>)[namespace] as Record<string, unknown>;
+      }
+    }
+
+    const data = await getLocaleNamespaceObjectAsync(locale, namespace);
+    if (!data || typeof data !== 'object') return {};
+    try {
+      if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as Record<string, unknown>;
+      (localesCache[locale] as Record<string, unknown>)[namespace] = data;
+      localesCacheTimestamps[composite] = Date.now();
+    } catch (_) { }
+    return data as Record<string, unknown>;
+  } catch (_) {
+    return {};
+  }
+}
+
+// Small runtime helper used by components to pick a safe string fallback.
+export function safeString(value: unknown, fallback = ''): string {
+  if (typeof value === 'string') {
+    const s = value.trim();
+    if (s) return s;
+  }
+  return fallback;
+}
+
+// Filter an array of generated params by checking that the locale namespace exists.
+export async function filterGeneratedParams<T extends Record<string, any>>(
+  params: T[] | { params?: T[] },
+  metaKeyForParam: (p: T) => string
+): Promise<T[]> {
+  const list: T[] = Array.isArray((params as any).params) ? (params as any).params : (params as T[] || []);
+  const out: T[] = [];
+  for (const p of list) {
+    try {
+      const key = metaKeyForParam(p);
+      if (!key) continue;
+      const ns = await loadLocaleData(DEFAULT_LOCALE, key);
+      // Consider valid if namespace object has at least one key or a non-empty title
+      if (ns && typeof ns === 'object') {
+        if (Object.keys(ns).length > 0) {
+          out.push(p);
+          continue;
+        }
+        if (typeof (ns as any).title === 'string' && (ns as any).title.trim()) {
+          out.push(p);
+          continue;
+        }
+      }
+    } catch (_) {
+      // ignore and skip this param
+    }
+  }
+  return out;
 }

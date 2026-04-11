@@ -63,6 +63,11 @@
     "lib",
     "app/_backup",
     "app/components/_backup",
-    "public/locales/**/index.ts"
+    "public/data",
+    "**/*.json",
+    "**/_*.ts",
+    "**/_*.tsx",
+    "app/**/_*.ts",
+    "app/**/_*.tsx"
   ]
 }

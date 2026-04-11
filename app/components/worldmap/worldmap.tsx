@@ -1,3 +1,4 @@
+"use client";
 import { useRef, useEffect, useState, useCallback } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
@@ -182,32 +183,19 @@ const WorldMap = () => {
   }, [era, render]);
 
   return (
-    <div style={{ width: "100%", minHeight: "200px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
+    <div className="w-full min-h-[200px] m-0 p-0 overflow-hidden relative text-md sm:text-base leading-relaxed font-normal">
       <style>{labelStyle}</style>
-      <div style={{ position: 'absolute', top: 20, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', borderRadius: 3, padding: '3px 12px', margin: '0 12px', boxShadow: '0 2px 8px #0002' }}>
-        <label htmlFor="era-select" style={{ fontSize: 14, fontWeight: 600, marginRight: 4 }}>Geological Era:</label>
-        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} style={{ fontSize: 14, padding: '2px 4px', borderRadius: 3 }}>
+      <div className="absolute top-5 left-0 z-10 bg-white/90 rounded-sm px-3 py-1 mx-3 shadow-md text-md sm:text-base leading-relaxed font-normal">
+        <label htmlFor="era-select" className="text-md sm:text-base font-semibold mr-2">Geological Era:</label>
+        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} className="text-md sm:text-base px-2 py-1 rounded">
           {ERA_OPTIONS.map(opt => (
             <option key={opt.value} value={opt.value}>{opt.label}</option>
           ))}
         </select>
       </div>
-      <svg ref={ref} style={{ width: "100%", height: "auto", display: "block" }} />
+      <svg ref={ref} className="w-full h-auto block" />
       {error && (
-        <div style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          background: 'rgba(255,255,255,0.95)',
-          color: '#b71c1c',
-          padding: '12px 16px',
-          borderRadius: 3,
-          fontWeight: 600,
-          fontSize: 16,
-          boxShadow: '0 2px 16px #0003',
-          zIndex: 100
-        }}>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-95 text-red-700 px-4 py-3 rounded shadow-lg z-50 text-md sm:text-base leading-relaxed font-normal">
           {error}
         </div>
       )}

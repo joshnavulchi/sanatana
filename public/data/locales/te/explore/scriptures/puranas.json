@@ -1,0 +1,253 @@
+{
+  "scriptures_puranas": {
+    "title": "Hindu Puranas Overview",
+    "meta": {
+      "title": "Scriptures | Puranas — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Puranas — Mythology, Cosmology and Lineages — Articles, translations and concise commentary on Puranas. Explore practices, history, and guiding principles ...",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas",
+      "keywords": [
+        "Adaptability and relevance",
+        "Agni Purana",
+        "Allegory and symbolism",
+        "Avatars of Vishnu",
+        "Bhagavata Purana",
+        "Bhakti",
+        "Bhavishya Purana",
+        "Brahmanda Purana",
+        "Brahmavaivarta Purana",
+        "Cosmic cycles",
+        "Cosmology",
+        "Creation myths",
+        "Cultural heritage",
+        "Devotees and bhakti",
+        "Dharma",
+        "Dissolution of the universe",
+        "Ethical teachings",
+        "Garuda Purana",
+        "Genealogies of gods and sages",
+        "Genealogy",
+        "Hindu mythology",
+        "Hindu scriptures",
+        "Indian mythology",
+        "Kurma Purana",
+        "Legends of kings",
+        "Linga Purana",
+        "Markandeya Purana",
+        "Matsya Purana",
+        "Moral lessons",
+        "Narada Purana",
+        "Philosophical insights",
+        "Puranas",
+        "Religious stories",
+        "Rituals and festivals",
+        "Sacred geography",
+        "Sanskrit texts",
+        "Shiva Purana",
+        "Skanda Purana",
+        "Spiritual liberation",
+        "Spiritual teachings",
+        "Stories of Shiva",
+        "Vamana Purana",
+        "Varaha Purana",
+        "Vishnu Purana"
+      ],
+      "ogimage": "/og/puranas.png",
+      "url": "https://sanatanadharmam.in/scriptures/puranas"
+    },
+    "benefits": [
+      "Inspires devotion (bhakti) and moral conduct",
+      "Transmits complex philosophy in simple, memorable forms",
+      "Strengthens cultural identity and community bonds",
+      "Guides ethical decision-making through examples and parables",
+      "Encourages reflection on the nature of reality, duty, and liberation"
+    ],
+    "classification": 18,
+    "definition": "Ancient Hindu texts that narrate stories of gods, sages, kings, cosmology, and philosophy.",
+    "features": [
+      "Narrative style blending myth, history, and philosophy",
+      "Use of allegory and symbolism to convey spiritual truths",
+      "Integration of rituals, festivals, and sacred geography",
+      "Genealogies that connect cosmic, divine, and human realms",
+      "Adaptability—retold and reinterpreted for different eras and audiences"
+    ],
+    "language": "Sanskrit",
+    "major_puranas": [
+      {
+        "highlights": [
+          "Creation of the universe",
+          "Glories of Lord Brahma",
+          "Sacred geography of India"
+        ],
+        "name": "Brahma Purana"
+      },
+      {
+        "highlights": [
+          "Description of creation",
+          "Stories of Lord Vishnu",
+          "Glories of pilgrimage sites"
+        ],
+        "name": "Padma Purana"
+      },
+      {
+        "highlights": [
+          "Cosmic cycles and avatars of Vishnu",
+          "Genealogy of dynasties",
+          "Principles of dharma"
+        ],
+        "name": "Vishnu Purana"
+      },
+      {
+        "highlights": [
+          "Stories of Lord Shiva",
+          "Rituals and worship methods",
+          "Philosophical teachings"
+        ],
+        "name": "Shiva Purana"
+      },
+      {
+        "highlights": [
+          "Life and teachings of Lord Krishna",
+          "Bhakti philosophy",
+          "Stories of devotees"
+        ],
+        "name": "Bhagavata Purana"
+      },
+      {
+        "highlights": [
+          "Teachings of Narada",
+          "Bhakti and devotion",
+          "Rituals and festivals"
+        ],
+        "name": "Narada Purana"
+      },
+      {
+        "highlights": [
+          "Durga Saptashati",
+          "Stories of creation",
+          "Moral and spiritual lessons"
+        ],
+        "name": "Markandeya Purana"
+      },
+      {
+        "highlights": [
+          "Sacrificial rituals",
+          "Temple architecture",
+          "Astrology and medicine"
+        ],
+        "name": "Agni Purana"
+      },
+      {
+        "highlights": [
+          "Prophecies of future events",
+          "Rituals and customs",
+          "Legends of kings"
+        ],
+        "name": "Bhavishya Purana"
+      },
+      {
+        "highlights": [
+          "Stories of Radha and Krishna",
+          "Creation and cosmology",
+          "Glories of Ganga"
+        ],
+        "name": "Brahmavaivarta Purana"
+      },
+      {
+        "highlights": [
+          "Significance of Shiva Linga",
+          "Creation myths",
+          "Worship methods"
+        ],
+        "name": "Linga Purana"
+      },
+      {
+        "highlights": [
+          "Varaha avatar of Vishnu",
+          "Sacred places",
+          "Rituals and dharma"
+        ],
+        "name": "Varaha Purana"
+      },
+      {
+        "highlights": [
+          "Stories of Lord Kartikeya",
+          "Pilgrimage sites",
+          "Legends of Shiva"
+        ],
+        "name": "Skanda Purana"
+      },
+      {
+        "highlights": [
+          "Vamana avatar of Vishnu",
+          "Sacred geography",
+          "Legends of kings"
+        ],
+        "name": "Vamana Purana"
+      },
+      {
+        "highlights": [
+          "Kurma avatar of Vishnu",
+          "Cosmic churning",
+          "Sacred places"
+        ],
+        "name": "Kurma Purana"
+      },
+      {
+        "highlights": [
+          "Matsya avatar of Vishnu",
+          "Flood story",
+          "Temple construction"
+        ],
+        "name": "Matsya Purana"
+      },
+      {
+        "highlights": [
+          "Life after death",
+          "Funeral rites",
+          "Spiritual liberation"
+        ],
+        "name": "Garuda Purana"
+      },
+      {
+        "highlights": [
+          "Universe structure",
+          "Lalita Sahasranama",
+          "Cosmic cycles"
+        ],
+        "name": "Brahmanda Purana"
+      }
+    ],
+    "purpose": "To preserve and propagate spiritual knowledge, cultural traditions, and moral values. The Puranas serve as living texts, making profound philosophical truths accessible through stories, parables, and allegories. They bridge the gap between abstract Vedic wisdom and everyday life, ensuring the continuity of dharma across generations.",
+    "themes": [
+      "Creation and dissolution of the universe",
+      "Genealogies of gods, sages, and kings",
+      "Legends and stories",
+      "Philosophy and dharma",
+      "Rituals and festivals"
+    ],
+    "unique_insights": "Unlike purely philosophical texts, the Puranas use stories to make spiritual wisdom accessible to all—regardless of age, education, or background. They are dynamic, evolving with society, and remain relevant by addressing contemporary issues through timeless archetypes. The Puranas are not just records of the past, but living guides for personal and collective transformation.",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

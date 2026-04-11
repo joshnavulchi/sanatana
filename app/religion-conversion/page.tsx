@@ -1,16 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('religion_conversion');
+export const generateMetadata = createGenerateMetadata('religion-conversion');
 
-import ReligionClient from './religionClient';
-import StructuredData from '@components/structured-data/StructuredData';
+import ReligionConversionClient from './ReligionConversionClient';
 
 export default function Page() {
   return (
-    <>
-      <StructuredData metaKey="religion_conversion" />
-      <ReligionClient />
-    </>
+    <ReligionConversionClient />
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

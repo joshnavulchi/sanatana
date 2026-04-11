@@ -1,19 +1,25 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Poppins } from 'next/font/google';
-
+import { headers } from 'next/headers';
 import Script from 'next/script';
 import { Suspense } from 'react';
-
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
-
+import CookieConsent from '@components/cookie-consent/CookieConsent';
 import Header from '@components/header';
 import Footer from '@components/footer';
-
+import TopProgress from '@components/topprogress';
+import ScrollToTop from '@components/scroll-to-top';
 import { LocaleProvider } from './context/locale-context';
-
+import { ThemeProvider } from './context/theme-context';
 import "./globals.css"; // tailwind base styles
+
+export const metadata = {
+  title: 'Sanātana Dharma – Eternal Principles of Hinduism',
+  description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.',
+};
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,7 +29,6 @@ const poppins = Poppins({
 });
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
-const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
 
 export default async function RootLayout({
   children,
@@ -37,7 +42,24 @@ export default async function RootLayout({
   });
   const siteJson = buildWebSiteJsonLd();
 
-  const lang = DEFAULT_LOCALE;
+  // Resolve locale with minimal blocking - use synchronous detection when possible
+  let lang = DEFAULT_LOCALE;
+  try {
+    const hdrs = await headers();
+    const cookie = hdrs.get('cookie') || '';
+    const match = cookie.match(new RegExp(`${LANGUAGE_STORAGE_KEY}=([^;]+)`));
+    if (match && SUPPORTED_LOCALES.includes(match[1])) {
+      lang = match[1];
+    } else {
+      const al = hdrs.get('accept-language');
+      if (al) {
+        const primary = al.split(',')[0].split(';')[0].trim().split('-')[0];
+        if (SUPPORTED_LOCALES.includes(primary)) lang = primary;
+      }
+    }
+  } catch (err) {
+    // Use default locale on error
+  }
 
   return (
     <html lang={lang} translate="no">
@@ -58,10 +80,10 @@ export default async function RootLayout({
           imageSizes="(min-width: 1024px) 50vw, 100vw"
           fetchPriority="high"
         />
-        {/* Page-specific override: cache for 30 days */}
-        <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
+        {/* Page-specific override: cache for 2 days */}
+        <meta httpEquiv="Cache-Control" content="max-age=172800, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
-        <meta httpEquiv="Expires" content="2592000" />
+        <meta httpEquiv="Expires" content="172800" />
         {/* Defer non-critical global styles (preload → convert to stylesheet onload) */}
         <Script
           id="load-deferred-css"
@@ -72,64 +94,48 @@ export default async function RootLayout({
                 var l=document.createElement('link');
                 l.rel='preload';
                 l.as='style';
-                l.href='/globals.from-scss.0cd5754d.0cd5754d.72b00d68.72b00d68.css';
+                l.href='/globals.from-scss.css';
                 l.onload=function(){this.onload=null;this.rel='stylesheet'};
                 document.head.appendChild(l);
               })();
             `
           }}
         />
-        <noscript><link rel="stylesheet" href="/globals.from-scss.0cd5754d.0cd5754d.72b00d68.72b00d68.css" /></noscript>
+        {/* Patch performance.measure early to avoid browser TypeError for negative timestamps in dev tooling */}
+        <Script
+          id="patch-performance-measure"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                try {
+                  if (typeof performance !== 'undefined' && performance && typeof performance.measure === 'function') {
+                    var orig = performance.measure.bind(performance);
+                    performance.measure = function(nameOrOptions, opts) {
+                      try {
+                        return orig.apply(performance, arguments);
+                      } catch (err) {
+                        // Some browsers throw when start/end timestamps are negative.
+                        // Silently ignore that specific error to avoid breaking dev overlay.
+                        try {
+                          var msg = err && err.message ? String(err.message).toLowerCase() : '';
+                          if (msg.indexOf('negative') !== -1 || msg.indexOf('cannot have a negative') !== -1) return;
+                        } catch (e) {}
+                        throw err;
+                      }
+                    };
+                  }
+                } catch (e) { /* ignore */ }
+              })();
+            `
+          }}
+        />
+        <noscript><link rel="stylesheet" href="/globals.from-scss.css" /></noscript>
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
-        {/* Organization & WebSite JSON-LD - defer non-critical structured data */}
-        <Script
-          id="jsonld-site"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
-        />
-        <Script
-          id="jsonld-org"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
-        />
-        <Script
-          id="jsonld-web"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "Sanātana Dharma",
-              url: SITE_URL,
-              description: "Sanātana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: `${SITE_URL}/?q={search_term_string}`,
-                "query-input": "required name=search_term_string"
-              }
-            })
-          }}
-        />
-        {/* Removed Microsoft Clarity tracking code (no third-party Clarity scripts) */}
-        <Script
-          id="jsonld-organization"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Sanātana Dharma",
-              url: SITE_URL,
-              logo: `${SITE_URL}/globe.svg`,
-              sameAs: []
-            })
-          }}
-        />
+        {/* Canonical global JSON-LD: single WebSite + Organization definitions */}
+        <script id="jsonld-site" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(siteJson)} />
+        <script id="jsonld-org" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(orgJson)} />
         {/* Hint the font for later use (non-blocking) */}
         <link
           rel="prefetch"
@@ -153,7 +159,7 @@ export default async function RootLayout({
           `
         }} />
         {/* Disable right-click context menu in production to reduce casual copy */}
-        {process.env.NODE_ENV === "production" && (
+        {/* {process.env.NODE_ENV === "production" && (
           <Script
             id="disable-contextmenu"
             strategy="lazyOnload"
@@ -167,7 +173,7 @@ export default async function RootLayout({
               })();`
             }}
           />
-        )}
+        )} */}
         {/* Google Analytics (GA4) */}
         {secrets.NEXT_PUBLIC_GA_ID && (
           <>
@@ -188,7 +194,8 @@ export default async function RootLayout({
           </>
         )}
       </head>
-      <body style={{ fontFamily: bodyFontFamily }} translate="no">
+      <body className={poppins.className} translate="no">
+        <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
@@ -196,21 +203,26 @@ export default async function RootLayout({
               src={`https://www.googletagmanager.com/ns.html?id=${secrets.NEXT_PUBLIC_GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              className="hidden"
+              aria-hidden="true"
             />
           </noscript>
         )}
         <Suspense fallback={null}>
           <LocaleProvider>
-            <Suspense fallback={null}>
-              <Header />
-            </Suspense>
-            <Suspense fallback={null}>
-              {children}
-            </Suspense>
-            <Suspense fallback={null}>
-              <Footer />
-            </Suspense>
+            <ThemeProvider>
+              <Suspense fallback={null}>
+                <Header />
+              </Suspense>
+              <main className="min-h-[60vh] bg-white">
+                <Suspense fallback={null}>{children}</Suspense>
+              </main>
+              <Suspense fallback={null}>
+                <Footer />
+              </Suspense>
+              <ScrollToTop />
+              <CookieConsent />
+            </ThemeProvider>
           </LocaleProvider>
         </Suspense>
       </body>

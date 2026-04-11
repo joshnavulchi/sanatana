@@ -2,15 +2,11 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('sanatanadharma');
 
-import SanatanadharmaClientPage from './sanatanadharmaclient';
-import StructuredData from '@components/structured-data/StructuredData';
+import SanatanadharmaClient from './sanatanadharmaClient';
 
 export default function Page() {
   return (
-    <>
-      <StructuredData metaKey="sanatanadharma" />
-      <SanatanadharmaClientPage />
-    </>
+    <SanatanadharmaClient />
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

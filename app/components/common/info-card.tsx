@@ -1,8 +1,7 @@
-"use client";
-
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { loadLocaleNamespace } from '@lib/i18n';
+"use client";
 import { useLocale } from '@app/context/locale-context';
+import { getLocaleNamespaceObject } from '@/lib/i18n';
 import { useState, useEffect } from 'react';
 import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
@@ -25,7 +24,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
         const parts = key.split('.');
         if (parts.length === 0) return key;
         const namespace = parts[0];
-        const ns = await loadLocaleNamespace(locale, namespace);
+        const ns = await getLocaleNamespaceObject(locale, namespace);
         if (!ns || typeof ns !== 'object') return key;
         let cur: any = (ns as any)[namespace] || ns;
         for (let i = 1; i < parts.length; i++) {
@@ -40,14 +39,14 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
     resolveKey(captionKey).then(setCaption);
   }, [locale, captionKey]);
   return (
-    <div className="relative basis-1/5 p-3 mb-6 md:mb-0 border border-gray-500 bg-white">
+    <div className="relative basis-1/5 p-3 bg-white text-md sm:text-base leading-relaxed font-normal">
       {/* Wrap figure tag inside link next set href to  */}
       <Link href={`/${alt.toLowerCase().trim().replace(" ", "-")}`}>
         <figure>
           {/* Loader */}
           {loading && (
-            <div className="absolute inset-0 flex items-center justify-center /70">
-              <div className="w-10 h-10 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+            <div className="absolute inset-0 flex items-center justify-center /70 text-md sm:text-base leading-relaxed font-normal">
+              <div className="w-10 h-10 rounded-full animate-spin text-md sm:text-base leading-relaxed font-normal"></div>
             </div>
           )}
           {/* Image */}

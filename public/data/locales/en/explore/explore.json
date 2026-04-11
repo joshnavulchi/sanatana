@@ -1,0 +1,143 @@
+{
+  "explore": {
+    "title": "Explore",
+    "description": "Explore topics and features on Sanatanadharmam",
+    "meta": {
+      "title": "Explore Sanatanadharmam – Topics and Features",
+      "description": "Explore topics and features on Sanatanadharmam",
+      "canonical": "https://sanatanadharmam.in/explore",
+      "keywords": [
+        "Sanatana Dharma",
+        "Explore",
+        "festivals",
+        "temples",
+        "Vedic teachings",
+        "mythology",
+        "heritage",
+        "culture"
+      ],
+      "url": "https://sanatanadharmam.in/explore"
+    },
+    "openGraph": {
+      "title": "Explore Sanatanadharmam — Topics & Features",
+      "description": "Explore topics and features on Sanatanadharmam: festivals, temples, timelines and more.",
+      "images": [
+        {
+          "alt": "Explore Sanatanadharmam",
+          "height": 630,
+          "url": "https://sanatanadharmam.in/og/explore.png",
+          "width": 1200
+        }
+      ],
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "url": "https://sanatanadharmam.in/explore"
+    },
+    "pages": [
+      {
+        "key": "cosmic_time",
+        "slug": "cosmictime"
+      },
+      {
+        "key": "diseases_curing_temples",
+        "slug": "diseases-curing-temples"
+      },
+      {
+        "key": "drip_irrigation_process",
+        "slug": "drip-irrigation-process"
+      },
+      {
+        "key": "festivals",
+        "slug": "festivals"
+      },
+      {
+        "key": "historical_timeline",
+        "slug": "historical-timeline"
+      },
+      {
+        "key": "illustrated_stories",
+        "slug": "illustratedstories"
+      },
+      {
+        "key": "indian_constitution",
+        "slug": "indian-constitution"
+      },
+      {
+        "key": "jyotirlings",
+        "slug": "jyotirlings"
+      },
+      {
+        "key": "mythological_quizzes",
+        "slug": "mythologicalquizzes"
+      },
+      {
+        "key": "religion_conversion",
+        "slug": "religion-conversion"
+      },
+      {
+        "key": "rivers_connecting",
+        "slug": "rivers-connecting"
+      },
+      {
+        "key": "sanskrit_concepts",
+        "slug": "sanskrit-concepts"
+      },
+      {
+        "key": "shakti_peethas",
+        "slug": "shakti-peethas"
+      },
+      {
+        "key": "temples_destroyed",
+        "slug": "temples-destroyed"
+      },
+      {
+        "key": "temples_in_india",
+        "slug": "temples-in-india"
+      },
+      {
+        "key": "usa_strategies",
+        "slug": "usa-strategies"
+      },
+      {
+        "key": "world_transformation",
+        "slug": "world-transformation"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "description": "Explore topics and features on Sanatanadharmam",
+          "@type": "CollectionPage",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "name": "Explore Sanatanadharmam",
+          "url": "https://sanatanadharmam.in/explore"
+        },
+        {
+          "@type": "Organization",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Spanish",
+              "French"
+            ],
+            "contactType": "customer support",
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          },
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in"
+        }
+      ]
+    }
+  }
+}

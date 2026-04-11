@@ -1,0 +1,16 @@
+[
+  {
+    "code": "en",
+    "name": "English",
+    "nativeName": "English",
+    "flag": "🇺🇸",
+    "region": "United States"
+  },
+  {
+    "code": "te",
+    "name": "Telugu",
+    "nativeName": "తెలుగు",
+    "flag": "🇮🇳",
+    "region": "India"
+  }
+]

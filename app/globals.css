@@ -7,27 +7,20 @@
   /* Brand core */
   /* Darken primary to improve foreground contrast against white text */
   --color-primary: #B45309;
-  /* deep saffron (darker) */
   --color-primary-hover: #8A2E03;
   --color-secondary: #7F1D1D;
-  /* maroon */
   --color-secondary-hover: #991B1B;
   --color-accent: #C89227;
-  /* gold */
   --color-accent-hover: #F59E0B;
-  /* bright saffron */
+
   /* Neutrals */
   --color-bg: #FAF7F2;
-  /* parchment */
   --color-surface: #FFFFFF;
   --color-muted: #6B7280;
-  /* gray-500 */
   --color-muted-hover: #4B5563;
-  /* gray-600 */
   --color-text: #1F2937;
-  /* slate-800 */
   --color-text-hover: #111827;
-  /* slate-900 */
+
   /* States */
   --color-success: #15803D;
   --color-success-hover: #166534;
@@ -35,23 +28,30 @@
   --color-info-hover: #1D4ED8;
   --color-warning: #DC2626;
   --color-warning-hover: #B91C1C;
+
   /* Borders & shadows */
   --color-border: #E5E7EB;
   --shadow-soft: 0 8px 24px rgba(127, 29, 29, 0.08);
   --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.16);
+
   /* Fluid base size: scales ~15px → ~18px between 360px and 1280px */
   --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem);
   /* 15px → 18px */
   --line-height-base: 1.65;
   /* good for prose */
+
   /* Modular scale step (minor third ≈ 1.2) for headings */
   --scale: 1.2;
+
   /* Content width for measure (line-length) control */
   --content-max: 70ch;
+
   /* Focus ring */
   --focus-ring: 0 0 0 3px rgba(245, 158, 11, 0.45);
+
   /* Decorative gradients/patterns */
   --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #C89227 50%, #7F1D1D 100%);
+
   --from-amber-700: #B45309;
   --to-orange-600: #EA580C;
   --from-orange-500: #F97316;
@@ -60,6 +60,7 @@
   --to-orange-500: #FB923C;
   --from-red-700: #B91C1C;
   --to-rose-700: #BE123C;
+
   --color-yellow: #fdae50;
   --color-red: #fa5952;
   --color-orange: #fa5952;
@@ -68,17 +69,16 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color--deep-blue: #162039;
+
   --electric-border-color: #dd8448;
-  /* Avoid runtime oklch() and calc() for build compatibility */
-  --electric-light-color: #f6cba1;
-  /* Precomputed light color from border color */
-  --gradient-color: rgba(221, 132, 72, 0.4);
-  /* Precomputed gradient color */
-  --color-neutral-900: #2e2e2e;
-  /* Precomputed neutral color */
+  --electric-light-color: oklch(from var(--electric-border-color) l c h);
+  --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
+  --color-neutral-900: oklch(0.185 0 0);
+
   /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
+
   /* Spacing scale */
   --space-xxs: 4px;
   --space-xs: 8px;
@@ -88,6 +88,7 @@
   --space-xl: 40px;
   --space-2xl: 72px;
   --space-3xl: 90px;
+
   /* Content width */
   --content-width-xxs: 540px;
   --content-width-xs: 760px;
@@ -99,59 +100,76 @@
 }
 
 /* 2) Dark theme */
-:root[data-theme="dark"] {
-  --color-bg: #1F2937;
+/* :root[data-theme="dark"] {
+  --color-bg: #0F172A;
   --color-surface: #111827;
-  --color-muted: #6B7280;
-  --color-muted-hover: #4B5563;
   --color-text: #F3F4F6;
-  --color-text-hover: #E5E7EB;
+  --color-muted: #9CA3AF;
+  --color-border: #1F2937;
+
   --color-primary: #B45309;
-  --color-primary-hover: #8A2E03;
-  --color-secondary: #7F1D1D;
-  --color-secondary-hover: #991B1B;
-  --color-accent: #C89227;
-  --color-accent-hover: #F59E0B;
-  --color-success: #15803D;
-  --color-success-hover: #166534;
-  --color-info: #2563EB;
-  --color-info-hover: #1D4ED8;
-  --color-warning: #DC2626;
-  --color-warning-hover: #B91C1C;
-  --color-border: #374151;
-  --shadow-soft: 0 8px 24px rgba(127, 29, 29, 0.16);
-  --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.32);
-  --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem);
-  --line-height-base: 1.65;
-  --scale: 1.2;
-  --content-max: 70ch;
-  --focus-ring: 0 0 0 3px rgba(245, 158, 11, 0.45);
-  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #C89227 50%, #7F1D1D 100%);
-  --from-amber-700: #B45309;
-  --to-orange-600: #EA580C;
-  --from-orange-500: #F97316;
-  --to-amber-400: #FBBF24;
-  --from-rose-500: #F43F5E;
-  --to-orange-500: #FB923C;
-  --from-red-700: #B91C1C;
-  --to-rose-700: #BE123C;
-  --color-yellow: #fdae50;
-  --color-red: #fa5952;
-  --color-orange: #fa5952;
-  --color-violet: #403e87;
-  --color-blue: #325492;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color--deep-blue: #162039;
-  --electric-border-color: #dd8448;
-  --electric-light-color: #f6cba1;
-  /* Precomputed light color from border color */
-  --gradient-color: rgba(221, 132, 72, 0.4);
-  /* Precomputed gradient color */
-  --color-neutral-900: #2e2e2e;
-  /* Precomputed neutral color */
+  --color-primary-strong: #8A2E03;
+  --color-secondary: #991B1B;
+  --color-accent: #D4A24A;
+
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 16px 48px rgba(0, 0, 0, 0.55);
+} */
+
+/* Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+/* :root[data-festival="diwali"] {
+  --color-primary: #B45309;
+  --color-secondary: #3F0C0C;
+  --color-accent: #FFD166;
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
+} */
+
+/* :root[data-festival="navaratri"] {
+  --color-primary: #7C3AED;
+  --color-secondary: #991B1B;
+  --color-accent: #F59E0B;
+} */
+
+/* .theme-light {
+  --theme-action-button-color: #ffd700;
+  --theme-alternative-background-color: #f5f5dc; 
+  --theme-body-text-color: #4b2e2e;
+  --theme-icon-color: #228b22;
+  --theme-footer-background-color: #800000;
+  --theme-footer-text-color: #fffff0;
+  --theme-footer-links-color: #ffd700;
+}
+.theme-dark {
+  --theme-color: #ffb366;
+  --theme-background-color: #0b0b0b;
+  --theme-title-color: #ffb366;
+  --theme-sub-title-color: #e6e6e6;
+  --theme-links-color: #e6e6e6;
+  --theme-background-accent: #e0c27b;
+  --theme-action-button-color: #d4af37;
+  --theme-alternative-background-color: #121212;
+  --theme-body-text-color: #e6e6e6;
+  --theme-icon-color: #9ad39a;
+  --theme-footer-background-color: #0a0a0a;
+  --theme-footer-text-color: #f5f5f5;
+  --theme-footer-links-color: #ffd700;
+} */
+
+/* 2) Dark theme variables */
+.dark {
+  --color-bg: #181825;
+  --color-text: #e5e7eb;
+  --color-red: #f87171;
+  --color-green: #4ade80;
+  --color-white: #181825;
+  --color-black: #fafafa;
+  --color-yellow: #fde68a;
+  --color-orange: #fdba74;
+  --color-violet: #a78bfa;
+  --color-blue: #60a5fa;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
+  --font-height: 1.2;
   --space-xxs: 4px;
   --space-xs: 8px;
   --space-sm: 12px;
@@ -169,27 +187,15 @@
   --content-width-xl: 1900px;
 }
 
-/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
-:root[data-festival="diwali"] {
-  --color-primary: #B45309;
-  /* saffron (darker) */
-  --color-secondary: #3F0C0C;
-  /* deep maroon */
-  --color-accent: #FFD166;
-  /* warm gold glow */
-  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
-}
-
-:root[data-festival="navaratri"] {
-  --color-primary: #7C3AED;
-  /* royal purple */
-  --color-secondary: #991B1B;
-  --color-accent: #F59E0B;
-}
-
 /* 3) Core layout & typography */
 html {
   scroll-behavior: smooth;
+}
+
+html,
+body,
+#__next {
+  height: 100%
 }
 
 body {
@@ -200,6 +206,15 @@ body {
   margin: 0;
   -webkit-text-size-adjust: 100%;
   /* avoids iOS zoom issues */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-white text-gray-700 antialiased;
+}
+
+body.dark {
+  background: var(--color-bg);
+  color: var(--color-text);
+  @apply bg-gray-950 text-gray-100 antialiased;
 }
 
 /* 4) Theming utilities */
@@ -208,31 +223,27 @@ body {
 /* 7) Cards */
 /* 8) Header / Nav (with subtle gradient) */
 /* 9) Focus visibility for accessibility */
-:focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring);
-  border-radius: .4rem;
-}
 
 /* Paragraphs & small text */
-ul,
-ol {
-  list-style: disc;
-  padding-left: 1rem;
-  margin-bottom: var(--space-sm);
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
 }
 
-li {
-  list-style: none;
-  margin-bottom: 0.5rem;
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-  width: 100%;
-  padding: var(--space-xxs) var(--space-sm);
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
+/* Hero section container stability */
+.herosection .herocontent {
+  contain: layout;
 }
 
 .gradient-background {
@@ -244,54 +255,33 @@ textarea {
       var(--color-blue));
 }
 
+.layout-sm,
+.layout-md,
+.layout-lg,
 .content-wrapper {
   padding: var(--space-xl) var(--space-md);
 }
 
-.layout-sm {
+.layout-sm,
+.layout-md,
+.layout-lg {
   margin: 0 auto;
+}
+
+.layout-sm {
   max-width: var(--content-width-sm);
-  padding: var(--space-xl) var(--space-md);
 }
 
 .layout-md {
-  margin: 0 auto;
   max-width: var(--content-width-md);
-  padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
 
-/* Aspect ratio containers to prevent CLS */
-.aspect-ratio-box {
-  position: relative;
-  width: 100%;
+.layout-lg {
+  max-width: var(--content-width-lg);
 }
 
-.aspect-ratio-box::before {
-  content: '';
-  display: block;
-  padding-top: var(--aspect-ratio, 100%);
-}
-
-.aspect-ratio-box>* {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Reserve space for elements to prevent CLS */
-.hidden.items-center.md\:flex {
-  @media (min-width: 768px) {
-    min-height: 48px;
-  }
-}
-
-/* Prevent footer from causing layout shift */
 footer {
   contain: layout;
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
-  color: #fff;
 }
 
 .nav-wrapper {
@@ -300,93 +290,246 @@ footer {
   padding: var(--space-xl) 0 var(--space-md);
 }
 
-.nav-wrapper .underline {
-  padding: 0 0 var(--space-sm) 0;
+/* Utility: content container used across components */
+.site-container {
+  max-width: 112rem
+    /* 7xl */
+  ;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem
 }
 
-/* Hero section container stability */
-.herosection .herocontent {
-  contain: layout;
+.site-container-sm {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
 }
 
-/* Global dark mode text color fixes */
-.wordcount {
+/* Smooth transitions */
+.ui-transition {
+  transition: all 200ms ease
+}
+
+/* Custom animation delay utilities used across components (mobile-first, small set) */
+.anim-delay-0 {
+  animation-delay: 0ms !important
+}
+
+.anim-delay-150 {
+  animation-delay: 150ms !important
+}
+
+.anim-delay-300 {
+  animation-delay: 300ms !important
+}
+
+.anim-delay-1000 {
+  animation-delay: 1000ms !important
+}
+
+.anim-delay-1500 {
+  animation-delay: 1500ms !important
+}
+
+/* Typography system enforcement (utility classes used throughout components) */
+.page-title {
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900
+}
+
+.section-title {
+  @apply text-lg sm:text-xl md:text-2xl font-semibold text-gray-900
+}
+
+.subtitle {
+  @apply text-base sm:text-lg text-gray-600
+}
+
+.body-text {
+  @apply text-gray-700 leading-relaxed
+}
+
+.meta-text {
+  @apply text-sm text-gray-500
+}
+
+.multi-text-color {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.multi-text-color span:first-child {
+  color: #ff0800;
+}
+
+.multi-text-color span:nth-child(2) {
+  color: var(--color--deep-blue);
+}
+
+.multi-text-color span:nth-child(3) {
+  color: var(--color-violet);
+}
+
+.multi-text-color span:last-child {
+  color: var(--color-blue);
+}
+
+/* TEXT TO SPEECH */
+.textToSpeech {
   display: inline-flex;
-  gap: 3px;
-  padding: 4px 8px;
-  font-size: 0.95rem;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.animate-fade-in {
-  animation: fadeIn 1s ease;
+.textToSpeech .controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
+.textToSpeech .playButton,
+.textToSpeech .pauseButton,
+.textToSpeech .resumeButton,
+.textToSpeech .stopButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0.25rem;
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-radius: 50%;
+  background: var(--card-background, #ffffff);
+  color: var(--text-primary, #1f2937);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.textToSpeech .playButton:hover,
+.textToSpeech .pauseButton:hover,
+.textToSpeech .resumeButton:hover,
+.textToSpeech .stopButton:hover {
+  background: var(--primary-color, #f59e0b);
+  color: #ffffff;
+  border-color: var(--primary-color, #f59e0b);
+  transform: scale(1.05);
+}
+
+.textToSpeech .playButton:active,
+.textToSpeech .pauseButton:active,
+.textToSpeech .resumeButton:active,
+.textToSpeech .stopButton:active {
+  transform: scale(0.95);
+}
+
+.textToSpeech .playButton:focus,
+.textToSpeech .pauseButton:focus,
+.textToSpeech .resumeButton:focus,
+.textToSpeech .stopButton:focus {
+  outline: 2px solid var(--primary-color, #f59e0b);
+  outline-offset: 2px;
+}
+
+.textToSpeech .playButton svg,
+.textToSpeech .pauseButton svg,
+.textToSpeech .resumeButton svg,
+.textToSpeech .stopButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* PLAY + RESUME */
+.textToSpeech .playButton,
+.textToSpeech .resumeButton {
+  background: var(--primary-color, #f59e0b);
+  color: #ffffff;
+  border-color: var(--primary-color, #f59e0b);
+}
+
+.textToSpeech .playButton:hover,
+.textToSpeech .resumeButton:hover {
+  background: var(--primary-dark, #d97706);
+  border-color: var(--primary-dark, #d97706);
+}
+
+/* PAUSE */
+.textToSpeech .pauseButton {
+  background: var(--warning-color, #eab308);
+  color: #ffffff;
+  border-color: var(--warning-color, #eab308);
+}
+
+.textToSpeech .pauseButton:hover {
+  background: var(--warning-dark, #ca8a04);
+  border-color: var(--warning-dark, #ca8a04);
+}
+
+/* STOP */
+.textToSpeech .stopButton {
+  background: var(--danger-color, #ef4444);
+  color: #ffffff;
+  border-color: var(--danger-color, #ef4444);
+}
+
+.textToSpeech .stopButton:hover {
+  background: var(--danger-dark, #dc2626);
+  border-color: var(--danger-dark, #dc2626);
+}
+
+/* FLOATING MODE */
+.textToSpeech.floating {
+  position: fixed;
+  top: 6rem;
+  right: 1rem;
+  z-index: 50;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  border-radius: 2rem;
+  background: var(--card-background, #ffffff);
+  border: 1px solid var(--border-color, #e5e7eb);
+}
+
+/* INLINE MODE */
+.textToSpeech.inline {
+  margin: 1rem 0;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
   }
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .content-wrapper {
+    margin: 0 auto;
+    max-width: var(--content-width-default);
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+  }
+
+  .border-gradient-vertical {
+    border-right: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
   }
 }
 
-.animate-gradient-x {
-  background-size: 200% 100%;
-  animation: gradientX 4s linear infinite;
-}
-
-@keyframes gradientX {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  100% {
-    background-position: 100% 50%;
+@media (min-width: 1366px) {
+  .nav-wrapper {
+    padding: var(--space-xl) 0;
   }
 }
 
-.animate-pulse-slow {
-  animation: pulseSlow 8s infinite alternate;
-}
-
-@keyframes pulseSlow {
-  0% {
-    opacity: 0.8;
-  }
-
-  100% {
-    opacity: 1;
+@media (min-width: 1600px) {
+  .content-wrapper {
+    max-width: var(--content-width-lg);
   }
 }
 
-.animate-bounce-slow {
-  animation: bounceSlow 2s infinite alternate;
-}
-
-@keyframes bounceSlow {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-8px);
+@media (min-width: 1900px) {
+  .content-wrapper {
+    max-width: var(--content-width-xl);
   }
 }
 
-@media (min-width: 1024px) {}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #F5F5F5;
-}
-::-webkit-scrollbar {
-  width: 6px;
-  background-color: #F5F5F5;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #000000;
-  border: 2px solid #555555;
-}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

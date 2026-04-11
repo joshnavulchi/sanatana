@@ -3,115 +3,53 @@ services:
     name: sanatanadharmam.in
     env: node
     plan: free
+
+    cache:
+      - node_modules
+      - .next/cache
+
     envVars:
-      - key: NEXT_PUBLIC_GA_ID
-        sync: false
-        value: "${NEXT_PUBLIC_GA_ID}"
-      - key: NEXT_PUBLIC_GTM_ID
-        sync: false
-        value: "${NEXT_PUBLIC_GTM_ID}"
-      - key: LOCALES_REF
-        value: "locales"         # or "locales", or a commit SHA
-      - key: LOCALES_SYNC_BATCH_SIZE
-        value: "200"
-      - key: LOCALES_SYNC_WRITE_CONCURRENCY
-        value: "8"
       - key: NEXT_BUILD_MAX_WORKERS
         value: "4"
-    installCommand: |
-      npm install
+      - key: NEXT_PUBLIC_SITE_URL
+        value: "https://sanatanadharmam.in"
+      - key: NEXT_PUBLIC_SITE_NAME
+        sync: false
+      - key: NEXT_PUBLIC_SITE_DESCRIPTION
+        sync: false
+      - key: NEXT_PUBLIC_GA_ID
+        sync: false
+      - key: NEXT_PUBLIC_GTM_ID
+        sync: false
+
+    installCommand: npm install
+
     buildCommand: |
+      set -e
+
       export NODE_ENV=production
-      export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144
 
-      set -euo pipefail
-
-      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
-      git remote -v || true
-      echo ">> ls-remote origin (filter 'locales'):"
-      git ls-remote origin | grep -i 'refs/heads/locales' || echo "no 'refs/heads/locales' visible on origin"
-
-      echo ">> Fetching locales branch explicitly (shallow)…"
-      git fetch --no-tags --prune --depth=1 origin locales:refs/remotes/origin/locales || true
-
-      echo ">> Refs after fetch (grep locales):"
-      git show-ref | grep -i locales || echo "locales ref not present locally (script will try again)"
-
-      npm run render-build
-      
-    publishPath: out
-
-  - type: cron
-    name: weekly-deploy
-    env: node
-    plan: free
-    schedule: "30 2 * * 0"
-    command:
-      [
-        "bash",
-        "-lc",
-        'if [ -n "$RENDER_DEPLOY_HOOK" ]; then curl -fsS -X POST "$RENDER_DEPLOY_HOOK" || echo ''deploy hook failed''; else echo ''RENDER_DEPLOY_HOOK not set; skipping deploy''; fi',
-      ]
-
-services:
-  - type: static
-    name: your-static-site
-    buildCommand: |
-      set -euo pipefail
-
-      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
-      echo ">> GIT_REMOTE_URL=${GIT_REMOTE_URL:-<empty>}"
-
-      # Initialize git if .git is missing (tarball checkout cases)
-      if [ ! -d ".git" ]; then
-        echo ">> Initializing git repo (tarball checkout detected)…"
-        git init
+      echo "== Environment variable check =="
+      echo "NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-NOT SET}"
+      if [ -n "${NEXT_PUBLIC_GA_ID:-}" ]; then
+        echo "NEXT_PUBLIC_GA_ID: found (${#NEXT_PUBLIC_GA_ID} chars)"
+      else
+        echo "NEXT_PUBLIC_GA_ID: NOT SET — Google Analytics will be disabled"
+      fi
+      if [ -n "${NEXT_PUBLIC_GTM_ID:-}" ]; then
+        echo "NEXT_PUBLIC_GTM_ID: found (${#NEXT_PUBLIC_GTM_ID} chars)"
+      else
+        echo "NEXT_PUBLIC_GTM_ID: NOT SET — Google Tag Manager will be disabled"
       fi
 
-      # Add 'origin' if missing
-      if ! git remote get-url origin >/dev/null 2>&1; then
-        if [ -z "${GIT_REMOTE_URL:-}" ]; then
-          echo "ERROR: GIT_REMOTE_URL not set; cannot fetch locales branch."
-          exit 1
-        fi
-        git remote add origin "${GIT_REMOTE_URL}"
-      fi
+      echo ">> Running Next build + export"
+      npm run render-build   # MUST generate /out
 
-      echo ">> Remotes:"
-      git remote -v || true
-
-      echo ">> ls-remote origin (filter locales):"
-      git ls-remote origin | grep -i 'refs/heads/locales' || echo "no 'refs/heads/locales' visible on origin"
-
-      echo ">> Fetching 'locales' branch explicitly…"
-      git fetch --no-tags --prune --depth=1 origin "${LOCALES_REF:-locales}:refs/remotes/origin/${LOCALES_REF:-locales}" || true
-
-      echo ">> Local refs after fetch (grep locales):"
-      git show-ref | grep -i 'refs/remotes/origin' | grep -i "${LOCALES_REF:-locales}" || echo "locales ref still not present locally"
-
-      export CI=${CI:-1}
-      export LOCALES_SYNC_STRICT=${LOCALES_SYNC_STRICT:-0}
-
-      # Your original chain (make sync non-fatal initially)
-      node scripts/sync-locales-from-branch.js --verbose || echo "[locales-sync] non-fatal skip"
-      node scripts/compile-scss.js --force
-      node scripts/generate-critical-css.js
-      npm run build:ci
-      node scripts/compile-scss.js --verify
-      node scripts/strip-comments.js
+      echo ">> Running post-build scripts"
       node scripts/generate-sitemap.js
       node scripts/minify-html.js
       node scripts/add-hash-to-assets.js
-      node scripts/check-analytics-keys.js
-    publishPath: build
-    envVars:
-      - key: LOCALES_REF
-        value: locales
-      - key: LOCALES_SYNC_STRICT
-        value: "0"
-      - key: NODE_ENV
-        value: production
-      # Set this in the Render dashboard, ideally as a secret:
-      # - key: GIT_REMOTE_URL
-      #   sync: false  # set value in dashboard
+      node scripts/audit-seo.js --out out --json public/data/audit-report.json
+
+    publishPath: out
