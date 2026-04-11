@@ -1,0 +1,61 @@
+name: Create PR to Upstream (vulchivijay/sanatana)
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_branch:
+        description: 'Base branch in vulchivijay/sanatana to target'
+        required: true
+        default: 'development'
+      head_branch:
+        description: 'Branch in joshnavulchi/sanatana to use as source'
+        required: true
+        default: 'development'
+      pr_title:
+        description: 'Pull request title'
+        required: false
+        default: 'feat: Sync changes from joshnavulchi/sanatana'
+      pr_body:
+        description: 'Pull request body (optional, leave empty for default)'
+        required: false
+        default: ''
+
+jobs:
+  create-upstream-pr:
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Validate inputs
+        env:
+          BASE_BRANCH: ${{ github.event.inputs.base_branch }}
+          HEAD_BRANCH: ${{ github.event.inputs.head_branch }}
+        run: |
+          if ! echo "$BASE_BRANCH" | grep -qE '^[a-zA-Z0-9._/-]+$'; then
+            echo "Invalid base_branch: $BASE_BRANCH"
+            exit 1
+          fi
+          if ! echo "$HEAD_BRANCH" | grep -qE '^[a-zA-Z0-9._/-]+$'; then
+            echo "Invalid head_branch: $HEAD_BRANCH"
+            exit 1
+          fi
+
+      - name: Create Pull Request to Upstream Repository
+        env:
+          GH_TOKEN: ${{ secrets.UPSTREAM_PAT }}
+          BASE_BRANCH: ${{ github.event.inputs.base_branch }}
+          HEAD_BRANCH: ${{ github.event.inputs.head_branch }}
+          PR_TITLE: ${{ github.event.inputs.pr_title }}
+          PR_BODY: ${{ github.event.inputs.pr_body }}
+        run: |
+          BODY="$PR_BODY"
+          if [ -z "$BODY" ]; then
+            BODY="Sync changes from \`joshnavulchi/sanatana:${HEAD_BRANCH}\` into \`vulchivijay/sanatana:${BASE_BRANCH}\`.
+
+          Triggered by workflow dispatch on $(date -u '+%Y-%m-%d %H:%M UTC')."
+          fi
+          gh pr create \
+            --repo vulchivijay/sanatana \
+            --base "$BASE_BRANCH" \
+            --head "joshnavulchi:$HEAD_BRANCH" \
+            --title "$PR_TITLE" \
+            --body "$BODY"
