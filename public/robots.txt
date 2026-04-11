@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /api
+Disallow: /_next/
+Disallow: /static/
+Disallow: /api/
 Disallow: /admin
 Sitemap: https://sanatanadharmam.in/sitemap.xml
