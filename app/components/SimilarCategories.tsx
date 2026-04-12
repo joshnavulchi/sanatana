@@ -231,7 +231,7 @@ export default function SimilarCategories({
         <h5 className="text-xl md:text-md sm:text-base font-semibold tracking-wide text-amber-900">{title}</h5>
         <p className="text-amber-800 text-md sm:text-base leading-relaxed mb-4 font-normal">Sacred pathways to explore related wisdom.</p>
       </div>
-      <div className="space-y-4 text-md sm:text-base leading-relaxed font-normal">
+      <div className="space-y-4 text-md sm:text-base leading-relaxed font-normal mt-4">
         {categories.map((category) => {
           return (
             <div
@@ -246,12 +246,12 @@ export default function SimilarCategories({
                   {category.title}
                 </Link>
               </h6>
-              <ul className="space-y-2 list-disc pl-5 text-md sm:text-base leading-relaxed">
+              <ul className="space-y-2 pl-5 text-md sm:text-base leading-relaxed">
                 {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map((link) => (
                   <li key={link.key} className="mb-2">
                     <Link
                       href={normalizeHref(link.href)}
-                      className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
+                      className="inline-flex items-center gap-2 text-amber-800 transition-colors hover:text-orange-700"
                     >
                       <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 text-md sm:text-base leading-relaxed font-normal" />
                       {link.label}
@@ -270,7 +270,7 @@ export default function SimilarCategories({
                       }));
                     }}
                     aria-expanded={Boolean(expandedByCategory[category.key])}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-md sm:text-base font-semibold tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-sm tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
                   >
                     <span aria-hidden="true">{expandedByCategory[category.key] ? '−' : '+'}</span>
                     {expandedByCategory[category.key] ? 'Show less' : `More (${category.links.length - INITIAL_VISIBLE_LINKS})`}
@@ -278,7 +278,7 @@ export default function SimilarCategories({
                 )}
                 <Link
                   href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-md sm:text-base font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-sm tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
                 >
                   View all
                   <span aria-hidden="true">→</span>
