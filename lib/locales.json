@@ -12,5 +12,12 @@
     "nativeName": "తెలుగు",
     "flag": "🇮🇳",
     "region": "India"
+  },
+  {
+    "code": "hi",
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "flag": "🇮🇳",
+    "region": "India"
   }
 ]

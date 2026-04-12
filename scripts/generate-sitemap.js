@@ -149,7 +149,7 @@ function buildSitemap(paths) {
 function writeTo(filePath, xml) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, xml, 'utf8');
-  console.log('Wrote', filePath);
+  // console.log('Wrote', filePath);
 }
 
 // ── Main ───────────────────────────────────────────────────────────
@@ -171,8 +171,8 @@ try {
   }
 
   const paths = Array.from(routeSet).sort();
-  console.log(`Discovered ${paths.length} routes from built HTML:`);
-  for (const p of paths) console.log('  ', p);
+  // console.log(`Discovered ${paths.length} routes from built HTML:`);
+  // for (const p of paths) // console.log('  ', p);
 
   const xml = buildSitemap(paths);
   // Write sitemap into the input directory so running this against a

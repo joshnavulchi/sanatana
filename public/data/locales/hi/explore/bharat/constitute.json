@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "keywords": [
+      "hindu puranas",
+      "ramayana",
+      "mahabharata",
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "bhagavata",
+      "vishnu purana"
+    ]
+  },
+  "indian_constition": {
+    "title": "The Constitution of India",
+    "meta": {
+      "title": "The Constitution of India: Historical Evolution, Drafting Process, and Constitutional Philosophy",
+      "description": "A comprehensive scholarly analysis of the Constitution of India, its historical background, drafting committee members, Dr. B. R. Ambedkar’s role, timeline, structure, foreign influences, and critical evaluation.",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
+      "keywords": [
+        "Amendment Process of Indian Constitution",
+        "Constituent Assembly",
+        "Constitution of India",
+        "Constitutional Amendments Cases in India",
+        "Constitutional Amendments in India",
+        "Constitutional Democracy Cases in India",
+        "Constitutional Democracy in India",
+        "Constitutional Development in India",
+        "Constitutional Duties in India",
+        "Constitutional Framework of India",
+        "Constitutional Governance Cases in India",
+        "Constitutional Governance in India",
+        "Constitutional Interpretation Cases in India",
+        "Constitutional Interpretation in India",
+        "Constitutional Justice Cases in India",
+        "Constitutional Justice in India",
+        "Constitutional Law Cases in India",
+        "Constitutional Law in India",
+        "Constitutional Morality Cases in India",
+        "Constitutional Morality in India",
+        "Constitutional Philosophy of Indian Constitution",
+        "Constitutional Principles Cases in India",
+        "Constitutional Principles in India",
+        "Constitutional Provisions Cases in India",
+        "Constitutional Provisions in India",
+        "Constitutional Republic Cases in India",
+        "Constitutional Republic in India",
+        "Constitutional Rights Cases in India",
+        "Constitutional Rights in India",
+        "Constitutional Values Cases in India",
+        "Constitutional Values in India",
+        "Critical Analysis of Indian Constitution",
+        "Directive Principles of State Policy",
+        "Dr. B. R. Ambedkar",
+        "Drafting Committee",
+        "Emergency Provisions in Indian Constitution",
+        "Evolution of Indian Constitution",
+        "Federal Structure of India",
+        "Foreign Influences on Indian Constitution",
+        "Fundamental Rights in India",
+        "Historical Background of Indian Constitution",
+        "Indian Constitution",
+        "Indian Independence Movement",
+        "Indian Political History",
+        "Preamble of Indian Constitution",
+        "Strengths and Criticisms of Indian Constitution",
+        "Timeline of Indian Constitution"
+      ],
+      "ogimage": "images/og/indian_constitution.png",
+      "url": "https://sanatanadharmam.in/indian-constition"
+    },
+    "overview": {
+      "adoptiondate": "26 November 1949",
+      "amendmentsmoved": 2473,
+      "amendmentsproposed": 7653,
+      "enforcementdate": "26 January 1950",
+      "originalarticles": 395,
+      "originalschedules": 8,
+      "totaldraftingtime": "2 years, 11 months, 18 days",
+      "totalsessions": 11,
+      "totalsittings": 165
+    },
+    "sections": [
+      {
+        "title": "Historical Background (1858–1946)",
+        "content": {
+          "cabinetmissionplan1946": "Proposed formation of a Constituent Assembly and laid framework for constitutional drafting.",
+          "colonialcontext": "Following the Revolt of 1857, governance shifted from the East India Company to the British Crown under the Government of India Act, 1858. This centralized imperial authority and marked the beginning of constitutional developments in colonial India.",
+          "globalinfluences": "American constitutionalism, British parliamentary traditions, Irish directive principles, and post-war human rights philosophy influenced Indian framers.",
+          "governmentofindiaacts": {
+            "1858": "Transferred authority to the British Crown.",
+            "1909": "Introduced separate electorates under Morley-Minto Reforms.",
+            "1919": "Introduced dyarchy under Montagu-Chelmsford Reforms.",
+            "1935": "Established provincial autonomy and federal structure blueprint."
+          },
+          "nationalmovementinfluence": "The Indian National Congress, founded in 1885, gradually transformed from a moderate reform body to a mass political movement demanding self-rule.",
+          "needforconstitution": "India required a sovereign, democratic, republican framework ensuring rights, federal balance, and social justice.",
+          "regulatingact1773": "The Regulating Act of 1773 was the first parliamentary intervention by Britain to regulate the East India Company’s rule. It introduced centralized administration and laid foundations for constitutional governance."
+        },
+        "id": "historical-background"
+      },
+      {
+        "title": "Formation of the Constituent Assembly (1946)",
+        "details": {
+          "electionmethod": "Indirect election by Provincial Legislative Assemblies under Cabinet Mission Plan.",
+          "firstmeeting": "9 December 1946",
+          "keyfigures": {
+            "constitutionaladvisor": "B. N. Rau",
+            "president": "Dr. Rajendra Prasad",
+            "vicepresident": "H. C. Mukherjee"
+          },
+          "representationbreakdown": {
+            "britishindianprovinces": 292,
+            "chiefcommissionersprovinces": 4,
+            "princelystates": 93
+          },
+          "totalmembersafterpartition": 299,
+          "totalmembersinitial": 389
+        },
+        "id": "constituent-assembly"
+      },
+      {
+        "title": "Drafting Committee (Formed 29 August 1947)",
+        "chairman": "Dr. B. R. Ambedkar",
+        "id": "drafting-committee",
+        "members": [
+          {
+            "biography": "Jurist, economist, social reformer, principal architect of the Constitution.",
+            "contributions": [
+              "Drafted fundamental rights structure",
+              "Advocated social justice and equality",
+              "Structured federal system with strong centre"
+            ],
+            "name": "Dr. B. R. Ambedkar",
+            "politicalbackground": "Leader of Depressed Classes, Law Minister of Independent India.",
+            "specialization": "Constitutional law, economics, social justice theory"
+          },
+          {
+            "biography": "Statesman and former Prime Minister of Jammu & Kashmir.",
+            "contributions": [
+              "Drafted provisions on judiciary",
+              "Contributed to federal structure design"
+            ],
+            "name": "N. Gopalaswami Ayyangar",
+            "politicalbackground": "Member of Constituent Assembly and Cabinet Minister.",
+            "specialization": "Administrative law, federal governance"
+          },
+          {
+            "biography": "Distinguished lawyer and Advocate General of Madras.",
+            "contributions": [
+              "Clarified legal drafting precision",
+              "Contributed to fundamental rights debate"
+            ],
+            "name": "Alladi Krishnaswamy Ayyar",
+            "politicalbackground": "Expert constitutional advisor.",
+            "specialization": "Constitutional interpretation"
+          },
+          {
+            "biography": "Lawyer, writer, and nationalist leader.",
+            "contributions": [
+              "Fundamental rights drafting",
+              "Directive Principles drafting"
+            ],
+            "name": "K. M. Munshi",
+            "politicalbackground": "Congress leader and cultural nationalist.",
+            "specialization": "Civil liberties, cultural rights"
+          },
+          {
+            "biography": "Former Premier of Assam.",
+            "contributions": [
+              "Minority safeguards discussions"
+            ],
+            "name": "Mohammad Saadulla",
+            "politicalbackground": "Muslim League representative.",
+            "specialization": "Provincial autonomy"
+          },
+          {
+            "biography": "Jurist; resigned due to ill health.",
+            "name": "B. L. Mitter",
+            "replacement": "N. Madhava Rao",
+            "specialization": "Administrative law"
+          },
+          {
+            "biography": "Renowned lawyer; died during drafting.",
+            "name": "D. P. Khaitan",
+            "replacement": "T. T. Krishnamachari",
+            "specialization": "Commercial and constitutional law"
+          }
+        ]
+      },
+      {
+        "title": "Role of Dr. B. R. Ambedkar",
+        "analysis": {
+          "architecttitlejustification": "Led drafting process, defended provisions clause-by-clause, integrated diverse committee reports.",
+          "constitutionalphilosophy": "Social democracy grounded in liberty, equality, fraternity.",
+          "finalspeechsummary": "Warned against hero-worship, emphasized constitutional morality and social democracy.",
+          "selectionreason": "Recognized for legal scholarship, minority representation, and constitutional expertise.",
+          "views": {
+            "federalism": "Union of States with strong centre to maintain unity.",
+            "fundamentalrights": "Essential for individual dignity and protection from state excess.",
+            "minoritysafeguards": "Political and cultural protection mechanisms.",
+            "parliamentarydemocracy": "Accountable executive responsible to legislature.",
+            "socialjustice": "Affirmative action for Scheduled Castes and backward classes."
+          }
+        },
+        "id": "ambedkar-role"
+      },
+      {
+        "title": "Chronological Timeline",
+        "events": [
+          {
+            "event": "Cabinet Mission Plan announced.",
+            "year": 1946
+          },
+          {
+            "date": "9 December 1946",
+            "event": "First meeting of Constituent Assembly."
+          },
+          {
+            "date": "15 August 1947",
+            "event": "India achieved independence."
+          },
+          {
+            "date": "29 August 1947",
+            "event": "Drafting Committee formed."
+          },
+          {
+            "date": "February 1948",
+            "event": "First Draft Constitution published."
+          },
+          {
+            "date": "26 November 1949",
+            "event": "Constitution adopted."
+          },
+          {
+            "date": "24 January 1950",
+            "event": "Members signed the Constitution."
+          },
+          {
+            "date": "26 January 1950",
+            "event": "Constitution came into force."
+          }
+        ],
+        "id": "timeline"
+      },
+      {
+        "title": "Structure of the Constitution",
+        "components": {
+          "amendmentprocess": "Article 368 provides flexible-rigid amendment model.",
+          "directiveprinciples": "Part IV provides socio-economic governance principles.",
+          "emergencyprovisions": "Articles 352, 356, 360.",
+          "federalstructure": "Union, State, and Concurrent lists.",
+          "fundamentalduties": "Added by 42nd Amendment (1976).",
+          "fundamentalrights": "Part III guarantees civil and political rights enforceable by courts.",
+          "judiciary": "Integrated judiciary with Supreme Court at apex.",
+          "parliamentarysystem": "Executive accountable to Lok Sabha.",
+          "preamble": "Declares India as Sovereign, Socialist, Secular, Democratic Republic ensuring Justice, Liberty, Equality, Fraternity."
+        },
+        "id": "structure"
+      },
+      {
+        "title": "Foreign Influences",
+        "id": "foreign-influences",
+        "influences": {
+          "australia": "Concurrent list concept.",
+          "canada": "Federal structure with strong centre.",
+          "germany": "Emergency provisions.",
+          "ireland": "Directive Principles.",
+          "southafrica": "Amendment procedures.",
+          "uk": "Parliamentary system, rule of law.",
+          "usa": "Fundamental rights, judicial review.",
+          "ussr": "Fundamental duties (later addition)."
+        }
+      },
+      {
+        "title": "Critical Analysis",
+        "criticisms": [
+          "Length and complexity",
+          "Centralization of power",
+          "Frequent amendments"
+        ],
+        "evolution": "Over 100 amendments have reshaped governance, strengthening democracy while responding to socio-political challenges.",
+        "id": "critical-analysis",
+        "strengths": [
+          "Comprehensive rights framework",
+          "Balance of rigidity and flexibility",
+          "Independent judiciary",
+          "Strong federal yet unified structure"
+        ]
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

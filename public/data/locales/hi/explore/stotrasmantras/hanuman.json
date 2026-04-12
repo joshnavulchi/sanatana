@@ -1,0 +1,225 @@
+{
+  "stotrasmantras_hanuman": {
+    "title": "Stotras & Mantras | Hanuman — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stotras & Mantras | Hanuman — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Stotrasmantras — Hanuman — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Stotrasmantras. Explore practices, history, and guiding...",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/hanuman",
+      "keywords": [
+        "Ancient Wisdom Stotrasmantras Hanuman",
+        "Ayurveda Stotrasmantras Hanuman",
+        "Bhagavad Gita Stotrasmantras Hanuman",
+        "Deities Stotrasmantras Hanuman",
+        "Festivals and Traditions Stotrasmantras Hanuman",
+        "Hindu Mythology Stotrasmantras Hanuman",
+        "Hinduism Stotrasmantras Hanuman",
+        "Indian Culture Stotrasmantras Hanuman",
+        "Indian Festivals Stotrasmantras Hanuman",
+        "Indian Philosophy Stotrasmantras Hanuman",
+        "Mahabharata Stotrasmantras Hanuman",
+        "Mythology Stotrasmantras Hanuman",
+        "Philosophy Stotrasmantras Hanuman",
+        "Pilgrimage Stotrasmantras Hanuman",
+        "Puranas Stotrasmantras Hanuman",
+        "Ramayana Stotrasmantras Hanuman",
+        "Religious Knowledge Stotrasmantras Hanuman",
+        "Rituals Stotrasmantras Hanuman",
+        "Sanatanadharmam Stotrasmantras Hanuman",
+        "Sanskrit Stotrasmantras Hanuman",
+        "Spiritual Practices Stotrasmantras Hanuman",
+        "Spirituality Stotrasmantras Hanuman",
+        "Stotrasmantras Hanuman Overview",
+        "Temples Stotrasmantras Hanuman",
+        "Upanishads Stotrasmantras Hanuman",
+        "Vedas Stotrasmantras Hanuman",
+        "Yoga and Meditation Stotrasmantras Hanuman"
+      ],
+      "ogimage": "/og/stotrasmantras-hanuman.png",
+      "url": "https://sanatanadharmam.in/stotrasmantras/hanuman"
+    },
+    "hanuman_stotras": [
+      {
+        "description": "The most popular hymn dedicated to Lord Hanuman, praising his strength, devotion, wisdom, and his service to Lord Rama.",
+        "author": "Goswami Tulsidas",
+        "benefits": [
+          "Removes fear, obstacles, and negative energies",
+          "Improves courage, confidence, and success",
+          "Provides protection from troubles",
+          "Grants peace and devotional strength"
+        ],
+        "id": 1,
+        "key_excerpt": "जय हनुमान ज्ञान गुन सागर । जय कपीस तिहुँ लोक उजागर ॥",
+        "language": "Awadhi (with Sanskrit influence)",
+        "name": "Hanuman Chalisa",
+        "origin": "Awadhi Bhakti Tradition",
+        "structure": {
+          "chaupai_verses": 40,
+          "closing_doha": 1,
+          "opening_doha": 2
+        },
+        "type": "Chalisa (40 verses)"
+      },
+      {
+        "description": "A devotional composition describing Hanuman’s heroic acts and divine protection.",
+        "author": "Tulsidas",
+        "benefits": [
+          "Protection from enemies and misfortune",
+          "Boosts vitality and inner strength",
+          "Destroys negative planetary influences"
+        ],
+        "id": 2,
+        "key_excerpt": "बाल समय रबि भक्षि लियो तब, तीनहुं लोक भयो अंधियारो",
+        "language": "Braj Bhasha",
+        "name": "Hanuman Ashtak",
+        "origin": "Rama Bhakti Literature",
+        "type": "Ashtak (8 verses)"
+      },
+      {
+        "description": "A powerful invocation hymn calling Hanuman to destroy evil forces and obstacles.",
+        "author": "Tulsidas",
+        "benefits": [
+          "Immediate relief from fear and danger",
+          "Protection from hidden enemies",
+          "Useful in crisis situations"
+        ],
+        "id": 3,
+        "key_excerpt": "जय हनुमंत संत हितकारी । सुनि लीजै प्रभु अरज हमारी ॥",
+        "language": "Hindi / Awadhi",
+        "name": "Bajrang Baan",
+        "type": "Stotra"
+      },
+      {
+        "description": "A set of verses invoking Hanuman's divine protection for different parts of the body.",
+        "benefits": [
+          "Physical and spiritual protection",
+          "Removes fear of ghosts, black magic, negative energies",
+          "Strengthens the devotee's courage"
+        ],
+        "id": 4,
+        "key_excerpt": "ॐ हनुमते नमः",
+        "language": "Sanskrit / Hindi versions",
+        "name": "Hanuman Kavach",
+        "origin": "Various Puranic Traditions",
+        "sections": {
+          "body_protection": "Protection of head, heart, limbs, senses",
+          "closing": "Phala Sruti (benefits)",
+          "invocation": "Meditation on Hanuman"
+        },
+        "type": "Kavacha (Protective Armor)"
+      },
+      {
+        "description": "A list of Hanuman’s 108 names representing his strength, virtues, and divine qualities.",
+        "benefits": [
+          "Purifies mind and body",
+          "Increases devotion and concentration",
+          "Invokes Hanuman’s blessings for success"
+        ],
+        "example_names": [
+          "ॐ हनुमते नमः",
+          "ॐ मारुतात्मजाय नमः",
+          "ॐ अञ्जनेयाय नमः"
+        ],
+        "id": 5,
+        "language": "Sanskrit",
+        "name": "Hanuman Ashtottara Shatanamavali",
+        "type": "Namaavali (108 Names)"
+      },
+      {
+        "description": "A devotional prayer believed to have been composed by Tulsidas to cure his arm ailment through Hanuman’s grace.",
+        "author": "Tulsidas",
+        "benefits": [
+          "Healing from physical ailments",
+          "Mental relief and protection",
+          "Strengthening of health and immunity"
+        ],
+        "id": 6,
+        "key_excerpt": "सुनहु हनुमान बिनय करौं",
+        "language": "Braj Bhasha",
+        "name": "Hanuman Bahuk"
+      },
+      {
+        "description": "A prayer describing Hanuman’s various rescues of devotees from danger.",
+        "author": "Goswami Tulsidas",
+        "benefits": [
+          "Protection from crises and troubles",
+          "Removes fears, sorrows, and dangers",
+          "Recommended during difficult times"
+        ],
+        "id": 7,
+        "key_excerpt": "बाल समय भये प्रभु रक्षक",
+        "language": "Awadhi/Braj",
+        "name": "Sankat Mochan Hanuman Stotra",
+        "type": "Stotra"
+      },
+      {
+        "description": "A simple stotra containing 12 powerful names of Lord Hanuman.",
+        "benefits": [
+          "Short and effective for daily chanting",
+          "Protection from danger",
+          "Increases willpower"
+        ],
+        "id": 8,
+        "name": "Hanuman Dwadasha Nama Stotram",
+        "names": [
+          "ॐ हनुमन्ते नमः",
+          "ॐ अञ्जनेयाय नमः",
+          "ॐ महाबलाय नमः"
+        ],
+        "origin": "Traditional Sanskrit Stotra",
+        "type": "12 Names Hymn"
+      },
+      {
+        "description": "A hymn by Shankaracharya describing the divine form and nature of Hanuman.",
+        "author": "Adi Shankaracharya",
+        "benefits": [
+          "Increases devotion to Hanuman",
+          "Improves inner discipline",
+          "Purifies intellect"
+        ],
+        "id": 9,
+        "key_excerpt": "मनोजवं मारुततुल्यवेगं जितेन्द्रियं बुद्धिमतां वरिष्ठम्",
+        "language": "Sanskrit",
+        "name": "Anjaneya Stotram",
+        "type": "Stotra"
+      },
+      {
+        "description": "A powerful Marathi stotra praising Hanuman as the embodiment of strength and discipline.",
+        "author": "Samarth Ramdas",
+        "benefits": [
+          "Strengthens mind and body",
+          "Removes obstacles",
+          "Improves determination and focus"
+        ],
+        "id": 10,
+        "key_excerpt": "श्रीरामदूतं अनघं कपेन्द्रं",
+        "language": "Marathi",
+        "name": "Maruti Stotra",
+        "origin": "Maratha Bhakti Tradition",
+        "type": "Stotra"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

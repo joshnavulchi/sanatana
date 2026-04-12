@@ -7,6 +7,11 @@ import PageLayout from "@components/common/PageLayout";
 
 type GenericRecord = Record<string, unknown>;
 
+type PuranasClientProps = {
+  initialData?: GenericRecord;
+  initialLocale?: string;
+};
+
 function formatLabel(str: string): string {
   return str
     .replace(/_/g, " ")
@@ -126,12 +131,17 @@ function PuranaCard({
   );
 }
 
-export default function PuranasClient() {
+export default function PuranasClient({ initialData, initialLocale }: PuranasClientProps) {
   const { isLoading } = useLocale();
   const pageNs = useLocaleSection("puranas");
-  const root = pageNs && typeof pageNs === "object" ? pageNs : {};
+  const hasPageNs = pageNs && typeof pageNs === "object" && Object.keys(pageNs).length > 0;
+  const root = hasPageNs
+    ? (pageNs as GenericRecord)
+    : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord);
 
-  if (isLoading || Object.keys(root).length === 0) {
+  const shouldShowLoader = isLoading && !hasPageNs && (!initialData || Object.keys(initialData).length === 0);
+
+  if (shouldShowLoader || Object.keys(root).length === 0) {
     return (
       <PageLayout
         metaKey="puranas"
