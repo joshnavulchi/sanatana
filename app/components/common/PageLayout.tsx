@@ -70,7 +70,7 @@ export default function PageLayout(
   return (
     <>
       <StructuredData metakey={metaKey ? metaKey : 'home'} />
-      <main className={`px-3 ${wrapper} min-h-[80vh] shadow-xl border-l-4 border-r-4 border-amber-100 animate-fadeInUp`}>
+      <main className={`px-3 ${wrapper} min-h-[80vh] shadow-sm border-l-2 border-r-2 border-amber-100 animate-fadeInUp`}>
         <div className="w-full text-md sm:text-base leading-relaxed font-normal">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-md sm:text-base leading-relaxed font-normal">
             <Breadcrumbs items={breadcrumbs} locale={locale} />
@@ -133,11 +133,9 @@ export default function PageLayout(
           )}
 
           {/* Slide-in panel */}
-          <aside
-            className={`fixed right-0 top-0 z-50 flex h-full w-85 max-w-[85vw] flex-col border-l border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[−12px_0_40px_rgba(166,61,23,0.12)] transition-transform duration-300 ease-out ${panelOpen ? 'translate-x-0' : 'translate-x-full'
-              }`}
-            aria-label="Explore related topics"
-          >
+          <aside className={`fixed right-0 top-0 z-50 flex h-full w-85 max-w-[85vw] flex-col border-l border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[−12px_0_40px_rgba(166,61,23,0.12)] transition-transform duration-300 ease-out ${panelOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
+            aria-label="Explore related topics">
             {/* Panel header */}
             <div className="flex items-center justify-between border-[#d8a25a]/30 px-5 py-4 text-md sm:text-base leading-relaxed font-normal">
               <div className="flex items-center gap-2 text-md sm:text-base leading-relaxed font-normal">

@@ -1,0 +1,84 @@
+{
+  "horoscope": {
+    "title": "Horoscope Generator",
+    "meta": {
+      "title": "Horoscope Generator",
+      "description": "Horoscope from Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "birthdate": "Birth date",
+    "errorlabel": "Error:",
+    "generate": "Generate",
+    "luckynumber": "Lucky number: {num} · Period: {periodLabel}",
+    "namelabel": "Name (optional)",
+    "period": "Period",
+    "periodday": "Day",
+    "periodmonth": "Month",
+    "periodweek": "Week",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "Philosophy | Yoga — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Philosophy — Yoga — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at...",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "core_principles": [
+      "Union of individual self (Atman) with universal consciousness (Brahman)",
+      "Balance of physical, mental, and spiritual aspects",
+      "Discipline and ethical living"
+    ],
+    "definition": "Yoga is a spiritual discipline and philosophy aimed at harmonizing body, mind, and soul to achieve self-realization and liberation (Moksha).",
+    "eight_limbs_of_yoga": [
+      "Yama (Ethical restraints)",
+      "Niyama (Personal observances)",
+      "Asana (Postures)",
+      "Pranayama (Breath control)",
+      "Pratyahara (Withdrawal of senses)",
+      "Dharana (Concentration)",
+      "Dhyana (Meditation)",
+      "Samadhi (Absorption or union)"
+    ],
+    "goals": [
+      "Self-realization",
+      "Mental clarity and peace",
+      "Physical health and vitality",
+      "Liberation from suffering"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Yoga is the cessation of mental fluctuations.",
+        "text": "Yoga Sutras of Patanjali"
+      },
+      {
+        "quote_summary": "Yoga is skill in action and balance in life.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "modern_relevance": {
+      "health": "Improves physical fitness and mental well-being.",
+      "spiritual_growth": "Encourages mindfulness and inner peace.",
+      "stress_management": "Reduces anxiety and promotes calmness."
+    },
+    "origin": {
+      "meaning": "Derived from Sanskrit 'yuj', meaning 'to unite or join'.",
+      "roots": "Vedic tradition and Upanishads",
+      "texts": [
+        "Yoga Sutras of Patanjali",
+        "Bhagavathgita",
+        "Upanishads"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Yoga supports righteous living.",
+      "karma": "Yoga purifies actions and intentions.",
+      "moksha": "Yoga is a direct path to liberation."
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

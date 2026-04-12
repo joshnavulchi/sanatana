@@ -186,9 +186,9 @@ async function main() {
     process.exit(2);
   }
 
-  console.log('Scanning HTML files in', OUT_DIR);
+  // console.log('Scanning HTML files in', OUT_DIR);
   const files = await scanHtmlFiles(OUT_DIR);
-  console.log(`Found ${files.length} HTML pages`);
+  // console.log(`Found ${files.length} HTML pages`);
 
   const results = [];
 
@@ -201,7 +201,7 @@ async function main() {
       const file = files[i];
       const res = await auditPage(file);
       results.push(res);
-      console.log(`${res.page} -> ${res.status} (${res.score})${res.issues.length ? ' - ' + res.issues.slice(0, 2).join('; ') : ''}`);
+      // console.log(`${res.page} -> ${res.status} (${res.score})${res.issues.length ? ' - ' + res.issues.slice(0, 2).join('; ') : ''}`);
     }
   }
   await Promise.all(new Array(CONCURRENCY).fill(0).map(worker));
@@ -222,21 +222,21 @@ async function main() {
   }
 
   await fsp.writeFile(JSON_OUT, JSON.stringify(report, null, 2), 'utf8');
-  console.log('\nWrote JSON report to', JSON_OUT);
+  // console.log('\nWrote JSON report to', JSON_OUT);
 
   if (CSV_OUT) {
     const header = ['page', 'status', 'score', 'issues'].join(',') + '\n';
     const rows = results.map(r => [escapeCsv(r.page), r.status, r.score, escapeCsv(r.issues.join(' | '))].join(',')).join('\n');
     await fsp.writeFile(CSV_OUT, header + rows, 'utf8');
-    console.log('Wrote CSV report to', CSV_OUT);
+    // console.log('Wrote CSV report to', CSV_OUT);
   }
 
-  console.log('\nSummary:');
-  console.log(`- Total pages scanned: ${total}`);
-  console.log(`- Passed pages: ${passed}`);
-  console.log(`- Failed pages: ${failed}`);
-  console.log(`- Average SEO score: ${avg}`);
-  console.log('\nDone.');
+  // console.log('\nSummary:');
+  // console.log(`- Total pages scanned: ${total}`);
+  // console.log(`- Passed pages: ${passed}`);
+  // console.log(`- Failed pages: ${failed}`);
+  // console.log(`- Average SEO score: ${avg}`);
+  // console.log('\nDone.');
 }
 
 function escapeCsv(s) {
