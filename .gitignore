@@ -54,7 +54,8 @@ public/images/slider/without_reduce/
 lighthouse-report.html
 tmp
 public/critical-home.css
-/.merge-json-errors
+.husky/
+.merge-json-errors/
 
 # Additional build / cache artifacts
 .cache/
