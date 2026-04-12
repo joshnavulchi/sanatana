@@ -45,7 +45,7 @@ function updateReferences(oldName, newName) {
 function main() {
   // Only run if RENDER environment variable is set (i.e., on Render.com)
   if (!process.env.RENDER) {
-    console.log('Skipping asset hash: not running in Render build environment.');
+    // console.log('Skipping asset hash: not running in Render build environment.');
     return;
   }
   ASSET_DIRS.forEach(dir => {
