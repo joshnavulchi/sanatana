@@ -3,12 +3,20 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '@app/hooks/useLanguagePersistence';
-import { DEFAULT_LOCALE } from '@lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { LANGUAGE_COOKIE_MAX_AGE_SECONDS, LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
 import locales from '@lib/locales.json';
+
+type LocaleOption = {
+  code: string;
+  name: string;
+  nativeName: string;
+  flag?: string;
+  region: string;
+};
 
 export default function LanguageDropdown() {
   const locale = useLocaleSection('sharable-strings');
@@ -119,7 +127,26 @@ export default function LanguageDropdown() {
     }
   };
 
-  const allLanguages = Array.isArray(locales) ? locales : [];
+  const localeMetadata = useMemo(() => {
+    return (Array.isArray(locales) ? locales : []) as LocaleOption[];
+  }, []);
+
+  const allLanguages = useMemo<LocaleOption[]>(() => {
+    const metadataByCode = new Map(localeMetadata.map((entry) => [entry.code, entry]));
+
+    return SUPPORTED_LOCALES.map((localeCode) => {
+      const metadata = metadataByCode.get(localeCode);
+      const codeUpper = localeCode.toUpperCase();
+      return {
+        code: localeCode,
+        name: metadata?.name || codeUpper,
+        nativeName: metadata?.nativeName || metadata?.name || codeUpper,
+        flag: metadata?.flag,
+        region: metadata?.region || metadata?.name || codeUpper,
+      };
+    });
+  }, [localeMetadata]);
+
   const currentLanguage = allLanguages.find((lang) => lang.code === currentLang);
   const filteredLanguages = useMemo(() => {
     const q = (searchTerm || '').toLowerCase();
@@ -256,8 +283,8 @@ export default function LanguageDropdown() {
             <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
-                  const flag = (lang as any).flag || '';
-                  const region = (lang as any).region || lang.name;
+                  const flag = lang.flag || '';
+                  const region = lang.region || lang.name;
                   const isSelected = currentLang === lang.code;
                   const isHighlighted = highlighted === idx;
                   return (
