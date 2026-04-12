@@ -12,6 +12,17 @@ type ItihasaClientProps = {
   initialLocale?: string;
 };
 
+function hasRenderableItihasaData(value: GenericRecord | undefined): boolean {
+  if (!value || typeof value !== "object") return false;
+  const meaning = typeof value.meaning === "string" && value.meaning.trim().length > 0;
+  const intro = typeof value.introduction === "string" && value.introduction.trim().length > 0;
+  const core = Array.isArray(value.core_purpose) && value.core_purpose.length > 0;
+  const features = Array.isArray(value.key_features) && value.key_features.length > 0;
+  const major = Array.isArray(value.major_itihasas) && value.major_itihasas.length > 0;
+  const concepts = Array.isArray(value.important_concepts) && value.important_concepts.length > 0;
+  return meaning || intro || core || features || major || concepts;
+}
+
 function FeatureCard({
   feature,
   explanation,
@@ -188,8 +199,10 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
   const { isLoading } = useLocale();
   const pageNs = useLocaleSection("itihasa");
   const hasPageNs = pageNs && typeof pageNs === "object" && Object.keys(pageNs).length > 0;
+  const pagePayload = (hasPageNs ? (pageNs as GenericRecord) : undefined);
+  const pageHasRenderableData = hasRenderableItihasaData(pagePayload);
   const root = hasPageNs
-    ? (pageNs as GenericRecord)
+    ? (pageHasRenderableData ? (pageNs as GenericRecord) : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord))
     : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord);
 
   const shouldShowLoader = isLoading && !hasPageNs && (!initialData || Object.keys(initialData).length === 0);

@@ -12,6 +12,17 @@ type PuranasClientProps = {
   initialLocale?: string;
 };
 
+function hasRenderablePuranasData(value: GenericRecord | undefined): boolean {
+  if (!value || typeof value !== "object") return false;
+  const meaning = typeof value.meaning === "string" && value.meaning.trim().length > 0;
+  const intro = typeof value.introduction === "string" && value.introduction.trim().length > 0;
+  const core = Array.isArray(value.core_purpose) && value.core_purpose.length > 0;
+  const features = Array.isArray(value.key_features) && value.key_features.length > 0;
+  const major = Array.isArray(value.major_puranas) && value.major_puranas.length > 0;
+  const concepts = Array.isArray(value.important_concepts) && value.important_concepts.length > 0;
+  return meaning || intro || core || features || major || concepts;
+}
+
 function formatLabel(str: string): string {
   return str
     .replace(/_/g, " ")
@@ -135,8 +146,10 @@ export default function PuranasClient({ initialData, initialLocale }: PuranasCli
   const { isLoading } = useLocale();
   const pageNs = useLocaleSection("puranas");
   const hasPageNs = pageNs && typeof pageNs === "object" && Object.keys(pageNs).length > 0;
+  const pagePayload = (hasPageNs ? (pageNs as GenericRecord) : undefined);
+  const pageHasRenderableData = hasRenderablePuranasData(pagePayload);
   const root = hasPageNs
-    ? (pageNs as GenericRecord)
+    ? (pageHasRenderableData ? (pageNs as GenericRecord) : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord))
     : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord);
 
   const shouldShowLoader = isLoading && !hasPageNs && (!initialData || Object.keys(initialData).length === 0);
