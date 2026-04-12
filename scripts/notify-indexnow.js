@@ -15,7 +15,7 @@ const cheerio = require('cheerio');
 const REPO_ROOT = path.resolve(__dirname, '..');
 const INDEXNOW_KEY = '2a479e7904db4130ab8154d6cc06d37d';
 
-console.log('Starting IndexNow notification...');
+// console.log('Starting IndexNow notification...');
 
 const sitemapPath = path.join(REPO_ROOT, 'public', 'sitemap.xml');
 
@@ -28,14 +28,14 @@ const xml = fs.readFileSync(sitemapPath, 'utf8');
 const $ = cheerio.load(xml, { xmlMode: true });
 const urls = [];
 
-console.log('Loaded sitemap XML.');
+// console.log('Loaded sitemap XML.');
 
 $('loc').each((i, el) => {
   urls.push($(el).text());
 });
 
-console.log(`Found ${urls.length} URLs in sitemap.`);
-console.log('First 5 URLs:', urls.slice(0, 5));
+// console.log(`Found ${urls.length} URLs in sitemap.`);
+// console.log('First 5 URLs:', urls.slice(0, 5));
 
 if (urls.length === 0) {
   console.log('No URLs to notify.');
@@ -58,15 +58,15 @@ fetch('https://www.bing.com/indexnow', {
   },
   body: data
 })
-.then(response => {
-  console.log(`IndexNow response: ${response.status}`);
-  if (response.status === 200 || response.status === 202) {
-    console.log('Successfully notified IndexNow.');
-  } else {
-    console.error('Failed to notify IndexNow.');
-    return response.text().then(text => console.error('Response:', text));
-  }
-})
-.catch(error => {
-  console.error('Error notifying IndexNow:', error);
-});
+  .then(response => {
+    // console.log(`IndexNow response: ${response.status}`);
+    if (response.status === 200 || response.status === 202) {
+      console.log('Successfully notified IndexNow.');
+    } else {
+      console.error('Failed to notify IndexNow.');
+      return response.text().then(text => console.error('Response:', text));
+    }
+  })
+  .catch(error => {
+    console.error('Error notifying IndexNow:', error);
+  });
