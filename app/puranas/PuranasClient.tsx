@@ -12,6 +12,17 @@ type PuranasClientProps = {
   initialLocale?: string;
 };
 
+function toRecord(value: unknown): GenericRecord {
+  return value && typeof value === "object" ? (value as GenericRecord) : {};
+}
+
+function mergeTopLevelData(base: GenericRecord, incoming: GenericRecord): GenericRecord {
+  return {
+    ...base,
+    ...incoming,
+  };
+}
+
 function hasRenderablePuranasData(value: GenericRecord | undefined): boolean {
   if (!value || typeof value !== "object") return false;
   const meaning = typeof value.meaning === "string" && value.meaning.trim().length > 0;
@@ -148,9 +159,12 @@ export default function PuranasClient({ initialData, initialLocale }: PuranasCli
   const hasPageNs = pageNs && typeof pageNs === "object" && Object.keys(pageNs).length > 0;
   const pagePayload = (hasPageNs ? (pageNs as GenericRecord) : undefined);
   const pageHasRenderableData = hasRenderablePuranasData(pagePayload);
+  const initialPayload = toRecord(initialData);
   const root = hasPageNs
-    ? (pageHasRenderableData ? (pageNs as GenericRecord) : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord))
-    : ((initialData && typeof initialData === "object" ? initialData : {}) as GenericRecord);
+    ? (pageHasRenderableData
+      ? mergeTopLevelData(initialPayload, toRecord(pageNs))
+      : initialPayload)
+    : initialPayload;
 
   const shouldShowLoader = isLoading && !hasPageNs && (!initialData || Object.keys(initialData).length === 0);
 
