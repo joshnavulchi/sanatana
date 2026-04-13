@@ -56,7 +56,7 @@ function main() {
           const hash = hashFile(file);
           const newName = renameWithHash(file, hash);
           updateReferences(file, newName);
-          console.log(`Renamed ${file} -> ${newName}`);
+          // console.log(`Renamed ${file} -> ${newName}`);
         }
       });
     });
