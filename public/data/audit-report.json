@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T05:47:36.908Z",
+  "generatedAt": "2026-04-13T05:52:18.878Z",
   "totalPages": 143,
   "passed": 139,
   "failed": 4,
@@ -21,6 +21,12 @@
       "score": 21
     },
     {
+      "page": "/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/googlec257c31c246db1c1",
       "status": "FAIL",
       "issues": [
@@ -38,12 +44,6 @@
         "HTML appears very small; check server-rendering"
       ],
       "score": 0
-    },
-    {
-      "page": "/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
     },
     {
       "page": "/404/",
@@ -73,13 +73,13 @@
       "score": 100
     },
     {
-      "page": "/donate/",
+      "page": "/cosmictime/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/cosmictime/",
+      "page": "/donate/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -92,12 +92,6 @@
     },
     {
       "page": "/itihasa/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/library-audit/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -157,13 +151,13 @@
       "score": 100
     },
     {
-      "page": "/vedas/",
+      "page": "/upanishads/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/upanishads/",
+      "page": "/vedas/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -196,13 +190,13 @@
       "score": 21
     },
     {
-      "page": "/itihasa/mahabharata/",
+      "page": "/itihasa/bhagavadgita/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/",
+      "page": "/itihasa/mahabharata/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -220,19 +214,13 @@
       "score": 100
     },
     {
-      "page": "/puranas/bhavishya/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/puranas/bhagavata/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/puranas/brahmanda/",
+      "page": "/puranas/bhavishya/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -244,13 +232,19 @@
       "score": 100
     },
     {
-      "page": "/puranas/garuda/",
+      "page": "/puranas/brahmanda/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/puranas/brahmavaivarta/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/puranas/garuda/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -268,13 +262,13 @@
       "score": 100
     },
     {
-      "page": "/puranas/matsya/",
+      "page": "/puranas/markandeya/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/puranas/markandeya/",
+      "page": "/puranas/matsya/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -322,37 +316,7 @@
       "score": 100
     },
     {
-      "page": "/vedas/atharvaveda/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/rigveda/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/upanishads/aitareya/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/upanishads/brihadaranyaka/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/yajurveda/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -364,13 +328,19 @@
       "score": 100
     },
     {
-      "page": "/upanishads/katha/",
+      "page": "/upanishads/brihadaranyaka/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/upanishads/isha/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/upanishads/katha/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -388,6 +358,12 @@
       "score": 100
     },
     {
+      "page": "/upanishads/maitri/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/upanishads/mandukya/",
       "status": "PASS",
       "issues": [],
@@ -400,19 +376,7 @@
       "score": 100
     },
     {
-      "page": "/upanishads/maitri/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/upanishads/prashna/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/upanishads/shvetashvatara/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -424,13 +388,49 @@
       "score": 100
     },
     {
-      "page": "/vedic-philosophy/advaita/",
+      "page": "/upanishads/shvetashvatara/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/atharvaveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/rigveda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/yajurveda/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/vedic-philosophy/bhakti/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedic-philosophy/advaita/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedic-philosophy/dharma/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -455,12 +455,6 @@
     },
     {
       "page": "/vedic-philosophy/purushartha/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedic-philosophy/dharma/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -496,13 +490,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter10/",
+      "page": "/itihasa/bhagavadgita/chapter1/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter1/",
+      "page": "/itihasa/bhagavadgita/chapter10/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -550,19 +544,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter2/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/itihasa/bhagavadgita/chapter18/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter4/",
+      "page": "/itihasa/bhagavadgita/chapter2/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -574,19 +562,25 @@
       "score": 100
     },
     {
+      "page": "/itihasa/bhagavadgita/chapter4/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
       "page": "/itihasa/bhagavadgita/chapter5/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter6/",
+      "page": "/itihasa/bhagavadgita/chapter7/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/bhagavadgita/chapter7/",
+      "page": "/itihasa/bhagavadgita/chapter6/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -604,19 +598,13 @@
       "score": 100
     },
     {
-      "page": "/itihasa/mahabharata/sabha-parva/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/itihasa/mahabharata/adi-parva/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/itihasa/mahabharata/vana-parva/",
+      "page": "/itihasa/mahabharata/sabha-parva/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -659,6 +647,12 @@
     },
     {
       "page": "/itihasa/ramayana/yuddha-kanda/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/itihasa/mahabharata/vana-parva/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -718,12 +712,6 @@
       "score": 100
     },
     {
-      "page": "/vedas/rigveda/madala10/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/vedas/atharvaveda/book9/",
       "status": "PASS",
       "issues": [],
@@ -731,6 +719,12 @@
     },
     {
       "page": "/vedas/rigveda/madala1/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/rigveda/madala10/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -778,25 +772,85 @@
       "score": 100
     },
     {
-      "page": "/vedas/yajurveda/chapter1/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
       "page": "/vedas/rigveda/madala9/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
-      "page": "/vedas/yajurveda/chapter2/",
+      "page": "/vedas/samaveda/chapter1/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter10/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter2/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter4/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter3/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter5/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter6/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter7/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter8/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/samaveda/chapter9/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/yajurveda/chapter1/",
       "status": "PASS",
       "issues": [],
       "score": 100
     },
     {
       "page": "/vedas/yajurveda/chapter10/",
+      "status": "PASS",
+      "issues": [],
+      "score": 100
+    },
+    {
+      "page": "/vedas/yajurveda/chapter2/",
       "status": "PASS",
       "issues": [],
       "score": 100
@@ -844,61 +898,7 @@
       "score": 100
     },
     {
-      "page": "/vedas/samaveda/chapter1/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter10/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter2/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter3/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter5/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter4/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter6/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter7/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter8/",
-      "status": "PASS",
-      "issues": [],
-      "score": 100
-    },
-    {
-      "page": "/vedas/samaveda/chapter9/",
+      "page": "/library-audit/",
       "status": "PASS",
       "issues": [],
       "score": 100
