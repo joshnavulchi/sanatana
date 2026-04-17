@@ -219,7 +219,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-amber-600 overflow-hidden">
+      <footer className="w-full relative      bg-[linear-gradient(to_top, yellow, red, orange, violet blue)] overflow-hidden">
         <div className="hidden h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
