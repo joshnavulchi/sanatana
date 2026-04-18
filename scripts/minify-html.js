@@ -54,7 +54,7 @@ async function main() {
         keepClosingSlash: false,
       });
       await fs.writeFile(file, res, 'utf8');
-      console.log('Minified', path.relative(REPO_ROOT, file));
+      // console.log('Minified', path.relative(REPO_ROOT, file));
     } catch (err) {
       console.error('Failed to minify', file, err);
     }
