@@ -1,324 +1,324 @@
 {
-  "upanishads": {
-    "title": "108 Upanishads",
-    "description": "The 108 Upanishads are sacred philosophical texts of Sanatana Dharma exploring Brahman, Atman, liberation and ultimate reality.",
-    "meta": {
-      "title": "108 Upanishads – Teachings on Brahman and Renunciation",
-      "description": "The Isha Upanishad from the Shukla Yajurveda explores the unity of Atman and Brahman, renunciation, and the spiritual philosophy of Sanatana Dharma.",
-      "canonical": "https://sanatanadharmam.in/upanishads/isha",
-      "keywords": [
-        "108 Upanishads",
-        "Isha Upanishad",
-        "Upanishads philosophy",
-        "Vedanta teachings",
-        "Atman and Brahman",
-        "Vedic scriptures",
-        "Sanatana Dharma Upanishads"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/upanishads/isha"
-    },
-    "openGraph": {
-      "title": "Isha Upanishad – Sacred Vedantic Text",
-      "description": "Explore the teachings of the Isha Upanishad discussing Brahman, Atman and renunciation in the Vedic tradition.",
-      "images": [
-        {
-          "alt": "Isha Upanishad",
-          "height": 630,
-          "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
-          "width": 1200
-        }
-      ],
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "url": "https://sanatanadharmam.in/upanishads/isha"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Book",
-          "about": [
-            "Vedanta philosophy",
-            "Atman",
-            "Brahman",
-            "Sanatana Dharma"
-          ],
-          "inLanguage": "Sanskrit",
-          "isPartOf": {
-            "@type": "Book",
-            "name": "Upanishads"
-          },
-          "name": "Isha Upanishad",
-          "url": "https://sanatanadharmam.in/upanishads/isha"
+    "upanishads": {
+        "title": "108 उपनिषद",
+        "description": "108 उपनिषद ब्रह्म, आत्मा, मुक्ति और परम वास्तविकता की खोज करने वाले सनातन धर्म के पवित्र दार्शनिक ग्रंथ हैं।",
+        "meta": {
+            "title": "108 उपनिषद - ब्राह्मण और त्याग पर शिक्षाएँ",
+            "description": "शुक्ल यजुर्वेद से ईशा उपनिषद आत्मा और ब्रह्म की एकता, त्याग और सनातन धर्म के आध्यात्मिक दर्शन की पड़ताल करता है।",
+            "canonical": "https://sanatanadharmam.in/upanishads/isha",
+            "keywords": [
+                "108 उपनिषद",
+                "ईशा उपनिषद",
+                "उपनिषद दर्शन",
+                "वेदांत शिक्षाएँ",
+                "आत्मा और ब्रह्म",
+                "वैदिक शास्त्र",
+                "सनातन धर्म उपनिषद"
+            ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/upanishads/isha"
         },
-        {
-          "@type": "Article",
-          "about": [
-            "Upanishads",
-            "Vedanta",
-            "Brahman",
-            "Atman"
-          ],
-          "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          }
-        }
-      ]
-    },
-    "meaning": "The word 'Upanishad' means 'sitting near a teacher' to gain deep knowledge. It represents learning directly from a wise teacher about truth and life.",
-    "introduction": "The Upanishads are philosophical teachings that explain the deeper meaning of life, the self, and the universe. They focus on inner understanding rather than external rituals. They guide a person from ignorance to knowledge and from confusion to clarity.",
-    "core_purpose": [
-      "To understand the true nature of reality",
-      "To discover the inner self (Atman)",
-      "To explain the ultimate truth (Brahman)",
-      "To guide humans toward freedom from suffering (Moksha)"
-    ],
-    "key_teachings": [
-      {
-        "concept": "Atman (Self)",
-        "explanation": "Your real identity is not your body or mind, but your inner consciousness. This is eternal and does not change.",
-        "deep_understanding": [
-          "You are not your thoughts or emotions",
-          "Your true self is peaceful and unchanging",
-          "Knowing your true self removes fear and confusion"
-        ]
-      },
-      {
-        "concept": "Brahman (Ultimate Reality)",
-        "explanation": "Brahman is the infinite reality that exists everywhere and in everything.",
-        "deep_understanding": [
-          "Everything in the universe is connected through Brahman",
-          "It is beyond form, name, and limitations",
-          "It is pure existence, knowledge, and bliss"
-        ]
-      },
-      {
-        "concept": "Atman = Brahman",
-        "explanation": "The Upanishads teach that your inner self (Atman) and the ultimate reality (Brahman) are one.",
-        "deep_understanding": [
-          "You are not separate from the universe",
-          "Realizing this unity is true knowledge",
-          "This realization brings complete freedom"
-        ]
-      },
-      {
-        "concept": "Moksha (Liberation)",
-        "explanation": "Freedom from suffering and the cycle of birth and death.",
-        "deep_understanding": [
-          "Achieved through self-knowledge, not external success",
-          "Removes ignorance and attachment",
-          "Leads to permanent peace and fulfillment"
-        ]
-      },
-      {
-        "concept": "Ignorance (Avidya)",
-        "explanation": "Not knowing your true self is the root of suffering.",
-        "deep_understanding": [
-          "People identify with body and mind instead of true self",
-          "This creates fear, desire, and confusion",
-          "Knowledge removes ignorance"
-        ]
-      }
-    ],
-    "famous_mahavakyas": [
-      {
-        "statement": "Tat Tvam Asi",
-        "meaning": "You are That",
-        "simple_explanation": "Your true self is the same as the ultimate reality"
-      },
-      {
-        "statement": "Aham Brahmasmi",
-        "meaning": "I am Brahman",
-        "simple_explanation": "I am not separate from the universe"
-      },
-      {
-        "statement": "Prajnanam Brahma",
-        "meaning": "Consciousness is Brahman",
-        "simple_explanation": "Pure awareness is the ultimate truth"
-      },
-      {
-        "statement": "Ayam Atma Brahma",
-        "meaning": "This self is Brahman",
-        "simple_explanation": "Your inner self is divine reality"
-      }
-    ],
-    "major_upanishads": [
-      {
-        "name": "Isha Upanishad",
-        "focus": "Living in the world with spiritual awareness",
-        "simple_understanding": "Balance material life and spiritual wisdom"
-      },
-      {
-        "name": "Kena Upanishad",
-        "focus": "Source of mind and senses",
-        "simple_understanding": "The power behind thinking and perception is divine"
-      },
-      {
-        "name": "Katha Upanishad",
-        "focus": "Life, death, and the soul",
-        "simple_understanding": "Understanding death leads to understanding life"
-      },
-      {
-        "name": "Mundaka Upanishad",
-        "focus": "Higher knowledge vs lower knowledge",
-        "simple_understanding": "Spiritual knowledge is greater than material knowledge"
-      },
-      {
-        "name": "Mandukya Upanishad",
-        "focus": "Nature of consciousness",
-        "simple_understanding": "Explains waking, dream, deep sleep, and pure awareness"
-      },
-      {
-        "name": "Chandogya Upanishad",
-        "focus": "Meditation and inner truth",
-        "simple_understanding": "Everything is connected to one reality"
-      },
-      {
-        "name": "Brihadaranyaka Upanishad",
-        "focus": "Deep philosophical inquiry",
-        "simple_understanding": "Explores self, universe, and ultimate truth in depth"
-      }
-    ],
-    "learning_path": [
-      "Start by understanding the idea of the self (Atman)",
-      "Learn about the universal reality (Brahman)",
-      "Reflect on the unity of Atman and Brahman",
-      "Practice self-awareness and observation",
-      "Gradually move toward deeper understanding and realization"
-    ],
-    "modern_relevance": [
-      "Helps reduce stress by understanding the true self",
-      "Gives clarity about purpose and identity",
-      "Encourages mindfulness and self-awareness",
-      "Provides deep answers to existential questions",
-      "Promotes inner peace in a fast-paced world"
-    ],
-    "categories": {
-      "atharvaveda": [
-        "Prashna",
-        "Mundaka",
-        "Mandukya",
-        "Atharvashira",
-        "Atharvashikha",
-        "Brihajjabala",
-        "Nrisimhatapini",
-        "Narada Parivrajaka",
-        "Sita",
-        "Sharabha",
-        "Mahanarayana",
-        "Ramatapini",
-        "Rama Rahasya",
-        "Rama Uttara",
-        "Gopala Tapini",
-        "Krishna",
-        "Hayagriva",
-        "Dattatreya",
-        "Garuda",
-        "Kali Santarana",
-        "Bhavana",
-        "Rudra",
-        "Sannyasa",
-        "Paramahamsa Parivrajaka",
-        "Annapurna",
-        "Surya",
-        "Atma",
-        "Pashupata",
-        "Parabrahma",
-        "Tripuratapini",
-        "Devi",
-        "Tripura",
-        "Bhavanopanishad"
-      ],
-      "krishna_yajurveda": [
-        "Katha",
-        "Taittiriya",
-        "Brahma",
-        "Kaivalya",
-        "Shvetashvatara",
-        "Garbh",
-        "Narayana",
-        "Amritabindu",
-        "Amritanada",
-        "Kalagnirudra",
-        "Kshurika",
-        "Sarvasara",
-        "Sukarahasya",
-        "Tejobindu",
-        "Dhyanabindu",
-        "Brahmavidya",
-        "Yogatattva",
-        "Dakshinamurti",
-        "Skanda",
-        "Shariraka",
-        "Yogashikha",
-        "Ekakshara",
-        "Akshi",
-        "Avadhuta",
-        "Katharudra",
-        "Rudrahridaya",
-        "Yoga Kundalini",
-        "Panchabrahma",
-        "Pranagnihotra",
-        "Varaha",
-        "Kali Santarana",
-        "Sarasvatirahasya"
-      ],
-      "rigveda": [
-        "Aitareya",
-        "Kaushitaki",
-        "Nadabindu",
-        "Atmabodha",
-        "Nirvana",
-        "Mudgala",
-        "Akshamalika",
-        "Tripura",
-        "Saubhagyalakshmi",
-        "Bahvricha"
-      ],
-      "samaveda": [
-        "Kena",
-        "Chandogya",
-        "Aruni",
-        "Maitrayani",
-        "Maitreya",
-        "Vajrasuchika",
-        "Yogachudamani",
-        "Vasudeva",
-        "Mahat",
-        "Sannyasa",
-        "Avyakta",
-        "Kundika",
-        "Savitri",
-        "Rudraksha",
-        "Darshana",
-        "Jabali"
-      ],
-      "shukla_yajurveda": [
-        "Isha",
-        "Brihadaranyaka",
-        "Jabala",
-        "Hamsa",
-        "Paramahamsa",
-        "Subala",
-        "Mantrika",
-        "Niralamba",
-        "Trishikhi Brahmana",
-        "Mandala Brahmana",
-        "Advayataraka",
-        "Paingala",
-        "Bhikshuka",
-        "Turiyatita",
-        "Adhyatma",
-        "Tarasara",
-        "Yajnavalkya",
-        "Shatyayani",
-        "Muktika"
-      ]
-    },
-    "total": 108
-  }
+        "openGraph": {
+            "title": "ईशा उपनिषद - पवित्र वेदांत पाठ",
+            "description": "वैदिक परंपरा में ब्रह्म, आत्मा और त्याग पर चर्चा करने वाली ईशा उपनिषद की शिक्षाओं का अन्वेषण करें।",
+            "images": [
+                {
+                    "alt": "Isha Upanishad",
+                    "height": 630,
+                    "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
+                    "width": 1200
+                }
+            ],
+            "siteName": "सनातनधर्मम्",
+            "type": "लेख",
+            "url": "https://sanatanadharmam.in/upanishads/isha"
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "किताब",
+                    "about": [
+                        "वेदांत दर्शन",
+                        "आत्मन",
+                        "ब्रह्म",
+                        "सनातन धर्म"
+                    ],
+                    "inLanguage": "संस्कृत",
+                    "isPartOf": {
+                        "@type": "किताब",
+                        "name": "उपनिषदों"
+                    },
+                    "name": "ईशा उपनिषद",
+                    "url": "https://sanatanadharmam.in/upanishads/isha"
+                },
+                {
+                    "@type": "लेख",
+                    "about": [
+                        "उपनिषदों",
+                        "वेदांत",
+                        "ब्रह्म",
+                        "आत्मन"
+                    ],
+                    "headline": "ईशा उपनिषद - ब्राह्मण और त्याग पर शिक्षा",
+                    "isPartOf": {
+                        "@type": "वेबसाइट",
+                        "name": "सनातनधर्मम्",
+                        "url": "https://sanatanadharmam.in"
+                    }
+                }
+            ]
+        },
+        "meaning": "'उपनिषद' शब्द का अर्थ है 'गुरु के पास बैठकर गहन ज्ञान प्राप्त करना'। यह सत्य और जीवन के बारे में एक बुद्धिमान शिक्षक से सीधे सीखने का प्रतिनिधित्व करता है।",
+        "introduction": "उपनिषद दार्शनिक शिक्षाएँ हैं जो जीवन, स्वयं और ब्रह्मांड के गहरे अर्थ को समझाती हैं। वे बाहरी अनुष्ठानों के बजाय आंतरिक समझ पर ध्यान केंद्रित करते हैं। वे व्यक्ति को अज्ञान से ज्ञान की ओर और भ्रम से स्पष्टता की ओर मार्गदर्शन करते हैं।",
+        "core_purpose": [
+            "वास्तविकता के वास्तविक स्वरूप को समझना",
+            "आंतरिक स्व (आत्मान) की खोज करना",
+            "परम सत्य (ब्राह्मण) को समझाने के लिए",
+            "मनुष्यों को दुख से मुक्ति (मोक्ष) की ओर मार्गदर्शन करना"
+        ],
+        "key_teachings": [
+            {
+                "concept": "आत्मा (स्वयं)",
+                "explanation": "आपकी असली पहचान आपका शरीर या मन नहीं, बल्कि आपकी आंतरिक चेतना है। यह शाश्वत है और बदलता नहीं है.",
+                "deep_understanding": [
+                    "आप अपने विचार या भावनाएँ नहीं हैं",
+                    "आपका सच्चा स्व शांतिपूर्ण और अपरिवर्तनीय है",
+                    "अपने सच्चे स्वरूप को जानने से भय और भ्रम दूर हो जाता है"
+                ]
+            },
+            {
+                "concept": "ब्रह्म (अंतिम वास्तविकता)",
+                "explanation": "ब्रह्म अनंत वास्तविकता है जो हर जगह और हर चीज में मौजूद है।",
+                "deep_understanding": [
+                    "ब्रह्मांड में सब कुछ ब्रह्म के माध्यम से जुड़ा हुआ है",
+                    "यह रूप, नाम और सीमाओं से परे है",
+                    "यह शुद्ध अस्तित्व, ज्ञान और आनंद है"
+                ]
+            },
+            {
+                "concept": "आत्मा = ब्रह्म",
+                "explanation": "उपनिषद सिखाते हैं कि आपका आंतरिक स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) एक हैं।",
+                "deep_understanding": [
+                    "आप ब्रह्मांड से अलग नहीं हैं",
+                    "इस एकता का एहसास ही सच्चा ज्ञान है",
+                    "यह अहसास पूर्ण स्वतंत्रता लाता है"
+                ]
+            },
+            {
+                "concept": "मोक्ष (मुक्ति)",
+                "explanation": "कष्ट और जन्म-मृत्यु के चक्र से मुक्ति।",
+                "deep_understanding": [
+                    "आत्म-ज्ञान से हासिल की जाती है, बाहरी सफलता से नहीं",
+                    "अज्ञान और मोह को दूर करता है",
+                    "स्थायी शांति और पूर्णता की ओर ले जाता है"
+                ]
+            },
+            {
+                "concept": "अज्ञान (अविद्या)",
+                "explanation": "अपने वास्तविक स्वरूप को न जानना ही दुख की जड़ है।",
+                "deep_understanding": [
+                    "लोग सच्चे स्व के बजाय शरीर और मन से पहचान करते हैं",
+                    "इससे भय, इच्छा और भ्रम पैदा होता है",
+                    "ज्ञान अज्ञान को दूर करता है"
+                ]
+            }
+        ],
+        "famous_mahavakyas": [
+            {
+                "statement": "तत् त्वम् असि",
+                "meaning": "तुम वह हो",
+                "simple_explanation": "आपका सच्चा स्वंय परम वास्तविकता के समान है"
+            },
+            {
+                "statement": "अहं ब्रह्मास्मि",
+                "meaning": "मैं ब्रह्म हूं",
+                "simple_explanation": "मैं ब्रह्मांड से अलग नहीं हूं"
+            },
+            {
+                "statement": "प्रज्ञानं ब्रह्मा",
+                "meaning": "चेतना ही ब्रह्म है",
+                "simple_explanation": "शुद्ध जागरूकता ही अंतिम सत्य है"
+            },
+            {
+                "statement": "अयं आत्मा ब्रह्म",
+                "meaning": "यह आत्मा ही ब्रह्म है",
+                "simple_explanation": "आपका आंतरिक स्वंय दिव्य वास्तविकता है"
+            }
+        ],
+        "major_upanishads": [
+            {
+                "name": "ईशा उपनिषद",
+                "focus": "आध्यात्मिक जागरूकता के साथ दुनिया में रहना",
+                "simple_understanding": "भौतिक जीवन और आध्यात्मिक ज्ञान को संतुलित करें"
+            },
+            {
+                "name": "केना उपनिषद",
+                "focus": "मन और इंद्रियों का स्रोत",
+                "simple_understanding": "सोच और धारणा के पीछे की शक्ति दिव्य है"
+            },
+            {
+                "name": "कथा उपनिषद",
+                "focus": "जीवन, मृत्यु और आत्मा",
+                "simple_understanding": "मृत्यु को समझने से जीवन को समझने में मदद मिलती है"
+            },
+            {
+                "name": "मुंडका उपनिषद",
+                "focus": "उच्च ज्ञान बनाम निम्न ज्ञान",
+                "simple_understanding": "आध्यात्मिक ज्ञान भौतिक ज्ञान से बड़ा है"
+            },
+            {
+                "name": "मांडूक्य उपनिषद",
+                "focus": "चेतना की प्रकृति",
+                "simple_understanding": "जाग्रत, स्वप्न, सुषुप्ति और शुद्ध जागरूकता की व्याख्या करता है"
+            },
+            {
+                "name": "छांदोग्य उपनिषद",
+                "focus": "ध्यान और आंतरिक सत्य",
+                "simple_understanding": "सब कुछ एक वास्तविकता से जुड़ा हुआ है"
+            },
+            {
+                "name": "बृहदारण्यक उपनिषद",
+                "focus": "गहन दार्शनिक पूछताछ",
+                "simple_understanding": "स्वयं, ब्रह्मांड और परम सत्य की गहराई से खोज करता है"
+            }
+        ],
+        "learning_path": [
+            "Start by understanding the idea of the self (Atman)",
+            "Learn about the universal reality (Brahman)",
+            "Reflect on the unity of Atman and Brahman",
+            "Practice self-awareness and observation",
+            "Gradually move toward deeper understanding and realization"
+        ],
+        "modern_relevance": [
+            "वास्तविक स्व को समझकर तनाव कम करने में मदद करता है",
+            "उद्देश्य और पहचान के बारे में स्पष्टता देता है",
+            "सचेतनता और आत्म-जागरूकता को प्रोत्साहित करता है",
+            "अस्तित्वगत प्रश्नों के गहन उत्तर प्रदान करता है",
+            "तेजी से भागती दुनिया में आंतरिक शांति को बढ़ावा देता है"
+        ],
+        "categories": {
+            "atharvaveda": [
+                "प्रश्न",
+                "मुंडका",
+                "माण्डूक्य",
+                "अथर्वशिरा",
+                "अथर्वशिखा",
+                "बृहज्जबाला",
+                "नृसिंहतापिनी",
+                "नारद परिव्राजक",
+                "सीता",
+                "शरभा",
+                "महनारायण",
+                "रामतापिनी",
+                "राम रहस्य",
+                "राम उत्तर",
+                "गोपाला तापिनी",
+                "कृष्ण",
+                "हयग्रीव",
+                "दत्तात्रेय",
+                "गरुड़",
+                "काली संतराना",
+                "भवन",
+                "रूद्र",
+                "संन्यास",
+                "परमहंस परिव्राजक",
+                "अन्नपूर्णा",
+                "सूर्य",
+                "आत्मा",
+                "पाशुपत",
+                "पारब्रह्म",
+                "त्रिपुरतापिनी",
+                "देवी",
+                "त्रिपुरा",
+                "भवनोपनिषद"
+            ],
+            "krishna_yajurveda": [
+                "कथा",
+                "तैत्रीय",
+                "ब्रह्मा",
+                "कैवल्य",
+                "श्वेताश्वतारा",
+                "गर्भ",
+                "नारायण",
+                "अमृतबिंदु",
+                "अमृतानंद",
+                "कालाग्निरुद्र",
+                "क्षुरिका",
+                "सर्वसरा",
+                "शुक्रहस्य",
+                "तेजोबिंदु",
+                "ध्यानबिंदु",
+                "ब्रह्मविद्या",
+                "योगतत्त्व",
+                "दक्षिणामूर्ति",
+                "स्कन्द",
+                "शारिरका",
+                "योगशिखा",
+                "एकाक्षर",
+                "अक्षी",
+                "अवधूत",
+                "कथारुद्र",
+                "रुद्रहृदय",
+                "योग कुण्डलिनी",
+                "पंचब्रह्म",
+                "प्राणाग्निहोत्र",
+                "वराह",
+                "काली संतराना",
+                "सरस्वतीरहस्य"
+            ],
+            "rigveda": [
+                "ऐतरेय",
+                "कौशीताकी",
+                "नादबिंदु",
+                "आत्मबोध",
+                "निर्वाण",
+                "मुदगला",
+                "अक्षमालिका",
+                "त्रिपुरा",
+                "सौभाग्यलक्ष्मी",
+                "बहवृचा"
+            ],
+            "samaveda": [
+                "केना",
+                "चंडोज्ञ",
+                "अरुणि",
+                "मैत्रायणी",
+                "मैत्रेय",
+                "वज्रसूचिका",
+                "योगचूड़ामणि",
+                "वासुदेव",
+                "महत",
+                "संन्यास",
+                "अव्यक्त",
+                "कुण्डिका",
+                "सावित्री",
+                "रूद्राक्ष",
+                "दर्शन",
+                "जाबली"
+            ],
+            "shukla_yajurveda": [
+                "ईशा",
+                "बृहदअरण्यक",
+                "जबला",
+                "हम्सा",
+                "परमहंस",
+                "सुबाला",
+                "मांत्रिका",
+                "निरालाम्बा",
+                "त्रिशिखि ब्राह्मण",
+                "मंडला ब्राह्मण",
+                "अद्वैतरक",
+                "पिंगला",
+                "भिक्षुक",
+                "तुरियातिता",
+                "अध्यात्म",
+                "तारासरा",
+                "याज्ञवल्क्य",
+                "शात्यायनी",
+                "मुक्तिका"
+            ]
+        },
+        "total": 108
+    }
 }
