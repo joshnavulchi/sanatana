@@ -1,0 +1,518 @@
+{
+  "shakti_peethas": {
+    "title": "Shakti Peethas | Sanātana Dharma - The Eternal Way of Life",
+    "meta": {
+      "title": "Shakti Peethas | Sanātana Dharma - The Eternal Way of Life",
+      "canonical": "https://sanatanadharmam.in/shakti-peethas",
+      "keywords": [
+        "Shakti Peethas",
+        "Shakti Peethas Architecture",
+        "Shakti Peethas Art and Iconography",
+        "Shakti Peethas Culture",
+        "Shakti Peethas Devotees",
+        "Shakti Peethas Festivals",
+        "Shakti Peethas History",
+        "Shakti Peethas Legends",
+        "Shakti Peethas List",
+        "Shakti Peethas Map",
+        "Shakti Peethas Mythology",
+        "Shakti Peethas Pilgrimage",
+        "Shakti Peethas Rituals",
+        "Shakti Peethas Significance",
+        "Shakti Peethas Significance in Ancient Wisdom",
+        "Shakti Peethas Significance in Ancient Wisdom Facts",
+        "Shakti Peethas Significance in Ayurveda",
+        "Shakti Peethas Significance in Ayurveda Facts",
+        "Shakti Peethas Significance in Bhagavad Gita",
+        "Shakti Peethas Significance in Bhagavad Gita Facts",
+        "Shakti Peethas Significance in Deities",
+        "Shakti Peethas Significance in Deities Facts",
+        "Shakti Peethas Significance in Festivals and Traditions",
+        "Shakti Peethas Significance in Festivals and Traditions Facts",
+        "Shakti Peethas Significance in Hindu Mythology",
+        "Shakti Peethas Significance in Hindu Mythology Facts",
+        "Shakti Peethas Significance in Hinduism",
+        "Shakti Peethas Significance in Hinduism Facts",
+        "Shakti Peethas Significance in Indian Culture",
+        "Shakti Peethas Significance in Indian Culture Facts",
+        "Shakti Peethas Significance in Indian Festivals",
+        "Shakti Peethas Significance in Indian Festivals Facts",
+        "Shakti Peethas Significance in Indian Philosophy",
+        "Shakti Peethas Significance in Indian Philosophy Facts",
+        "Shakti Peethas Significance in Mahabharata",
+        "Shakti Peethas Significance in Mahabharata Facts",
+        "Shakti Peethas Significance in Mythology",
+        "Shakti Peethas Significance in Mythology Facts",
+        "Shakti Peethas Significance in Philosophy",
+        "Shakti Peethas Significance in Philosophy Facts",
+        "Shakti Peethas Significance in Pilgrimage",
+        "Shakti Peethas Significance in Pilgrimage Facts",
+        "Shakti Peethas Significance in Puranas",
+        "Shakti Peethas Significance in Puranas Facts",
+        "Shakti Peethas Significance in Ramayana",
+        "Shakti Peethas Significance in Ramayana Facts",
+        "Shakti Peethas Significance in Religious Knowledge",
+        "Shakti Peethas Significance in Religious Knowledge Facts",
+        "Shakti Peethas Significance in Rituals",
+        "Shakti Peethas Significance in Rituals Facts",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge Facts",
+        "Shakti Peethas Significance in Sanskrit",
+        "Shakti Peethas Significance in Sanskrit Facts",
+        "Shakti Peethas Significance in Scriptures",
+        "Shakti Peethas Significance in Scriptures Facts",
+        "Shakti Peethas Significance in Spiritual Practices",
+        "Shakti Peethas Significance in Spiritual Practices Facts",
+        "Shakti Peethas Significance in Spirituality",
+        "Shakti Peethas Significance in Spirituality Facts",
+        "Shakti Peethas Significance in Temples",
+        "Shakti Peethas Significance in Temples Facts",
+        "Shakti Peethas Significance in Upanishads",
+        "Shakti Peethas Significance in Upanishads Facts",
+        "Shakti Peethas Significance in Vedas",
+        "Shakti Peethas Significance in Vedas Facts",
+        "Shakti Peethas Significance in Yoga and Meditation",
+        "Shakti Peethas Significance in Yoga and Meditation Facts",
+        "Shakti Peethas Spirituality",
+        "Shakti Peethas Stories",
+        "Shakti Peethas Temples",
+        "Shakti Peethas Worship"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/shakti-peethas"
+    },
+    "peethas": [
+      {
+        "bhairava": "Umananda",
+        "body_part": "Yoni (Womb)",
+        "id": 1,
+        "location": "Guwahati, Assam, India",
+        "name": "Kamakhya",
+        "shakti": "Kamakhya"
+      },
+      {
+        "bhairava": "Bhairav",
+        "body_part": "Fingers",
+        "id": 2,
+        "location": "Allahabad, Uttar Pradesh, India",
+        "name": "Prayag (Lalita)",
+        "shakti": "Lalita"
+      },
+      {
+        "bhairava": "Vatsnabh",
+        "body_part": "Navel",
+        "id": 3,
+        "location": "Mirpur, Bangladesh",
+        "name": "Kamarupa (Sharvani)",
+        "shakti": "Sharvani"
+      },
+      {
+        "bhairava": "Unmatta",
+        "body_part": "Tongue",
+        "id": 4,
+        "location": "Kangra, Himachal Pradesh, India",
+        "name": "Jwalamukhi",
+        "shakti": "Siddhida"
+      },
+      {
+        "bhairava": "Bhimalochan",
+        "body_part": "Brahmarandhra",
+        "id": 5,
+        "location": "Balochistan, Pakistan",
+        "name": "Hinglaj",
+        "shakti": "Hingula"
+      },
+      {
+        "bhairava": "Trikambak",
+        "body_part": "Skull",
+        "id": 6,
+        "location": "Jammu, India",
+        "name": "Vaishno Devi",
+        "shakti": "Mahamaya"
+      },
+      {
+        "bhairava": "Nakuleshwar",
+        "body_part": "Toes (Right Foot)",
+        "id": 7,
+        "location": "Kolkata, West Bengal, India",
+        "name": "Kalighat",
+        "shakti": "Kalika"
+      },
+      {
+        "bhairava": "Mahakal",
+        "body_part": "Upper Lip",
+        "id": 8,
+        "location": "Ujjain, Madhya Pradesh, India",
+        "name": "Ujjain (Avanti)",
+        "shakti": "Mahakali"
+      },
+      {
+        "bhairava": "Vishwesh",
+        "body_part": "Lower Lip",
+        "id": 9,
+        "location": "Labhpur, West Bengal, India",
+        "name": "Attahas",
+        "shakti": "Phullara"
+      },
+      {
+        "bhairava": "Bhutesh",
+        "body_part": "Heart",
+        "id": 10,
+        "location": "Sitapur, Uttar Pradesh, India",
+        "name": "Naimisharanya",
+        "shakti": "Lingadharani"
+      },
+      {
+        "bhairava": "Krodhish",
+        "body_part": "Eyes",
+        "id": 11,
+        "location": "Kolhapur, Maharashtra, India",
+        "name": "Kolhapur (Karveer)",
+        "shakti": "Mahalaxmi"
+      },
+      {
+        "bhairava": "Shambaranand",
+        "body_part": "Right Anklet",
+        "id": 12,
+        "location": "Srisailam, Andhra Pradesh, India",
+        "name": "Shri Parvat (Srisailam)",
+        "shakti": "Shivarani"
+      },
+      {
+        "bhairava": "Ishwar",
+        "body_part": "Left Leg",
+        "id": 13,
+        "location": "Jalpaiguri, West Bengal, India",
+        "name": "Trisrota (Bhramari)",
+        "shakti": "Bhramari"
+      },
+      {
+        "bhairava": "Kapali",
+        "body_part": "Knees",
+        "id": 14,
+        "location": "Kathmandu, Nepal",
+        "name": "Guhyeshwari",
+        "shakti": "Mahashira"
+      },
+      {
+        "bhairava": "Kalabhairav",
+        "body_part": "Earrings",
+        "id": 15,
+        "location": "Varanasi, Uttar Pradesh, India",
+        "name": "Manikarnika (Varanasi)",
+        "shakti": "Vishalakshi"
+      },
+      {
+        "bhairava": "Rudrananda",
+        "body_part": "Head",
+        "id": 16,
+        "location": "Chintpurni, Himachal Pradesh, India",
+        "name": "Chhinnamastika",
+        "shakti": "Chhinnamastika"
+      },
+      {
+        "bhairava": "Amsha",
+        "body_part": "Hair",
+        "id": 17,
+        "location": "Mathura, Uttar Pradesh, India",
+        "name": "Katyayani",
+        "shakti": "Katyayani"
+      },
+      {
+        "bhairava": "Trilochan",
+        "body_part": "Left Breast",
+        "id": 18,
+        "location": "Jalandhar, Punjab, India",
+        "name": "Tripurmalini",
+        "shakti": "Tripurmalini"
+      },
+      {
+        "bhairava": "Sthanu",
+        "body_part": "Right Ankle",
+        "id": 19,
+        "location": "Kurukshetra, Haryana, India",
+        "name": "Savitri",
+        "shakti": "Savitri"
+      },
+      {
+        "bhairava": "Yam",
+        "body_part": "Right Side of Body",
+        "id": 20,
+        "location": "Patna, Bihar, India",
+        "name": "Magadha",
+        "shakti": "Magadha"
+      },
+      {
+        "bhairava": "Amar",
+        "body_part": "Right Palm",
+        "id": 21,
+        "location": "Burang, Tibet",
+        "name": "Dakshayani",
+        "shakti": "Dakshayani"
+      },
+      {
+        "bhairava": "Krodhish",
+        "body_part": "Third Eye Area",
+        "id": 22,
+        "location": "Kolhapur, Maharashtra",
+        "name": "Mahishasuramardini",
+        "shakti": "Mahishasuramardini"
+      },
+      {
+        "bhairava": "Ambar",
+        "body_part": "Chin",
+        "id": 23,
+        "location": "Nashik, Maharashtra, India",
+        "name": "Bhramari (Nashik)",
+        "shakti": "Bhramari"
+      },
+      {
+        "bhairava": "Batuk Bhairav",
+        "body_part": "Heart",
+        "id": 24,
+        "location": "Ambaji, Gujarat, India",
+        "name": "Ambaji",
+        "shakti": "Ambaji"
+      },
+      {
+        "bhairava": "Sarvanand",
+        "body_part": "Wrist",
+        "id": 25,
+        "location": "Pushkar, Rajasthan, India",
+        "name": "Gayatri",
+        "shakti": "Gayatri"
+      },
+      {
+        "bhairava": "Bhairav",
+        "body_part": "Left Foot",
+        "id": 26,
+        "location": "Bharatpur, Rajasthan, India",
+        "name": "Ambika",
+        "shakti": "Ambika"
+      },
+      {
+        "bhairava": "Kapalbhairav",
+        "body_part": "Left Cheek",
+        "id": 27,
+        "location": "East Godavari, Andhra Pradesh",
+        "name": "Sarvashail",
+        "shakti": "Sarvashail"
+      },
+      {
+        "bhairava": "Bhimabhairav",
+        "body_part": "Back & Spine",
+        "id": 28,
+        "location": "Kanyakumari, Tamil Nadu",
+        "name": "Sravani",
+        "shakti": "Sravani"
+      },
+      {
+        "bhairava": "Mallikarjuna",
+        "body_part": "Right Anklet",
+        "id": 29,
+        "location": "Kurnool, Andhra Pradesh",
+        "name": "Bhramaramba",
+        "shakti": "Bhramaramba"
+      },
+      {
+        "bhairava": "Nayakar",
+        "body_part": "Upper Teeth",
+        "id": 30,
+        "location": "Kanyakumari, Tamil Nadu",
+        "name": "Narayani",
+        "shakti": "Narayani"
+      },
+      {
+        "bhairava": "Vishwesh",
+        "body_part": "Lower Lip",
+        "id": 31,
+        "location": "Birbhum, West Bengal",
+        "name": "Phullara",
+        "shakti": "Phullara"
+      },
+      {
+        "bhairava": "Bhiruk",
+        "body_part": "Left Arm",
+        "id": 32,
+        "location": "Birbhum, West Bengal",
+        "name": "Bahula",
+        "shakti": "Bahula"
+      },
+      {
+        "bhairava": "Nandikeshwar",
+        "body_part": "Necklace",
+        "id": 33,
+        "location": "Birbhum, West Bengal",
+        "name": "Nandini",
+        "shakti": "Nandini"
+      },
+      {
+        "bhairava": "Ruru",
+        "body_part": "Bone",
+        "id": 34,
+        "location": "Birbhum, West Bengal",
+        "name": "Devgarbha",
+        "shakti": "Devgarbha"
+      },
+      {
+        "bhairava": "Samhara",
+        "body_part": "Crown",
+        "id": 35,
+        "location": "Murshidabad, West Bengal",
+        "name": "Vimla",
+        "shakti": "Vimla"
+      },
+      {
+        "bhairava": "Mahadev",
+        "body_part": "Right Shoulder",
+        "id": 36,
+        "location": "Hooghly, West Bengal",
+        "name": "Kumari Shakti",
+        "shakti": "Kumari Shakti"
+      },
+      {
+        "bhairava": "Kshetrapal",
+        "body_part": "Right Wrist",
+        "id": 37,
+        "location": "Bardhaman, West Bengal",
+        "name": "Mangal Chandika",
+        "shakti": "Mangal Chandika"
+      },
+      {
+        "bhairava": "Ruru",
+        "body_part": "Left Ankle",
+        "id": 38,
+        "location": "Purba Medinipur, West Bengal",
+        "name": "Kapalini",
+        "shakti": "Kapalini"
+      },
+      {
+        "bhairava": "Krodhish",
+        "body_part": "Left Thigh",
+        "id": 39,
+        "location": "Jaintia Hills, Meghalaya",
+        "name": "Jayanti",
+        "shakti": "Jayanti"
+      },
+      {
+        "bhairava": "Chandramouli",
+        "body_part": "Right Foot",
+        "id": 40,
+        "location": "Tripura, India",
+        "name": "Tripura Sundari",
+        "shakti": "Tripura Sundari"
+      },
+      {
+        "bhairava": "Jagannath",
+        "body_part": "Navel",
+        "id": 41,
+        "location": "Jajpur, Odisha",
+        "name": "Biraja",
+        "shakti": "Biraja"
+      },
+      {
+        "bhairava": "Bhairav",
+        "body_part": "Ear",
+        "id": 42,
+        "location": "Deoghar, Jharkhand",
+        "name": "Jai Durga",
+        "shakti": "Jai Durga"
+      },
+      {
+        "bhairava": "Mahakal",
+        "body_part": "Upper Lip / Elbow",
+        "id": 43,
+        "location": "Ujjain, Madhya Pradesh",
+        "name": "Avanti",
+        "shakti": "Avanti"
+      },
+      {
+        "bhairava": "Bhairav",
+        "body_part": "Ribs",
+        "id": 44,
+        "location": "Amarkantak, Madhya Pradesh",
+        "name": "Narmada",
+        "shakti": "Narmada"
+      },
+      {
+        "bhairava": "Bhairava",
+        "body_part": "Body Fragment",
+        "id": 45,
+        "location": "Patna, Bihar",
+        "name": "Patan Devi",
+        "shakti": "Patan Devi"
+      },
+      {
+        "bhairava": "Kshetrapal",
+        "body_part": "Eyes (Left)",
+        "id": 46,
+        "location": "Nainital, Uttarakhand",
+        "name": "Naina Devi",
+        "shakti": "Naina Devi"
+      },
+      {
+        "bhairava": "Bhairava",
+        "body_part": "Back",
+        "id": 47,
+        "location": "Champawat, Uttarakhand",
+        "name": "Purnagiri",
+        "shakti": "Purnagiri"
+      },
+      {
+        "bhairava": "Bhairav",
+        "body_part": "Head",
+        "id": 48,
+        "location": "Tehri, Uttarakhand",
+        "name": "Surkanda",
+        "shakti": "Surkanda"
+      },
+      {
+        "bhairava": "Ekambaranathar",
+        "body_part": "Back Portion",
+        "id": 49,
+        "location": "Kanchipuram, Tamil Nadu",
+        "name": "Kamakshi",
+        "shakti": "Kamakshi"
+      },
+      {
+        "bhairava": "Sundareswara",
+        "body_part": "Shoulder",
+        "id": 50,
+        "location": "Madurai, Tamil Nadu",
+        "name": "Meenakshi",
+        "shakti": "Meenakshi"
+      },
+      {
+        "bhairava": "Jambukeswara",
+        "body_part": "Left Side of Face",
+        "id": 51,
+        "location": "Tiruvanaikaval, Tamil Nadu",
+        "name": "Akhilandeswari",
+        "shakti": "Akhilandeswari"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Spanish",
+            "French"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

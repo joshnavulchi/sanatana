@@ -2,6 +2,7 @@
  * Detects locale from searchParams or returns DEFAULT_LOCALE.
  */
 import { secrets } from './secrets';
+import locales from './locales.json';
 
 export function detectLocale(searchParams?: Record<string, any>): string {
   if (!searchParams) return DEFAULT_LOCALE;
@@ -10,9 +11,18 @@ export function detectLocale(searchParams?: Record<string, any>): string {
 }
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
-export const SUPPORTED_LOCALES = [
-  'en', 'te'
-];
+type LocaleMetadata = {
+  code?: string;
+};
+
+const localeMetadata = (Array.isArray(locales) ? locales : []) as LocaleMetadata[];
+const localeCodesFromMetadata = localeMetadata
+  .map((entry) => String(entry?.code || '').trim())
+  .filter(Boolean);
+
+export const SUPPORTED_LOCALES = Array.from(
+  new Set([DEFAULT_LOCALE, ...localeCodesFromMetadata])
+);
 
 // Public path where locale JSONs are served (update if you move them)
 export const LOCALES_PUBLIC_PATH = '/data/locales';

@@ -82,7 +82,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-md sm:text-base transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
+          className={`text-sm transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -92,7 +92,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-1 flex items-center gap-1 px-2 text-md sm:text-base text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
+          className="mt-1 flex items-center gap-1 px-2 text-sm text-indigo-700 hover:text-pink-600 transition-all duration-300 cursor-pointer animate-fadeIn"
           aria-expanded={expanded}
         >
           {/* ${links.length - INITIAL_VISIBLE} */}
@@ -156,7 +156,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-md sm:text-base transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
+              className={`text-sm transition-all duration-300 rounded-xl px-2 my-1 ${isActive(href) ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-xl animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'} animate-fadeIn`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -186,7 +186,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-md sm:text-base transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                    className={`text-sm transition-all duration-300 rounded-xl my-1 ${isActive(subHref) ? 'bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white shadow animate-pulse' : 'text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -219,7 +219,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-amber-600 overflow-hidden">
+      <footer className="w-full relative bg-gradient-to-t from-yellow-400 via-red-400 via-orange-400 via-violet-400 to-blue-400 overflow-hidden">
         <div className="hidden h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
