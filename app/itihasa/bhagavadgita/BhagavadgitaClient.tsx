@@ -39,10 +39,10 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-200/60 to-green-100/0 animate-pulse" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-gradient-to-b from-emerald-200/60 to-green-100/0 animate-pulse" />
       <div className="flex items-center gap-3 mb-5 pl-2">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold text-emerald-50 bg-emerald-500/80 shadow-lg">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-semibold text-emerald-50 bg-emerald-500/80 shadow-lg">
           {index + 1}
         </span>
-        <h3 className="section-title font-extrabold text-emerald-900 drop-shadow">{section}</h3>
+        <h3 className="section-title font-semibold text-emerald-900 drop-shadow">{section}</h3>
       </div>
       <div className="body-text leading-relaxed pl-2 text-emerald-800">
         <Paragraphs text={content} />

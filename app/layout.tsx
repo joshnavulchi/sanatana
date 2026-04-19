@@ -6,12 +6,9 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
-import ConsentAnalyticsLoader from '@components/analytics/ConsentAnalyticsLoader';
-import CookieConsent from '@components/cookie-consent/CookieConsent';
 import Header from '@components/header';
 import Footer from '@components/footer';
-import TopProgress from '@components/topprogress';
-import ScrollToTop from '@components/scroll-to-top';
+import ClientDeferredUi from '@components/ClientDeferredUi';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import "./globals.css"; // tailwind base styles
@@ -56,6 +53,12 @@ export default async function RootLayout({
     <html lang={lang} translate="no">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
         {/* Favicons: use site logo for broad compatibility */}
@@ -145,7 +148,6 @@ export default async function RootLayout({
         )} */}
       </head>
       <body className="antialiased" translate="no">
-        <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
@@ -170,9 +172,7 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
-              <ScrollToTop />
-              <CookieConsent />
-              <ConsentAnalyticsLoader
+              <ClientDeferredUi
                 gaId={secrets.NEXT_PUBLIC_GA_ID}
                 gtmId={secrets.NEXT_PUBLIC_GTM_ID}
               />

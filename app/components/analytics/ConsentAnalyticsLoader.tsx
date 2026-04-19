@@ -29,6 +29,7 @@ function canLoadAnalytics(): boolean {
 
 export default function ConsentAnalyticsLoader({ gaId, gtmId }: Props) {
   const [enabled, setEnabled] = useState(false);
+  const [deferReady, setDeferReady] = useState(false);
 
   useEffect(() => {
     setEnabled(canLoadAnalytics());
@@ -38,17 +39,60 @@ export default function ConsentAnalyticsLoader({ gaId, gtmId }: Props) {
     return () => window.removeEventListener("sd_cookie_prefs_updated", onPrefsUpdate as EventListener);
   }, []);
 
-  if (!enabled) return null;
+  useEffect(() => {
+    if (!enabled) {
+      setDeferReady(false);
+      return;
+    }
+
+    let timeoutId: number | undefined;
+    let idleId: number | undefined;
+    let armed = false;
+
+    const arm = () => {
+      if (armed) return;
+      armed = true;
+      setDeferReady(true);
+      window.removeEventListener("pointerdown", arm);
+      window.removeEventListener("keydown", arm);
+      window.removeEventListener("scroll", arm);
+    };
+
+    window.addEventListener("pointerdown", arm, { once: true, passive: true });
+    window.addEventListener("keydown", arm, { once: true });
+    window.addEventListener("scroll", arm, { once: true, passive: true });
+
+    if (typeof window.requestIdleCallback === "function") {
+      idleId = window.requestIdleCallback(() => arm(), { timeout: 5000 }) as unknown as number;
+    } else {
+      timeoutId = window.setTimeout(() => arm(), 5000);
+    }
+
+    return () => {
+      if (timeoutId) window.clearTimeout(timeoutId);
+      if (idleId && typeof window.cancelIdleCallback === "function") {
+        window.cancelIdleCallback(idleId as unknown as number);
+      }
+      window.removeEventListener("pointerdown", arm);
+      window.removeEventListener("keydown", arm);
+      window.removeEventListener("scroll", arm);
+    };
+  }, [enabled]);
+
+  if (!enabled || !deferReady) return null;
+
+  const useGtm = Boolean(gtmId);
+  const useDirectGa = Boolean(gaId) && !useGtm;
 
   return (
     <>
-      {gaId && (
+      {useDirectGa && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
-          <Script id="ga-init" strategy="afterInteractive">
+          <Script id="ga-init" strategy="lazyOnload">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
@@ -60,8 +104,8 @@ export default function ConsentAnalyticsLoader({ gaId, gtmId }: Props) {
           </Script>
         </>
       )}
-      {gtmId && (
-        <Script id="gtm-init" strategy="afterInteractive">
+      {useGtm && (
+        <Script id="gtm-init" strategy="lazyOnload">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

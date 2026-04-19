@@ -32,7 +32,7 @@ export default function KandaClient({ initialData, initialLocale, kanda }: Props
   const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-2xl font-extrabold mt-6 mb-3">{children}</h2>;
+    return <h2 className="text-2xl font-semibold mt-6 mb-3">{children}</h2>;
   }
 
   function Paragraph({ children }: any) {

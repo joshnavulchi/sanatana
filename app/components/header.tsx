@@ -115,7 +115,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-bold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
+        className={`group/item flex items-center gap-4 px-6 py-3 whitespace-nowrap transition-all duration-300 ${itemActive ? 'bg-linear-to-r from-indigo-100 via-pink-100 to-rose-50 text-indigo-900 font-semibold' : 'text-gray-600 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:text-indigo-900 hover:shadow-xl'}`}
       >
         <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-indigo-400/20 to-pink-400/20 text-sm text-indigo-700 transition-colors duration-200 group-hover/item:bg-linear-to-br group-hover/item:from-indigo-600 group-hover/item:to-pink-600 group-hover/item:text-white shadow-md">
           ◈
@@ -160,7 +160,7 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
             <Link
               key={child.href}
               href={child.href}
-              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold' : 'text-gray-700'}`}
+              className={`flex items-center gap-3 px-4 py-2 rounded-xl transition-transform duration-200 hover:bg-linear-to-r hover:from-indigo-100 hover:via-pink-100 hover:to-rose-50 hover:-translate-x-1 hover:text-indigo-900 hover:shadow-lg ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-semibold' : 'text-gray-700'}`}
             >
               <span className="h-2.5 w-2.5 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 shrink-0" />
               <span className="text-sm whitespace-nowrap font-medium">{child.label}</span>
@@ -239,7 +239,7 @@ function DesktopDropdown({ section, isActive }: {
                           <Link
                             key={child.href}
                             href={child.href}
-                            className={`block px-3 py-1.5 rounded-lg text-sm transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                            className={`block px-3 py-1.5 rounded-lg text-sm transition-all duration-200 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-semibold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                           >
                             <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
                             {child.label}
@@ -336,7 +336,7 @@ function MobileNavSection({ section, isActive, onNavigate }: {
                       <Link
                         key={child.href}
                         href={child.href}
-                        className={`block px-3 py-2 rounded-lg transition-all duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-bold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
+                        className={`block px-3 py-2 rounded-lg transition-all duration-150 ${isActive(child.href) ? 'bg-linear-to-r from-indigo-200 via-pink-200 to-rose-100 text-indigo-900 font-semibold shadow' : 'text-gray-700 hover:bg-indigo-50 hover:text-indigo-900'}`}
                         onClick={onNavigate}
                       >
                         <span className="inline-block h-2 w-2 mr-2 rounded-full bg-linear-to-br from-indigo-400 to-pink-400 align-middle" />
@@ -429,7 +429,7 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <span className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>
@@ -453,7 +453,7 @@ export default function Header() {
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((s) => !s)}
-            className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            className="inline-flex items-center justify-center rounded-xl p-1.5 sd-nav-icon-btn transition-all duration-200 focus:outline-none"
           >
             <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
               {open ? (
