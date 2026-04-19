@@ -76,7 +76,7 @@ Replace inconsistent text styles with a refined hierarchy:
 
 #### Headings
 
-* Hero: `text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight`
+* Hero: `text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight`
 * Section Title: `text-2xl sm:text-3xl lg:text-4xl font-semibold`
 * Subheading: `text-lg sm:text-xl text-muted-foreground`
 

@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import storage from '@lib/storage';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import CookiePreferencesModal from './CookiePreferencesModal';
@@ -108,23 +108,24 @@ async function saveToServer(prefs: Prefs) {
 }
 
 export default function CookieConsent() {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState<boolean>(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      return !storage.getItem('sd_cookie_prefs');
+    } catch {
+      return true;
+    }
+  });
   const [modalOpen, setModalOpen] = useState(false);
-  const [prefs, setPrefs] = useState<Prefs | null>(null);
-
-  useEffect(() => {
+  const [prefs, setPrefs] = useState<Prefs | null>(() => {
+    if (typeof window === 'undefined') return null;
     try {
       const v = storage.getItem('sd_cookie_prefs');
-      if (v) {
-        setTimeout(() => setPrefs(JSON.parse(v)), 0);
-        setTimeout(() => setVisible(false), 0);
-      } else {
-        setTimeout(() => setVisible(true), 0);
-      }
-    } catch (err) {
-      setTimeout(() => setVisible(true), 0);
+      return v ? JSON.parse(v) : null;
+    } catch {
+      return null;
     }
-  }, []);
+  });
 
   async function acceptAll() {
     const p: Prefs = { strictlyNecessary: true, functionality: true, performance: true, targeting: true };
@@ -133,6 +134,9 @@ export default function CookieConsent() {
       storage.setItem('sd_cookie_prefs', JSON.stringify(p));
     } catch (e) {
       // ignore
+    }
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('sd_cookie_prefs_updated', { detail: p }));
     }
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics now that user consented
@@ -151,6 +155,9 @@ export default function CookieConsent() {
       storage.setItem('sd_cookie_prefs', JSON.stringify(p));
     } catch (e) {
       // ignore
+    }
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('sd_cookie_prefs_updated', { detail: p }));
     }
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics selectively based on granted preferences
@@ -179,7 +186,7 @@ export default function CookieConsent() {
               <div className="flex flex-col md:flex-row items-start md:items-center gap-4 text-md sm:text-base leading-relaxed font-normal">
                 {/* Cookie icon */}
                 <div className="flex-shrink-0 hidden md:block text-md sm:text-base leading-relaxed font-normal">
-                  <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg animate-bounce text-md sm:text-base leading-relaxed font-normal">
+                  <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg text-md sm:text-base leading-relaxed font-normal">
                     🍪
                   </div>
                 </div>

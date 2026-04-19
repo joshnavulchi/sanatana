@@ -219,7 +219,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="w-full relative bg-gradient-to-t from-yellow-400 via-red-400 via-orange-400 via-violet-400 to-blue-400 overflow-hidden">
+      <footer className="gradient-background map-wrapper overflow-hidden">
         <div className="hidden h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
@@ -233,7 +233,7 @@ export default function Footer() {
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper text-center py-6 md:py-12">
             <div className="mx-auto max-w-xl rounded-md bg-white backdrop-blur-sm shadow-sm my-6 p-4">
-              <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              <h6 className="text-2xl/8 md:text-3xl/12 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
             </div>
@@ -326,7 +326,7 @@ export default function Footer() {
                     href={currentUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}` : '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 sd-social-hover no-underline"
                   >
                     <LazyImage src="/images/svg/facebook.svg" alt="facebook" width={25} height={25} className="inline-block" />
                   </Link>
@@ -336,7 +336,7 @@ export default function Footer() {
                     href="https://www.instagram.com/vulchivijay"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                    className="flex items-center justify-center py-3 px-2 sm:py-1 transition-all duration-200 sd-social-hover no-underline"
                   >
                     <LazyImage src="/images/svg/instagram.svg" alt="instagram" width={25} height={25} className="inline-block" />
                   </Link>
@@ -346,7 +346,7 @@ export default function Footer() {
                     href={currentUrl ? `https://x.com/intent/tweet?url=${encodeURIComponent(currentUrl)}` : '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline"
+                    className="flex items-center justify-center px-2 py-1 transition-all duration-200 sd-social-hover no-underline"
                   >
                     <LazyImage src="/images/svg/x.svg" alt="x" width={25} height={25} className="inline-block" />
                   </Link>

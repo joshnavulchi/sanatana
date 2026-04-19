@@ -51,7 +51,7 @@ const AUDIT: { dependencies: Record<string, LibEntry>; devDependencies: Record<s
 export default function Page() {
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Library Audit</h1>
+      <h1 className="text-2xl font-semibold mb-4">Library Audit</h1>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Dependencies</h2>

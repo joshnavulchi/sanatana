@@ -395,7 +395,7 @@ Apply across ALL pages and components:
 Standardize everywhere:
 
 * Page Title:
-  `text-2xl sm:text-3xl/12 md:text-4xl/16 font-bold tracking-tight text-gray-900`
+  `text-2xl sm:text-3xl/12 md:text-4xl/16 font-semibold tracking-tight text-gray-900`
 
 * Section Title:
   `text-lg sm:text-xl md:text-2xl font-semibold text-gray-900`
@@ -1539,7 +1539,7 @@ Examples:
 
 C. Normalize font weights:
 
-- Remove random font-bold usage
+- Remove random font-semibold usage
 - Use:
   - font-semibold (headings)
   - font-normal (body)

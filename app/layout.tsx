@@ -1,5 +1,4 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { Poppins } from 'next/font/google';
 import { headers } from 'next/headers';
 import Script from 'next/script';
 import { Suspense } from 'react';
@@ -7,11 +6,9 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { LANGUAGE_STORAGE_KEY } from '@lib/constants';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
-import CookieConsent from '@components/cookie-consent/CookieConsent';
 import Header from '@components/header';
 import Footer from '@components/footer';
-import TopProgress from '@components/topprogress';
-import ScrollToTop from '@components/scroll-to-top';
+import ClientDeferredUi from '@components/ClientDeferredUi';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import "./globals.css"; // tailwind base styles
@@ -20,15 +17,6 @@ export const metadata = {
   title: 'Sanātana Dharma – Eternal Principles of Hinduism',
   description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.',
 };
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400"],
-  preload: true,
-  display: "swap" // Prevents layout shift from font loading
-});
-// Compose a safe font-family string: Playfair primary, Poppins fallback
-const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
 
 export default async function RootLayout({
   children,
@@ -65,6 +53,12 @@ export default async function RootLayout({
     <html lang={lang} translate="no">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
         {/* Favicons: use site logo for broad compatibility */}
@@ -136,28 +130,6 @@ export default async function RootLayout({
         {/* Canonical global JSON-LD: single WebSite + Organization definitions */}
         <script id="jsonld-site" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(siteJson)} />
         <script id="jsonld-org" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(orgJson)} />
-        {/* Hint the font for later use (non-blocking) */}
-        <link
-          rel="prefetch"
-          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            /* Prevent FOIT/FOUT and layout shift from font loading */
-            @font-face {
-              font-family: '__Poppins_Fallback';
-              src: local('Arial'), local('Helvetica'), local('sans-serif');
-              font-display: swap;
-              ascent-override: 105%;
-              descent-override: 35%;
-              line-gap-override: 10%;
-              size-adjust: 95%;
-            }
-          `
-        }} />
         {/* Disable right-click context menu in production to reduce casual copy */}
         {/* {process.env.NODE_ENV === "production" && (
           <Script
@@ -174,40 +146,8 @@ export default async function RootLayout({
             }}
           />
         )} */}
-        {/* Google Analytics (GA4) */}
-        {secrets.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}', {
-                  page_path: window.location.pathname,
-                });
-              `}
-            </Script>
-          </>
-        )}
-        {/* Google Tag Manager script */}
-        {secrets.NEXT_PUBLIC_GTM_ID && (
-          <Script id="gtm-init" strategy="afterInteractive">
-            {`
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','${secrets.NEXT_PUBLIC_GTM_ID}');
-            `}
-          </Script>
-        )}
       </head>
-      <body className={poppins.className} translate="no">
-        <TopProgress />
+      <body className="antialiased" translate="no">
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
@@ -232,8 +172,10 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
-              <ScrollToTop />
-              <CookieConsent />
+              <ClientDeferredUi
+                gaId={secrets.NEXT_PUBLIC_GA_ID}
+                gtmId={secrets.NEXT_PUBLIC_GTM_ID}
+              />
             </ThemeProvider>
           </LocaleProvider>
         </Suspense>

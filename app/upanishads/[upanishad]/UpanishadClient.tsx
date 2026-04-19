@@ -124,7 +124,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             return (
               <section key={idx}>
                 {secTitle ? (
-                  <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">{secTitle}</h3>
+                  <h3 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">{secTitle}</h3>
                 ) : null}
                 {secContent ? (
                   <p className="text-md sm:text-base leading-relaxed mb-4 font-normal bg-gradient-to-r from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{secContent}</p>
@@ -144,7 +144,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
             return (
               <section key={`scripture-${i}`}>
                 {sTitle ? (
-                  <h4 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">{sTitle}</h4>
+                  <h4 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">{sTitle}</h4>
                 ) : null}
                 {sContent ? (
                   <p className="text-md sm:text-base leading-relaxed mb-4 font-normal bg-gradient-to-r from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{sContent}</p>
@@ -158,7 +158,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Chapters list */}
       {Array.isArray(data?.chapters) && data.chapters.length > 0 && (
         <section className="mt-6">
-          <h5 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Chapters</h5>
+          <h5 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Chapters</h5>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-md sm:text-base leading-relaxed font-normal">
             {data.chapters.map((c: any, i: number) => (
               <a key={`chapter-${i}`} href={c?.path || '#'} className="block rounded-lg p-4 bg-gradient-to-br from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 hover:shadow-xl transition-all duration-300">
@@ -176,11 +176,11 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Major deities */}
       {Array.isArray(data?.major_rigvedic_deities) && data.major_rigvedic_deities.length > 0 && (
         <section className="mt-6">
-          <h6 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Major Deities</h6>
+          <h6 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Major Deities</h6>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-md sm:text-base leading-relaxed font-normal">
             {data.major_rigvedic_deities.map((d: any, i: number) => (
               <div key={`deity-${i}`} className="rounded-lg p-4 bg-gradient-to-br from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 text-md sm:text-base leading-relaxed font-normal shadow-md">
-                <h6 className="text-xl font-extrabold text-[#3b3270] leading-snug mb-2 animate-gradient-x">{String(d?.name || '')}</h6>
+                <h6 className="text-xl font-semibold text-[#3b3270] leading-snug mb-2 animate-gradient-x">{String(d?.name || '')}</h6>
                 {d?.role && <div className="text-md sm:text-base leading-relaxed font-normal">{d.role}</div>}
                 {d?.importance && <p className="text-md sm:text-base leading-relaxed mb-4 font-normal">{d.importance}</p>}
               </div>
@@ -192,7 +192,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Mandalas overview */}
       {Array.isArray(data?.mandalas) && data.mandalas.length > 0 && (
         <section className="mt-6">
-          <h4 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Mandalas</h4>
+          <h4 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Mandalas</h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-md sm:text-base leading-relaxed font-normal">
             {data.mandalas.map((m: any, i: number) => (
               <a key={`mandala-${i}`} href={m?.path || '#'} className="block rounded-lg p-4 bg-gradient-to-br from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 hover:shadow-xl transition-all duration-300">
@@ -212,7 +212,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
       {/* Related concepts tags */}
       {Array.isArray(data?.related_concepts) && data.related_concepts.length > 0 && (
         <section className="mt-6">
-          <h5 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Related Concepts</h5>
+          <h5 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Related Concepts</h5>
           <div className="flex flex-wrap gap-2 text-md sm:text-base leading-relaxed font-normal">
             {data.related_concepts.map((c: any, i: number) => (
               <span key={`concept-${i}`} className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-br from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 text-[#3b3270] text-md sm:text-base leading-relaxed font-normal shadow-sm">{String(c)}</span>
@@ -237,7 +237,7 @@ export default function UpanishadsClient({ initialData, initialLocale, segments 
         if (val) {
           return (
             <section>
-              <h6 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Philosophical Insights</h6>
+              <h6 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b3270] via-[#8b6914] to-[#e0a632] drop-shadow-lg mb-3 animate-gradient-x">Philosophical Insights</h6>
               <p className="text-md sm:text-base leading-relaxed mb-4 font-normal bg-gradient-to-r from-[#f0fdfa] via-[#a7f3d0]/30 to-[#f3e8ff]/10 rounded-xl px-3 py-2 shadow-sm animate-fadeInUp">{val}</p>
             </section>
           );

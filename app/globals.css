@@ -1,6 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Poppins Fallback";
+  src: local("Arial");
+}
+
 /* Global selectors moved from styles.module.scss */
 /* 1) Base CSS variables: Light theme */
 :root {
@@ -75,9 +80,9 @@
   --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
   --color-neutral-900: oklch(0.185 0 0);
 
-  /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Poppins", sans-serif;
+  /* Global app typography */
+  --font-heading: "Poppins", "Poppins Fallback";
+  --font-body: "Poppins", "Poppins Fallback";
 
   /* Spacing scale */
   --space-xxs: 4px;
@@ -167,8 +172,8 @@
   --color-orange: #fdba74;
   --color-violet: #a78bfa;
   --color-blue: #60a5fa;
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Poppins", sans-serif;
+  --font-heading: "Poppins", "Poppins Fallback";
+  --font-body: "Poppins", "Poppins Fallback";
   --font-height: 1.2;
   --space-xxs: 4px;
   --space-xs: 8px;
@@ -334,7 +339,7 @@ footer {
 
 /* Typography system enforcement (utility classes used throughout components) */
 .page-title {
-  @apply text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900
+  @apply text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight text-gray-900
 }
 
 .section-title {
@@ -533,3 +538,64 @@ footer {
 }
 
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+/* Shared utilities to reduce repeated arbitrary Tailwind values across top pages */
+.sd-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+.sd-nav-icon-btn {
+  color: #7a2e1f;
+}
+
+.sd-nav-icon-btn:hover {
+  background-color: #fde7c7;
+}
+
+.sd-nav-icon-btn:focus {
+  box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.5);
+}
+
+.sd-explore-toggle {
+  border-color: rgba(216, 162, 90, 0.6);
+  box-shadow: -4px 4px 20px rgba(166, 61, 23, 0.14);
+}
+
+.sd-explore-toggle:hover {
+  box-shadow: -6px 6px 24px rgba(166, 61, 23, 0.2);
+}
+
+.sd-explore-toggle:focus {
+  box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.5);
+}
+
+.sd-explore-backdrop {
+  background-color: rgba(91, 45, 18, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.sd-explore-panel {
+  border-left: 1px solid rgba(216, 162, 90, 0.4);
+  background-image: linear-gradient(to bottom, #fffaf3, #fdf0d7, #fff8ef);
+  box-shadow: -12px 0 40px rgba(166, 61, 23, 0.12);
+}
+
+.sd-explore-badge {
+  background-color: #7a2e1f;
+  color: #fff4df;
+}
+
+.sd-explore-close-btn {
+  border-color: rgba(216, 162, 90, 0.4);
+  background-color: #fffaf2;
+  color: #7a2e1f;
+}
+
+.sd-explore-close-btn:hover {
+  background-color: #fde7c7;
+  box-shadow: 0 2px 8px rgba(146, 64, 14, 0.12);
+}
+
+.sd-social-hover:hover {
+  box-shadow: 0 4px 12px rgba(146, 64, 14, 0.12);
+}

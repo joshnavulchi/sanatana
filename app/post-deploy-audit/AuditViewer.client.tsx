@@ -44,7 +44,7 @@ export default function AuditViewer() {
   return (
     <div className="max-w-4xl mx-auto p-6">
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">Post-Deploy Audit</h2>
+        <h2 className="text-2xl font-semibold">Post-Deploy Audit</h2>
         <button className="text-md sm:text-base text-amber-800" onClick={() => setShowRaw((s) => !s)}>{showRaw ? 'Hide JSON' : 'Show raw JSON'}</button>
       </div>
 
