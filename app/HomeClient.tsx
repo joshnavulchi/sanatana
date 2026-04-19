@@ -190,7 +190,7 @@ function HeroSection({ isLoading = false }: HeroSectionProps) {
         const candidate = ns?.hero ? ns.hero : ns?.home ? ns.home.hero : ns;
         if (candidate && typeof candidate === "object") setHero(candidate);
       })
-      .catch(() => {});
+      .catch(() => { });
     return () => {
       cancelled = true;
     };
@@ -434,7 +434,7 @@ function UnderstandingOfSanatana() {
           setSections(data.home.sections);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
 
     return () => {
       cancelled = true;
@@ -443,7 +443,7 @@ function UnderstandingOfSanatana() {
 
   return (
     <section className="relative z-0 bg-slate-50 py-12 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-0 lg:px-8">
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-3">
             <div className="h-0.5 w-12 bg-slate-300" />
@@ -466,7 +466,7 @@ function UnderstandingOfSanatana() {
               className={`mb-10 last:mb-0 transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
               style={{ transitionDelay: `${sectionIndex * 120}ms` }}
             >
-              <div className="bg-white rounded-3xl p-6 sm:p-8">
+              <div className="bg-white rounded-3xl p-3 sm:p-6">
                 <div className="text-center mb-6">
                   <h4 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">{section.title}</h4>
                   <p className="text-md sm:text-base text-slate-600 leading-relaxed">{section.content}</p>
@@ -510,10 +510,10 @@ function UnderstandingOfSanatana() {
                         {topic.src && <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-xl bg-white" />}
                         <div>
                           <h5 className="text-md sm:text-base font-semibold text-slate-800">{topic.title}</h5>
-                          <p className="text-sm text-slate-600 my-2 leading-relaxed">{topic.description}</p>                          
+                          <p className="text-sm text-slate-600 my-2 leading-relaxed">{topic.description}</p>
                         </div>
                       </div>
-                      
+
                       {Array.isArray(topic.details) && topic.details.length > 0 && (
                         <ul className="space-y-1 mt-2">
                           {topic.details.map((detail, detailIndex) => (
