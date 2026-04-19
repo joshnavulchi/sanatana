@@ -3,12 +3,17 @@
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { getLocaleNamespaceObject } from "@/lib/i18n";
 import { useLocale } from "@app/context/locale-context";
 import useLocaleSection from "@app/hooks/useLocaleSection";
 import LazyImage from "@components/lazyimage";
-import WorldMapAnimated from "@components/worldmap/worldmapanimate";
 import { parseList } from "@lib/parse";
+
+const WorldMapAnimated = dynamic(() => import("@components/worldmap/worldmapanimate"), {
+  ssr: false,
+  loading: () => <div className="hidden md:block w-full min-h-75" aria-hidden="true" />,
+});
 
 /* ============ WELCOME PAGE COMPONENT ============ */
 const STORAGE_KEY = "sanatana_welcome_dismissed";
@@ -39,10 +44,10 @@ function WelcomePage() {
   }
 
   return (
-    <div className="min-h-[60vh] flex items-center justify-center px-3">
+    <div className="fixed inset-0 z-120 flex items-center justify-center bg-black/40 backdrop-blur-[2px] px-3 py-4">
       <div
         className={`
-          max-w-4xl mx-auto
+          max-w-4xl mx-auto max-h-[92vh] overflow-y-auto
           transition-all duration-1000 ease-out
           ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}
         `}
@@ -94,7 +99,7 @@ function WelcomePage() {
                 Namaste & Welcome
               </h2>
 
-              <p className="text-md sm:text-base sm:text-md sm:text-base italic text-amber-700 tracking-wide">
+              <p className="text-md sm:text-base italic text-amber-700 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 
