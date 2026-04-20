@@ -76,14 +76,14 @@ export default function PrivacyPolicy() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 md:pb-8">
           <div className="flex items-center gap-3">
             <span className="text-2xl text-[#a259ec] animate-bounce">🔒</span>
-            <strong className="text-2xl font-bold text-[#7f53ac] drop-shadow">{privacy.lastupdated}</strong>
+            <strong className="text-2xl font-semibold text-[#7f53ac] drop-shadow">{privacy.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="privacy-content" className="floating" />
         </div>
 
         {/* Intro */}
         <section className="rounded-3xl p-6 md:p-12 bg-white/80 shadow-2xl border border-[#e0c3fc]/40 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h3 className="flex items-center gap-3 text-3xl font-extrabold leading-snug mb-4 text-[#7f53ac]">
+          <h3 className="flex items-center gap-3 text-3xl font-semibold leading-snug mb-4 text-[#7f53ac]">
             <span className="text-2xl">🛡️</span>
             {privacy.intro.title}
           </h3>
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
 
         {/* Information We Collect */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#e0c3fc]/80 via-[#f7e8ff]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h4 className="flex items-center gap-3 text-2xl font-bold leading-snug mb-3 text-[#7f53ac]">
+          <h4 className="flex items-center gap-3 text-2xl font-semibold leading-snug mb-3 text-[#7f53ac]">
             <span className="text-2xl">📊</span>
             <span>{privacy.informationwecollect.title} {privacy.informationwecollect.lead}</span>
           </h4>
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
 
         {/* How We Use */}
         <section className="rounded-3xl p-6 md:p-12 bg-white/80 shadow-2xl border border-[#e0c3fc]/40 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h4 className="text-2xl font-bold text-[#7f53ac] mb-4 flex items-center gap-3">
+          <h4 className="text-2xl font-semibold text-[#7f53ac] mb-4 flex items-center gap-3">
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
 
         {/* Cookies & Local Storage */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#f7e8ff]/80 via-[#e0c3fc]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h5 className="text-2xl font-bold text-[#7f53ac] mb-4 flex items-center gap-3">
+          <h5 className="text-2xl font-semibold text-[#7f53ac] mb-4 flex items-center gap-3">
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
@@ -132,7 +132,7 @@ export default function PrivacyPolicy() {
 
         {/* Third Party */}
         <section className="rounded-3xl p-6 md:p-12 bg-white/80 shadow-2xl border border-[#e0c3fc]/40 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <h6 className="text-2xl font-bold text-[#7f53ac] mb-4 flex items-center gap-3">
+          <h6 className="text-2xl font-semibold text-[#7f53ac] mb-4 flex items-center gap-3">
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
         {/* Security */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#e0c3fc]/80 via-[#f7e8ff]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <p className="flex items-center gap-3 text-2xl font-bold text-[#7f53ac] mb-4">
+          <p className="flex items-center gap-3 text-2xl font-semibold text-[#7f53ac] mb-4">
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
@@ -150,7 +150,7 @@ export default function PrivacyPolicy() {
 
         {/* Rights */}
         <section className="rounded-3xl p-6 md:p-12 bg-white/80 shadow-2xl border border-[#e0c3fc]/40 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <p className="flex items-center gap-3 text-2xl font-bold text-[#7f53ac] mb-4">
+          <p className="flex items-center gap-3 text-2xl font-semibold text-[#7f53ac] mb-4">
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
@@ -168,7 +168,7 @@ export default function PrivacyPolicy() {
 
         {/* Children */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#f7e8ff]/80 via-[#e0c3fc]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <p className="flex items-center gap-3 text-2xl font-bold text-[#7f53ac] mb-4">
+          <p className="flex items-center gap-3 text-2xl font-semibold text-[#7f53ac] mb-4">
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
 
         {/* Changes */}
         <section className="rounded-3xl p-6 md:p-12 bg-white/80 shadow-2xl border border-[#e0c3fc]/40 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <p className="flex items-center gap-3 text-2xl font-bold text-[#7f53ac] mb-4">
+          <p className="flex items-center gap-3 text-2xl font-semibold text-[#7f53ac] mb-4">
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
@@ -186,7 +186,7 @@ export default function PrivacyPolicy() {
 
         {/* Contact */}
         <section className="rounded-3xl p-6 md:p-12 bg-gradient-to-br from-[#e0c3fc]/80 via-[#f7e8ff]/80 to-[#8ec5fc]/80 shadow-xl border border-[#e0c3fc]/30 backdrop-blur-md transition-all duration-500 hover:scale-[1.01]">
-          <p className="flex items-center gap-3 text-2xl font-bold text-[#7f53ac] mb-4">
+          <p className="flex items-center gap-3 text-2xl font-semibold text-[#7f53ac] mb-4">
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>

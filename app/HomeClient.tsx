@@ -3,165 +3,23 @@
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { getLocaleNamespaceObject } from "@/lib/i18n";
 import { useLocale } from "@app/context/locale-context";
 import useLocaleSection from "@app/hooks/useLocaleSection";
 import LazyImage from "@components/lazyimage";
-import WorldMapAnimated from "@components/worldmap/worldmapanimate";
 import { parseList } from "@lib/parse";
+
+const WorldMapAnimated = dynamic(() => import("@components/worldmap/worldmapanimate"), {
+  ssr: false,
+  loading: () => <div className="hidden md:block w-full min-h-75" aria-hidden="true" />,
+});
+const WelcomePageOverlay = dynamic(() => import("@/app/components/WelcomePageOverlay"), {
+  ssr: false,
+});
 
 /* ============ WELCOME PAGE COMPONENT ============ */
 const STORAGE_KEY = "sanatana_welcome_dismissed";
-
-function WelcomePage() {
-  const [isVisible, setIsVisible] = useState(true);
-  const [doNotShowAgain, setDoNotShowAgain] = useState(false);
-
-  useEffect(() => {
-    const dismissed = localStorage.getItem(STORAGE_KEY);
-    if (dismissed === "true") {
-      queueMicrotask(() => {
-        setIsVisible(false);
-        setDoNotShowAgain(true);
-      });
-    }
-  }, []);
-
-  const handleClose = () => {
-    if (doNotShowAgain) {
-      localStorage.setItem(STORAGE_KEY, "true");
-    }
-    setIsVisible(false);
-  };
-
-  if (!isVisible) {
-    return null;
-  }
-
-  return (
-    <div className="min-h-[60vh] flex items-center justify-center px-3">
-      <div
-        className={`
-          max-w-4xl mx-auto
-          transition-all duration-1000 ease-out
-          ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}
-        `}
-      >
-        <div className="h-1 w-full mb-6 rounded-full" />
-
-        <div className="relative">
-          <button
-            onClick={handleClose}
-            aria-label="Close welcome message"
-            className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/70 backdrop-blur-sm rounded-full shadow-md flex items-center justify-center transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-200"
-          >
-            <span className="sr-only">Close</span>
-            <svg
-              className="w-6 h-6 text-amber-700 group-hover:text-amber-900 transition-colors drop-shadow"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          <div className="absolute -top-4 -left-4 w-16 h-16 border-amber-200/40 rounded-tl-2xl" />
-          <div className="absolute -top-4 -right-4 w-16 h-16 border-amber-200/40 rounded-tr-2xl" />
-          <div className="absolute -bottom-4 -left-4 w-16 h-16 border-amber-200/40 rounded-bl-2xl" />
-          <div className="absolute -bottom-4 -right-4 w-16 h-16 border-amber-200/40 rounded-br-2xl" />
-
-          <div className="bg-white/75 backdrop-blur-sm rounded-2xl shadow-lg p-6 md:p-12 relative overflow-hidden">
-            <div className="absolute inset-0 opacity-5">
-              <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                    <circle cx="20" cy="20" r="1" fill="currentColor" className="text-amber-800" />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#grid)" />
-              </svg>
-            </div>
-
-            <div className="relative z-10 text-center space-y-4">
-              <div className="flex items-center justify-center gap-4 mb-4">
-                <div className="h-px w-12" />
-                <span className="text-3xl text-amber-800 animate-pulse">ॐ</span>
-                <div className="h-px w-12" />
-              </div>
-
-              <h2 className="text-3xl md:text-3xl font-extrabold tracking-tight leading-tight text-amber-800">
-                Namaste & Welcome
-              </h2>
-
-              <p className="text-md sm:text-base sm:text-md sm:text-base italic text-amber-700 tracking-wide">
-                स्वागतम् । आपका स्वागत है
-              </p>
-
-              <div className="flex items-center justify-center gap-2 py-4">
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-0" />
-                <div className="w-2 h-2 rounded-full bg-orange-400 animate-bounce anim-delay-150" />
-                <div className="w-2 h-2 rounded-full bg-amber-400 animate-bounce anim-delay-300" />
-              </div>
-
-              <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-md sm:text-base leading-relaxed text-gray-700">
-                  We are deeply honored and blessed by your presence here.
-                </p>
-                <p className="text-md sm:text-base leading-relaxed text-gray-700">
-                  Thank you for taking this sacred step towards understanding and embracing the
-                  <span className="font-semibold text-amber-700"> eternal truths of Sanātana Dharma</span>
-                  — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
-                </p>
-                <p className="text-md sm:text-base leading-relaxed text-gray-700">
-                  May your journey through these ancient teachings bring you
-                  <span className="font-semibold text-amber-600"> clarity, devotion, and divine grace</span>.
-                </p>
-              </div>
-
-              <div className="pt-6 space-y-2">
-                <p className="text-md sm:text-base text-amber-700 font-medium tracking-wide">
-                  सत्यमेव जयते । धर्मो रक्षति रक्षितः
-                </p>
-                <p className="text-md sm:text-base text-gray-600 italic">
-                  Truth Alone Triumphs · Dharma Protects Those Who Protect It
-                </p>
-              </div>
-
-              <div className="pt-6 flex justify-center">
-                <svg className="w-16 h-16 text-amber-500/40" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C12 2 9 5 9 9C9 11.21 10.79 13 13 13C13 13 13 15 13 17C13 19.21 11.21 21 9 21C9 21 9 19 9 17C9 14.79 7.21 13 5 13C5 13 5 11 5 9C5 6.79 6.79 5 9 5C9 5 11 5 11 5C11 5 11 3 11 2H12M12 2C12 2 15 5 15 9C15 11.21 13.21 13 11 13C11 13 11 15 11 17C11 19.21 12.79 21 15 21C15 21 15 19 15 17C15 14.79 16.79 13 19 13C19 13 19 11 19 9C19 6.79 17.21 5 15 5C15 5 13 5 13 5C13 5 13 3 13 2H12Z" />
-                </svg>
-              </div>
-
-              <div className="pt-6 border-amber-200/30 mt-6 flex flex-col items-center gap-4">
-                <label className="flex items-center justify-center gap-3 cursor-pointer group">
-                  <input
-                    type="checkbox"
-                    checked={doNotShowAgain}
-                    onChange={(e) => setDoNotShowAgain(e.target.checked)}
-                    className="w-5 h-5 rounded text-amber-700 focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 cursor-pointer transition-all"
-                  />
-                  <span className="text-md sm:text-base text-gray-700 group-hover:text-amber-700 transition-colors">
-                    Do not show this welcome message again
-                  </span>
-                </label>
-                <button
-                  onClick={handleClose}
-                  className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
-                >
-                  <span className="relative z-10 tracking-widest text-md sm:text-base select-none">Close</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="h-1 w-full mt-8 rounded-full" />
-      </div>
-    </div>
-  );
-}
 
 /* ============ HERO SECTION COMPONENT ============ */
 interface HeroSectionProps {
@@ -190,7 +48,7 @@ function HeroSection({ isLoading = false }: HeroSectionProps) {
         const candidate = ns?.hero ? ns.hero : ns?.home ? ns.home.hero : ns;
         if (candidate && typeof candidate === "object") setHero(candidate);
       })
-      .catch(() => {});
+      .catch(() => { });
     return () => {
       cancelled = true;
     };
@@ -434,7 +292,7 @@ function UnderstandingOfSanatana() {
           setSections(data.home.sections);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
 
     return () => {
       cancelled = true;
@@ -443,7 +301,7 @@ function UnderstandingOfSanatana() {
 
   return (
     <section className="relative z-0 bg-slate-50 py-12 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-0 lg:px-8">
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-3">
             <div className="h-0.5 w-12 bg-slate-300" />
@@ -466,7 +324,7 @@ function UnderstandingOfSanatana() {
               className={`mb-10 last:mb-0 transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
               style={{ transitionDelay: `${sectionIndex * 120}ms` }}
             >
-              <div className="bg-white rounded-3xl p-6 sm:p-8">
+              <div className="bg-white rounded-3xl p-3 sm:p-6">
                 <div className="text-center mb-6">
                   <h4 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">{section.title}</h4>
                   <p className="text-md sm:text-base text-slate-600 leading-relaxed">{section.content}</p>
@@ -510,10 +368,10 @@ function UnderstandingOfSanatana() {
                         {topic.src && <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-xl bg-white" />}
                         <div>
                           <h5 className="text-md sm:text-base font-semibold text-slate-800">{topic.title}</h5>
-                          <p className="text-sm text-slate-600 my-2 leading-relaxed">{topic.description}</p>                          
+                          <p className="text-sm text-slate-600 my-2 leading-relaxed">{topic.description}</p>
                         </div>
                       </div>
-                      
+
                       {Array.isArray(topic.details) && topic.details.length > 0 && (
                         <ul className="space-y-1 mt-2">
                           {topic.details.map((detail, detailIndex) => (
@@ -746,7 +604,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
           <div className="h-1 w-16 bg-linear-to-r from-indigo-300/40 to-transparent" />
         </div>
 
-        <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
+        <h6 className="text-2xl/8 md:text-3xl/12 font-semibold leading-tight text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-pink-500 to-indigo-700 drop-shadow-xl">
           {name}
         </h6>
 
@@ -804,7 +662,7 @@ function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-3xl/12 md:text-4xl/16 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <h6 className="text-3xl/12 md:text-4xl/16 font-semibold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
             {title}
           </h6>
 
@@ -875,9 +733,22 @@ function OurFourCoreYugas() {
 
 /* ============ MAIN HOME CLIENT COMPONENT ============ */
 export function HomeClient() {
+  const [showWelcome, setShowWelcome] = useState(false);
+
+  useEffect(() => {
+    try {
+      const dismissed = localStorage.getItem(STORAGE_KEY);
+      if (dismissed !== "true") {
+        setShowWelcome(true);
+      }
+    } catch {
+      setShowWelcome(true);
+    }
+  }, []);
+
   return (
     <>
-      <WelcomePage />
+      {showWelcome ? <WelcomePageOverlay /> : null}
       <HeroSection />
       <UnderstandingOfSanatana />
       <GitSupport />

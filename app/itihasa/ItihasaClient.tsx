@@ -56,13 +56,13 @@ function FeatureCard({
     <div
       className={`relative rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.06)]`}
     >
-      <h4 className="text-lg font-bold text-[#5a2d0c] mb-2">{feature}</h4>
+      <h4 className="text-lg font-semibold text-[#5a2d0c] mb-2">{feature}</h4>
       <p className="text-md sm:text-base text-[#6d3d1a] mb-4">{explanation}</p>
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#d4ae7a]/15 pt-4">
           {deepUnderstanding.map((point, i) => (
             <li key={i} className="flex items-start gap-2 text-md sm:text-base text-[#7a4a2e]">
-              <span className="text-[#b8860b] font-bold mt-1">•</span>
+              <span className="text-[#b8860b] font-semibold mt-1">•</span>
               <span>{point}</span>
             </li>
           ))}
@@ -94,13 +94,13 @@ function ConceptCard({
     <div
       className={`relative rounded-2xl border border-[#ddb892]/25 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.05)]`}
     >
-      <h4 className="text-lg font-bold text-[#703d1b] mb-2">{concept}</h4>
+      <h4 className="text-lg font-semibold text-[#703d1b] mb-2">{concept}</h4>
       <p className="text-md sm:text-base text-[#7a4a2d] mb-4">{explanation}</p>
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#ddb892]/15 pt-4">
           {deepUnderstanding.map((point, i) => (
             <li key={i} className="flex items-start gap-2 text-md sm:text-base text-[#8b5a3c]">
-              <span className="text-[#c09850] font-bold mt-1">✦</span>
+              <span className="text-[#c09850] font-semibold mt-1">✦</span>
               <span>{point}</span>
             </li>
           ))}
@@ -137,7 +137,7 @@ function ItihasaCard({
       className={`relative rounded-2xl border border-[#d4a574]/25 p-6 md:p-7 ${bgColors[index % 2]} shadow-[0_4px_15px_rgba(139,69,19,0.07)]`}
     >
       <div className="flex items-start justify-between mb-4">
-        <h4 className="text-xl font-bold text-[#6d3414]">{name}</h4>
+        <h4 className="text-xl font-semibold text-[#6d3414]">{name}</h4>
         <span className="px-3 py-1 rounded-full bg-[#d4a574]/10 text-[#8b5a2d] text-xs font-semibold whitespace-nowrap ml-3">
           Epic
         </span>
@@ -149,7 +149,7 @@ function ItihasaCard({
 
       {keyLessons && keyLessons.length > 0 && (
         <div className="mb-5 bg-[#fffbf4] rounded-xl p-4 border border-[#d4ae7a]/15">
-          <h5 className="text-xs font-bold text-[#6d3414] mb-3 uppercase tracking-wide">
+          <h5 className="text-xs font-semibold text-[#6d3414] mb-3 uppercase tracking-wide">
             Key Lessons
           </h5>
           <ul className="space-y-2">
@@ -158,7 +158,7 @@ function ItihasaCard({
                 key={i}
                 className="flex items-start gap-2 text-md sm:text-base text-[#5a3d2a]"
               >
-                <span className="text-[#b8860b] font-bold shrink-0">◇</span>
+                <span className="text-[#b8860b] font-semibold shrink-0">◇</span>
                 <span>{lesson}</span>
               </li>
             ))}
@@ -168,7 +168,7 @@ function ItihasaCard({
 
       {mainCharacters && mainCharacters.length > 0 && (
         <div className="mb-5 bg-[#fffef9] rounded-xl p-4 border border-[#ddb892]/15">
-          <h5 className="text-xs font-bold text-[#703d1b] mb-3 uppercase tracking-wide">
+          <h5 className="text-xs font-semibold text-[#703d1b] mb-3 uppercase tracking-wide">
             Main Characters
           </h5>
           <ul className="space-y-1">
@@ -184,7 +184,7 @@ function ItihasaCard({
 
       {specialTeaching && typeof specialTeaching === "object" && (
         <div className="bg-[#fff8f1] rounded-xl p-4 border-l-4 border-[#b8860b]">
-          <h5 className="text-md sm:text-base font-bold text-[#6d3414] mb-2">
+          <h5 className="text-md sm:text-base font-semibold text-[#6d3414] mb-2">
             {typeof specialTeaching.name === "string"
               ? specialTeaching.name
               : "Special Teaching"}
@@ -269,7 +269,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Meaning Section */}
       {meaning && (
         <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fffaf4] rounded-2xl border border-[#ddb892]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-4">
             What is Itihasa?
           </h2>
           <p className="text-base text-[#6d3d1a] leading-relaxed">{meaning}</p>
@@ -279,7 +279,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Introduction Section */}
       {introduction && (
         <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fff9f0] rounded-2xl border border-[#d4ae7a]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#6d3414] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#6d3414] mb-4">
             Introduction
           </h2>
           <p className="text-base text-[#7a4a2d] leading-relaxed">
@@ -291,7 +291,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Core Purpose Section */}
       {corePurpose.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Core Purpose
           </h2>
           <ul className="space-y-3">
@@ -300,7 +300,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
                 key={idx}
                 className="flex items-start gap-4 p-4 bg-[#fffaf4] rounded-xl border border-[#d4ae7a]/15 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
               >
-                <span className="text-[#b8860b] font-bold text-2xl leading-tight shrink-0">
+                <span className="text-[#b8860b] font-semibold text-2xl leading-tight shrink-0">
                   ◆
                 </span>
                 <span className="text-base text-[#6d3d1a]">{item}</span>
@@ -313,7 +313,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Key Features Section */}
       {keyFeatures.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Key Features of Itihasa
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -343,7 +343,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Major Itihasas Section */}
       {majorItihasas.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Major Itihasas
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -381,7 +381,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Important Concepts Section */}
       {importantConcepts.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Important Concepts
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -411,7 +411,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Learning Approach Section */}
       {learningApproach.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             How to Learn Itihasa
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -421,7 +421,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
                 className="p-5 bg-linear-to-br from-[#fff9f0] to-[#fffaf4] rounded-xl border border-[#d4ae7a]/20 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
               >
                 <div className="flex items-start gap-3">
-                  <span className="text-[#b8860b] font-extrabold text-lg leading-tight shrink-0 pt-1">
+                  <span className="text-[#b8860b] font-semibold text-lg leading-tight shrink-0 pt-1">
                     {idx + 1}
                   </span>
                   <p className="text-base text-[#6d3d1a]">{item}</p>
@@ -435,7 +435,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
       {/* Modern Relevance Section */}
       {modernRelevance.length > 0 && (
         <section className="mb-10 bg-[#fffbf7] rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-8 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Modern Relevance
           </h2>
           <ul className="space-y-3">
@@ -444,7 +444,7 @@ export default function ItihasaClient({ initialData, initialLocale }: ItihasaCli
                 key={idx}
                 className="flex items-start gap-4 text-base text-[#6d3d1a]"
               >
-                <span className="text-[#b8860b] font-bold text-xl leading-tight shrink-0">
+                <span className="text-[#b8860b] font-semibold text-xl leading-tight shrink-0">
                   ★
                 </span>
                 <span>{item}</span>

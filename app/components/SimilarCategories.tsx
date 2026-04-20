@@ -29,19 +29,6 @@ const CATEGORY_CONFIG: Record<string, { basePath: string; mode: CategoryMode }> 
   others: { basePath: '', mode: 'object-nav' },
   explore: { basePath: '/explore', mode: 'object-nav' }
 };
-// Helper to get explore subpages
-function getExploreLinks(locale: string): Promise<LinkItem[]> {
-  // This function should list all explore subpage JSON files and return LinkItems
-  // For now, hardcode a few known ones; ideally, this would be dynamic
-  const explorePages = [
-    { key: 'temples-in-india', label: 'Temples in India', href: '/explore/temples-in-india' },
-    { key: 'shakti-peethas', label: 'Shakti Peethas', href: '/explore/shakti-peethas' },
-    { key: 'religion-conversion', label: 'Religion Conversion', href: '/explore/religion-conversion' },
-    { key: 'usa-strategies', label: 'USA Strategies', href: '/explore/usa-strategies' },
-    { key: 'world-transformation', label: 'World Transformation', href: '/explore/world-transformation' }
-  ];
-  return Promise.resolve(explorePages);
-}
 
 function normalizeHref(href?: string) {
   if (!href) return '#';
@@ -195,16 +182,6 @@ export default function SimilarCategories({
           if (links.length === 0) return;
           extracted.push({ key: categoryKey, title: titleText, links });
         });
-
-        // Add explore links
-        const exploreLinks = await getExploreLinks(locale);
-        if (exploreLinks.length > 0) {
-          extracted.push({
-            key: 'explore',
-            title: 'Explore',
-            links: exploreLinks.filter((link) => !excludeCurrent || normalizeHref(link.href) !== pathname)
-          });
-        }
 
         setCategories(extracted.slice(0, maxItems));
       } catch (e) {

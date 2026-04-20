@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       className="layout-md"
     >
       <div className="space-y-8 md:space-y-12 text-md sm:text-base leading-relaxed font-normal bg-gradient-to-br from-emerald-50 via-teal-100 to-emerald-100/80 rounded-3xl border border-emerald-200/30 shadow-xl p-8 md:p-12 animate-fadeIn">
-        <h3 className="page-title text-3xl font-bold leading-snug mb-4 text-emerald-900 drop-shadow">{page.title}</h3>
+        <h3 className="page-title text-3xl font-semibold leading-snug mb-4 text-emerald-900 drop-shadow">{page.title}</h3>
         <p className="body-text text-md sm:text-base leading-relaxed mb-6 font-normal text-emerald-800/90 bg-gradient-to-r from-emerald-100/60 to-teal-50/40 rounded-xl px-4 py-2 shadow-sm">{page.intro}</p>
 
         <h4 className="section-title text-xl font-semibold leading-snug mb-2 text-emerald-800">{page.informationHeading}</h4>

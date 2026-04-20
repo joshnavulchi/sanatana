@@ -58,14 +58,14 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
 
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
-  // Experimental CSS optimization (dedupe & minimize CSS across pages).
+  // Experimental CSS optimization (dedupe/minify and critical CSS inlining).
   experimental: {
     // Control build concurrency for CI/local stability and speed.
     // Override with NEXT_BUILD_MAX_WORKERS (e.g. 4, 6, 8).
     cpus: buildWorkers,
-    // optimizeCss requires the `critters` package and is incompatible with
-    // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
-    optimizeCss: false,
+    // Inline critical CSS to reduce render-blocking styles on initial paint.
+    // Requires the `critters` package.
+    optimizeCss: true,
     largePageDataBytes: 512 * 1024, // 512KB threshold for inlining page data as JSON
     // Enable optimized resource loading hints
     // optimizePackageImports: ['react', 'react-dom'],
