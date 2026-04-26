@@ -93,7 +93,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-white text-2xl font-extrabold leading-snug mb-2 drop-shadow-lg animate-gradient-x">Get In Touch</h3>
+            <h3 className="text-white text-2xl font-semibold leading-snug mb-2 drop-shadow-lg animate-gradient-x">Get In Touch</h3>
             <p className="text-white/90 text-md sm:text-base leading-relaxed mb-4 font-normal animate-fadeIn delay-100">We&apos;d love to hear from you</p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 {
   "sharable-strings": {
+    "sitetitle": "Sanātana Dharma",
     "banner_notifications": {
       "title": "If you find our work helpful, consider supporting us to keep this web page",
       "links": {
@@ -10,344 +11,6 @@
     "banner_notifications2": {
       "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
       "subtitle": "Empowering future generations through timeless Vedic knowledge."
-    },
-    "cookieconsent": {
-      "acceptall": "Accept all",
-      "cookiepolicy": "Cookie Policy",
-      "managerbutton": "Cookie Preference Manager",
-      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
-      "privacypolicy": "Privacy Policy"
-    },
-    "cookiepolicy": {
-      "title": "Cookie Policy",
-      "datasharing": "Data sharing",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-      "lastupdated": "Last updated: {date}",
-      "managing": "Managing your preferences",
-      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
-      "types": {
-        "functionality": "Functionality: Remember choices and preferences.",
-        "performance": "Performance: Help us analyze traffic and performance.",
-        "strictlynecessary": "Strictly necessary: Required for the site to function.",
-        "targeting": "Targeting: Used for advertising and personalization."
-      },
-      "typesheading": "Types of cookies we use",
-      "whatarecookies": "What are cookies?"
-    },
-    "cosmic_time_structure": {
-      "mahayuga_total_years": 4320000,
-      "yugas": [
-        {
-          "dharma_percentage": 100,
-          "duration_years": 1728000,
-          "name": "Satya Yuga"
-        },
-        {
-          "dharma_percentage": 75,
-          "duration_years": 1296000,
-          "name": "Treta Yuga"
-        },
-        {
-          "dharma_percentage": 50,
-          "duration_years": 864000,
-          "name": "Dvapara Yuga"
-        },
-        {
-          "dharma_percentage": 25,
-          "duration_years": 432000,
-          "name": "Kali Yuga"
-        }
-      ]
-    },
-    "dashavatara": [
-      {
-        "associated_texts": [
-          "Bhagavata Purana",
-          "Vishnu Purana"
-        ],
-        "evolutionary_symbolism": "Aquatic life stage",
-        "name": "Matsya",
-        "order": 1,
-        "primary_antagonist": "Hayagriva (in some traditions)",
-        "purpose": "Rescue the Vedas and Manu from the cosmic flood",
-        "symbolism": "Beginning of life; preservation of knowledge",
-        "type": "Aquatic",
-        "yuga": "Satya Yuga"
-      },
-      {
-        "associated_texts": [
-          "Bhagavata Purana",
-          "Mahabharata"
-        ],
-        "evolutionary_symbolism": "Amphibian transition",
-        "name": "Kurma",
-        "order": 2,
-        "primary_event": "Churning of the Ocean",
-        "purpose": "Support Mount Mandara during Samudra Manthana",
-        "symbolism": "Stability and cosmic support",
-        "type": "Amphibian",
-        "yuga": "Satya Yuga"
-      },
-      {
-        "associated_texts": [
-          "Vishnu Purana"
-        ],
-        "evolutionary_symbolism": "Land animal stage",
-        "name": "Varaha",
-        "order": 3,
-        "primary_antagonist": "Hiranyaksha",
-        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
-        "symbolism": "Restoration of Earth and cosmic order",
-        "type": "Terrestrial Mammal",
-        "yuga": "Satya Yuga"
-      },
-      {
-        "associated_texts": [
-          "Bhagavata Purana"
-        ],
-        "evolutionary_symbolism": "Transition from animal to human",
-        "name": "Narasimha",
-        "order": 4,
-        "primary_antagonist": "Hiranyakashipu",
-        "purpose": "Protect Prahlada and destroy Hiranyakashipu",
-        "symbolism": "Divine intervention beyond logical constraints",
-        "type": "Man-Lion",
-        "yuga": "Satya Yuga"
-      },
-      {
-        "associated_texts": [
-          "Vishnu Purana"
-        ],
-        "evolutionary_symbolism": "Emergence of intellectual human",
-        "name": "Vamana",
-        "order": 5,
-        "primary_antagonist": "Mahabali",
-        "purpose": "Subdue King Bali and restore cosmic balance",
-        "symbolism": "Humility and divine intelligence",
-        "type": "Dwarf Brahmin",
-        "yuga": "Treta Yuga"
-      },
-      {
-        "associated_texts": [
-          "Mahabharata",
-          "Puranas"
-        ],
-        "evolutionary_symbolism": "Primitive warrior society",
-        "name": "Parashurama",
-        "order": 6,
-        "purpose": "Destroy corrupt Kshatriya rulers",
-        "symbolism": "Reset of social order",
-        "type": "Warrior Sage",
-        "weapon": "Parashu (Axe)",
-        "yuga": "Late Treta Yuga"
-      },
-      {
-        "associated_texts": [
-          "Ramayana"
-        ],
-        "evolutionary_symbolism": "Civilized moral state",
-        "name": "Rama",
-        "order": 7,
-        "primary_antagonist": "Ravana",
-        "purpose": "Destroy Ravana and establish righteous rule",
-        "symbolism": "Embodiment of Dharma",
-        "type": "Ideal King",
-        "yuga": "Treta Yuga"
-      },
-      {
-        "associated_texts": [
-          "Mahabharata",
-          "Bhagavad Gita"
-        ],
-        "evolutionary_symbolism": "Advanced social consciousness",
-        "name": "Krishna",
-        "order": 8,
-        "primary_antagonist": "Kauravas (collective adharma)",
-        "purpose": "Guide humanity through Mahabharata war",
-        "symbolism": "Divine wisdom and bhakti",
-        "type": "Divine Statesman",
-        "yuga": "Dvapara Yuga"
-      },
-      {
-        "associated_texts": [
-          "Bhagavata Purana (Vaishnava interpretation)"
-        ],
-        "evolutionary_symbolism": "Philosophical awakening",
-        "historical_identity": "Siddhartha Gautama",
-        "name": "Buddha",
-        "order": 9,
-        "purpose": "Reform ritual excess and promote compassion",
-        "symbolism": "Compassion and introspection",
-        "type": "Enlightened Teacher",
-        "yuga": "Early Kali Yuga"
-      },
-      {
-        "associated_texts": [
-          "Vishnu Purana",
-          "Bhagavata Purana"
-        ],
-        "evolutionary_symbolism": "Transformation and rebirth",
-        "name": "Kalki",
-        "order": 10,
-        "purpose": "Destroy adharma and reset cosmic cycle",
-        "status": "Future",
-        "symbolism": "Cyclical renewal",
-        "type": "Future Warrior",
-        "yuga": "End of Kali Yuga"
-      }
-    ],
-    "footer": {
-      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
-      "contact": "Contact with us",
-      "contentchange": "Content may be incomplete or subject to change.",
-      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
-      "disclaimer": "Disclaimer: This website is currently in development.",
-      "shareMessage": "Share this page with friends and family to help others discover Vedic wisdom.",
-      "donate": "Donate",
-      "itihasa": {
-        "title": "Itihasa",
-        "nav": [
-          {
-            "description": "Epic describing the life of Lord Rama.",
-            "author": "Valmiki",
-            "kandas": {
-              "aranya-kanda": "Aranya Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "bala-kanda": "Bala Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "uttara-kanda": "Uttara Kanda",
-              "yuddha-kanda": "Yuddha Kanda"
-            },
-            "name": "Ramayana"
-          },
-          {
-            "description": "Epic describing the Kurukshetra war and dharma.",
-            "author": "Vyasa",
-            "name": "Mahabharata",
-            "parvas": 18
-          },
-          {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
-            "chapters": 18,
-            "chapters_list": {
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "karma-yoga": "Karma Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga"
-            },
-            "verses": 700
-          }
-        ]
-      },
-      "others": {
-        "title": "Sanātana Dharma",
-        "nav": {
-          "about": "About",
-          "drip-irrigation-process": "Drip Irrigation Process",
-          "religion-conversion": "Religion Conversion",
-          "sanksheparamayana": "Sanksheparamayana"
-        }
-      },
-      "philosophy": {
-        "title": "Philosophy",
-        "basePath": "/vedic-philosophy",
-        "nav": {
-          "advaita": "Advaita",
-          "astronomy": "Astronomy",
-          "bhakti": "Bhakti",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "moksha": "Moksha",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "yoga": "Yoga"
-        },
-        "subtitle": "Vedic"
-      },
-      "privacy": "Privacy Policy",
-      "puranas": {
-        "title": "Puranas",
-        "nav": {
-          "agni": "Agni Purana",
-          "bhagavata": "Bhagavata Purana",
-          "bhavishya": "Bhavishya Purana",
-          "brahma": "Brahma Purana",
-          "brahmanda": "Brahmanda Purana",
-          "brahmavaivarta": "Brahmavaivarta Purana",
-          "garuda": "Garuda Purana",
-          "kurma": "Kurma Purana",
-          "linga": "Linga Purana",
-          "markandeya": "Markandeya Purana",
-          "matsya": "Matsya Purana",
-          "narada": "Narada Purana",
-          "padma": "Padma Purana",
-          "shiva": "Shiva Purana",
-          "skanda": "Skanda Purana",
-          "vamana": "Vamana Purana",
-          "varaha": "Varaha Purana",
-          "vishnu": "Vishnu Purana"
-        }
-      },
-      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
-      "quotesource": "(Bhagavad Gītā 4.7)",
-      "science": {
-        "title": "Science",
-        "basePath": "/vedic-science",
-        "nav": {
-          "architecture": "Architecture",
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy"
-        },
-        "subtitle": "Vedic"
-      },
-      "terms": "Terms of Service",
-      "upanishads": {
-        "title": "Upanishads",
-        "nav": {
-          "aitareya": "Aitareya Upanishad",
-          "brihadaranyaka": "Brihadaranyaka Upanishad",
-          "chandogya": "Chandogya Upanishad",
-          "isha": "Isha Upanishad",
-          "katha": "Katha Upanishad",
-          "kaushitaki": "Kaushitaki Upanishad",
-          "kena": "Kena Upanishad",
-          "maitri": "Maitri Upanishad",
-          "mandukya": "Mandukya Upanishad",
-          "mundaka": "Mundaka Upanishad",
-          "prashna": "Prashna Upanishad",
-          "shvetashvatara": "Shvetashvatara Upanishad",
-          "taittiriya": "Taittiriya Upanishad"
-        }
-      },
-      "vedas": {
-        "title": "Vedas",
-        "nav": {
-          "rigveda": "Rigveda",
-          "yajurveda": "Yajurveda",
-          "samaveda": "Samaveda",
-          "atharvaveda": "Atharvaveda"
-        }
-      }
     },
     "header": {
       "itihasa": {
@@ -481,18 +144,184 @@
         }
       }
     },
-    "interpretations": {
-      "comparative_mythology_view": "Flood myth parallels global traditions.",
-      "current_cycle": {
-        "current_yuga": "Kali Yuga",
-        "kali_yuga_started_bce": 3102,
-        "years_elapsed_in_kali_yuga_approx": 5100
+    "footer": {
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+      "contact": "Contact with us",
+      "contentchange": "Content may be incomplete or subject to change.",
+      "copyright": "Vulchi Vijaya Kumar Raju (Kshatriya's) © 2025.",
+      "disclaimer": "Disclaimer: This website is currently in development.",
+      "shareMessage": "Share this page with friends and family to help others discover Vedic wisdom.",
+      "donate": "Donate",
+      "itihasa": {
+        "title": "Itihasa",
+        "nav": [
+          {
+            "description": "Epic describing the life of Lord Rama.",
+            "author": "Valmiki",
+            "kandas": {
+              "aranya-kanda": "Aranya Kanda",
+              "ayodhya-kanda": "Ayodhya Kanda",
+              "bala-kanda": "Bala Kanda",
+              "kishkinda-kanda": "Kishkindha Kanda",
+              "sundara-kanda": "Sundara Kanda",
+              "uttara-kanda": "Uttara Kanda",
+              "yuddha-kanda": "Yuddha Kanda"
+            },
+            "name": "Ramayana"
+          },
+          {
+            "description": "Epic describing the Kurukshetra war and dharma.",
+            "author": "Vyasa",
+            "name": "Mahabharata",
+            "parvas": 18
+          },
+          {
+            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "chapters": 18,
+            "chapters_list": {
+              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
+              "bhakti-yoga": "Bhakti Yoga",
+              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "dhyana-yoga": "Dhyana Yoga",
+              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
+              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
+              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
+              "karma-yoga": "Karma Yoga",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
+              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga",
+              "purushottama-yoga": "Purushottama Yoga",
+              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
+              "sankhya-yoga": "Sankhya Yoga",
+              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
+              "vibhuti-yoga": "Vibhuti Yoga",
+              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga"
+            },
+            "verses": 700
+          }
+        ]
       },
-      "cyclical_time_concept": "Time is non-linear and regenerative.",
-      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
-      "symbolic_view": "Represents spiritual evolution of consciousness.",
-      "theological_view": "Avatars manifest to restore dharma when it declines (Bhagavad Gita 4.7-8)."
+      "others": {
+        "title": "Sanātana Dharma",
+        "nav": {
+          "about": "About",
+          "religion-conversion": "Religion Conversion",
+          "sanksheparamayana": "Sanksheparamayana"
+        }
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "basePath": "/vedic-philosophy",
+        "nav": {
+          "advaita": "Advaita",
+          "astronomy": "Astronomy",
+          "bhakti": "Bhakti",
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "moksha": "Moksha",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "yoga": "Yoga"
+        },
+        "subtitle": "Vedic"
+      },
+      "privacy": "Privacy Policy",
+      "puranas": {
+        "title": "Puranas",
+        "nav": {
+          "agni": "Agni Purana",
+          "bhagavata": "Bhagavata Purana",
+          "bhavishya": "Bhavishya Purana",
+          "brahma": "Brahma Purana",
+          "brahmanda": "Brahmanda Purana",
+          "brahmavaivarta": "Brahmavaivarta Purana",
+          "garuda": "Garuda Purana",
+          "kurma": "Kurma Purana",
+          "linga": "Linga Purana",
+          "markandeya": "Markandeya Purana",
+          "matsya": "Matsya Purana",
+          "narada": "Narada Purana",
+          "padma": "Padma Purana",
+          "shiva": "Shiva Purana",
+          "skanda": "Skanda Purana",
+          "vamana": "Vamana Purana",
+          "varaha": "Varaha Purana",
+          "vishnu": "Vishnu Purana"
+        }
+      },
+      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
+      "quotesource": "(Bhagavad Gītā 4.7)",
+      "science": {
+        "title": "Science",
+        "basePath": "/vedic-science",
+        "nav": {
+          "architecture": "Architecture",
+          "astronomy": "Astronomy",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "metallurgy": "Metallurgy"
+        },
+        "subtitle": "Vedic"
+      },
+      "terms": "Terms of Service",
+      "upanishads": {
+        "title": "Upanishads",
+        "nav": {
+          "aitareya": "Aitareya Upanishad",
+          "brihadaranyaka": "Brihadaranyaka Upanishad",
+          "chandogya": "Chandogya Upanishad",
+          "isha": "Isha Upanishad",
+          "katha": "Katha Upanishad",
+          "kaushitaki": "Kaushitaki Upanishad",
+          "kena": "Kena Upanishad",
+          "maitri": "Maitri Upanishad",
+          "mandukya": "Mandukya Upanishad",
+          "mundaka": "Mundaka Upanishad",
+          "prashna": "Prashna Upanishad",
+          "shvetashvatara": "Shvetashvatara Upanishad",
+          "taittiriya": "Taittiriya Upanishad"
+        }
+      },
+      "vedas": {
+        "title": "Vedas",
+        "nav": {
+          "rigveda": "Rigveda",
+          "yajurveda": "Yajurveda",
+          "samaveda": "Samaveda",
+          "atharvaveda": "Atharvaveda"
+        }
+      }
+    },
+    "scrolltotop": {
+      "title": "Back to top",
+      "arialabel": "Scroll to top"
+    },
+    "cookieconsent": {
+      "acceptall": "Accept all",
+      "cookiepolicy": "Cookie Policy",
+      "managerbutton": "Cookie Preference Manager",
+      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
+      "privacypolicy": "Privacy Policy"
+    },
+    "cookiepolicy": {
+      "title": "Cookie Policy",
+      "datasharing": "Data sharing",
+      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
+      "lastupdated": "Last updated: {date}",
+      "managing": "Managing your preferences",
+      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+      "types": {
+        "functionality": "Functionality: Remember choices and preferences.",
+        "performance": "Performance: Help us analyze traffic and performance.",
+        "strictlynecessary": "Strictly necessary: Required for the site to function.",
+        "targeting": "Targeting: Used for advertising and personalization."
+      },
+      "typesheading": "Types of cookies we use",
+      "whatarecookies": "What are cookies?"
     },
     "policies": {
       "cookiepolicy": {
@@ -523,10 +352,6 @@
         "yourrights": "Your rights",
         "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
       }
-    },
-    "scrolltotop": {
-      "title": "Back to top",
-      "arialabel": "Scroll to top"
     },
     "similar_categories": {
       "itihasa": {
@@ -579,16 +404,6 @@
             "verses": 700
           }
         ]
-      },
-      "others": {
-        "title": "Sanātana Dharma",
-        "basePath": "",
-        "nav": {
-          "about": "About",
-          "festivals": "Festivals",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "vedic-gods": "Vedic Gods"
-        }
       },
       "philosophy": {
         "title": "Philosophy",
@@ -672,7 +487,6 @@
           "yajurveda": "Yajurveda"
         }
       }
-    },
-    "sitetitle": "Sanātana Dharma"
+    }
   }
 }

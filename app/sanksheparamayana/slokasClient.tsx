@@ -57,7 +57,7 @@ export default function SlokasClient() {
       {/* Main characters */}
       {page.main_characters && page.main_characters.length > 0 && (
         <div className="rounded-2xl p-6 mb-8">
-          <h2 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Main Characters</h2>
+          <h2 className="h4 text-[#a15c1b] font-semibold mb-3 drop-shadow">Main Characters</h2>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.main_characters.map((c: any, idx: number) => (
               <li key={idx} className="text-[#7a3b0c] font-medium">
@@ -70,7 +70,7 @@ export default function SlokasClient() {
       {/* Important places */}
       {page.important_places && page.important_places.length > 0 && (
         <div className="border border-[#f5e6ca]/40 p-6 mb-8">
-          <h3 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Important Places</h3>
+          <h3 className="h4 text-[#a15c1b] font-semibold mb-3 drop-shadow">Important Places</h3>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.important_places.map((p: any, idx: number) => (
               <li key={idx} className="text-[#7a3b0c] font-medium">
@@ -83,7 +83,7 @@ export default function SlokasClient() {
       {/* Timeline */}
       {page.timeline && page.timeline.length > 0 && (
         <div className="border border-[#f5e6ca]/40 p-6 mb-8">
-          <h4 className="text-[#a15c1b] font-bold mb-3 drop-shadow">Timeline</h4>
+          <h4 className="text-[#a15c1b] font-semibold mb-3 drop-shadow">Timeline</h4>
           <ol role="list" className="list-decimal ml-6 space-y-2">
             {page.timeline.map((ev: any, idx: number) => (
               <li key={idx} className="text-[#7a3b0c] font-medium">
@@ -96,7 +96,7 @@ export default function SlokasClient() {
       {/* Core themes */}
       {page.core_themes && page.core_themes.length > 0 && (
         <div className="border border-[#f5e6ca]/40 p-6 mb-8">
-          <h5 className="h4 text-[#a15c1b] font-bold mb-3 drop-shadow">Core Themes</h5>
+          <h5 className="h4 text-[#a15c1b] font-semibold mb-3 drop-shadow">Core Themes</h5>
           <ul role="list" className="list-disc ml-6 space-y-2">
             {page.core_themes.map((ct: any, idx: number) => (
               <li key={idx}>{(typeof ct.title === 'string') ? ct.title : ct['title']}</li>

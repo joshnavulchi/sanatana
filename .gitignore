@@ -54,7 +54,11 @@ public/images/slider/without_reduce/
 lighthouse-report.html
 tmp
 public/critical-home.css
-/.merge-json-errors
+.merge-json-errors
+.venv
+.vscode/
+public/data/audit-report-csv
+public/data/audit-report-json
 
 # Additional build / cache artifacts
 .cache/

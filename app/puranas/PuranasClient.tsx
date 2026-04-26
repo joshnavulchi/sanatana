@@ -7,6 +7,33 @@ import PageLayout from "@components/common/PageLayout";
 
 type GenericRecord = Record<string, unknown>;
 
+type PuranasClientProps = {
+  initialData?: GenericRecord;
+  initialLocale?: string;
+};
+
+function toRecord(value: unknown): GenericRecord {
+  return value && typeof value === "object" ? (value as GenericRecord) : {};
+}
+
+function mergeTopLevelData(base: GenericRecord, incoming: GenericRecord): GenericRecord {
+  return {
+    ...base,
+    ...incoming,
+  };
+}
+
+function hasRenderablePuranasData(value: GenericRecord | undefined): boolean {
+  if (!value || typeof value !== "object") return false;
+  const meaning = typeof value.meaning === "string" && value.meaning.trim().length > 0;
+  const intro = typeof value.introduction === "string" && value.introduction.trim().length > 0;
+  const core = Array.isArray(value.core_purpose) && value.core_purpose.length > 0;
+  const features = Array.isArray(value.key_features) && value.key_features.length > 0;
+  const major = Array.isArray(value.major_puranas) && value.major_puranas.length > 0;
+  const concepts = Array.isArray(value.important_concepts) && value.important_concepts.length > 0;
+  return meaning || intro || core || features || major || concepts;
+}
+
 function formatLabel(str: string): string {
   return str
     .replace(/_/g, " ")
@@ -37,13 +64,13 @@ function FeatureCard({
     <div
       className={`relative rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.06)]`}
     >
-      <h4 className="text-lg font-bold text-[#5a2d0c] mb-2">{feature}</h4>
+      <h4 className="text-lg font-semibold text-[#5a2d0c] mb-2">{feature}</h4>
       <p className="text-md sm:text-base text-[#6d3d1a] mb-4">{explanation}</p>
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#d4ae7a]/15 pt-4">
           {deepUnderstanding.map((point, i) => (
             <li key={i} className="flex items-start gap-2 text-md sm:text-base text-[#7a4a2e]">
-              <span className="text-[#b8860b] font-bold mt-1">•</span>
+              <span className="text-[#b8860b] font-semibold mt-1">•</span>
               <span>{point}</span>
             </li>
           ))}
@@ -75,13 +102,13 @@ function ConceptCard({
     <div
       className={`relative rounded-2xl border border-[#ddb892]/25 p-6 md:p-7 ${bgColors[index % 4]} shadow-[0_4px_15px_rgba(139,69,19,0.05)]`}
     >
-      <h4 className="text-lg font-bold text-[#703d1b] mb-2">{concept}</h4>
+      <h4 className="text-lg font-semibold text-[#703d1b] mb-2">{concept}</h4>
       <p className="text-md sm:text-base text-[#7a4a2d] mb-4">{explanation}</p>
       {deepUnderstanding && deepUnderstanding.length > 0 && (
         <ul className="space-y-2 border-t border-[#ddb892]/15 pt-4">
           {deepUnderstanding.map((point, i) => (
             <li key={i} className="flex items-start gap-2 text-md sm:text-base text-[#8b5a3c]">
-              <span className="text-[#c09850] font-bold mt-1">✦</span>
+              <span className="text-[#c09850] font-semibold mt-1">✦</span>
               <span>{point}</span>
             </li>
           ))}
@@ -113,7 +140,7 @@ function PuranaCard({
       className={`relative rounded-2xl border border-[#d4a574]/25 p-6 md:p-7 ${bgColors[index % 3]} shadow-[0_4px_15px_rgba(139,69,19,0.07)]`}
     >
       <div className="flex items-start justify-between mb-3">
-        <h4 className="text-lg font-bold text-[#6d3414]">{name}</h4>
+        <h4 className="text-lg font-semibold text-[#6d3414]">{name}</h4>
         <span className="px-3 py-1 rounded-full bg-[#d4a574]/10 text-[#8b5a2d] text-xs font-semibold">
           Focus
         </span>
@@ -126,12 +153,22 @@ function PuranaCard({
   );
 }
 
-export default function PuranasClient() {
+export default function PuranasClient({ initialData, initialLocale }: PuranasClientProps) {
   const { isLoading } = useLocale();
   const pageNs = useLocaleSection("puranas");
-  const root = pageNs && typeof pageNs === "object" ? pageNs : {};
+  const hasPageNs = pageNs && typeof pageNs === "object" && Object.keys(pageNs).length > 0;
+  const pagePayload = (hasPageNs ? (pageNs as GenericRecord) : undefined);
+  const pageHasRenderableData = hasRenderablePuranasData(pagePayload);
+  const initialPayload = toRecord(initialData);
+  const root = hasPageNs
+    ? (pageHasRenderableData
+      ? mergeTopLevelData(initialPayload, toRecord(pageNs))
+      : initialPayload)
+    : initialPayload;
 
-  if (isLoading || Object.keys(root).length === 0) {
+  const shouldShowLoader = isLoading && !hasPageNs && (!initialData || Object.keys(initialData).length === 0);
+
+  if (shouldShowLoader || Object.keys(root).length === 0) {
     return (
       <PageLayout
         metaKey="puranas"
@@ -182,7 +219,7 @@ export default function PuranasClient() {
       {/* Meaning Section */}
       {meaning && (
         <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fffaf4] rounded-2xl border border-[#ddb892]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-4">
             What is Purana?
           </h2>
           <p className="text-base text-[#6d3d1a] leading-relaxed">{meaning}</p>
@@ -192,7 +229,7 @@ export default function PuranasClient() {
       {/* Introduction Section */}
       {introduction && (
         <section className="mb-10 px-4 py-8 md:px-6 md:py-10 bg-[#fff9f0] rounded-2xl border border-[#d4ae7a]/20 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#6d3414] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#6d3414] mb-4">
             Introduction
           </h2>
           <p className="text-base text-[#7a4a2d] leading-relaxed">{introduction}</p>
@@ -202,7 +239,7 @@ export default function PuranasClient() {
       {/* Core Purpose Section */}
       {corePurpose.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Core Purpose
           </h2>
           <ul className="space-y-3">
@@ -211,7 +248,7 @@ export default function PuranasClient() {
                 key={idx}
                 className="flex items-start gap-4 p-4 bg-[#fffaf4] rounded-xl border border-[#d4ae7a]/15 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
               >
-                <span className="text-[#b8860b] font-bold text-2xl leading-tight flex-shrink-0">
+                <span className="text-[#b8860b] font-semibold text-2xl leading-tight flex-shrink-0">
                   ◆
                 </span>
                 <span className="text-base text-[#6d3d1a]">{item}</span>
@@ -224,7 +261,7 @@ export default function PuranasClient() {
       {/* Key Features Section */}
       {keyFeatures.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Key Features of Puranas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -256,7 +293,7 @@ export default function PuranasClient() {
       {/* Structure of Puranas Section */}
       {structureOfPuranas.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Structure of Puranas
           </h2>
           <div className="space-y-3">
@@ -276,7 +313,7 @@ export default function PuranasClient() {
       {/* Major Puranas Section */}
       {majorPuranas.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Major Puranas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -300,7 +337,7 @@ export default function PuranasClient() {
       {/* Important Concepts Section */}
       {importantConcepts.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Important Concepts
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -330,7 +367,7 @@ export default function PuranasClient() {
       {/* Learning Approach Section */}
       {learningApproach.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             How to Learn Puranas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -340,7 +377,7 @@ export default function PuranasClient() {
                 className="p-5 bg-gradient-to-br from-[#fff9f0] to-[#fffaf4] rounded-xl border border-[#d4ae7a]/20 shadow-[0_2px_8px_rgba(139,69,19,0.04)]"
               >
                 <div className="flex items-start gap-3">
-                  <span className="text-[#b8860b] font-extrabold text-lg leading-tight flex-shrink-0 pt-1">
+                  <span className="text-[#b8860b] font-semibold text-lg leading-tight flex-shrink-0 pt-1">
                     {idx + 1}
                   </span>
                   <p className="text-base text-[#6d3d1a]">{item}</p>
@@ -354,7 +391,7 @@ export default function PuranasClient() {
       {/* Modern Relevance Section */}
       {modernRelevance.length > 0 && (
         <section className="mb-10 bg-[#fffbf7] rounded-2xl border border-[#d4ae7a]/20 p-6 md:p-8 shadow-[0_4px_12px_rgba(139,69,19,0.05)]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#5a2d0c] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#5a2d0c] mb-6">
             Modern Relevance
           </h2>
           <ul className="space-y-3">
@@ -363,7 +400,7 @@ export default function PuranasClient() {
                 key={idx}
                 className="flex items-start gap-4 text-base text-[#6d3d1a]"
               >
-                <span className="text-[#b8860b] font-bold text-xl leading-tight flex-shrink-0">
+                <span className="text-[#b8860b] font-semibold text-xl leading-tight flex-shrink-0">
                   ★
                 </span>
                 <span>{item}</span>

@@ -12,6 +12,7 @@ interface SimilarCategoriesProps {
 }
 
 const INITIAL_VISIBLE_LINKS = 5;
+const AVAILABLE_VEDIC_SCIENCE_SLUGS = new Set(['astronomy', 'mathematics', 'medicine']);
 
 type LinkItem = { key: string; label: string; href: string };
 type CategoryItem = { key: string; title: string; links: LinkItem[] };
@@ -28,19 +29,6 @@ const CATEGORY_CONFIG: Record<string, { basePath: string; mode: CategoryMode }> 
   others: { basePath: '', mode: 'object-nav' },
   explore: { basePath: '/explore', mode: 'object-nav' }
 };
-// Helper to get explore subpages
-function getExploreLinks(locale: string): Promise<LinkItem[]> {
-  // This function should list all explore subpage JSON files and return LinkItems
-  // For now, hardcode a few known ones; ideally, this would be dynamic
-  const explorePages = [
-    { key: 'temples-in-india', label: 'Temples in India', href: '/explore/temples-in-india' },
-    { key: 'shakti-peethas', label: 'Shakti Peethas', href: '/explore/shakti-peethas' },
-    { key: 'religion-conversion', label: 'Religion Conversion', href: '/explore/religion-conversion' },
-    { key: 'usa-strategies', label: 'USA Strategies', href: '/explore/usa-strategies' },
-    { key: 'world-transformation', label: 'World Transformation', href: '/explore/world-transformation' }
-  ];
-  return Promise.resolve(explorePages);
-}
 
 function normalizeHref(href?: string) {
   if (!href) return '#';
@@ -143,6 +131,7 @@ function normalizeLinksForCategory(categoryKey: string, section: Record<string, 
     return Object.entries(nav)
       .map(([navKey, navLabel]) => {
         if (typeof navLabel !== 'string') return null;
+        if (categoryKey === 'science' && !AVAILABLE_VEDIC_SCIENCE_SLUGS.has(navKey)) return null;
         const href = basePath ? normalizeHref(`${basePath}/${navKey}`) : normalizeHref(`/${navKey}`);
         return { key: `${categoryKey}:${navKey}`, label: navLabel, href };
       })
@@ -194,16 +183,6 @@ export default function SimilarCategories({
           extracted.push({ key: categoryKey, title: titleText, links });
         });
 
-        // Add explore links
-        const exploreLinks = await getExploreLinks(locale);
-        if (exploreLinks.length > 0) {
-          extracted.push({
-            key: 'explore',
-            title: 'Explore',
-            links: exploreLinks.filter((link) => !excludeCurrent || normalizeHref(link.href) !== pathname)
-          });
-        }
-
         setCategories(extracted.slice(0, maxItems));
       } catch (e) {
         console.error('Error loading categories:', e);
@@ -231,7 +210,7 @@ export default function SimilarCategories({
         <h5 className="text-xl md:text-md sm:text-base font-semibold tracking-wide text-amber-900">{title}</h5>
         <p className="text-amber-800 text-md sm:text-base leading-relaxed mb-4 font-normal">Sacred pathways to explore related wisdom.</p>
       </div>
-      <div className="space-y-4 text-md sm:text-base leading-relaxed font-normal">
+      <div className="space-y-4 text-md sm:text-base leading-relaxed font-normal mt-4">
         {categories.map((category) => {
           return (
             <div
@@ -246,12 +225,12 @@ export default function SimilarCategories({
                   {category.title}
                 </Link>
               </h6>
-              <ul className="space-y-2 list-disc pl-5 text-md sm:text-base leading-relaxed">
+              <ul className="space-y-2 pl-5 text-md sm:text-base leading-relaxed">
                 {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map((link) => (
                   <li key={link.key} className="mb-2">
                     <Link
                       href={normalizeHref(link.href)}
-                      className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
+                      className="inline-flex items-center gap-2 text-amber-800 transition-colors hover:text-orange-700"
                     >
                       <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 text-md sm:text-base leading-relaxed font-normal" />
                       {link.label}
@@ -270,7 +249,7 @@ export default function SimilarCategories({
                       }));
                     }}
                     aria-expanded={Boolean(expandedByCategory[category.key])}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-md sm:text-base font-semibold tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-sm tracking-wide text-amber-900 transition-colors hover:bg-amber-100"
                   >
                     <span aria-hidden="true">{expandedByCategory[category.key] ? '−' : '+'}</span>
                     {expandedByCategory[category.key] ? 'Show less' : `More (${category.links.length - INITIAL_VISIBLE_LINKS})`}
@@ -278,7 +257,7 @@ export default function SimilarCategories({
                 )}
                 <Link
                   href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-md sm:text-base font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-sm tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
                 >
                   View all
                   <span aria-hidden="true">→</span>
