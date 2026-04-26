@@ -443,13 +443,13 @@ export default function Header() {
           <div className="border-l border-transparent flex items-center gap-3">
             <LanguageDropdown />
           </div>
-          <ThemeToggle />
+          {/* ─── <ThemeToggle /> ─── */}
         </nav>
 
         {/* ─── Mobile Toggle ─── */}
         <div className="flex items-center md:hidden gap-3">
           <LanguageDropdown />
-          <ThemeToggle />
+          {/* ─── <ThemeToggle /> ─── */}
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((s) => !s)}
