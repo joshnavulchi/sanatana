@@ -148,7 +148,8 @@ export default async function RootLayout({
         )} */}
       </head>
       <body className="antialiased" translate="no">
-        {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
+        {/* Google Tag Manager: script loader (googletagmanager.com/gtm.js) is injected client-side
+            by ConsentAnalyticsLoader after user consent; noscript fallback below */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
             <iframe
