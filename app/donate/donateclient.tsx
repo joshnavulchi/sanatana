@@ -95,16 +95,16 @@ export default function DonateClient({ initialTitle = '' }: Props) {
         ? {
             heading: rawExpenses.heading || '',
             table: Array.isArray(rawExpenses.table)
-              ? rawExpenses.table.filter((row: unknown): row is ExpenseRow =>
-                  Boolean(
-                    row &&
-                    typeof row === 'object' &&
-                    'name' in row &&
-                    'cost' in row &&
-                    'cycle' in row &&
-                    'provider' in row
-                  )
-                )
+              ? rawExpenses.table.filter((row: unknown): row is ExpenseRow => {
+                  if (!row || typeof row !== 'object') return false;
+                  const r = row as Record<string, unknown>;
+                  return (
+                    typeof r.name === 'string' &&
+                    typeof r.cost === 'string' &&
+                    typeof r.cycle === 'string' &&
+                    typeof r.provider === 'string'
+                  );
+                })
               : [],
           }
         : { heading: '', table: [] };
