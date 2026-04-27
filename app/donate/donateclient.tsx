@@ -192,7 +192,7 @@ export default function DonateClient({ initialTitle = '' }: Props) {
         {/* Donation receipts */}
         <section className="relative">
           <div className="text-center text-md sm:text-base leading-relaxed font-normal">
-            <h4 className="text-md sm:text-base sm:text-xl md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
+            <h4 className="text-md sm:text-base md:text-2xl font-semibold text-gray-900 inline-block">{donate.expenses?.heading}</h4>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full text-md sm:text-base leading-relaxed font-normal"></div>
           </div>
           <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200 text-md sm:text-base leading-relaxed font-normal">
@@ -217,7 +217,7 @@ export default function DonateClient({ initialTitle = '' }: Props) {
               </tbody>
             </table>
           </div>
-          <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200 text-md sm:text-base leading-relaxed font-normal">
+          <div className="overflow-x-auto rounded-2xl shadow-sm border border-amber-200 text-md sm:text-base leading-relaxed font-normal mt-12">
             <table className="w-full">
               <thead className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white">
                 <tr>
