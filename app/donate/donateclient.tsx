@@ -17,6 +17,13 @@ type PurposeContent = {
   points: string[];
 };
 
+type ExpenseRow = {
+  name: string;
+  cost: string;
+  cycle: string;
+  provider: string;
+};
+
 type DonationRow = {
   date: string;
   amountDonate: string;
@@ -35,6 +42,7 @@ type DonateState = {
   purpose: PurposeContent;
   expenses: {
     heading: string;
+    table: ExpenseRow[];
   };
   donateOptions: {
     oneTime?: {
@@ -57,7 +65,7 @@ export default function DonateClient({ initialTitle = '' }: Props) {
     title: initialTitle,
     subtitle: '',
     purpose: { heading: '', points: [] },
-    expenses: { heading: '' },
+    expenses: { heading: '', table: [] },
     donateOptions: {},
     faq: { heading: '', items: [] },
   });
@@ -84,8 +92,22 @@ export default function DonateClient({ initialTitle = '' }: Props) {
         : { heading: '', points: parseSections(rawPurpose) };
 
       const expenses = (rawExpenses && typeof rawExpenses === 'object')
-        ? { heading: rawExpenses.heading || '' }
-        : { heading: '' };
+        ? {
+            heading: rawExpenses.heading || '',
+            table: Array.isArray(rawExpenses.table)
+              ? rawExpenses.table.filter((row: unknown): row is ExpenseRow =>
+                  Boolean(
+                    row &&
+                    typeof row === 'object' &&
+                    'name' in row &&
+                    'cost' in row &&
+                    'cycle' in row &&
+                    'provider' in row
+                  )
+                )
+              : [],
+          }
+        : { heading: '', table: [] };
 
       const faq = (rawFaq && typeof rawFaq === 'object')
         ? {
@@ -206,7 +228,7 @@ export default function DonateClient({ initialTitle = '' }: Props) {
                 </tr>
               </thead>
               <tbody className="bg-white">
-                {(donate.expenses?.table || []).map((row: any, i: number) => (
+                {(donate.expenses?.table || []).map((row: ExpenseRow, i: number) => (
                   <tr key={i} className="border-t border-amber-100 hover:bg-amber-50 transition-colors duration-200">
                     <td className="p-4 font-medium text-gray-900">{row.name}</td>
                     <td className="p-4 text-amber-800 font-semibold">{row.cost}</td>
