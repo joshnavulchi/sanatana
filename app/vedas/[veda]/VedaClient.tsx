@@ -33,7 +33,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
   const locale = initialLocale || ctxLocale || DEFAULT_LOCALE;
 
   function SectionTitle({ children }: any) {
-    return <h2 className="text-2xl font-extrabold text-transparent bg-clip-text drop-shadow-lg mt-6 mb-3">{children}</h2>;
+    return <h2 className="text-2xl font-semibold text-transparent bg-clip-text drop-shadow-lg mt-6 mb-3">{children}</h2>;
   }
   function Paragraph({ children }: any) {
     return <p className="text-md sm:text-base text-[#5b2d12] leading-relaxed mb-4 px-3 py-2">{children}</p>;
@@ -156,7 +156,7 @@ export default function VedaClient({ initialData, initialLocale, vedas }: Props)
 
             return (
               <div key={idx} className="shadow-lg p-3">
-                <h4 className="text-xl font-extrabold text-[#7c2d12] mb-2 drop-shadow-sm">
+                <h4 className="text-xl font-semibold text-[#7c2d12] mb-2 drop-shadow-sm">
                   {href && href !== '#' ? (
                     <Link href={href} className="hover:underline">{displayTitle}</Link>
                   ) : displayTitle}

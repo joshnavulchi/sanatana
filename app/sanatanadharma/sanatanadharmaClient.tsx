@@ -27,18 +27,18 @@ export default function SanatanadharmaClient() {
           const chapPara3 = ch?.para3 || `Paragraph 3`;
           const primary = Array.isArray(ch?.keypoints) ? ch.keypoints : [];
           return (
-            <article key={i} className="border border-[#b2ebf2]/40 p-6">
-              <p className="subtitle h4! text-[#00796b] font-bold mb-2 drop-shadow">{`Chapter ${chap}: ${chapTitle}`}</p>
-              <p className="description md:indent-16 text-[#004d40] mb-2">{chapPara1}</p>
-              <p className="description md:indent-16 text-[#004d40] mb-2">{chapPara2}</p>
-              <p className="description md:indent-16 text-[#004d40] mb-2">{chapPara3}</p>
+            <article key={i} className="border border-cyan-200/40 p-6">
+              <p className="subtitle h4! text-teal-700 font-semibold mb-2 drop-shadow">{`Chapter ${chap}: ${chapTitle}`}</p>
+              <p className="description md:indent-16 text-teal-900 mb-2">{chapPara1}</p>
+              <p className="description md:indent-16 text-teal-900 mb-2">{chapPara2}</p>
+              <p className="description md:indent-16 text-teal-900 mb-2">{chapPara3}</p>
               <ul className="list-disc ml-5 mt-1 space-y-2">
                 {primary.map((point: any, idx: number) => (
-                  <li key={idx} className="text-[#00695c]">
-                    <p className="subtitle h4! text-[#009688] font-semibold mb-1">{point.title}</p>
-                    <p className="description md:indent-16 text-[#004d40]">{point.para1}</p>
-                    <p className="description md:indent-16 text-[#004d40]">{point.para2}</p>
-                    <p className="description md:indent-16 text-[#004d40]">{point.para3}</p>
+                  <li key={idx} className="text-teal-700">
+                    <p className="subtitle h4! text-teal-600 font-semibold mb-1">{point.title}</p>
+                    <p className="description md:indent-16 text-teal-900">{point.para1}</p>
+                    <p className="description md:indent-16 text-teal-900">{point.para2}</p>
+                    <p className="description md:indent-16 text-teal-900">{point.para3}</p>
                   </li>
                 ))}
               </ul>

@@ -14,9 +14,9 @@ export default function NotFoundPage() {
       <div className="w-full max-w-5xl rounded-xl bg-white/90 shadow-xl p-4 sm:p-8 text-md sm:text-base leading-relaxed font-normal border-4 border-amber-100 backdrop-blur-xl animate-fadeInUp">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center text-md sm:text-base leading-relaxed font-normal">
           <div>
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-amber-200 via-pink-200 to-rose-200 shadow-lg text-3xl font-bold text-amber-700 animate-bounce">?</div>
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-amber-200 via-pink-200 to-rose-200 shadow-lg text-3xl font-semibold text-amber-700 animate-bounce">?</div>
 
-            <h2 className="text-rose-900 text-3xl font-extrabold leading-snug mb-3 drop-shadow-lg animate-fadeIn">We couldn't find that</h2>
+            <h2 className="text-rose-900 text-3xl font-semibold leading-snug mb-3 drop-shadow-lg animate-fadeIn">We couldn't find that</h2>
             <p className="text-rose-600 text-md sm:text-base leading-relaxed mb-4 font-normal animate-fadeIn delay-100">This link may be broken or the page may have been removed. Try these options instead.</p>
 
             <div className="flex flex-col sm:flex-row gap-3 text-md sm:text-base leading-relaxed font-normal">

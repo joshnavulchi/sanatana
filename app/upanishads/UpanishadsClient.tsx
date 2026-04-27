@@ -37,10 +37,10 @@ function KeyTeachingCard({ item, index }: { item: GenericRecord; index: number }
     <div className={`relative overflow-hidden rounded-3xl border border-[#e7c9a3] p-5 md:p-7 ${shells[index % 3]} transition-all duration-300 hover:-translate-y-0.5`}>
       <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#b45309]/30 via-[#f59e0b]/20 to-[#d97706]/30" />
       <div className="flex items-center gap-3 mb-4">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm font-bold text-white bg-[#8b4513]">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm font-semibold text-white bg-[#8b4513]">
           {index + 1}
         </span>
-        <h3 className="text-xl md:text-2xl font-extrabold text-[#6c2f10]">{concept}</h3>
+        <h3 className="text-xl md:text-2xl font-semibold text-[#6c2f10]">{concept}</h3>
       </div>
       <div className="text-md sm:text-base text-[#5b341f] leading-relaxed">
         <Paragraphs text={explanation} />
@@ -148,7 +148,7 @@ export default function UpanishadsClient() {
       <div className="space-y-8 rounded-4xl border border-[#efddc8] bg-linear-to-b from-[#fffaf1] via-[#fff7ec] to-[#fff3e4] p-4 md:p-7">
         {meaning && (
           <div className="rounded-3xl border border-[#e7c9a3] bg-[#fff8ec] p-5 md:p-6">
-            <h6 className="text-xl md:text-2xl font-bold text-[#6d3414] mb-3">Meaning</h6>
+            <h6 className="text-xl md:text-2xl font-semibold text-[#6d3414] mb-3">Meaning</h6>
             <p className="text-md sm:text-base leading-relaxed text-[#5a311b]">{meaning}</p>
           </div>
         )}
@@ -156,7 +156,7 @@ export default function UpanishadsClient() {
         {introduction && (
           <div className="relative rounded-3xl border border-[#e7c9a3] bg-white/75 p-5 md:p-7 overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#b45309]/30 via-[#f59e0b]/20 to-[#b45309]/30" />
-            <h6 className="text-2xl md:text-3xl font-extrabold text-[#6d3414] mb-4">Introduction</h6>
+            <h6 className="text-2xl md:text-3xl font-semibold text-[#6d3414] mb-4">Introduction</h6>
             <div className="text-md sm:text-base leading-relaxed text-[#5a311b]">
               <Paragraphs text={introduction} />
             </div>
@@ -165,7 +165,7 @@ export default function UpanishadsClient() {
 
         {corePurpose.length > 0 && (
           <div className="rounded-3xl border border-[#e7c9a3] bg-[#fffaf2] p-5 md:p-6">
-            <h4 className="text-2xl font-extrabold text-[#6d3414] mb-4">Core Purpose</h4>
+            <h4 className="text-2xl font-semibold text-[#6d3414] mb-4">Core Purpose</h4>
             <ul className="space-y-2 list-disc pl-5 marker:text-[#b45309] text-md sm:text-base text-[#5a311b]">
               {corePurpose.map((point, idx) => (
                 <li key={idx}>{point}</li>
@@ -176,7 +176,7 @@ export default function UpanishadsClient() {
 
         {keyTeachings.length > 0 && (
           <div className="mt-2">
-            <h4 className="text-2xl md:text-3xl font-extrabold text-[#6d3414] mb-5">Key Teachings</h4>
+            <h4 className="text-2xl md:text-3xl font-semibold text-[#6d3414] mb-5">Key Teachings</h4>
             <div className="grid grid-cols-1 gap-5">
               {keyTeachings.map((item, idx) => (
                 <KeyTeachingCard key={idx} item={item} index={idx} />
@@ -187,7 +187,7 @@ export default function UpanishadsClient() {
 
         {mahavakyas.length > 0 && (
           <div className="rounded-3xl border border-[#e7c9a3] bg-[#fffaf4] p-5 md:p-6">
-            <h5 className="text-2xl font-extrabold text-[#6d3414] mb-5">Famous Mahavakyas</h5>
+            <h5 className="text-2xl font-semibold text-[#6d3414] mb-5">Famous Mahavakyas</h5>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {mahavakyas.map((item, idx) => {
                 const statement = typeof item.statement === 'string' ? item.statement : '';
@@ -195,7 +195,7 @@ export default function UpanishadsClient() {
                 const simple = typeof item.simple_explanation === 'string' ? item.simple_explanation : '';
                 return (
                   <div key={idx} className="rounded-2xl border border-[#f0d2b4] bg-white p-4">
-                    <p className="text-lg font-extrabold text-[#6d3414]">{statement}</p>
+                    <p className="text-lg font-semibold text-[#6d3414]">{statement}</p>
                     <p className="text-md sm:text-base mt-1 text-[#8b4513] font-semibold">{meaningText}</p>
                     <p className="text-md sm:text-base mt-2 text-[#5a311b]">{simple}</p>
                   </div>
@@ -207,7 +207,7 @@ export default function UpanishadsClient() {
 
         {majorUpanishads.length > 0 && (
           <div className="rounded-3xl border border-[#e7c9a3] bg-[#fffaf2] p-5 md:p-6">
-            <h5 className="text-2xl font-extrabold text-[#6d3414] mb-5">Major Upanishads</h5>
+            <h5 className="text-2xl font-semibold text-[#6d3414] mb-5">Major Upanishads</h5>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {majorUpanishads.map((item, idx) => {
                 const name = typeof item.name === 'string' ? item.name : '';
@@ -215,7 +215,7 @@ export default function UpanishadsClient() {
                 const simple = typeof item.simple_understanding === 'string' ? item.simple_understanding : '';
                 return (
                   <div key={idx} className="rounded-2xl border border-[#f0d2b4] bg-white p-4">
-                    <p className="text-lg font-bold text-[#6d3414]">{name}</p>
+                    <p className="text-lg font-semibold text-[#6d3414]">{name}</p>
                     <p className="text-md sm:text-base mt-1 text-[#8b4513]"><span className="font-semibold">Focus:</span> {focus}</p>
                     <p className="text-md sm:text-base mt-2 text-[#5a311b]">{simple}</p>
                   </div>
@@ -229,7 +229,7 @@ export default function UpanishadsClient() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             {learningPath.length > 0 && (
               <div className="rounded-3xl border border-[#e7c9a3] bg-white/80 p-5">
-                <h6 className="text-xl font-bold text-[#6d3414] mb-3">Learning Path</h6>
+                <h6 className="text-xl font-semibold text-[#6d3414] mb-3">Learning Path</h6>
                 <ol className="list-decimal pl-5 space-y-2 text-md sm:text-base text-[#5a311b] marker:text-[#b45309]">
                   {learningPath.map((item, idx) => (
                     <li key={idx}>{item}</li>
@@ -240,7 +240,7 @@ export default function UpanishadsClient() {
 
             {modernRelevance.length > 0 && (
               <div className="rounded-3xl border border-[#e7c9a3] bg-white/80 p-5">
-                <h6 className="text-xl font-bold text-[#6d3414] mb-3">Modern Relevance</h6>
+                <h6 className="text-xl font-semibold text-[#6d3414] mb-3">Modern Relevance</h6>
                 <ul className="list-disc pl-5 space-y-2 text-md sm:text-base text-[#5a311b] marker:text-[#b45309]">
                   {modernRelevance.map((item, idx) => (
                     <li key={idx}>{item}</li>
@@ -253,7 +253,7 @@ export default function UpanishadsClient() {
 
         <div>
           <div className="flex flex-wrap items-center gap-3 mb-4">
-            <h5 className="text-2xl md:text-3xl font-extrabold text-[#6d3414]">Browse Upanishads</h5>
+            <h5 className="text-2xl md:text-3xl font-semibold text-[#6d3414]">Browse Upanishads</h5>
             {total !== null && (
               <span className="inline-flex items-center rounded-full border border-[#e7c9a3] bg-[#fff0d9] px-3 py-1 text-sm font-semibold text-[#8b4513]">
                 Total: {total}

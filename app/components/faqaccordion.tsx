@@ -56,7 +56,7 @@ export default function FaqAccordion({ items, heading }: Props) {
               >
                 <div className="flex items-center gap-4 flex-1">
                   <div className={`
-                    flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-md sm:text-base font-bold transition-all duration-300
+                    flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-md sm:text-base font-semibold transition-all duration-300
                     ${open
                       ? 'bg-gradient-to-br from-pink-500 to-rose-500 text-white scale-110 shadow-2xl animate-pulse'
                       : 'bg-amber-100 text-amber-700 group-hover:scale-105'
