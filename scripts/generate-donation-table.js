@@ -37,6 +37,7 @@ const FIELD_STOP_LABELS = [
 const ORGANIZATION_HINTS = /(temple|trust|foundation|villages|society|ashram|mandir|mission|samiti|samithi|organization|committee|perumal)/i;
 
 function normalizeWhitespace(value) {
+  // Strip null bytes that can appear in text extracted from PDFs with Tamil/Unicode content
   return value.replace(/\0/g, '').replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/\r/g, '').trim();
 }
 
@@ -88,6 +89,8 @@ async function listDonationFiles() {
   const seenNames = new Set();
   const merged = [];
 
+  // Merge files from both directories, deduplicating by filename.
+  // Files in DONATION_DIR take precedence over same-named files in ORGANIZER_DONATION_DIR.
   for (const filePath of [...donationFiles, ...organizerFiles]) {
     const name = path.basename(filePath);
     if (!seenNames.has(name)) {
