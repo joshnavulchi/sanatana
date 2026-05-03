@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
-const DONATION_DIR = path.join(ROOT_DIR, 'public', 'images', 'donation');
+const DONATION_DIR = path.join(ROOT_DIR, 'public', 'donatesbyorgnizer');
 const OUTPUT_FILE = path.join(ROOT_DIR, 'public', 'data', 'donations.generated.json');
 const REPORT_FILE = path.join(ROOT_DIR, 'logs', 'donation-receipts-report.json');
 const SUPPORTED_EXTENSIONS = new Set(['.pdf', '.png', '.jpg', '.jpeg', '.webp']);
@@ -34,6 +34,30 @@ const FIELD_STOP_LABELS = [
 ];
 
 const ORGANIZATION_HINTS = /(temple|trust|foundation|villages|society|ashram|mandir|mission|samiti|samithi|organization|committee|perumal)/i;
+
+class OcrNetworkError extends Error {
+  constructor(cause) {
+    super(
+      'OCR skipped: network unavailable for language data download. ' +
+        'This file will be processed on the next production build that has network access.',
+    );
+    this.name = 'OcrNetworkError';
+    this.cause = cause;
+  }
+}
+
+function isNetworkError(error) {
+  const msg = (error?.message || '').toLowerCase();
+  return (
+    msg.includes('fetch') ||
+    msg.includes('network') ||
+    msg.includes('enotfound') ||
+    msg.includes('econnrefused') ||
+    msg.includes('etimedout') ||
+    msg.includes('timeout') ||
+    msg.includes('socket hang up')
+  );
+}
 
 function normalizeWhitespace(value) {
   return value.replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/\r/g, '').trim();
@@ -88,7 +112,16 @@ async function extractPdfText(filePath) {
 
 async function extractImageText(filePath) {
   const { createWorker } = await import('tesseract.js');
-  const worker = await createWorker('eng');
+  let worker;
+
+  try {
+    worker = await createWorker('eng');
+  } catch (error) {
+    if (isNetworkError(error)) {
+      throw new OcrNetworkError(error);
+    }
+    throw error;
+  }
 
   try {
     const result = await worker.recognize(filePath);
@@ -322,6 +355,7 @@ async function main() {
   const files = await listDonationFiles();
   const receipts = [];
   const errors = [];
+  const ocrPending = [];
 
   for (const filePath of files) {
     try {
@@ -329,10 +363,17 @@ async function main() {
       const record = buildReceiptRecord(filePath, extractedText);
       receipts.push(record);
     } catch (error) {
-      errors.push({
-        sourceFile: path.relative(ROOT_DIR, filePath).replace(/\\/g, '/'),
-        message: error instanceof Error ? error.message : String(error),
-      });
+      if (error instanceof OcrNetworkError) {
+        ocrPending.push({
+          sourceFile: path.relative(ROOT_DIR, filePath).replace(/\\/g, '/'),
+          reason: 'OCR requires network access to download language data. Will be processed on next production build.',
+        });
+      } else {
+        errors.push({
+          sourceFile: path.relative(ROOT_DIR, filePath).replace(/\\/g, '/'),
+          message: error instanceof Error ? error.message : String(error),
+        });
+      }
     }
   }
 
@@ -352,7 +393,9 @@ async function main() {
     filesProcessed: files.length,
     filesSucceeded: sortedReceipts.length,
     filesFailed: errors.length,
+    filesOcrPending: ocrPending.length,
     errors,
+    ocrPending,
     missingFieldRows: sortedReceipts
       .filter((receipt) => receipt.missingFields.length > 0)
       .map((receipt) => ({ sourceFile: receipt.sourceFile, missingFields: receipt.missingFields })),
@@ -364,6 +407,12 @@ async function main() {
   await fs.writeFile(REPORT_FILE, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 
   console.log(`Generated ${sortedReceipts.length} donation receipt rows from ${files.length} files.`);
+  if (ocrPending.length > 0) {
+    console.warn(
+      `Skipped OCR for ${ocrPending.length} image file(s) due to no network access. ` +
+        'They will be processed on the next production build.',
+    );
+  }
   if (errors.length > 0) {
     console.warn(`Failed to parse ${errors.length} files. See ${path.relative(ROOT_DIR, REPORT_FILE)} for details.`);
   }
