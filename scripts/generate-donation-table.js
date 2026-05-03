@@ -4,6 +4,7 @@ const path = require('path');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DONATION_DIR = path.join(ROOT_DIR, 'public', 'images', 'donation');
+const ORGANIZER_DONATION_DIR = path.join(ROOT_DIR, 'public', 'donatesbyorgnizer');
 const OUTPUT_FILE = path.join(ROOT_DIR, 'public', 'data', 'donations.generated.json');
 const REPORT_FILE = path.join(ROOT_DIR, 'logs', 'donation-receipts-report.json');
 const SUPPORTED_EXTENSIONS = new Set(['.pdf', '.png', '.jpg', '.jpeg', '.webp']);
@@ -36,7 +37,8 @@ const FIELD_STOP_LABELS = [
 const ORGANIZATION_HINTS = /(temple|trust|foundation|villages|society|ashram|mandir|mission|samiti|samithi|organization|committee|perumal)/i;
 
 function normalizeWhitespace(value) {
-  return value.replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/\r/g, '').trim();
+  // Strip null bytes that can appear in text extracted from PDFs with Tamil/Unicode content
+  return value.replace(/\0/g, '').replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/\r/g, '').trim();
 }
 
 function normalizeLine(value) {
@@ -63,20 +65,41 @@ async function ensureDirectory(filePath) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 }
 
-async function listDonationFiles() {
+async function listFilesInDir(dirPath) {
   try {
-    const entries = await fs.readdir(DONATION_DIR, { withFileTypes: true });
+    const entries = await fs.readdir(dirPath, { withFileTypes: true });
     return entries
       .filter((entry) => entry.isFile())
-      .map((entry) => path.join(DONATION_DIR, entry.name))
-      .filter((filePath) => SUPPORTED_EXTENSIONS.has(path.extname(filePath).toLowerCase()))
-      .sort((left, right) => left.localeCompare(right));
+      .map((entry) => path.join(dirPath, entry.name))
+      .filter((filePath) => SUPPORTED_EXTENSIONS.has(path.extname(filePath).toLowerCase()));
   } catch (error) {
     if (error && error.code === 'ENOENT') {
       return [];
     }
     throw error;
   }
+}
+
+async function listDonationFiles() {
+  const [donationFiles, organizerFiles] = await Promise.all([
+    listFilesInDir(DONATION_DIR),
+    listFilesInDir(ORGANIZER_DONATION_DIR),
+  ]);
+
+  const seenNames = new Set();
+  const merged = [];
+
+  // Merge files from both directories, deduplicating by filename.
+  // Files in DONATION_DIR take precedence over same-named files in ORGANIZER_DONATION_DIR.
+  for (const filePath of [...donationFiles, ...organizerFiles]) {
+    const name = path.basename(filePath);
+    if (!seenNames.has(name)) {
+      seenNames.add(name);
+      merged.push(filePath);
+    }
+  }
+
+  return merged.sort((left, right) => left.localeCompare(right));
 }
 
 async function extractPdfText(filePath) {
@@ -338,7 +361,10 @@ async function main() {
 
   const sortedReceipts = sortReceipts(receipts);
   const generatedAt = new Date().toISOString();
-  const sourceDirectory = path.relative(ROOT_DIR, DONATION_DIR).replace(/\\/g, '/');
+  const sourceDirectories = [
+    path.relative(ROOT_DIR, DONATION_DIR).replace(/\\/g, '/'),
+    path.relative(ROOT_DIR, ORGANIZER_DONATION_DIR).replace(/\\/g, '/'),
+  ];
   const outputRows = sortedReceipts.map((receipt) => ({
     date: receipt.date,
     amountDonate: receipt.amountDonate,
@@ -348,7 +374,7 @@ async function main() {
 
   const report = {
     generatedAt,
-    sourceDirectory,
+    sourceDirectories,
     filesProcessed: files.length,
     filesSucceeded: sortedReceipts.length,
     filesFailed: errors.length,
