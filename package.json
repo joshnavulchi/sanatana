@@ -5,10 +5,8 @@
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "predev": "node scripts/compile-scss.js --dev",
-    "prebuild": "node scripts/generate-donation-table.js",
     "dev": "next dev",
     "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
-    "generate:donations": "node scripts/generate-donation-table.js",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js && node scripts/audit-seo.js --out out --json public/data/audit-report.json && node scripts/notify-indexnow.js",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",
@@ -44,11 +42,9 @@
     "html-minifier-terser": "^7.2.0",
     "husky": "^8.0.3",
     "minimist": "^1.2.8",
-    "pdf-parse": "^1.1.1",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
     "sass": "^1.98.0",
-    "tesseract.js": "^6.0.1",
     "topojson-client": "^3.1.0",
     "typescript": "^5.9.3"
   }

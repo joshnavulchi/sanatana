@@ -25,11 +25,110 @@ type ExpenseRow = {
 };
 
 type DonationRow = {
+  sourceFile?: string;
   date: string;
   amountDonate: string;
   toWhom: string;
   donatedBy: string;
 };
+
+const DEFAULT_DONOR_NAME = 'Mrs. Vulchi Vijaya Kumar';
+const DEFAULT_DATE = 'Unknown Date';
+const DEFAULT_AMOUNT = 'Unknown Amount';
+const DEFAULT_RECIPIENT = 'Unknown Recipient';
+
+function normalizeDonationValue(value: unknown): string {
+  if (typeof value !== 'string') {
+    return '';
+  }
+
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function normalizeDonationDate(value: unknown): string {
+  const normalized = normalizeDonationValue(value);
+  if (!normalized) {
+    return '';
+  }
+
+  const patterns = [
+    /\b\d{1,2}[\/.-]\d{1,2}[\/.-]\d{2,4}\b/i,
+    /\b\d{4}[\/.-]\d{1,2}[\/.-]\d{1,2}\b/i,
+    /\b\d{1,2}-[A-Za-z]{3,9}-\d{2,4}\b/i,
+    /\b[A-Za-z]{3,9}\s+\d{1,2},\s*\d{4}\b/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = normalized.match(pattern);
+    if (match && match[0]) {
+      return normalizeDonationValue(match[0]);
+    }
+  }
+
+  return '';
+}
+
+function normalizeDonationAmount(value: unknown): string {
+  const normalized = normalizeDonationValue(value);
+  if (!normalized) {
+    return '';
+  }
+
+  const match = normalized.match(/((?:INR|Rs\.?|USD|EUR|GBP|AUD|CAD|\$|₹|€|£)\s?[\d,]+(?:\.\d{2})?|[\d,]+(?:\.\d{2})?)/i);
+  return match && match[1] ? normalizeDonationValue(match[1]) : '';
+}
+
+function isLikelyDonationDonor(value: string): boolean {
+  if (!value) {
+    return false;
+  }
+
+  if (/^img[_\s-]?\d+/i.test(value)) {
+    return false;
+  }
+
+  if (/\d/.test(value) && !/^m(?:rs|r|s)\.?\s/i.test(value)) {
+    return false;
+  }
+
+  const words = value.match(/[A-Za-z]+/g) || [];
+  return words.length >= 2;
+}
+
+function normalizeDonationDonor(value: unknown): string {
+  const normalized = normalizeDonationValue(value);
+  return isLikelyDonationDonor(normalized) ? normalized : DEFAULT_DONOR_NAME;
+}
+
+function sanitizeDonationRows(rows: unknown): DonationRow[] {
+  if (!Array.isArray(rows)) {
+    return [];
+  }
+
+  const uniqueRows: DonationRow[] = [];
+  const seen = new Set<string>();
+
+  for (const row of rows) {
+    const candidate = row as Partial<DonationRow>;
+    const normalized: DonationRow = {
+      sourceFile: normalizeDonationValue(candidate.sourceFile),
+      date: normalizeDonationDate(candidate.date) || DEFAULT_DATE,
+      amountDonate: normalizeDonationAmount(candidate.amountDonate) || DEFAULT_AMOUNT,
+      toWhom: normalizeDonationValue(candidate.toWhom) || DEFAULT_RECIPIENT,
+      donatedBy: normalizeDonationDonor(candidate.donatedBy),
+    };
+
+    const key = normalized.sourceFile || `${normalized.date.toLowerCase()}|${normalized.amountDonate.toLowerCase()}|${normalized.toWhom.toLowerCase()}`;
+    if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    uniqueRows.push(normalized);
+  }
+
+  return uniqueRows;
+}
 
 type FaqItem = {
   q: string;
@@ -148,7 +247,7 @@ export default function DonateClient({ initialTitle = '' }: Props) {
           return;
         }
 
-        setDonationRows(Array.isArray(payload) ? payload : []);
+        setDonationRows(sanitizeDonationRows(payload));
       })
       .catch(() => {
         if (!cancelled) {
